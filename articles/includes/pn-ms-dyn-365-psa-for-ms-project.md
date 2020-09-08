@@ -1,0 +1,1 @@
+<span data-ttu-id="1268a-101">适用于 Microsoft Project 的 Dynamics 365 Project Service Automation 加载项</span><span class="sxs-lookup"><span data-stu-id="1268a-101">Dynamics 365 Project Service Automation Add-in for Microsoft Project</span></span>

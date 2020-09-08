@@ -1,0 +1,1 @@
+<span data-ttu-id="2be92-101">适用于 Dynamics 365 (online) 版本 9.x 上的 Project Service 应用程序版本 2.4.4.30 或更早版本</span><span class="sxs-lookup"><span data-stu-id="2be92-101">Applies to Project Service app version 2.4.4.30 or earlier on Dynamics 365 (online) version 9.x</span></span>
