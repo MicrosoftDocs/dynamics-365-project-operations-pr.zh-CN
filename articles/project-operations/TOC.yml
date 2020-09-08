@@ -1,0 +1,954 @@
+- name: Dynamics 365 Project Operations
+  href: project-operations-home-page.md
+- name: 基于资源/非库存场景的 Project Operations
+  items:
+    - name: 销售流程
+      items:
+        - name: 销售概述
+          href: sales/sales-overview.md
+        - name: 主要区别
+          href: sales/key-differences.md
+        - name: 设置
+          items:
+            - name: 产品
+              href: sales/sales-products.md
+            - name: 计价单位和计价单位组
+              href: sales/sales-units-unit-groups.md
+            - name: 货币
+              href: sales/sales-currency.md
+        - name: 管理潜在顾客
+          href: sales/managing-leads.md
+        - name: 管理商机
+          items:
+            - name: 商机标题
+              href: sales/opportunity-header.md
+            - name: 基于产品的明细
+              href: sales/product-based-lines.md
+            - name: 基于项目的明细
+              href: sales/project-based-lines.md
+            - name: 链接报价单和商机
+              href: sales/link-quotes-opportunities.md
+            - name: 结束商机
+              href: sales/close-opportunity.md
+        - name: 管理报价单
+          items:
+            - name: 关键概念
+              href: sales/quotes-key-concepts.md
+            - name: 管理报价单价值、客户预算和上限
+              href: sales/quote-values-budgets-limits.md
+            - name: 管理一个报价单上的多个客户
+              href: sales/manage-multiple-customers-quote.md
+            - name: 基于产品的报价单明细
+              item:
+                - name: 基于产品的报价单明细成本核算
+                  href: sales/costing-product-based-quote-lines.md
+                - name: 管理基于产品的报价单明细的复杂单位
+                  href: sales/managing-complex-units-product-based-quote-lines.md
+            - name: 基于项目的报价单明细
+              items:
+                - name: 管理项目价目表
+                  href: sales/managing-project-price-lists.md
+                - name: 管理一个报价单明细上的多个客户
+                  href: sales/managing-multiple-customers-quote-line.md
+                - name: 将项目和任务映射到报价单明细
+                  href: sales/mapping-projects-tasks-quote-line.md
+                - name: 根据报价单明细创建估算
+                  href: sales/create-estimate-quote-line.md
+                - name: 将项目估算导入报价单明细
+                  href: sales/import-estimate-project-quote-line.md
+                - name: 管理报价单价值、客户预算和上限
+                  href: sales/manage-quoted-values-budget-limits-quote-line.md
+                - name: 报价单明细上的账单计划
+                  href: sales/invoice-schedule-quote-line
+            - name: 赢得报价单
+              href: sales/win-quote.md
+            - name: 失去报价单
+              href: sales/lose-quote.md
+        - name: 管理合同
+          items:
+            - name: 关键概念
+              href: sales/contacts-key-concepts.md
+            - name: 管理合同价值、客户预算和上限
+              href: sales/contract-quote-values-budgets-limits.md
+            - name: 管理一份合同中的多个客户
+              href: sales/manage-multiple-customers-contract.md
+            - name: 基于产品的合同子项
+              items:
+                - name: 基于产品的合同子项成本核算
+                  href: sales/cost-product-based-contract-lines.md
+                - name: 管理基于产品的合同子项的复杂单位
+                  href: sales/manage-complex-units-product-based-contract-lines.md
+            - name: 基于项目的合同子项
+              items:
+                - name: 管理项目价目表
+                  href: sales/manage-project-price-lists.md
+                - name: 管理一个合同子项中的多个客户
+                  href: sales/manage-multiple-customers-contract-line.md
+                - name: 将项目和任务映射到合同子项
+                  href: sales/mapping-projects-tasks-contract-line.md
+                - name: 根据项目创建合同子项的估算
+                  href: sales/create-estimate-project-contract-line.md
+                - name: 将项目估算导入合同子项
+                  href: sales/import-estimate-project-contract-line.md
+                - name: 管理报价单明细的合同价值、客户预算和上限
+                  href: sales/manage-quoted-values-budgets-limits-quote-line.md
+                - name: 报价单明细上的账单计划
+                  href: sales/invoice-schedules-quote-line.md
+            - name: 确认合同
+              href: sales/confirm-contract.md
+            - name: 完成工作后结束合同
+              href: sales/close-contract-work-completed.md
+            - name: 因取消关闭合同
+              href: sales/close-contract-canceled.md
+    - name: 定价和成本核算
+      items:
+        - name: 产品价目表
+          href: pricing-costing/product-price-list.md
+        - name: 项目价目表
+          items:
+            - name: 成本价目表
+              items:
+                - name: 设置成本价目表
+                  href: pricing-costing/cost-price-list-setup.md
+                - name: 价目表默认值
+                  href: pricing-costing/cost-price-list-default.md
+                - name: 替代默认值
+                  href: pricing-costing/cost-override-default.md
+            - name: 销售的价目表设置
+              items:
+                - name: 设置销售价目表
+                  href: pricing-costing/sales-price-list-setup.md
+                - name: 销售价目表默认值
+                  href: pricing-costing/sales-price-list-default.md
+                - name: 替代默认值
+                  href: pricing-costing/sales-override-default.md
+        - name: 定价维度
+          items:
+            - name: 定价维度概述
+              href: pricing-costing/pricing-dimensions-overview.md
+            - name: 将 Project Operations 中的现有字段用作定价维度
+              href: pricing-costing/use-existing-field-pricing-dimension.md
+            - name: 将自定义字段作为定价维度
+              items:
+                - name: 创建自定义字段和实体，作为定价维度
+                  href: pricing-costing/create-custom-fields-entities-pricing-dimensions.md
+                - name: 为价格设置和交易实体添加自定义字段
+                  href: pricing-costing/add-custom-fields-price-setup-transactional-entities.md
+                - name: 将自定义字段设置为定价维度
+                  href: pricing-costing/set-up-custom-fields-pricing-dimensions.md
+            - name: 关闭定价维度
+              href: pricing-costing/turn-off-pricing-dimension.md
+    - name: 项目管理
+      items:
+        - name: 项目管理概述
+          href: project-management/project-management-overview.md
+        - name: 项目阶段
+          href: project-management/project-stages.md
+        - name: 浏览 UI
+          href: project-management/navigate-ui.md
+        - name: 理解项目状态
+          href: project-management/understand-project-status.md
+        - name: 定义项目日历
+          href: project-management/define-project-calendars.md
+        - name: 创建项目
+          items:
+            - name: 创建初始估计值
+              href: project-management/create-initial-estimates.md
+            - name: 设置项目日历
+              href: project-management/set-project-calendar.md
+            - name: 设置项目货币
+              href: project-management/set-project-currency.md
+            - name: 定义客户
+              href: project-management/set-customer.md
+            - name: 添加组
+              href: project-management/add-group.md
+        - name: 更新项目
+          href: project-management/update-project.md
+        - name: 复制项目
+          href: project-management/copy-project.md
+        - name: 工作分解结构规划
+          items:
+            - name: 创建工作分解结构
+              items:
+                - name: 创建任务
+                  href: project-management/wbs-create-tasks.md
+                - name: 剪切、复制和粘贴任务
+                  href: project-management/cut-copy-paste-tasks.md
+                - name: 撤消和恢复任务
+                  href: project-management/undo-redo-tasks-wbs.md
+                - name: 工作分解结构层次结构
+                  href: project-management/work-breakdown-structure-hierarchy.md
+                - name: 批量任务更新
+                  href: project-management/bulk-task-updates.md
+                - name: 编辑任务详细信息
+                  href: project-management/edit-task-details.md
+            - name: 创建工作
+              items:
+                - name: 添加现有资源
+                  href: project-management/add-existing-resources.md
+                - name: 添加通用资源
+                  href: project-management/add-generic-resources.md
+                - name: 了解工作对任务工作量、持续时间和结束日期的影响
+                  href: project-management/understand-impact-assignment-task-effort-duration-end-date.md
+                - name: 查看工作等值线
+                  href: project-management/view-assignment-contours.md
+            - name: 浏览任务管理体验
+              items:
+                - name: 列管理
+                  href: project-management/column-management.md
+                - name: 视图
+                  href: project-management/task-management-views.md
+                - name: Bucket
+                  href: project-management/task management-buckets.md
+        - name: 预估项目
+          items:
+            - name: 预估项目概述
+              href: project-management/estimating-projects-overview.md
+            - name: 资源预估
+              items:
+                - name: 刷新项目预估，以反映对项目计划所做的更改
+                  href: project-management/refresh-project-estimates-reflect-changes-project-plan.md
+                - name: 刷新项目预估的价格和成本率
+                  href: project-management/refresh-prices-cost-rates-project-estimates.md
+                - name: 资源成本费和成本货币默认值
+                  href: project-management/resource-default-cost-price-cost-currency.md
+                - name: 资源帐单费率和销售币种默认值
+                  href: project-management/resource-default-bill-rate-sales-currency.md
+            - name: 创建支出预估
+              items:
+                - name: 支出成本费和成本货币默认值
+                  href: project-management/expense-default-cost-price-cost-currency.md
+                - name: 支出帐单费率和销售币种默认值
+                  href: project-management/expense-default-bill-rate-sales-currency.md
+        - name: 生成报价单和合同
+          items:
+            - name: 将工作分解结构导入报价单
+              href: project-management/import-wbs-structure-quotes.md
+            - name: 将工作分解结构导入合同
+              href: project-management/import-wbs-structure-contracts.md
+        - name: 项目跟踪
+          items:
+            - name: 项目跟踪主页
+              href: project-management/project-tracking-overview.md
+            - name: 列定义
+              items:
+                - name: 精力
+                  href: project-management/effort.md
+                - name: 成本
+                  href: project-management/cost.md
+                - name: 销售
+                  href: project-management/sales.md
+            - name: 更新完工估算
+              href: project-management/update-completed-estimate.md
+        - name: 项目团队成员
+          items:
+            - name: 项目团队成员概述
+              href: project-management/project-team-members-overview.md
+            - name: 维护团队成员
+              items:
+                - name: 添加团队成员
+                  href: project-management/add-team-members.md
+                - name: 更新项目团队成员
+                  href: project-management/update-project-team-members.md
+                - name: 删除团队成员
+                  href: project-management/delete-team-members.md
+                - name: 维护预订
+                  href: project-management/maintain-bookings.md
+                - name: 项目审批者
+                  href: project-management/project-approvers.md
+        - name: 销售
+          items:
+            - name: “销售”选项卡概述
+              href: project-management/sales-tab-overview.md
+        - name: 协作
+          items:
+            - name: 组
+              href: project-management/groups.md
+        - name: 项目规划常见问题
+          href: project-management/project-planning-faq.md
+    - name: 资源管理
+      items:
+        - name: 资源管理概述
+          href: resource-management/resource-management-overview.md
+        - name: 关键概念
+          href: resource-management/resource-management-key-concepts.md
+        - name: 预订与工作
+          href: resource-management/booking-vs-assignment.md
+        - name: 资源管理模式
+          items:
+            - name: 资源管理模式概述
+              href: resource-management/resource-management-mode-overview.md
+            - name: 混合
+              href: resource-management/resource-management-mode-hybrid.md
+            - name: 集中
+              href: resource-management/resource-management-mode-central.md
+        - name: 集中预订
+          items:
+            - name: 集中预订概述
+              href: resource-management/centralized-booking-overview.md
+            - name: 将通用团队成员添加到任务中
+              href: resource-management/add-generic-team-members-tasks.md
+            - name: 定义资源要求
+              href: resource-management/define-resource-requirements.md
+            - name: 定义要求概况
+              href: resource-management/define-resource-requirement-contours.md
+            - name: 更新资源要求
+              href: resource-management/update-resource-requirements.md
+            - name: 提交资源要求
+              href: resource-management/submit-resource-requirements.md
+            - name: 资源请求
+              items:
+                - name: 资源请求概述
+                  href: resource-management/resource-requests-overview.md
+                - name: 查看字段和操作
+                  href: resource-management/review-fields-actions.md
+                - name: 查找资源
+                  href: resource-management/find-resources.md
+                - name: 查看建议资源
+                  href: resource-management/review-proposed-resources.md
+        - name: 分散资源预订
+          items:
+            - name: 分散资源预订概述
+              href: resource-management/centralized-booking-overview.md
+            - name: 直接预订的选项
+              href: resource-management/options-book-directly.md
+            - name: 满足通用资源要求
+              href: resource-management/generic-resource-requirement-fulfillment.md
+        - name: 管理资源
+          items:
+            - name: 创建资源
+              href: resource-management/create-resources.md
+            - name: 定义技能和专长
+              href: resource-management/define-skills-proficiencies.md
+            - name: 定义角色
+              href: resource-management/define-roles.md
+            - name: 定义资源日历
+              href: resource-management/define-resource-calendars.md
+            - name: 将资源与部门关联
+              href: resource-management/associate-resources-organizational-units.md
+            - name: 将资源与公司关联
+              href: resource-management/associate-resources-companies.md
+        - name: 预订分配方法
+          href: resource-management/booking-allocation-methods.md
+        - name: 预订状态
+          href: resource-management/booking-status.md
+        - name: 技能和专长模型
+          href: resource-management/skills-proficiency-models.md
+        - name: 资源协调
+          items:
+            - name: 资源协调概述
+              href: resource-management/resource-reconciliation-overview.md
+            - name: 关键概念
+              href: resource-management/resource-reconciliation-key-concepts.md
+            - name: 导航
+              href: resource-management/resource-reconciliation-navigation.md
+            - name: 扩展预订
+              href: resource-management/extend-bookings.md
+            - name: 管理多个时区
+              href: resource-management/manage-multiple-time-zones.md
+        - name: 资源利用率
+          items:
+            - name: 资源利用率概述
+              href: resource-management/resource-utilization-overview.md
+            - name: 搜索、设置和导航
+              href: resource-management/search-settings-navigation.md
+        - name: 日程安排板
+          items:
+            - name: 导航和键设置
+              href: resource-management/navigation-key-settings-urs.md
+            - name: 个性化设置
+              href: resource-management/personalization-urs.md
+            - name: 搜索
+              href: resource-management/search-urs.md
+            - name: 预订操作
+              href: resource-management/booking-actions-urs.md
+            - name: 预订
+              items:
+                - name: 项目预订
+                  href: resource-management/book-project.md
+                - name: 预订未满足的要求
+                  href: resource-management/book-open-requirements.md
+                - name: 替代资源
+                  href: resource-management/substitute-resources.md
+                - name: 编辑现有预订
+                  href: resource-management/edit-existing-bookings.md
+        - name: 资源管理常见问题
+          href: resource-management/resource-management-faq.md
+    - name: 时间
+      items:
+        - name: 时间条目概述
+          href: time/time-entry-overview.md
+        - name: 创建时间条目
+          items:
+            - name: 导入预定、工作和日历条目
+              href: time/import-bookings-assignments-calendar-entries.md
+            - name: UI 行为
+              href: time/ui-behavior.md
+        - name: 提交时间条目
+          href: time/submit-time-entries.md
+        - name: 撤消时间条目
+          items:
+            - name: 审批前
+              href: time/recall-time-entries-before-approval.md
+            - name: 审批后
+              href: time/recall-time-entries-after-approval.md
+        - name: 审批时间条目
+          href: time/approvals.md
+        - name: 开发人员备注
+          items:
+            - name: 扩展时间条目
+              href: time/extending-time-entries.md
+            - name: 自定义每周时间条目网格
+              href: time/customize-weekly-time-entry-grid.md
+            - name: 安全注意事项
+              href: time/security-considerations.md
+    - name: 支出
+      items:
+        - name: 支出主页
+          href: expense/expense-overview.md
+        - name: 支出精简条目
+          href: expense/expense-lite-entry.md
+        - name: 提交和撤消支出条目
+          href: expense/submit-recall-expense-entries.md
+        - name: 审批精简支出条目
+          href: expense/approvals.md
+        - name: 项目的支出管理体验
+          items:
+            - name: 配置和设置
+              items:
+                - name: 设置策略
+                  href: expense/set-up-policies.md
+                - name: 设置工作流
+                  href: expense/set-up-workflows.md
+                - name: 管理委派
+                  href: expense/manage-delegation.md
+                - name: 配置支出管理参数
+                  href: expense/configure-expense-management-parameters.md
+                - name: 设置信用卡集成
+                  href: expense/set-up-credit-card-integration.md
+                - name: 设置支出类别
+                  href: expense/set-up-expense-categories.md
+            - name: 创建支出报表
+              items:
+                - name: 支出报表上的分布
+                  href: expense/distributions-expense-report.md
+            - name: 审批支出报表
+              items:
+                - name: 支出报表和多人审批
+                  href: expense/expense-reports-multiple-approvers.md
+            - name: 发布支出报表
+              href: expense/posting-expense-reports.md
+            - name: 出差申请
+              href: expense/travel-requisition.md
+            - name: 预付现金
+              href: expense/cash-advance.md
+            - name: 出差津贴
+              href: expense/per-diems.md
+            - name: 财务管理
+              items:
+                - name: 增值税返回
+                  href: expense/vat-recovery.md
+            - name: 新的支出体验
+              items:
+                - name: 重新打造支出报表
+                  href: expense/expense-reports-reimagined.md
+                - name: 使用 OCR 使收据与支出匹配
+                  href: expense/match-receipt-expense-ocr.md
+        - name: 使用手机计算支出
+          href: expense/expense-using-mobile.md
+    - name: 审批
+      items:
+        - name: 概述
+          href: approvals/approvals-overview.md
+        - name: 审批时间条目
+          href: approvals/approving-time-entries.md
+        - name: 审批支出条目
+          items:
+            - name: 精简支出
+              href: approvals/approve-lite-expense.md
+            - name: 全部支出
+              href: approvals/approve-full-expense.md
+        - name: 取消已批准的时间条目
+          href: approvals/cancelling-approved-time-entries.md
+        - name: 取消已批准的支出条目
+          items:
+            - name: 精简支出
+              href: approvals/cancel-lite-expense.md
+            - name: 全部支出
+              href: approvals/cancel-full-expense.md
+    - name: 实际值
+      items:
+        - name: 概述
+          href: actuals/actuals-overview.md
+        - name: 为内部项目创建实际值
+          href: actuals/create-actuals-internal-project.md
+        - name: 为记帐项目组件创建实际值
+          items:
+            - name: 时间和材料
+              href: actuals/time-material.md
+            - name: 固定价格
+              href: actuals/fixed-price.md
+        - name: 管理不可超出状态和验证
+          href: actuals/manage-not-exceed-status-validations.md
+        - name: 项目日记帐
+          items:
+            - name: 创建项目日记帐以记录项目费用
+              href: actuals/create-project-journals-record-fees-projects.md
+            - name: 创建时间和支出的项目日记帐
+              href: actuals/create-project-journals-time-expense.md
+            - name: 创建和确认更正日记帐
+              href: actuals/create-confirm-correction-journals-md
+        - name: 管理记帐积压
+          href: actuals/manage-billing-backlog.md
+    - name: 估价开单
+      items:
+        - name: 创建账单计划
+          href: proforma-invoicing/create-invoice-schedules.md
+        - name: 创建手动估价账单
+          href: proforma-invoicing/create-manual-proforma-invoice.md
+        - name: 管理估价账单
+          href: proforma-invoicing/manage-proforma-invoice.md
+        - name: 确认估价账单
+          href: proforma-invoicing/confirm-proforma-invoice.md
+        - name: 修正账单
+          href: proforma-invoicing/corrective-invoices.md
+        - name: 配置账单自动创建
+          href: proforma-invoicing/configure-automated-invoice-creation.md
+- name: 精简部署 - 估价开单交易
+  items:
+    - name: 适用场景
+      href: applicable-scenarios.md
+    - name: 新增功能
+      href: whats-new-mode-2-project-operations.md
+    - name: 设置环境
+      href: set-up-environment-mode-2.md
+    - name: 示例数据
+      href: sample-data-mode-2.md
+    - name: 销售流程
+      items:
+        - name: 销售流程概述
+          href: sales/sales-overview.md
+        - name: 主要区别
+          href: sales/key-differences.md
+        - name: 设置
+          items:
+            - name: 产品
+              href: sales/sales-products.md
+            - name: 计价单位和计价单位组
+              href: sales/sales-units-unit-groups.md
+            - name: 货币
+              href: sales/sales-currency.md
+        - name: 管理潜在顾客
+          href: sales/managing-leads.md
+        - name: 管理商机
+          items:
+            - name: 商机标题
+              href: sales/opportunity-header.md
+            - name: 基于产品的明细
+              href: sales/product-based-lines.md
+            - name: 基于项目的明细
+              href: sales/project-based-lines.md
+            - name: 链接报价单和商机
+              href: sales/link-quotes-opportunities.md
+            - name: 结束商机
+              href: sales/close-opportunity.md
+        - name: 管理报价单
+          items:
+            - name: 关键概念
+              href: sales/quotes-key-concepts.md
+            - name: 管理报价单价值、客户预算和上限
+              href: sales/quote-values-budget-limits.md
+            - name: 管理一个报价单上的多个客户
+              href: sales/manage-multiple-customers-quote.md
+            - name: 基于产品的报价单明细
+              items:
+                - name: 基于产品的报价单明细成本核算
+                  href: sales/costing-product-based-quote-lines.md
+                - name: 管理基于产品的报价单明细的复杂单位
+                  href: sales/managing-complex-units-product-based-quote-lines.md
+            - name: 基于项目的报价单明细
+              items:
+                - name: 管理项目价目表
+                  href: sales/manage-project-price-lists.md
+                - name: 管理一个报价单明细上的多个客户
+                  href: sales/manage-multiple-customers-quote-line.md
+                - name: 将项目和任务映射到报价单明细
+                  href: sales/mapping-projects-tasks-quote-line.md
+                - name: 根据报价单明细创建估算
+                  href: sales/create-estimate-quote-line.md
+                - name: 将项目估算导入报价单明细
+                  href: sales/import-estimate-project-quote-line.md
+                - name: 管理报价单价值、客户预算和上限
+                  href: sales/manage-quoted-values-budget-limites-quote-line.md
+                - name: 报价单明细上的账单计划
+                  href: sales/invoice-schedule-quote-line.md
+            - name: 赢得报价单
+              href: sales/win-quote.md
+            - name: 失去报价单
+              href: sales/lose-quote.md
+        - name: 管理合同
+          items:
+            - name: 关键概念
+              href: sales/contracts-key-concepts.md
+            - name: 管理合同价值、客户预算和上限
+              href: sales/contract-quote-values-budgets-limits.md
+            - name: 管理一份合同中的多个客户
+              href: sales/manage-multiple-customers-contract.md
+            - name: 基于产品的合同子项
+              items:
+                - name: 基于产品的合同子项成本核算
+                  href: sales/cost-product-based-contract-lines.md
+                - name: 管理基于产品的合同子项的复杂单位
+                  href: sales/manage-complex-units-product-based-contract-lines.md
+            - name: 基于项目的合同子项
+              items:
+                - name: 管理项目价目表
+                  href: sales/manage-project-price-lists.md
+                - name: 管理一个合同子项中的多个客户
+                  href: sales/manage-multiple-customers-contract-line.md
+                - name: 将项目和任务映射到合同子项
+                  href: sales/mapping-projects-tasks-contract-line.md
+                - name: 根据项目创建合同子项的估算
+                  href: sales/create-estimate-project-contract-line.md
+                - name: 将项目估算导入合同子项
+                  href: sales/import-estimate-project-contract-line.md
+                - name: 管理合同子项的合同价值、客户预算和上限
+                  href: sales/manage-contract-values-project-based.md
+                - name: 报价单明细上的账单计划
+                  href: sales/invoice-schedules-quote-line.md
+            - name: 确认合同
+              href: sales/confirm-contract.md
+            - name: 完成工作后结束合同
+              href: sales/close-contract-work-completed.md
+            - name: 因取消关闭合同
+              href: sales/close-contract-canceled.md
+    - name: 定价和成本核算
+      items:
+        - name: 产品价目表
+          href: pricing-costing/product-price-lists.md
+        - name: 项目价目表
+          items:
+            - name: 成本价目表
+              items:
+                - name: 设置成本价目表
+                  href: pricing-costing/cost-price-list-setup.md
+                - name: 价目表默认值
+                  href: pricing-costing/cost-price-list-default.md
+                - name: 替代默认值
+                  href: pricing-costing/cost-override-default.md
+            - name: 销售的价目表设置
+              items:
+                - name: 设置销售价目表
+                  href: pricing-costing/sales-price-list-setup.md
+                - name: 销售价目表默认值
+                  href: pricing-costing/sales-price-list-default.md
+                - name: 替代默认值
+                  href: pricing-costing/sales-override-default.md
+        - name: 定价维度
+          items:
+            - name: 定价维度概述
+              href: pricing-costing/pricing-dimension-overview.md
+            - name: 将 Project Operations 中的现有字段用作定价维度
+              href: pricing-costing/use-existing-field-pricing-dimension.md
+            - name: 将自定义字段作为定价维度
+              items:
+                - name: 创建自定义字段和实体，作为定价维度
+                  href: pricing-costing/create-custom-fields-entities-pricing-dimensions.md
+                - name: 为价格设置和交易实体添加自定义字段
+                  href: pricing-costing/add-custom-fields-price-setup-transactional-entities.md
+                - name: 将自定义字段设置为定价维度
+                  href: pricing-costing/set-up-custom-fields-pricing-dimensions.md
+            - name: 关闭定价维度
+              href: pricing-costing/turn-off-pricing-dimension.md
+    - name: 项目管理
+      items:
+        - name: 项目管理概述
+          href: project-management/project-management-overview.md
+        - name: 项目阶段
+          href: project-management/project-stages.md
+        - name: 浏览 UI
+          href: project-management/navigate-ui.md
+        - name: 理解项目状态
+          href: project-management/understand-project-status.md
+        - name: 定义项目日历
+          href: project-management/define-project-calendars.md
+        - name: 创建项目
+          items:
+            - name: 创建初始估计值
+              href: project-management/create-initial-estimates.md
+            - name: 设置项目日历
+              href: project-management/set-project-calendar.md
+            - name: 设置项目货币
+              href: project-management/set-project-currency.md
+            - name: 定义客户
+              href: project-management/set-customer.md
+            - name: 添加组
+              href: project-management/add-group.md
+        - name: 更新项目
+          href: project-management/update-project.md
+        - name: 复制项目
+          href: project-management/copy-project.md
+        - name: 工作分解结构规划
+          items:
+            - name: 创建工作分解结构
+              items:
+                - name: 创建任务
+                  href: project-management/wbs-create-tasks.md
+                - name: 剪切、复制和粘贴任务
+                  href: project-management/cut-copy-paste-tasks.md
+                - name: 撤消和恢复任务
+                  href: project-management/undo-redo-tasks-wbs.md
+                - name: 工作分解结构层次结构
+                  href: project-management/work-breakdown-structure-hierarchy.md
+                - name: 批量任务更新
+                  href: project-management/bulk-task-updates.md
+                - name: 编辑任务详细信息
+                  href: project-management/edit-task-details.md
+            - name: 创建工作
+              items:
+                - name: 添加现有资源
+                  href: project-management/add-existing-resources.md
+                - name: 添加通用资源
+                  href: project-management/add-generic-resources.md
+                - name: 了解工作对任务工作量、持续时间和结束日期的影响
+                  href: project-management/understand-impact-assignment-task-effort-duration-end-date.md
+                - name: 查看工作等值线
+                  href: project-management/view-assignment-contours.md
+            - name: 浏览任务管理体验
+              items:
+                - name: 列管理
+                  href: project-management/column-management.md
+                - name: 视图
+                  href: project-management/task-management-views.md
+                - name: Bucket
+                  href: project-management/task management-buckets.md
+        - name: 预估项目
+          items:
+            - name: 预估项目概述
+              href: project-management/estimate-projects-overview.md
+            - name: 资源预估
+              items:
+                - name: 刷新项目预估，以反映对项目计划所做的更改
+                  href: project-management/refresh-project-estimates-reflect-changes-project-plan.md
+                - name: 刷新项目预估的价格和成本率
+                  href: project-management/refresh-prices-cost-rates-project-estimates.md
+                - name: 资源成本费和成本货币默认值
+                  href: project-management/resource-default-cost-price-cost-currency.md
+                - name: 资源帐单费率和销售币种默认值
+                  href: project-management/resource-default-bill-rate-sales-currency.md
+            - name: 创建支出预估
+              items:
+                - name: 支出成本费和成本货币默认值
+                  href: project-management/expense-default-cost-price-cost-currency.md
+                - name: 支出帐单费率和销售币种默认值
+                  href: project-management/expense-default-bill-rate-sales-currency.md
+        - name: 生成报价单和合同
+          items:
+            - name: 将工作分解结构导入报价单
+              href: project-management/import-wbs-structure-quotes.md
+            - name: 将工作分解结构导入合同
+              href: project-management/import-wbs-structure-contracts.md
+        - name: 项目跟踪
+          items:
+            - name: 项目跟踪主页
+              href: project-management/cost-vs-effort-overview.md
+            - name: 列定义
+              items:
+                - name: 精力
+                  href: project-management/effort.md
+                - name: 成本
+                  href: project-management/cost.md
+                - name: 销售
+                  href: project-management/sales.md
+            - name: 更新完工估算
+              href: project-management/update-completed-estimate.md
+        - name: 项目团队成员
+          items:
+            - name: 项目团队成员概述
+              href: project-management/project-team-members-overview.md
+            - name: 维护团队成员
+              items:
+                - name: 添加团队成员
+                  href: project-management/add-team-members.md
+                - name: 更新项目团队成员
+                  href: project-management/update-project-team-members.md
+                - name: 删除团队成员
+                  href: project-management/delete-team-members.md
+                - name: 维护预订
+                  href: project-management/maintain-bookings.md
+                - name: 项目审批者
+                  href: project-management/project-approvers.md
+        - name: 销售
+          items:
+            - name: “销售”选项卡概述
+              href: project-management/sales-tab-overview.md
+        - name: 协作
+          items:
+            - name: 组
+              href: project-management/groups.md
+        - name: 项目规划常见问题
+          href: project-management/project-planning-faq.md
+    - name: 资源管理
+      items:
+        - name: 资源管理概述
+          href: resource-management/resource-management-overview.md
+        - name: 关键概念
+          href: resource-management/resource-management-key-concepts.md
+        - name: 预订与工作
+          href: resource-management/booking-vs-assignment.md
+        - name: 资源管理模式
+          items:
+            - name: 资源管理模式概述
+              href: resource-management/resource-management-mode-overview.md
+            - name: 混合
+              href: resource-management/resource-management-mode-hybrid.md
+            - name: 集中
+              href: resource-management/resource-management-mode-central.md
+        - name: 集中预订
+          items:
+            - name: 集中预订概述
+              href: resource-management/centralized-booking-overview.md
+            - name: 将通用团队成员添加到任务中
+              href: resource-management/add-generic-team-members-tasks.md
+            - name: 定义资源要求
+              href: resource-management/define-resource-requirements.md
+            - name: 定义要求概况
+              href: resource-management/define-resource-requirement-contours.md
+            - name: 更新资源要求
+              href: resource-management/update-resource-requirements.md
+            - name: 提交资源要求
+              href: resource-management/submit-resource-requirements.md
+            - name: 资源请求
+              items:
+                - name: 资源请求概述
+                  href: resource-management/resource-requests-overview.md
+                - name: 查看字段和操作
+                  href: resource-management/review-fields-actions.md
+                - name: 查找资源
+                  href: resource-management/find-resources.md
+                - name: 查看建议资源
+                  href: resource-management/review-proposed-resources.md
+        - name: 分散资源预订
+          items:
+            - name: 分散资源预订概述
+              href: resource-management/decentralized-resource-booking-overview.md
+            - name: 直接预订的选项
+              href: resource-management/options-book-directly.md
+            - name: 满足通用资源要求
+              href: resource-management/generic-resource-requirement-fulfillment.md
+        - name: 管理资源
+          items:
+            - name: 创建资源
+              href: resource-management/create-resources.md
+            - name: 定义技能和专长
+              href: resource-management/define-skills-proficiencies.md
+            - name: 定义角色
+              href: resource-management/define-roles.md
+            - name: 定义资源日历
+              href: resource-management/define-resource-calendars.md
+            - name: 将资源与部门关联
+              href: resource-management/associate-resources-organizational-units.md
+            - name: 将资源与公司关联
+              href: resource-management/associate-resources-companies.md
+        - name: 预订分配方法
+          href: resource-management/booking-allocation-methods.md
+        - name: 预订状态
+          href: resource-management/booking-status.md
+        - name: 技能和专长模型
+          href: resource-management/skills-proficiency-models.md
+        - name: 资源协调
+          items:
+            - name: 资源协调概述
+              href: resource-management/resource-reconciliation-overview.md
+            - name: 关键概念
+              href: resource-management/resource-reconciliation-key-concepts.md
+            - name: 导航
+              href: resource-management/resource-reconciliation-navigation.md
+            - name: 扩展预订
+              href: resource-management/extend-bookings.md
+            - name: 管理多个时区
+              href: resource-management/manage-multiple-time-zones.md
+        - name: 资源利用率
+          items:
+            - name: 资源利用率概述
+              href: resource-management/resource-utilization-overview.md
+            - name: 搜索、设置和导航
+              href: resource-management/search-settings-navigation.md
+        - name: 日程安排板
+          items:
+            - name: 导航和键设置
+              href: resource-management/navigation-key-settings-urs.md
+            - name: 个性化设置
+              href: resource-management/personalization-urs.md
+            - name: 搜索
+              href: resource-management/search-urs.md
+            - name: 预订操作
+              href: resource-management/booking-actions-urs.md
+            - name: 预订
+              items:
+                - name: 项目预订
+                  href: resource-management/book-project.md
+                - name: 预订未满足的要求
+                  href: resource-management/book-open-requirements.md
+                - name: 替代资源
+                  href: resource-management/substitute-resources.md
+                - name: 编辑现有预订
+                  href: resource-management/edit-existing-bookings.md
+        - name: 资源管理常见问题
+          href: resource-management/resource-management-faq.md
+    - name: 时间
+      items:
+        - name: 时间条目概述
+          href: time/time-entry-overview.md
+        - name: 创建时间条目
+          items:
+            - name: 导入预定、工作和日历条目
+              href: time/import-bookings-assignments-calendar-entries.md
+            - name: UI 行为
+              href: time/ui-behavior.md
+        - name: 提交时间条目
+          href: time/submit-time-entries.md
+        - name: 撤消时间条目
+          items:
+            - name: 审批前
+              href: time/recall-time-entries-before-approval.md
+            - name: 审批后
+              href: time/recall-time-entries-after-approval.md
+        - name: 审批时间条目
+          href: time/approvals.md
+        - name: 开发人员备注
+          items:
+            - name: 扩展时间条目
+              href: time/extending-time-entries.md
+            - name: 自定义每周时间条目网格
+              href: time/customize-weekly-time-entry-grid.md
+            - name: 安全注意事项
+              href: time/security-considerations.md
+    - name: 支出
+      items:
+        - name: 支出主页
+          href: expense/expense-overview.md
+        - name: 支出条目
+          href: expense-entry.md
+    - name: 审批
+      items:
+        - name: 概述
+          href: approvals/approvals-overview.md
+        - name: 审批时间条目
+          href: approvals/approving-time-entries.md
+        - name: 审批支出条目
+          href: approve-expense-entries.md
+    - name: 估价开单
+      items:
+        - name: 创建账单计划
+          href: proforma-invoicing/create-invoice-schedules.md
+        - name: 创建手动估价账单
+          href: proforma-invoicing/create-manual-proforma-invoice.md
+        - name: 管理估价账单
+          href: proforma-invoicing/manage-proforma-invoice.md
+        - name: 确认估价账单
+          href: proforma-invoicing/confirm-proforma-invoice.md
+        - name: 修正账单
+          href: proforma-invoicing/corrective-invoices.md
+        - name: 配置账单自动创建
+          href: proforma-invoicing/configure-automated-invoice-creation.md
