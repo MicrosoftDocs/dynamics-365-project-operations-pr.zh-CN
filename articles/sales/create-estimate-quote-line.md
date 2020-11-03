@@ -7,7 +7,6 @@ ms.date: 09/18/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-365-customerservice
-ms.technology: ''
 audience: Application User
 ms.reviewer: kfend
 ms.search.scope: ''
@@ -18,12 +17,12 @@ ms.search.industry: Service industries
 ms.author: rumant
 ms.dyn365.ops.version: ''
 ms.search.validFrom: 2020-10-01
-ms.openlocfilehash: e841ab7c37e0b348a4d1570123a5aea00ede0047
-ms.sourcegitcommit: a2c3cd49a3b667b8b5edaa31788b4b9b1f728d78
+ms.openlocfilehash: f949c639530aecf9f7368925208ab12b68d2062e
+ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 09/28/2020
-ms.locfileid: "3898476"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "4072632"
 ---
 # <a name="create-estimates-on-a-quote-line"></a>根据报价单明细创建估算
 
@@ -33,7 +32,7 @@ _**适用于：** 基于资源/非库存场景的 Project Operations，精简部
 
 基于项目的报价单明细中不必包含任何报价单明细详细信息。 但是，也可以包含大量报价单明细详细信息。 报价单明细详细信息用于估算时间、支出或费用。 Dynamics 365 Project Operations 不允许报价单明细详细信息中包含材料估算。 这些估算称为交易分类。 也可以在交易分类中输入估算税额。
 
-除了交易分类，报价单明细详细信息中还有交易类型。 报价单明细详细信息有两种交易记录类型：**成本**和**项目合同**。
+除了交易分类，报价单明细详细信息中还有交易类型。 报价单明细详细信息有两种交易记录类型： **成本** 和 **项目合同** 。
 
 ## <a name="estimate-by-using-a-contract"></a>使用合同估算
 
@@ -47,7 +46,7 @@ _**适用于：** 基于资源/非库存场景的 Project Operations，精简部
 
 支持对项目合同执行的流程为创建发票和确认发票。 创建发票将创建基于项目的发票草稿，其中包含截止当前日期的所有未记帐实际销售值。
 
-确认将把合同设置为只读，并将其状态从**草稿**更改为**已确认**。 此操作执行之后不能撤消。 因为此操作是永久性的，所以最好是让合同保持**草稿**状态。
+确认将把合同设置为只读，并将其状态从 **草稿** 更改为 **已确认** 。 此操作执行之后不能撤消。 因为此操作是永久性的，所以最好是让合同保持 **草稿** 状态。
 
 草稿合同和已确认合同之间的唯一区别是其状态和可以编辑草稿合同，但不能编辑已确认合同。 可以对草稿合同和已确认合同执行发票创建和跟踪实际值。
 
@@ -59,7 +58,7 @@ _**适用于：** 基于资源/非库存场景的 Project Operations，精简部
 
 创建任务并确定执行任务所需通用资源的属性时，将生成时间估算。 时间估算从计划任务生成。 如果在计划上下文外部创建通用团队成员，则不创建时间估算。
 
-将在**估算**页的网格中输入支出估算。
+将在 **估算** 页的网格中输入支出估算。
 
 ## <a name="understand-estimation"></a>了解估算
 
@@ -81,11 +80,11 @@ _**适用于：** 基于资源/非库存场景的 Project Operations，精简部
 如果在报价单明细详细信息中添加了自定义字段，并且希望系统输入字段的值作为创建的相关成本明细中的默认值，请使用 PreOperationContractLineDetailUpdate 和 PreOperationQuoteLineDetailUpdate 插件注册工具。 更改报价单明细详细信息或合同子项之后，必须重新注册这些插件。 执行以下步骤完成流程。
 
 1. 打开 PluginRegistrationTool，然后连接到您的在线实例。
-2. 选择**搜索**，然后搜索要更新的插件。
-3. 选择插件，然后在主页中选择**选择**。
-4. 选择要更新的插件的步骤，然后选择**更新**。
-5. 在**更新现有步骤**对话框的**筛选属性**字段中，选择省略号按钮 (**...**)：
-6. 在**选择属性**对话框中，选中自定义属性的复选框。
-7. 选择**确定**关闭对话框，然后选择**更新步骤**。
+2. 选择 **搜索** ，然后搜索要更新的插件。
+3. 选择插件，然后在主页中选择 **选择** 。
+4. 选择要更新的插件的步骤，然后选择 **更新** 。
+5. 在 **更新现有步骤** 对话框的 **筛选属性** 字段中，选择省略号按钮 ( **...** )：
+6. 在 **选择属性** 对话框中，选中自定义属性的复选框。
+7. 选择 **确定** 关闭对话框，然后选择 **更新步骤** 。
 8. 对第二个插件重复步骤 1 到 7。
 9. 关闭 PluginRegistrationTool。

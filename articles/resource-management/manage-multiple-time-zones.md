@@ -9,11 +9,11 @@ ms.service: dynamics-365-customerservice
 ms.reviewer: kfend
 ms.author: ruhercul
 ms.openlocfilehash: 27f58f0dacc3404119a719547ad374629c740740
-ms.sourcegitcommit: 396e0fea2f1598a5313cb0128eca4fe0bb5aade9
+ms.sourcegitcommit: 11a61db54119503e82faec5f99c4273e8d1247e5
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/05/2020
-ms.locfileid: "3961826"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "4072542"
 ---
 # <a name="manage-time-zones"></a>管理时区
 
@@ -22,7 +22,7 @@ _**适用于：** 基于资源/非库存场景的 Project Operations，精简部
 
 ## <a name="projects"></a>项目
 
-在创建项目时，时区基于所应用的工作时间模板中定义的时区。 在**项目**上，除**任务**选项卡外，日期始终与每个选项卡上登录的用户的时区相关。当您查看工作分解结构时，日期始终会以项目的时区显示。
+在创建项目时，时区基于所应用的工作时间模板中定义的时区。 在 **项目** 上，除 **任务** 选项卡外，日期始终与每个选项卡上登录的用户的时区相关。当您查看工作分解结构时，日期始终会以项目的时区显示。
 
 ## <a name="tasks"></a>任务
 
@@ -30,9 +30,9 @@ _**适用于：** 基于资源/非库存场景的 Project Operations，精简部
 
 ## <a name="manage-resources-with-time-zones"></a>使用时区管理资源
 
-为了在使用**扩展预订**时获得准确且可预测的结果，必须满足两个关键的先决条件：  
+为了在使用 **扩展预订** 时获得准确且可预测的结果，必须满足两个关键的先决条件：  
 
-- 用户必须配置其设备的时区，使其与系统的**个性化设置**中定义的时区匹配。
+- 用户必须配置其设备的时区，使其与系统的 **个性化设置** 中定义的时区匹配。
  
   ![Windows 10 中的时区设置](media/reconcile-assignments-03.png)
 
@@ -57,7 +57,7 @@ _**适用于：** 基于资源/非库存场景的 Project Operations，精简部
 |资源 C  |  ![资源 C 日历](media/reconcile-assignments-08.png) |
 |资源 D  | ![资源 D 日历](media/reconcile-assignments-09.png)  |
  
-在导航到**协调**视图时，会显示资源分配和关联的预订不足。
+在导航到 **协调** 视图时，会显示资源分配和关联的预订不足。
 
 ![扩展前的协调视图](media/reconcile-assignments-10.png)
 

@@ -7,7 +7,6 @@ ms.date: 09/23/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-365-customerservice
-ms.technology: ''
 audience: Application User
 ms.reviewer: kfend
 ms.search.scope: ''
@@ -18,18 +17,18 @@ ms.search.industry: Service industries
 ms.author: ruhercul
 ms.dyn365.ops.version: ''
 ms.search.validFrom: 2020-10-01
-ms.openlocfilehash: 74f8889022e42a7bbd37879df870401c0e103446
-ms.sourcegitcommit: a2c3cd49a3b667b8b5edaa31788b4b9b1f728d78
+ms.openlocfilehash: c2a964c18c7eae61c5a0239da3b18da31b6ad574
+ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 09/28/2020
-ms.locfileid: "3897665"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "4072554"
 ---
 # <a name="booking-allocation-methods"></a>预订分配方法
 
 _**适用于：** 基于资源/非库存场景的 Project Operations，精简部署 - 估价开票交易_
 
-不论您是在**团队**选项卡上将团队成员直接添加到项目，还是从日程安排板为项目或要求预订资源，都有一些不同的预订分配方法可供您使用。 此主题说明每个方法如何工作，以及哪些方法可能导致超额预订资源。
+不论您是在 **团队** 选项卡上将团队成员直接添加到项目，还是从日程安排板为项目或要求预订资源，都有一些不同的预订分配方法可供您使用。 此主题说明每个方法如何工作，以及哪些方法可能导致超额预订资源。
 
 ## <a name="booking-allocation-methods"></a>预订分配方法
 
@@ -72,7 +71,7 @@ _**适用于：** 基于资源/非库存场景的 Project Operations，精简部
 由于考虑了可用产能，如果资源没有可以通过预订分配的剩余产能，您可能收到错误消息。 使用此方法，不能超额预订。
 
 ### <a name="none"></a><a name="none"></a>无
-“无”方法仅当您从项目内的**团队**选项卡预订时可用。 该方法在项目中作为团队成员添加资源，但不创建任何分配资源产能的预订。 在创建项目时添加默认项目经理团队成员时使用此方法。 创建项目的项目经理用户默认添加到项目，以便项目实体记录具有负责人，并且项目上有一个审批者。 由于该用户没有任何预订，如果您确实要预订资源，您可以将其删除，然后使用其他分配方法重新添加，或将资源添加到任务，然后使用**协调**选项卡上的**扩展预订**创建用于分派的预订。
+“无”方法仅当您从项目内的 **团队** 选项卡预订时可用。 该方法在项目中作为团队成员添加资源，但不创建任何分配资源产能的预订。 在创建项目时添加默认项目经理团队成员时使用此方法。 创建项目的项目经理用户默认添加到项目，以便项目实体记录具有负责人，并且项目上有一个审批者。 由于该用户没有任何预订，如果您确实要预订资源，您可以将其删除，然后使用其他分配方法重新添加，或将资源添加到任务，然后使用 **协调** 选项卡上的 **扩展预订** 创建用于分派的预订。
 
 ## <a name="allocation-methods-that-lead-to-overbooking"></a>导致超额预订的分配方法
 简而言之，如果资源已在其他项目（或其他工作订单或可计划实体）中提交，以下分配方法将导致超额预订：

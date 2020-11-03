@@ -7,7 +7,6 @@ ms.date: 10/01/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-365-customerservice
-ms.technology: ''
 ms.search.form: ''
 audience: Application User
 ms.reviewer: kfend
@@ -16,12 +15,12 @@ ms.search.region: ''
 ms.author: suvaidya
 ms.search.validFrom: ''
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: cd0d415b9cc85bac91de8fb9427da290ae0c6108
-ms.sourcegitcommit: a2c3cd49a3b667b8b5edaa31788b4b9b1f728d78
+ms.openlocfilehash: 47c1bce0c886897b295a3c1a355f4db843c4b73a
+ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 09/28/2020
-ms.locfileid: "3897125"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "4072670"
 ---
 # <a name="expense-reports-reimagined"></a>重新打造支出报表
 
@@ -35,7 +34,7 @@ ms.locfileid: "3897125"
 - 一个新页面，用于指定必填字段、可选字段和不应包含的字段。 此页帮助减少必须设置的字段的数量。
 - 新的支出报表外观，使报表看起来不再像是为会计人员设计的。
 
-若要启用新体验，请使用**功能管理**工作区打开**重新打造支出报表**功能。 当您启用此功能时，会发生以下操作：
+若要启用新体验，请使用 **功能管理** 工作区打开 **重新打造支出报表** 功能。 当您启用此功能时，会发生以下操作：
 
 - 现有支出工作区将替换为新工作区。
 - 将添加用于显示支出字段的新菜单项。
@@ -62,7 +61,7 @@ ms.locfileid: "3897125"
 | 提高可见性的新工作区 | 新工作区统一了让用户能够转到不同区域的功能和链接。 |
 | 在支出创建过程中添加现有支出和收据 | 在您创建支出报表时，可以添加所有或所选的支出和收据。 |
 | 汇率计算器 | 添加了汇率计算器，可让您计算现金支付多货币交易的汇率。 |
-| 保存和添加新支出行 | 输入新支出时，**保存**和**新建**按钮可用，帮助您快速输入支出行。 |
+| 保存和添加新支出行 | 输入新支出时， **保存** 和 **新建** 按钮可用，帮助您快速输入支出行。 |
 | 更清晰地查看拆分和细化行 | 细化和拆分行直接添加到支出列表中，以增加可见性，帮助您轻松确定是否有错误。 |
 | 在细化时显示收据 | 收据可以在细化时显示。 |
 

@@ -9,11 +9,11 @@ ms.service: dynamics-365-customerservice
 ms.reviewer: kfend
 ms.author: stsporen
 ms.openlocfilehash: 6da831fef5dba060b8019d7689645405c7ebdbed
-ms.sourcegitcommit: 0874b3d89e1dc0e65a51cedb82bf8f80831ca0bb
+ms.sourcegitcommit: 11a61db54119503e82faec5f99c4273e8d1247e5
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/06/2020
-ms.locfileid: "3967355"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "4072484"
 ---
 # <a name="expense-home-page"></a>支出主页
 
@@ -24,8 +24,8 @@ Dynamics 365 Project Operations 支持处理支出的功能。 通过使用可�
 
 在 Project Operations 中，支持两种支出部署模型： 
 
-- **完全**：完全部署可用于**面向资源/非库存场景的 Project Operations** 或**面向生产订单场景的 Project Operations**。
-- **基本**：基本部署可用于**面向资源/非库存场景的 Project Operations** 和**精简部署 - 估价交易开票**。
+- **完全** ：完全部署可用于 **面向资源/非库存场景的 Project Operations** 或 **面向生产订单场景的 Project Operations** 。
+- **基本** ：基本部署可用于 **面向资源/非库存场景的 Project Operations** 和 **精简部署 - 估价交易开票** 。
 
 ## <a name="full"></a>完全 
 完全支出部署提供完整的策略实施，其中包括创建策略的能力，例如：

@@ -9,11 +9,11 @@ ms.service: dynamics-365-customerservice
 ms.reviewer: kfend
 ms.author: rumant
 ms.openlocfilehash: d050258ae457bb4392d5fa761442cfc7a444feb0
-ms.sourcegitcommit: f6509f7d50de4d4ebb92c1bf2cfcdf09f17458eb
+ms.sourcegitcommit: 11a61db54119503e82faec5f99c4273e8d1247e5
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/06/2020
-ms.locfileid: "3966741"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "4072535"
 ---
 # <a name="summary-information-on-a-project-quote-sales"></a>项目报价单上的摘要信息 (Sales)
 
@@ -25,7 +25,7 @@ _**适用于：** 精简部署 - 估价交易开票_
 
 | **字段** | **位置** | **关联性、用途和指导** | **下游影响** |
 | --- | --- | --- | --- |
-| Type | “摘要”选项卡（隐藏） | 此选项集字段对以下选项进行哈希处理：</br>- 基于工作（仅在安装了 Project Operations 时可用）</br>- 基于项目（仅在安装了 Project Operations 和 Sales 时可用）</br>- 基于服务维护（通过安装 Dynamics 365 Field Service 提供） | 当您使用 Project Operations 应用程序时，此字段的值会自动设置为**基于工作**。 这会将报价单分类为基于项目的报价单。 报价单应该是基于项目的，以支持所有特定于项目的扩展和功能。 |
+| Type | “摘要”选项卡（隐藏） | 此选项集字段对以下选项进行哈希处理：</br>- 基于工作（仅在安装了 Project Operations 时可用）</br>- 基于项目（仅在安装了 Project Operations 和 Sales 时可用）</br>- 基于服务维护（通过安装 Dynamics 365 Field Service 提供） | 当您使用 Project Operations 应用程序时，此字段的值会自动设置为 **基于工作** 。 这会将报价单分类为基于项目的报价单。 报价单应该是基于项目的，以支持所有特定于项目的扩展和功能。 |
 | 潜在客户 | “摘要”标签页 | 对客户的公司或客户记录的引用。 从商机创建报价单时，将从商机上的相应字段复制此字段。 | 项目报价单上的货币根据客户的货币选择默认值。 但可以在保存报价单之前更改。 |
 | 客户经理 | “摘要”标签页 | 此交易的客户经理的姓名。 从商机创建报价单时，将从商机上的相应字段复制此字段。 | 客户经理负责在此项目完成之前管理与客户的关系。 根据与客户经理关联的可预订资源记录，合同签订部门在项目报价单上选择默认值。 |
 | 合同签订部门 | “摘要”标签页 | 负责交付与此报价单关联的一个或多个项目的部门。 从商机创建报价单时，将从商机上的相应字段复制此字段。 | 合同签订部门是在交易完成后将执行项目的公司部门。 每个合同签订部门都有一种货币，此货币用于报告项目执行过程中产生的预估成本和实际成本。 |

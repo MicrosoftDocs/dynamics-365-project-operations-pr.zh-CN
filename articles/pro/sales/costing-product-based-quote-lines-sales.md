@@ -9,20 +9,20 @@ ms.service: dynamics-365-customerservice
 ms.reviewer: kfend
 ms.author: ruhercul
 ms.openlocfilehash: 17b377eab5bcbc1a2327cb3ff87cc75d8de40953
-ms.sourcegitcommit: a0f80d024a5d3112a39781815bd31d0c05ddaf6f
+ms.sourcegitcommit: 11a61db54119503e82faec5f99c4273e8d1247e5
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 09/30/2020
-ms.locfileid: "3906086"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "4072507"
 ---
 # <a name="costing-product-based-quote-lines"></a>基于产品的报价单明细成本核算
 
 _**适用于：** 基于资源/非库存场景的 Project Operations，精简部署 - 估价开票交易_
 
 
-Dynamics 365 Project Operations 中基于产品的报价单明细也包含**成本费**字段。 此字段用于在报价单明细中跟踪产品的成本费，并用于下游利润率的计算。
+Dynamics 365 Project Operations 中基于产品的报价单明细也包含 **成本费** 字段。 此字段用于在报价单明细中跟踪产品的成本费，并用于下游利润率的计算。
 
-为目录产品创建基于产品的报价单明细时，基于产品的报价单明细的成本默认为产品目录中**标准成本**字段的值。 产品目录中的“标准成本”字段以组织的基础货币设置。 基于产品的报价单明细上的默认单位成本将转换为报价单上的销售货币。
+为目录产品创建基于产品的报价单明细时，基于产品的报价单明细的成本默认为产品目录中 **标准成本** 字段的值。 产品目录中的“标准成本”字段以组织的基础货币设置。 基于产品的报价单明细上的默认单位成本将转换为报价单上的销售货币。
 
 ## <a name="unit-cost-on-a-product-based-quote-line"></a>基于产品的报价单明细中的单位成本
 

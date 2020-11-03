@@ -9,17 +9,17 @@ ms.service: dynamics-365-customerservice
 ms.reviewer: kfend
 ms.author: stsporen
 ms.openlocfilehash: e2ac26910c55eefd059e3136b7e8821aad411539
-ms.sourcegitcommit: 2cf93d8bf0be5b61a739195a41334c34d910e9ba
+ms.sourcegitcommit: 11a61db54119503e82faec5f99c4273e8d1247e5
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/05/2020
-ms.locfileid: "3961110"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "4072519"
 ---
 # <a name="time-overview"></a>时间概述
 
 _**适用于：** 基于资源/非库存场景的 Project Operations，精简部署 - 估价开票交易_
 
-时间条目是记录资源消耗的实际时间的流程。 Dynamics 365 Project Operations 中的时间条目允许随着任务的进度计算成本和售价。 这些条目可以帮助项目经理控制项目和任务。 时间条目还会将日程安排板上显示为**外出**的任何可能的休假或缺勤通知给资源经理。这些通知让资源经理可以计划这些事件。
+时间条目是记录资源消耗的实际时间的流程。 Dynamics 365 Project Operations 中的时间条目允许随着任务的进度计算成本和售价。 这些条目可以帮助项目经理控制项目和任务。 时间条目还会将日程安排板上显示为 **外出** 的任何可能的休假或缺勤通知给资源经理。这些通知让资源经理可以计划这些事件。
 
 当在 Project Operations 中记录时间时，用户可以针对项目中的任何级别进行跟踪。 这包括任务、摘要或项目级别。
 

@@ -9,11 +9,11 @@ ms.service: dynamics-365-customerservice
 ms.reviewer: kfend
 ms.author: ruhercul
 ms.openlocfilehash: fa99783e52dbcdeaf80bbfd03df0f458f86b5e99
-ms.sourcegitcommit: a2c3cd49a3b667b8b5edaa31788b4b9b1f728d78
+ms.sourcegitcommit: 11a61db54119503e82faec5f99c4273e8d1247e5
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 09/28/2020
-ms.locfileid: "3896000"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "4072453"
 ---
 # <a name="bookings-vs-assignments"></a>预订与分配
 
@@ -23,4 +23,4 @@ _**适用于：** 基于资源/非库存场景的 Project Operations，精简部
 
 分派是将资源分派给项目计划中的项目任务。 资源可以是实际资源或通用资源。 
 
-理想情况下，实际资源、预订和分派应一致，因为它们没有区别。 但是，Microsoft Dynamics Project Operations 不强制执行此共识。 **协调**视图为项目经理显示资源的预订和分派不一致的位置。
+理想情况下，实际资源、预订和分派应一致，因为它们没有区别。 但是，Microsoft Dynamics Project Operations 不强制执行此共识。 **协调** 视图为项目经理显示资源的预订和分派不一致的位置。

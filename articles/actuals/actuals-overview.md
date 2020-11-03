@@ -1,5 +1,5 @@
 ---
-title: 实际值主页
+title: 实际值
 description: 此主题提供有关如何在 Microsoft Dynamics 365 Project Operations 中使用实际值的信息。
 author: rumant
 manager: AnnBe
@@ -7,7 +7,6 @@ ms.date: 09/16/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-365-customerservice
-ms.technology: ''
 audience: Application User
 ms.reviewer: kfend
 ms.search.scope: ''
@@ -17,14 +16,14 @@ ms.search.region: ''
 ms.search.industry: ''
 ms.author: rumant
 ms.search.validFrom: 2020-10-01
-ms.openlocfilehash: 75ad336a995aba3505325466433a5c5e2bb3e776
-ms.sourcegitcommit: 56c42d7f5995a674426a1c2a81bae897dceb391c
+ms.openlocfilehash: 93a945ffbe9c6dd998456b506b95e717ab8fbab7
+ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3907307"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "4072594"
 ---
-# <a name="actuals"></a>实际值
+# <a name="actuals"></a>实际值 
 
 _**适用于：** 面向资源/非库存场景的 Project Operations_
 
@@ -46,7 +45,7 @@ _**适用于：** 面向资源/非库存场景的 Project Operations_
 
 有关创建默认价格的逻辑在日记帐行中。 时间条目中的字段值将复制到该日记帐行中。 这些值包含交易日期、项目映射到的合同子项，以及相应价目表中的货币结果。
 
-会影响默认定价的字段（如**角色**和**部门**）用于确定日记帐行中的适当价格。 您可以在时间条目中添加自定义字段。 如果您希望将字段值传播到实际值，请在实际值条目中创建字段，然后使用字段映射将该字段从时间条目复制到实际值。
+会影响默认定价的字段（如 **角色** 和 **部门** ）用于确定日记帐行中的适当价格。 您可以在时间条目中添加自定义字段。 如果您希望将字段值传播到实际值，请在实际值条目中创建字段，然后使用字段映射将该字段从时间条目复制到实际值。
 
 ## <a name="journal-lines-and-basic-expense-submission"></a>日记帐行和基本支出提交
 

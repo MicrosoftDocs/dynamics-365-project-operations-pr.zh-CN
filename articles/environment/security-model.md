@@ -8,12 +8,12 @@ ms.topic: article
 ms.service: dynamics-365-customerservice
 ms.reviewer: kfend
 ms.author: stsporen
-ms.openlocfilehash: ffcfa8a9c8e31c5665acd3c3919fa90d36a3f3ca
-ms.sourcegitcommit: a2c3cd49a3b667b8b5edaa31788b4b9b1f728d78
+ms.openlocfilehash: e875d1765b5038e60830d626abb5bcd61749ece1
+ms.sourcegitcommit: 11a61db54119503e82faec5f99c4273e8d1247e5
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 09/28/2020
-ms.locfileid: "3896720"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "4072489"
 ---
 # <a name="security-model"></a>安全模型
 
@@ -36,10 +36,11 @@ Project Operations 前端功能包括下列角色：
 
 
 Web 版本的 Microsoft Project 包含以下角色：
-| 角色                          | 描述                                                                                                          | 作用域 |                                                       
-|-------------------------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------|-----|
-| 项目用户 | 项目的协作用户，可以创建自己的项目并查看与其共享的任何项目。| 用户|
-| 项目系统 | 用于应用程序上下文的角色。 客户应该不会使用此系统角色。 | 全局|
+
+| 角色           | 描述                                                                                                        | 作用域  |
+|----------------|--------------------------------------------------------------------------------------------------------------------|--------|
+| 项目用户   | 项目的协作用户，可以创建自己的项目并查看与其共享的任何项目。 | 用户   |
+| 项目系统 | 用于应用程序上下文的角色。 客户应该不会使用此系统角色。                                    | 全局 |
 
 ## <a name="security-enforcement"></a>安全执行
 在项目级别执行的操作将在已登录用户的上下文中执行。 这意味着，为了创建、打开或删除项目，用户需要在 CD 中有访问权限。 可通过平台中包括的任何可能的机制授予 CDS 中的访问权限。 例如，范围较大的用户可以访问项目，或者执行了明确的项目共享操作以授予用户访问权限。
@@ -55,7 +56,9 @@ Web 项目会在分配后自动将用户添加到组中。
 
 Project Operations 不会通过隐式操作创建组，只会通过推进组建立的显式操作来创建组。
 
-**组管理**对话中的组成员搜索仅限于那些被设置为环境安全组一部分的用户。 有关详细信息，请参阅[控制用户对环境的访问权限：安全组和许可证](https://docs.microsoft.com/power-platform/admin/control-user-access)。
+**组管理** 对话中的组成员搜索仅限于那些被设置为环境安全组一部分的用户。 有关详细信息，请参阅[控制用户对环境的访问权限：安全组和许可证](https://docs.microsoft.com/power-platform/admin/control-user-access)。
+
+![组模式](./media/groupsmode.png)
 
 1. 项目由创建用户创建和负责。
 2. 项目负责人将更新到团队。
