@@ -6,7 +6,7 @@ manager: AnnBe
 ms.date: 09/23/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.search.form: ''
 audience: Application User
 ms.reviewer: kfend
@@ -15,12 +15,12 @@ ms.search.region: ''
 ms.author: shylaw
 ms.search.validFrom: ''
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: db1bda71e18369550cd2d38fee1d0ac40e07555d
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: af6463b07e282ae1ff6aa7dc1a540ff7c8cc318a
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4072631"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4127687"
 ---
 # <a name="set-up-workflows-for-expense-management"></a>设置支出管理工作流
 
@@ -30,9 +30,9 @@ _**适用于：** 基于资源/非库存场景的 Project Operations，精简部
 
 工作流表示一个业务流程，定义文档在系统中的流动方式。 工作流还指示必须完成任务或审批文档的人员。 在组织中使用工作流系统具有以下几项好处：
 
-- **一致的流程** ：您可以为特定文档（如采购申请和支出报表）定义审批流程。 使用工作流系统有助于确保以一致且有效的方式处理和审批文档。
-- **流程可见** ：可以跟踪特定工作流实例的状态、历史记录和性能指标。 这可以帮助您确定是否应对工作流进行更改以提高效率。
-- **集中式工作列表** ：用户可以查看集中式工作列表，来查看分配给他们的工作流任务和审批。 
+- **一致的流程**：您可以为特定文档（如采购申请和支出报表）定义审批流程。 使用工作流系统有助于确保以一致且有效的方式处理和审批文档。
+- **流程可见**：可以跟踪特定工作流实例的状态、历史记录和性能指标。 这可以帮助您确定是否应对工作流进行更改以提高效率。
+- **集中式工作列表**：用户可以查看集中式工作列表，来查看分配给他们的工作流任务和审批。 
 
 ## <a name="workflow-types"></a>工作流类型
 

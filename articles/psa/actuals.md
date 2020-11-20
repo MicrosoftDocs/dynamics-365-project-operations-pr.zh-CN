@@ -3,7 +3,7 @@ title: 实际值概述
 description: 本主题提供有关项目实际值的信息。
 author: rumant
 manager: kfend
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 08/03/2020
@@ -18,12 +18,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 9559cb2dcc38cb8058c5a9a3b97a35019fea486f
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: cf9e36c99790b77f0ed6490f49b4ebeb043bcdf6
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4072802"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4129757"
 ---
 # <a name="actuals-overview"></a>实际值概述
 
@@ -39,7 +39,7 @@ ms.locfileid: "4072802"
 
 有关输入默认价格的逻辑在日记帐行中。 时间条目中的所有字段值将复制到该日记帐行中。 这些字段中包含交易日期、项目映射到的合同子项，以及相应价目表中的货币结果。 
 
-会影响默认价格的字段（如 **角色** 和 **部门** ）会导致默认在日记帐行中输入相应价格。 如果在时间条目中添加自定义字段，并且希望将字段值传播到实际值，请在实际值条目中创建字段，然后使用字段映射将该字段从时间条目复制到实际值。
+会影响默认价格的字段（如 **角色** 和 **部门**）会导致默认在日记帐行中输入相应价格。 如果在时间条目中添加自定义字段，并且希望将字段值传播到实际值，请在实际值条目中创建字段，然后使用字段映射将该字段从时间条目复制到实际值。
 
 ## <a name="submitting-an-expense-entry"></a>提交支出条目
 
@@ -63,7 +63,7 @@ ms.locfileid: "4072802"
 
 ## <a name="recording-actuals-based-on-project-events"></a>基于项目事件记录实际值
 
-PSA 记录项目期间发生的财务交易。 这些交易记录为 **实际值** 。 下表显示创建的不同类型的实际值，具体取决于项目是时间和材料还是固定价格，是否处于售前阶段，是否为内部项目。
+PSA 记录项目期间发生的财务交易。 这些交易记录为 **实际值**。 下表显示创建的不同类型的实际值，具体取决于项目是时间和材料还是固定价格，是否处于售前阶段，是否为内部项目。
 
 **资源与项目的合同签订部门属于同一个部门**
 

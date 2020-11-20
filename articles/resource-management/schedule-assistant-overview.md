@@ -5,15 +5,15 @@ author: ruhercul
 manager: Annbe
 ms.date: 10/01/2020
 ms.topic: article
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.reviewer: kfend
 ms.author: ruhercul
-ms.openlocfilehash: da551e805f395e466952df1dbb7d193bdddba358
-ms.sourcegitcommit: 11a61db54119503e82faec5f99c4273e8d1247e5
+ms.openlocfilehash: 92b12bd9272805a736286bf7e0ff926cb6361c05
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4072460"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4125617"
 ---
 # <a name="schedule-assistant-overview"></a>日程安排助理概述
 
@@ -42,7 +42,7 @@ _**适用于：** 基于资源/非库存场景的 Project Operations，精简部
 
 ## <a name="launch-the-schedule-assistant"></a>启动日程安排助理
 
-启动日程安排助理有两种方式。 如果您使用的是混合模式，可以在团队成员网格中选择资源要求未满足的任何团队成员，然后选择 **预订** 。 如果您使用的是集中模式，资源经理会查找并选择资源。
+启动日程安排助理有两种方式。 如果您使用的是混合模式，可以在团队成员网格中选择资源要求未满足的任何团队成员，然后选择 **预订**。 如果您使用的是集中模式，资源经理会查找并选择资源。
 
 ## <a name="schedule-assistant-filters"></a>日程安排助理筛选器
 

@@ -3,7 +3,7 @@ title: 业务交易
 description: 此主题提供有关业务交易的信息。
 author: rumant
 manager: kfend
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 03/01/2019
@@ -18,18 +18,18 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: d82f5d75de69b32b39c9a55d77287c0719930eb4
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: 048bd2d98e6332e6c48a24f4eacee5b937ef04a9
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4072726"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4126967"
 ---
 # <a name="business-transactions"></a>业务交易
 
 [!INCLUDE[cc-applies-to-psa-app-3.x](../includes/cc-applies-to-psa-app-3x.md)]
 
-在 Dynamics 365 Project Service Automation 中， *业务交易* 是不能通过任何实体表示的抽象概念。 但是实体中的某些常用字段或流程应该采用业务交易概念。 以下实体使用此抽象概念：
+在 Dynamics 365 Project Service Automation 中，*业务交易* 是不能通过任何实体表示的抽象概念。 但是实体中的某些常用字段或流程应该采用业务交易概念。 以下实体使用此抽象概念：
 
 - 报价单明细详细信息
 - 合同子项详细信息
@@ -72,7 +72,7 @@ PSA 将这五种实体中的记录视为业务交易。 唯一区别是实体中
 - 里程碑
 - 税款
 
-在 PSA 中， **里程碑** 值通常由固定价格记帐的业务逻辑使用。
+在 PSA 中，**里程碑** 值通常由固定价格记帐的业务逻辑使用。
 
 ### <a name="transaction-origin"></a>交易来源
 

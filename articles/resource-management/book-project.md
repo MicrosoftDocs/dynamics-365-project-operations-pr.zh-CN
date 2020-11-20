@@ -5,15 +5,15 @@ author: ruhercul
 manager: Annbe
 ms.date: 10/01/2020
 ms.topic: article
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.reviewer: kfend
 ms.author: ruhercul
-ms.openlocfilehash: 19128264ed3db7efeeba948155f0ddbdc806c2a0
-ms.sourcegitcommit: 11a61db54119503e82faec5f99c4273e8d1247e5
+ms.openlocfilehash: c87b0c32ef081f601ed79c11687f008bb454dd45
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4072456"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4131062"
 ---
 # <a name="book-to-a-project"></a>项目预订
 
@@ -29,7 +29,7 @@ _**适用于：** 基于资源/非库存场景的 Project Operations，精简部
 
 如果您的组织在混合资源分配模式下运行，项目经理可以通过完成以下步骤将资源直接预订到项目。
 
-1. 在项目中，转到团队成员网格，选择 **新建** 。
+1. 在项目中，转到团队成员网格，选择 **新建**。
 2. 定义资源的职位名称和角色。
 3. 从可用查找中选择可预订资源。
 4. 选择资源后，定义以下字段信息来预订资源：
@@ -61,7 +61,7 @@ _**适用于：** 基于资源/非库存场景的 Project Operations，精简部
 作为项目经理，您可能需要将资源预订到项目，但只知道条件，不知道资源姓名。 完成以下步骤来使用日程安排助理根据资源的任何可用属性来查找资源。 
 
 1. 导航到项目，选择 **预订** 打开日程安排助理。
-2. 使用日程安排助理左侧的筛选器，精简条件，然后选择 **搜索** 。
+2. 使用日程安排助理左侧的筛选器，精简条件，然后选择 **搜索**。
 3. 根据结果中返回的资源，您可以预订资源。
 
 > [!NOTE]

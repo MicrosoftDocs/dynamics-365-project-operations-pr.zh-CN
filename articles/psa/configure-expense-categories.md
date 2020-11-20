@@ -3,7 +3,7 @@ title: 配置支出类别
 description: 如何在 Project Service 中配置费用类别
 author: revathiMuthiah
 manager: kfend
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 8/03/2018
@@ -18,12 +18,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 82522c0ba8587446c5038a9cf38fcadfdcb6ba8d
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: 1768d7bd7ab94d909e53cd71f9c39b44e7ed4b4f
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4072576"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4129262"
 ---
 # <a name="configure-expense-categories-project-service"></a>配置费用类别 (Project Service)
 
@@ -33,9 +33,9 @@ ms.locfileid: "4072576"
   
 每种费用类别都可以有自己的计价单位组和计价单位。 可以为向费用类别分派的计价单位组中每个计价单位的每个费用类别定义价格。  
   
-1.  转到 **Project Service > 费用类别** 。  
+1.  转到 **Project Service > 费用类别**。  
   
-2.  单击 **新建** 。  
+2.  单击 **新建**。  
   
 3.  在 **常规** 区域中，根据需要填写字段。 最好至少设置以下费用类别：  
   
@@ -49,7 +49,7 @@ ms.locfileid: "4072576"
   
     -   每日  
   
-4.  单击屏幕右下角的 **保存** 。  
+4.  单击屏幕右下角的 **保存**。  
   
 ### <a name="see-also"></a>另请参阅  
  [配置 Project Service Automation](../psa/configure.md)

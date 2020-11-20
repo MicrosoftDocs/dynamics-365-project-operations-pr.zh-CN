@@ -3,7 +3,7 @@ title: 为任务分派资源
 description: 此主题介绍如何为任务分派资源。
 author: ruhercul
 manager: kfend
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 9/27/2019
@@ -18,12 +18,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 77f13d1e96b76dfea241fbf7a67d5676582f0235
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: b7aef799ec4b90d602a6f3641cbac06264664f00
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4072793"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4125122"
 ---
 # <a name="assign-a-resource-to-a-task"></a>为任务分派资源
 
@@ -58,13 +58,13 @@ ms.locfileid: "4072793"
 
 2. 键入名称用作占位符资源的名称。 例如，“项目经理”。
 
-3. 选择 **创建** ，然后 **快速创建项目团队成员** 字段中，为通用资源设置角色。
+3. 选择 **创建**，然后 **快速创建项目团队成员** 字段中，为通用资源设置角色。
 
 4. 您可以通过在任务的 **资源选择器** 上选择资源来继续将任务分派给此占位符资源。 它们在 **团队成员** 下列出。
 
 5. 在分派通用资源后，在 **团队** 选项卡上选择通用资源，然后选择 **生成要求** 为该通用资源创建资源要求。
 
-6. 为通用资源选择 **预订** 。 然后，您可以使用日程安排板查找和预订实际资源。 您还可以提交由资源经理满足的要求。
+6. 为通用资源选择 **预订**。 然后，您可以使用日程安排板查找和预订实际资源。 您还可以提交由资源经理满足的要求。
 
 7. 在通用资源要求由指定资源满足时，通用资源将被从团队中移除，通用资源的任务分派将被分派到满足通用资源的资源要求的指定资源。
 

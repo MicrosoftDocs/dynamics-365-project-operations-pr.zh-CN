@@ -3,7 +3,7 @@ title: 在 Office 365 日历中管理项目和预订
 description: 如何在 Office 365 日历中管理项目和预订
 author: ruhercul
 manager: kfend
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 8/03/2018
@@ -17,12 +17,12 @@ search.audienceType:
 search.app:
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: fd4119693875fb851c7bd3f34287db7d81237140
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: 31ff541f5b817c29b162c38c282df8cfd866e375
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4072638"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4129037"
 ---
 # <a name="manage-projects-and-bookings-in-your-calendar-project-service"></a>在日历中管理项目和预订 (Project Service)
 
@@ -54,38 +54,38 @@ ms.locfileid: "4072638"
   
 ## <a name="turn-on-synchronization-for-your-organization-admin-task"></a>为组织开启同步（管理员任务）  
   
-1.  在主菜单中单击 **设置** > **管理** 。  
+1.  在主菜单中单击 **设置** > **管理**。  
   
-2.  单击 **系统设置** 。  
+2.  单击 **系统设置**。  
   
 3.  单击 **同步** 选项卡。  
   
-4.  在 **选择是否为资源预订启用同步** 下，选中 **与 Outlook 同步资源预订** 。  
+4.  在 **选择是否为资源预订启用同步** 下，选中 **与 Outlook 同步资源预订**。  
   
 ## <a name="turn-on-synchronization-for-your-user-profile-user-task"></a>为用户配置文件开启同步（用户任务）  
   
 1.  单击屏幕右上角的 **设置** 按钮。  
   
-2.  单击 **选项** 。  
+2.  单击 **选项**。  
   
 3.  单击 **同步** 选项卡。  
   
-4.  在 **与 Outlook 同步资源预订** 下，选中 **与 Outlook 同步资源预订** 。  
+4.  在 **与 Outlook 同步资源预订** 下，选中 **与 Outlook 同步资源预订**。  
   
 ## <a name="import-your-personal-appointments-user-task"></a>导入个人约会（用户任务）  
  可以将个人约会从日历导入 Project Service Automation 时间条目视图。  
   
-1. 打开 [!INCLUDE[pn_office_365](../includes/pn-office-365.md)] 日历并单击 **导入数据** 。  
+1. 打开 [!INCLUDE[pn_office_365](../includes/pn-office-365.md)] 日历并单击 **导入数据**。  
   
-2. 在“筛选器”屏幕中，选择 **来自 Exchange 的约会** ，然后单击 **应用** 。  
+2. 在“筛选器”屏幕中，选择 **来自 Exchange 的约会**，然后单击 **应用**。  
   
-3. 系统将把约会提取到时间条目视图，充当本周的建议条目。 若要添加另一周的条目，请单击 **上一周** 或 **下一周** 。  
+3. 系统将把约会提取到时间条目视图，充当本周的建议条目。 若要添加另一周的条目，请单击 **上一周** 或 **下一周**。  
   
 4. 选择要添加到 Project Service Automation 时间条目视图的约会。  
   
 5. 在 **时间条目** 弹出框中，选择相应选项，以便将约会转换为 Project Service Automation 时间条目视图。  
   
-6. 单击 **保存** 。  
+6. 单击 **保存**。  
   
 ### <a name="see-also"></a>另请参阅  
  [时间、费用和协作指南](../psa/time-expense-collaboration-guide.md)

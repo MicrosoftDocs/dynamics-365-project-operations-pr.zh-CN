@@ -6,7 +6,7 @@ manager: AnnBe
 ms.date: 09/23/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 audience: Application User
 ms.reviewer: kfend
 ms.search.scope: ''
@@ -17,12 +17,12 @@ ms.search.industry: Service industries
 ms.author: ruhercul
 ms.dyn365.ops.version: ''
 ms.search.validFrom: 2020-10-01
-ms.openlocfilehash: e2b16a6e1c48769ed4d903e546804ba1c4e1c4fa
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: 574afac3bf5d1f6e5e13d8c61aa1ace6188f4008
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4072546"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4125707"
 ---
 # <a name="resource-reconciliation-overview"></a>资源协调概述
 
@@ -43,10 +43,10 @@ _**适用于：** 基于资源/非库存场景的 Project Operations，精简部
 
 在某些情况下，在高于天的级别（如月级别）查看时间时，可能会发现资源的净差额为零（换句话说，预订 = 分派）。 但是，如果在周级别查看时间，可能会发现第一周的分派为零小时，预订为 40 小时，但是第二周的分派为 40 小时，预订为零小时。 总体而言，已协调预订和分派，但是一周与下一周不同。
 
-在更高级别查看时间时， **协调** 选项卡中的单元格有一个指示器，用于说明较低级别存在差额。 可通过在单元格中双击进行放大来查看差额。 然后可以右键单击进行缩小。通过选择资源，然后使用网格工具栏上的 **下一个差异** 控件，可以转到该资源的订阅与分派之间的下一个差额。 然后可以使用 **上一个差异** 控件后退。 也可以在 **设置** 下关闭差额指示器和导航行为。
+在更高级别查看时间时，**协调** 选项卡中的单元格有一个指示器，用于说明较低级别存在差额。 可通过在单元格中双击进行放大来查看差额。 然后可以右键单击进行缩小。通过选择资源，然后使用网格工具栏上的 **下一个差异** 控件，可以转到该资源的订阅与分派之间的下一个差额。 然后可以使用 **上一个差异** 控件后退。 也可以在 **设置** 下关闭差额指示器和导航行为。
 
 
-如果某个资源有任务分派，但是无预订，请在 **项目** 页的 **协调** 选项卡上选择预订不足，然后选择 **扩展预订** 。 将显示 **扩展预订** 对话框，其中显示需要来解决资源不足的预订。 还显示该资源在所有项目或其他可计划实体中的现有预订。 如果选择 **确定** 为资源创建预订，无论该资源是否可用，都可能导致超额预订。
+如果某个资源有任务分派，但是无预订，请在 **项目** 页的 **协调** 选项卡上选择预订不足，然后选择 **扩展预订**。 将显示 **扩展预订** 对话框，其中显示需要来解决资源不足的预订。 还显示该资源在所有项目或其他可计划实体中的现有预订。 如果选择 **确定** 为资源创建预订，无论该资源是否可用，都可能导致超额预订。
 
 然后，项目经理或资源经理可使用日程安排板管理资源超额预订超过其产能的任何情况。
 

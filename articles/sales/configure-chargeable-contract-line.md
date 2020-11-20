@@ -5,15 +5,15 @@ author: rumant
 manager: Annbe
 ms.date: 10/12/2020
 ms.topic: article
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.reviewer: kfend
 ms.author: stsporen
-ms.openlocfilehash: af97904b0171618cb15d060da9bc87fcf6bbabeb
-ms.sourcegitcommit: 11a61db54119503e82faec5f99c4273e8d1247e5
+ms.openlocfilehash: d6f67d5dc6b94148d437b3399229c1235c702c6a
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4072541"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4128677"
 ---
 # <a name="configure-chargeable-components-of-a-project-based-contract-line"></a>配置基于项目的合同子项的应计费组件
 
@@ -27,21 +27,21 @@ _**适用于：** 面向资源/非库存场景的 Project Operations_
 
 应计费组件可以在角色和交易类别中定义。
 
-对于项目合同子项，角色中定义的应计费仅应用于 **时间** 交易类。 如果 **包含时间** 在项目合同子项上设置为 **否** ， **应计费角色** 选项卡将不可用。
+对于项目合同子项，角色中定义的应计费仅应用于 **时间** 交易类。 如果 **包含时间** 在项目合同子项上设置为 **否**，**应计费角色** 选项卡将不可用。
 
-在项目合同子项的交易类别中定义的应计费仅应用于 **支出** 交易类。 如果 **包含支出** 在项目合同子项上设置为 **否** ， **应计费类别** 选项卡将不可用。
+在项目合同子项的交易类别中定义的应计费仅应用于 **支出** 交易类。 如果 **包含支出** 在项目合同子项上设置为 **否**，**应计费类别** 选项卡将不可用。
 
 ### <a name="update-a-role-to-be-chargeable-or-non-chargeable"></a>将角色更新为应计费或非应计费
 
 角色在特定的基于项目的合同子项上可以为应计费或非应计费。
 
-在基于项目的合同子项的 **应计费角色** 选项卡上的 **应计费类别** 子网格上，在 **记帐类型** 字段中，更新角色的计费类型。
+在基于项目合同子项的 **应计费角色** 选项卡上，在 **应计费类别** 子网格中的 **计费类型** 字段中，更新角色的计费类型。
 
 ### <a name="update-a-transaction-category-to-be-chargeable-or-non-chargeable"></a>将交易类别更新为应计费或非应计费
 
 交易类别在特定的基于项目的合同子项上可以为应计费或非应计费。
 
-在基于项目的合同子项的 **应计费类别** 选项卡上的 **应计费类别** 子网格上，在 **记帐类型** 字段中，更新交易的计费类型。
+在基于项目合同子项的 **应计费类别** 选项卡上，在 **应计费类别** 子网格中的 **计费类型** 字段中，更新交易的计费类型。
 
 ### <a name="resolve-chargeability"></a>解析应计费
 

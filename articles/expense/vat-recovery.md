@@ -5,15 +5,15 @@ author: suvaidya
 manager: AnnBe
 ms.date: 10/10/2020
 ms.topic: article
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.reviewer: kfend
 ms.author: suvaidya
-ms.openlocfilehash: 2c20e4a7fa9748e03bf1729fc2f7bdbfc2f292d1
-ms.sourcegitcommit: 11a61db54119503e82faec5f99c4273e8d1247e5
+ms.openlocfilehash: c52d5ccef681ef9d9ff767c99af6f2fd0fd6da52
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4072472"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4126112"
 ---
 # <a name="vat-recovery-in-expense-management"></a>支出管理中的增值税退回
 
@@ -41,7 +41,7 @@ _**适用于：** 面向资源/非库存场景的 Project Operations_
 
 位于美国的 Contoso 销售代表 Nancy 最近结束了一次前往英国的商务出差，返回美国。 出差期间，Nancy 在用餐时产生了一些个人信用卡支出。 现在，Nancy 必须创建一个支出报表来核对支出。
 
-当 Nancy 在支出报表中输入信息时，她在 **编辑支出报表** 页的 **国家/地区** 字段中选择 **英国** 。 然后，系统对销售税组列表进行筛选，以仅显示适用于英国的组。 Nancy 选择 **英国 001** 销售税组，然后选择 **餐饮** 项目销售税组。 接下来，Nancy 为住宿添加新交易。 由于在英国只有一个销售税组和一个项目销售税组，因此此信息在 Nancy 的支出报表中自动填充。
+当 Nancy 在支出报表中输入信息时，她在 **编辑支出报表** 页的 **国家/地区** 字段中选择 **英国**。 然后，系统对销售税组列表进行筛选，以仅显示适用于英国的组。 Nancy 选择 **英国 001** 销售税组，然后选择 **餐饮** 项目销售税组。 接下来，Nancy 为住宿添加新交易。 由于在英国只有一个销售税组和一个项目销售税组，因此此信息在 Nancy 的支出报表中自动填充。
 
 根据 Contoso 政策，所有支出必须有匹配的收据。 因此，当 Nancy 保存支出报表时，她收到一条消息，指出她必须为她在支出报表中列出的每笔交易附加收据。 Nancy 验证她是否已将每张交易收据的数字图像附加到支出报表中，然后提交报表以供审批。 然后，她将纸质收据发送给后端办公系统处理团队。 此团队将把增值税退回数据发送给第三方供应商，后者为 Contoso 提交国际增值税退回申报表。
 
@@ -55,14 +55,14 @@ _**适用于：** 面向资源/非库存场景的 Project Operations_
 
 Contoso 的后端办公系统处理团队成员 Arnie 负责验证支出报表中是否包括了增值税退回所需的所有信息。 他打开 **支出退税** 页，选择 Nancy 提交的支出报表。 然后，Arnie 验证是否已附上所有必需的收据，以及是否输入了正确的销售税组和项目销售税码。
 
-当 Arnie 从 Nancy 那里收到纸质收据时，他对照数字收据进行验证，然后将支出报表的状态更改为 **准备退回** 。
+当 Arnie 从 Nancy 那里收到纸质收据时，他对照数字收据进行验证，然后将支出报表的状态更改为 **准备退回**。
 
 ## <a name="send-vat-recovery-data-to-the-third-party-vendor"></a>向第三方供应商发送增值税退回数据
 
-当 Arnie 准备好将支出报表数据发送给将提交增值税退回申报表的第三方供应商时，他打开 **支出退税** 页。 他对页面进行筛选，以仅显示标记为 **准备退回** 的支出报表。 Arnie 然后选择 **文件** &gt; **导出到 Excel** 。 支出报表中的增值税信息将导出到 Microsoft Excel 工作表。 Arnie 将此工作表提交给第三方供应商，并包含一条消息，说明纸质收据已使用快递发出。
+当 Arnie 准备好将支出报表数据发送给将提交增值税退回申报表的第三方供应商时，他打开 **支出退税** 页。 他对页面进行筛选，以仅显示标记为 **准备退回** 的支出报表。 Arnie 然后选择 **文件** &gt; **导出到 Excel**。 支出报表中的增值税信息将导出到 Microsoft Excel 工作表。 Arnie 将此工作表提交给第三方供应商，并包含一条消息，说明纸质收据已使用快递发出。
 
 ## <a name="process-expenses-for-domestic-vat-recovery"></a>处理国内增值税退回的支出
 
 Arnie 必须验证支出报表交易是否符合增值税退回的条件，以及数字收据是否已附加到报表中。 要开始处理符合国内退税条件的支出，Arnie 打开 **支出退税** 页，然后选择需要验证的支出报表。 他验证收据是以公司的名义而不是员工的名义开具的。 （增值税退回需要收据必须以公司的名义开具。）然后，Arnie 验证是否输入了正确的销售税组和项目销售税码。
 
-当 Arnie 收到纸质收据时，他将支出报表的状态更改为 **准备退回** 。 然后，他可以向相应的税务机构提交申报表。 在此例中，相应的美国税务机构是国内税务署 (IRS)。
+当 Arnie 收到纸质收据时，他将支出报表的状态更改为 **准备退回**。 然后，他可以向相应的税务机构提交申报表。 在此例中，相应的美国税务机构是国内税务署 (IRS)。

@@ -3,7 +3,7 @@ title: 配置其他参数设置
 description: 如何在 Project Service 中配置其他参数设置
 author: JohnPBurrows
 manager: kfend
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 8/03/2018
@@ -18,12 +18,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 24a4fe83471da916fb91cfe20e739279c08d8e5e
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: 5ce7ffd635b10689c8295d9349966450f11282d1
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4072604"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4129352"
 ---
 # <a name="configure-additional-parameter-settings-project-service"></a>配置其他参数设置 (Project Service)
 
@@ -43,20 +43,20 @@ ms.locfileid: "4072604"
  
 在此步骤中，您还可以指出所需的资源分配类型：  
   
-- **中心** 。 只有资源经理可以将资源分配到项目中。  
+- **中心**。 只有资源经理可以将资源分配到项目中。  
   
-- **混合** 。 资源经理、项目经理和客户经理可以将资源分配到项目中。  
+- **混合**。 资源经理、项目经理和客户经理可以将资源分配到项目中。  
   
  
 设置项目参数：  
   
-1. 转到 **Project Service > 参数** 。  
+1. 转到 **Project Service > 参数**。  
   
 2. 单击要配置的参数设置（首次安装 [!INCLUDE[pn_project_service_auto](../includes/pn-project-service-auto.md)] 时创建的参数设置），或单击 **新建** 新建一个。  
   
 3. 在 **常规** 区域，为您的项目参数设置所有选项。  
   
-4. 在 **价目表** 区域中，单击 **+** 添加价目表，在 **项目参数价目表** 下拉列表中选择价目表，然后单击 **保存** 。  
+4. 在 **价目表** 区域中，单击 **+** 添加价目表，在 **项目参数价目表** 下拉列表中选择价目表，然后单击 **保存**。  
   
 5. 在屏幕右下角，单击 **保存** 按钮。  
 

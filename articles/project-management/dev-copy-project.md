@@ -5,15 +5,15 @@ author: stsporen
 manager: Annbe
 ms.date: 10/07/2020
 ms.topic: article
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.reviewer: kfend
 ms.author: stsporen
-ms.openlocfilehash: cb49109e8c199bc4569702ae844a19985534294d
-ms.sourcegitcommit: 11a61db54119503e82faec5f99c4273e8d1247e5
+ms.openlocfilehash: 0100c29873be6346614e958ef6ea0c77da2c9590
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4072544"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4131602"
 ---
 # <a name="develop-project-templates-with-copy-project"></a>使用“复制项目”开发项目模板
 
@@ -39,10 +39,10 @@ Dynamics 365 Project Operations 支持复制项目以及将所有工作还原为
 | 目标             | 实体引用 | 目标项目 |
 
 
-- **{"clearTeamsAndAssignments":true}** ：Web 版本的 Project 的默认行为，将删除所有工作和团队成员。
+- **{"clearTeamsAndAssignments":true}**：Web 版本的 Project 的默认行为，将删除所有工作和团队成员。
 - **{"removeNamedResources":true}** Project Operations 的默认行为，将工作还原为通用资源。
 
 有关操作的更多默认行为，请参阅[使用 Web API 操作](https://docs.microsoft.com/powerapps/developer/common-data-service/webapi/use-web-api-actions)
 
 ## <a name="specify-fields-to-copy"></a>指定要复制的字段 
-当调用操作时， **复制项目** 将查看项目视图 **复制项目列** ，以确定在复制项目时要复制哪些字段。
+当调用操作时，**复制项目** 将查看项目视图 **复制项目列**，以确定在复制项目时要复制哪些字段。

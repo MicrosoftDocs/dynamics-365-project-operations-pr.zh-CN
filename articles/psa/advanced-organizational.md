@@ -3,7 +3,7 @@ title: 部门
 description: 此主题介绍 Dynamics 365 Project Service Automation 中的部门。
 author: rumant
 manager: kfend
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 03/04/2019
@@ -18,12 +18,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 454d9a4c4d139f493adf4604f8ba40a0211f0eec
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: 755eee6ab9993c72ff1db46e0993527ac0826bfe
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4072716"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4130612"
 ---
 # <a name="organizational-units"></a>部门 
 
@@ -50,7 +50,7 @@ PSA 中的部门具有专门的货币和专门的成本价目表。
 
 部门在 PSA 中充当两种角色：
 
-- **合同签订部门** – 代表主要负责赢得销售和管理对客户的工作和服务交付的公司组或部门的部门。 合同签订部门通过 **商机** 、 **报价单** 、 **项目合同** 和 **项目** 页标题部门中的 **合同签订部门** 字段识别。
+- **合同签订部门** – 代表主要负责赢得销售和管理对客户的工作和服务交付的公司组或部门的部门。 合同签订部门通过 **商机**、**报价单**、**项目合同** 和 **项目** 页标题部门中的 **合同签订部门** 字段识别。
 - **资源单位** – 资源所属部门或将资源分派给的部门。 这种部门可以将自己的资源提供给工作说明书 (SOW) 中和合同签订部门负责的项目中的某些角色。
 
 > ![合同签订部门和资源部门](media/advanced-1.png)

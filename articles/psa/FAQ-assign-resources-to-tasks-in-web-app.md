@@ -3,7 +3,7 @@ title: 如何在 Web 应用程序中将可预订资源分派给任务
 description: 可预订资源分派方法的概述。
 author: JohnPBurrows
 manager: kfend
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 8/21/2018
@@ -18,12 +18,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 7b95eff52351904f97c62b3806f17b02db47860b
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: cc1859540ede064c4ab3e2ac128573972912a207
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4072792"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4125167"
 ---
 # <a name="how-do-i-assign-a-bookable-resource-to-a-task-in-the-web-app-project-service-app-v2x"></a>如何在 Web 应用程序（Project Service 应用程序 v2.x）中将可预订资源分派到任务？
 
@@ -51,16 +51,16 @@ ms.locfileid: "4072792"
     - **按时数平均分配** 预订资源指定的小时数，根据指定的起始日期和截止日期按天平均分配时间。
     - **按时数前期负荷** 预订资源指定的小时数，根据指定的起始日期和截止日期前期负荷每天的时间。
 
-    请勿选择 **无** ，因为这会将资源添加到团队，但不创建任何分配资源产能的预订。
-5.  选择 **保存** 。
+    请勿选择 **无**，因为这会将资源添加到团队，但不创建任何分配资源产能的预订。
+5.  选择 **保存**。
 
     请注意，预订小时数必须足够覆盖您向其分派此资源的任务的工作时间和日期范围。 如果它们不一致，则无法将资源分派到任务。
 
 6.  在任务的工作分解结构 (WBS) 上，单击资源单元格下拉列表。 然后： 
 
-    1. 选择 **添加** 。
+    1. 选择 **添加**。
     2. 选择 **资源** 下的下拉列表，并选择您上面添加的团队成员。
-    3. 选择 **确定** 。 团队成员现在分派到了任务。
+    3. 选择 **确定**。 团队成员现在分派到了任务。
 
     > [!div class="mx-imgBorder"] 
     > ![使用 WBS 添加资源的屏幕截图](media/FAQ-Resources-to-Tasks2-2.png "使用 WBS 添加资源的屏幕截图")
@@ -89,12 +89,12 @@ ms.locfileid: "4072792"
 1. 在工作分解结构上，选择一项任务。
 2. 在资源单元格中选择 **已分派角色** 下拉列表图标。
 3. 选择 **角色** 下拉列表并选择通用资源的角色。
-4. 选择 **确定** 。
+4. 选择 **确定**。
 
     > [!div class="mx-imgBorder"] 
     > ![使用 WBS 添加资源的屏幕截图](media/FAQ-Resources-to-Tasks2-4.png "使用 WBS 添加资源的屏幕截图")
  
-在 WBS 中将角色分派到任务后，选择 **生成项目团队** 。 Project Service 根据角色、资源部门和项目日历通过聚合任务分派来创建最低数量的通用团队成员。
+在 WBS 中将角色分派到任务后，选择 **生成项目团队**。 Project Service 根据角色、资源部门和项目日历通过聚合任务分派来创建最低数量的通用团队成员。
 
 > [!div class="mx-imgBorder"] 
 > ![生成项目团队的屏幕截图](media/FAQ-Resources-to-Tasks2-5.png "生成项目团队的屏幕截图")
@@ -109,7 +109,7 @@ ms.locfileid: "4072792"
 > [!div class="mx-imgBorder"] 
 > ![打开支持资源要求的屏幕截图](media/FAQ-Resources-to-Tasks2-7.png "打开支持资源要求的屏幕截图")
 
-为通用资源选择 **预订** ，然后您可以使用日程安排板查找和预订实际资源。 您还可以通过选择 **提交请求** 来提交由资源经理满足的要求。
+为通用资源选择 **预订**，然后您可以使用日程安排板查找和预订实际资源。 您还可以通过选择 **提交请求** 来提交由资源经理满足的要求。
 
 在通用资源要求由指定资源满足时，通用资源将被从团队中移除，通用资源的任务分派将被分派到满足通用资源的资源要求的指定资源。
  

@@ -6,7 +6,7 @@ manager: AnnBe
 ms.date: 09/23/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.search.form: ''
 audience: Application User
 ms.reviewer: kfend
@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: suvaidya
 ms.search.validFrom: ''
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: 30b3a0e1547ca7043b1433da2b4ebf02f2b473a1
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: c55cec132649daf9ee08ea4d8db3668860247934
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4072674"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4128407"
 ---
 # <a name="define-expense-policies"></a>定义支出策略
 
@@ -36,12 +36,12 @@ _**适用于：** 基于资源/非库存场景的 Project Operations，精简部
         
 您可以定义三种类型的策略：         
         
-- **警告** ：允许工作人员提交支出报表或出差申请，但会向所有审批者以及以后的报告         
+- **警告**：允许工作人员提交支出报表或出差申请，但会向所有审批者以及以后的报告         
   标记此支出。        
 
-- **错误** ：需要工作人员在提交支出报表或出差申请之前修改支出以遵守策略。        
+- **错误**：需要工作人员在提交支出报表或出差申请之前修改支出以遵守策略。        
  
- - **理由** ：需要工作人员或经理在提交支出报表或出差申请之前，输入超过策略金额的理由。        
+ - **理由**：需要工作人员或经理在提交支出报表或出差申请之前，输入超过策略金额的理由。        
 
 ## <a name="policy-tips"></a>策略提示
 在为支出管理创建新策略时，以下一些建议可以为您提供帮助： 

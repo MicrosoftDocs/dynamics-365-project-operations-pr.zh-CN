@@ -3,7 +3,7 @@ title: 查看日程安排
 description: 如何在 Project Service 中查看您的日程安排
 author: ruhercul
 manager: kfend
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 8/03/2018
@@ -18,12 +18,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 8c3f85a8502439322af68a90d8a46bfd0fbe4b65
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: 35054a46251cbc4a91c7c37405e22287de4a9389
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4072675"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4125797"
 ---
 # <a name="view-your-schedule-project-service"></a>查看您的日程安排 (Project Service)
 
@@ -33,13 +33,13 @@ ms.locfileid: "4072675"
   
  如果使用的是 Web 应用程序：  
   
-1.  转到 **Project Service > 预订和任务** 。 这将生成您的日程安排的日历视图。  
+1.  转到 **Project Service > 预订和任务**。 这将生成您的日程安排的日历视图。  
   
 2.  单击 **上一周** 或 **下一周** 查看上一周或下一周的日程安排。 单击 **今天** 将回到本周。 如果需要，可以单击任务更新它。  
   
-3.  如果要查看正在处理的内容的列表，请单击 **网格** 。 如果需要可以内联编辑任务。  
+3.  如果要查看正在处理的内容的列表，请单击 **网格**。 如果需要可以内联编辑任务。  
   
-4.  若要查看已完成的任务，单击 **显示完成的任务** 。  
+4.  若要查看已完成的任务，单击 **显示完成的任务**。  
   
 ### <a name="see-also"></a>另请参阅  
  [时间、费用和协作指南](../psa/time-expense-collaboration-guide.md)

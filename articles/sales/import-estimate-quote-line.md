@@ -5,15 +5,15 @@ author: rumant
 manager: Annbe
 ms.date: 10/09/2020
 ms.topic: article
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: 8c0fe18b33207f73848709b99334f64aadc7867a
-ms.sourcegitcommit: 11a61db54119503e82faec5f99c4273e8d1247e5
+ms.openlocfilehash: fda8fee6dcf55126077fb6b8c502ee9dada9b44c
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4072520"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4125572"
 ---
 # <a name="import-estimates-for-a-project-to-a-project-based-quote-line"></a>将项目预估导入基于项目的报价单明细
 
@@ -23,7 +23,7 @@ _**适用于：** 面向资源/非库存场景的 Project Operations_
 如果在预售阶段创建了项目，您可以选择将财务预估从项目导入到基于项目的报价单明细。
 
 1. 确保基于项目的报价单明细在 **项目** 字段中有项目信息。
-2. 在 **报价单明细详细信息** 选项卡上，选择 **从项目预估导入** 。
+2. 在 **报价单明细详细信息** 选项卡上，选择 **从项目预估导入**。
 3. 在打开的对话页面上，选择以下摘要选项之一：
 
   - **交易分类**
@@ -31,7 +31,7 @@ _**适用于：** 面向资源/非库存场景的 Project Operations_
   - **角色** 
   - **项目任务**
 
-根据您的选择，将复制此报价单明细中包括的所有交易类的项目预估。 要检查包括哪些交易类，选择基于项目的报价单明细上的 **常规** 选项卡，并检查 **包括时间** 、 **包括支出** 和 **包括费用** 。
+根据您的选择，将复制此报价单明细中包括的所有交易类的项目预估。 要检查包括哪些交易类，选择基于项目的报价单明细上的 **常规** 选项卡，并检查 **包括时间**、**包括支出** 和 **包括费用**。
 
 导入预估时，系统将基于报价单所附的项目价目表和在基于项目的报价单明细上设置的计费类型默认选择定价。 如果在基于项目的报价单明细上将角色或类别设置为非应计费，导入的预估明细将设置为非应计费，不会加总报价单明细的报价值。
 

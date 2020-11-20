@@ -3,7 +3,7 @@ title: 根据资源要求预订指定资源
 description: 此部分介绍如何为通用资源要求预订指定资源。
 author: JohnPBurrows
 manager: kfend
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 12/11/2018
@@ -18,12 +18,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 20e3a904bc33360b194c0c53e58430c80d1ff55f
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: d7ff58ec08661adc702867c6c26805a74a3637c9
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4072809"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4125887"
 ---
 # <a name="book-named-resources-from-resource-requirements"></a>根据资源要求预订指定资源
 
@@ -32,13 +32,13 @@ ms.locfileid: "4072809"
 可以预订指定资源以替换具有资源要求的通用资源。
 
 1. 在 Project Service Automation (PSA) 中的 **项目** 页中，单击 **团队** 选项卡。
-2. 从列表中选择具有资源要求的通用资源，然后单击 **预订** 。 或者，打开资源要求，然后单击 **预订** 。
+2. 从列表中选择具有资源要求的通用资源，然后单击 **预订**。 或者，打开资源要求，然后单击 **预订**。
 
 
 ![预订通用团队成员](media/RM-how-to-14.png)
 
 
-3. 在 **日程安排助理** 页中，选择要为项目团队预订的指定资源，然后单击 **预订** 。
+3. 在 **日程安排助理** 页中，选择要为项目团队预订的指定资源，然后单击 **预订**。
 
 ![使用日程安排助理预订通用团队成员](media/RM-how-to-15.png)
 

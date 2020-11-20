@@ -5,21 +5,21 @@ author: rumant
 manager: AnnBe
 ms.date: 10/13/2020
 ms.topic: article
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: 560bb68cba865a6af60504114126ae6ea73dde2d
-ms.sourcegitcommit: 11a61db54119503e82faec5f99c4273e8d1247e5
+ms.openlocfilehash: fa1e6c17fbda76a283c2ec68760a00e846decf83
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4072449"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4128092"
 ---
 # <a name="confirm-a-proforma-invoice"></a>确认估价账单
 
 _**适用于：** 面向资源/非库存场景的 Project Operations_
 
-估价发票确认后，项目发票的状态将更新为 **已确认** 。 发票确认后，将变为只读。 之后，只有在发票标记为已支付的情况下，在有任何客户发起更正或贷记时才可以更正发票。
+估价发票确认后，项目发票的状态将更新为 **已确认**。 发票确认后，将变为只读。 之后，只有在发票标记为已支付的情况下，在有任何客户发起更正或贷记时才可以更正发票。
 
 下表列出了系统创建的实际值。 在确认草稿项目发票之前对草稿项目发票执行某些操作时会创建这些实际值。
 

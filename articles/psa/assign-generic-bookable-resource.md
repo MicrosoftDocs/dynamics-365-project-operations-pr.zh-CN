@@ -3,7 +3,7 @@ title: 为任务和项目团队分派通用可预订资源
 description: 本主题提供有关为任务和项目团队预订通用资源的信息。
 author: JohnPBurrows
 manager: kfend
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 12/11/2018
@@ -18,12 +18,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: ca0999ae5413d824dd1384fe2262e5226695a5f8
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: 19761b3e570ad664522e832069a8ac50fffead64
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4072619"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4127057"
 ---
 # <a name="assign-generic-bookable-resources-to-a-task-and-generate-resource-requirements"></a>为任务分派通用可预订资源和生成资源要求 
 
@@ -37,7 +37,7 @@ ms.locfileid: "4072619"
 
 这将打开 **快速创建: 项目团队成员** 面板。 
 
-2. 输入通用资源团队成员的角色和部门，然后单击 **保存** 。
+2. 输入通用资源团队成员的角色和部门，然后单击 **保存**。
 
 ![快速创建通用团队成员](media/RM-how-to-10.png)
 

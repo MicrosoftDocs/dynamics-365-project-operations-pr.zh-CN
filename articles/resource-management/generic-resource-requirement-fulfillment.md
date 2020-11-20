@@ -5,15 +5,15 @@ author: ruhercul
 manager: AnnBe
 ms.date: 09/23/2020
 ms.topic: article
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.reviewer: kfend
 ms.author: ruhercul
-ms.openlocfilehash: 6bb7c185656ff87bb3ca24209594c07d25862d70
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: 3c4d02fd589d4a5d39380688852377f57fceb05b
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4072549"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4130296"
 ---
 # <a name="generic-resource-requirement-fulfillment"></a>满足通用资源要求
 
@@ -22,8 +22,8 @@ _**适用于：** 基于资源/非库存场景的 Project Operations，精简部
 可以预订指定资源以替换具有资源要求的通用资源。
 
 1. 在 **项目** 页上，选择 **团队** 选项卡。
-2. 从列表中选择具有资源要求的通用资源，然后选择 **预订** 。 或者，打开资源要求，然后选择 **预订** 。
-3. 在 **日程安排助理** 页中，选择要为项目团队预订的指定资源，然后选择 **预订** 。
+2. 从列表中选择具有资源要求的通用资源，然后选择 **预订**。 或者，打开资源要求，然后选择 **预订**。
+3. 在 **日程安排助理** 页中，选择要为项目团队预订的指定资源，然后选择 **预订**。
 
 预订完成并由指定资源满足时，将把通用资源替换为指定资源。
 

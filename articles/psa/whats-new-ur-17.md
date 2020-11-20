@@ -3,7 +3,7 @@ title: Project Service Automation V3 更新版本 17 中的新增功能或更改
 description: 本主题列出了 Project Service Automation V3 更新版本 17 中可用的功能和修复。
 author: ruhercul
 manager: kfend
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.custom: dyn365-projectservice
 ms.date: 03/06/2020
 ms.topic: article
@@ -17,12 +17,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 7ba685568692dafe117de42a71bb14d391cd7cc4
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: bb93208217972639f91b39b7b6705d9897373ef7
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4072560"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4126787"
 ---
 # <a name="project-service-automation-update-release-17-v3"></a>Project Service Automation V3 更新版本 17
 
@@ -46,12 +46,12 @@ ms.locfileid: "4072560"
 **项目管理**
 
 - 已修复：已为团队成员的职位名称添加了 null 值检查功能。
-- 已修复： **msdyn_resourceassignment** 实体的 **msdyn_userresourceid** 字段已被弃用。
+- 已修复：**msdyn_resourceassignment** 实体的 **msdyn_userresourceid** 字段已被弃用。
 - 已修复：从 2.x 升级到 3.x，现在可针对任务分配处理空工作量等值线。
 
 **Sales**
 
-- 已修复： **Invoice.PreValidateInvoiceUpdate** 现在可以正确处理重新分派记录负责人的方案。
-- 已修复：当交易分类是 **时间** 时，对于所有实体（包括 **QuoteLineDetails** 、 **JournalLine** 、 **InvoiceLineDetail** 和 **ContractLineDetails** ）， **UnitGroup** 均不可编辑。 但是， **单位** 仅对 **JournalLine** 和 **InvoiceLineDetails** 不可编辑。
+- 已修复：**Invoice.PreValidateInvoiceUpdate** 现在可以正确处理重新分派记录负责人的方案。
+- 已修复：当交易分类是 **时间** 时，对于所有实体（包括 **QuoteLineDetails**、**JournalLine**、**InvoiceLineDetail** 和 **ContractLineDetails**），**UnitGroup** 均不可编辑。 但是，**单位** 仅对 **JournalLine** 和 **InvoiceLineDetails** 不可编辑。
 
 

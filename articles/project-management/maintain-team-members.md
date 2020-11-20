@@ -5,15 +5,15 @@ author: ruhercul
 manager: AnnBe
 ms.date: 10/05/2020
 ms.topic: article
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.reviewer: kfend
 ms.author: ruhercul
-ms.openlocfilehash: f5b36628e90896c9fe6570de71c95eab83a44ebd
-ms.sourcegitcommit: 11a61db54119503e82faec5f99c4273e8d1247e5
+ms.openlocfilehash: abab21ff98481166517be0c74a2c14c36d5e9d1d
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4072470"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4131512"
 ---
 # <a name="maintain-team-members"></a>维护团队成员
 
@@ -21,12 +21,12 @@ _**适用于：** 基于资源/非库存场景的 Project Operations，精简部
 
 可向项目添加指定资源，方法是直接为团队预订这些资源。
 
-1. 在 Dynamics 365 Project Operations 中，转到 **项目** ，然后选择并打开要为其预订的项目。
-2. 在 **项目** 页的 **团队** 选项卡上，选择 **新建** 。 
+1. 在 Dynamics 365 Project Operations 中，转到 **项目**，然后选择并打开要为其预订的项目。
+2. 在 **项目** 页的 **团队** 选项卡上，选择 **新建**。 
 3. 在 **快速创建项目团队成员** 对话框中，选择可预订资源。 如果为资源分派了默认角色，将使用该角色填充 **角色** 字段。 您可以更改角色。 
 4. 选择将需要资源的开始日期和结束日期，然后选择资源产能的分配方法。 
-5. 如果希望该团队成员担任项目审批者，在 **项目审批者** 字段中选择 **是** 。 该团队成员可以审批为此项目提交的时间和支出条目。 
-6. 选择 **保存** 。
+5. 如果希望该团队成员担任项目审批者，在 **项目审批者** 字段中选择 **是**。 该团队成员可以审批为此项目提交的时间和支出条目。 
+6. 选择 **保存**。
 
 可以将预订的资源分派给项目中的任务。 在 **项目** 页中，在 **计划** 选项卡上，将任务分配给新资源。 从任务网格中的 **资源** 字段启动的资源选取器将显示可选团队成员。
 
@@ -35,7 +35,7 @@ _**适用于：** 基于资源/非库存场景的 Project Operations，精简部
 
 团队成员预订和分配之间的差异显示在 **团队** 和 **资源协调** 选项卡上。 您还可以在更详细的级别协调资源的预订与分配之间的差异。
 
-使用 **计划** 选项卡上的资源选取器搜索和选择尚不属于项目团队的可预订资源。 这些资源在资源选取器中显示为 **其他资源** 。
+使用 **计划** 选项卡上的资源选取器搜索和选择尚不属于项目团队的可预订资源。 这些资源在资源选取器中显示为 **其他资源**。
 
 当您进行选择时，将把资源添加到项目团队，并分配给任务，而不会生成任何预订。
 

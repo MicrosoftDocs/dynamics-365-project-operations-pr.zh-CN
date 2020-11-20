@@ -5,21 +5,21 @@ author: ruhercul
 manager: AnnBe
 ms.date: 10/07/2020
 ms.topic: article
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.reviewer: kfend
 ms.author: ruhercul
-ms.openlocfilehash: cf80f2a1cd27aae33d123e45dee70d94ea4d01a9
-ms.sourcegitcommit: 11a61db54119503e82faec5f99c4273e8d1247e5
+ms.openlocfilehash: 53c72e5fd680eb28128644788752368705440445
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4072545"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4131782"
 ---
 # <a name="copy-a-project"></a>复制项目
 
 _**适用于：** 基于资源/非库存场景的 Project Operations，精简部署 - 估价开票交易_
 
-使用 Dynamics 365 Project Operations，您可以通过选择 **项目** 窗体上的 **复制项目** 来快速构建新项目。 若要复制项目，请打开要复制的项目，然后选择 **复制项目** 。 此操作将复制：
+使用 Dynamics 365 Project Operations，您可以通过选择 **项目** 窗体上的 **复制项目** 来快速构建新项目。 若要复制项目，请打开要复制的项目，然后选择 **复制项目**。 此操作将复制：
 
 - 项目属性
 - 工作分解结构

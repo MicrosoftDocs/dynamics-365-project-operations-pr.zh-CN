@@ -3,7 +3,7 @@ title: 在 Microsoft Project 中使用 Project Service 加载项规划工作 | M
 description: 此主题介绍如何在 Microsoft Project Service 中添加、配置和使用 Microsoft Project 加载项。
 author: ruhercul
 manager: kfend
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 04/06/2019
@@ -18,12 +18,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 1d988419ae5a9d57532902d2553cd7de147e27c1
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: 6bc74442866caccc02e53afc913a55aab81f9629
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4072734"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4129667"
 ---
 # <a name="use-the-project-service-automation-add-in-to-plan-your-work-in-microsoft-project"></a>在 Microsoft Project 中使用 Project Service Automation 加载项规划工作
 
@@ -50,18 +50,18 @@ ms.locfileid: "4072734"
 
 1. 打开 [!INCLUDE[pn_microsoft_project](../includes/pn-microsoft-project.md)] 并单击 **Project Service** 选项卡。  
 
-2. 单击 **连接** 。  
+2. 单击 **连接**。  
 
-3. 输入您的登录信息，然后单击 **登录** 。  
+3. 输入您的登录信息，然后单击 **登录**。  
 
    现在可以开始使用此加载项。  
 
 ## <a name="read-from-a-template"></a>从模板读取  
  从在 [!INCLUDE[pn_project_service_auto](../includes/pn-project-service-auto.md)] 中创建并复制到 [!INCLUDE[pn_microsoft_project](../includes/pn-microsoft-project.md)] 的模板读取，以便开始执行项目规划。 [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [创建项目模板 (Project Service Automation)](../psa/create-project-template.md)  
 
-1.  在 **Project Service** 选项卡中，单击 **读取** > **Project Service Automation Project 模板** 。  
+1.  在 **Project Service** 选项卡中，单击 **读取** > **Project Service Automation Project 模板**。  
 
-2.  从列表中选择一个项目模板，然后单击 **打开** 。  
+2.  从列表中选择一个项目模板，然后单击 **打开**。  
 
     > [!NOTE]
     >  默认情况下，从模板复制到 Project 的任务设置为手动计划的。  
@@ -70,17 +70,17 @@ ms.locfileid: "4072734"
 
 1.  打开项目，然后单击 **任务** 功能区。  
 
-2.  单击 **甘特图** 菜单，然后选择 **资源工作表** 。  
+2.  单击 **甘特图** 菜单，然后选择 **资源工作表**。  
 
 3.  在“资源工作表”中，单击 **Project Service资源角色** 下拉菜单，然后选择一个 Project Service Automation 角色。  
 
 ## <a name="staff-your-project-with-resources"></a>为项目安排员工资源  
 
-1.  从“Project Service”选项卡中选择一行，然后单击 **查找资源** 。  
+1.  从“Project Service”选项卡中选择一行，然后单击 **查找资源**。  
 
 2.  在 **预订资源** 屏幕中，选择要用于该项目的资源。  
 
-3.  单击 **预订** ，然后单击 **确定** 。  
+3.  单击 **预订**，然后单击 **确定**。  
 
 ## <a name="publish-your-project"></a>发布项目  
 项目规划完成后，下一步是导入项目并发布到 [!INCLUDE[pn_project_service_auto](../includes/pn-project-service-auto.md)]。  
@@ -95,13 +95,13 @@ ms.locfileid: "4072734"
 |   [!INCLUDE[pn_microsoft_project](../includes/pn-microsoft-project.md)] **使用情况**    |    导入到 [!INCLUDE[pn_project_service_auto](../includes/pn-project-service-auto.md)]**项目估算** 屏幕中。     |
 
 **导入和发布项目**  
-1. 在 **Project Service** 选项卡中，单击 **发布** > **新 Project Service Automation Project 项目** 。  
+1. 在 **Project Service** 选项卡中，单击 **发布** > **新 Project Service Automation Project 项目**。  
 
-2. 在 **发布到 Project Service 中的新项目** 对话框中，输入 **项目名称** ，然后选择 **客户** 。  
+2. 在 **发布到 Project Service 中的新项目** 对话框中，输入 **项目名称**，然后选择 **客户**。  
 
-3. 或者，选中 **将项目计划链接到 Project Service Automation** ，将计划的 Project 文件链接到 Project Service Automation。  
+3. 或者，选中 **将项目计划链接到 Project Service Automation**，将计划的 Project 文件链接到 Project Service Automation。  
 
-4. 单击 **发布** 。  
+4. 单击 **发布**。  
 
    将 Project 文件链接到 [!INCLUDE[pn_project_service_auto](../includes/pn-project-service-auto.md)] 将让 Project 文件成为主文件，并在 [!INCLUDE[pn_project_service_auto](../includes/pn-project-service-auto.md)] 中将工作分解结构设置为只读。  若要更改项目计划，需要在 [!INCLUDE[pn_microsoft_project](../includes/pn-microsoft-project.md)] 中更改，再作为更新发布到 [!INCLUDE[pn_project_service_auto](../includes/pn-project-service-auto.md)]。  
 
@@ -114,19 +114,19 @@ ms.locfileid: "4072734"
 
 ### <a name="edit-in-pn_microsoft_project"></a>在 [!INCLUDE[pn_microsoft_project](../includes/pn-microsoft-project.md)] 中编辑  
 
-1. 单击主菜单中的 **Project Service** > **项目** 。  
+1. 单击主菜单中的 **Project Service** > **项目**。  
 
 2. 从项目列表打开在 [!INCLUDE[pn_microsoft_project](../includes/pn-microsoft-project.md)] 中创建的项目。  
 
-3. 单击功能区中的 **在 MS Project 中打开** 。 这将在 [!INCLUDE[pn_microsoft_project](../includes/pn-microsoft-project.md)] 中打开链接的主文件。  
+3. 单击功能区中的 **在 MS Project 中打开**。 这将在 [!INCLUDE[pn_microsoft_project](../includes/pn-microsoft-project.md)] 中打开链接的主文件。  
 
 ### <a name="unlink-a-file-and-edit-in-pn_microsoft_project-service"></a>取消链接文件并在 [!INCLUDE[pn_microsoft_project](../includes/pn-microsoft-project.md)] Service 中编辑  
 
-1. 单击主菜单中的 **Project Service** > **项目** 。  
+1. 单击主菜单中的 **Project Service** > **项目**。  
 
 2. 从项目列表打开在 [!INCLUDE[pn_microsoft_project](../includes/pn-microsoft-project.md)] 中创建的项目。  
 
-3. 单击功能区中的 **从 MS Project 取消链接** 。  
+3. 单击功能区中的 **从 MS Project 取消链接**。  
 
 ## <a name="upload-a-project-file-to-sharepoint-or-office-groups"></a>将 Project 文件上传到 SharePoint 或 Office Groups  
  可以将 Project 文件上传到 SharePoint 并在 [!INCLUDE[pn_project_service_auto](../includes/pn-project-service-auto.md)] 项目的“关联的文档”下找到。  需要请管理员为“项目”实体配置并开启 SharePoint 文档管理。 
@@ -135,42 +135,42 @@ ms.locfileid: "4072734"
 
 ### <a name="upload-a-file-for-sharepoint"></a>为 SharePoint 上载文件  
 
-1. 单击主菜单中的 **Project Service** > **上传** 。  
+1. 单击主菜单中的 **Project Service** > **上传**。  
 
-2. 选择 **到 Project Service Automation Project 文档** 。  
+2. 选择 **到 Project Service Automation Project 文档**。  
 
-3. 在 **启用在 [!INCLUDE[pn_microsoft_project](../includes/pn-microsoft-project.md)] 中打开** 对话框中，选择 **是** 或 **否** 。  
+3. 在 **启用在 [!INCLUDE[pn_microsoft_project](../includes/pn-microsoft-project.md)] 中打开** 对话框中，选择 **是** 或 **否**。  
 
-   - 如果单击 **是** ，则可以在 Project Service Automation 中选择 **在 [!INCLUDE[pn_microsoft_project](../includes/pn-microsoft-project.md)] 中打开** 按钮，启动 [!INCLUDE[pn_microsoft_project](../includes/pn-microsoft-project.md)] 并从 SharePoint 文档库加载 Project 文件。  
+   - 如果单击 **是**，则可以在 Project Service Automation 中选择 **在 [!INCLUDE[pn_microsoft_project](../includes/pn-microsoft-project.md)] 中打开** 按钮，启动 [!INCLUDE[pn_microsoft_project](../includes/pn-microsoft-project.md)] 并从 SharePoint 文档库加载 Project 文件。  
 
-   - 如果单击 **否** ，则 **在 [!INCLUDE[pn_microsoft_project](../includes/pn-microsoft-project.md)] 中打开** 按钮的链接无效。  
+   - 如果单击 **否**，则 **在 [!INCLUDE[pn_microsoft_project](../includes/pn-microsoft-project.md)] 中打开** 按钮的链接无效。  
 
 4. 可以在 [!INCLUDE[pn_project_service_auto](../includes/pn-project-service-auto.md)] 中具体 [!INCLUDE[pn_project_service_auto](../includes/pn-project-service-auto.md)] 项目的 **文档** 下找到 [!INCLUDE[pn_microsoft_project](../includes/pn-microsoft-project.md)] 文件。  
 
 ### <a name="upload-a-file-for-office-groups"></a>为 Office Groups 上传文件  
 
-1. 单击主菜单中的 **Project Service** > **上传** 。  
+1. 单击主菜单中的 **Project Service** > **上传**。  
 
-2. 选择 **到 Project Service Automation Project 文档** 。  
+2. 选择 **到 Project Service Automation Project 文档**。  
 
-3. 在 **启用在 [!INCLUDE[pn_microsoft_project](../includes/pn-microsoft-project.md)] 中打开** 对话框中，选择 **是** 或 **否** 。  
+3. 在 **启用在 [!INCLUDE[pn_microsoft_project](../includes/pn-microsoft-project.md)] 中打开** 对话框中，选择 **是** 或 **否**。  
 
-   - 如果单击 **是** ，则可以在 Project Service Automation 中选择 **在 [!INCLUDE[pn_microsoft_project](../includes/pn-microsoft-project.md)] 中打开** 按钮，启动 [!INCLUDE[pn_microsoft_project](../includes/pn-microsoft-project.md)] 并从 SharePoint 文档库加载 Project 文件。  
+   - 如果单击 **是**，则可以在 Project Service Automation 中选择 **在 [!INCLUDE[pn_microsoft_project](../includes/pn-microsoft-project.md)] 中打开** 按钮，启动 [!INCLUDE[pn_microsoft_project](../includes/pn-microsoft-project.md)] 并从 SharePoint 文档库加载 Project 文件。  
 
-   - 如果单击 **否** ，则 **在 [!INCLUDE[pn_microsoft_project](../includes/pn-microsoft-project.md)] 中打开** 按钮的链接无效。  
+   - 如果单击 **否**，则 **在 [!INCLUDE[pn_microsoft_project](../includes/pn-microsoft-project.md)] 中打开** 按钮的链接无效。  
 
 4. 可以在 [!INCLUDE[pn_project_service_auto](../includes/pn-project-service-auto.md)] 中具体 [!INCLUDE[pn_project_service_auto](../includes/pn-project-service-auto.md)] 项目的 **文档** 下找到 [!INCLUDE[pn_microsoft_project](../includes/pn-microsoft-project.md)] 文件。  
 
 ## <a name="publish--your-project-as-a-template"></a>将项目发布为模板  
  可以通过在 [!INCLUDE[pn_project_service_auto](../includes/pn-project-service-auto.md)] 中将项目保存为项目模板来保存项目并重复使用。  在 [!INCLUDE[pn_project_service_auto](../includes/pn-project-service-auto.md)] 中，项目模板是可重复使用的项目计划。 [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [创建项目模板 (Project Service Automation)](../psa/create-project-template.md)  
 
-1. 在 **Project Service** 选项卡中，单击 **发布** > **新 Project Service Automation Project 模板** 。  
+1. 在 **Project Service** 选项卡中，单击 **发布** > **新 Project Service Automation Project 模板**。  
 
-2. 在 **发布到 Project Service 模板中的新项目** 对话框中，输入 **项目模板名称** 。  
+2. 在 **发布到 Project Service 模板中的新项目** 对话框中，输入 **项目模板名称**。  
 
-3. 也可以选中 **将项目计划链接到 Project Service Automation** ，将 Project 文件链接到 [!INCLUDE[pn_project_service_auto](../includes/pn-project-service-auto.md)]。  
+3. 也可以选中 **将项目计划链接到 Project Service Automation**，将 Project 文件链接到 [!INCLUDE[pn_project_service_auto](../includes/pn-project-service-auto.md)]。  
 
-4. 单击 **发布** 。  
+4. 单击 **发布**。  
 
 将 Project 文件链接到 [!INCLUDE[pn_project_service_auto](../includes/pn-project-service-auto.md)] 将让 Project 文件成为主文件，并在 [!INCLUDE[pn_project_service_auto](../includes/pn-project-service-auto.md)] 模板中将工作分解结构设置为只读。  若要更改项目计划，需要在 [!INCLUDE[pn_microsoft_project](../includes/pn-microsoft-project.md)] 中更改，再作为更新发布到 [!INCLUDE[pn_project_service_auto](../includes/pn-project-service-auto.md)]。
 

@@ -3,7 +3,7 @@ title: 管理资源请求
 description: 如何在 Project Service 中管理资源请求
 author: JohnPBurrows
 manager: kfend
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 8/03/2018
@@ -18,12 +18,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 49a2d2102246126f6edc9cb36a072583c566c95a
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: 11d7e603755c9339c2d43b79ef65c27e3bb6e6fd
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4072603"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4128992"
 ---
 # <a name="manage-resource-requests-project-service"></a>管理资源请求 (Project Service)
 
@@ -31,13 +31,13 @@ ms.locfileid: "4072603"
 
 帐户管理员和项目管理员定期为其项目请求资源。 通过 [!INCLUDE[pn_project_service_auto](../includes/pn-project-service-auto.md)] 功能，您可以找到拥有必需的技能和熟练程度的顾问，并将其与这些资源请求配对。  
   
-1. 转到 **Project Service** > **资源请求** 。  
+1. 转到 **Project Service** > **资源请求**。  
   
-2. 选择资源请求并单击 **查找资源** 。 这将显示所有资源及其可用性的日历视图，以及用于提供资源预订状态的视觉视图的颜色编码。  
+2. 选择资源请求并单击 **查找资源**。 这将显示所有资源及其可用性的日历视图，以及用于提供资源预订状态的视觉视图的颜色编码。  
   
     执行以下任何步骤以优化搜索：  
   
-   -   从屏幕顶端选择视图或排序顺序。 还可以选择显示该 **天** 、 **周** 还是 **月** 的可用性，以及使用箭头查看上一时间段或下一时间段。 可使用搜索框查找特定资源。  
+   -   从屏幕顶端选择视图或排序顺序。 还可以选择显示该 **天**、**周** 还是 **月** 的可用性，以及使用箭头查看上一时间段或下一时间段。 可使用搜索框查找特定资源。  
   
    -   单击 **选项** 可更改显示的内容。 例如，可以显示图例来显示针对不同类型预订的颜色方案，也可以选择仅显示特定类型的预订（例如，硬性预订或软性预订）。  
   

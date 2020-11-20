@@ -5,15 +5,15 @@ author: rumant
 manager: Annbe
 ms.date: 10/13/2020
 ms.topic: article
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: 275ef9b9706d212a6da0dc7c060081c3226572f3
-ms.sourcegitcommit: 11a61db54119503e82faec5f99c4273e8d1247e5
+ms.openlocfilehash: fd29a3fc9c873d46dd66a05ad100c7515177d6cd
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4072483"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4130927"
 ---
 # <a name="default-price-lists"></a>默认价目表
 
@@ -46,7 +46,7 @@ Dynamics 365 Project Operations 中的每个项目报价单和合同都包含一
 在 Project Operations 中，成本价目表不会默认显示在任何实体中。 确定用于项目成本的成本价目表始终在当下完成。 系统将完成以下过程来确定哪个价目表用于项目成本：
 
 1. 系统首先查看附加到项目的合同签订部门的价目表。
-2. 然后，系统查看与传入的估计值或实际值明细匹配的价目表的时效。 在此情况下， *估计值明细* 引用 Project Operations 中的全部三个估计上下文：
+2. 然后，系统查看与传入的估计值或实际值明细匹配的价目表的时效。 在此情况下，*估计值明细* 引用 Project Operations 中的全部三个估计上下文：
 
     - 项目估计值明细
     - 报价单明细详细信息

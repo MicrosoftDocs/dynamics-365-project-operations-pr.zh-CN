@@ -5,15 +5,15 @@ author: rumant
 manager: Annbe
 ms.date: 10/19/2020
 ms.topic: article
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: f2b9cbb4cce1691f262c85d95849e01f1a812d51
-ms.sourcegitcommit: 3a0c18823a7ad23df5aa3de272779313abe56c82
+ms.openlocfilehash: 6dde924c24dcffe2a8fb690e6eb429e4c3d9fb28
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/20/2020
-ms.locfileid: "4072839"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4126382"
 ---
 # <a name="import-an-estimate-to-a-project-based-contract-line"></a>将估算导入基于项目的合同子项
 
@@ -22,8 +22,8 @@ _**适用于：** 面向资源/非库存场景的 Project Operations_
 在 Dynamics 365 Project Operations 中，您可以将估算从项目导入到基于项目的合同子项。
 
 1. 验证是否已填充基于项目的合同子项上的 **项目** 字段。
-2. 在 **合同子项详细信息** 选项卡上，在子网格上，选择 **从项目估算导入** 。 将打开带有汇总选项的对话页面。 可用汇总选项包括 **交易类** 、 **类别** 、 **角色** 和 **项目任务** 。 根据汇总选择，将复制此合同子项中包括的所有交易类的项目估算。 
-3. 要检查包括哪些交易类，在合同子项的 **常规** 选项卡中，检查 **包括时间** 、 **包括支出** 和 **包括费用** 字段中的值。
+2. 在 **合同子项详细信息** 选项卡上，在子网格上，选择 **从项目估算导入**。 将打开带有汇总选项的对话页面。 可用汇总选项包括 **交易类**、**类别**、**角色** 和 **项目任务**。 根据汇总选择，将复制此合同子项中包括的所有交易类的项目估算。 
+3. 要检查包括哪些交易类，在合同子项的 **常规** 选项卡中，检查 **包括时间**、**包括支出** 和 **包括费用** 字段中的值。
 
 导入估算时，应用程序将基于合同所附的项目价目表和在合同子项上设置的计费类型设置默认选择定价。 如果在合同子项上将角色或类别设置为非应计费，为该角色或类别导入的估算明细将为非应计费，不会加总合同子项的合同值。
 
@@ -52,7 +52,7 @@ _**适用于：** 面向资源/非库存场景的 Project Operations_
 | 任务 A | 机票 | 10/1/2020 | 4 | 400 | 1600 |
 | &nbsp;  | 酒店 | 10/1/2020 | 6 | 200 | 1200 |
 
-当用户选择按 **交易类** 、 **类别** 和 **叶节点任务** 进行汇总时，将导入以下信息。 请注意，此结果与项目上的结果相同：
+当用户选择按 **交易类**、**类别** 和 **叶节点任务** 进行汇总时，将导入以下信息。 请注意，此结果与项目上的结果相同：
 
 | 任务 | 类别 | 日期 | 数量 | 单价 | 应收总额 |
 | --- | --- | --- | --- | --- | --- |

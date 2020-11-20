@@ -3,7 +3,7 @@ title: 登录 Project Service Automation
 description: 如何登录到 Project Service
 author: ruhercul
 manager: kfend
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 8/03/2018
@@ -18,12 +18,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: b256820c52214b76e377d84c99d809fad88b8abe
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: 5ecd3d38c11ffe17fbe967dc83db4c27d53807a3
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4072698"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4128930"
 ---
 # <a name="sign-in-to-project-service-automation"></a>登录 Project Service Automation
 
@@ -44,13 +44,13 @@ ms.locfileid: "4072698"
   
 1.  单击屏幕右下角顶部的齿轮按钮。  
   
-2.  单击 **选项** 。  
+2.  单击 **选项**。  
   
 3.  单击 **电子邮件** 选项卡。  
   
-4.  选择 **允许其他 Microsoft Dynamics 365 用户代表您发送电子邮件** 。  
+4.  选择 **允许其他 Microsoft Dynamics 365 用户代表您发送电子邮件**。  
   
-5.  单击 **确定** 。  
+5.  单击 **确定**。  
   
 ### <a name="see-also"></a>另请参阅  
  [时间、费用和协作指南](../psa/time-expense-collaboration-guide.md)

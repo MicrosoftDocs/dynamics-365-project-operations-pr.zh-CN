@@ -3,7 +3,7 @@ title: Project Service Automation V3 更新版本 22 中的新增功能或更改
 description: 本主题列出了 Project Service Automation V3 更新版本 22 中可用的功能和修复。
 author: ruhercul
 manager: kfend
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.custom: dyn365-projectservice
 ms.date: 07/28/2020
 ms.topic: article
@@ -17,12 +17,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: badd87a276d68d9959e9cca4220daf61ed570638
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: 456ed68bc1d74c2c8e5d2420a3f5d1fb8e0465d6
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4072552"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4126607"
 ---
 # <a name="project-service-automation-update-release-22-v3"></a>Project Service Automation V3 更新版本 22
 
@@ -40,7 +40,7 @@ ms.locfileid: "4072552"
 
 已修复以下问题：
 
-- 导入后， **时间条目** 不会自动添加到“时间条目”时间表中。
+- 导入后，**时间条目** 不会自动添加到“时间条目”时间表中。
 - **时间条目** 网格日期选择器无法识别用户的区域设置。
 
 **资源管理**
@@ -69,4 +69,4 @@ ms.locfileid: "4072552"
 - 在“新建报价单项目价目表”窗体/实体上的“价目表”查找中选择“成本价目表”时，未显示验证错误消息。
 - 如果附加到报价单的 BPF 处于最后阶段，则以“赢单”形式结束报价单时，不会导航到创建的合同。
 - 在撤回时间条目后，用于冲销的 **未记帐销售额** 会链接到原始成本。
-- 选择 **确认** 按钮后，除非刷新发票，否则发票状态不会更改为 **已确认** 。
+- 选择 **确认** 按钮后，除非刷新发票，否则发票状态不会更改为 **已确认**。

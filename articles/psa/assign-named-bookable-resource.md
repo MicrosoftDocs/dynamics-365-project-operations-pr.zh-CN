@@ -3,7 +3,7 @@ title: 为项目团队预订指定的可预订资源和分派任务
 description: 本主题介绍如何为项目团队预订指定资源和将其分派给任务。
 author: JohnPBurrows
 manager: kfend
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 11/28/2018
@@ -18,12 +18,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: defc92e701ae6baf9d54f41dca123a09ef834c35
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: 0300c494a3294b26e2de6bbfa1dd50a76bb72651
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4072723"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4130162"
 ---
 # <a name="book-named-bookable-resources-to-a-project-team-and-assign-tasks"></a>为项目团队预订指定的可预订资源和分派任务 
 
@@ -31,15 +31,15 @@ ms.locfileid: "4072723"
 
 可向项目添加指定资源，方法是直接为团队预订这些资源。 为此，请完成以下步骤：
 
-1. 在 Project Service Automation 中，转到 **项目** ，然后选择并打开要为其预订的项目。
-2. 在 **项目** 页的 **团队** 选项卡上，单击 **新建** 。 
+1. 在 Project Service Automation 中，转到 **项目**，然后选择并打开要为其预订的项目。
+2. 在 **项目** 页的 **团队** 选项卡上，单击 **新建**。 
 
 ![从“团队”选项卡添加团队成员](media/RM-how-to-1.png)
 
 3. 在 **快速创建项目团队成员** 对话框中，选择可预订资源。 如果为资源分派了默认角色，将使用该角色填充 **角色** 字段。 可以根据需要更改此角色。 
 4. 选择将需要资源的开始日期和结束日期，然后选择资源产能的分配方法。 
-5. 如果希望该团队成员担任项目审批者，请在 **项目审批者** 字段中选择 **是** 。 这意味着该团队成员可以审批为此项目提交的时间和支出条目。 
-6. 单击 **保存** 。
+5. 如果希望该团队成员担任项目审批者，请在 **项目审批者** 字段中选择 **是**。 这意味着该团队成员可以审批为此项目提交的时间和支出条目。 
+6. 单击 **保存**。
 
 ![在快速创建窗体中添加团队成员](media/RM-how-to-2.png)
 
@@ -53,7 +53,7 @@ ms.locfileid: "4072723"
 
 ![“资源协调”选项卡](media/RM-how-to-4.png)
 
-也可以使用 **计划** 选项卡上的资源选取器搜索和选择尚不属于项目团队的可预订资源。 这些在资源选取器中显示为 **其他资源** 。
+也可以使用 **计划** 选项卡上的资源选取器搜索和选择尚不属于项目团队的可预订资源。 这些在资源选取器中显示为 **其他资源**。
 
 ![为任务分派非团队成员资源](media/RM-how-to-5.png)
 

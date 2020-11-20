@@ -5,21 +5,21 @@ author: rumant
 manager: Annbe
 ms.date: 10/13/2020
 ms.topic: article
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: babce9c64098a9c87072786d914d2340251a8986
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: 24da0887c0266d51bddcbbf8efd6f2644b6d0f4f
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4072724"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4128272"
 ---
 # <a name="confirm-a-project-contract"></a>确认项目合同
 
 _**适用于：** 基于资源/非库存场景的 Project Operations，精简部署 - 估价开票交易_
 
-Dynamics 365 Project Operations 中的项目合同可以处于有效状态，状态描述为 **已确认** ，或者是关闭状态，状态描述为 **丢单** 。 在确认项目合同时，状态将从 **草稿** 更新为 **有效** ，状态描述为 **已确认** 。 有效或关闭的合同无法编辑或重新打开。 
+Dynamics 365 Project Operations 中的项目合同可以处于有效状态，状态描述为 **已确认**，或者是关闭状态，状态描述为 **丢单**。 在确认项目合同时，状态将从 **草稿** 更新为 **有效**，状态描述为 **已确认**。 有效或关闭的合同无法编辑或重新打开。 
 
 ### <a name="financial-impact-of-confirming-a-project-contract"></a>确认项目合同的财务影响
 
@@ -29,7 +29,7 @@ Dynamics 365 Project Operations 中的项目合同可以处于有效状态，状
 
 ## <a name="close-a-project-contract-as-lost"></a>作为丢单关闭项目合同
 
-当作为丢单关闭项目合同时，合同状态将更新为 **已关闭** ，状态描述为 **丢单** 。 项目合同将变为只读。 在完成更改之前，会提供确认对话框，因为您无法重新打开已关闭的项目合同。
+当作为丢单关闭项目合同时，合同状态将更新为 **已关闭**，状态描述为 **丢单**。 项目合同将变为只读。 在完成更改之前，会提供确认对话框，因为您无法重新打开已关闭的项目合同。
 
 如果作为丢单关闭的项目合同在其子项上引用了项目，该项目也会标记为关闭。 从当一天之后的任何资源预订都会被取消。 发票上尚未包含的项目合同上的任何未记帐实际销售额都将被冲销。
 

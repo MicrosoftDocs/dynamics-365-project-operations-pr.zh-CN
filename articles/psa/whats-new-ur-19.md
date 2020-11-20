@@ -3,7 +3,7 @@ title: Project Service Automation V3 更新版本 19 中的新增功能或更改
 description: 本主题列出了 Project Service Automation V3 更新版本 19 中可用的功能和修复。
 author: ruhercul
 manager: kfend
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.custom: dyn365-projectservice
 ms.date: 05/05/2020
 ms.topic: article
@@ -17,12 +17,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: ecc923cccfad21985025ab9d8006aaff16afc25f
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: e116bcbb8e9d184b7b894709c893aaf1dadefc2f
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4072557"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4126820"
 ---
 # <a name="project-service-automation-update-release-19-v3"></a>Project Service Automation V3 更新版本 19
 
@@ -53,7 +53,7 @@ ms.locfileid: "4072557"
 已修复以下问题： 
 
 - **重新计算** 操作不支持支出合同子项详细信息或报价单明细详细信息。
-- 费用估算缺少 **更新价格** 。
+- 费用估算缺少 **更新价格**。
 -  客户无法从 **项目合同** 页面选择自定义合同状态描述。
 - 客户在通过报价单创建自定义价目表时遇到了性能下降。
 - 客户遇到了 **报价单明细详细信息** 与 **合同子项详细信息** 页中 **计价单位** 默认值不一致。

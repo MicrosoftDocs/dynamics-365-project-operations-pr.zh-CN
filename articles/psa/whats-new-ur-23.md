@@ -3,7 +3,7 @@ title: Project Service Automation V3 更新版本 23 中的新增功能或更改
 description: 本主题列出了 Project Service Automation V3 更新版本 23 中可用的功能和修复。
 author: ruhercul
 manager: kfend
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.custom: dyn365-projectservice
 ms.date: 08/25/2020
 ms.topic: article
@@ -17,12 +17,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: eaae9cc62c449695cb2e999be48c57075aadbb21
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: 07f1a274914d7e641ddf2fd42f377dce1da7f815
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4072551"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4131107"
 ---
 # <a name="project-service-automation-update-release-23-v3"></a>Project Service Automation V3 更新版本 23
 
@@ -56,8 +56,8 @@ ms.locfileid: "4072551"
 - **任务计划** 网格资源查找限制最多只显示项目团队的五个团队成员。 
 - **任务计划** 网格资源查找不会筛选停用资源。
 - 手动模式未在项目计划工作分解结构中按预期工作。
-- **任务计划** 网格显示 **停用交易记录类别** 。
-- 当任务有多个工作时， **资源分配** 网格舍入不正确。
+- **任务计划** 网格显示 **停用交易记录类别**。
+- 当任务有多个工作时，**资源分配** 网格舍入不正确。
 - 单个任务的计划成本和实际成本的舍入值不同。
 
 **Sales**
