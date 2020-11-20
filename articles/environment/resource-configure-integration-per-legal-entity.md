@@ -5,15 +5,15 @@ author: sigitac
 manager: Annbe
 ms.date: 10/21/2020
 ms.topic: article
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.reviewer: kfend
 ms.author: sigitac
-ms.openlocfilehash: c0e02ef2d17bf49209369f7adad681d9a5981e2a
-ms.sourcegitcommit: 91ad491e94a421f256a378b0f4b26ed48c67bc93
+ms.openlocfilehash: 5d2bb415362a088e01253fbe54f9f06569b4a921
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/22/2020
-ms.locfileid: "4096741"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4122872"
 ---
 # <a name="configure-project-operations-integration-per-legal-entity"></a>配置每个法律实体的 Project Operations 集成 
 
@@ -32,13 +32,13 @@ _**适用于：** 面向资源/非库存场景的 Project Operations_
     - **启用 Dynamics 365 Customer Engagement 上的 Project Operations**
 
 > [!NOTE]
-> 如果您看不到列出的 **功能键** ，请验证您的 Finance 版本是否满足最低版本要求（应用所有高质量更新的应用程序版本 10.0.13 或更高版本）。 选择 **检查更新** 刷新功能列表。
+> 如果您看不到列出的 **功能键**，请验证您的 Finance 版本是否满足最低版本要求（应用所有高质量更新的应用程序版本 10.0.13 或更高版本）。 选择 **检查更新** 刷新功能列表。
 
 ## <a name="define-the-project-operations-deployment-scenario-for-a-legal-entity"></a>定义法人的 Project Operations 部署方案
 
 您可以在法人级别启用 Dynamics 365 Customer Engagement 上的 Project Operations。 您可以让一个法人使用 Dynamics 365 Customer Engagement 上的面向资源/非库存场景的 Project Operations。 在同一个环境中，您可以让另一个法人使用面向库存/生产订单场景的 Project Operations。
 
-1. 在 Dynamics 365 Finance 中，转到 **项目管理和会计** > **设置** > **全局项目管理和会计参数** 。
+1. 在 Dynamics 365 Finance 中，转到 **项目管理和会计** > **设置** > **全局项目管理和会计参数**。
 2. 在可用法人列表中，选择将启用多个合同子项和 Dynamics 365 Customer Engagement 上的 Project Operations 功能的实体。 不选择将使用面向库存/生产订单场景的 Project Operations 的法人。
 
 > [!NOTE]
@@ -48,6 +48,6 @@ _**适用于：** 面向资源/非库存场景的 Project Operations_
 
 使用 Dynamics 365 Customer Engagement 上的 Project Operations 的每个法人都需要一组默认参数。 这些参数在 **项目管理和会计参数** 页上的 **Project Operations** 选项卡上配置。 参数包括：
 
-  - **记帐类型默认值** ：Project Operations 使用一组固定的记帐类型默认值，这些值必须映射到明细属性“财务”。 为每个记帐类型创建一条记录： **未指定** 、 **应计费** 、 **非应计费** 、 **免费** 和 **不可用** 。
-  - **项目类别默认值** ：选择每个交易类型要使用的默认项目类别。 这些默认值将在 **Project Operations 集成日记帐** 以及未为项目实际值指定交易类别的估算中使用。
-  - **预测** ：选择要用于时间和支出估计的预测模型。
+  - **记帐类型默认值**：Project Operations 使用一组固定的记帐类型默认值，这些值必须映射到明细属性“财务”。 为每个记帐类型创建一条记录：**未指定**、**应计费**、**非应计费**、**免费** 和 **不可用**。
+  - **项目类别默认值**：选择每个交易类型要使用的默认项目类别。 这些默认值将在 **Project Operations 集成日记帐** 以及未为项目实际值指定交易类别的估算中使用。
+  - **预测**：选择要用于时间和支出估计的预测模型。

@@ -3,7 +3,7 @@ title: 在销售流程中提供项目的工作估计
 description: 如何在 Project Service 中的销售流程中提供项目的工作估计
 author: ruhercul
 manager: kfend
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 8/03/2018
@@ -18,12 +18,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: ddb7f8c0ff8c7fd7e51edb42f9d227f2b91a811b
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: 7bd83b6872d437f1d074d6ea2336c751bdfdd9e6
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4072654"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4120577"
 ---
 # <a name="provide-work-estimates-for-a-project-during-the-sales-process-project-service"></a>在销售流程中提供项目的工作估计 (Project Service)
 
@@ -46,7 +46,7 @@ ms.locfileid: "4072654"
 ## <a name="import-estimates-from-a-project-into-a-quote"></a>将估计从项目导入到报价单  
  当您的项目中有项目估计后，您可以将这些估计导入到报价单明细：  
   
--   在 **报价单明细详细信息** 中，单击 **从估计导入** 。 
+-   在 **报价单明细详细信息** 中，单击 **从估计导入**。 
 
 -   选择是否导入按交易类型、角色或工作分解结构节点级别汇总的项目估计。  
   

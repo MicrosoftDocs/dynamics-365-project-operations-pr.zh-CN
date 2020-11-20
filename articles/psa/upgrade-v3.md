@@ -2,7 +2,7 @@
 title: 升级注意事项 - Microsoft Dynamics 365 Project Service Automation 版本 2.x 或 1.x 到版本 3
 description: 此主题介绍从 Project Service Automation 版本 2.x 或 1.x 升级到版本 3 时必须考虑的注意事项。
 manager: kfend
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 11/13/2018
@@ -17,12 +17,12 @@ search.audienceType:
 search.app:
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 19d6d312c7cedd2d7b9b5649452b85dd24fae761
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: 3c51726f71cfd0d4be98982d6a02268d64a70b91
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4072684"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4121702"
 ---
 # <a name="upgrade-considerations---psa-version-2x-or-1x-to-version-3"></a>升级注意事项 - PSA 版本 2.x 或 1.x 到版本 3.x
 [!INCLUDE[cc-applies-to-psa-app-1x-2x](../includes/cc-applies-to-psa-app-1x-2x.md)]
@@ -35,7 +35,7 @@ Dynamics 365 Project Service Automation 和 Dynamics 365 Field Service 都使用
 
 ![Project Service Automation 版本 2 和版本 1 中 WBS 上的明细任务](media/upgrade-line-task-01.png)
 
-在 Project Service Automation 版本 3 中，已更改了将可预订资源分派给任务时采用的基础架构。 明细任务已弃用， **任务实体** 中的任务与 **资源分派** 视图中的团队成员之间存在直接的 1:1 关系。 分派给项目团队成员的任务现在直接存储在资源分派实体中。  
+在 Project Service Automation 版本 3 中，已更改了将可预订资源分派给任务时采用的基础架构。 明细任务已弃用，**任务实体** 中的任务与 **资源分派** 视图中的团队成员之间存在直接的 1:1 关系。 分派给项目团队成员的任务现在直接存储在资源分派实体中。  
 
 这些更改影响项目团队中具有指定可预订资源和通用资源的资源分派的所有现有项目的升级。 此主题提供升级到版本 3 时需要对项目注意的事项。 
 

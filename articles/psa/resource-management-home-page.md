@@ -3,7 +3,7 @@ title: 资源管理主页
 description: 本主题提供有关如何管理资源的信息。
 author: ruhercul
 manager: kfend
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 03/28/2019
@@ -18,12 +18,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: c1a48dc3c814cfaaa08ba8c00834b0b37d6fbc5a
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: f4289d838c087f81e221ef736cd8ff24846009fa
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4072825"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4124132"
 ---
 # <a name="resource-management-home-page"></a>资源管理主页
 

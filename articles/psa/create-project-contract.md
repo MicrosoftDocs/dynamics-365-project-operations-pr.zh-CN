@@ -3,7 +3,7 @@ title: 创建项目合同
 description: 如何在 Project Service 中创建项目合同
 author: ruhercul
 manager: kfend
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 8/03/2018
@@ -18,12 +18,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 7a626da271a4c4e1751870323b56ce54743bb891
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: 94dd55559f9eaa71758caba7974b0e3b779c40a5
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4072618"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4121927"
 ---
 # <a name="create-a-project-contract-project-service"></a>创建项目合同 (Project Service)
 
@@ -33,15 +33,15 @@ ms.locfileid: "4072618"
   
 1. 在上一步骤中的 **项目合同** 屏幕，根据需要更改 **摘要** 区域的任何信息。  
   
-2. 要向合同添加产品，请单击 **合同子项** 区域中 **基于产品的明细** 下的 **新建** 。 在 **产品名称** 下选择一项，然后指定数量、销售价格以及合同金额。  
+2. 要向合同添加产品，请单击 **合同子项** 区域中 **基于产品的明细** 下的 **新建**。 在 **产品名称** 下选择一项，然后指定数量、销售价格以及合同金额。  
   
-3. 要向合同添加基于项目的明细，单击 **合同子项** 区域中 **基于项目** 的明细下的 **+** 。 输入名称、预算金额和项目（如果有）。 如果需要创建带工作分解结构的项目以提供预计，请参阅[创建项目](../psa/create-project.md)。  
+3. 要向合同添加基于项目的明细，单击 **合同子项** 区域中 **基于项目** 的明细下的 **+**。 输入名称、预算金额和项目（如果有）。 如果需要创建带工作分解结构的项目以提供预计，请参阅[创建项目](../psa/create-project.md)。  
   
 4. 完成编辑之后，单击屏幕右下角的 **保存** 按钮。  
   
-5. 当您准备好将合同发送给客户时，请依次 **更多** (…)、 **运行报表** 和 **订单** 。 将报表保存为 [!INCLUDE[pn_ms_Word_short](../includes/pn-ms-word-short.md)] 文档，根据需要编辑，然后将合同发送给客户。  
+5. 当您准备好将合同发送给客户时，请依次 **更多** (…)、**运行报表** 和 **订单**。 将报表保存为 [!INCLUDE[pn_ms_Word_short](../includes/pn-ms-word-short.md)] 文档，根据需要编辑，然后将合同发送给客户。  
   
-6. 如果客户确认您的合同，请单击 **项目合同** 屏幕顶部的 **确认** 。 如果客户希望您更改某些项目，请创建新合同。 如果客户决定当时不使用您的服务，请单击 **项目合同** 屏幕顶部的 **作为丢单结束** 。  
+6. 如果客户确认您的合同，请单击 **项目合同** 屏幕顶部的 **确认**。 如果客户希望您更改某些项目，请创建新合同。 如果客户决定当时不使用您的服务，请单击 **项目合同** 屏幕顶部的 **作为丢单结束**。  
   
 ### <a name="see-also"></a>另请参阅  
  [客户经理指南](../psa/account-manager-guide.md)

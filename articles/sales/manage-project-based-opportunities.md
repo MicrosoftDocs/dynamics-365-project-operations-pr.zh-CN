@@ -5,15 +5,15 @@ author: rumant
 manager: Annbe
 ms.date: 10/21/2020
 ms.topic: article
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: 39ce52d5da4c7027ee2f2fa44579c0d4bf74925e
-ms.sourcegitcommit: f8edff6422b82fdf2cea897faa6abb51e2c0c3c8
+ms.openlocfilehash: c5a8bfea5540432a62d7075443cf237571bfa4de
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/21/2020
-ms.locfileid: "4087830"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4118462"
 ---
 # <a name="manage-project-based-opportunities"></a>管理基于项目的商机
 
@@ -27,7 +27,7 @@ Dynamics 365 Project Operations 中基于项目的商机在设计加入了对 Dy
 
 可在 **商机** 列表页查看所有基于项目的商机的列表。 
 
-1. 转到 **销售** > **商机** 。
+1. 转到 **销售** > **商机**。
 2. 使用 **视图切换器** 选择商机的其他筛选视图。 您可以使用自定义筛选条件创建您自己的视图，来配置这些视图和导航选项。
 
 可从此列表页或详细信息页面创建或删除项目商机。

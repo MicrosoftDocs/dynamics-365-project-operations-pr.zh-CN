@@ -3,7 +3,7 @@ title: 从日程安排板创建项目预订
 description: 此主题介绍如何从日程安排板创建项目预订。
 author: ruhercul
 manager: kfend
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 9/26/2019
@@ -18,12 +18,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 57fbc71681015fca73cdda4bc7d392f6be4289f3
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: ccbfedec82b2d9035b51cf1b283ae5c441f1cbcc
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4072621"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4122287"
 ---
 # <a name="create-a-project-booking-from-the-schedule-board"></a>从日程安排板创建项目预订
 
@@ -70,7 +70,7 @@ ms.locfileid: "4072621"
 
 4. 由于 **主要要求** 是持续时间为零 (0) 的空要求，您需要在选择和预订资源时在 **创建资源预订** 面板上设置持续时间。
 
-5. 您还可以在日程安排板底部选择 **项目主要要求** ，并将其拖放到资源上以进行预订。
+5. 您还可以在日程安排板底部选择 **项目主要要求**，并将其拖放到资源上以进行预订。
  
     由于 **主要要求** 是持续时间为零 (0) 的空要求，所以您需要在选择和预订资源时在 **创建资源预订** 面板上设置持续时间。
  
@@ -79,11 +79,11 @@ ms.locfileid: "4072621"
 ## <a name="book-from-a-new-resource-requirement"></a>从新资源要求预订
 完成以下步骤从新资源要求预订。 
 
-1. 转到 **资源要求** ，然后选择 **新建** 创建新的资源要求。
+1. 转到 **资源要求**，然后选择 **新建** 创建新的资源要求。
 
 2. 在 **项目** 选项卡上，选择一个项目以关联该项目的要求。
  
-    在日程安排上，这个新要求显示为您可以满足的 **未解决的要求** 。
+    在日程安排上，这个新要求显示为您可以满足的 **未解决的要求**。
 
 3. 预订资源以将其添加到项目团队。
 

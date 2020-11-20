@@ -3,17 +3,17 @@ title: 设置新环境
 description: 此主题提供有关如何设置新的 Project Operations 环境的信息。
 author: sigitac
 manager: Annbe
-ms.date: 10/07/2020
+ms.date: 10/26/2020
 ms.topic: article
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.reviewer: kfend
 ms.author: sigitac
-ms.openlocfilehash: a43b947207b6d4276ef27ec996713bf3883e7906
-ms.sourcegitcommit: 11a61db54119503e82faec5f99c4273e8d1247e5
+ms.openlocfilehash: 044a942a068b33318b98041cc94944d90c1d63c3
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4072491"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4121162"
 ---
 # <a name="provision-a-new-environment"></a>设置新环境
 
@@ -26,7 +26,7 @@ _**适用于：** 面向资源/非库存场景的 Project Operations_
 请使用以下步骤为 LCS 项目启用 Project Operations 自动设置流。
 
 1. 转到 [LCS](https://lcs.dynamics.com/v2)，选择 **预览功能管理** 磁贴。
-2. 在 **预览功能** 列表中，选择 **Project Operations 功能** ，然后选择 **已启用预览功能** 启用 Project Operations。
+2. 在 **预览功能** 列表中，选择 **Project Operations 功能**，然后选择 **已启用预览功能** 启用 Project Operations。
 
 > [!NOTE]
 > 每个 LCS 项目仅执行一次此步骤。
@@ -39,8 +39,8 @@ _**适用于：** 面向资源/非库存场景的 Project Operations_
 > [!IMPORTANT]
 > 确保所选的应用程序版本为 10.0.13 或更高版本。
 
-3. 若要设置 Project Operations，在 **高级设置** 下选择 **Common Data Service** 。 
-4. 选择 **是** 启用 **Common Data Service 设置** ，然后在必填字段中输入信息：
+3. 若要设置 Project Operations，在 **高级设置** 下选择 **Common Data Service**。 
+4. 选择 **是** 启用 **Common Data Service 设置**，然后在必填字段中输入信息：
 
   - 客户
   - 区域
@@ -60,9 +60,9 @@ _**适用于：** 面向资源/非库存场景的 Project Operations_
 
 7. 完成向导中的其余必填字段，并确认部署。 环境设置时间因环境类型而异。 设置最多可能需要 6 个小时。
 
-  在成功完成部署后，环境将显示 **已部署** 。
+  在成功完成部署后，环境将显示 **已部署**。
 
-8. 若要确认环境已成功部署，选择 **登录** ，然后登录到环境进行确认。
+8. 若要确认环境已成功部署，选择 **登录**，然后登录到环境进行确认。
 
 ![ 环境详细信息](./media/3EnvironmentDetails.png)
 
@@ -76,31 +76,31 @@ Project Operations 需要应用程序版本为 **10.0.13 (10.0.569.20009)** 或�
 
 您可能需要对您的 Finance 环境应用高质量更新才能获得此版本。
 
-1. 在 LCS 中，在 **环境详细信息** 页上的 **可用更新** 部分，选择 **查看更新** 。
+1. 在 LCS 中，在 **环境详细信息** 页上的 **可用更新** 部分，选择 **查看更新**。
 
 ![查看更新](./media/5ViewUpdates.png)
 
-2. 在 **二进制更新** 页上，选择 **保存包** 。
+2. 在 **二进制更新** 页上，选择 **保存包**。
 
 ![保存包](./media/6SavePackage.png)
 
-3. 单击 **全选** ，然后选择 **保存包** 。
+3. 单击 **全选**，然后选择 **保存包**。
 
 ![查看和保存更新](./media/7ReviewAndSaveUpdates.png)
 
-4. 输入包的名称和说明，然后选择 **保存** 。 根据 Internet 连接的不同，此过程可能需要一些时间。
+4. 输入包的名称和说明，然后选择 **保存**。 根据 Internet 连接的不同，此过程可能需要一些时间。
 
 ![将包上载到资产库](./media/8UploadPackageToAssetsLibrary.png)
 
-5. 保存包后，请选择 **完成** ，然后将此包保存到您的 LCS 项目的资产库中。
+5. 保存包后，请选择 **完成**，然后将此包保存到您的 LCS 项目的资产库中。
 
 保存和验证包可能需要约 15 分钟时间。
 
-6. 若要应用更新，导航到 LCS 中的 **环境详细信息** 页，选择 **维护** > **应用更新** 。
+6. 若要应用更新，导航到 LCS 中的 **环境详细信息** 页，选择 **维护** > **应用更新**。
 
 ![维护环境](./media/9MaintainEnvironment.png)
 
-7. 在更新列表中，选择您创建的包，然后选择 **应用** 。
+7. 在更新列表中，选择您创建的包，然后选择 **应用**。
 
 ![应用更新](./media/10ApplyUpdates.png)
 
@@ -111,8 +111,8 @@ Project Operations 需要应用程序版本为 **10.0.13 (10.0.569.20009)** 或�
 ## <a name="establish-a-dual-write-connection"></a>建立双写入连接 
 
 1. 在您的 LCS 项目中，转到 **环境详细信息** 页。
-2. 在 **Common Data Service 环境信息** 下，选择 **链接到面向应用程序的 CDS** 。
-3. 链接完成后，再次选择 **链接到面向应用程序的 CDS** 。 您将被重定向到 Finance 中的“双写入”。
+2. 在 **Common Data Service 环境信息** 下，选择 **链接到面向应用程序的 CDS**。
+3. 链接完成后，再次选择 **链接到面向应用程序的 CDS**。 您将被重定向到 Finance 中的“双写入”。
 
 ![指向 CDS 的链接](./media/12LinktoCDS.png)
 
@@ -120,7 +120,7 @@ Project Operations 需要应用程序版本为 **10.0.13 (10.0.569.20009)** 或�
 
 ![应用解决方案](./media/13ApplySolutions.png)
 
-5. 选择两个解决方案 **Dynamics 365 Finance and Operations 双写入实体映射** 和 **Dynamics 365 Project Operations 双写入实体映射** ，然后选择 **应用** 。
+5. 选择两个解决方案 **Dynamics 365 Finance and Operations 双写入实体映射** 和 **Dynamics 365 Project Operations 双写入实体映射**，然后选择 **应用**。
 
 ![确认解决方案](./media/14ConfirmSolutions.png)
 
@@ -142,7 +142,7 @@ Project Operations 需要应用程序版本为 **10.0.13 (10.0.569.20009)** 或�
 
 ![框架参数](./media/17FrameworkParameters.png)
 
-3. 在 **实体设置** 页上，选择 **刷新实体列表** 。
+3. 在 **实体设置** 页上，选择 **刷新实体列表**。
 
 ![刷新实体列表](./media/18RefreshEntityList.png)
 
@@ -153,7 +153,7 @@ Project Operations 需要应用程序版本为 **10.0.13 (10.0.569.20009)** 或�
 ## <a name="run-project-operations-dual-write-maps"></a>运行 Project Operations 双写入映射
 
 1. 在您的 LCS 项目中，转到 **环境详细信息** 页。
-2. 在 **Common Data Service 环境信息** 下，选择 **链接到面向应用程序的 CDS** 。 选择链接后，您将被重定向到映射中的实体列表。
+2. 在 **Common Data Service 环境信息** 下，选择 **链接到面向应用程序的 CDS**。 选择链接后，您将被重定向到映射中的实体列表。
 3. 如下表所述启动映射。 请确保按照列出的顺序操作。
 
 | **实体映射** | **刷新实体** | **初始同步** | **用于初始同步的主服务器** | **运行先决条件** | **先决条件初始同步** |
@@ -170,14 +170,14 @@ Project Operations 需要应用程序版本为 **10.0.13 (10.0.569.20009)** 或�
 | **用于工时预估的 Project Operations 集成实体 (msdyn\_resourceassignments)** | 是 | No | 不适用 | No | 不适用 |
 
 
-4. 若要刷新实体，选择映射名称，然后选择 **刷新实体** 。 
+4. 若要刷新实体，选择映射名称，然后选择 **刷新实体**。 
 
 
 ![刷新映射](./media/20RefreshMapping.png)
 
 5. 刷新完成后，运行映射。 在启用下一个映射之前，验证表中的映射是否处于 **正在运行** 状态。 运行具有大量先决条件的映射可能需要一些时间。
 
-要运行具有先决条件的映射，请启用 **显示相关实体映射** 切换。 如果表中指示 **先决条件初始同步** 为 **否** ，请在运行前确认 **初始同步** 标志在所有先决条件映射中均为 **关闭** 。
+要运行具有先决条件的映射，请启用 **显示相关实体映射** 切换。 如果表中指示 **先决条件初始同步** 为 **否**，请在运行前确认 **初始同步** 标志在所有先决条件映射中均为 **关闭**。
 
 ![运行映射](./media/21RunMap.png)
 
@@ -185,4 +185,10 @@ Project Operations 需要应用程序版本为 **10.0.13 (10.0.569.20009)** 或�
 
 ![所有映射正在运行](./media/22AllMapsRunning.png)
 
-您的 Project Operations 环境现在已经完成了设置和配置。
+
+## <a name="apply-configuration-data-in-cds-for-project-operations-optional"></a>在 Project Operations 的 CDS 中应用配置数据（可选）
+
+如果已将演示数据应用到 Finance 环境，请参阅[在 Project Operations 的 Common Data Service 中设置和应用配置数据](resource-apply-pro-setup-config-data.md)将演示数据应用到 CDS 环境。
+
+
+您的 Project Operations 环境现在已经完成了设置和配置。 

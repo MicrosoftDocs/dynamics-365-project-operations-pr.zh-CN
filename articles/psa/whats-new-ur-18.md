@@ -3,7 +3,7 @@ title: Project Service Automation V3 更新版本 18 中的新增功能或更改
 description: 本主题列出了 Project Service Automation V3 更新版本 18 中可用的功能和修复。
 author: ruhercul
 manager: kfend
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.custom: dyn365-projectservice
 ms.date: 04/27/2020
 ms.topic: article
@@ -17,12 +17,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 1d7ea200531dd24d56a829f879e3a2532a9b38dc
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: 3a6d3ee21ecf742b2253132f3d3cc1cb2b57af75
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4072558"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4119857"
 ---
 # <a name="project-service-automation-update-release-18-v3"></a>Project Service Automation V3 更新版本 18
 
@@ -36,7 +36,7 @@ ms.locfileid: "4072558"
 
 **时间和支出**
 
-- 已修复： **撤消** 、 **请求** 和 **取消审批** 流时引发异常，同时出现不明错误消息。
+- 已修复：**撤消**、**请求** 和 **取消审批** 流时引发异常，同时出现不明错误消息。
 - 已修复：当对支出 **取消审批** 失败时，不引发相关异常错误。
 - 已修复：在 10 月份切换夏令时 (DST) 后，时间条目网格对澳大利亚非工作日的处理不正确。
 - 已修复：由于默认逻辑不正确，无法提交支出。
@@ -55,9 +55,9 @@ ms.locfileid: "4072558"
 
 **资源管理**
 
-- 已修复： **协调** 视图小计行在扩展预订后计算预订差异不正确。
-- 已修复： **协调** 视图在可预订资源的日历与项目日历不匹配时显示资源分配情况不正确。
+- 已修复：**协调** 视图小计行在扩展预订后计算预订差异不正确。
+- 已修复：**协调** 视图在可预订资源的日历与项目日历不匹配时显示资源分配情况不正确。
 
 **Sales**
 
-- 已修复：重新审批时间条目（ **批准 > 取消 >** 再次批准）时会创建重复的非计费实际值。
+- 已修复：重新审批时间条目（**批准 > 取消 >** 再次批准）时会创建重复的非计费实际值。

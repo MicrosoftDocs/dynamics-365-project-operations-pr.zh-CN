@@ -3,7 +3,7 @@ title: 设置熟练模型
 description: 如何在 Project Service 中设置熟练模型
 author: JohnPBurrows
 manager: kfend
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 8/03/2018
@@ -18,12 +18,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 653b7eef12c57203fbc6853e97d3be43bdb85b9d
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: 2d13d5bbfd43ef88ec2f285357ee26a2a87db870
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4072821"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4122962"
 ---
 # <a name="set-up-proficiency-models-project-service"></a>设置熟练模型 (Project Service)
 
@@ -31,9 +31,9 @@ ms.locfileid: "4072821"
 
 鉴于已经为客户的项目添加了技能，您需要一种方法来评定顾问的技能，以便将其与项目要求配对。 可使用默认熟练模型，编辑默认熟练模型，或者创建新的熟练模型来满足贵组织的需要。  
   
-1.  转到 **Project Service > 熟练模型** 。  
+1.  转到 **Project Service > 熟练模型**。  
   
-2.  要查看或编辑默认熟练模型，单击列表中的 **默认评分模型** ，或者要创建新熟练模型，单击 **新建** 。  
+2.  要查看或编辑默认熟练模型，单击列表中的 **默认评分模型**，或者要创建新熟练模型，单击 **新建**。  
   
 3.  如果您在创建新熟练模型，请填写 **常规** 区域中的字段，然后单击 **保存** 以创建记录，这样就可以继续对其进行编辑。 创建自己的熟练模型时，请牢记数字越大越好。  
   

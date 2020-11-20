@@ -3,7 +3,7 @@ title: Project Service Automation V3 更新版本 12 中的新增功能或更改
 description: 本主题介绍 Project Service Automation V3 更新版本 12 中的新增功能。
 author: ruhercul
 manager: kfend
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.custom: dyn365-projectservice
 ms.date: 02/04/2020
 ms.topic: article
@@ -17,12 +17,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 62c3a0c5cfbecb568faef570da309c20afd86de9
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: fc92a5dcc111688159f9be5b2839b7c040404a3b
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4072565"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4119947"
 ---
 # <a name="project-service-automation-update-release-12-v3"></a>Project Service Automation V3 更新版本 12
 我们很高兴宣布 Dynamics 365 Project Service Automation (PSA) 应用程序的最新更新。 此版本包括对质量、性能和可用性的一些重要改进。 此版本与 Dynamics 365 9.x 兼容。 若要更新到此版本，请访问 Dynamics 365 Online 的管理中心，然后转到解决方案页面以安装更新。 有关详细信息，请参阅[安装、更新或移除首选解决方案](https://docs.microsoft.com/power-platform/admin/install-remove-preferred-solution)。
@@ -39,7 +39,7 @@ ms.locfileid: "4072565"
     - 已修复：时间条目网格和计划在必要时会正确显示垂直滚动条。
     - 已修复：可以批准提交的支出和时间条目。
     - 已修复：“取消审批确认”对话框消息已更正，以在将 **已批准** 更改为 **已提交** 后反映审批状态。
-    - 已修复：在批准支出记录后， **价格** 、 **单位** 和 **数量** 字段现在在支出记录上已被锁定。
+    - 已修复：在批准支出记录后，**价格**、**单位** 和 **数量** 字段现在在支出记录上已被锁定。
 
 - 项目管理
 

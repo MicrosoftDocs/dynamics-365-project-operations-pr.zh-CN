@@ -3,7 +3,7 @@ title: 资源管理常见问题
 description: 此主题提供资源管理常见问题的解答。
 author: ruhercul
 manager: kfend
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 03/28/2019
@@ -18,12 +18,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 395aa57d73e5d4a0c9c827c79bf4e7ef229c3981
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: 38d9509768323a5a1d78683a2e65ade241adc65f
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4072815"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4120127"
 ---
 # <a name="resource-management-faq"></a>资源管理常见问题
 
@@ -47,7 +47,7 @@ ms.locfileid: "4072815"
 
 ## <a name="what-resources-types-does-project-service-automation-support"></a>Project Service Automation 支持哪些资源类型？
 
-Dynamics 365 Project Service Automation 中仅支持 **用户** 和 **联系人** 资源类型。 虽然可以创建其他类型的资源（例如， **设备** 和 **组** ），但是它们不支持端到端用例。
+Dynamics 365 Project Service Automation 中仅支持 **用户** 和 **联系人** 资源类型。 虽然可以创建其他类型的资源（例如，**设备** 和 **组**），但是它们不支持端到端用例。
 
 ## <a name="what-is-the-difference-between-an-assignment-and-a-booking"></a>分派与预订之间有何区别？
 

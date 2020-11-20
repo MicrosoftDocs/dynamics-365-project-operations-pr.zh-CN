@@ -3,7 +3,7 @@ title: 项目资源中心的用户指南
 description: Project Service 的项目资源中心最终用户指南
 author: ruhercul
 manager: kfend
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 8/03/2018
@@ -18,12 +18,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 181e47a7bf923100e480eabd120d8bd784c24d07
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: 1c52a17d791b5656f13535077e4300b331db71b5
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4072595"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4123142"
 ---
 # <a name="user-guide-for-project-resource-hub"></a>项目资源中心的用户指南
 
@@ -50,7 +50,7 @@ ms.locfileid: "4072595"
 
 ## <a name="basic-navigation"></a>基本导航栏
 1.  登录移动设备应用程序时，将显示“我的应用程序”页面，其中包含一列您可以访问的应用程序。 
-2.  选择 **项目资源中心** 。
+2.  选择 **项目资源中心**。
 
 ![选择应用](media/chooseApp_1.png "选择应用")
 
@@ -73,28 +73,28 @@ ms.locfileid: "4072595"
 ## <a name="enter-time"></a>输入时间
 至少每周或以您经理要求的频率输入您的时间，以确保您的客户端开具发票，并且您已被正确记入。
 
-1. 点按菜单 ![菜单按钮](media/MenuButton.png "菜单按钮") 按钮，然后点按 **时间条目** 。 这将调出您的日历。
+1. 点按菜单 ![菜单按钮](media/MenuButton.png "菜单按钮") 按钮，然后点按 **时间条目**。 这将调出您的日历。
 
 2. 要查看日历的上一周或下一周，请点按 **上一周** 或 **下一周** 按钮。 点按 **今天** 将回到本周。
 
-3. 若要输入您的时间，请在命令栏中点按 **新建** 。 
+3. 若要输入您的时间，请在命令栏中点按 **新建**。 
 
-4. 填写窗体中的字段，并点按 **保存** 。
+4. 填写窗体中的字段，并点按 **保存**。
 
-5. 继续为周输入时间。 完成后且一切看起来正确无误时，请点按 **提交** 。 管理器将审核和批准您的时间条目。
+5. 继续为周输入时间。 完成后且一切看起来正确无误时，请点按 **提交**。 管理器将审核和批准您的时间条目。
 
 ## <a name="enter-expenses"></a>输入费用 
 至少每周或以您经理要求的频率输入您的费用，以确保您的客户端开具发票，并且您已被正确记入。
 
-1. 点按菜单 ![菜单按钮](media/MenuButton.png "菜单按钮")，然后点按 **支出** 。 这将调出您的日历。
+1. 点按菜单 ![菜单按钮](media/MenuButton.png "菜单按钮")，然后点按 **支出**。 这将调出您的日历。
 
-2. 您可以切换到 **天** 、 **周** 或 **月** 视图，或导航到前一个或下一个时间段。 
+2. 您可以切换到 **天**、**周** 或 **月** 视图，或导航到前一个或下一个时间段。 
 
-3. 若要输入您的费用，请在命令栏中点按 **新建** 。 
+3. 若要输入您的费用，请在命令栏中点按 **新建**。 
 
-4. 填写窗体中的字段，并点按 **保存** 。
+4. 填写窗体中的字段，并点按 **保存**。
 
-5. 继续为周输入费用。 完成后且一切看起来正确无误时，请点按 **提交** 。 管理员将审核和批准您的费用。
+5. 继续为周输入费用。 完成后且一切看起来正确无误时，请点按 **提交**。 管理员将审核和批准您的费用。
 
 ## <a name="general-information-on-how-to-use-the-mobile-app"></a>有关如何使用移动应用程序的常规信息 
 [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [移动基本知识指南](https://docs.microsoft.com/dynamics365/mobile-app/dynamics-365-phones-tablets-users-guide)。

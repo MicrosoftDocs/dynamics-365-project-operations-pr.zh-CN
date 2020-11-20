@@ -3,7 +3,7 @@ title: 使用日程安排板预订项目资源
 description: 此主题介绍如何预订资源。
 author: ruhercul
 manager: kfend
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 03/28/2019
@@ -18,12 +18,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: fa7e34b12f3767e89cc13ddde930e5c9f8ebc565
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: ac3438da6bae45683d9eb2dee3544dff862e3ddd
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4072826"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4120217"
 ---
 # <a name="use-the-schedule-board-to-book-project-resources"></a>使用日程安排板预订项目资源
 
@@ -38,7 +38,7 @@ ms.locfileid: "4072826"
 
 3. 选择 **查找可用性** 筛选可预订资源并查看可用资源。 
 4. 从日程安排板选择一个或多个资源。 
-5. 在页面右侧的 **创建资源预订** 窗格中，输入预订信息，然后选择 **预订并退出** 。
+5. 在页面右侧的 **创建资源预订** 窗格中，输入预订信息，然后选择 **预订并退出**。
 
     ![所选可预订资源的“创建资源预订”窗格](media/Resource-Management-image74.png)
 
@@ -46,7 +46,7 @@ ms.locfileid: "4072826"
 
     ![选择了一个资源的多个单元格](media/Resource-Management-image75.png)
 
-7. 选择 **预订** 。
+7. 选择 **预订**。
 
 将使用所选资源完成要求。 在 **预订要求** 窗格中，请注意已更新了要求，并且资源显示为已预订给项目。
 

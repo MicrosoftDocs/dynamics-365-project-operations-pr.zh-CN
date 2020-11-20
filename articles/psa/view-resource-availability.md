@@ -3,7 +3,7 @@ title: 查看资源可用性
 description: 如何在 Project Service 中查看资源可用性
 author: JohnPBurrows
 manager: kfend
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 8/03/2018
@@ -18,12 +18,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 18f2287eeba5df9dae150c213e2a7c88de8c7276
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: 65798e1b0d675b86a73fcd6a0426407d6fe86d0b
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4072678"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4124942"
 ---
 # <a name="view-resource-availability-project-service"></a>查看资源可用性 (Project Service)
 
@@ -36,9 +36,9 @@ ms.locfileid: "4072678"
 > 
 >  如果在使用较新版本，并且需要了解资源可用性，请参阅[为项目安排资源 (Project Service Automation)](../psa/schedule-resources-project.md)。  
 
-1. 转到 **Project Service > 资源可用性** 。  
+1. 转到 **Project Service > 资源可用性**。  
 
-    这将显示所有资源及其可用性的日历视图。 从屏幕顶端选择视图或排序顺序。 还可以选择显示该 **天** 、 **周** 还是 **月** 的可用性，以及使用箭头查看上一时间段或下一时间段。 可使用搜索框查找特定资源。  
+    这将显示所有资源及其可用性的日历视图。 从屏幕顶端选择视图或排序顺序。 还可以选择显示该 **天**、**周** 还是 **月** 的可用性，以及使用箭头查看上一时间段或下一时间段。 可使用搜索框查找特定资源。  
 
 2. 单击 **选项** 可更改显示的内容。 例如，可以显示图例来显示针对不同类型预订的颜色方案，也可以选择仅显示特定类型的预订（例如，硬性预订或软性预订）。  
 

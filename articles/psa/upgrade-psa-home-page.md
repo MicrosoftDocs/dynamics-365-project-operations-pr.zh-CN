@@ -2,7 +2,7 @@
 title: “升级”主页
 description: 此主题介绍何处可以找到有关 Dynamics 365 Project Service Automation 中的新功能和更新功能和用于升级到最新版本的流程的重要信息。
 manager: kfend
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 05/30/2019
@@ -18,12 +18,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 29e7b519b61e8709c025e9906d04aed0156f65eb
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: fa25d069de8098c0e8788c9ebb8aa3426eec5db9
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4072685"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4121747"
 ---
 # <a name="upgrade-home-page"></a>“升级”主页
 
@@ -61,4 +61,4 @@ ms.locfileid: "4072685"
 从 2020 年 3 月 1 日开始，Dynamics PSA 的客户将无法再创建具有旧版 PSA（例如 PSA 版本 2.x 或更低版本）的新环境。 任何新环境都将仅获取 PSA 版本 3.x。
 
 > [!NOTE]
-> 若要在使用 Field Service 和 PSA 应用程序的旧版本时获得最佳体验，请转到 **系统设置** 页，为 **仅使用新的统一接口(推荐)** 字段选择 **否** ，因为这些版本未设计为可在 UCI 中正确加载。 关闭 UCI 之后，可使用旧 Web 客户端打开和运行这些 Field Service 和 PSA 版本。 
+> 若要在使用 Field Service 和 PSA 应用程序的旧版本时获得最佳体验，请转到 **系统设置** 页，为 **仅使用新的统一接口(推荐)** 字段选择 **否**，因为这些版本未设计为可在 UCI 中正确加载。 关闭 UCI 之后，可使用旧 Web 客户端打开和运行这些 Field Service 和 PSA 版本。 

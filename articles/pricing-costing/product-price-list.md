@@ -6,7 +6,7 @@ manager: AnnBe
 ms.date: 09/18/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 audience: Application User
 ms.reviewer: kfend
 ms.search.scope: ''
@@ -17,12 +17,12 @@ ms.search.industry: Service industries
 ms.author: suvaidya
 ms.dyn365.ops.version: ''
 ms.search.validFrom: 2020-10-01
-ms.openlocfilehash: 504aa90bfb478207059b5e2894a3990f9a4a5e9e
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: 702402854c0787dae0bde854c9c274f5c23c131f
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4072672"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4119587"
 ---
 # <a name="product-price-lists"></a>产品价目表
 
@@ -42,7 +42,7 @@ _**适用于：** 基于资源/非库存场景的 Project Operations，精简部
 
 PSA 支持在将价格配置为定价、标准成本或当前成本时使用各种舍入选项。 除了利用多种定价方法和舍入选项，还可以将折扣表与价目表项关联。 
 
-通过选择 **项目报价单** 页中的 **创建自定义报价** 为报价单创建新的自定义价目表时，将创建该价目表的备份，并将新价目表标头中的 **实体** 字段设置为 **销售实体** 。 将为新价目表的名称追加报价单名称和时间戳。 也可以在自定义工作流中使用新价目表的名称和报价单的名称对使用自定义定价的报价单触发额外审阅和审批。
+通过选择 **项目报价单** 页中的 **创建自定义报价** 为报价单创建新的自定义价目表时，将创建该价目表的备份，并将新价目表标头中的 **实体** 字段设置为 **销售实体**。 将为新价目表的名称追加报价单名称和时间戳。 也可以在自定义工作流中使用新价目表的名称和报价单的名称对使用自定义定价的报价单触发额外审阅和审批。
 
  
 ## <a name="default-product-price-list"></a>默认产品价目表

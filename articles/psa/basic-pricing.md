@@ -3,7 +3,7 @@ title: 项目定价
 description: 此主题介绍 Dynamics 365 Project Service Automation 中的定价工作原理。
 author: rumant
 manager: kfend
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 03/11/2019
@@ -18,12 +18,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: b319f9be9fd72ac99ce6012b6baffde812e3077d
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: 88b791a1eb90d2aad67adba69169eab2c49c1318
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4072801"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4120757"
 ---
 # <a name="project-pricing"></a>项目定价 
 
@@ -56,7 +56,7 @@ Dynamics 365 Project Service Automation 扩展了 Dynamics 365 Sales 中的价�
 
 人力资源时间的报价通常基于资源在特定项目中的角色。 对于人力资源时间，PSA 支持基于资源角色定成本和记帐。 可以使用 **时间** 计价单位组中的任何计价单位为时间定价。
 
-**时间** 计价单位组是在安装 PSA 时创建的。 其默认计价单位为 **小时** 。 不能删除、重命名或编辑 **时间** 计价单位组或 **时间** 计价单位的属性。 但是，可以向 **时间** 计价单位组添加其他计价单位。 如果尝试删除 **时间** 计价单位组或 **小时** 计价单位，可能会导致 PSA 业务逻辑出错。
+**时间** 计价单位组是在安装 PSA 时创建的。 其默认计价单位为 **小时**。 不能删除、重命名或编辑 **时间** 计价单位组或 **时间** 计价单位的属性。 但是，可以向 **时间** 计价单位组添加其他计价单位。 如果尝试删除 **时间** 计价单位组或 **小时** 计价单位，可能会导致 PSA 业务逻辑出错。
 
 > ![按角色配置价格](media/basic-guide-13.png)
  
@@ -110,7 +110,7 @@ Dynamics 365 Project Service Automation 扩展了 Dynamics 365 Sales 中的价�
 
 默认情况下，项目合同始终会获取基础销售价目表的副本，而不是其直接链接。 此行为可以帮助确保在基础价目表改变时，与客户就工作说明书 (SOW) 达成的价格协议不变。
 
-但是，在报价单中，可以使用基础价目表。 也可以复制基础价目表并进行编辑，以便创建仅适用于该报价单的自定义价目表。 若要创建特定于某个报价单的新价目表，请在 **报价单** 页中选择 **创建自定义报价** 。 只能从报价单访问交易特定的项目价目表。 
+但是，在报价单中，可以使用基础价目表。 也可以复制基础价目表并进行编辑，以便创建仅适用于该报价单的自定义价目表。 若要创建特定于某个报价单的新价目表，请在 **报价单** 页中选择 **创建自定义报价**。 只能从报价单访问交易特定的项目价目表。 
 
 创建自定义项目价目表时，只会复制价目表的项目组成部分。 换句话说，创建的新价目表是报价单中附加的现有项目价目表的副本，并且这个新价目表只有相关角色价格和交易类别价格。
 

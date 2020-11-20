@@ -3,7 +3,7 @@ title: Project Service Automation V3 更新版本 15 中的新增功能或更改
 description: 本主题介绍 Project Service Automation V3 更新版本 15 中的新增功能。
 author: ruhercul
 manager: kfend
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.custom: dyn365-projectservice
 ms.date: 01/27/2020
 ms.topic: article
@@ -17,12 +17,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 6112e4874025e528a2bb583cf215fd9eff681534
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: 2112e70d7359e7f30725ef3069a18570da651c06
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4072561"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4119902"
 ---
 # <a name="project-service-automation-update-release-15-v3"></a>Project Service Automation V3 更新版本 15
 
@@ -47,17 +47,17 @@ ms.locfileid: "4072561"
 
 - 项目管理
 
-  - 已修复： **用于跟踪视图** 的下拉菜单现在将根据选项宽度进行扩展。
+  - 已修复：**用于跟踪视图** 的下拉菜单现在将根据选项宽度进行扩展。
   - 已修复：在 +13 时区中管理项目时，任务计算显示的结果不准确。
-  - 已修复：使用 24 小时制日历时，已更正 **团队成员结束时间** 。
-  - 已修复：重新激活了 **msdyn_project** 主窗体中的 **BPF** 。
+  - 已修复：使用 24 小时制日历时，已更正 **团队成员结束时间**。
+  - 已修复：重新激活了 **msdyn_project** 主窗体中的 **BPF**。
   - 已修复：工作计算不再忽略一天。
   - 已修复：当用户和项目的时区不同时，向项目窗体中添加了新通知横幅。
 
 - Sales
 
   - 已修复：支出估计类别查找可用于筛选重复项。
-  - 已修复： **PluginDomain.ExecuteInTryCatchBlock(..)** 中的代码不再隐藏异常的来源。
+  - 已修复：**PluginDomain.ExecuteInTryCatchBlock(..)** 中的代码不再隐藏异常的来源。
   - 已修复：当有 1000 个以上的项目时，不再在 **报价单明细** 窗体内的 **项目查找** 中获取错误消息。
   - 已修复：人工估算和支出估算的 **估计** 网格现在显示正确的货币符号。
-  - 已修复：组织将 PSA 从更新版本 14 更新为更新版本 15 之后， **计划** 选项卡在 **项目** 窗体上不再显示为空白。
+  - 已修复：组织将 PSA 从更新版本 14 更新为更新版本 15 之后，**计划** 选项卡在 **项目** 窗体上不再显示为空白。

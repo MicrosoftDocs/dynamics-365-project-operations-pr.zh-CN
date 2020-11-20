@@ -3,7 +3,7 @@ title: 建议项目资源
 description: 此主题介绍如何推荐项目资源。
 author: ruhercul
 manager: kfend
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 03/28/2019
@@ -18,19 +18,19 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 18d7dcd95806841c952ea621ec65b513ef614958
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: 1fcb8d1d40286cf5cbb23338f93b072ae5bed70d
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4072823"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4120172"
 ---
 # <a name="propose-project-resources"></a>建议项目资源
 
 资源经理可使用资源请求为项目经理建议资源。
 
-1. 从请求网格或请求本身选择 **查找资源** 。
-2. 在 **日程安排助理** 页中，选择资源，然后在 **创建资源预订** 窗格的 **预订状态** 字段中，选择 **预订** 。
+1. 从请求网格或请求本身选择 **查找资源**。
+2. 在 **日程安排助理** 页中，选择资源，然后在 **创建资源预订** 窗格的 **预订状态** 字段中，选择 **预订**。
 
     ![已选择建议的资源](media/Resource-Management-image62.png)
 
@@ -40,11 +40,11 @@ ms.locfileid: "4072823"
 
     ![”日程安排助理“页中建议的预订的状态指示器](media/Resource-Management-image63.png)
 
-- 在资源请求中，状态更改为 **需要审阅** 。
+- 在资源请求中，状态更改为 **需要审阅**。
 
     ![资源请求状态已更改为”需要审阅“](media/Resource-Management-image64.png)
 
-- 在项目的 **团队** 选项卡上，通用团队成员的 **请求状态** 值更改为 **需要审阅** 。
+- 在项目的 **团队** 选项卡上，通用团队成员的 **请求状态** 值更改为 **需要审阅**。
 
     ![”团队“选项卡上通用团队成员的请求状态更改为”需要审阅“](media/Resource-Management-image48.png)
 
@@ -80,9 +80,9 @@ ms.locfileid: "4072823"
 
 因为 **资源利用率** 视图基于日程安排板，所以可使用日程安排板的功能筛选结果。
 
-此网格要求对角色或单个资源设置目标利用率。 若要进行此设置，转到 **资源** \> **资源角色** 。
+此网格要求对角色或单个资源设置目标利用率。 若要进行此设置，转到 **资源** \> **资源角色**。
 
-此外，还必须为每项可预订资源分派默认角色。 转到 **资源**\>**资源** 。 在 **Project Service** 选项卡上，验证是否定义了资源角色，以及角色的 **为默认** 字段是否设置为 **是** 。 可以添加更多 **为默认 = 否** 的角色。 **为默认 = 是** 的角色用于评估针对该角色的目标的资源利用率。
+此外，还必须为每项可预订资源分派默认角色。 转到 **资源**\>**资源**。 在 **Project Service** 选项卡上，验证是否定义了资源角色，以及角色的 **为默认** 字段是否设置为 **是**。 可以添加更多 **为默认 = 否** 的角色。 **为默认 = 是** 的角色用于评估针对该角色的目标的资源利用率。
 
 ![默认角色集](media/Resource-Management-image67.png)
 

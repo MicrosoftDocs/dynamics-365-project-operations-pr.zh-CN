@@ -6,7 +6,7 @@ manager: AnnBe
 ms.date: 09/23/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.search.form: ''
 audience: Application User
 ms.reviewer: kfend
@@ -15,12 +15,12 @@ ms.search.region: ''
 ms.author: shylaw
 ms.search.validFrom: ''
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: 62d6316c9602089518a94267d8ef2b7fb8d59cd0
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: 55f63c8c092942b73a55c9d86d867bca600f42e5
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4072569"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4124312"
 ---
 # <a name="match-a-receipt-to-an-expense-using-ocr"></a>使用 OCR 使收据与支出匹配
 
@@ -41,7 +41,7 @@ _**适用于：** 基于资源/非库存场景的 Project Operations，精简部
   1. 打开 **支出管理** 工作区。
   2. 在 **收据** 选项卡上，验证是否存在未附加的收据。 您还可以在 **收据** 选项卡上上载收据。
   3. 在 **支出** 选项卡上，验证是否存在未附加的支出。 通常情况下，支出管理员从信用卡提供商处导入这些支出。
-  4. 选择 **新建支出报表** 。 请注意，在您创建支出报表时，现在还可以包括支出和收据。 如果同时添加支出和收据，则会触发根据支出自动匹配收据。
+  4. 选择 **新建支出报表**。 请注意，在您创建支出报表时，现在还可以包括支出和收据。 如果同时添加支出和收据，则会触发根据支出自动匹配收据。
 
 ## <a name="create-or-match-receipts-to-an-expense-report"></a>创建收据或将其与支出报表匹配
 若要创建支出，或从收据匹配支出，请完成以下步骤。
@@ -50,19 +50,19 @@ _**适用于：** 基于资源/非库存场景的 Project Operations，精简部
   2. 在上载的收据图像下，注意 **创建** 和 **匹配** 选项。
 
       - 选择 **创建** 来创建手动输入的支出交易记录，并填写从收据中提取的值。
-      - 如果选择 **匹配** ，系统将尝试匹配现有支出与收据。
+      - 如果选择 **匹配**，系统将尝试匹配现有支出与收据。
 
 ## <a name="installation"></a>安装
 
 若要使用这些高级支出功能，请安装适用于 Microsoft Dynamics 365 Finance 的支出管理服务加载项，并启用您的实例中的功能。 您可以从 Microsoft Dynamics Lifecycle Services (LCS) 中的项目访问该加载项。
 
 1. 登录到 LCS，打开所需的环境。
-2. 转到 **完整详细信息** 。
-3. 选择 **维护** ，或向下滚动到 **环境加载项** 快速选项卡。
-4. 选择 **安装新加载项** 。
-5. 选择 **支出管理服务** 。
+2. 转到 **完整详细信息**。
+3. 选择 **维护**，或向下滚动到 **环境加载项** 快速选项卡。
+4. 选择 **安装新加载项**。
+5. 选择 **支出管理服务**。
 6. 按照安装指南操作，并同意条款和条件。
-7. 选择 **安装** 。
+7. 选择 **安装**。
 
 在 **功能管理** 工作区中，打开以下功能：
 

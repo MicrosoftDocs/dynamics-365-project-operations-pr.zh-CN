@@ -3,7 +3,7 @@ title: 查看资源的应计费利用率
 description: 此主题介绍资源利用率视图。
 author: ruhercul
 manager: kfend
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 9/26/2019
@@ -18,12 +18,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 6daa6cfa1c6a237d8a1685123f7c1a6926418bfe
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: a1d1db532c65b2a13f3cf4e1281a5987490b96df
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4072626"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4122152"
 ---
 # <a name="view-chargeable-utilization-for-resources"></a>查看资源的应计费利用率
  
@@ -44,7 +44,7 @@ ms.locfileid: "4072626"
 
 ## <a name="set-target-on-a-resource"></a>为资源设置目标
 
-1. 转到 **资源**\>**资源** 。 
+1. 转到 **资源**\>**资源**。 
 2. 选择一项资源以打开记录。 
 3. 在 **Project Service** 选项卡上，可以设置资源的目标利用率。
 
@@ -52,7 +52,7 @@ ms.locfileid: "4072626"
  
 ## <a name="set-target-utilization-on-a-role"></a>设置角色的目标利用率
 
-1. 转到 **资源**\>**资源角色** 。 
+1. 转到 **资源**\>**资源角色**。 
 2. 选择一个角色，然后打开记录。 
 3. 设置角色的目标利用率。
 
@@ -66,23 +66,23 @@ ms.locfileid: "4072626"
 
 首先，目标利用率必须对单个资源或资源角色设置。 如果您使用资源角色作为目标，每个单个资源均必须具有默认角色。 
 
-1. 若要进行此设置，转到 **资源** \> **资源** 。 
+1. 若要进行此设置，转到 **资源** \> **资源**。 
 2. 选择资源，打开记录，然后选择 **Project Service** 选项卡。 
-3. 在 **资源角色** 网格中，确保资源有一个角色，并且 **为默认** 设置为 **是** 。
+3. 在 **资源角色** 网格中，确保资源有一个角色，并且 **为默认** 设置为 **是**。
  
 ### <a name="change-billing-type-for-resource-role"></a>更改资源角色的记帐类型
 
 资源角色必须设置为 **应计费** 记帐类型。 
 
-1. 转到 **资源**\>**资源角色** 。 
-2. 打开要更新的记录，然后将记帐类型默认值设置为 **应计费** 。
+1. 转到 **资源**\>**资源角色**。 
+2. 打开要更新的记录，然后将记帐类型默认值设置为 **应计费**。
 
 ### <a name="set-working-hours-for-resource-role"></a>为资源角色设置工时
  
 资源必须有用于产能计算的工时。 
 
-1. 转到 **资源**\>**资源** 。 
-2. 选择资源打开记录，然后选择 **显示工时** 。 
+1. 转到 **资源**\>**资源**。 
+2. 选择资源打开记录，然后选择 **显示工时**。 
 3. 您可以通过从 **资源列表** 视图应用 **工时模板** 来批量更新资源列表。
 
 ## <a name="troubleshooting-chargeable-actual-hours"></a>应计费实际工时疑难解答

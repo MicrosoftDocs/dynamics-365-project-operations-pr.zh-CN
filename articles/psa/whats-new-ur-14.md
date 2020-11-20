@@ -3,7 +3,7 @@ title: Project Service Automation V3 更新版本 14 中的新增功能或更改
 description: 本主题介绍 Project Service Automation V3 更新版本 14 中的新增功能。
 author: ruhercul
 manager: kfend
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.custom: dyn365-projectservice
 ms.date: 01/29/2020
 ms.topic: article
@@ -17,12 +17,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 00ce5c68b1141c88671f0534f7500bf0d7eebd8e
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: b811bf7ccfb626e6944801dffa943d2afab0c5e8
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4072562"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4124807"
 ---
 # <a name="project-service-automation-update-release-14-v3"></a>Project Service Automation V3 更新版本 14
 我们很高兴宣布 Dynamics 365 Project Service Automation (PSA) 应用程序的最新更新。 此版本包括对质量、性能和可用性的一些重要改进。 此版本与 Dynamics 365 9.x 兼容。 若要更新到此版本，请访问 Dynamics 365 Online 的管理中心，然后转到解决方案页面以安装更新。 有关详细信息，请参阅[安装、更新或移除首选解决方案](https://docs.microsoft.com/power-platform/admin/install-remove-preferred-solution)。
@@ -38,8 +38,8 @@ ms.locfileid: "4072562"
 
 - Sales
 
-     - 当报价单更新为 **作为赢单结束** 时， **报价单明细详细信息** 中的自定义字段值会复制到 **项目合同子项详细信息** 中。
-     - 已确认的项目可以 **作为赢单结束** 。
+     - 当报价单更新为 **作为赢单结束** 时，**报价单明细详细信息** 中的自定义字段值会复制到 **项目合同子项详细信息** 中。
+     - 已确认的项目可以 **作为赢单结束**。
 
 - 资源管理
 

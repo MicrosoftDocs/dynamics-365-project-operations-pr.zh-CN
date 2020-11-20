@@ -3,7 +3,7 @@ title: 项目进度和成本消耗
 description: 此主题介绍如何跟踪项目进度和成本消耗。
 author: ruhercul
 manager: kfend
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 08/21/2020
@@ -18,12 +18,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 3b60f72b371a76a59216b0b528d8e63513b06e0d
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: 0793ee0c75bcbdde0fd92a16634457f73f872b5e
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4072765"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4120622"
 ---
 # <a name="project-progress-and-cost-consumption"></a>项目进度和成本消耗
 
@@ -85,7 +85,7 @@ Project Service Automation 使用以下公式计算跟踪度量：
 
 ## <a name="project-managers-reprojection-of-cost"></a>项目经理对成本的重新预估
 
-重新预估工作量时， **成本跟踪** 视图中将全部重新计算 CTC、完工估算成本、消耗成本百分比和预估成本偏差。
+重新预估工作量时，**成本跟踪** 视图中将全部重新计算 CTC、完工估算成本、消耗成本百分比和预估成本偏差。
 
 ## <a name="project-status-summary"></a>项目状态汇总
 
@@ -95,4 +95,4 @@ Project Service Automation 使用以下公式计算跟踪度量：
 
 **总体项目状态** 字段是一个可编辑字段，其中显示项目的总体状态。 其使用颜色编码（如绿色、黄色和红色）来指示上升的风险。 项目经理可使用 **注释** 字段输入有关状态的特定注释。 **状态更新时间** 字段不可编辑，其值是时间戳，用于指示状态的上次更新时间。
 
-**计划绩效** 和 **成本绩效** 字段从跟踪日期设置。 如果 **工作量跟踪** 视图中根节点的计划与成本的偏差为正，可将这些字段设置为 **提前** 。 如果根节点的计划与成本偏差为负，可将其设置为 **落后** 。
+**计划绩效** 和 **成本绩效** 字段从跟踪日期设置。 如果 **工作量跟踪** 视图中根节点的计划与成本的偏差为正，可将这些字段设置为 **提前**。 如果根节点的计划与成本偏差为负，可将其设置为 **落后**。
