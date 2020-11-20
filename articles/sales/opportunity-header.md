@@ -5,17 +5,17 @@ author: rumant
 manager: Annbe
 ms.date: 10/01/2020
 ms.topic: article
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: c4e91c1a869347ac1182db2de1ab9244309eb856
-ms.sourcegitcommit: 11a61db54119503e82faec5f99c4273e8d1247e5
+ms.openlocfilehash: 1344e21d58fbc28198468146f9cea9cf00572d7d
+ms.sourcegitcommit: f6f86e80dfef15a7b5f9174b55dddf410522f7c8
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4072479"
+ms.lasthandoff: 10/31/2020
+ms.locfileid: "4181216"
 ---
-# <a name="opportunity-headersummary"></a>商机标题/摘要
+# <a name="opportunity-settings"></a>商机设置
 
 _**适用于：** 面向资源/非库存场景的 Project Operations_
 
@@ -26,9 +26,9 @@ Dynamics 365 Project Operations 中基于项目的商机是 Dynamics 365 Sales �
 
 下表包括基于项目的商机中的字段，这些字段是 Project Operations 所特有的，或具有对 Sales 中的商机的一些重要的行为更改。
 
-| **字段** | **位置** | **关联性、用途和指导** | **下游影响** |
+| **字段** | **位置** | **说明** | **下游影响** |
 | --- | --- | --- | --- |
-| Type | “常规”选项卡（隐藏） | 此选项集字段具有以下选项：</br>- 基于工作（仅通过 Project Operations 提供）</br>- 基于项目（仅在安装了 Project Operations 和 Sales 时可用）</br>- 基于服务维护（安装 Field Service 后可用） | 当您使用 Project Operations 时，此字段值会自动设置为 **基于工作** ，将商机分类为基于项目。 商机应该基于项目，以在此交易的下游销售流程中启用所有项目特定的扩展和功能。 |
+| Type | “常规”选项卡（隐藏） | 此选项集字段具有以下选项：</br>- 基于工作（仅通过 Project Operations 提供）</br>- 基于项目（仅在安装了 Project Operations 和 Sales 时可用）</br>- 基于服务维护（安装 Field Service 后可用） | 当您使用 Project Operations 时，此字段值会自动设置为 **基于工作**，将商机分类为基于项目。 商机应该基于项目，以在此交易的下游销售流程中启用所有项目特定的扩展和功能。 |
 | 业主公司 | “常规”选项卡 | 这是将为客户交付项目的公司或法人。 | 此字段信息将复制到从此商机创建的项目报价单上的相应字段。 |
 | 联系人​​ | “常规”选项卡 | 对此交易的客户主要联系人的引用。 | |
 | 帐户​​ | “常规”选项卡 | 对客户的公司或客户记录的引用。 | |

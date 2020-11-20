@@ -1,21 +1,21 @@
 ---
-title: 管理基于产品的报价单明细的复杂单位（如每用户、每月）
+title: 管理基于产品的报价单明细的复杂单位（如每用户、每月）- 精简
 description: 此主题提供有关管理基于产品的报价单明细的复杂单位的信息。
 author: rumant
 manager: Annbe
 ms.date: 10/06/2020
 ms.topic: article
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: 741230e69302138cce8f7379f520f7178e1c80af
-ms.sourcegitcommit: 11a61db54119503e82faec5f99c4273e8d1247e5
+ms.openlocfilehash: 2ee46da2f663ef4f5f8fc7f9f89b6fcfd09a1798
+ms.sourcegitcommit: 625878bf48ea530f3381843be0e778cebbbf1922
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4072536"
+ms.lasthandoff: 10/30/2020
+ms.locfileid: "4175565"
 ---
-# <a name="managing-complex-units-such-as-per-user-per-month-for-product-based-quote-lines"></a>管理基于产品的报价单明细的复杂单位（如每用户、每月）
+# <a name="managing-complex-units-such-as-per-user-per-month-for-product-based-quote-lines---lite"></a>管理基于产品的报价单明细的复杂单位（如每用户、每月）- 精简
 
 _**适用于：** 精简部署 - 估价交易开票_
 
@@ -25,22 +25,22 @@ Dynamics 365 Project Operations 使用数量因子为基于订阅的产品的销
 
 为了支持这种销售，Project Operations 引入了数量因子这一概念。 在 Dynamics 365 中，数量因子依赖于产品属性。 为产品配置特定属性时，Project Operations 会让您将部分或全部属性标记为数量因子。
 
-Project Operations 将验证是否只有数值属性或具有数值数据类型的产品属性标记为数量因子。 当您将具有数量因子的产品添加到报价单明细时， **数量** 字段将变为只读。 为充当数量因子的产品属性输入值之后，Project Operations 将计算报价单明细的数量。
+Project Operations 将验证是否只有数值属性或具有数值数据类型的产品属性标记为数量因子。 当您将具有数量因子的产品添加到报价单明细时，**数量** 字段将变为只读。 为充当数量因子的产品属性输入值之后，Project Operations 将计算报价单明细的数量。
 
 例如，Dynamics 365 Sales 可能具有以下属性：
 
-- **用户数** ：用户的数量
-- **月数** ：订阅的月数
+- **用户数**：用户的数量
+- **月数**：订阅的月数
 - **产品 SKU**
 
 您可以通过编辑产品明细的属性，将 **用户数** 和 **月数** 属性标记为数量因子。
 
 若要从产品属性创建数量因子，请执行以下步骤：
 
-1. 在 Project Operations 的左侧导航窗格中，转到 **销售** > **产品** 。
+1. 在 Project Operations 的左侧导航窗格中，转到 **销售** > **产品**。
 2. 打开需要为其配置数量因子的产品。 确保产品已配置属性。
 3. 在产品的 **项目信息** 页上，选择 **数量因子** 选项卡。
-4. 在子网格中，选择 **+ 新建字段计算** 。
+4. 在子网格中，选择 **+ 新建字段计算**。
 5. 输入数量因子的名称，然后选择要映射到字段计算的属性值。
 6. 保存并关闭窗体。 对所有用于计算基于产品的报价单明细的数量的属性重复这些步骤。
 

@@ -1,21 +1,21 @@
 ---
-title: 管理基于项目的报价单明细上的多个客户
+title: 管理基于项目的报价单明细上的多个客户 - 精简
 description: 此主题介绍如何在基于项目的报价单明细中管理多个客户。
 author: rumant
 manager: Annbe
 ms.date: 10/06/2020
 ms.topic: article
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: 6a509fcf8d1fa11b4ce1ba1493d9c3cc64b4f22f
-ms.sourcegitcommit: 11a61db54119503e82faec5f99c4273e8d1247e5
+ms.openlocfilehash: 7cab29693fc1447beba74dc6266367f13e48634d
+ms.sourcegitcommit: 625878bf48ea530f3381843be0e778cebbbf1922
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4072505"
+ms.lasthandoff: 10/30/2020
+ms.locfileid: "4176465"
 ---
-# <a name="managing-multiple-customers-on-project-based-quote-lines"></a>管理基于项目的报价单明细上的多个客户
+# <a name="manage-multiple-customers-on-project-based-quote-lines---lite"></a>管理基于项目的报价单明细上的多个客户 - 精简
 
 _**适用于：** 精简部署 - 估价交易开票_
 
@@ -42,4 +42,4 @@ _**适用于：** 精简部署 - 估价交易开票_
 
 您可以内联编辑计费拆分百分比。 如果计费拆分百分比总计不是 100%，将出现错误。 编辑计费拆分百分比后，刷新报价单明细页面以清除错误。
 
-在报价单明细客户子网格上使用平均分配操作，将计费拆分分配给所有报价单明细客户。 如果有舍入系数，将添加到舍入客户。 其中一个报价单明细客户会始终标记为舍入客户，这意味着报价单明细客户记录将舍入标志设置为 **是** 。 
+在报价单明细客户子网格上使用平均分配操作，将计费拆分分配给所有报价单明细客户。 如果有舍入系数，将添加到舍入客户。 其中一个报价单明细客户会始终标记为舍入客户，这意味着报价单明细客户记录将舍入标志设置为 **是**。 

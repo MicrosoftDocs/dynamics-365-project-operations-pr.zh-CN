@@ -5,15 +5,15 @@ author: rumant
 manager: Annbe
 ms.date: 10/01/2020
 ms.topic: article
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: a10be42f4ae1ecc8ae5613ed8fdc669304e0ec72
-ms.sourcegitcommit: 11a61db54119503e82faec5f99c4273e8d1247e5
+ms.openlocfilehash: 4c99485a1d0c54ae848e5fbed4c4590e96cba9fd
+ms.sourcegitcommit: f6f86e80dfef15a7b5f9174b55dddf410522f7c8
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4072462"
+ms.lasthandoff: 10/31/2020
+ms.locfileid: "4181756"
 ---
 # <a name="manage-leads"></a>管理潜在顾客
 
@@ -34,11 +34,11 @@ _**适用于：** 面向资源/非库存场景的 Project Operations_
 - 时间和材料与固定价格计费方法
 - 项目产生的多个时效性的人力资源、支出和材料价目表
 
-若要让合格的潜在顾客自动创建商机，在创建潜在顾客时将 **类型** 属性设置为 **基于工作** 。 如果选择其他类型，潜在顾客在被授予资格时不会创建基于项目的商机。 如果未创建基于项目的商机，特定于项目的功能在下游销售流程中将不可用。
+若要让合格的潜在顾客自动创建商机，在创建潜在顾客时将 **类型** 属性设置为 **基于工作**。 如果选择其他类型，潜在顾客在被授予资格时不会创建基于项目的商机。 如果未创建基于项目的商机，特定于项目的功能在下游销售流程中将不可用。
 
 下表包含潜在顾客的重要字段信息，以及这些字段的下游含义。
  
-| **字段** | **位置** | **关联性、用途和指导** | **下游影响** |
+| **字段** | **位置** | **说明** | **下游影响** |
 | --- | --- | --- | --- |
 | 主题 | “常规”选项卡 | 此文本字段应包含交易的简短说明。 | 潜在顾客的主题将默认为商机的主题，以及报价单和项目合同的名称。 |
 | Type | “常规”选项卡 | 此选项集字段具有以下选项：</br>- 基于工作（仅在安装了 Project Operations 时可用）</br>- 基于项目（仅在安装了 Project Operations 和 Sales 时可用）</br>- 基于服务维护（安装 Field Service 后可用） | 当此字段的值在潜在顾客上设置为 **基于工作** 时，潜在顾客将被授予创建基于项目的商机的资格。 需要基于项目的商机来在此交易的下游销售流程中启用所有项目特定的扩展和功能。 |
@@ -53,7 +53,7 @@ _**适用于：** 面向资源/非库存场景的 Project Operations_
 
 - 使用潜在顾客的 **公司** 字段的客户。
 - 根据潜在顾客的 **名** 和 **姓** 字段中的值与客户关联的联系人记录。
-- 将 **类型** 字段设置为&quot;**基于工作** 的基于项目的商机。
+- 将 **类型** 字段设置为 **基于工作** 的基于项目的商机。
 
 有关授予潜在顾客资格的详细信息，请参阅[授予潜在顾客资格或转换潜在顾客](https://docs.microsoft.com/dynamics365/sales-enterprise/qualify-lead-convert-opportunity-sales)。
 

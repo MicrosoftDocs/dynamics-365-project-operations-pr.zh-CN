@@ -1,21 +1,21 @@
 ---
-title: 预付款和保留款合同
+title: 预付款和保留款合同 - 精简
 description: 此主题提供有关 Project Operations 中基于保留款的合同签订模型和预付款的信息。
 author: rumant
 manager: Annbe
 ms.date: 10/20/2020
 ms.topic: article
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: 5ccf8ff4fa52fa6ff9fe534dfbe6736afc24ffba
-ms.sourcegitcommit: f8edff6422b82fdf2cea897faa6abb51e2c0c3c8
+ms.openlocfilehash: 912b235af5e561349fdfb481e5f5b7c5514669c3
+ms.sourcegitcommit: f6f86e80dfef15a7b5f9174b55dddf410522f7c8
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/21/2020
-ms.locfileid: "4087826"
+ms.lasthandoff: 10/31/2020
+ms.locfileid: "4180856"
 ---
-# <a name="advances-and-retainer-based-contracts"></a>预付款和保留款合同 
+# <a name="advances-and-retainer-based-contracts---lite"></a>预付款和保留款合同 - 精简
 
 
 _**适用于：** 精简部署 - 估价交易开票_
@@ -33,7 +33,7 @@ Dynamics 365 Project Operations 支持基于保留款的合同。 基于保留�
 
 在向客户开票之前，Project Operations 中的保留款不能使用。 这由预付款和保留款子网格上的以下字段指示。
 
-| 字段 | 关联性、用途和指导 | 下游影响 |
+| 字段 | 描述 | 下游影响 |
 | --- | --- | --- |
 | 可用金额 | 可以用于保留款或预付款记录的金额。 | 在开票之前，预付款或保留款不能使用，这意味着可用金额为零。 |
 | 已用金额 | 已在保留款或预付款中使用的金额。 | 预付款或保留款可以在发票上与实际成本进行部分对帐，这会将某个部分标记为已使用。 预付款或保留款金额的其余部分可以在将来的发票上与实际成本进行对帐。 |

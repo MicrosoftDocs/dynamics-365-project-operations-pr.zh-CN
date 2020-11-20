@@ -3,7 +3,7 @@ title: 产品目录定价
 description: 此主题介绍 Dynamics 365 Project Service Automation (PSA) 中的产品目录定价工作原理。
 author: rumant
 manager: kfend
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 03/07/2019
@@ -18,12 +18,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: e6d9266cfee996b68608c99f77d1b0c053985b3d
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: 11f1d237be4540a64f1854fbed4e5c72ebbce18d
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4072635"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4132232"
 ---
 # <a name="product-catalog-pricing"></a>产品目录定价 
 
@@ -46,7 +46,7 @@ PSA 支持在将价格配置为定价、标准成本或当前成本时使用各�
 
 > ![将目录中的产品添加到不同价目表中](media/basic-guide-16.png)
 
-通过选择 **项目报价单** 页中的 **创建自定义报价** 为报价单创建新的自定义价目表时，PSA 将创建该价目表的备份，并将新价目表标头中的 **实体** 字段设置为 **销售实体** 。 将为新价目表的名称追加报价单名称和时间戳。 也可以在自定义工作流中使用新价目表的名称和报价单的名称对使用自定义定价的报价单触发额外审阅和审批。
+通过选择 **项目报价单** 页中的 **创建自定义报价** 为报价单创建新的自定义价目表时，PSA 将创建该价目表的备份，并将新价目表标头中的 **实体** 字段设置为 **销售实体**。 将为新价目表的名称追加报价单名称和时间戳。 也可以在自定义工作流中使用新价目表的名称和报价单的名称对使用自定义定价的报价单触发额外审阅和审批。
 
  
 ## <a name="default-product-price-list"></a>默认产品价目表

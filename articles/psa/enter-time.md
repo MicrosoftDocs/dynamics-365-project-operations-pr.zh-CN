@@ -3,7 +3,7 @@ title: 输入时间
 description: 如何在 Project Service 中输入时间
 author: revathimuthiah
 manager: kfend
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 8/03/2018
@@ -18,12 +18,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 4db1e62e062aa5024c8b8807e155fbd543af1059
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: b06062cf21cacedda759cc7bf7f940fc33f16bd0
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4072807"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4132862"
 ---
 # <a name="enter-time-project-service"></a>输入时间 (Project Service)
 
@@ -33,29 +33,29 @@ ms.locfileid: "4072807"
   
  如果使用的是 Web 应用程序：  
   
-1. 转到 **Project Service > 时间条目** 。 这将调出您的日历。  
+1. 转到 **Project Service > 时间条目**。 这将调出您的日历。  
   
-2. 要查看日历的上一周或下一周，请单击 **上一周** 或 **下一周** 。 单击 **今天** 将回到本周。  
+2. 要查看日历的上一周或下一周，请单击 **上一周** 或 **下一周**。 单击 **今天** 将回到本周。  
   
 3. 要输入您的时间，请单击 **新建** 或在日历中要为其输入时间的日期下双击。  
   
-4. 填写 **时间条目** 窗体中的字段，并单击 **保存** 。  
+4. 填写 **时间条目** 窗体中的字段，并单击 **保存**。  
   
-5. 继续为周输入时间。 完成后且一切看起来正确无误时，请单击 **提交** 。 管理器将审核和批准您的时间条目。  
+5. 继续为周输入时间。 完成后且一切看起来正确无误时，请单击 **提交**。 管理器将审核和批准您的时间条目。  
   
-6. 如果要更改已提交的条目，请在日历中选择该条目，然后单击 **撤消** 。  
+6. 如果要更改已提交的条目，请在日历中选择该条目，然后单击 **撤消**。  
   
 7. 如果要将上一周的所有条目复制到本周，单击 **复制自** 并选择要复制的时间表周。  
   
-8. 如果要查看正在处理的内容的列表，请单击 **网格** 。  
+8. 如果要查看正在处理的内容的列表，请单击 **网格**。  
   
    如果使用的是移动应用程序：  
   
-9. 从菜单，请转到 **时间条目** 。     您可以切换到 **天** 、 **周** 或 **月** 视图，或导航到前一个或下一个时间段。  
+9. 从菜单，请转到 **时间条目**。     您可以切换到 **天**、**周** 或 **月** 视图，或导航到前一个或下一个时间段。  
   
-10. 点按 **…** ，然后点按 **新建** 。  
+10. 点按 **…** ，然后点按 **新建**。  
   
-11. 根据需要填写详细信息，然后点按 **保存** 。  
+11. 根据需要填写详细信息，然后点按 **保存**。  
   
 ### <a name="see-also"></a>另请参阅  
  [时间、费用和协作指南](../psa/time-expense-collaboration-guide.md)

@@ -1,33 +1,33 @@
 ---
-title: 设置人工帐单费率
+title: 设置人工帐单费率 - 精简
 description: 此主题提供有关在 Project Operations 中设置人工记帐费率的信息。
 author: rumant
 manager: Annbe
 ms.date: 10/16/2020
 ms.topic: article
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: e6294895857442f3a24a9d73ee07d2b90926a4fb
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: cf53f6909ed5fb9b143197118c799b9803699171
+ms.sourcegitcommit: f6f86e80dfef15a7b5f9174b55dddf410522f7c8
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4072666"
+ms.lasthandoff: 10/31/2020
+ms.locfileid: "4181166"
 ---
-# <a name="setting-up-bill-rates-for-labor-rate-billing"></a>为人工费率记帐设置记帐费率 
+# <a name="set-up-labor-bill-rates---lite"></a>设置人工帐单费率 - 精简
 
 _**适用于：** 精简部署 - 估价交易开票_
 
 每个价目表有一组角色价格或人工费率，这些信息对于价目表标头中包含的上下文和时效有效。 Dynamics 365 Project Operations 中的时间帐单费率只能以一种货币设置，即价目表标头中的货币。
 
 1. 若要为销售价目表设置人工帐单费率，请基于价目表标头创建一个价目表。 
-2. 在 **角色价格** 选项卡上的子网格中，选择 **+ 新建角色价格** 。 
+2. 在 **角色价格** 选项卡上的子网格中，选择 **+ 新建角色价格**。 
 3. 在 **快速创建** 窗格上，输入您需要为其设置帐单费率的角色和部门组合。
 
   下表包含了角色价格明细的 **常规** 选项卡和 **快速创建** 窗格上的字段，当您在销售价目表中创建角色价格时，需要记住这些信息：
 
-  | 字段 | 地点 | 关联性、用途和指导 | 下游影响 |
+  | 字段 | 地点 | 描述 | 下游影响 |
   | --- | --- | --- | --- |
   | 角色 | **常规** 选项卡和 **快速创建** 窗格 | 选择您要为其设置帐单费率的角色。 | 传入估计值或实际值中的角色将与此明细进行匹配，以设定角色的默认帐单费率。 |
   | 资源单位 | **常规** 选项卡和 **快速创建** 窗格 | 选择角色所在的公司的部门。 例如，Fabrikam 印度公司机器人部门的开发人员，或 Fabrikam 美国公司软件部门的开发人员。 | 传入估计值或实际值中的资源单位将与此明细进行匹配，以设定角色的默认帐单费率。 |
@@ -39,7 +39,7 @@ _**适用于：** 精简部署 - 估价交易开票_
 
 ## <a name="transfer-pricing-or-set-up-bill-rates-for-resources-from-other-organizational-units-or-divisions"></a>为其他部门的资源转移定价或设置帐单费率 
 
-基于项目的公司使用公司不同部门的员工来处理项目。 项目可以在一个部门执行，而员工或顾问则来自公司的不同部门。 项目还可能由不同部门的一组人员组成。 在 Project Operations 中，负责项目交付的公司称为 **合同签订部门** 。 提供资源的所有其他分部称为 **资源单位** 。 由于全球各个地区和劳动力市场的人工成本不同，因此，不同地区的人工帐单费率的设置也会不同。
+基于项目的公司使用公司不同部门的员工来处理项目。 项目可以在一个部门执行，而员工或顾问则来自公司的不同部门。 项目还可能由不同部门的一组人员组成。 在 Project Operations 中，负责项目交付的公司称为 **合同签订部门**。 提供资源的所有其他分部称为 **资源单位**。 由于全球各个地区和劳动力市场的人工成本不同，因此，不同地区的人工帐单费率的设置也会不同。
 
 例如，在美国项目工作的 Fabrikam 印度公司的开发人员将按每小时 100 美元的费率记帐。 在美国项目工作的 Fabrikam 美国公司的开发人员将按每小时 150 美元记帐。
 

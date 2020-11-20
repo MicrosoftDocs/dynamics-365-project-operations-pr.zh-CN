@@ -5,29 +5,29 @@ author: rumant
 manager: Annbe
 ms.date: 10/16/2020
 ms.topic: article
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: 2c7d63d0cfd5c9b6dbfb65fa8c8227c7f6eeac48
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: 501458510efca6434a51577aacd1f09d1a4faa25
+ms.sourcegitcommit: f6f86e80dfef15a7b5f9174b55dddf410522f7c8
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4072628"
+ms.lasthandoff: 10/31/2020
+ms.locfileid: "4180676"
 ---
-# <a name="set-up-bill-rates-for-labor-rate-billing"></a>为人工费率记帐设置记帐费率 
+# <a name="set-up-labor-bill-rates"></a>设置人工帐单费率
 
 _ **适用于：** 面向资源/非库存场景的 Project Operations
 
 每个价目表有一组角色价格或人工费率，这些信息对于价目表标头中包含的上下文和时效有效。 Dynamics 365 Project Operations 中的时间帐单费率只能以一种货币设置，即价目表标头中的货币。
 
 1. 若要为销售价目表设置人工帐单费率，请基于价目表标头创建一个价目表。 
-2. 在 **角色价格** 选项卡上的子网格中，选择 **+ 新建角色价格** 。 
+2. 在 **角色价格** 选项卡上的子网格中，选择 **+ 新建角色价格**。 
 3. 在 **快速创建** 窗格上，输入您需要为其设置帐单费率的角色和部门组合。
 
    下表包含了角色价格明细的 **常规** 选项卡和 **快速创建** 窗格上的字段，当您在销售价目表中创建角色价格时，需要记住这些信息：
 
-    | 字段 | 地点 | 关联性、用途和指导 | 下游影响 |
+    | 字段 | 地点 | 描述 | 下游影响 |
     | --- | --- | --- | --- |
     | 角色 | **常规** 选项卡和 **快速创建** 窗格 | 选择您要为其设置帐单费率的角色。 | 传入估计值或实际值中的角色将与此明细进行匹配，以设定角色的默认帐单费率。 |
     | 资源供给公司 | **常规** 选项卡和 **快速创建** 窗格 | 选择角色所在的公司或法人。 例如，Fabrikam 印度公司的开发人员或 Fabrikam 美国公司的开发人员。 | 传入估计值或实际值中的资源供给公司将与此明细进行匹配，以设定角色的默认帐单费率。 |
@@ -39,7 +39,7 @@ _ **适用于：** 面向资源/非库存场景的 Project Operations
 
 ## <a name="transfer-pricing-or-set-up-bill-rates-for-resources-from-other-organizational-units-or-divisions"></a>为其他部门的资源转移定价或设置帐单费率 
 
-基于项目的公司通常使用来自不同法人和法人内不同部门的员工来完成项目。 项目可以在某个法人和部门执行，而参与这些项目的员工或顾问可能来自同一法人和部门，也可能来自不同法人和部门。 项目还可能由不同法人和部门的一组人员组成。 在 Project Operations 中，负责项目交付的法人称为 **业主公司** ，负责交付的部门称为 **合同签订部门** 。 提供资源的所有其他法人称为 **资源供给公司** ，提供资源的部门称为 **资源单位** 。 由于全球各个地区和劳动力市场的人工成本不同，因此，不同地区的人工帐单费率的设置也会不同。
+基于项目的公司通常使用来自不同法人和法人内不同部门的员工来完成项目。 项目可以在某个法人和部门执行，而参与这些项目的员工或顾问可能来自同一法人和部门，也可能来自不同法人和部门。 项目还可能由不同法人和部门的一组人员组成。 在 Project Operations 中，负责项目交付的法人称为 **业主公司**，负责交付的部门称为 **合同签订部门**。 提供资源的所有其他法人称为 **资源供给公司**，提供资源的部门称为 **资源单位**。 由于全球各个地区和劳动力市场的人工成本不同，因此，不同地区的人工帐单费率的设置也会不同。
 
 例如，在美国项目工作的 Fabrikam 印度公司机器人部门的开发人员将按每小时 100 美元的费率记帐。 在美国项目工作的 Fabrikam 美国公司机器人部门的开发人员将按每小时 150 美元记帐。 
 

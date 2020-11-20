@@ -1,33 +1,33 @@
 ---
-title: 设置人工成本费率
+title: 设置人工成本率 - 精简
 description: 此主题提供在 Project Operations 中如何设置人工成本费率的信息。
 author: rumant
 manager: Annbe
 ms.date: 10/12/2020
 ms.topic: article
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: 66a254ce4e7c7f25ac3ea303b73a01625988b0d9
-ms.sourcegitcommit: 11a61db54119503e82faec5f99c4273e8d1247e5
+ms.openlocfilehash: 2e79dde867833fb952349c073ce8975381029dcf
+ms.sourcegitcommit: f6f86e80dfef15a7b5f9174b55dddf410522f7c8
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4072515"
+ms.lasthandoff: 10/31/2020
+ms.locfileid: "4180692"
 ---
-# <a name="setting-up-labor-cost-rates"></a>设置人工成本费率 
+# <a name="set-up-labor-cost-rates---lite"></a>设置人工成本率 - 精简
 
 _**适用于：** 精简部署 - 估价交易开票_
 
 每个价目表有一组与价目表的内容和时效一致的人工费率（角色价格）。
 
-1. 创建一个价目表，然后在 **角色价格** 选项卡上的子网格中，选择 **新建角色** 。
+1. 创建一个价目表，然后在 **角色价格** 选项卡上的子网格中，选择 **新建角色**。
 2. 在 **快速创建** 页上，选择角色和部门。
 3. 输入任何其他必填字段信息。
 
 下表包括一些在成本价目表上创建人工费率时很重要的字段。
 
-| 字段 | 地点 | 关联性、用途和指导 | 下游影响 |
+| 字段 | 地点 | 描述 | 下游影响 |
 | --- | --- | --- | --- |
 | 角色 | **常规** 选项卡和 **快速创建** 页面 | 选择成本费率将应用的角色。 | 传入估计值或实际值中的角色将与此明细进行匹配，以设定角色的默认成本。 |
 | 资源单位 | **常规** 选项卡和 **快速创建** 页面 | 选择将使用此角色的公司的部门。 例如，Fabrikam 印度公司机器人部门的开发人员，或 Fabrikam 美国公司软件部门的开发人员。 | 传入估计值或实际值中的资源单位将与此明细进行匹配，以设定角色的默认成本。 |
@@ -38,7 +38,7 @@ _**适用于：** 精简部署 - 估价交易开票_
 
 ## <a name="transfer-pricing-and-costs-for-resources-outside-of-your-division-or-legal-entity"></a>转移您的部门或法人之外的资源的定价和成本
 
-在基于项目的公司中，通常在项目中使用来自不同法人或部门的员工。 项目可以由一个法人执行，但参与项目的员工或顾问可能来自同一法人或不同法人，也可能两种情况都存在。 在 Dynamics 365 Project Operations 中，负责项目交付的法人是 **业主公司** ，负责交付的部门是 **合同签订部门** 。 提供资源的其他法人是 **资源供给公司** ，提供资源的部门是 **资源单位** 。 在大多数国家/地区，公司需要确保资源法人或部门对业主公司和承包单位收取资源使用费。
+在基于项目的公司中，通常在项目中使用来自不同法人或部门的员工。 项目可以由一个法人执行，但参与项目的员工或顾问可能来自同一法人或不同法人，也可能两种情况都存在。 在 Dynamics 365 Project Operations 中，负责项目交付的法人是 **业主公司**，负责交付的部门是 **合同签订部门**。 提供资源的其他法人是 **资源供给公司**，提供资源的部门是 **资源单位**。 在大多数国家/地区，公司需要确保资源法人或部门对业主公司和承包单位收取资源使用费。
 
 例如，Fabrikam 公司必须确保 Fabrikam 印度公司机器人部门与 Fabrikam 美国公司机器人部门或 Fabrikam 英国公司机器人部门商定了成本费率卡。
 

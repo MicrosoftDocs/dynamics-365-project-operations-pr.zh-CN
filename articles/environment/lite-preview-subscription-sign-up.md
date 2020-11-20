@@ -1,21 +1,21 @@
 ---
-title: 注册获取预览订阅
+title: 注册获取预览订阅 - 精简
 description: 此主题提供有关如何订阅和部署“Project Operations 精简部署 - 估价交易开票”的信息。
 author: sigitac
 manager: Annbe
 ms.date: 10/07/2020
 ms.topic: article
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.reviewer: kfend
 ms.author: sigitac
-ms.openlocfilehash: 5342466f308ab62a9f73a85fbd838d7c33bb1f47
-ms.sourcegitcommit: 11a61db54119503e82faec5f99c4273e8d1247e5
+ms.openlocfilehash: 6f4360b7febab57b97df0776ef9148d2a38f16a7
+ms.sourcegitcommit: 625878bf48ea530f3381843be0e778cebbbf1922
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4072467"
+ms.lasthandoff: 10/30/2020
+ms.locfileid: "4175880"
 ---
-# <a name="sign-up-for-a-preview-subscription-for-lite-deployment--deal-to-proforma-invoicing"></a>注册获取“精简部署 – 估价交易开票”的预览订阅
+# <a name="sign-up-for-a-preview-subscription---lite"></a>注册获取预览订阅 - 精简 
 
 此主题说明如何订阅预览合作伙伴产品/服务以及部署“Dynamics 365 Project Operations 精简部署 - 估价交易开票”。
 
@@ -42,7 +42,7 @@ ms.locfileid: "4072467"
 
 在开始之前，请确保已使用需要 Project Operations 预览的租户中的用户工作帐户登录到浏览器。
 
-1. 通过将服务代码粘贴到浏览器 URL 中来兑换第一个服务代码 **Dynamics 365 Project Operations (CRM) - 预览试用** 。
+1. 通过将服务代码粘贴到浏览器 URL 中来兑换第一个服务代码 **Dynamics 365 Project Operations (CRM) - 预览试用**。
 
 ![兑换服务](./media/16RedeemFirstOfferNew.png)
 
@@ -72,11 +72,11 @@ ms.locfileid: "4072467"
 ![分配许可证](./media/15AssignLicenses.png)
 
 3. 确认已选择 **Dynamics 365 Project Operations (CRM) 预览** 和 **Office 365 Project Operations - 预览** 许可证。 
-4. 选择 **保存更改** 。
+4. 选择 **保存更改**。
 
 ## <a name="create-a-new-cds-environment"></a>创建新 CDS 环境
 
-1. 按照主题 [CDS 部署模型](lite-deployment.md)中的说明设置新的 Project Operations CDS 部署环境。 选择环境类型时，请确保使用 **试用(基于订阅)** 。
+1. 按照主题 [CDS 部署模型](lite-deployment.md)中的说明设置新的 Project Operations CDS 部署环境。 选择环境类型时，请确保使用 **试用(基于订阅)**。
 ![新建环境](./media/19CreateEnvironment.png)
 
 2. 选择 **启用 Dynamics 365 应用** 设置，将 **自动部署这些应用** 留空。  

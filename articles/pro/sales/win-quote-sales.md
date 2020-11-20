@@ -1,21 +1,21 @@
 ---
-title: 结束报价单
+title: 关闭报价单 - 精简
 description: 此主题提供有关在 Project Operations 中结束报价单的信息。
 author: rumant
 manager: Annbe
 ms.date: 10/01/2020
 ms.topic: article
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: cc3b2cdeb1ac46b7d927c1f96e94e9154d3eebf8
-ms.sourcegitcommit: 11a61db54119503e82faec5f99c4273e8d1247e5
+ms.openlocfilehash: 5ad206232d616cdbdc83e2a17b9177cfb98ffda9
+ms.sourcegitcommit: 625878bf48ea530f3381843be0e778cebbbf1922
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4072525"
+ms.lasthandoff: 10/30/2020
+ms.locfileid: "4175700"
 ---
-# <a name="close-quotes"></a>结束报价单 
+# <a name="close-a-quote---lite"></a>关闭报价单 - 精简
 
 _**适用于：** 精简部署 - 估价交易开票_
 

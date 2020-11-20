@@ -5,15 +5,15 @@ author: rumant
 manager: Annbe
 ms.date: 10/13/2020
 ms.topic: article
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: 91ee798a206ea5200780c8ebafc8f99cd9a3e219
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: 67a69d521ac0a5632371138bd4fbb9dd00fe34ee
+ms.sourcegitcommit: f6f86e80dfef15a7b5f9174b55dddf410522f7c8
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4072643"
+ms.lasthandoff: 10/31/2020
+ms.locfileid: "4181486"
 ---
 # <a name="copy-price-lists"></a>复制价目表
 
@@ -23,10 +23,10 @@ _**适用于：** 基于资源/非库存场景的 Project Operations，精简部
 
 若要复制价目表，请完成以下步骤。
 
-1. 打开要复制的价目表，选择 **复制** 。
+1. 打开要复制的价目表，选择 **复制**。
 2. 输入复制价目表所需的所有信息。 下表显示了输入信息时需要注意的事项。
 
-| 字段 | 关联性、用途和指导 | 下游影响 |
+| 字段 | 描述 | 下游影响 |
 | --- | --- | --- |
 | 客户 | 附加了 **-copy** 的源价目表的名称。 | 价目表会在所有列表页和下拉选项中包含此值。 |
 | 背景 | 输入目标价目表所需的上下文。 | 上下文设置为 **成本** 的价目表用于为成本估计值和成本实际值查找价格。 上下文设置为 **销售** 的价目表用于为销售估计值和销售实际值查找价格。 只有将上下文设置为 **销售** 的价目表可以附加到客户、报价单或合同的项目价目表中。 |
@@ -40,6 +40,6 @@ _**适用于：** 基于资源/非库存场景的 Project Operations，精简部
 
 ## <a name="update-a-price-list-by-applying-a-mark-up-to-all-the-prices"></a>通过对所有价格应用加价来更新价目表
 
-1. 在价目表的 **角色** 、 **类别** 和 **价目表项** 选项卡上，您可以选择 **更新价格** ，对子网格中的所有价格应用加价。 
+1. 在价目表的 **角色**、**类别** 和 **价目表项** 选项卡上，您可以选择 **更新价格** 来为子网格中的所有价格应用加价。 
 2. 在打开的对话页面上，输入加价。 您还可以输入负加成百分比，将价格降低一定百分比。 
-3. 在对话页面上选择 **确定** ，然后验证子网格中的价格是否反映了您所作的更改。
+3. 在对话页面上选择 **确定**，然后验证子网格中的价格是否反映了您所作的更改。

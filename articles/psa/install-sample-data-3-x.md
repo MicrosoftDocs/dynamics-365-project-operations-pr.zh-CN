@@ -3,7 +3,7 @@ title: 示例数据安装
 description: 此主题提供有关在 Project Service Automation 中安装示例数据的信息。
 ms.custom: dyn365-projectservice
 ms.date: 11/08/2018
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.reviewer: kfend
 ms.suite: ''
 applies_to: Dynamics 365 Project Service Automation
@@ -11,12 +11,12 @@ author: ruhercul
 ms.author: ruhercul
 search.audienceType: IT Pro, Developer
 search.app: ''
-ms.openlocfilehash: 46dbd8d125396baa97537ea5d11c47864558c113
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: 3c9cca7aa9d85bb38e48820b361ba07923ceddbd
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4072669"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4132412"
 ---
 # <a name="sample-data-installation-for-the-project-service-application"></a>Project Service 应用程序的示例数据安装
 
@@ -43,13 +43,13 @@ ms.locfileid: "4072669"
 这些示例数据包仅提供英语版。
 
 > [!IMPORTANT]
-> **不能卸载示例数据。** 只应在演示、评估、培训或测试系统上安装这些包。 另请注意，不支持先安装单个包，然后再安装其他单个包。 （也就是说，您不能在安装 **PSMasterData** 后安装 **FSMasterData** ，反之亦然。）如果您以后在任何时间发现自己需要两个应用程序的示例数据，您应该安装 **v902FPSMasterData** 包。
+> **不能卸载示例数据。** 只应在演示、评估、培训或测试系统上安装这些包。 另请注意，不支持先安装单个包，然后再安装其他单个包。 （也就是说，您不能在安装 **PSMasterData** 后安装 **FSMasterData**，反之亦然。）如果您以后在任何时间发现自己需要两个应用程序的示例数据，您应该安装 **v902FPSMasterData** 包。
 
 在安装任何示例数据包时，安装过程会执行以下操作：
 
 - 为使用 Project Service、Field Service 或者两个应用程序（如果适用）创建或设置默认参数。
 
-- 导入应用程序的示例数据，例如可预订资源、应用程序特定角色、销售和成本价目表、部门、销售流程记录及其他要演示重要功能的实体。  
+- 导入应用程序的示例数据，例如可预订资源、应用程序特定角色、销售和成本价目表、部门、销售流程记录及其他要演示重要功能的实体。  
 
 通过 **演示数据** 包，您将获得上述及其他事务数据，如工作订单和项目。
 
@@ -80,7 +80,7 @@ ms.locfileid: "4072669"
 
 需要在安装最新版本 Windows（首选 Windows 10）的计算机上运行安装程序。
 
-您应将计算机计划为保持连接到网络，并将 **设置/引用数据** 的安装计划为最长运行 **1 小时** 。 （通常安装 **FPSMasterData** 大约需要 30 分钟，包括两个应用程序的示例数据。）对于 **FPSDemoData** ，安装需要约 **3 小时** 。
+您应将计算机计划为保持连接到网络，并将 **设置/引用数据** 的安装计划为最长运行 **1 小时**。 （通常安装 **FPSMasterData** 大约需要 30 分钟，包括两个应用程序的示例数据。）对于 **FPSDemoData**，安装需要约 **3 小时**。
 
 计算机应关闭屏幕保护程序功能。 否则，安装的会话凭据可能在屏幕保护程序加入时丢失（除非您全程保持会话处于活动状态）。
 
@@ -97,11 +97,11 @@ Project Service 和 Field Service 示例数据安装程序作为自解压的可�
 
 1. 在 **v902FPSMasterData** / **PackageDeployer_FPSDemoData** 文件夹中找到并右键单击 **FPSDemoData.dll** 文件。
 
-2. 选择 **取消阻止** 。
+2. 选择 **取消阻止**。
 
-3. 选择 **应用** 。
+3. 选择 **应用**。
 
-4. 选择 **确定** 。
+4. 选择 **确定**。
 
 
 ## <a name="create-or-configure-users"></a>创建或配置用户
@@ -114,11 +114,11 @@ Project Service 和 Field Service 示例数据安装程序作为自解压的可�
 
 若要创建或配置用户，请转到 **设置** > **安全** > **用户** 并执行以下操作：
 
-1. 将 UserFullname="Spencer Low" with username "spencerl"（ **小写** ）设置为项目经理和实践经理角色。
+1. 将 UserFullname="Spencer Low" with username "spencerl"（**小写**）设置为项目经理和实践经理角色。
 
-2. 选择 **Spencer Low** 用户，然后选择 **管理角色** 。 找到并选择 **系统管理员** 角色，然后选择 **确定** 为 Spencer Low 授予完全管理员权限。 此步骤是必要的，可以确保创建的示例记录具有正确的用户所有权，因而正确填充视图。
+2. 选择 **Spencer Low** 用户，然后选择 **管理角色**。 找到并选择 **系统管理员** 角色，然后选择 **确定** 为 Spencer Low 授予完全管理员权限。 此步骤是必要的，可以确保创建的示例记录具有正确的用户所有权，因而正确填充视图。
 
-3. 从下载的包，您需要将数据映射文件更新为默认用户上下文的电子邮件地址。 为此，打开 **PkgFolder** ，然后找到并在记事本（或 Visual Studio 或其他 XML 编辑器）中打开 **ImportUserMapFile.xml** 文件。 将 **DefaultUserToMapTo=** 字段设置为 Spencer Low 用户的电子邮件地址。
+3. 从下载的包，您需要将数据映射文件更新为默认用户上下文的电子邮件地址。 为此，打开 **PkgFolder**，然后找到并在记事本（或 Visual Studio 或其他 XML 编辑器）中打开 **ImportUserMapFile.xml** 文件。 将 **DefaultUserToMapTo=** 字段设置为 Spencer Low 用户的电子邮件地址。
 
 4. 如果不使用用户名为 **spencerl** 的 Spencer Low，您需要更新其他文件。 打开 **DemoDataPreImportConfig.xml** 文件，然后找到 **userstocreateandconfigure** 标记。 将 **\<login\>** 标记更新为 Spencer Low 用户的用户名。 其他详细信息，请参阅[技术说明](#technical-notes)。
 
@@ -126,7 +126,7 @@ Project Service 和 Field Service 示例数据安装程序作为自解压的可�
 
 演示数据包需要六个用户。 要正确安装包，请执行以下操作：
 
- 1. 转到 **设置** > **安全** > **用户** ，创建或临时重命名现有用户以匹配接收的示例数据配置。
+ 1. 转到 **设置** > **安全** > **用户**，创建或临时重命名现有用户以匹配接收的示例数据配置。
  
     仅基于人员的演示需要这些角色。  
     - 作为 Field Service 技术人员的用户全名="David So"   
@@ -138,30 +138,30 @@ Project Service 和 Field Service 示例数据安装程序作为自解压的可�
   
 2. 为导入演示数据，请为上述管理员角色分派六个用户，以正确导入示例记录。 
 
-3. 打开 **PkgFolder** ，然后找到并打开 **ImportUserMapFile.xml** 。 将 **新=** 字段更新为您的系统中对应用户的电子邮件地址。
+3. 打开 **PkgFolder**，然后找到并打开 **ImportUserMapFile.xml**。 将 **新=** 字段更新为您的系统中对应用户的电子邮件地址。
 
    > [!div class="mx-imgBorder"]
    > ![UserMapFile 的屏幕截图](media/sample-data-7.png)
 
-4. 如果您的 "Spencer Low" 全名用户的用户 ID 与 **"spencerl"** 不同，则需要更新其他文件。 打开 **DemoDataPreImportConfig.xml** ，找到 **userstocreateandconfigure** 标记。 将 **\<login\>** 标记更新为 loginId（区分大小写）。 
+4. 如果您的 "Spencer Low" 全名用户的用户 ID 与 **"spencerl"** 不同，则需要更新其他文件。 打开 **DemoDataPreImportConfig.xml**，找到 **userstocreateandconfigure** 标记。 将 **\<login\>** 标记更新为 loginId（区分大小写）。 
 
-5. 第一个用户的日历（在 **userstocreateandconfigure** 标记中）用于在导入演示数据时填充所有可预订资源的工作时间。 导航到 **设置** > **安全** > **用户** ，找到您的 "Spencer Low" 用户“，然后打开“工作时间”选项。 编辑现有工作时间，选择 **从开始到结束的所有各周的定期计划** 选项。 确保 **工作时间设置为早晨 8 点 - 下午 5 点（9 小时），星期一至星期五，时区设置为太平洋时间（美国和加拿大）** 。 这样可以确保项目和日程安排板正常显示。
+5. 第一个用户的日历（在 **userstocreateandconfigure** 标记中）用于在导入演示数据时填充所有可预订资源的工作时间。 导航到 **设置** > **安全** > **用户**，找到您的 "Spencer Low" 用户“，然后打开“工作时间”选项。 编辑现有工作时间，选择 **从开始到结束的所有各周的定期计划** 选项。 确保 **工作时间设置为早晨 8 点 - 下午 5 点（9 小时），星期一至星期五，时区设置为太平洋时间（美国和加拿大）**。 这样可以确保项目和日程安排板正常显示。
 
 **建议：** 如果您需要在安装示例数据期间出现错误时还原到起点，应在现在考虑创建组织的备份。 有关更多信息，请参阅[备份和还原实例](https://docs.microsoft.com/dynamics365/customer-engagement/admin/backup-restore-instances)。
 
 ## <a name="run-the-package-deployer"></a>运行 Package Deployer。
 
-1. 在 **v902FPSMasterData** 或 **PackageDeployer_FPSDemoData** 文件夹中找到并运行 **PackageDeployer.exe** 。
+1. 在 **v902FPSMasterData** 或 **PackageDeployer_FPSDemoData** 文件夹中找到并运行 **PackageDeployer.exe**。
 
 2. 接受条款和条件。
 
 3. 在下一个窗口中：
 
-   a. 选择部署类型 **Office 365** 。
+   a. 选择部署类型 **Office 365**。
 
    b. 使用在“创建或配置用户”中配置的系统管理员用户的用户和密码（用户名为 "spencerl" 的 "Spencer Low"）。
 
-   c. 确保已选择 **显示可用组织列表** 。
+   c. 确保已选择 **显示可用组织列表**。
 
       > [!div class="mx-imgBorder"]
       > ![选中“显示可用组织列表”的 Package Deployer 窗口的屏幕截图](media/sample-data-2.png)
@@ -175,7 +175,7 @@ Project Service 和 Field Service 示例数据安装程序作为自解压的可�
 
 6. 在继续之前，请注意，安装示例数据最多可能需要一个小时（通常约为 10 分钟）。 您需要确保计算机在整个安装过程中保持开启并连接到网络，并确保会话保持活动状态。   
 
-7. 在您准备就绪时，单击 **下一步** 开始示例数据安装过程。 在示例数据加载后，单击 **完成** 。
+7. 在您准备就绪时，单击 **下一步** 开始示例数据安装过程。 在示例数据加载后，单击 **完成**。
 
 ## <a name="verify-the-sample-data-installation"></a>验证示例数据安装
 
@@ -183,11 +183,11 @@ Project Service 和 Field Service 示例数据安装程序作为自解压的可�
 
 在完全加载示例数据后，作为 Spencer Low 用户身份登录并确认以下各项：
 
-- 如果已安装 Project Service 应用程序，请转到 **Project Service** > **设置** > **价目表** 。 确认数据集中存在记帐费率和成本费率并且具有各个国家/地区的相应货币。
+- 如果已安装 Project Service 应用程序，请转到 **Project Service** > **设置** > **价目表**。 确认数据集中存在记帐费率和成本费率并且具有各个国家/地区的相应货币。
 
-- 如果已安装 Project Service 应用程序，请转到 **Universal Resource Scheduling** > **设置** > **部门** 。 确认使用相应货币的成本价目表已与各个部门关联（不包括城市条目）。 如果缺少，找到并关联正确的成本价目表。
+- 如果已安装 Project Service 应用程序，请转到 **Universal Resource Scheduling** > **设置** > **部门**。 确认使用相应货币的成本价目表已与各个部门关联（不包括城市条目）。 如果缺少，找到并关联正确的成本价目表。
 
-- 如果已安装 Field Service 应用程序，请转到 **Project Service** > **设置** > **价目表** 。 确认记帐费率和成本费率存在。 转到 **Field Service** > **设置** > **价目表** ，检查数据集中是否存在记帐费率和成本比率，且是否使用每个国家/地区的相应货币。
+- 如果已安装 Field Service 应用程序，请转到 **Project Service** > **设置** > **价目表**。 确认记帐费率和成本费率存在。 转到 **Field Service** > **设置** > **价目表**，检查数据集中是否存在记帐费率和成本比率，且是否使用每个国家/地区的相应货币。
 
   > [!div class="mx-imgBorder"]
   > ![可用价目表的屏幕截图](media/sample-data-4.png)
@@ -213,11 +213,11 @@ Project Service 和 Field Service 示例数据安装程序作为自解压的可�
 
 此更改将使安装程序绕过一些重要的安全检查，包括：
 
-- 确认没有多个可用 **部门** 记录，然后将其重命名为 **Fabrikam US** 。
+- 确认没有多个可用 **部门** 记录，然后将其重命名为 **Fabrikam US**。
 
 - 确认没有多个可用 **工作模板** 记录。
 
-- 确认没有多个可用 **项目参数** 记录，然后将该条目重命名为 **Parameters** 。
+- 确认没有多个可用 **项目参数** 记录，然后将该条目重命名为 **Parameters**。
 
 ### <a name="configuration-components"></a>配置组件
 
@@ -241,7 +241,7 @@ Project Service 和 Field Service 示例数据安装程序作为自解压的可�
 
 ### <a name="fabrikam-robotics-fictitious-scenario"></a>Fabrikam Robotics 虚构场景
 
-Field Service 和 Project Service 示例引用数据包安装 **Fabrikam 制造主数据 (v3.0.0.0) 解决方案** ，以及约 4,000 个记录和约 40 个不同实体。 Field Service 或 Project Service 的单独示例数据包包含该应用程序的 **v902FPSMasterData** 示例数据的子集。 **演示数据** 包安装 **Fabrikam 制造演示数据 (v3.0.0.7) 解决方案** ，其跨 148 个实体有约 22,000 个记录。
+Field Service 和 Project Service 示例引用数据包安装 **Fabrikam 制造主数据 (v3.0.0.0) 解决方案**，以及约 4,000 个记录和约 40 个不同实体。 Field Service 或 Project Service 的单独示例数据包包含该应用程序的 **v902FPSMasterData** 示例数据的子集。 **演示数据** 包安装 **Fabrikam 制造演示数据 (v3.0.0.7) 解决方案**，其跨 148 个实体有约 22,000 个记录。
 
 虚构公司 Fabrikam Robotics 是一家电子设备装配线机器人制造商，以其产品质量、创新和可靠的客户服务著称，包括安装计划、实施和持续的维护系统。 Fabrikam 总部设在美国 (Fabrikam US)，并在法国、印度、英国和瑞士有基于项目的服务运营。
 
@@ -289,9 +289,9 @@ Field service 运营集中于美国，大部分是在大西雅图地区。 该�
 
 默认情况下，所有可预订资源均具有 24 个工作时数的日历。
 
-如果需要更改示例可预订资源的工作时间，请转到 **Universal Resource Scheduling** > **计划** > **资源** 。
+如果需要更改示例可预订资源的工作时间，请转到 **Universal Resource Scheduling** > **计划** > **资源**。
 
-选择用户（例如，Spencer Low）并将 Spencer 的工作时间更改为要应用于多个用户的时间。 转到 **Universal Resource Scheduling** > **设置** > **工作时间模板** 并编辑 **默认工作模板** 记录。 在 **模板资源** 字段中，选择具有您希望应用到其他资源的工作时间的用户。 转到 **Universal Resource Scheduling** > **计划** > **资源** > **可用的可预订资源** 。 选择要更改的资源，然后选择 **设置日历** 。 在 **工作模板** 下拉列表上，选择 **默认工作时间** 模板或具有正确模板资源的其他模板。 如果您转到日程安排板，您应该会看到资源现在已经更新了工作时间。
+选择用户（例如，Spencer Low）并将 Spencer 的工作时间更改为要应用于多个用户的时间。 转到 **Universal Resource Scheduling** > **设置** > **工作时间模板** 并编辑 **默认工作模板** 记录。 在 **模板资源** 字段中，选择具有您希望应用到其他资源的工作时间的用户。 转到 **Universal Resource Scheduling** > **计划** > **资源** > **可用的可预订资源**。 选择要更改的资源，然后选择 **设置日历**。 在 **工作模板** 下拉列表上，选择 **默认工作时间** 模板或具有正确模板资源的其他模板。 如果您转到日程安排板，您应该会看到资源现在已经更新了工作时间。
 
 > [!div class="mx-imgBorder"]
 > ![可用的可预订资源的屏幕截图](media/sample-data-6.png)

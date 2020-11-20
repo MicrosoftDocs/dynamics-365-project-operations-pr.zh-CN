@@ -1,21 +1,21 @@
 ---
-title: 项目报价单关键概念
+title: 报价单 - 关键概念 - 精简
 description: 此主题提供有关在 Project Operations 中使用项目报价单的信息。
 author: rumant
 manager: Annbe
 ms.date: 10/01/2020
 ms.topic: article
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: 64d2fd9bab9452d71e8cd194fbab70edadf00b93
-ms.sourcegitcommit: 11a61db54119503e82faec5f99c4273e8d1247e5
+ms.openlocfilehash: e86f1a5a7b2859df5bf9569ee9ca306c6dcc6293
+ms.sourcegitcommit: 625878bf48ea530f3381843be0e778cebbbf1922
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4072528"
+ms.lasthandoff: 10/30/2020
+ms.locfileid: "4177995"
 ---
-# <a name="project-quote-key-concepts"></a>项目报价单关键概念
+# <a name="quotes---key-concepts---lite"></a>报价单 - 关键概念 - 精简
 
 _**适用于：** 精简部署 - 估价交易开票_
 

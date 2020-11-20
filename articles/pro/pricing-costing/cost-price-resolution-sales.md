@@ -1,25 +1,25 @@
 ---
-title: 解析估计值和实际值中的成本费
+title: 根据估算和实际值处理成本费 - 精简
 description: 此主题提供有关如何解析估计值和实际值中的成本费的信息。
 author: rumant
 manager: Annbe
 ms.date: 10/13/2020
 ms.topic: article
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: bad8f4b95ac5803d3f334e1b306d2a9d27a6645d
-ms.sourcegitcommit: 11a61db54119503e82faec5f99c4273e8d1247e5
+ms.openlocfilehash: 3fedf7b577e2372fb10ea85ea1e3caa9bf2f5ad0
+ms.sourcegitcommit: 625878bf48ea530f3381843be0e778cebbbf1922
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4072514"
+ms.lasthandoff: 10/30/2020
+ms.locfileid: "4176780"
 ---
-# <a name="resolving-cost-prices-on-estimates-and-actuals"></a>解析估计值和实际值中的成本费
+# <a name="resolve-cost-prices-on-estimates-and-actuals---lite"></a>根据估算和实际值处理成本费 - 精简
 
 _**适用于：** 精简部署 - 估价交易开票_
 
-为了解析估计值和实际值的成本费和成本价目表，系统使用相关项目的 **日期** 、 **货币** 和 **合同签订部门** 字段中的信息。 解析成本价目表后，应用程序将解析成本费率。
+为了解析估计值和实际值的成本费和成本价目表，系统使用相关项目的 **日期**、**货币** 和 **合同签订部门** 字段中的信息。 解析成本价目表后，应用程序将解析成本费率。
 
 ## <a name="resolving-cost-rates-on-actual-and-estimate-lines-for-time"></a>解析“时间”的实际值和估计值明细中的成本费率
 
@@ -34,4 +34,4 @@ _**适用于：** 精简部署 - 估价交易开票_
 
 “支出”的估计值明细引用项目中支出和支出估计值明细的报价单和合同子项详细信息。
 
-解析成本价目表后，系统将使用支出的估计值明细中的 **类别** 和 **单位** 字段的组合与解析的价目表中的 **类别价格** 明细进行匹配。 如果系统发现具有 **类别** 和 **单位** 字段组合的成本费率的类别价格明细，此成本费率将为默认值。 如果系统无法匹配 **类别** 和 **单位** 值，或者能够找到匹配的类别价格明细，但定价方式不是 **单价** ，成本费率默认为零 (0)。
+解析成本价目表后，系统将使用支出的估计值明细中的 **类别** 和 **单位** 字段的组合与解析的价目表中的 **类别价格** 明细进行匹配。 如果系统发现具有 **类别** 和 **单位** 字段组合的成本费率的类别价格明细，此成本费率将为默认值。 如果系统无法匹配 **类别** 和 **单位** 值，或者能够找到匹配的类别价格明细，但定价方式不是 **单价**，成本费率默认为零 (0)。

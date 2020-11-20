@@ -3,7 +3,7 @@ title: 创建工作时间模板
 description: 如何在 Project Service 中创建工作时间模板
 author: ruhercul
 manager: kfend
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 8/03/2018
@@ -18,12 +18,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: c34634817fc8e4c993261024a8b19d45052bf5e5
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: a0fce327587940e557e0214c8c0897116ac91901
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4072614"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4133042"
 ---
 # <a name="create-a-work-hours-template-project-service"></a>创建工作时间模板 (Project Service)
 
@@ -41,25 +41,25 @@ ms.locfileid: "4072614"
   
 #### <a name="to-create-a-work-hours-template-based-on-a-resources-calendar"></a>创建基于资源日历的工作时间模板  
   
-1.  转到 **Project Service > 资源** 。  
+1.  转到 **Project Service > 资源**。  
   
 2.  选择要基于您工作时间的资源。  
   
-3.  单击 **将日历另存为** ，输入工作时间模板的名称，然后单击 **保存** 。  
+3.  单击 **将日历另存为**，输入工作时间模板的名称，然后单击 **保存**。  
   
-4.  完成更改选项后，单击 **保存并关闭** 。  
+4.  完成更改选项后，单击 **保存并关闭**。  
   
 5.  在屏幕右下角，单击 **保存** 按钮。  
   
 #### <a name="to-create-a-new-work-hours-template"></a>创建新的工作时间模板  
   
-1.  转至 **Project Service > 工作时间模板** 。  
+1.  转至 **Project Service > 工作时间模板**。  
   
-2.  单击 **新建** 。  
+2.  单击 **新建**。  
   
 3.  输入工作时间模板的名称。  
   
-4.  选择要基于工作时间的资源，然后单击 **保存** 。  
+4.  选择要基于工作时间的资源，然后单击 **保存**。  
   
 ### <a name="see-also"></a>另请参阅  
  [设置资源](../psa/set-up-resources.md)

@@ -1,21 +1,21 @@
 ---
-title: 项目报价单上的摘要信息
+title: 项目报价单设置
 description: 此主题提供有关应用于和影响项目报价单的信息和设置的信息。
 author: rumant
 manager: Annbe
 ms.date: 10/01/2020
 ms.topic: article
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: 6dde5305f179e9a4454bf97c44f1ebdf9986dd43
-ms.sourcegitcommit: 11a61db54119503e82faec5f99c4273e8d1247e5
+ms.openlocfilehash: 8d5a49febf02310f1e6c26798fc0ba1aa3b8d1f1
+ms.sourcegitcommit: f6f86e80dfef15a7b5f9174b55dddf410522f7c8
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4072450"
+ms.lasthandoff: 10/31/2020
+ms.locfileid: "4180226"
 ---
-# <a name="summary-information-on-a-project-quote"></a>项目报价单上的摘要信息
+# <a name="project-quote-settings"></a>项目报价单设置
 
 _**适用于：** 面向资源/非库存场景的 Project Operations_
 
@@ -24,9 +24,9 @@ _**适用于：** 面向资源/非库存场景的 Project Operations_
 
 下表列出了项目报价单中的摘要信息字段，这些字段是 Dynamics 365 Project Operations 所独有的，或者对 Dynamics 365 Sales 报价单中的行为有某些重要更改。
 
-| **字段** | **位置** | **关联性、用途和指导** | **下游影响** |
+| **字段** | **位置** | **说明** | **下游影响** |
 | --- | --- | --- | --- |
-| Type | “摘要”选项卡（隐藏） | 此选项集字段对以下选项进行哈希处理：</br>- 基于工作（仅在安装了 Project Operations 时可用）</br>- 基于项目（仅在安装了 Project Operations 和 Sales 时可用）</br>- 基于服务维护（通过安装 Dynamics 365 Field Service 提供） | 当您使用 Project Operations 应用程序时，此字段的值会自动设置为 **基于工作** 。 这会将报价单分类为基于项目的报价单。 报价单应该是基于项目的，以支持所有特定于项目的扩展和功能。 |
+| Type | “摘要”选项卡（隐藏） | 此选项集字段对以下选项进行哈希处理：</br>- 基于工作（仅在安装了 Project Operations 时可用）</br>- 基于项目（仅在安装了 Project Operations 和 Sales 时可用）</br>- 基于服务维护（通过安装 Dynamics 365 Field Service 提供） | 当您使用 Project Operations 应用程序时，此字段的值会自动设置为 **基于工作**。 这会将报价单分类为基于项目的报价单。 报价单应该是基于项目的，以支持所有特定于项目的扩展和功能。 |
 | 业主公司 | 摘要 | 将负责与此报价单关联的项目产生的成本和收入的法人。 从商机创建报价单时，将从商机上的相应字段复制此字段。 | 业主公司等同于 Project Operations 的 **项目管理和会计** 模块中的法人概念。 此项目产生的所有成本和收入将计入业主公司的总帐。 |
 | 潜在客户 | “摘要”标签页 | 对客户的公司或客户记录的引用。 项目报价单上引用的有效客户必须设置为报价单的业主公司中的客户。 业主公司将显示法人列表，这些在 Project Operations 的 **项目管理和会计** 模块中设置。 从商机创建报价单时，将从商机上的相应字段复制此字段。 | 项目报价单上的货币根据客户的货币选择默认值。 但可以在保存报价单之前更改。 |
 | 客户经理 | “摘要”标签页 | 此交易的客户经理的姓名。 从商机创建报价单时，将从商机上的相应字段复制此字段。 | 客户经理负责在此项目完成之前管理与客户的关系。 根据与客户经理关联的可预订资源记录，合同签订部门在项目报价单上选择默认值。|
@@ -38,7 +38,7 @@ _**适用于：** 面向资源/非库存场景的 Project Operations_
 
 以下是项目报价单上可用的选项卡和 KPI，它们是 Project Operations 所特有的，或对 Sales 报价单的行为有一些重要更改：
 
-| **字段** | **位置** | **关联性、用途和指导** |
+| **字段** | **位置** | **说明** |
 | --- | --- | --- |
 | 利润率分析 | 报价单上的选项卡 | 此选项卡显示以下指标：</br>- 总应计成本</br></br>- 总非应计成本</br>- 收入总额</br>- 收入总额（基础货币）</br>- 毛利</br>- 调整后的毛利润|
 | 与客户预期比较 | 报价单上的选项卡 | 此选项卡显示以下指标：</br>- 预计完成日期</br>- 要求完成日期</br>- 客户预算</br>- 报价值 |

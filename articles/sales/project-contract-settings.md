@@ -5,15 +5,15 @@ author: rumant
 manager: Annbe
 ms.date: 10/20/2020
 ms.topic: article
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: c11d6e76b551e0d2cde8ff514d1a0ddd989d07b9
-ms.sourcegitcommit: f8edff6422b82fdf2cea897faa6abb51e2c0c3c8
+ms.openlocfilehash: 2f29e396f8d30a5c5648b5c9937f1f20fbf72e89
+ms.sourcegitcommit: f6f86e80dfef15a7b5f9174b55dddf410522f7c8
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/21/2020
-ms.locfileid: "4087833"
+ms.lasthandoff: 10/31/2020
+ms.locfileid: "4181126"
 ---
 # <a name="project-contract-settings"></a>项目合同设置
 
@@ -23,9 +23,9 @@ _**适用于：** 面向资源/非库存场景的 Project Operations_
 
 下表列出了项目合同中的字段，这些字段是 Dynamics 365 Project Operations 所独有的，或者对 Dynamics 365 Sales 中的销售订单的行为有某些重要更改。
 
-| 字段 | 地点 | 关联性、用途和指导 | 下游影响 |
+| 字段 | 地点 | 描述 | 下游影响 |
 | --- | --- | --- | --- |
-| Type | **摘要** 选项卡（隐藏） | 这是一个选项集字段，具有以下选项：</br>- **基于工作** （仅在安装了 Project Operations 时可用）</br>- **基于项目** （仅在安装了 Project Operations 和 Sales 时可用）</br>- **基于服务维护** （通过安装 Dynamics 365 Field Service 提供） | 在 Project Operations 中，此字段的值默认为 **基于工作** ，将合同分类为基于项目的合同。 合同应该是基于项目的，以支持所有特定于项目的扩展和功能。 |
+| Type | **摘要** 选项卡（隐藏） | 这是一个选项集字段，具有以下选项：</br>- **基于工作**（仅在安装了 Project Operations 时可用）</br>- **基于项目**（仅在安装了 Project Operations 和 Sales 时可用）</br>- **基于服务维护**（通过安装 Dynamics 365 Field Service 提供） | 在 Project Operations 中，此字段的值默认为 **基于工作**，将合同分类为基于项目的合同。 合同应该是基于项目的，以支持所有特定于项目的扩展和功能。 |
 | 业主公司 | **摘要** 选项卡 | 负责与此项目合同关联的项目产生的成本和收入的法人。 从报价单创建合同时，将从报价单记录上的相应字段复制此字段。 | 业主公司等同于 Project Operations 的 **项目管理和会计** 模块中的法人概念。 此项目产生的所有成本和收入将计入业主公司的总帐。 |
 | 客户 | **摘要** 选项卡 | 对客户的公司或客户记录的引用。 从报价单创建合同时，将从报价单记录上的相应字段复制此字段。 | 项目合同上的货币根据客户的货币选择默认值。 货币可以在保存合同之前更改。 |
 | 客户经理 | **摘要** 选项卡 | 此交易的客户经理的姓名。 从报价单创建合同时，将从报价单记录上的相应字段复制此字段。 | 客户经理负责在项目完成之前管理与客户的关系。 根据与客户经理关联的可预订资源记录，合同签订部门在项目合同上选择默认值。 |
@@ -37,7 +37,7 @@ _**适用于：** 面向资源/非库存场景的 Project Operations_
 
 以下 KPI 在项目合同的 **合同绩效** 选项卡上可用。
 
-| 字段 | 地点 | 关联性、用途和指导 |
+| 字段 | 地点 | 描述 |
 | --- | --- | --- |
 | 合同值 | 整个合同 | 项目合同的总值。 |
 | 已记帐金额 | 整个合同 | 此合同中所有发票上的金额之和。 |

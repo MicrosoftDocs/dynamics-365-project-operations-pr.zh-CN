@@ -1,21 +1,21 @@
 ---
-title: 项目合同的关键概念
+title: 项目合同 - 关键概念 - 精简
 description: 此主题提供有关项目合同的关键概念的信息。
 author: rumant
 manager: Annbe
 ms.date: 10/07/2020
 ms.topic: article
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: 66d6b72b19a90ecc9161cd16ce9d4dd22798803b
-ms.sourcegitcommit: 11a61db54119503e82faec5f99c4273e8d1247e5
+ms.openlocfilehash: ce37c9dd18fd01e599e8766389e42c066e182547
+ms.sourcegitcommit: 625878bf48ea530f3381843be0e778cebbbf1922
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4072510"
+ms.lasthandoff: 10/30/2020
+ms.locfileid: "4177050"
 ---
-# <a name="key-concepts-of-project-contracts"></a>项目合同的关键概念
+# <a name="project-contracts---key-concepts---lite"></a>项目合同 - 关键概念 - 精简
 
 _**适用于：** 精简部署 - 估价交易开票_
 
@@ -35,7 +35,7 @@ _**适用于：** 精简部署 - 估价交易开票_
 
 Project Operations 中的销售货币是用于记录和显示预估和实际销售金额的货币。 销售货币还是客户为交易开票所使用的货币。 在项目合同上，销售货币默认来自客户记录，可以在创建合同时进行更改。 当通过作为赢单结束报价单创建合同时，合同中的货币会默认为报价单上的货币。
 
-当您从头创建项目合同时， **销售货币** 字段无法编辑。 产品和项目价目表默认基于合同上的此货币。
+当您从头创建项目合同时，**销售货币** 字段无法编辑。 产品和项目价目表默认基于合同上的此货币。
 
 与成本不同，销售值只能以销售货币记录。
 

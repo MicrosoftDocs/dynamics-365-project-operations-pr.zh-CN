@@ -1,33 +1,33 @@
 ---
-title: 基于项目的商机明细 (Pro)
+title: 基于项目的商机明细 - 精简
 description: 此主题提供有关基于项目的商机明细的信息。 (Pro)
 author: rumant
 manager: Annbe
 ms.date: 10/01/2020
 ms.topic: article
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: 1a688b9bed5a38e7b5947cbcee1e3cb8ab211e98
-ms.sourcegitcommit: 11a61db54119503e82faec5f99c4273e8d1247e5
+ms.openlocfilehash: bba555003b76e3e87412679b274f74f68ac7203b
+ms.sourcegitcommit: f6f86e80dfef15a7b5f9174b55dddf410522f7c8
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4072529"
+ms.lasthandoff: 10/31/2020
+ms.locfileid: "4180991"
 ---
-# <a name="project-based-opportunity-lines-pro"></a>基于项目的商机明细 (Pro)
+# <a name="project-based-opportunity-lines---lite"></a>基于项目的商机明细 - 精简
 
 _**适用于：** 精简部署 - 估价交易开票_
 
-基于项目的商机明细仅在基于项目的商机中可用。 基于项目的商机记录将 **类型** 字段值设置为 **基于工作** 。
+基于项目的商机明细仅在基于项目的商机中可用。 基于项目的商机记录将 **类型** 字段值设置为 **基于工作**。
 
 基于项目的商机明细是将使用项目交付给客户的明细项目。 但是，不能将项目与基于项目的商机明细关联。 项目可以与 **报价单** 阶段以及以后的明细项目关联，因为商机通常处于交易生命周期的早期阶段。 确定将使用多少项目来为客户交付工作是在销售阶段的后期作的决定。 您可以使用商机阶段来确定客户的分散交付组件。 围绕用于交付这些组件的实际项目数的决定可以一直推送到了解有关工作本身的更多信息为止。
 
 下面是基于项目的商机明细中的字段：
 
-| **字段** | **位置** | **关联性、用途和指导** | **下游影响** |
+| **字段** | **位置** | **说明** | **下游影响** |
 | --- | --- | --- | --- |
-| 产品类型 | “常规”选项卡（隐藏） | 您可以选择以下选项之一：</br>- 基于项目的服务（仅在安装了 Dynamics 365 Project Operations 时可用）</br>- 产品（仅在安装了 Project Operations 和 Dynamics 365 Sales 时可用） | 当您从商机上的基于项目的明细网格创建基于项目的商机明细时，此字段的值将设置为 **基于项目的服务** 。 <br> 如果您更改或替代此值，将不会在基于项目的明细项目上启用项目功能。 |
+| 产品类型 | “常规”选项卡（隐藏） | 您可以选择以下选项之一：</br>- 基于项目的服务（仅在安装了 Dynamics 365 Project Operations 时可用）</br>- 产品（仅在安装了 Project Operations 和 Dynamics 365 Sales 时可用） | 当您从商机上的基于项目的明细网格创建基于项目的商机明细时，此字段的值将设置为 **基于项目的服务**。 <br> 如果您更改或替代此值，将不会在基于项目的明细项目上启用项目功能。 |
 | 商机​​ | “常规”选项卡 | 此字段是只读的，引用此明细项目所属的父商机记录。 | 此字段没有下游影响。 |
 | 客户 | “常规”选项卡 | 此可编辑文本字段可用于向明细项目提供短标识。 | 当您从此商机创建报价单时，此值将转移到报价单明细。 |
 | 客户预算 | “常规”选项卡 | 此可编辑的货币字段可用于跟踪客户愿意为此明细项目花费的金额。 | 当您从此商机创建报价单时，此值将转移到报价单明细上的相应字段。 |

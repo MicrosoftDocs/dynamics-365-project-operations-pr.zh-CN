@@ -1,27 +1,27 @@
 ---
-title: 贷记和更正发票
+title: 已更正发票 - 精简
 description: 此主题提供有关 Project Operations 中的更正发票的信息
 author: rumant
 manager: Annbe
 ms.date: 10/15/2020
 ms.topic: article
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: d2187627439d42b37222dce0a491c62dafc358d5
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: 55bec8ad1d9c2b55cabb453321f13df8b7cd1614
+ms.sourcegitcommit: 625878bf48ea530f3381843be0e778cebbbf1922
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4072715"
+ms.lasthandoff: 10/30/2020
+ms.locfileid: "4176420"
 ---
-# <a name="credits-and-corrected-invoices"></a>贷记和更正发票
+# <a name="corrected-invoices---lite"></a>已更正发票 - 精简
 
 _**适用于：** 精简部署 - 估价交易开票_
 
 确认的项目发票可以更正以处理与客户和项目经理协商的变更或贷记。
 
-若要对已确认的发票进行编辑，请打开已确认的发票，选择 **更正此发票** 。 
+若要对已确认的发票进行编辑，请打开已确认的发票，选择 **更正此发票**。 
 
 > [!NOTE]
 > 除非项目发票已确认，否则此选择不可用。
@@ -35,7 +35,7 @@ _**适用于：** 精简部署 - 估价交易开票_
 - 如果使用了不正确的金额与之前确认的发票上的费用对帐，可以更正保留款或预付款的对帐。
 
 > [!IMPORTANT]
-> 作为其他已开票费用的更正内容的发票明细详细信息，会将字段 **更正** 设置为 **是** 。 包含更正发票明细详细信息的发票具有名为 **具有更正** 的字段，此字段也会设置为 **是** 。
+> 作为其他已开票费用的更正内容的发票明细详细信息，会将字段 **更正** 设置为 **是**。 包含更正发票明细详细信息的发票具有名为 **具有更正** 的字段，此字段也会设置为 **是**。
 
 ## <a name="actuals-created-on-confirmation-of-a-corrective-invoice"></a>确认纠正发票时创建的实际值：
 
@@ -260,7 +260,7 @@ _**适用于：** 精简部署 - 估价交易开票_
 原始里程碑发票明细详细信息中金额的已记帐销售额冲销。
                 </p>
                 <p>
-项目合同子项上的里程碑发票或记帐状态将更新为 **可开票** 。
+项目合同子项上的里程碑发票或记帐状态将更新为 **可开票**。
                 </p>
             </td>
         </tr>

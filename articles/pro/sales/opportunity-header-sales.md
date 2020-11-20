@@ -1,21 +1,21 @@
 ---
-title: 商机标题
-description: 此主题介绍基于项目的交易和基于项目的商机明细的整体信息。
+title: 商机设置 - 精简
+description: 此主题提供有关基于项目的交易和基于项目的商机明细的信息。
 author: rumant
 manager: Annbe
 ms.date: 10/01/2020
 ms.topic: article
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: 2f08de54767f49c308d0ccc7f2e1c6ef880b7f99
-ms.sourcegitcommit: 11a61db54119503e82faec5f99c4273e8d1247e5
+ms.openlocfilehash: c34817181b75b1b0079974f536e4d7b032ae87dd
+ms.sourcegitcommit: f6f86e80dfef15a7b5f9174b55dddf410522f7c8
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4072532"
+ms.lasthandoff: 10/31/2020
+ms.locfileid: "4181016"
 ---
-# <a name="opportunity-header"></a>商机标题
+# <a name="opportunity-header---lite"></a>商机标题 - 精简
 
 _**适用于：** 精简部署 - 估价交易开票_
 
@@ -25,9 +25,9 @@ Dynamics 365 Project Operations 中基于项目的商机是 Dynamics 365 Sales �
 
 下表包括基于项目的商机中的字段，这些字段是 Project Operations 所特有的，或具有对 Sales 中的商机的一些重要的行为更改。
 
-| **字段** | **位置** | **关联性、用途和指导** | **下游影响** |
+| **字段** | **位置** | **说明** | **下游影响** |
 | --- | --- | --- | --- |
-| Type | “常规”选项卡（隐藏） | 此选项集字段具有以下选项：</br>- 基于工作（仅通过 Project Operations 提供）</br>- 基于项目（仅在安装了 Project Operations 和 Sales 时可用）</br>- 基于服务维护（安装 Field Service 后可用） | 当您使用 Project Operations 时，此字段值会自动设置为 **基于工作** ，将商机分类为基于项目。 商机应该基于项目，以在此交易的下游销售流程中启用所有项目特定的扩展和功能。 |
+| Type | “常规”选项卡（隐藏） | 此选项集字段具有以下选项：</br>- 基于工作（仅通过 Project Operations 提供）</br>- 基于项目（仅在安装了 Project Operations 和 Sales 时可用）</br>- 基于服务维护（安装 Field Service 后可用） | 当您使用 Project Operations 时，此字段值会自动设置为 **基于工作**，将商机分类为基于项目。 商机应该基于项目，以在此交易的下游销售流程中启用所有项目特定的扩展和功能。 |
 | 联系人​​ | “常规”选项卡 | 对此交易的客户主要联系人的引用。 | |
 | 帐户​​ | “常规”选项卡 | 对客户的公司或客户记录的引用。 | |
 | 客户经理 | “常规”选项卡 | 此基于项目的商机的客户经理的姓名。 | 客户经理负责在此项目完成之前管理与客户的关系。 根据与客户经理关联的可预订资源记录，默认设置合同签订部门。 |

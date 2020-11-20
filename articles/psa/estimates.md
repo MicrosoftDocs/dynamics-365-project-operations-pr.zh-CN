@@ -3,7 +3,7 @@ title: 估算
 description: 本主题提供有关 Dynamics 365 Project Service Automation 中的估算的信息。
 author: rumant
 manager: kfend
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 1/31/2019
@@ -18,12 +18,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: e21511f78d92ff672e462f63f0dd0d098578516a
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: 95f739f0c724ff93c4d588776f9e49687bac2035
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4072806"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4132703"
 ---
 # <a name="estimates"></a>估算
 
@@ -33,7 +33,7 @@ ms.locfileid: "4072806"
 
 基于项目的报价单明细中不必包含任何报价单明细详细信息。 但是，也可以包含大量报价单明细详细信息。 报价单明细详细信息用于估算时间、支出或费用。 PSA 不允许报价单明细详细信息中包含材料估算。 这些估算称为交易分类。 也可以在交易分类中输入估算税额。
 
-除了交易分类，报价单明细详细信息中还有交易类型。 PSA 支持报价单明细详细信息中包含两种交易类型： **成本** 和 **项目合同** 。
+除了交易分类，报价单明细详细信息中还有交易类型。 PSA 支持报价单明细详细信息中包含两种交易类型：**成本** 和 **项目合同**。
 
 ## <a name="estimate-by-using-a-contract"></a>使用合同估算
 
@@ -47,7 +47,7 @@ PSA 不允许合同子项详细信息中包含材料估算。
 
 支持对项目合同执行的流程为创建发票和确认发票。 创建发票将创建基于项目的发票草稿，其中包含截止当前日期的所有未记帐实际销售值。
 
-确认将把合同设置为只读，并将其状态从 **草稿** 更改为 **已确认** 。 此操作执行之后不能撤消。 因为此操作是永久性的，所以最好是让合同保持 **草稿** 状态。
+确认将把合同设置为只读，并将其状态从 **草稿** 更改为 **已确认**。 此操作执行之后不能撤消。 因为此操作是永久性的，所以最好是让合同保持 **草稿** 状态。
 
 草稿合同和已确认合同之间的唯一区别是其状态和可以编辑草稿合同，但不能编辑已确认合同。 可以对草稿合同和已确认合同执行发票创建和跟踪实际值。
 
@@ -81,16 +81,16 @@ PSA 不支持更改合同或项目中的订单。
 如果在报价单明细详细信息中添加了自定义字段，并且希望系统输入字段的值作为创建的相关成本明细中的默认值，请使用 PreOperationContractLineDetailUpdate 和 PreOperationQuoteLineDetailUpdate 插件注册工具。 更改报价单明细详细信息或合同子项之后，必须重新注册这些插件。 执行以下步骤完成流程。
 
 1. 打开 PluginRegistrationTool，然后连接到您的在线实例。
-2. 选择 **搜索** ，然后搜索要更新的插件。
+2. 选择 **搜索**，然后搜索要更新的插件。
 
     ![“搜索树”对话框](media/basic-guide-19.png)
 
-3. 选择插件，然后在主页中选择 **选择** 。
-4. 选择要更新的插件的步骤，然后选择 **更新** 。
+3. 选择插件，然后在主页中选择 **选择**。
+4. 选择要更新的插件的步骤，然后选择 **更新**。
 
     ![在插件中选择步骤](media/basic-guide-20.png)
 
-5. 在 **更新现有步骤** 对话框的 **筛选属性** 字段中，选择省略号按钮 ( **...** )：
+5. 在 **更新现有步骤** 对话框的 **筛选属性** 字段中，选择省略号按钮 (**...**)：
  
     ![“更新现有步骤”对话框](media/basic-guide-21.png)
 
@@ -98,7 +98,7 @@ PSA 不支持更改合同或项目中的订单。
 
     ![“选择属性”对话框](media/basic-guide-22.png)
 
-7. 选择 **确定** 关闭对话框，然后选择 **更新步骤** 。
+7. 选择 **确定** 关闭对话框，然后选择 **更新步骤**。
  
     ![“更新步骤”按钮](media/basic-guide-23.png)
 

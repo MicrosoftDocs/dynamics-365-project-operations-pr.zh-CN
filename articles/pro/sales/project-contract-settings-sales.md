@@ -1,21 +1,21 @@
 ---
-title: 项目合同字段和信息
+title: 项目合同设置 - 精简
 description: 此主题提供有关影响合同子项的字段的信息，以及有关跨所有明细项目汇总的合同的信息。
 author: rumant
 manager: Annbe
 ms.date: 10/20/2020
 ms.topic: article
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: 082292c54682022933a4b46b856f9241078a9067
-ms.sourcegitcommit: f8edff6422b82fdf2cea897faa6abb51e2c0c3c8
+ms.openlocfilehash: 28dfb256eb75ca9484161f053969c205fcd60965
+ms.sourcegitcommit: f6f86e80dfef15a7b5f9174b55dddf410522f7c8
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/21/2020
-ms.locfileid: "4087828"
+ms.lasthandoff: 10/31/2020
+ms.locfileid: "4180901"
 ---
-# <a name="project-contract-fields-and-information"></a>项目合同字段和信息 
+# <a name="project-contract-settings---lite"></a>项目合同设置 - 精简
 
 _**适用于：** 精简部署 - 估价交易开票_
 
@@ -23,9 +23,9 @@ _**适用于：** 精简部署 - 估价交易开票_
 
 下表列出了项目合同中的字段，这些字段是 Dynamics 365 Project Operations 所独有的，或者对 Dynamics 365 Sales 中的销售订单的行为有某些重要更改。
 
-| 字段 | 地点 | 关联性、用途和指导 | 下游影响 |
+| 字段 | 地点 | 描述 | 下游影响 |
 | --- | --- | --- | --- |
-| Type | **摘要** 选项卡（隐藏） | 这是一个选项集字段，具有以下选项：</br>- **基于工作** （仅在安装了 Project Operations 时可用）</br>- **基于项目** （仅在安装了 Project Operations 和 Sales 时可用）</br>- **基于服务维护** （通过安装 Dynamics 365 Field Service 提供） | 在 Project Operations 中，此字段的值默认为 **基于工作** ，将合同分类为基于项目的合同。 合同应该是基于项目的，以支持所有特定于项目的扩展和功能。 |
+| Type | **摘要** 选项卡（隐藏） | 这是一个选项集字段，具有以下选项：</br>- **基于工作**（仅在安装了 Project Operations 时可用）</br>- **基于项目**（仅在安装了 Project Operations 和 Sales 时可用）</br>- **基于服务维护**（通过安装 Dynamics 365 Field Service 提供） | 在 Project Operations 中，此字段的值默认为 **基于工作**，将合同分类为基于项目的合同。 合同应该是基于项目的，以支持所有特定于项目的扩展和功能。 |
 | 潜在客户 | **摘要** 选项卡 | 对客户公司或客户记录的引用。 从报价单创建合同时，将从报价单记录上的相应字段复制此字段。 | 项目合同上的货币根据客户的货币选择默认值。 此值可以在保存合同之前更改。 |
 | 客户经理 | **摘要** 选项卡 | 此交易的客户经理的姓名。 从报价单创建合同时，将从报价单记录上的相应字段复制此字段。 | 客户经理负责在项目完成之前管理与客户的关系。 根据与客户经理关联的可预订资源记录，合同签订部门在项目合同上选择默认值。 |
 | 合同签订部门 | **摘要** 选项卡 | 负责交付与此合同关联的项目的部门。 从报价单创建合同时，将从报价单记录上的相应字段复制此字段。 | 合同签订部门是执行项目的公司的部门。 每个合同签订部门都有一种货币，此货币用于报告项目中产生的预估成本和实际成本。 |
@@ -36,7 +36,7 @@ _**适用于：** 精简部署 - 估价交易开票_
 
 以下 KPI 在项目合同的 **合同绩效** 选项卡上可用。
 
-| 字段 | 地点 | 关联性、用途和指导 |
+| 字段 | 地点 | 描述 |
 | --- | --- | --- |
 | 合同值 | 整个合同 | 项目合同的总值。 |
 | 已记帐金额 | 整个合同 | 此合同中所有发票上的金额之和。 |

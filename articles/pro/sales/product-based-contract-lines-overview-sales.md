@@ -1,21 +1,21 @@
 ---
-title: 基于产品的合同子项概述
+title: 基于产品的合同子项概述 - 精简
 description: 此主题介绍基于产品的合同子项。
 author: rumant
 manager: Annbe
 ms.date: 10/07/2020
 ms.topic: article
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: 794a80b0dd6b8717b43e712b96b9ac077517c226
-ms.sourcegitcommit: 11a61db54119503e82faec5f99c4273e8d1247e5
+ms.openlocfilehash: eb09140eae5383b882db73195d0360a836ece791
+ms.sourcegitcommit: 625878bf48ea530f3381843be0e778cebbbf1922
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4072531"
+ms.lasthandoff: 10/30/2020
+ms.locfileid: "4177860"
 ---
-# <a name="product-based-contract-lines-overview"></a>基于产品的合同子项概述
+# <a name="product-based-contract-lines-overview---lite"></a>基于产品的合同子项概述 - 精简
 
 _**适用于：** 精简部署 - 估价交易开票_
 
@@ -30,7 +30,7 @@ _**适用于：** 精简部署 - 估价交易开票_
 - 用户数
 - 订阅持续时间（以月为单位）
 
-若要维护此类目录，请创建一个名为 **订阅软件** 的产品系列。 将属性、 **用户数** 和 **订阅持续时间** 添加到产品系列中。 然后，将各个产品添加到 **订阅软件** 产品系列中。
+若要维护此类目录，请创建一个名为 **订阅软件** 的产品系列。 将属性、**用户数** 和 **订阅持续时间** 添加到产品系列中。 然后，将各个产品添加到 **订阅软件** 产品系列中。
 
 ## <a name="add-product-catalog-items-to-a-project-contract"></a>向项目合同添加产品目录项
 
@@ -43,6 +43,6 @@ _**适用于：** 精简部署 - 估价交易开票_
 - **替代定价**
 - **使用默认值**
 
-如果将 **定价** 字段设置为 **替代定价** ，将不设置默认价格。 为合同子项中的产品输入价格。 如果将此字段设置为 **使用默认值** ，将使用默认售价，并且无法编辑此字段。
+如果将 **定价** 字段设置为 **替代定价**，将不设置默认价格。 为合同子项中的产品输入价格。 如果将此字段设置为 **使用默认值**，将使用默认售价，并且无法编辑此字段。
 
-安装 Project Operations 之后，将在合同中基于产品的明细内输入默认售价。 **定价** 字段将设置为 **替代定价** ，以便您编辑合同子项中的默认价格。 这是对 Dynamics 365 Sales 中基于产品的明细行为的 Project Operations 特定替代。
+安装 Project Operations 之后，将在合同中基于产品的明细内输入默认售价。 **定价** 字段将设置为 **替代定价**，以便您编辑合同子项中的默认价格。 这是对 Dynamics 365 Sales 中基于产品的明细行为的 Project Operations 特定替代。

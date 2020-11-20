@@ -3,7 +3,7 @@ title: 创建项目
 description: 如何在 Project Service 中创建项目
 author: ruhercul
 manager: kfend
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 8/13/2020
@@ -18,12 +18,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: a1a229641d0694311ecb7019e3915d0e8e6783c3
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: de26bb4c3fa0ee8abf6edf5494968d1d0403266a
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4072616"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4133087"
 ---
 # <a name="create-a-project-project-service"></a>创建项目 (Project Service)
 
@@ -31,9 +31,9 @@ ms.locfileid: "4072616"
 
 如果要为基于项目的服务创建商机、报价单或合同，请使用 [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)] 中的[!INCLUDE[pn_project_service_auto](../includes/pn-project-service-auto.md)]功能创建项目。 [!INCLUDE[pn_project_service_auto](../includes/pn-project-service-auto.md)]功能可帮助您管理从商机到完成的一应项目事务。 创建项目时，还将创建工作分解结构，该结构可影响报价单、成本预计和资源管理。  
   
-1.  转到 **Project Service > 项目** 。  
+1.  转到 **Project Service > 项目**。  
   
-2.  单击 **新建项目** 。  
+2.  单击 **新建项目**。  
   
 3.  在 **摘要** 区域中，输入项目的名称，然后尽量填写详细信息。 标有红色星号 (*) 的项为必填项。  
   
