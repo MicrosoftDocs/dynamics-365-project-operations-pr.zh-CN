@@ -5,51 +5,51 @@ author: sigitac
 manager: Annbe
 ms.date: 10/01/2020
 ms.topic: article
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.reviewer: kfend
 ms.author: sigitac
-ms.openlocfilehash: 84033182ce047d230724409eef9bc6afcaefd2b4
-ms.sourcegitcommit: 11a61db54119503e82faec5f99c4273e8d1247e5
+ms.openlocfilehash: 3698b68b5dd0460343d26af0fcea5b9a56be4083
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4072500"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4131917"
 ---
-# <a name="configure-project-categories"></a><span data-ttu-id="3f823-103">配置项目类别</span><span class="sxs-lookup"><span data-stu-id="3f823-103">Configure project categories</span></span>
+# <a name="configure-project-categories"></a><span data-ttu-id="fbf82-103">配置项目类别</span><span class="sxs-lookup"><span data-stu-id="fbf82-103">Configure project categories</span></span>
 
-<span data-ttu-id="3f823-104">_**适用于：** 面向资源/非库存场景的 Project Operations_</span><span class="sxs-lookup"><span data-stu-id="3f823-104">_**Applies To:** Project Operations for resource/non-stocked based scenarios_</span></span>
+<span data-ttu-id="fbf82-104">_**适用于：** 面向资源/非库存场景的 Project Operations_</span><span class="sxs-lookup"><span data-stu-id="fbf82-104">_**Applies To:** Project Operations for resource/non-stocked based scenarios_</span></span>
 
-<span data-ttu-id="3f823-105">Project Operations 提供强大的功能，可以对项目的收入和支出进行分类。</span><span class="sxs-lookup"><span data-stu-id="3f823-105">Project Operations offers robust capabilities for categorizing revenue and expenses on projects.</span></span> <span data-ttu-id="3f823-106">类别提供报告和分析项目交易以及推进向总帐过帐的能力。</span><span class="sxs-lookup"><span data-stu-id="3f823-106">Categories provide the ability to report on and analyze project transactions, and drive posting to the general ledger.</span></span>
+<span data-ttu-id="fbf82-105">Project Operations 提供强大的功能，可以对项目的收入和支出进行分类。</span><span class="sxs-lookup"><span data-stu-id="fbf82-105">Project Operations offers robust capabilities for categorizing revenue and expenses on projects.</span></span> <span data-ttu-id="fbf82-106">类别提供报告和分析项目交易以及推进向总帐过帐的能力。</span><span class="sxs-lookup"><span data-stu-id="fbf82-106">Categories provide the ability to report on and analyze project transactions, and drive posting to the general ledger.</span></span>
 
-<span data-ttu-id="3f823-107">下图说明了交易类别、共享类别和项目类别之间的相关性。</span><span class="sxs-lookup"><span data-stu-id="3f823-107">The following diagram illustrates the correlation between transaction categories, shared categories, and project categories.</span></span> 
+<span data-ttu-id="fbf82-107">下图说明了交易类别、共享类别和项目类别之间的相关性。</span><span class="sxs-lookup"><span data-stu-id="fbf82-107">The following diagram illustrates the correlation between transaction categories, shared categories, and project categories.</span></span> 
 
-<span data-ttu-id="3f823-108">交易类别是项目交易的基本分组。</span><span class="sxs-lookup"><span data-stu-id="3f823-108">Transaction categories are the basic grouping for project transactions.</span></span> <span data-ttu-id="3f823-109">在该分组中，存在一组可以在应用程序和模块之间共享的共享类别。</span><span class="sxs-lookup"><span data-stu-id="3f823-109">Within that grouping, there is a set of shared categories that can be shared across applications and modules.</span></span> <span data-ttu-id="3f823-110">更深入地讲，项目类别是粒度级别最细的类别。</span><span class="sxs-lookup"><span data-stu-id="3f823-110">Getting even further into specifics, project categories are the most granular level of categories.</span></span> <span data-ttu-id="3f823-111">项目类别特定于法人、模块和应用程序。</span><span class="sxs-lookup"><span data-stu-id="3f823-111">Project categories are specific to legal entity, module, and application.</span></span>
+<span data-ttu-id="fbf82-108">交易类别是项目交易的基本分组。</span><span class="sxs-lookup"><span data-stu-id="fbf82-108">Transaction categories are the basic grouping for project transactions.</span></span> <span data-ttu-id="fbf82-109">在该分组中，存在一组可以在应用程序和模块之间共享的共享类别。</span><span class="sxs-lookup"><span data-stu-id="fbf82-109">Within that grouping, there is a set of shared categories that can be shared across applications and modules.</span></span> <span data-ttu-id="fbf82-110">更深入地讲，项目类别是粒度级别最细的类别。</span><span class="sxs-lookup"><span data-stu-id="fbf82-110">Getting even further into specifics, project categories are the most granular level of categories.</span></span> <span data-ttu-id="fbf82-111">项目类别特定于法人、模块和应用程序。</span><span class="sxs-lookup"><span data-stu-id="fbf82-111">Project categories are specific to legal entity, module, and application.</span></span>
 
 ![交易类别、共享类别和项目类别之间的相关性](media/project-categories.png)
 
-## <a name="transaction-categories"></a><span data-ttu-id="3f823-113">交易记录类别</span><span class="sxs-lookup"><span data-stu-id="3f823-113">Transaction categories</span></span>
+## <a name="transaction-categories"></a><span data-ttu-id="fbf82-113">交易记录类别</span><span class="sxs-lookup"><span data-stu-id="fbf82-113">Transaction categories</span></span>
 
-<span data-ttu-id="3f823-114">交易类别代表项目交易的基本分组，不特定于公司或交易类型。</span><span class="sxs-lookup"><span data-stu-id="3f823-114">Transaction categories represent the basic grouping for project transactions and are not company or transaction type-specific.</span></span> <span data-ttu-id="3f823-115">例如，Contoso Robotics 使用“设计”、“旅行”、“安装”和“服务交易”类别对项目交易进行分组。</span><span class="sxs-lookup"><span data-stu-id="3f823-115">For example, Contoso Robotics uses Design, Travel, Installation, and Service Transaction categories to group Project transactions.</span></span>
+<span data-ttu-id="fbf82-114">交易类别代表项目交易的基本分组，不特定于公司或交易类型。</span><span class="sxs-lookup"><span data-stu-id="fbf82-114">Transaction categories represent the basic grouping for project transactions and are not company or transaction type-specific.</span></span> <span data-ttu-id="fbf82-115">例如，Contoso Robotics 使用“设计”、“旅行”、“安装”和“服务交易”类别对项目交易进行分组。</span><span class="sxs-lookup"><span data-stu-id="fbf82-115">For example, Contoso Robotics uses Design, Travel, Installation, and Service Transaction categories to group Project transactions.</span></span>
 
-<span data-ttu-id="3f823-116">交易类别在 Project Operations 模块中定义。</span><span class="sxs-lookup"><span data-stu-id="3f823-116">Transaction categories are defined in the Project Operations module.</span></span> 
-1. <span data-ttu-id="3f823-117">转到 **设置**\>**交易类别** 打开窗体。</span><span class="sxs-lookup"><span data-stu-id="3f823-117">Go to **Settings** \> **Transaction Categories** to open the form.</span></span> 
-2. <span data-ttu-id="3f823-118">通过选择 **新建** 或选择 **从 Excel 导入** ，创建一个新交易类别。</span><span class="sxs-lookup"><span data-stu-id="3f823-118">Create a new transaction category either by selecting **New** or by selecting **Import from Excel**.</span></span>
+<span data-ttu-id="fbf82-116">交易类别在 Project Operations 模块中定义。</span><span class="sxs-lookup"><span data-stu-id="fbf82-116">Transaction categories are defined in the Project Operations module.</span></span> 
+1. <span data-ttu-id="fbf82-117">转到 **设置**\>**交易类别** 打开窗体。</span><span class="sxs-lookup"><span data-stu-id="fbf82-117">Go to **Settings** \> **Transaction Categories** to open the form.</span></span> 
+2. <span data-ttu-id="fbf82-118">通过选择 **新建** 或选择 **从 Excel 导入**，创建一个新交易类别。</span><span class="sxs-lookup"><span data-stu-id="fbf82-118">Create a new transaction category either by selecting **New** or by selecting **Import from Excel**.</span></span>
 
-## <a name="shared-categories"></a><span data-ttu-id="3f823-119">共享类别</span><span class="sxs-lookup"><span data-stu-id="3f823-119">Shared categories</span></span>
+## <a name="shared-categories"></a><span data-ttu-id="fbf82-119">共享类别</span><span class="sxs-lookup"><span data-stu-id="fbf82-119">Shared categories</span></span>
 
-<span data-ttu-id="3f823-120">Dynamics 365 使用共享类别概念对不同应用程序中的支出进行分类，如 Dynamics 365 Finance、Dynamics 365 Supply Chain 和 Dynamics 365 Project Operations。</span><span class="sxs-lookup"><span data-stu-id="3f823-120">Dynamics 365 uses the Shared categories concept to categorize expenses in different applications, such as Dynamics 365 Finance, Dynamics 365 Supply Chain, and Dynamics 365 Project Operations.</span></span> <span data-ttu-id="3f823-121">对于创建的每个交易类别，Project Operations 会自动创建四个相关的共享类别：工时、支出、费用和项目。</span><span class="sxs-lookup"><span data-stu-id="3f823-121">For each Transaction category created, Project Operations automatically creates four related Shared categories: Hours, Expense, Fees, and Item.</span></span> <span data-ttu-id="3f823-122">您可以转到 **项目管理和会计** \> **设置** \> **类别** \> **共享类别** 查看和调整共享类别。</span><span class="sxs-lookup"><span data-stu-id="3f823-122">You can review and adjust the shared categories by going to **Project management and accounting** \> **Setup** \> **Categories** \> **Shared Categories**.</span></span>
+<span data-ttu-id="fbf82-120">Dynamics 365 使用共享类别概念对不同应用程序中的支出进行分类，如 Dynamics 365 Finance、Dynamics 365 Supply Chain 和 Dynamics 365 Project Operations。</span><span class="sxs-lookup"><span data-stu-id="fbf82-120">Dynamics 365 uses the Shared categories concept to categorize expenses in different applications, such as Dynamics 365 Finance, Dynamics 365 Supply Chain, and Dynamics 365 Project Operations.</span></span> <span data-ttu-id="fbf82-121">对于创建的每个交易类别，Project Operations 会自动创建四个相关的共享类别：工时、支出、费用和项目。</span><span class="sxs-lookup"><span data-stu-id="fbf82-121">For each Transaction category created, Project Operations automatically creates four related Shared categories: Hours, Expense, Fees, and Item.</span></span> <span data-ttu-id="fbf82-122">您可以转到 **项目管理和会计** \> **设置** \> **类别** \> **共享类别** 查看和调整共享类别。</span><span class="sxs-lookup"><span data-stu-id="fbf82-122">You can review and adjust the shared categories by going to **Project management and accounting** \> **Setup** \> **Categories** \> **Shared Categories**.</span></span>
 
-## <a name="project-categories"></a><span data-ttu-id="3f823-123">项目类别</span><span class="sxs-lookup"><span data-stu-id="3f823-123">Project categories</span></span>
+## <a name="project-categories"></a><span data-ttu-id="fbf82-123">项目类别</span><span class="sxs-lookup"><span data-stu-id="fbf82-123">Project categories</span></span>
 
-<span data-ttu-id="3f823-124">项目类别代表类别配置的最细粒度级别，必须由项目会计单独为每个公司进行配置。</span><span class="sxs-lookup"><span data-stu-id="3f823-124">Project categories represent most granular level of category configuration and must be configured separately, and for each company, by a Project accountant.</span></span>
+<span data-ttu-id="fbf82-124">项目类别代表类别配置的最细粒度级别，必须由项目会计单独为每个公司进行配置。</span><span class="sxs-lookup"><span data-stu-id="fbf82-124">Project categories represent most granular level of category configuration and must be configured separately, and for each company, by a Project accountant.</span></span>
 
-1. <span data-ttu-id="3f823-125">转到 **项目管理和会计** \> **设置** \> **类别** \> **项目类别** 。</span><span class="sxs-lookup"><span data-stu-id="3f823-125">Go to **Project Management and Accounting** \> **Setup** \> **Categories** \> **Project categories**.</span></span>
-2. <span data-ttu-id="3f823-126">选择 **新建** 。</span><span class="sxs-lookup"><span data-stu-id="3f823-126">Select **New**.</span></span>
-3. <span data-ttu-id="3f823-127">选择在上一节中创建的共享类别的 **类别 ID** 。</span><span class="sxs-lookup"><span data-stu-id="3f823-127">Select the **Category ID** of the Shared category you created in the previous section.</span></span> <span data-ttu-id="3f823-128">Project Operations 仅允许使用与交易类别关联的那些共享类别。</span><span class="sxs-lookup"><span data-stu-id="3f823-128">Project Operations allows using only those shared categories that are associated with transaction categories.</span></span>
-4. <span data-ttu-id="3f823-129">选择类别组。</span><span class="sxs-lookup"><span data-stu-id="3f823-129">Select a category group.</span></span>
+1. <span data-ttu-id="fbf82-125">转到 **项目管理和会计** \> **设置** \> **类别** \> **项目类别**。</span><span class="sxs-lookup"><span data-stu-id="fbf82-125">Go to **Project Management and Accounting** \> **Setup** \> **Categories** \> **Project categories**.</span></span>
+2. <span data-ttu-id="fbf82-126">选择 **新建**。</span><span class="sxs-lookup"><span data-stu-id="fbf82-126">Select **New**.</span></span>
+3. <span data-ttu-id="fbf82-127">选择在上一节中创建的共享类别的 **类别 ID**。</span><span class="sxs-lookup"><span data-stu-id="fbf82-127">Select the **Category ID** of the Shared category you created in the previous section.</span></span> <span data-ttu-id="fbf82-128">Project Operations 仅允许使用与交易类别关联的那些共享类别。</span><span class="sxs-lookup"><span data-stu-id="fbf82-128">Project Operations allows using only those shared categories that are associated with transaction categories.</span></span>
+4. <span data-ttu-id="fbf82-129">选择类别组。</span><span class="sxs-lookup"><span data-stu-id="fbf82-129">Select a category group.</span></span>
 
-## <a name="category-groups"></a><span data-ttu-id="3f823-130">类别组</span><span class="sxs-lookup"><span data-stu-id="3f823-130">Category groups</span></span>
+## <a name="category-groups"></a><span data-ttu-id="fbf82-130">类别组</span><span class="sxs-lookup"><span data-stu-id="fbf82-130">Category groups</span></span>
 
-<span data-ttu-id="3f823-131">类别组用于在相关项目类别之间共享属性，主要是过帐模板。</span><span class="sxs-lookup"><span data-stu-id="3f823-131">Category groups are used to share properties, primarily posting profiles, between related Project categories.</span></span> <span data-ttu-id="3f823-132">每个交易类型必须至少有一个类别组，并且为每个项目类别分配一个组。</span><span class="sxs-lookup"><span data-stu-id="3f823-132">There must be at least one category group for each transaction type and each project category is assigned a group.</span></span>
+<span data-ttu-id="fbf82-131">类别组用于在相关项目类别之间共享属性，主要是过帐模板。</span><span class="sxs-lookup"><span data-stu-id="fbf82-131">Category groups are used to share properties, primarily posting profiles, between related Project categories.</span></span> <span data-ttu-id="fbf82-132">每个交易类型必须至少有一个类别组，并且为每个项目类别分配一个组。</span><span class="sxs-lookup"><span data-stu-id="fbf82-132">There must be at least one category group for each transaction type and each project category is assigned a group.</span></span>
 
-<span data-ttu-id="3f823-133">Project Operations 中的过帐规范由项目成本和收入模板规则、项目类别以及类别组定义。</span><span class="sxs-lookup"><span data-stu-id="3f823-133">The posting specifications in Project Operations are defined by the project cost and revenue profile rules, project categories, and category groups.</span></span> <span data-ttu-id="3f823-134">您可以转到 **项目管理和会计** \> **设置** \> **类别** \> **类别组** 设置类别组。</span><span class="sxs-lookup"><span data-stu-id="3f823-134">You can set up category groups by going to **Project management and accounting** \> **Setup** \> **Categories** \> **Category groups**.</span></span>
+<span data-ttu-id="fbf82-133">Project Operations 中的过帐规范由项目成本和收入模板规则、项目类别以及类别组定义。</span><span class="sxs-lookup"><span data-stu-id="fbf82-133">The posting specifications in Project Operations are defined by the project cost and revenue profile rules, project categories, and category groups.</span></span> <span data-ttu-id="fbf82-134">您可以转到 **项目管理和会计** \> **设置** \> **类别** \> **类别组** 设置类别组。</span><span class="sxs-lookup"><span data-stu-id="fbf82-134">You can set up category groups by going to **Project management and accounting** \> **Setup** \> **Categories** \> **Category groups**.</span></span>
