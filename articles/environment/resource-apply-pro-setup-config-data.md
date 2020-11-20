@@ -1,46 +1,56 @@
 ---
-title: 在 Project Operations 的 Common Data Service 中设置和应用配置数据
+title: 在 Common Data Service 中设置和应用配置数据
 description: 此主题提供有关在 Project Operations 中设置和应用配置数据的信息。
 author: sigitac
 manager: Annbe
-ms.date: 10/01/2020
+ms.date: 11/04/2020
 ms.topic: article
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.reviewer: kfend
 ms.author: sigitac
-ms.openlocfilehash: 5e72b88a4dae1eb89859fdfd55f6d5e6ee5befcd
-ms.sourcegitcommit: 11a61db54119503e82faec5f99c4273e8d1247e5
+ms.openlocfilehash: 7de8db5e91265c77c79f34a513bf27d9a55b789a
+ms.sourcegitcommit: 14aa380759214713d9bf560f5a7f619b7f4bd5b8
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4072477"
+ms.lasthandoff: 11/05/2020
+ms.locfileid: "4401117"
 ---
-# <a name="set-up-and-apply-configuration-data-in-the-common-data-service-for-project-operations"></a>在 Project Operations 的 Common Data Service 中设置和应用配置数据
+# <a name="set-up-and-apply-configuration-data-in-the-common-data-service"></a>在 Common Data Service 中设置和应用配置数据 
 
 _**适用于：** 面向资源/非库存场景的 Project Operations_
+
+## <a name="prerequisites"></a>先决条件
+
+在开始在 Common Data Service (CDS) 中配置数据之前，必须满足以下先决条件：
+
+1.  为Project Operations 预配 CDS 环境和 Dynamics 365 Finance 环境。
+2.  将 Dynamics 365 Finance 中的法人信息共享到 CDS 环境。 这意味着 CDS 中的 **公司** 实体具有以下公司记录：
+  - THPM
+  - USPM
+  - GBPM
 
 ## <a name="install-setup-and-configuration-data"></a>安装设置和配置数据
 
 1. 下载、取消阻止和解压缩[设置和配置数据包](https://download.microsoft.com/download/1/3/4/1349369c-6209-42b7-b3b4-5be0e67cacd8/ProjOpsSampleSetupData-%20Integrated%20UR1.zip)。
-2. 导航到解压缩的文件夹，运行可执行文件 *DataMigrationUtility* 。
-3. 在 Common Data Service 配置迁移 (CMT) 向导的第 1 页上，选择 **导入数据** ，然后选择 **继续** 。
+2. 导航到解压缩的文件夹，运行可执行文件 *DataMigrationUtility*。
+3. 在 Common Data Service 配置迁移 (CMT) 向导的第 1 页上，选择 **导入数据**，然后选择 **继续**。
 
 ![配置迁移](./media/1ConfigurationMigration.png)
 
-4. 在 CMT 向导的第 2 页上，选择 **Microsoft 365** 作为 **部署类型** 。
+4. 在 CMT 向导的第 2 页上，选择 **Microsoft 365** 作为 **部署类型**。
 5. 选择 **显示可用组织列表** 和 **显示高级** 复选框。
-6. 选择您的租户的区域，输入您的凭据，选择 **登录** 。
+6. 选择您的租户的区域，输入您的凭据，选择 **登录**。
 
 ![配置登录](./media/2ConfigurationSignin.png)
 
-7. 在第 3 页上，在租户的组织列表中，选择要将演示数据导入的组织，然后选择 **登录** 。
-8. 在第 4 页上，从解压缩的文件夹中选择 zip 文件 *SampleSetupAndConfigData* 。
+7. 在第 3 页上，在租户的组织列表中，选择要将演示数据导入的组织，然后选择 **登录**。
+8. 在第 4 页上，从解压缩的文件夹中选择 zip 文件 *SampleSetupAndConfigData*。
 
 ![Zip 文件选择](./media/3ZipFile.png)
 
 ![选择 1 个文件](./media/4SelectAFile.png)
 
-9. 选择 zip 文件后，选择 **导入数据** 。
+9. 选择 zip 文件后，选择 **导入数据**。
 
 ![导入数据](./media/5ImportData.png)
 
@@ -75,7 +85,7 @@ _**适用于：** 面向资源/非库存场景的 Project Operations_
 
 ![打开环境](./media/7OpenEnvironment.png)
 
-2. 转到 **项目** > **资源** ，然后选择 **新建** 为您的用户创建可预订资源。
+2. 转到 **项目** > **资源**，然后选择 **新建** 为您的用户创建可预订资源。
 
 ![可预订资源](./media/8BookableResources.png)
 
@@ -83,7 +93,7 @@ _**适用于：** 面向资源/非库存场景的 Project Operations_
 
 ![新增可预订资源](./media/9NewBookableResource.png)
 
-4. 在 **计划** 选项卡上的 **公司** 字段中，选择 **USPM** 公司，然后选择 **保存** 。 
+4. 在 **计划** 选项卡上的 **公司** 字段中，选择 **USPM** 公司，然后选择 **保存**。 
 
 ![“计划”选项卡](./media/10SchedulingTab.png)
 
@@ -91,34 +101,34 @@ _**适用于：** 面向资源/非库存场景的 Project Operations_
 
 ![工作时间](./media/11WorkHours.png)
 
-6. 双击日历中的任意值，然后选择 **编辑** > **系列中的所有事件** 。 
+6. 双击日历中的任意值，然后选择 **编辑** > **系列中的所有事件**。 
 
 ![工作日历](./media/12WorkCalendar.png)
 
 7. 将工作时间更改为八 (8) 小时工作日，将周末标记为非工作日，确保时区与您的时区匹配。 
-8. 选择 **保存并关闭** 。
+8. 选择 **保存并关闭**。
 
 ![更新日历](./media/13UpdateCalendar.png)
 
-9. 转到 **设置** > **日历模板** ，选择 **新建** 。
+9. 转到 **设置** > **日历模板**，选择 **新建**。
  
  ![日历模板](./media/14CalendarTemplates.png)
  
- 10. 输入名称，选择所创建的模板资源，然后选择 **保存** 。 
+ 10. 输入名称，选择所创建的模板资源，然后选择 **保存**。 
  
  ![保存日历模板](./media/15SaveCalendarTemplate.png)
  
- 11. 转到 **参数** ，双击记录。 
+ 11. 转到 **参数**，双击记录。 
  
  ![项目参数](./media/16ProjectParameters.png)
  
 12. 更新以下字段：
 
- - **默认公司** ：USPM
- - **默认部门** ：Contoso Robotics Global
- - **发票频率** ：第七天和最后一天
- - **工作时间模板** ：更改为您创建的模板。
+ - **默认公司**：USPM
+ - **默认部门**：Contoso Robotics Global
+ - **发票频率**：第七天和最后一天
+ - **工作时间模板**：更改为您创建的模板。
 
-13. 选择 **保存** 。 
+13. 选择 **保存**。 
 
 ![更新后的项目参数](./media/17UpdatedProjectParameters.png)
