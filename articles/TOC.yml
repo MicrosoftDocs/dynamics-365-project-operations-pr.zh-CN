@@ -34,10 +34,12 @@
               href: environment/resource-provision-new-environment.md
             - name: 安全模型
               href: environment/security-model.md
-            - name: 配置每个法律实体的 Project Operations 集成
+            - name: 配置每个法人的 Project Operations 集成
               href: environment/resource-configure-integration-per-legal-entity.md
     - name: 新增功能
       items:
+        - name: 2020 年 12 月 - 基于资源/非库存场景的 Project Operations
+          href: whats-new/whats-new-dec-2020-resource-based.md
         - name: 2020 年 11 月 - 基于资源/非库存场景的 Project Operations
           href: whats-new/whats-new-nov-2020-resource-based.md
     - name: 项目销售流程
@@ -87,7 +89,7 @@
                 - name: 管理基于项目的报价单明细上的多个客户
                   href: sales/manage-multiple-customers-quote-line.md
                 - name: 配置项目报价单明细的应计费组件
-                  href: pro/sales/configure-chargeable-components-quote-line-sales.md
+                  href: sales/configure-chargeable-quoteline.md
                 - name: 根据报价单明细创建估算
                   href: sales/create-estimate-quote-line.md
                 - name: 将项目估算导入到基于项目的报价单明细
@@ -109,7 +111,7 @@
             - name: 管理项目合同上的项目价目表
               href: sales/contracts-manage-project-price-lists.md
             - name: 管理项目合同上的多个客户
-              href: sales/contracts-manage-project-price-lists.md
+              href: sales/manage-multiple-customers-contract.md
             - name: 基于项目的合同子项
               items:
                 - name: 基于项目的合同子项概述
@@ -128,6 +130,14 @@
               href: pro/sales/confirm-contract-sales.md
             - name: 复制项目合同
               href: pro/sales/copy-project-contracts-sales.md
+            - name: 预付款和保留款
+              items:
+                - name: 基于预付款和保留款的合同 - 精简
+                  href: pro/sales/set-up-advances-retainer-based-contracts-sales.md
+                - name: 设置保留款计划 - 精简
+                  href: pro/sales/set-up-schedule-retainers-sales.md
+                - name: 在合同中创建临时预付款 - 精简
+                  href: pro/sales/create-ad-hoc-advance-sales.md
     - name: 定价和成本核算
       items:
         - name: 价目表设置
@@ -158,10 +168,18 @@
           items:
             - name: 定价维度概述
               href: pricing-costing/pricing-dimensions-overview.md
+            - name: 为自定义定价维度创建解决方案
+              href: sales/create-solution-custompd.md
             - name: 将现有字段用作定价维度
               items:
                 - name: 作为定价维度的 Project Operations 字段
                   href: pricing-costing/use-existing-field-pricing-dimension.md
+                - name: 将可预订资源用作定价维度
+                  href: sales/use-br-as-pd.md
+                - name: 将交易类别用作定价维度
+                  href: pricing-costing/use-transaction-category-as-pd.md
+                - name: 在项目中具有多个角色的可预订资源
+                  href: sales/br-playing-multiple-roles.md
             - name: 将自定义字段作为定价维度
               items:
                 - name: 创建自定义字段和实体，作为定价维度
@@ -170,6 +188,8 @@
                   href: pricing-costing/add-custom-fields-price-setup-transactional-entities.md
                 - name: 将自定义字段设置为定价维度
                   href: pricing-costing/set-up-custom-fields-pricing-dimensions.md
+                - name: 更新插件属性，以包括新的定价维度
+                  href: pricing-costing/update-plugin-attributes-pd.md
             - name: 关闭定价维度
               href: pricing-costing/turning-off-pricing-dimension.md
     - name: 项目管理
@@ -250,12 +270,18 @@
               href: resource-management/generic-resource-requirement-fulfillment.md
         - name: 管理资源
           items:
+            - name: 创建资源
+              href: resource-management/create-resources.md
             - name: 定义技能和专长
               href: resource-management/define-skills-proficiencies.md
+            - name: 定义角色
+              href: resource-management/define-roles.md
             - name: 定义资源日历
               href: resource-management/define-resource-calendars.md
         - name: 预订分配方法
           href: resource-management/booking-allocation-methods.md
+        - name: 预订状态
+          href: resource-management/booking-status.md
         - name: 技能和专长模型
           href: resource-management/skills-proficiency-models.md
         - name: 资源协调
@@ -344,7 +370,7 @@
           items:
             - name: 创建并确认更正日记帐
               href: actuals/create-confirm-correction-journals.md
-    - name: 估价开票
+    - name: 估价开单
       items:
         - name: 管理项目记帐积压
           href: proforma-invoicing/manage-billing-backlog.md
@@ -354,6 +380,8 @@
           href: proforma-invoicing/create-manual-proforma-invoice.md
         - name: 管理估价项目账单
           href: proforma-invoicing/manage-proforma-invoice.md
+        - name: 对保留款或预付款开单
+          href: pro/proforma-invoicing/invoice-retainer-advance-sales.md
         - name: 确认估价项目账单
           href: proforma-invoicing/confirm-proforma-invoice.md
         - name: 配置 Project Invoice Automation
@@ -370,7 +398,33 @@
           href: project-accounting/configure-accounting-billable-projects.md
         - name: Project Operations 中的集成日记帐
           href: project-accounting/project-operations-integration-journal.md
-- name: 精简部署 - 估价交易开票
+        - name: 内部公司开单
+          items:
+            - name: 内部公司开单概述
+              href: project-accounting/intercompany-invoicing-overview.md
+            - name: 配置内部公司开单
+              href: project-accounting/configure-intercompany-invoicing.md
+            - name: 创建内部公司客户和供应商账单
+              href: project-accounting/create-intercompany-customer-vendor-invoices.md
+            - name: 创建内部公司交易
+              href: project-accounting/create-intercompany-transactions.md
+    - name: 收入确认
+      items:
+        - name: 收入确认概述
+          href: revenue-recognition/revenue-recognition-overview.md
+        - name: 设置收入确认
+          items:
+            - name: 设置期间类型
+              href: project-accounting/period-types.md
+            - name: 设置成本模板
+              href: revenue-recognition/rev-rec-cost-templates.md
+        - name: 管理收入估计
+          href: revenue-recognition/rev-rec-completed-contract-method.md
+        - name: 固定价格收入估计项目
+          href: revenue-recognition/rev-rec-percentage-completion-method.md
+        - name: 完成方法的成本
+          href: revenue-recognition/cost-complete-methods.md
+- name: 精简部署 - 估价交易开单
   items:
     - name: 开始
       items:
@@ -386,7 +440,9 @@
           href: environment/security-model.md
     - name: 新增功能
       items:
-        - name: 2020 年 11 月新增功能 - 精简部署 - 估价交易开票
+        - name: 2020 年 12 月新增功能 - 精简部署 - 估价交易开单
+          href: pro/whats-new/whats-new-dec-2020-lite.md
+        - name: 2020 年 11 月新增功能 - 精简部署 - 估价交易开单
           href: pro/whats-new/whats-new-nov-2020-lite.md
     - name: 项目销售流程
       items:
@@ -538,10 +594,18 @@
           items:
             - name: 定价维度概述
               href: pricing-costing/pricing-dimensions-overview.md
+            - name: 为自定义定价维度创建解决方案
+              href: sales/create-solution-custompd.md
             - name: 将现有字段用作定价维度
               items:
-                - name: 将现有字段用作定价维度
+                - name: 作为定价维度的 Project Operations 字段
                   href: pricing-costing/use-existing-field-pricing-dimension.md
+                - name: 将可预订资源用作定价维度
+                  href: sales/use-br-as-pd.md
+                - name: 将交易类别用作定价维度
+                  href: pricing-costing/use-transaction-category-as-pd.md
+                - name: 在项目中具有多个角色的可预订资源
+                  href: sales/br-playing-multiple-roles.md
             - name: 将自定义字段作为定价维度
               items:
                 - name: 创建自定义字段和实体，作为定价维度
@@ -550,6 +614,8 @@
                   href: pricing-costing/add-custom-fields-price-setup-transactional-entities.md
                 - name: 将自定义字段设置为定价维度
                   href: pricing-costing/set-up-custom-fields-pricing-dimensions.md
+                - name: 更新插件属性，以包括新的定价维度
+                  href: pricing-costing/update-plugin-attributes-pd.md
             - name: 关闭定价维度
               href: pricing-costing/turning-off-pricing-dimension.md
     - name: 项目管理
@@ -626,12 +692,18 @@
               href: resource-management/generic-resource-requirement-fulfillment.md
         - name: 管理资源
           items:
+            - name: 创建资源
+              href: resource-management/create-resources.md
             - name: 定义技能和专长
               href: resource-management/define-skills-proficiencies.md
+            - name: 定义角色
+              href: resource-management/define-roles.md
             - name: 定义资源日历
               href: resource-management/define-resource-calendars.md
         - name: 预订分配方法
           href: resource-management/booking-allocation-methods.md
+        - name: 预订状态
+          href: resource-management/booking-status.md
         - name: 技能和专长模型
           href: resource-management/skills-proficiency-models.md
         - name: 资源协调
@@ -678,7 +750,7 @@
           items:
             - name: 创建并确认更正日记帐
               href: actuals/create-confirm-correction-journals.md
-    - name: 估价开票
+    - name: 估价开单
       items:
         - name: 管理项目记帐积压
           href: pro/proforma-invoicing/manage-billing-backlog-sales.md
@@ -688,7 +760,7 @@
           href: pro/proforma-invoicing/create-manual-proforma-invoice-sales.md
         - name: 管理估价项目账单
           href: pro/proforma-invoicing/manage-proforma-invoice-sales.md
-        - name: 对保留款或预付款开票
+        - name: 对保留款或预付款开单
           href: pro/proforma-invoicing/invoice-retainer-advance-sales.md
         - name: 确认估价项目账单
           href: pro/proforma-invoicing/confirm-proforma-invoice-sales.md
@@ -706,9 +778,9 @@
       href: prod-pma/project-operations-prod-order-deployment-overview.md
     - name: 项目管理和会计概述
       href: prod-pma/overview-project-management-accounting.md
-    - name: 内部公司开票
+    - name: 内部公司开单
       href: prod-pma/intercompany-invoicing.md
-    - name: 配置内部公司项目开票
+    - name: 配置内部公司项目开单
       href: prod-pma/tasks/configure-intercompany-project-invoicing.md
     - name: 配置人工和支出的标准成本
       href: prod-pma/tasks/configure-standard-costs-labor-expenses.md
@@ -718,7 +790,7 @@
       href: prod-pma/setup-manage-vendor-payments.md
     - name: 根据采购收据进行成本累算
       href: 'https://docs.microsoft.com/dynamics365/finance/accounts-payable/project-cost-accrual-purchase-receipts'
-    - name: 项目开票
+    - name: 项目开单
       href: 'https://docs.microsoft.com/dynamics365/finance/accounts-payable/project-invoicing'
     - name: 项目合同
       href: prod-pma/project-contracts.md
@@ -834,6 +906,8 @@
       items:
         - name: Project Service 3.x 的更新版本计划
           href: psa/version-history-ps.md
+        - name: V3 更新版 26 的新增或变更功能
+          href: psa/whats-new-ur-26.md
         - name: V3 更新版 25 的新增或变更功能
           href: psa/whats-new-ur-25.md
         - name: V3 更新版 24 的新增或变更功能
@@ -978,7 +1052,7 @@
               href: psa/bulk-corrections-actuals-created-by-approved-time-expense-entries.md
             - name: 查看项目记帐积压
               href: psa/review-invoicing-backlog.md
-            - name: 开票
+            - name: 开单
               href: psa/invoicing.md
             - name: 多货币场景
               href: psa/advanced-currency.md
