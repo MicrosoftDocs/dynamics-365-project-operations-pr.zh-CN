@@ -1,5 +1,5 @@
 ---
-title: 预付款和保留款合同 - 精简
+title: 预付款和保留款合同
 description: 此主题提供有关 Project Operations 中基于保留款的合同签订模型和预付款的信息。
 author: rumant
 manager: Annbe
@@ -8,17 +8,17 @@ ms.topic: article
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: 912b235af5e561349fdfb481e5f5b7c5514669c3
-ms.sourcegitcommit: f6f86e80dfef15a7b5f9174b55dddf410522f7c8
+ms.openlocfilehash: 1aee64bf683b7d8d0bcde284f2d5d484e689c4d2
+ms.sourcegitcommit: 250270409412ba4cad95fbd4c345a80d3d2b3e53
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/31/2020
-ms.locfileid: "4180856"
+ms.lasthandoff: 11/21/2020
+ms.locfileid: "4596091"
 ---
-# <a name="advances-and-retainer-based-contracts---lite"></a>预付款和保留款合同 - 精简
+# <a name="advances-and-retainer-based-contracts"></a>预付款和保留款合同
 
 
-_**适用于：** 精简部署 - 估价交易开票_
+_**适用于：** 基于资源/非库存场景的 Project Operations，精简部署 - 估价开票交易_
 
 Dynamics 365 Project Operations 支持基于保留款的合同。 基于保留款的合同是一组商定的平均分配的付款，将在整个项目持续时间内为客户开票。 此合同类型通常用于时间和材料或基于使用的记帐模型，这些模型需要向客户提供可预测发票和付款计划。 每个期间应计的收入实际值与期间开始时从客户处收到的付款进行对帐。 根据时间和材料记帐模型概念，每个期间应计的收入值可能因产生的成本而异。 如果应计收入超过期间开始时收到的金额，项目交付公司可以：
 

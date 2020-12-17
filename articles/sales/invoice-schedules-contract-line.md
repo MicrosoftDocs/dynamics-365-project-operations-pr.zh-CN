@@ -8,12 +8,12 @@ ms.topic: article
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: 674f4ccced3d0e3178799f60d9f95a2ec27cd153
-ms.sourcegitcommit: f6f86e80dfef15a7b5f9174b55dddf410522f7c8
+ms.openlocfilehash: b2fbec567c07d7567f1d133fa3512496039f16a1
+ms.sourcegitcommit: 869bde007805ef255f61b03937e4a44aeef61df9
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/31/2020
-ms.locfileid: "4180766"
+ms.lasthandoff: 11/12/2020
+ms.locfileid: "4513913"
 ---
 # <a name="create-an-invoice-schedule-on-a-project-based-contract-line"></a>根据基于项目的合同子项创建账单计划 
 
@@ -49,7 +49,7 @@ _**适用于：** 面向资源/非库存场景的 Project Operations_
 3. 打开您要为其创建里程碑计划的 **固定价格** 合同子项。 在 **记帐里程碑** 选项卡上，选择记帐开始日期和发票频率。 
 4. 在子网格上，选择 **生成定期里程碑**。 发票计划将生成，并按照以下方式设置 **里程碑名称**、**里程碑日期** 和 **里程碑金额** 字段：
 
-    - **里程碑名称**：此日期由发票频率指示。
+    - **里程碑** 名称：此名称由发票频率决定。
     - **里程碑日期**：此日期由发票频率指示。
     - **里程碑金额**：此金额通过将合同子项上的合同金额除以里程碑数量计算得出，由频率、记帐开始日期和要求交货日期指示。
 

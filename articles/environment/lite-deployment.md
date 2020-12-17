@@ -8,16 +8,18 @@ ms.topic: article
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: stsporen
-ms.openlocfilehash: 0633585fcef91d9218d6140764addb7cf96ab31d
-ms.sourcegitcommit: 625878bf48ea530f3381843be0e778cebbbf1922
+ms.openlocfilehash: d4ef905f875ac8af7b2d70c3e64506558bdea1ed
+ms.sourcegitcommit: 573be7e36604ace82b35e439cfa748aa7c587415
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/30/2020
-ms.locfileid: "4175655"
+ms.lasthandoff: 11/25/2020
+ms.locfileid: "4642172"
 ---
 # <a name="deploy-project-operations---lite"></a>部署 Project Operations - 精简
 
 _**适用于：** 精简部署 - 估价交易开票_
+
+[!include [rename-banner](~/includes/cc-data-platform-banner.md)]
 
 Project Operations 支持多个部署模型。 若要确定最佳部署模型，请参阅[部署类型](determine-deployment-type.md)。
 
@@ -39,6 +41,6 @@ Project Operations 支持多个部署模型。 若要确定最佳部署模型，
 ## <a name="install-project-operations-to-an-existing-cds-environment"></a><a name="existing"></a>将 Project Operations 安装到现有 CDS 环境中
 
 1. 作为具有 Project Operations 许可证的[全局或 Power Platform 管理员](https://docs.microsoft.com/power-platform/admin/global-service-administrators-can-administer-without-license)，在 [PowerPlatform 管理中心](https://admin.powerplatform.com)中找到要安装 Project Operations 的环境。
-2. 从 Dynamics 365 应用的部署列表安装 **Microsoft Dynamics 365 Project Operations**。 有关详细信息，请参阅[管理 Dynamics 365 应用](https://docs.microsoft.com/power-platform/admin/manage-apps)。
+2. 安装 Dynamics 365 应用的部署列表中的 **Microsoft Dynamics 365 Project Operations**。 有关详细信息，请参阅[管理 Dynamics 365 应用](https://docs.microsoft.com/power-platform/admin/manage-apps)。
 
 

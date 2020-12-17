@@ -1,6 +1,6 @@
 ---
 title: 安全模型
-description: 本主题提供有关 Dynamics 365 Project Operations 中的安全模型的信息。
+description: 本主题提供有关 Dynamics 365 Project Operations 中安全模型的信息。
 author: stsporen
 manager: Annbe
 ms.date: 10/01/2020
@@ -8,18 +8,20 @@ ms.topic: article
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: stsporen
-ms.openlocfilehash: 3fc4101d0ea4b8e2a4ba8f1d43540d57239cf402
-ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
+ms.openlocfilehash: b01f3d88dd021895933bc863b762f019ae50eed6
+ms.sourcegitcommit: 573be7e36604ace82b35e439cfa748aa7c587415
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/28/2020
-ms.locfileid: "4124357"
+ms.lasthandoff: 11/25/2020
+ms.locfileid: "4642892"
 ---
 # <a name="security-model"></a>安全模型
 
 _**适用于：** 基于资源/非库存场景的 Project Operations，精简部署 - 估价开票交易_
 
-Microsoft Dynamics 365 Project Operations 包含一个独特的安全模型，该模型允许使用与 Microsoft Office 组协作的基于角色的业务安全模型。 
+[!include [rename-banner](~/includes/cc-data-platform-banner.md)]
+
+Microsoft Dynamics 365 Project Operations 包含一个唯一的安全模型，此模型允许使用与 Microsoft Office 组协作的基于角色的业务安全模型。 
 
 
 ## <a name="security-roles"></a>安全角色

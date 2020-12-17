@@ -17,12 +17,12 @@ ms.search.industry: Service industries
 ms.author: rumant
 ms.dyn365.ops.version: ''
 ms.search.validFrom: 2020-10-01
-ms.openlocfilehash: 67e891d8576cd92f48466929fc53fe8a4203d72d
-ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
+ms.openlocfilehash: 744c561d023d7ef5ed79947e69f2de8a3902fb41
+ms.sourcegitcommit: 13a4e58eddbb0f81aca07c1ff452c420dbd8a68f
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/28/2020
-ms.locfileid: "4119407"
+ms.lasthandoff: 11/30/2020
+ms.locfileid: "4650188"
 ---
 # <a name="set-up-custom-fields-as-pricing-dimensions"></a>将自定义字段设置为定价维度
 
@@ -41,9 +41,15 @@ _**适用于：** 基于资源/非库存场景的 Project Operations，精简部
 要使字段成为定价维度，该字段必须：
 
 - 创建为 **角色价格** 和 **角色价格加价** 实体中的字段。 有关如何执行此操作的详细信息，请参阅[向价格设置和交易实体添加自定义字段](add-custom-fields-price-setup-transactional-entities.md)。
+
 - 创建为 **定价维度** 表中的行。 例如，添加定价维度行，如下图中所示。 
 
+![基于金额的定价维度行](media/Amt-based-PD.png)
+
 资源工作时间 (**msdyn_resourceworkhours**) 已作为基于加价的维度添加，并已添加到 **基于加价的定价维度** 选项卡上的网格中。
+
+![基于加价的定价维度行](media/Markup-based-PD.png)
+
 
 > [!IMPORTANT]
 > 仅当刷新了缓存，才会把对此表中定价维度数据进行的任何更改传播到定价业务逻辑。 缓存刷新时间最多可能需要 10 分钟。 留出这样长的时间，以便查看一定会导致定价维度数据更改的价格默认设置逻辑更改。

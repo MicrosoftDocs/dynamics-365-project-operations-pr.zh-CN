@@ -17,16 +17,18 @@ ms.search.region: Global
 ms.author: andchoi
 ms.search.validFrom: 2017-12-13
 ms.dyn365.ops.version: AX 7.3.0
-ms.openlocfilehash: 9e4f11ec0bb88ed0971a3d082e7ca7823fcf8453
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: 0b3bc159fff25c4f6e5b1ed1b2eabbba675fb0f5
+ms.sourcegitcommit: 573be7e36604ace82b35e439cfa748aa7c587415
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4072738"
+ms.lasthandoff: 11/25/2020
+ms.locfileid: "4642622"
 ---
 # <a name="synchronize-project-contracts-and-projects-directly-from-project-service-automation-to-finance-and-operations"></a>将项目合同和项目直接从 Project Service Automation 同步到 Finance and Operations
 
 [!include[banner](../includes/banner.md)]
+
+[!include [rename-banner](~/includes/cc-data-platform-banner.md)]
 
 此主题介绍用于直接同步 Dynamics 365 Project Service Automation 与 Dynamics 365 Finance 的项目合同和项目的模板和基础任务。
 
@@ -46,7 +48,7 @@ Project Service Automation 到 Finance 集成解决方案使用数据集成功�
 
 ## <a name="templates-and-tasks"></a>模板和任务
 
-若要访问可用模板，请在 Microsoft Power Apps 管理员中心中选择 **项目** ，然后在右上角中选择 **新建项目** 以选择公共模板。
+若要访问可用模板，请在 Microsoft Power Apps 管理员中心中选择 **项目**，然后在右上角中选择 **新建项目** 以选择公共模板。
 
 以下模板和基础任务用于将项目合同和项目从 Project Service Automation 同步到 Finance：
 
@@ -95,11 +97,11 @@ Project Service Automation 中有一项会影响项目合同行里程碑模板�
 
 **项目合同** 页上有 **项目合同 ID** 字段。 该字段由一个自然唯一密钥组成以支持集成。
 
-新建项目合同时，如果 **项目合同 ID** 值不存在，则使用编号规则自动生成。 该值由 **ORD** 以及依次紧跟在后面的一个递增编号规则和一个由六个字符组成的后缀构成。 下面是一个示例： **ORD-01022-Z4M9Q0** 。
+新建项目合同时，如果 **项目合同 ID** 值不存在，则使用编号规则自动生成。 该值由 **ORD** 以及依次紧跟在后面的一个递增编号规则和一个由六个字符组成的后缀构成。 下面是一个示例：**ORD-01022-Z4M9Q0**。
 
 **项目编号** 字段在 **项目** 页提供。 该字段由一个自然唯一密钥组成以支持集成。
 
-新建项目时，如果 **项目编号** 值不存在，则使用编号规则自动生成。 该值由 **PRJ** 以及依次紧跟在后面的一个递增编号规则和一个由六个字符组成的后缀构成。 下面是一个示例： **PRJ-01049-CCNID0** 。
+新建项目时，如果 **项目编号** 值不存在，则使用编号规则自动生成。 该值由 **PRJ** 以及依次紧跟在后面的一个递增编号规则和一个由六个字符组成的后缀构成。 下面是一个示例：**PRJ-01049-CCNID0**。
 
 应用 Project Service Automation 到 Finance 集成解决方案时，升级脚本将在 Project Service Automation 为现有项目合同设置 **项目合同 ID** 字段，为现有项目设置 **项目编号** 字段。
 
@@ -108,7 +110,7 @@ Project Service Automation 中有一项会影响项目合同行里程碑模板�
 - 必须先同步科目，才能同步项目合同和项目。
 - 在连接集中，向 **msdyn\_name \[Name\]** 添加 **msdyn\_organizationalunits** 的集成密钥字段映射。 可能首先需要向连接集添加一个项目。 有关详细信息，请参阅[将数据集成到 Common Data Service for Apps](https://docs.microsoft.com/powerapps/administrator/data-integrator)。
 - 在连接集中，向 **msdynce\_projectnumber \[Project Number\]** 添加 **msdyn\_projects** 的集成密钥字段映射。 可能首先需要向连接集添加一个项目。 有关详细信息，请参阅[将数据集成到 Common Data Service for Apps](https://docs.microsoft.com/powerapps/administrator/data-integrator)。
-- 可将项目合同和项目的 **SourceDataID** 更新为其他值，也可以将其从映射中移除。 默认模板值为 **Project Service Automation** 。
+- 可将项目合同和项目的 **SourceDataID** 更新为其他值，也可以将其从映射中移除。 默认模板值为 **Project Service Automation**。
 - 必须更新 **PaymentTerms** 映射，才能在 Finance 中体现有效的付款期限。 也可以从项目任务中移除映射。 默认值映射具有演示数据的默认值。 下表显示 Project Service Automation 中的值。
 
     | Value | 描述   |
@@ -133,9 +135,9 @@ Project Service Automation 中有一项会影响项目合同行里程碑模板�
 ## <a name="template-mapping-in-data-integration"></a>数据集成中的模板映射
 
 > [!NOTE] 
-> 项目合同的默认映射中不包含 **CustomerReference** 、 **AddressCity** 、 **AddressCountryRegionID** 、 **AddressDescription** 、 **AddressLine1** 、 **AddressLine2** 、 **AddressState** 和 **AddressZipCode** 字段。 如果需要为项目合同同步此数据，可添加这些映射。
+> 项目合同的默认映射中不包含 **CustomerReference**、**AddressCity**、**AddressCountryRegionID**、**AddressDescription**、**AddressLine1**、**AddressLine2**、**AddressState** 和 **AddressZipCode** 字段。 如果需要为项目合同同步此数据，可添加这些映射。
 >
-> 项目的默认映射中不包含 **Description** 、 **ParentID** 、 **ProjectGroup** 、 **ProjectManagerPersonnelNumber** 和 **ProjectType** 字段。 如果需要为项目同步此数据，可添加这些映射。
+> 项目的默认映射中不包含 **Description**、**ParentID**、**ProjectGroup**、**ProjectManagerPersonnelNumber** 和 **ProjectType** 字段。 如果需要为项目同步此数据，可添加这些映射。
 
 下图显示了数据集成中的模板任务映射的示例。 此映射显示将从 Project Service Automation 同步到 Finance 的字段信息。
 

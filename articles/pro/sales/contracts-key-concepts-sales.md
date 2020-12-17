@@ -8,18 +8,20 @@ ms.topic: article
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: ce37c9dd18fd01e599e8766389e42c066e182547
-ms.sourcegitcommit: 625878bf48ea530f3381843be0e778cebbbf1922
+ms.openlocfilehash: 3381707457ef35ff604c716592afd8382b98ad5d
+ms.sourcegitcommit: 573be7e36604ace82b35e439cfa748aa7c587415
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/30/2020
-ms.locfileid: "4177050"
+ms.lasthandoff: 11/25/2020
+ms.locfileid: "4643027"
 ---
 # <a name="project-contracts---key-concepts---lite"></a>项目合同 - 关键概念 - 精简
 
 _**适用于：** 精简部署 - 估价交易开票_
 
-此主题提供在 Dynamics 365 Project Operations 中开始使用项目合同之前要知道的关键概念：
+[!include [rename-banner](~/includes/cc-data-platform-banner.md)]
+
+本主题提供了在 Dynamics 365 Project Operations 中开始使用项目合同之前要了解的关键概念：
 
 ## <a name="contracting-unit"></a>合同签订部门
 

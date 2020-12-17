@@ -12,15 +12,15 @@ audience: Application User
 ms.reviewer: roschlom
 ms.search.scope: Operations, Core
 ms.search.region: Global
-ms.author: ryansand
+ms.author: suvaidya
 ms.search.validFrom: 2019-6-30
 ms.dyn365.ops.version: 10.0.3
-ms.openlocfilehash: ec8737d848ae5ad25219a43c68306d19b1c1fbce
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: f2acd9eab52629b0baeb82a399993fbc6337c722
+ms.sourcegitcommit: 13a4e58eddbb0f81aca07c1ff452c420dbd8a68f
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4072647"
+ms.lasthandoff: 11/30/2020
+ms.locfileid: "4650128"
 ---
 # <a name="redesigned-expense-reports"></a>重新设计的支出报表
 [!include[banner](../includes/banner.md)]
@@ -62,7 +62,7 @@ ms.locfileid: "4072647"
 | 提高可见性的新工作区 | 新工作区统一了让用户能够转到不同区域的功能和链接。 |
 | 在支出创建过程中添加现有支出和收据 | 在您创建支出报表时，可以添加所有或所选的支出和收据。 |
 | 汇率计算器 | 添加了汇率计算器，可让您计算现金支付多货币交易的汇率。 |
-| 保存和添加新支出行 | 输入新支出时， **保存** 和 **新建** 按钮可用，帮助您快速输入支出行。 |
+| 保存和添加新支出行 | 输入新支出时，**保存** 和 **新建** 按钮可用，帮助您快速输入支出行。 |
 | 更清晰地查看拆分和细化行 | 明细化行和拆分行直接添加到支出列表，从而可以提高可见性和帮助您轻松确定是否发生了策略错误或其他错误。 |
 | 在细化时显示收据 | 收据可以在细化时显示。 |
 

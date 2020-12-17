@@ -18,12 +18,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 6bc74442866caccc02e53afc913a55aab81f9629
-ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
+ms.openlocfilehash: 86b676a0cf74e0257fd76cf32271497eebc06e75
+ms.sourcegitcommit: 573be7e36604ace82b35e439cfa748aa7c587415
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/28/2020
-ms.locfileid: "4129667"
+ms.lasthandoff: 11/25/2020
+ms.locfileid: "4642757"
 ---
 # <a name="use-the-project-service-automation-add-in-to-plan-your-work-in-microsoft-project"></a>在 Microsoft Project 中使用 Project Service Automation 加载项规划工作
 
@@ -92,7 +92,7 @@ ms.locfileid: "4129667"
 |------------------------------------------------------------------------------------------|-----------------------------------------------------------------------------------------------------------------------------------|
 |  [!INCLUDE[pn_microsoft_project](../includes/pn-microsoft-project.md)] **甘特图**   | 导入到 [!INCLUDE[pn_project_service_auto](../includes/pn-project-service-auto.md)] **工作分解结构** 屏幕中。 |
 | [!INCLUDE[pn_microsoft_project](../includes/pn-microsoft-project.md)] **资源表** |   导入到 [!INCLUDE[pn_project_service_auto](../includes/pn-project-service-auto.md)] **项目团队成员** 屏幕中。   |
-|   [!INCLUDE[pn_microsoft_project](../includes/pn-microsoft-project.md)] **使用情况**    |    导入到 [!INCLUDE[pn_project_service_auto](../includes/pn-project-service-auto.md)]**项目估算** 屏幕中。     |
+|   [!INCLUDE[pn_microsoft_project](../includes/pn-microsoft-project.md)] **使用情况**    |    导入到[!INCLUDE[pn_project_service_auto](../includes/pn-project-service-auto.md)]**项目估算** 屏幕中。     |
 
 **导入和发布项目**  
 1. 在 **Project Service** 选项卡中，单击 **发布** > **新 Project Service Automation Project 项目**。  
@@ -173,6 +173,59 @@ ms.locfileid: "4129667"
 4. 单击 **发布**。  
 
 将 Project 文件链接到 [!INCLUDE[pn_project_service_auto](../includes/pn-project-service-auto.md)] 将让 Project 文件成为主文件，并在 [!INCLUDE[pn_project_service_auto](../includes/pn-project-service-auto.md)] 模板中将工作分解结构设置为只读。  若要更改项目计划，需要在 [!INCLUDE[pn_microsoft_project](../includes/pn-microsoft-project.md)] 中更改，再作为更新发布到 [!INCLUDE[pn_project_service_auto](../includes/pn-project-service-auto.md)]。
+
+## <a name="read-a-resource-loaded-schedule"></a>读取资源加载计划
+
+当从 Project Service Automation 中读取项目时，该资源的日历不会与桌面客户端同步。 如果在任务持续时间、工作或结束方面存在差异，则可能是因为资源和桌面客户端没有将相同的工作时间模板日历应用于项目。
+
+
+## <a name="data-synchronization"></a>数据同步
+
+下表概述了如何在 Project Service Automation 和 Microsoft Project 桌面加载项之间同步数据。
+
+| **实体** | **字段** | **Microsoft Project 到 Project Service Automation** | **Project Service Automation 到 Microsoft Project** |
+| --- | --- | --- | --- |
+| 项目任务 | 截止日期 | ● | - |
+| 项目任务 | 预计的精力 | ● | - |
+| 项目任务 | MS Project 客户端 ID | ● | - |
+| 项目任务 | 父任务 | ● | - |
+| 项目任务 | Project | ● | - |
+| 项目任务 | 项目任务 | ● | - |
+| 项目任务 | 项目任务名称 | ● | - |
+| 项目任务 | 资源单位(v3.0 中已弃用) | ● | - |
+| 项目任务 | 计划持续时间 | ● | - |
+| 项目任务 | 开始日期 | ● | - |
+| 项目任务 | WBS 编号 | ● | - |
+
+| **实体** | **字段** | **Microsoft Project 到 Project Service Automation** | **Project Service Automation 到 Microsoft Project** |
+| --- | --- | --- | --- |
+| 团队成员 | MS Project 客户端 ID | ● | - |
+| 团队成员 | 职位名称 | ● | - |
+| 团队成员 | 项目 | ● | ● |
+| 团队成员 | 项目团队 | ● | ● |
+| 团队成员 | 资源单位 | - | ● |
+| 团队成员 | 角色 | - | ● |
+| 团队成员 | 工作时间 | 未同步 | 未同步 |
+
+| **实体** | **字段** | **Microsoft Project 到 Project Service Automation** | **Project Service Automation 到 Microsoft Project** |
+| --- | --- | --- | --- |
+| 资源分派 | 起始日期 | ● | - |
+| 资源分派 | 时数 | ● | - |
+| 资源分派 | MS Project 客户端 ID | ● | - |
+| 资源分派 | 计划的工作 | ● | - |
+| 资源分派 | Project | ● | - |
+| 资源分派 | 项目团队 | ● | - |
+| 资源分派 | 资源分派 | ● | - |
+| 资源分派 | 任务 | ● | - |
+| 资源分派 | 截止日期 | ● | - |
+
+| **实体** | **字段** | **Microsoft Project 到 Project Service Automation** | **Project Service Automation 到 Microsoft Project** |
+| --- | --- | --- | --- |
+| 项目任务依赖关系 | 项目任务依赖关系 | ● | - |
+| 项目任务依赖关系 | 链接类型 | ● | - |
+| 项目任务依赖关系 | 先前任务 | ● | - |
+| 项目任务依赖关系 | Project | ● | - |
+| 项目任务依赖关系 | 后续任务 | ● | - |
 
 ### <a name="see-also"></a>另请参阅  
  [项目经理指南](../psa/project-manager-guide.md)

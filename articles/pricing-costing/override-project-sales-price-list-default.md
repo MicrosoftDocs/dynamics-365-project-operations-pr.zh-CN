@@ -5,15 +5,16 @@ author: rumant
 manager: Annbe
 ms.date: 10/22/2020
 ms.topic: article
+ms.prod: ''
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: c97dca8685c2db7d256017cf4442416feb0e005b
-ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
+ms.openlocfilehash: af9baca540d89f4e5e616bdfdd6111bef29abe28
+ms.sourcegitcommit: 656a9d03f260c29e988e2ff05b6e07ae0365d6d0
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/28/2020
-ms.locfileid: "4130837"
+ms.lasthandoff: 12/04/2020
+ms.locfileid: "4672220"
 ---
 # <a name="override-project-sales-price-lists"></a>替代项目销售价目表
 
@@ -27,7 +28,7 @@ _**适用于：** 基于资源/非库存场景的 Project Operations，精简部
 
 1. 打开 **客户** 列表页。
 2. 找到并双击客户记录打开 **客户** 详细信息页。
-3. 在 **项目价目表** 选项卡上，选择 **+ 新建项目价目表^^。
+3. 在 **项目价目表** 选项卡上，选择 **+ 新建项目价目表**。
 4. 在 **新建项目价目表** 页上，从下拉列表中选择一个价目表。 仅包含将上下文设置为 **销售** 且其货币与客户货币匹配的价目表。
 5. 为关联命名，然后选择 **保存**。 特定于客户的项目价目表已创建。 此价目表将用于设定为此客户创建的报价单或项目合同的创建日期在价目表有效期内的项目报价单或合同上的默认项目价格。
 

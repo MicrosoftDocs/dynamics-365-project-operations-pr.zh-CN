@@ -8,12 +8,12 @@ ms.topic: article
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: 00fc16b0e723d4df88ceae961d9772e26dd1451e
-ms.sourcegitcommit: f6f86e80dfef15a7b5f9174b55dddf410522f7c8
+ms.openlocfilehash: 5e789295d4b1f5a53fcf179a2998f60d35f48f99
+ms.sourcegitcommit: 869bde007805ef255f61b03937e4a44aeef61df9
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/31/2020
-ms.locfileid: "4180496"
+ms.lasthandoff: 11/12/2020
+ms.locfileid: "4513778"
 ---
 # <a name="manage-leads---lite"></a>管理潜在顾客 - 精简
 
@@ -23,7 +23,7 @@ _**适用于：** 精简部署 - 估价交易开票_
 
 ## <a name="list-of-project-sales-leads"></a>项目销售潜在顾客列表
 
-在左侧导航窗格的 **销售** 部分，打开 **潜在顾客** 列表页查看系统中所有潜在顾客记录的列表。 如果您还有 Dynamics 365 Sales 或 Dynamics 365 Field Service 应用程序，显示的潜在顾客列表将是基于工作的潜在顾客以及可以创建的其他类型的潜在顾客。
+在左侧导航窗格的 **销售** 部分，打开 **潜在顾客** 列表页查看系统中所有潜在顾客记录的列表。 列表中的潜在顾客是基于工作和其他类型的潜在顾客，如果您也有 Dynamics 365 Sales 或 Dynamics 365 Field Service 应用程序，则可以创建这些潜在顾客。
 
 您可以通过在 **类型** 值上创建筛选器来创建筛选视图，以仅查看基于项目的潜在顾客。 例如，您可以选择仅显示基于工作的潜在顾客。
 

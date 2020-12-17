@@ -18,16 +18,17 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 8d63a1b36abe0a154c43e99738340f32f28c2f5e
-ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
+ms.openlocfilehash: 9bceb96153f0e9f5c0d40478baf691220de95f27
+ms.sourcegitcommit: 573be7e36604ace82b35e439cfa748aa7c587415
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/28/2020
-ms.locfileid: "4120262"
+ms.lasthandoff: 11/25/2020
+ms.locfileid: "4642667"
 ---
 # <a name="working-with-the-project-service-automation-data-model"></a>使用 Project Service Automation 数据模型
 
 [!INCLUDE[cc-applies-to-psa-app-3.x](../includes/cc-applies-to-psa-app-3x.md)]
+[!include [rename-banner](~/includes/cc-data-platform-banner.md)]
 
 Dynamics 365 Project Service Automation 在 Common Data Service 数据模型中扩展了其他应用程序实体，并引入了自己的实体。 此主题介绍您将在典型 PSA 报告方案中遇到的一些实体。
 

@@ -1,28 +1,20 @@
 ---
 title: 定价维度概述
-description: 本主题提供有关 Dynamics 365 Project Operations 中的定价维度的信息。
+description: 本主题提供有关 Dynamics 365 Project Operations 中定价维度的信息。
 author: rumant
 manager: AnnBe
-ms.date: 09/18/2020
+ms.date: 11/30/2020
 ms.topic: article
 ms.prod: ''
 ms.service: project-operations
-audience: Application User
 ms.reviewer: kfend
-ms.search.scope: ''
-ms.custom: ''
-ms.assetid: ''
-ms.search.region: Global
-ms.search.industry: Service industries
-ms.author: suvaidya
-ms.dyn365.ops.version: ''
-ms.search.validFrom: 2020-10-01
-ms.openlocfilehash: ec2e350e0e4c28ea1c9540d70c83fdf0a75dc408
-ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
+ms.author: rumant
+ms.openlocfilehash: 33f55976eafedd046fba952ab6381c297ab4e271
+ms.sourcegitcommit: 13a4e58eddbb0f81aca07c1ff452c420dbd8a68f
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/28/2020
-ms.locfileid: "4128452"
+ms.lasthandoff: 11/30/2020
+ms.locfileid: "4650174"
 ---
 # <a name="pricing-dimensions-overview"></a>定价维度概述
 
@@ -40,9 +32,21 @@ _**适用于：** 基于资源/非库存场景的 Project Operations，精简部
 
 ## <a name="pricing-dimensions"></a>定价维度
 
-Dynamics 365 Project Operations 附带一组默认的定价维度。 可通过转到 **Project Operations** > **参数** 查看这些定价维度。 在参数记录中 **基于金额的定价维度** 选项卡上，验证角色 **msdyn_resourcecategory** 和资源部门 **msdyn_organizationalunit** 的字段 **适用于销售** 和 **适用于成本** 是否设置为 **是**。 启用这些字段后，您可以为每个角色与部门的组合设置价格和成本。
+Dynamics 365 Project Operations 随附了一组默认定价维度。 可通过转到 **Project Operations** > **参数** 查看这些定价维度。 在参数记录中 **基于金额的定价维度** 选项卡上，验证角色 **msdyn_resourcecategory** 和资源部门 **msdyn_organizationalunit** 的字段 **适用于销售** 和 **适用于成本** 是否设置为 **是**。 启用这些字段后，您可以为每个角色与部门的组合设置价格和成本。
 
-如果需要使用更多属性制订资源的价格或成本，可以创建自定义的字段、实体和维度。
+![“适用于销售”已突出显示的 Project Service 参数的屏幕截图](media/PS-OOB-parameters.png)
+
+如果需要使用更多属性制订资源的价格或成本，可以创建自定义的字段、实体和维度。 有关详细信息，请参阅以下文主题。 
+  
+  > [!NOTE]
+  > 必须按列出的顺序完成这些步骤。
+
+1. [为自定义定价维度创建解决方案](../sales/create-solution-custompd.md)
+2. [创建自定义字段和实体](create-custom-fields-entities-pricing-dimensions.md)
+3. [为价格设置和交易实体添加自定义字段](add-custom-fields-price-setup-transactional-entities.md)
+4. [将自定义字段设置为定价维度](set-up-custom-fields-pricing-dimensions.md)
+5. [更新插件属性以包括新定价维度](update-plugin-attributes-pd.md)
+
 
 ## <a name="pricing-human-resource-time"></a>为人力资源时间定价
 组织如何为人力资源时间定价通常是直接影响组织利润率的重要战略注意事项。 当组织准备好确定希望如何设置人力资源时间的记帐费率和成本费率时，请与财务团队和业务主管合作。

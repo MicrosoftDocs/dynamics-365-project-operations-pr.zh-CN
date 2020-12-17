@@ -8,16 +8,18 @@ ms.topic: article
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: sigitac
-ms.openlocfilehash: dc3b353f19b915f645aed91dc2a8127117027034
-ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
+ms.openlocfilehash: a6dfa51f59119834230b7c9f8859a9d85eaae999
+ms.sourcegitcommit: 573be7e36604ace82b35e439cfa748aa7c587415
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/28/2020
-ms.locfileid: "4121117"
+ms.lasthandoff: 11/25/2020
+ms.locfileid: "4642938"
 ---
 # <a name="sign-up-for-project-operations-preview-subscriptions-for-resource-non-stocked-scenarios"></a>注册获取面向资源/非库存场景的 Project Operations 的预览订阅
 
 _**适用于：** 面向资源/非库存场景的 Project Operations_
+
+[!include [rename-banner](~/includes/cc-data-platform-banner.md)]
 
 此主题说明如何订阅预览/合作伙伴产品/服务以及如何部署面向资源/非库存场景的 Project Operations 环境。
 
@@ -42,7 +44,7 @@ _**适用于：** 面向资源/非库存场景的 Project Operations_
 
 在开始之前，请确保已使用需要 Project Operations 预览的租户中的用户工作帐户登录到浏览器。
 
-1. 通过将服务代码粘贴到浏览器 URL 中来兑换第一个服务代码 **Dynamics 365 Project Operations (CRM) - 预览试用**。
+1. 通过将第一个服务代码 **Dynamics 365 Project Operations (CRM) - 预览试用** 粘贴到浏览器 URL 来兑换它。
 
 ![兑换服务](./media/16RedeemFirstOfferNew.png)
 
@@ -75,7 +77,7 @@ _**适用于：** 面向资源/非库存场景的 Project Operations_
 
 ![分配许可证](./media/15AssignLicenses.png)
 
-3. 确认已选择 **Dynamics 365 Project Operations (CRM) 预览** 和 **Office 365 Project Operations - 预览** 许可证，然后选择 **保存更改**。
+3. 验证是否已选择 **Dynamics 365 Project Operations (CRM) 预览** 和 **Office 365 Project Operations - 预览** 许可证，并选择 **保存更改**。
 
 > [!NOTE]
 > Finance 试用服务不需要分配给用户。

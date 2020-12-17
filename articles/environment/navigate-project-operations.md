@@ -8,16 +8,18 @@ ms.topic: article
 ms.service: dynamics-365-customerservice
 ms.reviewer: kfend
 ms.author: sigitac
-ms.openlocfilehash: 92a9c4e62165f3e26ccb03c7af61f483c6744cc5
-ms.sourcegitcommit: 627d42e2a318dfc9564a4b803ada157682d4a0db
+ms.openlocfilehash: d948c1cfe2d95e61f2405a9a23e7045af678ae40
+ms.sourcegitcommit: 573be7e36604ace82b35e439cfa748aa7c587415
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/29/2020
-ms.locfileid: "4174254"
+ms.lasthandoff: 11/25/2020
+ms.locfileid: "4642037"
 ---
 # <a name="navigate-project-operations"></a>Project Operations 导航
 
 _**适用于：** 面向资源/非库存场景的 Project Operations_
+
+[!include [rename-banner](~/includes/cc-data-platform-banner.md)]
 
 面向资源/非库存场景的 Dynamics 365 Project Operations 包括两个组件： 
 

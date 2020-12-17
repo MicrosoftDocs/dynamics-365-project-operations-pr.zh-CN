@@ -1,5 +1,5 @@
 ---
-title: 对保留款或预付款开票 - 精简
+title: 为保留款或预付款开票
 description: 此主题提供有关如何在 Project Operations 中为保留款或预付款开票的信息。
 author: rumant
 manager: Annbe
@@ -8,16 +8,16 @@ ms.topic: article
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: 9013529b615026eab92177c9fd9fb84c50d66f4f
-ms.sourcegitcommit: f6f86e80dfef15a7b5f9174b55dddf410522f7c8
+ms.openlocfilehash: 12bf3822227badcf8c83d84d6aef6c0fdc7a972a
+ms.sourcegitcommit: 250270409412ba4cad95fbd4c345a80d3d2b3e53
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/31/2020
-ms.locfileid: "4180541"
+ms.lasthandoff: 11/21/2020
+ms.locfileid: "4596181"
 ---
-# <a name="invoice-a-retainer-or-an-advance---lite"></a>对保留款或预付款开票 - 精简
+# <a name="invoice-a-retainer-or-an-advance"></a>对保留款或预付款开票
 
-_**适用于：** 精简部署 - 估价交易开票_
+_**适用于：** 基于资源/非库存场景的 Project Operations，精简部署 - 估价开票交易_
 
 Dynamics 365 Project Operations 支持基于保留款的合同和一次性预付款。 在项目合同中，您可以记录保留款或一次性预付款的计划。 但是，在项目合同级别记录不会立即让保留款或预付款可用。 若要在实际向客户收费的发票上使用保留款或预付款，必须先为保留款或预付款开票。
 

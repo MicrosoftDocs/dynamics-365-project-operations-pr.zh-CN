@@ -1,5 +1,5 @@
 ---
-title: 在合同中创建临时预付款 - 精简
+title: 在合同中创建临时预付款
 description: 此主题提供有关如何根据需要在合同中创建预付款的信息。
 author: rumant
 manager: Annbe
@@ -8,16 +8,16 @@ ms.topic: article
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: a6bf02c2e2ab2f3c696b1eab1b92a20272187bf5
-ms.sourcegitcommit: f6f86e80dfef15a7b5f9174b55dddf410522f7c8
+ms.openlocfilehash: 790a0281f72eff5f241d11da025b5b4af643a567
+ms.sourcegitcommit: 250270409412ba4cad95fbd4c345a80d3d2b3e53
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/31/2020
-ms.locfileid: "4181351"
+ms.lasthandoff: 11/21/2020
+ms.locfileid: "4595931"
 ---
-# <a name="creating-an-ad-hoc-advance-on-a-contract---lite"></a>在合同中创建临时预付款 - 精简
+# <a name="creating-an-ad-hoc-advance-on-a-contract"></a>在合同中创建临时预付款
 
-_**适用于：** 精简部署 - 估价交易开票_
+_**适用于：** 基于资源/非库存场景的 Project Operations，精简部署 - 估价开票交易_
 
 Microsoft Dynamics 365 Project Operations 支持涉及预付款的开票场景。 在 **Project Operations** 中使用 **预付款** 的流程与 **保留款** 合同类似。 
 

@@ -8,18 +8,20 @@ ms.topic: article
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: sigitac
-ms.openlocfilehash: 044a942a068b33318b98041cc94944d90c1d63c3
-ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
+ms.openlocfilehash: 9ed502a1312b702e029d8910d62f72b8e0e4df06
+ms.sourcegitcommit: 573be7e36604ace82b35e439cfa748aa7c587415
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/28/2020
-ms.locfileid: "4121162"
+ms.lasthandoff: 11/25/2020
+ms.locfileid: "4642949"
 ---
 # <a name="provision-a-new-environment"></a>设置新环境
 
 _**适用于：** 面向资源/非库存场景的 Project Operations_
 
-此主题提供有关如何设置新的面向资源/非库存场景的 Dynamics 365 Project Operations 环境。
+[!include [rename-banner](~/includes/cc-data-platform-banner.md)]
+
+此主题提供有关如何为资源/非库存场景预配新 Dynamics 365 Project Operations 环境的信息。
 
 ## <a name="enable-project-operations-automated-provisioning-in-an-lcs-project"></a>在 LCS 项目中启用 Project Operations 自动设置
 
@@ -120,7 +122,7 @@ Project Operations 需要应用程序版本为 **10.0.13 (10.0.569.20009)** 或�
 
 ![应用解决方案](./media/13ApplySolutions.png)
 
-5. 选择两个解决方案 **Dynamics 365 Finance and Operations 双写入实体映射** 和 **Dynamics 365 Project Operations 双写入实体映射**，然后选择 **应用**。
+5. 选择 **Dynamics 365 Finance and Operations 双重写入实体映射** 和 **Dynamics 365 Project Operations 双重写入实体映射** 这两个解决方案，然后选择 **应用**。
 
 ![确认解决方案](./media/14ConfirmSolutions.png)
 
@@ -160,6 +162,7 @@ Project Operations 需要应用程序版本为 **10.0.13 (10.0.569.20009)** 或�
 | --- | --- | --- | --- | --- | --- |
 | **所有公司的项目资源角色 (bookableresourcecategories)** | No | 是 | Common Data Service | No | 不适用 |
 | **法人 (cdm\_companies)** | No | 是 | Finance and Operations 应用 | No | 不适用 |
+| **分类帐 (msdyn_ledgers)** | No | 是 | Finance and Operations 应用 | 是 | 是，Finance and Operations 应用 |
 | **Project Operations 集成实际值 (msdyn\_actuals)** | No | No | 不适用 | 是 | No |
 | **项目合同子项 (salesorderdetails)** | No | No | 不适用 | No | No |
 | **项目交易关系的集成实体 (msdyn\_transactionconnections)** | No | No | 不适用 | No | 不适用 |

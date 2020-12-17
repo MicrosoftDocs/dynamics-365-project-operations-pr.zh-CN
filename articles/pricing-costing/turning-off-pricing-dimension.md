@@ -17,12 +17,12 @@ ms.search.industry: Service industries
 ms.author: suvaidya
 ms.dyn365.ops.version: ''
 ms.search.validFrom: 2020-10-01
-ms.openlocfilehash: ffeff2ab465f37b8a4e40f4e64b118e3bb412cb8
-ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
+ms.openlocfilehash: 986fae72c6b44b3f76281aefb81ffdaa96f71ae7
+ms.sourcegitcommit: 13a4e58eddbb0f81aca07c1ff452c420dbd8a68f
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/28/2020
-ms.locfileid: "4119272"
+ms.lasthandoff: 11/30/2020
+ms.locfileid: "4650038"
 ---
 # <a name="turning-off-a-pricing-dimension"></a>关闭定价维度
 
@@ -33,6 +33,8 @@ _**适用于：** 基于资源/非库存场景的 Project Operations，精简部
 开通过奖定价维度的 **适用于成本** 和 **适用于销售** 字段设置为 **否** 来关闭定价维度，无论该定价维度是自带的还是自定义的。
 
 不过，当您执行此操作时，您可能会收到错误消息 **如果有相关联的价格记录，则无法更新或删除定价维度**。
+
+![关闭定价维度时可能出现的业务流程错误](media/Business-Process-Error.png)
 
 此错误消息说明存在已经为正在关闭的维度设置的定价记录。 必须先删除引用某个维度的所有 **角色价格** 和 **角色价格加价** 记录，才能将该维度的适用性设置为 **否**。 此规则同时适用于自带定价维度和您可能已创建的任何自定义定价维度。 要执行此项验证的原因是每个 **角色价格** 记录都必须有唯一的维度组合。 例如，在名称为 **2018 年美国成本费率** 的价目表中，有以下 **角色价格** 行。 
 

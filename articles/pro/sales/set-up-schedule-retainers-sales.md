@@ -1,5 +1,5 @@
 ---
-title: 设置保留款计划 - 精简
+title: 设置保留款计划
 description: 此主题提供有关如何在 Project Operations 中设置保留款计划的信息。
 author: rumant
 manager: Annbe
@@ -8,16 +8,16 @@ ms.topic: article
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: 5e0312b89d9969f140146b6aaaa9bdcfde702c0b
-ms.sourcegitcommit: f6f86e80dfef15a7b5f9174b55dddf410522f7c8
+ms.openlocfilehash: 1c264b544660cf7a0b116f09b6bd7c94fcf0457e
+ms.sourcegitcommit: 250270409412ba4cad95fbd4c345a80d3d2b3e53
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/31/2020
-ms.locfileid: "4181261"
+ms.lasthandoff: 11/21/2020
+ms.locfileid: "4596361"
 ---
-# <a name="set-up-a-retainer-schedule---lite"></a>设置保留款计划 - 精简
+# <a name="set-up-a-retainer-schedule"></a>设置保留款计划
 
-_**适用于：** 精简部署 - 估价交易开票_
+_**适用于：** 基于资源/非库存场景的 Project Operations，精简部署 - 估价开票交易_
 
 保留款计划在 Dynamics 365 Project Operations 中的 **项目合同** 页设置。
 
