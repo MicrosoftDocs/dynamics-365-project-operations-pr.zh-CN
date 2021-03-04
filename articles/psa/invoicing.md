@@ -17,14 +17,16 @@ search.audienceType:
 search.app:
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: f8107a660f9993c7b6a32d69047a81fb7e0abef8
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: 0855e85c1f09d29d3ecb49ba517fd3043ae11140
+ms.sourcegitcommit: 418fa1fe9d605b8faccc2d5dee1b04b4e753f194
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4072668"
+ms.lasthandoff: 02/10/2021
+ms.locfileid: "5151377"
 ---
 # <a name="invoicing-in-project-service-automation"></a>Project Service Automation 中的开票
+
+[!include [banner](../includes/psa-now-project-operations.md)]
 
 [!INCLUDE[cc-applies-to-psa-app-3.x](../includes/cc-applies-to-psa-app-3x.md)]
 
@@ -48,7 +50,7 @@ PSA 不应生成面向客户的发票，原因如下：
 
 请执行以下步骤为特定项目合同创建发票。
 
-- 在 **项目合同** 列表页中，打开一个项目合同，然后选择 **创建发票** 。
+- 在 **项目合同** 列表页中，打开一个项目合同，然后选择 **创建发票**。
 
     ![为特定项目合同创建项目发票](media/CreateProjectInvoicesOneByOne.png)
 
@@ -56,7 +58,7 @@ PSA 不应生成面向客户的发票，原因如下：
 
 执行以下步骤批量创建发票。
 
-1. 在 **项目合同** 列表页，选择必须为其创建发票的一个或多个项目合同，然后选择 **创建项目合同** 。
+1. 在 **项目合同** 列表页，选择必须为其创建发票的一个或多个项目合同，然后选择 **创建项目合同**。
 
     ![批量创建项目发票](media/CreateProjectInvoicesBulk.png)
 
@@ -66,29 +68,29 @@ PSA 不应生成面向客户的发票，原因如下：
 
     将为合同子项中所有状态为 **已准备好开具发票** 的交易生成发票。 这些交易包括时间、支出、里程碑和基于产品的合同子项。
 
-3. 若要查看生成的发票，请转到 **Sales** \> **记帐** \> **发票** 。 您将看到每个项目合同的一张发票。
+3. 若要查看生成的发票，请转到 **Sales** \> **记帐** \> **发票**。 您将看到每个项目合同的一张发票。
 
 ### <a name="set-up-automated-creation-of-project-invoices-in-psa"></a>在 PS 中设置项目发票自动创建
 
 在 PSA 中执行以下步骤以配置自动化发票运行。
 
-1. 转到 **Project Service** \> **设置** \> **批处理作业** 。
-2. 创建一个批处理作业，将其命名为 **PSA 创建发票** 。 此批处理作业的名称中必须包含术语“创建发票”。
-3. 在 **作业类型** 字段中，选择 **无** 。 默认情况下， **每天频率** 和 **可用** 选项设置为 **是** 。
-4. 选择 **运行工作流** 。 在 **查找记录** 对话框中，您将看到三个工作流：
+1. 转到 **Project Service** \> **设置** \> **批处理作业**。
+2. 创建一个批处理作业，将其命名为 **PSA 创建发票**。 此批处理作业的名称中必须包含术语“创建发票”。
+3. 在 **作业类型** 字段中，选择 **无**。 默认情况下，**每天频率** 和 **可用** 选项设置为 **是**。
+4. 选择 **运行工作流**。 在 **查找记录** 对话框中，您将看到三个工作流：
 
     - ProcessRunCaller
     - ProcessRunner
     - UpdateRoleUtilization
 
-5. 选择 **ProcessRunCaller** ，然后选择 **添加** 。
-6. 在下一个对话框中，选择 **确定** 。 **Sleep** 工作流后是 **Process** 工作流。
+5. 选择 **ProcessRunCaller**，然后选择 **添加**。
+6. 在下一个对话框中，选择 **确定**。 **Sleep** 工作流后是 **Process** 工作流。
 
-    可以选择步骤 5 中的 **ProcessRunner** 。 然后，当您选择 **确定** 时， **Process** 工作流后是 **Sleep** 工作流。
+    可以选择步骤 5 中的 **ProcessRunner**。 然后，当您选择 **确定** 时，**Process** 工作流后是 **Sleep** 工作流。
 
-**ProcessRunCaller** 和 **ProcessRunner** 工作流创建发票。 **ProcessRunCaller** 调用 **ProcessRunner** 。 **ProcessRunner** 是真正创建发票的工作流。 它浏览必须为其创建发票的所有合同子项，然后为这些子项创建发票。 为了确定必须为其创建发票的合同子项，作业将查看合同子项的发票运行日期。 如果属于一个合同的合同子项具有同一个发票运行日期，将把交易合并到一张具有两项发票明细的发票中。 如果没有需要为其创建发票的交易，作业将跳过发票创建。
+**ProcessRunCaller** 和 **ProcessRunner** 工作流创建发票。 **ProcessRunCaller** 调用 **ProcessRunner**。 **ProcessRunner** 是真正创建发票的工作流。 它浏览必须为其创建发票的所有合同子项，然后为这些子项创建发票。 为了确定必须为其创建发票的合同子项，作业将查看合同子项的发票运行日期。 如果属于一个合同的合同子项具有同一个发票运行日期，将把交易合并到一张具有两项发票明细的发票中。 如果没有需要为其创建发票的交易，作业将跳过发票创建。
 
-**ProcessRunner** 完成运行之后，将调用 **ProcessRunCaller** ，提供结束时间，然后关闭。 然后， **ProcessRunCaller** 启动一个从指定结束日期开始运行 24 小时的计时器。 此计时器结束时，将关闭 **ProcessRunCaller** 。
+**ProcessRunner** 完成运行之后，将调用 **ProcessRunCaller**，提供结束时间，然后关闭。 然后，**ProcessRunCaller** 启动一个从指定结束日期开始运行 24 小时的计时器。 此计时器结束时，将关闭 **ProcessRunCaller**。
 
 用于创建发票的批处理作业是周期性作业。 如果多次运行此批处理流程，将创建多个作业实例，并导致出错。 因此，仅应启动此批处理流程一次，并且仅当其停止运行时才应重新启动它。
 

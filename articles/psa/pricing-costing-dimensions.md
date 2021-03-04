@@ -17,14 +17,16 @@ search.audienceType:
 search.app:
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 515a2e2e518614884b414ca43702e8bfea2c6919
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: 65516784c6787fa5f3c08297f4d161d52c2ea4a9
+ms.sourcegitcommit: 418fa1fe9d605b8faccc2d5dee1b04b4e753f194
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4072645"
+ms.lasthandoff: 02/10/2021
+ms.locfileid: "5151287"
 ---
 # <a name="pricing-and-costing-dimensions-home-page"></a>定价和定成本维度主页
+
+[!include [banner](../includes/psa-now-project-operations.md)]
 
 在基于项目的组织中，用于设置人工定价和成本核算的维度受以下属性影响：
 
@@ -38,7 +40,7 @@ ms.locfileid: "4072645"
 
 ## <a name="pricing-dimensions"></a>定价维度
 
-PSA 随附了一组默认定价维度。 可通过转到 **Project Service** > **参数** 查看。 在参数记录中 **基于金额的定价维度** 选项卡上，验证角色 **msdyn_resourcecategory** 和资源部门 **msdyn_organizationalunit** 的字段 **适用于销售** 和 **适用于成本** 是否设置为 **是** 。 这样就可以为每个角色与部门的组合设置价格和成本。
+PSA 随附了一组默认定价维度。 可通过转到 **Project Service** > **参数** 查看。 在参数记录中 **基于金额的定价维度** 选项卡上，验证角色 **msdyn_resourcecategory** 和资源部门 **msdyn_organizationalunit** 的字段 **适用于销售** 和 **适用于成本** 是否设置为 **是**。 这样就可以为每个角色与部门的组合设置价格和成本。
 
 ![“适用于销售”已突出显示的 Project Service 参数的屏幕截图](media/PS-OOB-parameters.png)
 
@@ -55,7 +57,7 @@ PSA 随附了一组默认定价维度。 可通过转到 **Project Service** > *
 ## <a name="pricing-human-resource-time"></a>为人力资源时间定价
 组织如何为人力资源时间定价通常是直接影响组织利润率的重要战略注意事项。 当组织准备好确定希望如何设置人力资源时间的记帐费率和成本费率时，请与财务团队和业务主管合作。
 
-有关定价的其他注意事项包括是否重复利用尚不是充当组织的定价维度，但是适合定价维度的字段或实体。 **交易类别** ( **msdyn_transactioncategory** ) 和 **可预订资源** ( **bookableresource** ) 之类字段就是候选维度。 
+有关定价的其他注意事项包括是否重复利用尚不是充当组织的定价维度，但是适合定价维度的字段或实体。 **交易类别** (**msdyn_transactioncategory**) 和 **可预订资源** (**bookableresource**) 之类字段就是候选维度。 
 
 应注意定价维度应该是表还是选项集。 如果您预测维度值将更改为超过 10 或 12，并且您需要这些值的更多属性，则创建非选项集实体。 若要维护选项集（如添加或删除值），需要管理员或开发人员，而大多数业务用户可以向表添加新行。
 
