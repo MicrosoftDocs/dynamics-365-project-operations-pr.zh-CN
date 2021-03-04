@@ -18,36 +18,38 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: ac3438da6bae45683d9eb2dee3544dff862e3ddd
-ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
+ms.openlocfilehash: 9c9db2e602ca97d63ba237fd2c0eb757583caebc
+ms.sourcegitcommit: 418fa1fe9d605b8faccc2d5dee1b04b4e753f194
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/28/2020
-ms.locfileid: "4120217"
+ms.lasthandoff: 02/10/2021
+ms.locfileid: "5144402"
 ---
-# <a name="use-the-schedule-board-to-book-project-resources"></a><span data-ttu-id="f5ff0-103">使用日程安排板预订项目资源</span><span class="sxs-lookup"><span data-stu-id="f5ff0-103">Use the Schedule Board to book project resources</span></span>
+# <a name="use-the-schedule-board-to-book-project-resources"></a><span data-ttu-id="55e37-103">使用日程安排板预订项目资源</span><span class="sxs-lookup"><span data-stu-id="55e37-103">Use the Schedule Board to book project resources</span></span>
 
-<span data-ttu-id="f5ff0-104">除了从项目内部为项目预订资源，还可以从日程安排板硬预订或软预订资源。</span><span class="sxs-lookup"><span data-stu-id="f5ff0-104">In addition to booking resources on a project from within a project, you can hard-book or soft-book resources from the Schedule Board.</span></span>
+[!include [banner](../includes/psa-now-project-operations.md)]
 
-<span data-ttu-id="f5ff0-105">必须先创建或生成资源要求，才能从日程安排板预订。</span><span class="sxs-lookup"><span data-stu-id="f5ff0-105">Before you can book from the Schedule Board, you must create or generate resource requirements.</span></span> <span data-ttu-id="f5ff0-106">执行以下步骤从日程安排板创建资源要求。</span><span class="sxs-lookup"><span data-stu-id="f5ff0-106">Follow these steps to create resource requirements from the Schedule Board.</span></span>
+<span data-ttu-id="55e37-104">除了从项目内部为项目预订资源，还可以从日程安排板硬预订或软预订资源。</span><span class="sxs-lookup"><span data-stu-id="55e37-104">In addition to booking resources on a project from within a project, you can hard-book or soft-book resources from the Schedule Board.</span></span>
 
-1. <span data-ttu-id="f5ff0-107">如果页面底部的 **预订要求** 窗格已折叠，请选择展开器控件将其展开。</span><span class="sxs-lookup"><span data-stu-id="f5ff0-107">If the **Booking Requirements** pane at the bottom of the page is collapsed, select the expander control to expand it.</span></span>
-2. <span data-ttu-id="f5ff0-108">在 **预订要求** 窗格的 **项目** 选项卡上，选择要预订的要求。</span><span class="sxs-lookup"><span data-stu-id="f5ff0-108">In the **Booking Requirements** pane, on the **Project** tab, select the requirement to book.</span></span>
+<span data-ttu-id="55e37-105">必须先创建或生成资源要求，才能从日程安排板预订。</span><span class="sxs-lookup"><span data-stu-id="55e37-105">Before you can book from the Schedule Board, you must create or generate resource requirements.</span></span> <span data-ttu-id="55e37-106">执行以下步骤从日程安排板创建资源要求。</span><span class="sxs-lookup"><span data-stu-id="55e37-106">Follow these steps to create resource requirements from the Schedule Board.</span></span>
+
+1. <span data-ttu-id="55e37-107">如果页面底部的 **预订要求** 窗格已折叠，请选择展开器控件将其展开。</span><span class="sxs-lookup"><span data-stu-id="55e37-107">If the **Booking Requirements** pane at the bottom of the page is collapsed, select the expander control to expand it.</span></span>
+2. <span data-ttu-id="55e37-108">在 **预订要求** 窗格的 **项目** 选项卡上，选择要预订的要求。</span><span class="sxs-lookup"><span data-stu-id="55e37-108">In the **Booking Requirements** pane, on the **Project** tab, select the requirement to book.</span></span>
 
     ![“项目”选项卡上已选择要求](media/Resource-Management-image73.png)
 
-3. <span data-ttu-id="f5ff0-110">选择 **查找可用性** 筛选可预订资源并查看可用资源。</span><span class="sxs-lookup"><span data-stu-id="f5ff0-110">Select **Find Availability** to filter the bookable resources and view the available resources.</span></span> 
-4. <span data-ttu-id="f5ff0-111">从日程安排板选择一个或多个资源。</span><span class="sxs-lookup"><span data-stu-id="f5ff0-111">Select one or more resources from the Schedule Board.</span></span> 
-5. <span data-ttu-id="f5ff0-112">在页面右侧的 **创建资源预订** 窗格中，输入预订信息，然后选择 **预订并退出**。</span><span class="sxs-lookup"><span data-stu-id="f5ff0-112">In the **Create Resource Booking** pane on the right side of the page, enter the booking information, and then select **Book and exit**.</span></span>
+3. <span data-ttu-id="55e37-110">选择 **查找可用性** 筛选可预订资源并查看可用资源。</span><span class="sxs-lookup"><span data-stu-id="55e37-110">Select **Find Availability** to filter the bookable resources and view the available resources.</span></span> 
+4. <span data-ttu-id="55e37-111">从日程安排板选择一个或多个资源。</span><span class="sxs-lookup"><span data-stu-id="55e37-111">Select one or more resources from the Schedule Board.</span></span> 
+5. <span data-ttu-id="55e37-112">在页面右侧的 **创建资源预订** 窗格中，输入预订信息，然后选择 **预订并退出**。</span><span class="sxs-lookup"><span data-stu-id="55e37-112">In the **Create Resource Booking** pane on the right side of the page, enter the booking information, and then select **Book and exit**.</span></span>
 
     ![所选可预订资源的“创建资源预订”窗格](media/Resource-Management-image74.png)
 
-6. <span data-ttu-id="f5ff0-114">在 **创建资源预订** 窗格中选择要求之后，选择资源的一个或多个单元格以创建预订。</span><span class="sxs-lookup"><span data-stu-id="f5ff0-114">While the requirement is selected in the **Create Resource Booking** pane, select one or more cells of a resource to create the booking.</span></span>
+6. <span data-ttu-id="55e37-114">在 **创建资源预订** 窗格中选择要求之后，选择资源的一个或多个单元格以创建预订。</span><span class="sxs-lookup"><span data-stu-id="55e37-114">While the requirement is selected in the **Create Resource Booking** pane, select one or more cells of a resource to create the booking.</span></span>
 
     ![选择了一个资源的多个单元格](media/Resource-Management-image75.png)
 
-7. <span data-ttu-id="f5ff0-116">选择 **预订**。</span><span class="sxs-lookup"><span data-stu-id="f5ff0-116">Select **Book**.</span></span>
+7. <span data-ttu-id="55e37-116">选择 **预订**。</span><span class="sxs-lookup"><span data-stu-id="55e37-116">Select **Book**.</span></span>
 
-<span data-ttu-id="f5ff0-117">将使用所选资源完成要求。</span><span class="sxs-lookup"><span data-stu-id="f5ff0-117">The requirement is fulfilled by using the selected resource.</span></span> <span data-ttu-id="f5ff0-118">在 **预订要求** 窗格中，请注意已更新了要求，并且资源显示为已预订给项目。</span><span class="sxs-lookup"><span data-stu-id="f5ff0-118">In the **Booking Requirements** pane, notice that the requirement has been updated, and the resource is shown as booked on the project.</span></span>
+<span data-ttu-id="55e37-117">将使用所选资源完成要求。</span><span class="sxs-lookup"><span data-stu-id="55e37-117">The requirement is fulfilled by using the selected resource.</span></span> <span data-ttu-id="55e37-118">在 **预订要求** 窗格中，请注意已更新了要求，并且资源显示为已预订给项目。</span><span class="sxs-lookup"><span data-stu-id="55e37-118">In the **Booking Requirements** pane, notice that the requirement has been updated, and the resource is shown as booked on the project.</span></span>
 
 ![资源已预订给项目](media/Resource-Management-image76.png)

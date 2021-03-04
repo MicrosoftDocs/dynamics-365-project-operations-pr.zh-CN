@@ -17,50 +17,52 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: e116bcbb8e9d184b7b894709c893aaf1dadefc2f
-ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
+ms.openlocfilehash: 8a73a6acd4ce4c9559cdf4591ede735a613f4d52
+ms.sourcegitcommit: 418fa1fe9d605b8faccc2d5dee1b04b4e753f194
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/28/2020
-ms.locfileid: "4126820"
+ms.lasthandoff: 02/10/2021
+ms.locfileid: "5143595"
 ---
-# <a name="project-service-automation-update-release-19-v3"></a><span data-ttu-id="6b769-103">Project Service Automation V3 更新版本 19</span><span class="sxs-lookup"><span data-stu-id="6b769-103">Project Service Automation Update Release 19, V3</span></span>
+# <a name="project-service-automation-update-release-19-v3"></a><span data-ttu-id="80954-103">Project Service Automation V3 更新版本 19</span><span class="sxs-lookup"><span data-stu-id="80954-103">Project Service Automation Update Release 19, V3</span></span>
 
-<span data-ttu-id="6b769-104">我们很高兴地宣布适用于 Dynamics 365 的 Project Service Automation 应用程序的最新更新已推出。</span><span class="sxs-lookup"><span data-stu-id="6b769-104">We’re pleased to announce the latest update for the Project Service Automation application for Dynamics 365.</span></span> <span data-ttu-id="6b769-105">此版本包括对质量、性能和可用性的一些重要改进。</span><span class="sxs-lookup"><span data-stu-id="6b769-105">This release includes some important improvements to quality, performance, and usability.</span></span> <span data-ttu-id="6b769-106">此版本与 Dynamics 365 9.x 兼容。</span><span class="sxs-lookup"><span data-stu-id="6b769-106">This release is compatible with Dynamics 365 9.x.</span></span> <span data-ttu-id="6b769-107">若要更新到此版本，请访问 Dynamics 365 Online 的管理中心解决方案页面以安装更新。</span><span class="sxs-lookup"><span data-stu-id="6b769-107">To update to this release, visit the Admin Center for Dynamics 365 online solutions page to install the update.</span></span> <span data-ttu-id="6b769-108">有关详细信息，请参阅[安装、更新或移除首选解决方案](https://docs.microsoft.com/power-platform/admin/install-remove-preferred-solution)。</span><span class="sxs-lookup"><span data-stu-id="6b769-108">For more information, see [Install, update, or remove a preferred solution](https://docs.microsoft.com/power-platform/admin/install-remove-preferred-solution).</span></span>
+[!include [banner](../includes/psa-now-project-operations.md)]
 
-<span data-ttu-id="6b769-109">本主题列出了 PSA V3 更新版本 19 中新增或更改的功能和修复。</span><span class="sxs-lookup"><span data-stu-id="6b769-109">This topic lists the features and fixes that are new or changed for PSA V3, Update Release 19.</span></span> <span data-ttu-id="6b769-110">该版本的内部版本号为 V3.10.30.41，并且在 2020 年 5 月通过自行更新公开发布。</span><span class="sxs-lookup"><span data-stu-id="6b769-110">This version has a build number of V3.10.30.41 and is generally available through a self-update in May 2020.</span></span>
+<span data-ttu-id="80954-104">我们很高兴地宣布适用于 Dynamics 365 的 Project Service Automation 应用程序的最新更新已推出。</span><span class="sxs-lookup"><span data-stu-id="80954-104">We’re pleased to announce the latest update for the Project Service Automation application for Dynamics 365.</span></span> <span data-ttu-id="80954-105">此版本包括对质量、性能和可用性的一些重要改进。</span><span class="sxs-lookup"><span data-stu-id="80954-105">This release includes some important improvements to quality, performance, and usability.</span></span> <span data-ttu-id="80954-106">此版本与 Dynamics 365 9.x 兼容。</span><span class="sxs-lookup"><span data-stu-id="80954-106">This release is compatible with Dynamics 365 9.x.</span></span> <span data-ttu-id="80954-107">若要更新到此版本，请访问 Dynamics 365 Online 的管理中心解决方案页面以安装更新。</span><span class="sxs-lookup"><span data-stu-id="80954-107">To update to this release, visit the Admin Center for Dynamics 365 online solutions page to install the update.</span></span> <span data-ttu-id="80954-108">有关详细信息，请参阅[安装、更新或移除首选解决方案](https://docs.microsoft.com/power-platform/admin/install-remove-preferred-solution)。</span><span class="sxs-lookup"><span data-stu-id="80954-108">For more information, see [Install, update, or remove a preferred solution](https://docs.microsoft.com/power-platform/admin/install-remove-preferred-solution).</span></span>
 
-## <a name="update-release-19"></a><span data-ttu-id="6b769-111">更新发布 19</span><span class="sxs-lookup"><span data-stu-id="6b769-111">Update Release 19</span></span>
+<span data-ttu-id="80954-109">本主题列出了 PSA V3 更新版本 19 中新增或更改的功能和修复。</span><span class="sxs-lookup"><span data-stu-id="80954-109">This topic lists the features and fixes that are new or changed for PSA V3, Update Release 19.</span></span> <span data-ttu-id="80954-110">该版本的内部版本号为 V3.10.30.41，并且在 2020 年 5 月通过自行更新公开发布。</span><span class="sxs-lookup"><span data-stu-id="80954-110">This version has a build number of V3.10.30.41 and is generally available through a self-update in May 2020.</span></span>
 
-### <a name="bug-fixes"></a><span data-ttu-id="6b769-112">Bug 修复</span><span class="sxs-lookup"><span data-stu-id="6b769-112">Bug fixes</span></span>
+## <a name="update-release-19"></a><span data-ttu-id="80954-111">更新发布 19</span><span class="sxs-lookup"><span data-stu-id="80954-111">Update Release 19</span></span>
 
-<span data-ttu-id="6b769-113">**时间和支出**</span><span class="sxs-lookup"><span data-stu-id="6b769-113">**Time and Expense**</span></span>
+### <a name="bug-fixes"></a><span data-ttu-id="80954-112">Bug 修复</span><span class="sxs-lookup"><span data-stu-id="80954-112">Bug fixes</span></span>
 
-<span data-ttu-id="6b769-114">已修复以下问题：</span><span class="sxs-lookup"><span data-stu-id="6b769-114">The following issues have been fixed:</span></span> 
+<span data-ttu-id="80954-113">**时间和支出**</span><span class="sxs-lookup"><span data-stu-id="80954-113">**Time and Expense**</span></span>
 
-- <span data-ttu-id="6b769-115">不能正确显示导入时间条目产生的错误。</span><span class="sxs-lookup"><span data-stu-id="6b769-115">Errors derived from time entry imports are not surfaced correctly.</span></span>
-- <span data-ttu-id="6b769-116">“时间条目”网格不支持 **仅限日期** 字段行为。</span><span class="sxs-lookup"><span data-stu-id="6b769-116">Time Entry Grid does not support **Date Only** field behavior.</span></span>
-- <span data-ttu-id="6b769-117">项目资源无法为项目创建支出。</span><span class="sxs-lookup"><span data-stu-id="6b769-117">Project Resources are unable to create an expense with a project.</span></span>
+<span data-ttu-id="80954-114">已修复以下问题：</span><span class="sxs-lookup"><span data-stu-id="80954-114">The following issues have been fixed:</span></span> 
 
-<span data-ttu-id="6b769-118">**项目管理**</span><span class="sxs-lookup"><span data-stu-id="6b769-118">**Project Management**</span></span>
+- <span data-ttu-id="80954-115">不能正确显示导入时间条目产生的错误。</span><span class="sxs-lookup"><span data-stu-id="80954-115">Errors derived from time entry imports are not surfaced correctly.</span></span>
+- <span data-ttu-id="80954-116">“时间条目”网格不支持 **仅限日期** 字段行为。</span><span class="sxs-lookup"><span data-stu-id="80954-116">Time Entry Grid does not support **Date Only** field behavior.</span></span>
+- <span data-ttu-id="80954-117">项目资源无法为项目创建支出。</span><span class="sxs-lookup"><span data-stu-id="80954-117">Project Resources are unable to create an expense with a project.</span></span>
 
-<span data-ttu-id="6b769-119">已修复以下问题：</span><span class="sxs-lookup"><span data-stu-id="6b769-119">The following issues have been fixed:</span></span> 
+<span data-ttu-id="80954-118">**项目管理**</span><span class="sxs-lookup"><span data-stu-id="80954-118">**Project Management**</span></span>
 
--  <span data-ttu-id="6b769-120">在完成 (EAC) 计算期间孙任务导致工作量估算不正确。</span><span class="sxs-lookup"><span data-stu-id="6b769-120">Grandchild task causes an incorrect effort estimate during the Completion (EAC) Calculation.</span></span>
+<span data-ttu-id="80954-119">已修复以下问题：</span><span class="sxs-lookup"><span data-stu-id="80954-119">The following issues have been fixed:</span></span> 
 
-<span data-ttu-id="6b769-121">**Sales**</span><span class="sxs-lookup"><span data-stu-id="6b769-121">**Sales**</span></span>
+-  <span data-ttu-id="80954-120">在完成 (EAC) 计算期间孙任务导致工作量估算不正确。</span><span class="sxs-lookup"><span data-stu-id="80954-120">Grandchild task causes an incorrect effort estimate during the Completion (EAC) Calculation.</span></span>
 
-<span data-ttu-id="6b769-122">已修复以下问题：</span><span class="sxs-lookup"><span data-stu-id="6b769-122">The following issues have been fixed:</span></span> 
+<span data-ttu-id="80954-121">**Sales**</span><span class="sxs-lookup"><span data-stu-id="80954-121">**Sales**</span></span>
 
-- <span data-ttu-id="6b769-123">**重新计算** 操作不支持支出合同子项详细信息或报价单明细详细信息。</span><span class="sxs-lookup"><span data-stu-id="6b769-123">The **Recalculate** action does not work with expense contract line details or quote line details.</span></span>
-- <span data-ttu-id="6b769-124">费用估算缺少 **更新价格**。</span><span class="sxs-lookup"><span data-stu-id="6b769-124">**Update Prices** is missing for expense estimates.</span></span>
--  <span data-ttu-id="6b769-125">客户无法从 **项目合同** 页面选择自定义合同状态描述。</span><span class="sxs-lookup"><span data-stu-id="6b769-125">Customers are unable to select custom contract status reasons from the **Project Contract** page.</span></span>
-- <span data-ttu-id="6b769-126">客户在通过报价单创建自定义价目表时遇到了性能下降。</span><span class="sxs-lookup"><span data-stu-id="6b769-126">Customers experience degraded performance when creating a custom price list from a quote.</span></span>
-- <span data-ttu-id="6b769-127">客户遇到了 **报价单明细详细信息** 与 **合同子项详细信息** 页中 **计价单位** 默认值不一致。</span><span class="sxs-lookup"><span data-stu-id="6b769-127">Customers experience inconsistency with **unit** defaults on **Quote Line Details** and **Contract Line Details** pages.</span></span>
-- <span data-ttu-id="6b769-128">向应计费合同子项添加非应计费交易类别项不采用交易类别的 **非应计费** 记帐类型。</span><span class="sxs-lookup"><span data-stu-id="6b769-128">Adding non-chargeable transaction category items to a chargeable contract line will not respect the **Non-chargeable** billing type of the transaction category.</span></span>
-- <span data-ttu-id="6b769-129">客户在以前创建的合同中不能使用新添加的角色和类别。</span><span class="sxs-lookup"><span data-stu-id="6b769-129">Customers can't use the newly added roles and category on previously created contracts.</span></span>
-- <span data-ttu-id="6b769-130">客户在 PreValidateProjectTeamMemberUpdate.cs 中进行不必要的检索时遇到性能下降</span><span class="sxs-lookup"><span data-stu-id="6b769-130">Customers experience degraded performance Unnecessary retrieve in PreValidateProjectTeamMemberUpdate.cs</span></span>
-- <span data-ttu-id="6b769-131">不应将 **资源类别** 列表中设置为不应计费的角色作为项目合同子项中的 **不应计费** 添加到 **应计费角色** 选项卡。</span><span class="sxs-lookup"><span data-stu-id="6b769-131">Roles set up as non-chargeable in the **Resource Categories** list should be added to the **Chargeable Roles** tab as **Non0chargeable** on the contract line for a project.</span></span>
-- <span data-ttu-id="6b769-132">客户在创建项目时可能遇到性能下降，因为 **GetBookableResourceIdFromUser** 检索所有可预订资源列，而不是仅检索主 ID。</span><span class="sxs-lookup"><span data-stu-id="6b769-132">Customers may experience degraded performance when creating a project because **GetBookableResourceIdFromUser** retrieves all columns of bookable resources instead of just the primary ID.</span></span>
-- <span data-ttu-id="6b769-133">**TransactionType** 实体缺少用于防止输入对交易类型无效的 **计价单位** 和 **计价单位组** 的前期验证更新插件。</span><span class="sxs-lookup"><span data-stu-id="6b769-133">**TransactionType** entity missing the pre-validation update plug-in to prevent users from entering **Units** and **UnitGroups** that are not valid for transaction types.</span></span>
-- <span data-ttu-id="6b769-134">**删除** 步骤在导入时间条目时无效。</span><span class="sxs-lookup"><span data-stu-id="6b769-134">The **Remove** step does not work for time entry import.</span></span>
+<span data-ttu-id="80954-122">已修复以下问题：</span><span class="sxs-lookup"><span data-stu-id="80954-122">The following issues have been fixed:</span></span> 
+
+- <span data-ttu-id="80954-123">**重新计算** 操作不支持支出合同子项详细信息或报价单明细详细信息。</span><span class="sxs-lookup"><span data-stu-id="80954-123">The **Recalculate** action does not work with expense contract line details or quote line details.</span></span>
+- <span data-ttu-id="80954-124">费用估算缺少 **更新价格**。</span><span class="sxs-lookup"><span data-stu-id="80954-124">**Update Prices** is missing for expense estimates.</span></span>
+-  <span data-ttu-id="80954-125">客户无法从 **项目合同** 页面选择自定义合同状态描述。</span><span class="sxs-lookup"><span data-stu-id="80954-125">Customers are unable to select custom contract status reasons from the **Project Contract** page.</span></span>
+- <span data-ttu-id="80954-126">客户在通过报价单创建自定义价目表时遇到了性能下降。</span><span class="sxs-lookup"><span data-stu-id="80954-126">Customers experience degraded performance when creating a custom price list from a quote.</span></span>
+- <span data-ttu-id="80954-127">客户遇到了 **报价单明细详细信息** 与 **合同子项详细信息** 页中 **计价单位** 默认值不一致。</span><span class="sxs-lookup"><span data-stu-id="80954-127">Customers experience inconsistency with **unit** defaults on **Quote Line Details** and **Contract Line Details** pages.</span></span>
+- <span data-ttu-id="80954-128">向应计费合同子项添加非应计费交易类别项不采用交易类别的 **非应计费** 记帐类型。</span><span class="sxs-lookup"><span data-stu-id="80954-128">Adding non-chargeable transaction category items to a chargeable contract line will not respect the **Non-chargeable** billing type of the transaction category.</span></span>
+- <span data-ttu-id="80954-129">客户在以前创建的合同中不能使用新添加的角色和类别。</span><span class="sxs-lookup"><span data-stu-id="80954-129">Customers can't use the newly added roles and category on previously created contracts.</span></span>
+- <span data-ttu-id="80954-130">客户在 PreValidateProjectTeamMemberUpdate.cs 中进行不必要的检索时遇到性能下降</span><span class="sxs-lookup"><span data-stu-id="80954-130">Customers experience degraded performance Unnecessary retrieve in PreValidateProjectTeamMemberUpdate.cs</span></span>
+- <span data-ttu-id="80954-131">不应将 **资源类别** 列表中设置为不应计费的角色作为项目合同子项中的 **不应计费** 添加到 **应计费角色** 选项卡。</span><span class="sxs-lookup"><span data-stu-id="80954-131">Roles set up as non-chargeable in the **Resource Categories** list should be added to the **Chargeable Roles** tab as **Non0chargeable** on the contract line for a project.</span></span>
+- <span data-ttu-id="80954-132">客户在创建项目时可能遇到性能下降，因为 **GetBookableResourceIdFromUser** 检索所有可预订资源列，而不是仅检索主 ID。</span><span class="sxs-lookup"><span data-stu-id="80954-132">Customers may experience degraded performance when creating a project because **GetBookableResourceIdFromUser** retrieves all columns of bookable resources instead of just the primary ID.</span></span>
+- <span data-ttu-id="80954-133">**TransactionType** 实体缺少用于防止输入对交易类型无效的 **计价单位** 和 **计价单位组** 的前期验证更新插件。</span><span class="sxs-lookup"><span data-stu-id="80954-133">**TransactionType** entity missing the pre-validation update plug-in to prevent users from entering **Units** and **UnitGroups** that are not valid for transaction types.</span></span>
+- <span data-ttu-id="80954-134">**删除** 步骤在导入时间条目时无效。</span><span class="sxs-lookup"><span data-stu-id="80954-134">The **Remove** step does not work for time entry import.</span></span>
