@@ -16,16 +16,14 @@ ms.search.region: Global
 ms.author: suvaidya
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 6240a7be175800ce6f3b066de9e935ab370629ef
-ms.sourcegitcommit: 13a4e58eddbb0f81aca07c1ff452c420dbd8a68f
+ms.openlocfilehash: ab99c0ec769eb2e0914fc7d993f83d20e2c327f6
+ms.sourcegitcommit: 9f31b33ed6e7f1b49200a407913201a1337f3401
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/30/2020
-ms.locfileid: "4650083"
+ms.lasthandoff: 01/14/2021
+ms.locfileid: "4960686"
 ---
 # <a name="set-up-expense-policies"></a>设置支出策略
-
-[!include [banner](../includes/banner.md)]
 
 您可以定义您的工作人员在输入和提交支出报表和出差申请时必须遵守的策略。         
 实施支出策略可帮助您有效地管理支出。         

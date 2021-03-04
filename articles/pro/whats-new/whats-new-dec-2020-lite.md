@@ -9,12 +9,12 @@ ms.prod: ''
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: sigitac
-ms.openlocfilehash: 6a001cea56411865599a5c0a41fe47682dad35c2
-ms.sourcegitcommit: 5791f6347e800fc4f6c76e7460947cb6824edebe
+ms.openlocfilehash: bfa13ab74031eb52c128fed16a31e3a8167e8bde
+ms.sourcegitcommit: ec8ab099a03725de9f61edfdeb90fbefae54cd4e
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 12/08/2020
-ms.locfileid: "4700805"
+ms.lasthandoff: 12/09/2020
+ms.locfileid: "4707662"
 ---
 # <a name="whats-new-december-2020---project-operations-lite-deployment---deal-to-proforma-invoicing"></a>2020 年 12 月新增功能 - Project Operations 精简部署 - 估价交易开票
 
@@ -24,7 +24,7 @@ _**适用于：** 精简部署 - 估价交易开票_
 
   - Dataverse 环境中的 Project Operations 版本 4.5.0.134 
 
-下表列出了 Dataverse 环境版本 4.4.0.70 上的 Project Operations 的更新。
+下表列出了 Dataverse 环境版本 4.5.0.134 上的 Project Operations 的更新。
 
 | **功能区域** | **参考编号** | **质量更新** |
 | --- | --- | --- |

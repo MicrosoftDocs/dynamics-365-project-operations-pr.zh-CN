@@ -16,22 +16,20 @@ ms.search.region: Global
 ms.author: shylaw
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 0af23ed2cf172e4c90de72f5db389c349303c039
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: 8f3235d12499c68a52f9d1c7e118e7bc91dc3a0a
+ms.sourcegitcommit: 9f31b33ed6e7f1b49200a407913201a1337f3401
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4072758"
+ms.lasthandoff: 01/14/2021
+ms.locfileid: "4960506"
 ---
 # <a name="set-up-expense-management-workflows"></a>设置支出管理工作流
-
-[!include [banner](../includes/banner.md)]
 
 您可以设置用于审核和审批出差和支出文档的工作流程。 工作流可以定义的单据包括支出报表、出差申请和预付现金请求。
 
 “工作流”代表业务流程。 它定义单据如何在系统中流动并指示必须由谁完成任务或审核单据。 在组织中使用工作流系统具有以下几项好处：
 
--   **一致的流程** — 您可定义特定单据（如采购申请和支出报表）的审核流程。 使用工作流系统有助于确保以一致且有效的方式来处理和审核单据。
+-   **一致的流程**— 您可定义特定单据（如采购申请和支出报表）的审核流程。 使用工作流系统有助于确保以一致且有效的方式来处理和审核单据。
 
 -   “流程可见性”— 您可跟踪特定工作流实例的状态、历史记录和绩效指标。 这可以帮助您确定是否应对工作流进行更改以提高效率。
 

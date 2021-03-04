@@ -3,17 +3,17 @@ title: 预订与分配
 description: 此主题提供有关资源预订和资源分配之间的区别的信息。
 author: ruhercul
 manager: Annbe
-ms.date: 10/26/2020
+ms.date: 01/08/2021
 ms.topic: article
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: ruhercul
-ms.openlocfilehash: 8fe6937dfdfe137f28917c16da1d7dc6155284ae
-ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
+ms.openlocfilehash: 9e346766e6ccbb3dff59ef12072a1cd63f1e4231
+ms.sourcegitcommit: 260ce052fed760bb44c514517806049ca13a5459
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/28/2020
-ms.locfileid: "4130207"
+ms.lasthandoff: 01/08/2021
+ms.locfileid: "4841161"
 ---
 # <a name="bookings-vs-assignments"></a>预订与分配
 
@@ -21,6 +21,8 @@ _**适用于：** 基于资源/非库存场景的 Project Operations，精简部
 
 预订是将资源硬性或软性分配给项目。 硬预订占用资源的产能。 预订表示团队的组织概念，让他们可以了解如何在各个项目中投放资源。 Dynamics 365 Project Operations 将预订视为项目级概念。 
 
-与预订不同，分配是资源对项目计划中的项目任务的承诺。 资源可以是指定的或通用的。 
+与预订不同，分配是资源对项目计划中的项目任务的承诺。 资源可以是指定的或通用的。  从项目任务分配获取资源要求时，Project Operations 使用资源分配的工作量信息来构建资源要求详细信息的信息。 但是，不会保留对资源分配的引用。 对从资源要求派生的预订的更新不会更新任何资源分配。
 
 通常，资源的预订总和等于一项或多项任务中资源分配的总和。 但是，Project Operations 不强制执行此共识。 **协调** 视图为项目经理显示资源的预订和分配不一致的位置。
+
+

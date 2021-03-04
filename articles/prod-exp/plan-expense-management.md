@@ -18,16 +18,14 @@ ms.search.region: Global
 ms.author: suvaidya
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: e2291515cc154fb5b34ca5802135791958bea1e5
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: db3529597c662a326730cf6a0b855ae865f0dce5
+ms.sourcegitcommit: 9f31b33ed6e7f1b49200a407913201a1337f3401
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4072752"
+ms.lasthandoff: 01/14/2021
+ms.locfileid: "4960326"
 ---
 # <a name="configure-expense-management"></a>配置支出管理
-
-[!include [banner](../includes/banner.md)]
 
 本主题介绍您配置“支出管理”前在计划流程中的考虑事项和必须做的决定。 在支出管理中，您可以存储有关付款方式、出差申请、支出报表和政策等的信息。
 
@@ -147,7 +145,7 @@ ms.locfileid: "4072752"
 - 是否在支出上启用退税？
 
     > [!NOTE]
-    > 计划总帐时，如果决定应用美国销售税和销项税规则，则无法启用支出退税。 （若要应用美国销售税和采用销项税规则，则将 **应用销售税税务规则** 选项设置为 **是** 。）
+    > 计划总帐时，如果决定应用美国销售税和销项税规则，则无法启用支出退税。 （若要应用美国销售税和采用销项税规则，则将 **应用销售税税务规则** 选项设置为 **是**。）
 
 ## <a name="policies"></a>策略
 

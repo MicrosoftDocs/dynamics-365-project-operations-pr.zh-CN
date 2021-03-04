@@ -5,15 +5,16 @@ author: rumant
 manager: Annbe
 ms.date: 10/19/2020
 ms.topic: article
+ms.prod: ''
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: 87ef090454b2a7ab997e7c21d8d10badc31c8235
-ms.sourcegitcommit: 625878bf48ea530f3381843be0e778cebbbf1922
+ms.openlocfilehash: 5a924de6efc377e28a20e038e7deac04616b95aa
+ms.sourcegitcommit: 2b74edd31f38410024a01124c9202a4d94464d04
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/30/2020
-ms.locfileid: "4176375"
+ms.lasthandoff: 12/17/2020
+ms.locfileid: "4764492"
 ---
 # <a name="create-a-manual-proforma-invoice---lite"></a>创建手动估价发票 - 精简
 
@@ -31,6 +32,6 @@ _**适用于：** 精简部署 - 估价交易开票_
 
 ## <a name="project-contract-details-page"></a>项目合同详细信息页
 
-还可以从 **项目合同** 详细信息页创建估价发票，这将为该特定项目合同创建发票。 系统将验证项目合同是否有日期在当天日期之前的 **可开票** 积压。 从这些合同，系统会基于每个合同子项上的客户数量创建草稿估价发票。
+估价发票也可以从 **项目合同** 详细信息页面创建。 系统将验证项目合同是否有日期在当天日期之前的 **可开票** 积压。 从这些合同，系统会基于每个合同子项上的客户数量创建草稿估价发票。
 
-创建了单个估价发票时，**发票** 页将打开。 如果为该项目合同创建了多个发票，**发票** 列表页将打开，显示所有创建的发票。
+创建了单个估价发票时，**发票** 页将打开。 如果为该项目合同创建了多个发票，将打开 **发票** 列表页以显示所有已创建的发票。

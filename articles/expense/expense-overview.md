@@ -5,22 +5,23 @@ author: stsporen
 manager: AnnBe
 ms.date: 10/06/2020
 ms.topic: article
+ms.prod: ''
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: stsporen
-ms.openlocfilehash: 6c5ef2a45e8141bda38baf3eaf0a403d6db95e48
-ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
+ms.openlocfilehash: d946a8dcbf3b2369631d83e80788eed4904be95d
+ms.sourcegitcommit: 2b74edd31f38410024a01124c9202a4d94464d04
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/28/2020
-ms.locfileid: "4122813"
+ms.lasthandoff: 12/17/2020
+ms.locfileid: "4764898"
 ---
 # <a name="expense-home-page"></a>支出主页
 
 _**适用于：** 基于资源/非库存场景的 Project Operations，精简部署 - 估价开票交易_
 
 
-Dynamics 365 Project Operations 支持处理支出的功能。 通过使用可自定义的策略、交易类别和审批工作流，处理项目产生或不是项目产生的支出。
+Dynamics 365 Project Operations 支持处理支出功能。 通过使用可自定义的策略、交易类别和审批工作流，处理项目产生或不是项目产生的支出。
 
 在 Project Operations 中，支持两种支出部署模型： 
 
@@ -28,7 +29,7 @@ Dynamics 365 Project Operations 支持处理支出的功能。 通过使用可�
 - **基本**：基本部署可用于 **面向资源/非库存场景的 Project Operations** 和 **精简部署 - 估价交易开票**。
 
 ## <a name="full"></a>完全 
-完全支出部署提供完整的策略实施，其中包括创建策略的能力，例如：
+完全支出部署提供完整的政策执行，包括创建政策功能，如：
 
   - 支出类别限制
   - 旅行
