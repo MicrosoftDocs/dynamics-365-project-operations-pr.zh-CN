@@ -18,14 +18,16 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: e753dd2f5635d1e9d0d6a02ea5d1d537879dd3a5
-ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
+ms.openlocfilehash: 09f7acb95be014034cc03d7eed9d37363d430601
+ms.sourcegitcommit: 418fa1fe9d605b8faccc2d5dee1b04b4e753f194
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/28/2020
-ms.locfileid: "4124087"
+ms.lasthandoff: 02/10/2021
+ms.locfileid: "5147372"
 ---
 # <a name="soft-book-requirements"></a>软预订要求
+
+[!include [banner](../includes/psa-now-project-operations.md)]
 
 资源要求可以是硬预订的。 硬预订会创建占用资源产能的建议。 然后会将该建议发回给请求者进行审批。 软预订将资源暂时添加到项目团队，并且在日程安排板中具有不同状态，但是不会占用该资源的产能。 若要从日程安排板软预订资源，请将 **预订状态** 字段设置为 **软性**。
 
