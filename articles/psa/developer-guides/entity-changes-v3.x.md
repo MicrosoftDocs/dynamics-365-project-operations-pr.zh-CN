@@ -16,14 +16,18 @@ search.audienceType:
 search.app:
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 2d93e5eaae7cff302be1cb2e96e3f45c24739b0c
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: 48062eda1f524dd3ca0d5feccf11fd5577521275
+ms.sourcegitcommit: 418fa1fe9d605b8faccc2d5dee1b04b4e753f194
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4072799"
+ms.lasthandoff: 02/10/2021
+ms.locfileid: "5148722"
 ---
 # <a name="entity-control-and-user-interface-changes-project-service-automation-3x"></a>实体、控件和用户界面更改 (Project Service Automation 3.x)
+
+[!include [banner](../../includes/psa-now-project-operations.md)]
+
+
 随着 Microsoft Dynamics Project Service Automation (PSA) 3.x 的发布，对实体、控件、视图和用户界面进行了大量更改。 此主题介绍这些重要更改。
 
 ## <a name="parent-child-relationships-for-sales-document-sales-document-line-sales-document-line-detail-entities"></a>销售文档、销售文档明细、销售文档明细详细信息实体的父子关系

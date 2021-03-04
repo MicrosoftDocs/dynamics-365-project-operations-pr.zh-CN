@@ -16,14 +16,16 @@ search.audienceType:
 search.app:
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 0a47a5bb588df83a958acedd830c53d4c5a7122f
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: 433cd05746423d5e654a999b80aee594c1fd1455
+ms.sourcegitcommit: 418fa1fe9d605b8faccc2d5dee1b04b4e753f194
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4072794"
+ms.lasthandoff: 02/10/2021
+ms.locfileid: "5148587"
 ---
 # <a name="time-and-expense-changes-project-service-automation-3x"></a>时间和支出更改 (Project Service Automation 3.x)
+
+[!include [banner](../../includes/psa-now-project-operations.md)]
 
 在 Dynamics 365 Project Service Automation 版本 3.0 中，已更新了时间和支出视图，这些视图将对自定义控件利用新平台框架。
 

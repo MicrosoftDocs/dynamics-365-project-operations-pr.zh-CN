@@ -18,15 +18,16 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: c4b976b49bd643bc7a774a86b1ba89bd76d7c916
-ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
+ms.openlocfilehash: 0e4eea87bfb059a3c0be8ccbd2914a4d6c3cf46b
+ms.sourcegitcommit: 418fa1fe9d605b8faccc2d5dee1b04b4e753f194
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/28/2020
-ms.locfileid: "4124987"
+ms.lasthandoff: 02/10/2021
+ms.locfileid: "5149937"
 ---
 # <a name="resource-bookings-and-how-they-relate-to-task-assignments"></a>资源预订及其与任务分派的关系
 
+[!include [banner](../includes/psa-now-project-operations.md)]
 
 可通过两种方法为项目团队和分配的项目任务预订指定资源：
 

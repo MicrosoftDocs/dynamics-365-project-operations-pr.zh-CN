@@ -16,20 +16,22 @@ search.audienceType:
 search.app:
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 5176d2c6b7b00d47d4aeb12f54bdb84d4b87304c
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: 94f9adc67163254486387a1ce59d5d3e8e93c335
+ms.sourcegitcommit: 418fa1fe9d605b8faccc2d5dee1b04b4e753f194
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4072795"
+ms.lasthandoff: 02/10/2021
+ms.locfileid: "5148632"
 ---
 # <a name="resource-management-changes-project-service-automation-3x"></a>资源管理更改 (Project Service Automation 3.x)
+
+[!include [banner](../../includes/psa-now-project-operations.md)]
 
 此主题介绍已经对 Dynamics 365 Project Service Automation 版本 3.x 的“资源管理”区域进行的更改。
 
 ## <a name="project-estimates"></a>项目估算
 
-项目估算基于 **msdyn\_resourceassignment** 实体（ **资源分派** ），而不是基于 **msdyn\_projecttask** 实体（ **项目任务** ）。 资源分派已成为任务计划和定价的“事实来源”。
+项目估算基于 **msdyn\_resourceassignment** 实体（**资源分派**），而不是基于 **msdyn\_projecttask** 实体（**项目任务**）。 资源分派已成为任务计划和定价的“事实来源”。
 
 ## <a name="line-tasks"></a>明细任务
 
@@ -65,7 +67,7 @@ ms.locfileid: "4072795"
 
 ## <a name="scheduling-fields-on-the-project-task-entity"></a>项目任务实体中的计划字段
 
-**msdyn\_projecttask** 实体中的字段已弃用或移到 **msdyn\_resourceassignment** 实体，或者现在从 **msdyn\_projectteam** 实体（ **项目团队成员** ）引用。
+**msdyn\_projecttask** 实体中的字段已弃用或移到 **msdyn\_resourceassignment** 实体，或者现在从 **msdyn\_projectteam** 实体（**项目团队成员**）引用。
 
 | msdyn\_projecttask（项目任务）中已弃用的字段 | msdyn\_resourceassignment（资源分派）中的新字段 | 注释 |
 |---|---|---|
@@ -77,7 +79,7 @@ ms.locfileid: "4072795"
 
 ## <a name="schedule-contour"></a>计划分布
 
-计划分布存储在每个 **资源分派** 实体 ( **msdyn\_resourceassignment** ) 的 **计划的工作** 字段 ( **msdyn\_plannedwork** ) 中。
+计划分布存储在每个 **资源分派** 实体 (**msdyn\_resourceassignment**) 的 **计划的工作** 字段 (**msdyn\_plannedwork**) 中。
 
 ### <a name="structure"></a>结构
 
@@ -139,7 +141,7 @@ PSA 3.x 中已弃用分派单位。 现在按天为所有分派的资源平均�
 
 ## <a name="pricing-dimensions"></a>定价维度
 
-在 PSA 3.x 中，已从 **msdyn\_projecttask** 实体删除了资源特定的定价维度字段（如 **角色** 和 **部门** ）。 现在可以在生成项目估算时，从资源分派 ( **msdyn\_resourceassignment** ) 的相应项目团队成员 ( **msdyn\_projectteam** ) 检索这些字段。 已经为 **msdyn\_projectteam** 实体新增了字段 **msdyn\_organizationalunit** 。
+在 PSA 3.x 中，已从 **msdyn\_projecttask** 实体删除了资源特定的定价维度字段（如 **角色** 和 **部门**）。 现在可以在生成项目估算时，从资源分派 (**msdyn\_resourceassignment**) 的相应项目团队成员 (**msdyn\_projectteam**) 检索这些字段。 已经为 **msdyn\_projectteam** 实体新增了字段 **msdyn\_organizationalunit**。
 
 | msdyn\_projecttask（项目任务）中已弃用的字段 | 改用了来自 msdyn\_projectteam（项目团队成员）的字段 |
 |---|---|

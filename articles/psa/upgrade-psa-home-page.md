@@ -2,6 +2,7 @@
 title: “升级”主页
 description: 此主题介绍何处可以找到有关 Dynamics 365 Project Service Automation 中的新功能和更新功能和用于升级到最新版本的流程的重要信息。
 manager: kfend
+ms.prod: ''
 ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
@@ -18,14 +19,16 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: fa25d069de8098c0e8788c9ebb8aa3426eec5db9
-ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
+ms.openlocfilehash: e30da3a5ade6d8bafcdc45801b830196841997bf
+ms.sourcegitcommit: 418fa1fe9d605b8faccc2d5dee1b04b4e753f194
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/28/2020
-ms.locfileid: "4121747"
+ms.lasthandoff: 02/10/2021
+ms.locfileid: "5150072"
 ---
 # <a name="upgrade-home-page"></a>“升级”主页
+
+[!include [banner](../includes/psa-now-project-operations.md)]
 
 [!INCLUDE[cc-applies-to-psa-app-1x-2x](../includes/cc-applies-to-psa-app-1x-2x.md)]
 
@@ -37,7 +40,7 @@ ms.locfileid: "4121747"
 
 ### <a name="existing-instances"></a>现有实例
 
-以前，已有 PSA 版本 2.x 实例，但需要更新到版本 3.x（此版本是基于统一客户端接口 (UCI) 的 PSA 版本）的客户必须联系 Microsoft 支持人员，并提供自己实例的详细信息，以便支持人员能够让该实例升级到版本 3.x。 从 2020 年 3 月 1 日开始，已有 PSA 版本 2.x 实例但需要升级到版本 3.x 的客户，将能够直接从管理门户升级其实例，而无需与 Microsoft 支持人员联系。  
+以前，已有 PSA 版本 2.x 实例，但需要更新到版本 3.x（此版本是基于统一客户端接口 (UCI) 的 PSA 版本）的客户必须联系 Microsoft 支持部门，并提供自己实例的详细信息，支持人员才能让该实例升级到版本 3.x。 从 2020 年 3 月 1 日起，有 PSA 版本 2.x 实例并需要升级到版本 3.x 的客户可以直接从管理门户升级其实例，无需联系 Microsoft 支持部门。  
 
 > [!NOTE]
 > PSA 版本 3.x 中有一些重大更改。 其基于统一接口框架，可帮助提供改进的用户体验。 这款经过重新设计的应用程序提供一致、统一的用户界面 (UI)，该界面采用了响应式设计理念，非常适合在任何屏幕尺寸或设备上查看。 整个应用程序还有其他一些更改。 已更改的一些领域包括定价、预订和分派资源、时间、支出与审批。
@@ -58,7 +61,7 @@ ms.locfileid: "4121747"
 
 从 2019 年 5 月 17 日开始，所有新实例都采用 UCI 作为默认客户端。 为了与此项更改保持一致，将默认设置 PSA 版本 3.x 和 Field Service 版本 8.x，因为这些版本设计为支持 UCI 客户端。
 
-从 2020 年 3 月 1 日开始，Dynamics PSA 的客户将无法再创建具有旧版 PSA（例如 PSA 版本 2.x 或更低版本）的新环境。 任何新环境都将仅获取 PSA 版本 3.x。
+从 2020 年 3 月 1 日开始，Dynamics PSA 的客户不能再使用较旧版本的 PSA（例如，PSA 版本 2.x 或更低版本）创建新环境。 任何新环境都将仅获取 PSA 版本 3.x。
 
 > [!NOTE]
 > 若要在使用 Field Service 和 PSA 应用程序的旧版本时获得最佳体验，请转到 **系统设置** 页，为 **仅使用新的统一接口(推荐)** 字段选择 **否**，因为这些版本未设计为可在 UCI 中正确加载。 关闭 UCI 之后，可使用旧 Web 客户端打开和运行这些 Field Service 和 PSA 版本。 

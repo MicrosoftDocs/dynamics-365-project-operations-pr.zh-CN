@@ -18,14 +18,17 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 0b75fd372732f42a3557aaa5eccec1f24a644941
-ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
+ms.openlocfilehash: cea8ce7f61fbc0f0c8c8deb522bc332be102238d
+ms.sourcegitcommit: 418fa1fe9d605b8faccc2d5dee1b04b4e753f194
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/28/2020
-ms.locfileid: "4121792"
+ms.lasthandoff: 02/10/2021
+ms.locfileid: "5149532"
 ---
 # <a name="upgrade-considerations-for-the-work-breakdown-structure"></a>工作分解结构的升级注意事项
+
+[!include [banner](../includes/psa-now-project-operations.md)]
+
 此主题介绍如何将工作分解结构从 Project Service Automation 2.x 升级到 3.x。 此主题定义 Project Service Automation (PSA) 中要成功升级需要的项目健康状态。 以及有关将导致升级失败的一般阻碍情况的信息。 有关在项目计划内定义项目任务及其职能的详细信息，请参阅[项目计划](project-creating.md)。
 
 ## <a name="key-entities"></a>关键实体

@@ -16,14 +16,16 @@ search.audienceType:
 search.app:
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 68eb9d4334bed7562ffe0de7951a2d364bbf9a5d
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: a7548f588b492cd4c8cf19c0c88ce5ea1b34cc76
+ms.sourcegitcommit: 418fa1fe9d605b8faccc2d5dee1b04b4e753f194
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4072797"
+ms.lasthandoff: 02/10/2021
+ms.locfileid: "5148677"
 ---
 # <a name="development-home-page-project-service-automation-3x"></a>开发主页 (Project Service Automation 3.x)
+
+[!include [banner](../../includes/psa-now-project-operations.md)]
 
 Dynamics 365 Project Service Automation 3.x 提供新功能，新平台功能的实施和对各个领域现有功能的改进。 以下主题提供有关最新 PSA 版本中进行的更改的详细信息。
 
