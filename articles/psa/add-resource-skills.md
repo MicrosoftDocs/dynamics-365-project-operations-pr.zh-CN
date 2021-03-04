@@ -18,30 +18,32 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 44b3d3cbb36a00e7f07160b6216ead183bc32422
-ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
+ms.openlocfilehash: e4da69f1b1b14f02fd0d40c7b73ef7abbe1049d7
+ms.sourcegitcommit: 418fa1fe9d605b8faccc2d5dee1b04b4e753f194
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/28/2020
-ms.locfileid: "4129622"
+ms.lasthandoff: 02/10/2021
+ms.locfileid: "5145842"
 ---
-# <a name="add-resource-skills-project-service"></a><span data-ttu-id="1ee96-103">添加资源技能 (Project Service)</span><span class="sxs-lookup"><span data-stu-id="1ee96-103">Add resource skills (Project Service)</span></span>
+# <a name="add-resource-skills-project-service"></a><span data-ttu-id="0d460-103">添加资源技能 (Project Service)</span><span class="sxs-lookup"><span data-stu-id="0d460-103">Add resource skills (Project Service)</span></span>
+
+[!include [banner](../includes/psa-now-project-operations.md)]
 
 [!INCLUDE[cc-applies-to-psa-app-1x-2x](../includes/cc-applies-to-psa-app-1x-2x.md)]
 
-<span data-ttu-id="1ee96-104">客户的项目无疑需要各种不同技能才能完成作业，如 SQL 编程或敏捷方法。</span><span class="sxs-lookup"><span data-stu-id="1ee96-104">Your clients’ projects no doubt require a variety of different skills to complete the job, such as SQL programming or agile methodologies.</span></span> <span data-ttu-id="1ee96-105">请输入每种技能，以便稍后将其与资源角色和资源关联。</span><span class="sxs-lookup"><span data-stu-id="1ee96-105">Enter each skill so you can associate it with resource roles and resources later on.</span></span>  
+<span data-ttu-id="0d460-104">客户的项目无疑需要各种不同技能才能完成作业，如 SQL 编程或敏捷方法。</span><span class="sxs-lookup"><span data-stu-id="0d460-104">Your clients’ projects no doubt require a variety of different skills to complete the job, such as SQL programming or agile methodologies.</span></span> <span data-ttu-id="0d460-105">请输入每种技能，以便稍后将其与资源角色和资源关联。</span><span class="sxs-lookup"><span data-stu-id="0d460-105">Enter each skill so you can associate it with resource roles and resources later on.</span></span>  
   
-1. <span data-ttu-id="1ee96-106">转到 **Project Service > 资源技能**。</span><span class="sxs-lookup"><span data-stu-id="1ee96-106">Go to **Project Service > Resource Skills**.</span></span>  
+1. <span data-ttu-id="0d460-106">转到 **Project Service > 资源技能**。</span><span class="sxs-lookup"><span data-stu-id="0d460-106">Go to **Project Service > Resource Skills**.</span></span>  
   
-2. <span data-ttu-id="1ee96-107">单击 **新建**。</span><span class="sxs-lookup"><span data-stu-id="1ee96-107">Click **New**.</span></span>  
+2. <span data-ttu-id="0d460-107">单击 **新建**。</span><span class="sxs-lookup"><span data-stu-id="0d460-107">Click **New**.</span></span>  
   
-3. <span data-ttu-id="1ee96-108">在 **常规** 区域中的“名称”内输入技能的名称，然后根据需要填写其他字段。</span><span class="sxs-lookup"><span data-stu-id="1ee96-108">In the **General** area, enter a name for the skill in Name, and then fill in the other fields as necessary.</span></span>  
+3. <span data-ttu-id="0d460-108">在 **常规** 区域中的“名称”内输入技能的名称，然后根据需要填写其他字段。</span><span class="sxs-lookup"><span data-stu-id="0d460-108">In the **General** area, enter a name for the skill in Name, and then fill in the other fields as necessary.</span></span>  
   
-4. <span data-ttu-id="1ee96-109">单击 **保存**。</span><span class="sxs-lookup"><span data-stu-id="1ee96-109">Click **Save**.</span></span>  
+4. <span data-ttu-id="0d460-109">单击 **保存**。</span><span class="sxs-lookup"><span data-stu-id="0d460-109">Click **Save**.</span></span>  
   
-   <span data-ttu-id="1ee96-110">在创建新技能时，会将其自动激活。</span><span class="sxs-lookup"><span data-stu-id="1ee96-110">When you create a new skill, it’s automatically activated.</span></span> <span data-ttu-id="1ee96-111">如果您不希望该技能当前可用，请单击屏幕顶部的 **停用**。</span><span class="sxs-lookup"><span data-stu-id="1ee96-111">If you don’t want this skill available for use yet, click **Deactivate** at the top of the screen.</span></span> <span data-ttu-id="1ee96-112">在希望其可用时，请回来将其激活。</span><span class="sxs-lookup"><span data-stu-id="1ee96-112">Then go back and activate it when you want to make it available.</span></span>  
+   <span data-ttu-id="0d460-110">在创建新技能时，会将其自动激活。</span><span class="sxs-lookup"><span data-stu-id="0d460-110">When you create a new skill, it’s automatically activated.</span></span> <span data-ttu-id="0d460-111">如果您不希望该技能当前可用，请单击屏幕顶部的 **停用**。</span><span class="sxs-lookup"><span data-stu-id="0d460-111">If you don’t want this skill available for use yet, click **Deactivate** at the top of the screen.</span></span> <span data-ttu-id="0d460-112">在希望其可用时，请回来将其激活。</span><span class="sxs-lookup"><span data-stu-id="0d460-112">Then go back and activate it when you want to make it available.</span></span>  
   
-   <span data-ttu-id="1ee96-113">下一步中，您将设置熟练程度模型，以便对顾问每种技能的熟练程度评分，并将其与项目所需熟练程度配对。</span><span class="sxs-lookup"><span data-stu-id="1ee96-113">In the next step, you’ll set up proficiency models so you can rate a consultant’s proficiency with each skill and match it to the proficiency a project requires.</span></span>  
+   <span data-ttu-id="0d460-113">下一步中，您将设置熟练程度模型，以便对顾问每种技能的熟练程度评分，并将其与项目所需熟练程度配对。</span><span class="sxs-lookup"><span data-stu-id="0d460-113">In the next step, you’ll set up proficiency models so you can rate a consultant’s proficiency with each skill and match it to the proficiency a project requires.</span></span>  
   
-### <a name="see-also"></a><span data-ttu-id="1ee96-114">另请参阅</span><span class="sxs-lookup"><span data-stu-id="1ee96-114">See Also</span></span>  
- [<span data-ttu-id="1ee96-115">设置资源</span><span class="sxs-lookup"><span data-stu-id="1ee96-115">Set up resources</span></span>](../psa/set-up-resources.md)
+### <a name="see-also"></a><span data-ttu-id="0d460-114">另请参阅</span><span class="sxs-lookup"><span data-stu-id="0d460-114">See Also</span></span>  
+ [<span data-ttu-id="0d460-115">设置资源</span><span class="sxs-lookup"><span data-stu-id="0d460-115">Set up resources</span></span>](../psa/set-up-resources.md)
