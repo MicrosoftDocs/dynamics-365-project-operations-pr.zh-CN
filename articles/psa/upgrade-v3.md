@@ -2,6 +2,7 @@
 title: 升级注意事项 - Microsoft Dynamics 365 Project Service Automation 版本 2.x 或 1.x 到版本 3
 description: 此主题介绍从 Project Service Automation 版本 2.x 或 1.x 升级到版本 3 时必须考虑的注意事项。
 manager: kfend
+ms.prod: ''
 ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
@@ -17,18 +18,21 @@ search.audienceType:
 search.app:
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 3c51726f71cfd0d4be98982d6a02268d64a70b91
-ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
+ms.openlocfilehash: c0c1e07bacb4867254a12436cf3bff58989e117f
+ms.sourcegitcommit: 418fa1fe9d605b8faccc2d5dee1b04b4e753f194
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/28/2020
-ms.locfileid: "4121702"
+ms.lasthandoff: 02/10/2021
+ms.locfileid: "5144140"
 ---
 # <a name="upgrade-considerations---psa-version-2x-or-1x-to-version-3"></a>升级注意事项 - PSA 版本 2.x 或 1.x 到版本 3.x
+
+[!include [banner](../includes/psa-now-project-operations.md)]
+
 [!INCLUDE[cc-applies-to-psa-app-1x-2x](../includes/cc-applies-to-psa-app-1x-2x.md)]
 
 ## <a name="project-service-automation-and-field-service"></a>Project Service Automation 和 Field Service
-Dynamics 365 Project Service Automation 和 Dynamics 365 Field Service 都使用 Universal Resourcing Scheduling (URS) 解决方案计划资源。 如果您的实例中同时具有 Project Service Automation 和 Field Service，则应该计划将这两个解决方案升级到最新版本（Project Service Automation 版本 3.x 和 Field Service 版本 8.x）。 升级 Project Service Automation 或 Field Service 将安装最新版本的 URS，这意味着如果不将同一个实例中的 Project Service Automation 和 Field Service 解决方案都升级到最新版本，行为可能会不一致。
+Dynamics 365 Project Service Automation 和 Dynamics 365 Field Service 都使用 Universal Resourcing Scheduling (URS) 解决方案计划资源。 如果您的实例中有 Project Service Automation 和 Field Service，请将两个解决方案都升级到最新版本。 对于 Project Service Automation，是版本 3.x。 对于 Field Service，是版本 8.x。 升级 Project Service Automation 或 Field Service 将安装最新版本的 URS。 如果同一实例中的 Project Service Automation 和 Field Service 解决方案都未升级到最新版本，则可能会有不一致的行为。
 
 ## <a name="resource-assignments"></a>资源分派
 在 Project Service Automation 版本 2 和版本 1 中，任务分派作为子任务（也称为明细任务）存储在 **任务实体** 中，并直接与 **资源分派** 实体关联。 明细任务在工作分解结构 (WBS) 中的任务分派弹出窗口中显示。
@@ -42,7 +46,7 @@ Dynamics 365 Project Service Automation 和 Dynamics 365 Field Service 都使用
 ### <a name="tasks-assigned-to-named-resources"></a>任务分派给指定资源
 如果使用基础任务实体，则版本 2 和版本 1 中的任务允许团队成员扮演非默认为其定义的角色。 例如，为康辉默认分派的角色为项目经理，但可以将她分派给需要开发人员角色的任务。 在版本 3 中，指定团队成员的角色始终为默认角色，所以为康辉分派的所有角色都使用她的默认角色，即项目经理。
 
-如果已经在版本 2 和版本 1 中将资源分派给了需要非其默认角色的任务，在您升级时，将为该指定资源分派所有任务分派的默认角色，无论版本 2 中的角色分派是怎样的。 则会导致计算出的估算在版本 2 或版本 1 与版本 3 之间存在差异，因为计算估算时基于资源的角色，而不是基于明细任务分派。 例如，在版本 2 中，为候婵分派了两个任务。 任务 1 的明细任务的角色为开发人员，任务 2 的角色为项目经理。 候婵的默认角色为项目经理。
+如果已经在版本 2 和版本 1 中将资源分派给了需要非其默认角色的任务，在您升级时，将为该指定资源分派所有任务分派的默认角色，无论版本 2 中的角色分派是怎样的。 此分配会导致计算出的估算在版本 2 或版本 1 与版本 3 之间存在差异，因为计算估算时基于资源的角色，而不是基于明细任务分派。 例如，在版本 2 中，为候婵分派了两个任务。 任务 1 的明细任务的角色为开发人员，任务 2 的角色为项目经理。 候婵的默认角色为项目经理。
 
 ![为一项资源分派了多个角色](media/upgrade-multiple-roles-02.png)
 
@@ -56,12 +60,12 @@ Dynamics 365 Project Service Automation 和 Dynamics 365 Field Service 都使用
 
 ![资源分派](media/resource-assignment-v2-05.png)
 
-因为估算基于资源的默认角色，所以销售额和成本估算可能改变。 请注意，下图中不再看到 **开发人员** 角色，因为该角色现在取自可预订资源的默认角色。
+因为估算基于资源的默认角色，所以销售额和成本估算可能改变。 下图中不再能看到 **开发人员** 角色，因为该角色现在取自可预订资源的默认角色。
 
 ![默认角色的成本估算](media/resource-assignment-cost-estimate-06.png)
 ![默认数据的销售额估算](media/resource-assignment-sales-estimate-07.png)
 
-升级完成后，可以将团队成员的角色编辑为非默认分派的角色。 但是，如果更改某个团队成员角色，为其分派的所有任务的角色也会改变，因为版本 3 中不再允许为团队成员分派多个角色。
+升级完成后，可以将团队成员的角色编辑为非默认分派的角色。 但是，如果更改某个团队成员角色，为其分配的所有任务的角色也会改变，因为版本 3 中无法为团队成员分配多个角色。
 
 ![更新资源角色](media/resource-role-assignment-08.png)
 
@@ -75,7 +79,7 @@ Dynamics 365 Project Service Automation 和 Dynamics 365 Field Service 都使用
 - 设置具有角色和部门的任务，但是未生成附属资源分派。
 - 具有使用 **生成团队** 功能通过创建通用资源分派的通用团队成员资源分派的任务。
 
-开始升级之前，建议您为满足以下条件的每个项目重新生成团队：将任务分派给了通用资源，或必须运行生成团队流程。
+开始升级之前，建议您为满足以下条件的每个项目重新生成团队：将任务分配给了通用资源，或必须运行生成团队流程。
 
 对于分派给使用 **生成团队** 生成的通用团队成员的任务，升级将保留团队的通用资源，并且保留该通用团队成员的分派。 建议仅在升级后，但预订或提交资源请求之前为通用团队成员生成资源要求。 这将保留通用团队成员的所有与项目合同签订部门不同的部门分派。
 
@@ -102,7 +106,7 @@ Dynamics 365 Project Service Automation 和 Dynamics 365 Field Service 都使用
  
 升级完成后时，将把与通用团队成员对应的明细任务中的部门添加到通用团队成员，并删除明细任务。 因此，建议您在升级前为包含通用资源的每个项目生成团队。
 
-对于分派给部门与合同签订项目部门不同的角色，并且尚未生成团队的任务，升级将为该角色创建一个通用团队成员，但是对该团队成员的部门使用项目的合同签订部门。 请回去参考 Project Z 的示例，这意味着已经为合同签订部门 Contoso 美国和实施阶段内的项目计划测试任务分派了技术顾问角色，并且采用了分派给 Contoso 印度的部门。 已经为实施阶段后完成的集成测试任务分派了技术顾问角色。 部门为 Contoso 美国，未生成团队。 升级将创建一个通用团队成员（这是分派有所有三个任务的工时的技术顾问），以及部门 Contoso 美国（这是项目的合同签订部门）。   
+对于分派给部门与合同签订项目部门不同的角色，并且尚未生成团队的任务，升级将为该角色创建一个通用团队成员，但是对该团队成员的部门使用项目的合同签订部门。 请回去参考 Project Z 的示例，已经为合同签订部门 Contoso 美国和实施阶段内的项目计划测试任务分配了技术顾问角色，并且采用了分配给 Contoso 印度的部门。 已经为实施阶段后完成的集成测试任务分派了技术顾问角色。 部门为 Contoso 美国，未生成团队。 升级将创建一个通用团队成员（这是分派有所有三个任务的工时的技术顾问），以及部门 Contoso 美国（这是项目的合同签订部门）。   
  
-更改不生成的团队成员中不同资源部门的默认设置是我们之所以建议您在升级之前为包含通用资源的每个项目生成或重新生成团队，以便不丢失部门分派的原因。
+更改不生成的团队成员中不同资源部门的默认设置是我们之所以建议您在升级之前为包含通用资源的每个项目生成或重新生成团队，以便不丢失部门分配的原因。
 

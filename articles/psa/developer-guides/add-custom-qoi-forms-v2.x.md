@@ -16,28 +16,30 @@ search.audienceType:
 search.app:
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 57d4b9aad433af6d3e73369c76f2793f349c6965
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: 31986efed81892cc5722cb8f5e292cde14d8843d
+ms.sourcegitcommit: 418fa1fe9d605b8faccc2d5dee1b04b4e753f194
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4072798"
+ms.lasthandoff: 02/10/2021
+ms.locfileid: "5144582"
 ---
 # <a name="add-new-custom-entity-forms-project-service-automation-2x"></a>添加新的自定义实体窗体 (Project Service Automation 2.x)
 
+[!include [banner](../../includes/psa-now-project-operations.md)]
+
 ## <a name="type-field"></a>“类型”字段 
 
-Dynamics 365 Project Service Automation 依赖商机、报价单、订单和发票实体的 **类型** ( **msdyn\_ordertype** ) 字段区分这些实体 **基于工作的** 版本与 **基于物料的** 版本和 **基于服务的** 版本。 这些实体基于工作的版本由 PSA 处理。 解决方案的客户端和服务器端的许多业务逻辑取决于 **类型** 字段。 因此，务必在创建实体时使用正确的值初始化该字段。 错误值可能导致错误行为，并且某些业务逻辑可能无法正常运行。
+Dynamics 365 Project Service Automation 依赖商机、报价单、订单和发票实体的 **类型** (**msdyn\_ordertype**) 字段区分这些实体 **基于工作的** 版本与 **基于物料的** 版本和 **基于服务的** 版本。 这些实体基于工作的版本由 PSA 处理。 解决方案的客户端和服务器端的许多业务逻辑取决于 **类型** 字段。 因此，务必在创建实体时使用正确的值初始化该字段。 错误值可能导致错误行为，并且某些业务逻辑可能无法正常运行。
 
 ## <a name="automatic-form-switching"></a>窗体自动切换
 
-为了避免销售实体记录错误初始化和编辑导致的数据潜在损坏和意外行为，PSA 现在在自带窗体中增加了窗体自动切换逻辑。 此逻辑会将用户带到正确的窗体以处理商机、报价单、订单或发票实体的基于工作的版本或其他任何类型。 当用户打开商机、报价单、订单或发票实体基于工作的版本时，窗体将切换到 **项目信息** 。
+为了避免销售实体记录错误初始化和编辑导致的数据潜在损坏和意外行为，PSA 现在在自带窗体中增加了窗体自动切换逻辑。 此逻辑会将用户带到正确的窗体以处理商机、报价单、订单或发票实体的基于工作的版本或其他任何类型。 当用户打开商机、报价单、订单或发票实体基于工作的版本时，窗体将切换到 **项目信息**。
 
 窗体自动切换逻辑依赖于 **formId** 值与 **msdyn\_ordertype** 字段之间的映射。 已将所有自带窗体添加到了该映射。 但是，必须手动添加自定义窗体，以指示应该处理实体的哪个版本。 这基于 **msdyn\_ordertype** 字段。 如果映射中缺少窗体切换，逻辑将基于实体的 **msdyn\_ordertype** 字段中保存的值切换到自带窗体。
 
 ## <a name="add-custom-forms-and-turn-on-the-form-switching-logic"></a>添加自定义窗体和开启窗体切换逻辑
 
-以下示例显示如何添加自定义窗体 **我的项目信息** ，以便处理基于工作的商机。 同样的流程用于添加自定义窗体，以便处理报价单、订单和发票。
+以下示例显示如何添加自定义窗体 **我的项目信息**，以便处理基于工作的商机。 同样的流程用于添加自定义窗体，以便处理报价单、订单和发票。
 
 请执行以下步骤创建 **项目信息** 窗体的自定义版本。
 
@@ -47,7 +49,7 @@ Dynamics 365 Project Service Automation 依赖商机、报价单、订单和发�
     > [!IMPORTANT]
     > 切勿删除这些脚本。 否则，可能无法正确初始化某些数据。
 
-3. 验证窗体中是否有 **类型** ( **msdyn\_ordertype** ) 字段。 
+3. 验证窗体中是否有 **类型** (**msdyn\_ordertype**) 字段。 
 
     > [!IMPORTANT]
     > 切勿删除此字段。 否则，初始化脚本将失败。

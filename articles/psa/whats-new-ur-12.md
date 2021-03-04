@@ -17,14 +17,17 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: fc92a5dcc111688159f9be5b2839b7c040404a3b
-ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
+ms.openlocfilehash: daf0e6c7a4b1b953cb808cfefab74475c47d3996
+ms.sourcegitcommit: 418fa1fe9d605b8faccc2d5dee1b04b4e753f194
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/28/2020
-ms.locfileid: "4119947"
+ms.lasthandoff: 02/10/2021
+ms.locfileid: "5143817"
 ---
 # <a name="project-service-automation-update-release-12-v3"></a>Project Service Automation V3 更新版本 12
+
+[!include [banner](../includes/psa-now-project-operations.md)]
+
 我们很高兴宣布 Dynamics 365 Project Service Automation (PSA) 应用程序的最新更新。 此版本包括对质量、性能和可用性的一些重要改进。 此版本与 Dynamics 365 9.x 兼容。 若要更新到此版本，请访问 Dynamics 365 Online 的管理中心，然后转到解决方案页面以安装更新。 有关详细信息，请参阅[安装、更新或移除首选解决方案](https://docs.microsoft.com/power-platform/admin/install-remove-preferred-solution)。
 
 本主题列出了 Project Service Automation V3 更新版本 12 中新增或更改的功能和修复。 该版本的内部版本号为 V3.10.2.34，并且在 2019 年 10 月通过自行更新公开发布。

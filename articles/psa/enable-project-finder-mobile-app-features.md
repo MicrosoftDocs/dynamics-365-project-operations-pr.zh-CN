@@ -3,6 +3,7 @@ title: 启用 Project Finder Mobile 应用程序功能
 description: 如何启用 Project Service 的 Project Finder Mobile 应用程序功能
 author: JohnPBurrows
 manager: kfend
+ms.prod: ''
 ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
@@ -18,22 +19,24 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: af267b5adc48b6edec57de196f91e338c058558c
-ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
+ms.openlocfilehash: 1b70182125d607aa17528ef3dc4ea2345b76acd1
+ms.sourcegitcommit: 418fa1fe9d605b8faccc2d5dee1b04b4e753f194
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/28/2020
-ms.locfileid: "4132952"
+ms.lasthandoff: 02/10/2021
+ms.locfileid: "5144537"
 ---
 # <a name="enable-project-finder-mobile-app-features-project-service"></a>启用 Project Finder Mobile 应用程序功能 (Project Service)
+
+[!include [banner](../includes/psa-now-project-operations.md)]
 
 [!INCLUDE[cc-applies-to-psa-app-1x-2x](../includes/cc-applies-to-psa-app-1x-2x.md)]
 
 您的资源可在其具有 [!INCLUDE[pn_project_service_auto](../includes/pn-project-service-auto.md)] 的手机上使用 Project Finder Mobile 应用程序来查找要处理的新项目和更新技能集。  
   
  此应用程序可用于 [!INCLUDE[tn_Apple_iphone](../includes/tn-apple-iphone.md)]、[!INCLUDE[tn_android](../includes/tn-android.md)] 手机和 [!INCLUDE[pn_windows_phone](../includes/pn-windows-phone.md)]。  
-  
- 您需要在部门的参数设置中设置以下几个选项以允许用户查看项目资源要求和更新其技能。  
+    
+ 要允许用户查看项目资源要求和更新技能，必须在部门的参数设置中选择选项。
   
 > [!NOTE]
 >  Project Finder Mobile 应用程序仅使用 [!INCLUDE[pn_crm_online_shortest](../includes/pn-crm-online-shortest.md)]（无内部部署安装）。  
@@ -57,8 +60,8 @@ ms.locfileid: "4132952"
   
 |收件人|重要活动|  
 |---------------|-----------|  
-|项目经理|-   当资源使用 Project Finder Mobile 应用程序注册项目时。|  
-|资源|-   当资源注册的项目工作已由其他资源执行时。<br />-   当技能审批请求被批准或拒绝时。<br />-   当项目注册请求被批准或拒绝时。|  
+|项目经理|- 资源使用 Project Finder Mobile 应用注册项目。|  
+|资源|- 资源注册的项目工作已由其他资源执行。<br />- 技能审批请求被批准或拒绝。<br />- 项目注册请求被批准或拒绝。|  
   
 ## <a name="privacy-notice"></a>隐私声明  
  [!INCLUDE[cc_privacy_crm_project_finder_mobile_app](../includes/cc-privacy-crm-project-finder-mobile-app.md)]  

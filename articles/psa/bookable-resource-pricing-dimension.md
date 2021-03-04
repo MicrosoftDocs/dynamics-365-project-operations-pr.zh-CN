@@ -17,20 +17,23 @@ search.audienceType:
 search.app:
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 8a5c643745d8e10887965228da7abd8f56228006
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: d9b25a768f892d83c09d37ce76291d6c8e75b1be
+ms.sourcegitcommit: 418fa1fe9d605b8faccc2d5dee1b04b4e753f194
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4072703"
+ms.lasthandoff: 02/10/2021
+ms.locfileid: "5144987"
 ---
 # <a name="use-bookable-resource-as-a-pricing-dimension"></a>将可预订资源用作定价维度
+
+[!include [banner](../includes/psa-now-project-operations.md)]
+
 此主题介绍如何将可预订资源用作定价维度。 首先，如果尚未创建定价维度解决方案，需要新建一个。 如果已经有了定价维度解决方案，则可在该解决方案中进行更改。 如果尚未为组织新建定价维度解决方案，请完成[创建自定义字段和实体](create-custom-fields-entities.md)主题中的过程。
 
 ## <a name="add-bookable-resource-to-forms-and-views"></a>向窗体和视图添加可预订资源
 若要在定价维度解决方案的 UI 中显示这些字段，需要浏览关键 Project Service 实体的所有窗体和视图，并将这些字段添加到这些实体的窗体和视图。
 下表是需要更新的大量自带窗体和视图的列表（按实体排列）。 如果这些实体的自定义项中有任何其他视图或窗体，请将新字段也添加到这些视图或窗体。
-打开解决方案资源管理器以找到定价维度解决方案，然后单击 **发布所有自定义项** 。
+打开解决方案资源管理器以找到定价维度解决方案，然后单击 **发布所有自定义项**。
 
 
 |   实体        | 窗体   |视图        |
@@ -48,22 +51,22 @@ ms.locfileid: "4072703"
 
 ## <a name="set-up-bookable-resource-as-a-pricing-dimension"></a>将可预订资源设置为定价维度
 
-1. 在 Web 界面中，转到 **Project Service** > **设置** > **参数** 。 请注意， **参数** 页 **基于金额的定价维度** 选项卡上的网格显示定价维度实体中的记录。 
+1. 在 Web 界面中，转到 **Project Service** > **设置** > **参数**。 请注意，**参数** 页 **基于金额的定价维度** 选项卡上的网格显示定价维度实体中的记录。 
 2. 将 **可预订资源** 作为 **msdyn_bookableresource** 添加到此定价维度列表。 
 3. 指定充当定价维度的可预订资源的上下文，并设置 **适用于成本** 和 **适用于销售** 值。
-4. 在 **维度类型** 字段中，选择 **基于金额** 。 
-5. 选择可预订资源的成本和销售优先级。 通常，作为定价维度包含的可预订资源的优先级最高，所以将其设置为 **1** （或 **0** ，具体取决于优先级的统计方法）将确保此行为。
+4. 在 **维度类型** 字段中，选择 **基于金额**。 
+5. 选择可预订资源的成本和销售优先级。 通常，作为定价维度包含的可预订资源的优先级最高，所以将其设置为 **1**（或 **0**，具体取决于优先级的统计方法）将确保此行为。
 
 ## <a name="set-up-pricing-dimension-field-names"></a>设置定价维度字段名
 
 当定价维度在 **角色价格** 表中的字段名与其在需要设置默认价格的其他任何实体中的字段名不同时，定价维度记录必须了解不同名称。    
-对于可预订资源， **项目团队成员** 实体的字段名 ( **msdyn_bookableresourceid** ) 与其在 **角色价格** 实体中的名称 ( **msdyn_bookableresource** ) 稍微不同。 **msydn_bookableresource** 的定价维度记录必须了解这一点。 
+对于可预订资源，**项目团队成员** 实体的字段名 (**msdyn_bookableresourceid**) 与其在 **角色价格** 实体中的名称 (**msdyn_bookableresource**) 稍微不同。 **msydn_bookableresource** 的定价维度记录必须了解这一点。 
 1. 为此，请在 **定价维度** 网格中单击行以打开 **msdyn_bookableresource** 的维度页。
-2. 在维度页的 **相关** 选项卡上，单击 **定价维度字段名称** 。
+2. 在维度页的 **相关** 选项卡上，单击 **定价维度字段名称**。
 
  ![“定价维度字段名称”选项卡](media/PD-fieldname.png)
 
-4. 在打开的关联视图中，单击 **添加新定价维度字段名称** 。
+4. 在打开的关联视图中，单击 **添加新定价维度字段名称**。
 
  ![添加新定价维度字段名称](media/Add-NewPD-fieldname.png)
 
