@@ -49,3 +49,6 @@ ms.locfileid: "4072593"
 - [项目时间条目]( project-time-entry-mobile-workspace.md)
 - [移动设备上的项目工时单](Mobile-timesheets.md)
 - [为 iOS 和 Android 上的 Microsoft Dynamics 365 Project Timesheet 移动应用实施自定义字段](custom-fields-mobile.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -96,3 +96,6 @@ Dynamics 365 Project Service Automation 依赖商机、报价单、订单和发�
     ```
 
 6. 保存自定义设置，然后发布。
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -34,3 +34,6 @@ ms.locfileid: "5145707"
 记录项目期间发生的所有财务交易。 这些交易记录为 **实际值**。 下表显示创建的不同类型的实际值，具体取决于项目是时间和材料、固定价格还是内部项目，或者是否处于售前阶段。
 
 > ![显示如何记录实际值的表](media/advanced-table2.png)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

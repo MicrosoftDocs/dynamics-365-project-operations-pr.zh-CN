@@ -67,3 +67,6 @@ ms.locfileid: "5151557"
 
 ### <a name="see-also"></a>另请参阅  
  [设置资源](../psa/set-up-resources.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

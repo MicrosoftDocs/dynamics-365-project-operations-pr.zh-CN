@@ -54,3 +54,6 @@ ms.locfileid: "5148362"
 ## <a name="importing-estimates-from-a-project-into-a-quote"></a>将估计从项目导入到报价单
 
 定义项目估算之后，可将其导入报价单明细中。 在 **报价单明细详细信息** 页中，选择功能区中的 **从估算导入** 以按交易类型、角色或任务级别汇总项目估算。
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

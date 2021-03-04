@@ -89,3 +89,6 @@ ms.locfileid: "4960371"
 | <strong>向提交者显示的反腐败消息</strong> |                                                                                             输入在创建新的支出报表时要显示给员工的文本。 单击<strong>翻译</strong>按钮输入将要基于用户语言显示的特定语言的文本。                                                                                             |
 | <strong>向审批者显示的反腐败消息</strong>  |                                                                                             输入在创建新的支出报表时要显示给审核人的文本。 单击<strong>翻译</strong>按钮输入将要基于用户语言显示的特定语言的文本。                                                                                             |
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

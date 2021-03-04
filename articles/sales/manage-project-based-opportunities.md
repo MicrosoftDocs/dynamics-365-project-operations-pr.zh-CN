@@ -65,3 +65,6 @@ Project Operations 的商机销售流程是 Sales 应用程序中商机销售流
 > 如果基于项目的交易从商机开始，商机销售流程优先。
 
 您可以编辑产品业务流程或创建您自己的业务流程，来根据需要跟踪销售流程。 有关业务流程的详细信息，请参阅[业务流程概述](https://docs.microsoft.com/dynamics365/customerengagement/on-premises/customize/business-process-flows-overview)。
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

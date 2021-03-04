@@ -45,3 +45,6 @@ ms.locfileid: "5146157"
 ![接受资源建议](media/RM-how-to-20.png) 
 
 与使用指定资源直接满足通用资源请求类似，将替换通用资源，并使用指定团队成员更新所分配任务。
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

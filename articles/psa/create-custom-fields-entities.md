@@ -73,3 +73,6 @@ ms.locfileid: "5144852"
 > ![标准标题实体的示例数据 ](media/ST-data.png)
 
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

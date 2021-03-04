@@ -38,3 +38,6 @@ _**适用于：** 基于资源/非库存场景的 Project Operations，精简部
 - **成本单价**：用于计算支出成本的单价。
 - **销售单价**：用于计算支出的销售价格的单价。
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

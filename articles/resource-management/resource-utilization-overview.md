@@ -45,3 +45,6 @@ _**适用于：** 基于资源/非库存场景的 Project Operations，精简部
 在 **Project Service** 选项卡上，也可以为资源设置单个目标利用率。 然后，利用率的计算使用该目标利用率评估资源的目标，而不是资源默认角色的目标。
 
 仅当资源批准了网格中显示的期间内的应计费时间时才显示资源的利用率。
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

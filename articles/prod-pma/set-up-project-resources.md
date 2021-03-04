@@ -75,3 +75,6 @@ ms.locfileid: "4072776"
 - 实施资源请求。
 - 从 WBS 请求雇用资源。
 - 在不请求雇用资源的情况下为项目预订资源。
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

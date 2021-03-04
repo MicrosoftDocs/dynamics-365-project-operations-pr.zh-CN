@@ -101,3 +101,6 @@ ms.locfileid: "5147912"
 
 但是，仔细查看预订的详细信息会发现预订开始时间有所不同。 预订的开始时间将不早于工作分布的开始时间，也不会早于资源的可用开始时间。
  ![日程安排板中的新资源预订](media/reconcile-assignments-12.png)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -78,3 +78,6 @@ ms.locfileid: "4643072"
 5. 向 **字段名称** 中添加 **msdyn_bookableresourceid**。
 
  ![“新定价维度字段名称”窗体](media/PD-fieldname-Added.png)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

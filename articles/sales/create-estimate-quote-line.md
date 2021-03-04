@@ -88,3 +88,6 @@ _**适用于：** 基于资源/非库存场景的 Project Operations，精简部
 7. 选择 **确定** 关闭对话框，然后选择 **更新步骤**。
 8. 对第二个插件重复步骤 1 到 7。
 9. 关闭 PluginRegistrationTool。
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

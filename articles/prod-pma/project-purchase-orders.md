@@ -76,3 +76,6 @@ ms.locfileid: "4072592"
 
 有关详细信息，请参阅[根据物料需求接收采购订单上的物料](tasks/receive-items-purchase-order-item-requirement.md)。
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

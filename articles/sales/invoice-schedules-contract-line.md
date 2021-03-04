@@ -74,3 +74,6 @@ _**适用于：** 面向资源/非库存场景的 Project Operations_
 | 税款 | 快速创建 | 里程碑上应用的税额。 | 此字段将转到项目合同子项里程碑和发票。 |
 
 3. 选择 **保存并关闭**。
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

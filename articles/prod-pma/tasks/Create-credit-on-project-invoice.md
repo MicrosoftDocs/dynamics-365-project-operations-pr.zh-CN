@@ -39,3 +39,6 @@ ms.locfileid: "4072581"
 10. 单击“确定”。 
 
 在此步骤之后，贷方通知单将可用于发票方案。
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -90,3 +90,6 @@ _**适用于：** 基于资源/非库存场景的 Project Operations，精简部
 
 >[!NOTE]
 > 此过程不会从项目中删除任务。 只是从基于项目的报价单明细中删除任务关联。
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -49,3 +49,6 @@ _**适用于：** 基于资源/非库存场景的 Project Operations，精简部
 8. 在 **工作模板** 对话框中，输入工作模板的名称，然后选择 **应用**。 
 
 现在可将此工作模板与项目日历模板关联。
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

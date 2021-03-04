@@ -153,3 +153,6 @@ Project Service Automation 中有一项会影响项目合同行里程碑模板�
 #### <a name="project-contract-line-milestone-mapping-in-the-projects-and-contracts-psa-3x-to-dynamics---v2-template"></a>项目和合同中的项目合同行里程碑映射（PSA 3.x 到 Dynamics）- v2 模板：
 
 [![使用第二版模板的项目合同子项里程碑映射](./media/ProjectContractLineMilestoneMapping_v2.jpg)](./media/ProjectContractLineMilestoneMapping_v2.jpg)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

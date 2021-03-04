@@ -288,3 +288,6 @@ _**适用于：** 精简部署 - 估价交易开票_
         </tr>
     </tbody>
 </table>
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -72,3 +72,6 @@ Dynamics 365 Project Operations 中的项目合同设计为支持合同上的多
 ## <a name="custom-pricing-on-a-project-contract"></a>项目合同上的自定义定价
 
 在您有了组织的特定于客户的默认项目价目表之后，您的项目合同将自动创建，并具有这些项目价目表关联。 但是，项目合同上的项目价目表复制时始终带有向其追加的日期和合同名称。 客户和项目经理随后可以开始对这些副本上的价格进行编辑。 这些更改的价格仅适用于此项目合同。
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

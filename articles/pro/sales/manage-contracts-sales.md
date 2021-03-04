@@ -33,3 +33,6 @@ Dynamics 365 Project Operations 中的项目合同捕获和管理通过合同协
 2. 选择 **视图切换器**（视图名称旁边的下拉箭头）可以选择其他筛选视图。 您可以创建自己的具有自定义筛选条件的视图。
 
 可以从此列表页或详细信息页面创建或删除合同。
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

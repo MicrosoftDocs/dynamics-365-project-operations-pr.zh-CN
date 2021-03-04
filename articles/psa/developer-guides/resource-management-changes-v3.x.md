@@ -170,3 +170,6 @@ PSA 3.x 中已弃用分派单位。 现在按天为所有分派的资源平均�
 * msdyn\_actualsales
 * msdyn\_remainingcost
 * msdyn\_remainingsales
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

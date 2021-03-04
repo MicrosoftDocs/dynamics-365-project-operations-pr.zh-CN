@@ -33,3 +33,6 @@ Dynamics 365 Project Service Automation 3.x 提供新功能，新平台功能的
 - [时间和支出更改 (Project Service Automation 3.x)](../developer-guides/time-expense-changes-v3.x.md)
 - [资源管理更改 (Project Service Automation 3.x)](../developer-guides/resource-management-changes-v3.x.md)
 - [Project Service Automation 3.x 中已弃用的 Web 资源](../developer-guides/web-resources-deprecated-v3.x.md)
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

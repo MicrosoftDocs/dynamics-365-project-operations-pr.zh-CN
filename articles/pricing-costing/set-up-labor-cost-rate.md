@@ -84,3 +84,6 @@ Fabrikam 印度公司机器人部门的开发人员借调到 Fabrikam 美国公�
 | Developer | Fabrikam 英国 | 115 GBP |
 
 成本价目表可以多种货币提供人工费率。 在生成项目的成本估算时，Project Operations 会将这些成本费率转换为项目货币，并将其显示给用户。 批准时间条目并创建成本实际值后，成本实际值将以成本价目表中匹配的角色价格明细的货币进行定价。 单个项目中时间的成本实际值可以使用多种货币记录。 但是，当在项目级别汇总实际人工成本时，Project Operations 会将所有人工成本金额转换为用户可以查看的项目货币。
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -88,3 +88,6 @@ Project Operations 支持四种交易类：
 ## <a name="changes-from-dynamics-365-sales-orders"></a>与 Dynamics 365 Sales 订单的差异
 
 Project Operations 中的合同基于 Dynamics 365 Sales 中的订单构建。 但是，存在一些重要的功能偏差和差异。 合同具有自己的窗体和 UI 元素、业务规则、插件中的业务逻辑以及客户端脚本，这些让它们区别于订单。 出于这些原因，请不要交换使用 Sales 订单和 Project Operations 合同。
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

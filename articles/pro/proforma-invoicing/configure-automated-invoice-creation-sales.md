@@ -91,3 +91,6 @@ _**适用于：** 精简部署 - 估价交易开票_
 
 > [!NOTE]
 > Project Operations 中的批处理开票仅为按发票计划配置的项目合同子项运行。 必须为采用固定价格记帐方法的合同子项配置里程碑。 将需要为采用时间和材料记帐方法的项目合同子项设置基于日期的发票计划。
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

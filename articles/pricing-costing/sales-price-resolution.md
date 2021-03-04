@@ -54,3 +54,6 @@ _**适用于：** 面向资源/非库存场景的 Project Operations_
     | &nbsp; | 成本加价 | 在相关成本实际值的单位成本费率中应用类别价格明细定义的加价 |
 
 4. 如果系统无法匹配 **类别** 和 **单位** 字段值，销售费率将默认为零 (0)。
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

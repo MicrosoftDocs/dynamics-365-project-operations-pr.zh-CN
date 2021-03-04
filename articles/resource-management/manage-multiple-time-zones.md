@@ -68,3 +68,6 @@ _**适用于：** 基于资源/非库存场景的 Project Operations，精简部
 请注意，仔细查看预订的详细信息会发现预订开始时间有所不同。 预订开始时间不早于分配信息的开始时间，也不早于资源的可用开始时间。
 
 ![日程安排板中的新资源预订](media/reconcile-assignments-12.png)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -89,3 +89,6 @@ Project Operations 报价单基于 Dynamics 365 Sales 报价单构建。 但是�
 - Project Operations 报价单具有自己的窗体和 UI 元素、业务规则、插件中的业务逻辑以及客户端脚本，这些让它们区别于 Sales 报价单。
 
 由于这些原因，建议不要交替使用 Sales 报价单和 Project Operations 报价单。
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -37,3 +37,6 @@ Dynamics 365 Project Operations 的精简部署类型具有以下适用于基于
 - 一个集成系统，管理从项目销售到开票的用于计划和财务的内部收费项目。
 - 要与 Project Operations 成的第三方企业资源规划（ERP/财务会计系统）。
 - 用于处理销售税、汇率、支出偿还和非项目支出的第三方系统。
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

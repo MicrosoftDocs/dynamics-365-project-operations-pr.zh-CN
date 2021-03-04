@@ -57,3 +57,6 @@ _**适用于：** 基于资源/非库存场景的 Project Operations，精简部
 -   资源供给公司
 -   资源类型
 -   首选资源
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

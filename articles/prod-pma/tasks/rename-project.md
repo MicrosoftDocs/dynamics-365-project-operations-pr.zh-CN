@@ -35,3 +35,6 @@ ms.locfileid: "4072783"
 4. 在列表中，选择您要修改的预定义或用户定义的阶段。 
 5. 在“项目阶段”字段中输入新名称。
 6. 单击保存。
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

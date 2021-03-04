@@ -71,3 +71,6 @@ _**适用于：** 基于资源/非库存场景的 Project Operations，精简部
 
 > [!IMPORTANT]
 >  不能删除其他记录正在使用的货币；只能停用这些货币。 停用货币记录并不会移除现有记录（如商机或订单）中存储的币种信息。 但是，您不能为新交易选择已停用的货币。  
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

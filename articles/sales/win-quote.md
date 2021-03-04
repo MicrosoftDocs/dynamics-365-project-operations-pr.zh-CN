@@ -43,3 +43,6 @@ _**适用于：** 面向资源/非库存场景的 Project Operations_
 
 > [!NOTE]
 > 在 Project Operations 中，将报价单作为赢单或丢单结束不会影响商机的状态，在手动结束前商机会一直处于开启状态。
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

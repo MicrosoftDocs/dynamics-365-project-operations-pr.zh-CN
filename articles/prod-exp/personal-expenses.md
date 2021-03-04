@@ -33,3 +33,6 @@ ms.locfileid: "4960866"
 - **公司支付** - 组织支付整个公司信用卡帐单，然后将个人支出借记到员工帐户中。
 
 您可以在 **支出管理参数** 页面中选择组织使用的方法。
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

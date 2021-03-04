@@ -65,3 +65,6 @@ ms.locfileid: "5150072"
 
 > [!NOTE]
 > 若要在使用 Field Service 和 PSA 应用程序的旧版本时获得最佳体验，请转到 **系统设置** 页，为 **仅使用新的统一接口(推荐)** 字段选择 **否**，因为这些版本未设计为可在 UCI 中正确加载。 关闭 UCI 之后，可使用旧 Web 客户端打开和运行这些 Field Service 和 PSA 版本。 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

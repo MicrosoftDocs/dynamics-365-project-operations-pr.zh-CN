@@ -90,3 +90,6 @@ ms.locfileid: "5144942"
 8. 在项目页中的 **实际值** 选项卡上，查看 **实际关联视图**。 系统会列出原始条目和已更正的条目。 下图显示了原始支出条目金额和相应的已更正支出条目金额。 
 
 ![Expense_actuals](https://user-images.githubusercontent.com/60806505/77122219-4cd52900-69fa-11ea-8349-ccd2ffebf640.png)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -69,3 +69,6 @@ _**适用于：** 面向资源/非库存场景的 Project Operations_
 
 > [!NOTE]
 > 可能会由于缺少有时效性的汇率，出现货币舍入错误和利润变化。 在项目合同中使用这些计算得出的只是近似值，不能用于需要更高舍入精度并需要了解汇率有效期的实际的法定报告或其他报告。
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

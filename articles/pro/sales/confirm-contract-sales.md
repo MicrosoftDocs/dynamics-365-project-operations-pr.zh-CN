@@ -35,3 +35,6 @@ Dynamics 365 Project Operations 中的项目合同可以处于有效状态，状
 
 > [!NOTE]
 > 在 Dynamics 365 Project Operations 中，作为丢单关闭项目合同不会影响关联商机的状态。 商机仍保持开启状态，必须手动结束。
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

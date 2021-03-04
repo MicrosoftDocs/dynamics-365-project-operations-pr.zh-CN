@@ -76,3 +76,6 @@ ms.locfileid: "5144987"
 5. 将 **msdyn_projectteam** 添加到 **实体逻辑名称** 字段，将 **msdyn_bookableresourceid** 添加到 **字段名称** 字段。 保存记录。
 
  ![“新定价维度字段名称”窗体](media/PD-fieldname-Added.png)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

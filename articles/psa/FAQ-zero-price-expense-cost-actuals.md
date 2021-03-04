@@ -38,3 +38,6 @@ ms.locfileid: "5146337"
 转到相关支出条目，确保支出条目字段中有金额。 如果原始支出条目未填写金额，那么您忽略了此问题。
  
 若要解决此问题，请使用有效金额重新创建支出条目并批准它。
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

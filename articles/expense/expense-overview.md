@@ -44,3 +44,6 @@ Dynamics 365 Project Operations 支持处理支出功能。 通过使用可自�
 
 ## <a name="determine-your-expense-deployment"></a>确定支出部署
 要确定您运行的是否是基本支出管理部署，请验证地址 URL 是否以 **.crm.dynamics.com** 结尾。 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

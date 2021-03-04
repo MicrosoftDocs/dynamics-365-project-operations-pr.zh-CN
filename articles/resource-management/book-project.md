@@ -66,3 +66,6 @@ _**适用于：** 基于资源/非库存场景的 Project Operations，精简部
 
 > [!NOTE]
 > 此方法不会为资源创建任何预订。 而是将资源添加到团队。 在将团队成员添加到项目之后，项目经理可以使用维护预订或扩展预订将所需预订添加到资源。
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

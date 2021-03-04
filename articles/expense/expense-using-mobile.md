@@ -236,3 +236,6 @@ _**适用于：** 基于资源/非库存场景的 Project Operations，精简部
 22. 选择 **提交**。
 23. 为审批者输入注释。
 24. 选择 **完成**。
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

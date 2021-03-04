@@ -113,3 +113,6 @@ _**适用于：** 面向资源/非库存场景的 Project Operations_
     - 贷方：项目 – 累积收入 120 美元
 
     系统现在已准备就绪，可以创建内部公司客户发票。
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

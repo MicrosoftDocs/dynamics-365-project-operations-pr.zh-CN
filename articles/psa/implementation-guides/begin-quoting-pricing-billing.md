@@ -52,3 +52,6 @@ ms.locfileid: "5149127"
 
 > [!NOTE]
 > 此主题会在未来的文档更新中删除。 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

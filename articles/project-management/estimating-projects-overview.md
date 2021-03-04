@@ -79,3 +79,6 @@ Project operations 不支持更改合同或项目中的订单。
 7. 选择 **确定** 关闭对话框，然后选择 **更新步骤**。
 8. 对第二个插件重复步骤 1 到 7。
 9. 关闭 **PluginRegistrationTool**。
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

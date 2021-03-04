@@ -38,3 +38,6 @@ _**适用于：** 面向资源/非库存场景的 Project Operations_
 
 > [!NOTE]
 > 使用各自的 URL，您可以直接访问 Common Data Service 中的 Project Operations 和 **项目管理和会计** 模块。 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

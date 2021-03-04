@@ -32,3 +32,6 @@ _**适用于：** 面向资源/非库存场景的 Project Operations_
 交易过帐到项目后，如果项目与项目合同相关联，系统将冲销所有累计交易并创建新的可计费交易。 可计费交易遵循在各自的项目成本和收入模板中定义的会计规则。
 
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

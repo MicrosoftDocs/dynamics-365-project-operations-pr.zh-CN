@@ -113,3 +113,6 @@ USSI，借出法人，必须创建和过帐内部公司发票。 有两个此任
 有关详细信息，请参阅[配置内部公司项目开票](tasks/configure-intercompany-project-invoicing.md)。
 
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -51,3 +51,6 @@ ms.locfileid: "4960686"
 ## <a name="when-to-evaluate-policies"></a>评估策略的时间
 
 支出管理参数中有一个选项，用于在保存行时或在提交支出报表时评估支出管理策略。 如果选择在保存行时评估，这将确保用户可以查看需要执行哪些操作才能一次性完成所有支出报表。 否则，如果要在结束时向工作流提交期间进行验证，可以推迟策略评估并节约时间。
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

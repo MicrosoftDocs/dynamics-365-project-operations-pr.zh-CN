@@ -41,3 +41,6 @@ _**适用于：** 基于资源/非库存场景的 Project Operations，精简部
 
     1. 员工的经理审批支出报表。
     2. 预算负责人审批支出报表。
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

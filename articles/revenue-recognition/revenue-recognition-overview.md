@@ -60,3 +60,6 @@ _**适用于：** 面向资源/非库存场景的 Project Operations_
 [管理收入估算](rev-rec-completed-contract-method.md)
 
 [完成成本计算方法](cost-complete-methods.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

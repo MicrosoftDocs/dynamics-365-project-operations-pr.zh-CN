@@ -33,3 +33,6 @@ Dynamics 365 Project Operations 中基于产品的报价单明细也包含 **成
 Fabrikam Robotics 正在 A Datum Corporation 的装配线上安装机械臂。 Fabrikam 提供安装服务，但机械臂需要从 Trey 机器人公司购买。 如果在 A Datum Corporation 安装机械臂为 Trey 的机械臂开辟了一个新的行业类别，那么 Trey 可能为这笔交易给予 Fabrikam 特殊折扣。
 
 在这种情况下，Fabrikam 将为机械臂创建基于产品的报价单明细，并为此报价单输入特殊的每单位成本。 此成本与 Trey 机械臂的标准成本不同。
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

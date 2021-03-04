@@ -55,3 +55,6 @@ ms.locfileid: "5150612"
 - 调用 **GetEstimatesForProject** 插件时，生成 null 引用异常。
 - 除了已更新的 **InvoiceStatus** 属性外，里程碑网格上的 **标记为已准备好开票** 仅部分更新了属性。
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -34,3 +34,6 @@ ms.locfileid: "4072773"
 1. 在 **销售价(工时)** 页上，选择 **新建** ，并输入生效日期。
 2. 在 **角色** 列中，选择角色。
 3. 在 **定价** 列中，输入所选资源角色的价格。
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

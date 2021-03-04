@@ -61,3 +61,6 @@ _**适用于：** 面向资源/非库存场景的 Project Operations_
 ## <a name="post-the-intercompany-vendor-invoice"></a>过帐内部公司供应商账单
 
 在过帐相应的内部公司客户账单时，借款法律实体中的项目会计可以查看内部公司待定供应商账单。 在 Finance 内的借款法律实体中，转到 **应付帐款** > **账单** > **待定供应商账单**。 待定账单编号将与内部公司客户账单编号匹配。 验证账单是否正确，然后过帐账单。 过帐内部公司供应商账单可创建项目子分类帐和总帐交易，以反映借款法律实体中的交易成本。
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

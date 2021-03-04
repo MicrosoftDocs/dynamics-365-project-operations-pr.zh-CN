@@ -55,3 +55,6 @@ ms.locfileid: "4960551"
 在验证这些需求后，将支出报表过帐。
 
 在支出报表过帐后，对支出报表授权付款，并且员工获得补偿。
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

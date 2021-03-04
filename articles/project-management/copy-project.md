@@ -61,3 +61,6 @@ _**适用于：** 基于资源/非库存场景的 Project Operations，精简部
 复制项目时，将从源项目复制资源和支出估算行。 
 
 有关如何以编程方式访问“复制项目”的信息，请参阅[使用“复制项目”开发项目模板](dev-copy-project.md)。
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

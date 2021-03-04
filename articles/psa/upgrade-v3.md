@@ -110,3 +110,6 @@ Dynamics 365 Project Service Automation 和 Dynamics 365 Field Service 都使用
  
 更改不生成的团队成员中不同资源部门的默认设置是我们之所以建议您在升级之前为包含通用资源的每个项目生成或重新生成团队，以便不丢失部门分配的原因。
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

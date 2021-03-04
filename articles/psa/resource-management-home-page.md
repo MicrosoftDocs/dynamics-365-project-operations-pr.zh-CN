@@ -41,3 +41,6 @@ ms.locfileid: "5147552"
 - [软预订要求](resource-management-softbook-requirements.md)
 - [技能和熟练度模型](resource-management-skills-proficiency.md)
 - [资源管理常见问题](resource-management-faq.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

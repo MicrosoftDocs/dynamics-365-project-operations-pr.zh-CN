@@ -95,3 +95,6 @@ ms.locfileid: "4960281"
 Finance 将与 Cognitive Services 连接来提取字段数据。 在进行处理时，Cognitive Services 最长会将您的收据副本保留 24 小时。 处理完成后，Cognitive Services 将删除收据。 收据仍存储在 Finance 中。
 
 有关详细信息，请参阅[使用表单识别器的新功能支持收据了解功能](https://azure.microsoft.com/blog/enable-receipt-understanding-with-form-recognizer-s-new-capability/)。
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

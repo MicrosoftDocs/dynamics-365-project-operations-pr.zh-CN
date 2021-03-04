@@ -145,3 +145,6 @@ _**适用范围：** 面向库存/生产订单场景的 Project Operations_
 
 ### <a name="regulatory-updates"></a>法规更新
 有关 Finance and Operations 应用的法规更新的信息，请参阅[法规更新](https://docs.microsoft.com/dynamics365/finance/localizations/regulatory-updates)。 您还可以登录到 LCS，使用问题搜索工具查看计划的法规更新。 通过问题搜索，您可以按国家/地区、功能类型和发布进行搜索。
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

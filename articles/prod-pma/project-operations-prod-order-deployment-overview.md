@@ -43,3 +43,6 @@ _**适用范围：** 面向库存/生产订单场景的 Project Operations_
 - 一个企业级销售税和汇率引擎，用于为项目生成面向客户的发票。
 - 符合国际财务报告标准 (IFRS) 的项目会计和收入确认系统。
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

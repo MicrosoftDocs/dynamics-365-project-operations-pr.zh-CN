@@ -112,3 +112,6 @@ Dynamics 365 Project Operations 支持复制项目并将所有工作重新分配
     }
 }
 ```
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

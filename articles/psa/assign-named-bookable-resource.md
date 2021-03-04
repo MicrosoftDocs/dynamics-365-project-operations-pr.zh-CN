@@ -68,3 +68,6 @@ ms.locfileid: "5145347"
 ![在资源协调选项卡上扩展团队成员的预订](media/RM-how-to-7.png)
 
 为项目预订团队成员之后，您可以使用维护预订或直接使用日程安排板来管理其预订。
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

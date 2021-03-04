@@ -42,3 +42,6 @@ _**适用于：** 基于资源/非库存场景的 Project Operations，精简部
 
 
 这些评级值在 **资源要求**、**日程安排板** 和 **日程安排助理** 筛选器中显示。
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -70,3 +70,6 @@ ms.locfileid: "5143718"
 - 改进了解决 **复制项目: Estimates HelperResource Management** 产生的 Null 引用异常的错误处理。
 - **时间和材料计费积压** 上的 **未准备好开票** 不清除计费状态。
 - 更正了 **角色价格** 和 **目录项** 选项卡上标签错误的 **价格** 按钮。
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

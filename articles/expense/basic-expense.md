@@ -55,3 +55,6 @@ _**适用于：** 精简部署 - 估价交易开票_
 ## <a name="see-also"></a>另请参阅
 
 - [审批概述](../approvals/approvals-overview.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

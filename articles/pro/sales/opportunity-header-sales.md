@@ -34,3 +34,6 @@ Dynamics 365 Project Operations 中基于项目的商机是 Dynamics 365 Sales �
 | 合同签订部门 | “常规”选项卡 | 负责交付与此交易关联的一个或多个项目的部门。 | 合同签订部门是在交易完成后完成项目的公司部门。 每个合同签订部门都有一种货币，此货币用于报告项目中产生的预估成本和实际成本。 |
 
 商机的 **摘要** 选项卡上的所有其他字段和部分，请参阅[创建或编辑商机（Sales 和销售中心）](https://docs.microsoft.com/dynamics365/sales-enterprise/create-edit-opportunity-sales)
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

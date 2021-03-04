@@ -124,3 +124,6 @@ Project Service Automation 与 Finance 集成解决方案使用数据集成功�
 > 此映射显示将从 Project Service Automation 同步到 Finance 的字段信息。
 
 [![Project Service Automation 到 Finance 的模板映射](./media/ProjectExpenseCategoriesToFinOpsMapping.jpg)](./media/ProjectExpenseCategoriesToFinOpsMapping.jpg)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

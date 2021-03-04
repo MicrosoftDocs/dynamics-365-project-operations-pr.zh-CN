@@ -257,3 +257,6 @@ Project Service Automation 随附了一组默认定价维度和角色与资源�
 
 > [!NOTE]
 > 单击 **创建自定义定价** 到创建自定义价目表之间可能会短暂延迟。 建议刷新网格，而不是多次单击。 如果为关联的价目表名称附加了报价单名称或项目合同名称，说明已创建了自定义价目表。
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

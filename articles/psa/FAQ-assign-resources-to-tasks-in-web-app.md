@@ -116,3 +116,6 @@ ms.locfileid: "5146562"
 在通用资源要求由指定资源满足时，通用资源将被从团队中移除，通用资源的任务分派将被分派到满足通用资源的资源要求的指定资源。
  
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -297,3 +297,6 @@ Field service 运营集中于美国，大部分是在大西雅图地区。 该�
 
 > [!div class="mx-imgBorder"]
 > ![可用的可预订资源的屏幕截图](media/sample-data-6.png)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

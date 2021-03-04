@@ -106,3 +106,6 @@ _**适用范围：** 面向资源/非库存场景的 Project Operations，精简
 ### <a name="estimates-grid"></a>估算网格 
 
 在 **估计** 网格上，同一资源的两个工作的定价不同。 **任务 A** 中的资源的工作使用 **咨询负责人** 的 **角色** 属性值定价。 **任务 B** 中的同一个资源的工作使用 **网络技术人员** 的 **角色** 属性值定价。
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

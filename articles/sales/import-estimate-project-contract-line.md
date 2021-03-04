@@ -59,3 +59,6 @@ _**适用于：** 面向资源/非库存场景的 Project Operations_
 | 任务 A | 机票 | 10/1/2020 | 4 | 400 | 1600 |
 | 任务 B | 酒店 | 10/1/2020 | 4 | 200 | 800 |
 | 任务 C | 酒店 | 11/1/2020 | 2 | 200 | 400 |
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

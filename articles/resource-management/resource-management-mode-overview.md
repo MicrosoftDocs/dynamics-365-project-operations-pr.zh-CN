@@ -48,3 +48,6 @@ Dynamics 365 Project Operations 支持两种模式，以便您执行整个预订
 从资源要求预订资源：
 - [为任务分配通用可预订资源，并生成资源要求](https://docs.microsoft.com/dynamics365/project-service/assign-generic-bookable-resource)
 - [根据资源要求预订指定资源](https://docs.microsoft.com/dynamics365/project-service/book-named-resource)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

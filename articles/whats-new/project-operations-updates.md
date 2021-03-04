@@ -77,3 +77,6 @@ Dataverse 环境中的 Project Operations 更新每月推出。
 | --- | --- |
 | 10.0.17 | 2021 年 3 月 19 日 |
 | 10.0.18 | 2021 年 4 月 16 日 |
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

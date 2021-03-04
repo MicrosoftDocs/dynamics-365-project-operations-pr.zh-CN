@@ -62,3 +62,6 @@ Dynamics 365 Project Operations 使用 Dynamics 365 Finance 中的[财务维度]
 4. 设置财务维度默认值。 请注意，财务维度默认来自客户帐户。 如果项目与具有多个项目合同客户的合同子项关联，主要客户将用于确定默认财务维度。
 
 项目默认财务维度用于设置 **Project Operations 集成日记帐** 和相关项目发票明细上的时间、支出和费用交易的日记帐行默认值。
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

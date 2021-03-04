@@ -93,3 +93,6 @@ ms.locfileid: "5145167"
 
 ## <a name="tracking-comments-and-approvals-of-quotes-and-project-contracts"></a>跟踪报价单和项目合同的注释和审批
 可使用记录墙和公告管理报价单和项目合同的审核和审批。 组织可创建自定义工作流和插件以分派、重定向、升级和管理审核和审批工作项的通知。
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

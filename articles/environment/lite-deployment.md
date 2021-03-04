@@ -44,3 +44,6 @@ Project Operations 支持多个部署模型。 若要确定最佳部署模型，
 2. 安装 Dynamics 365 应用的部署列表中的 **Microsoft Dynamics 365 Project Operations**。 有关详细信息，请参阅[管理 Dynamics 365 应用](https://docs.microsoft.com/power-platform/admin/manage-apps)。
 
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

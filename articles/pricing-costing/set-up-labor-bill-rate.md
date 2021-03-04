@@ -55,3 +55,6 @@ _ **适用于：** 面向资源/非库存场景的 Project Operations
     | Developer | Fabrikam 美国 | Fabrikam 美国 - 机器人 | 150 美元 |
 
 3. 将销售价目表 **Fabrikam 美国帐单费率** 附加到项目合同的项目价目表或某个客户中。
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

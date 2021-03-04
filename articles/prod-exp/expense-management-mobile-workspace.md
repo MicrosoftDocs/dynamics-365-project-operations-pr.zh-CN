@@ -240,3 +240,6 @@ ms.locfileid: "4960461"
 22. 选择 **提交**。
 23. 为审批者输入注释。
 24. 选择 **完成**。
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

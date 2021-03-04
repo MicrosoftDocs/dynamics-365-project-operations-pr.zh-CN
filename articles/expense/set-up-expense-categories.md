@@ -61,3 +61,6 @@ _**适用于：** 面向资源/非库存场景的 Project Operations_
 
     - 是否将任何子类别排除在退税之外？
     - 子类别的项目销售税组是什么？
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

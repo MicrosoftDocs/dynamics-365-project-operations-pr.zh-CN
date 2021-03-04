@@ -62,3 +62,6 @@ Android 将兼容平台更新 16（推出后）。
 13. 选项：输入更多工时单行。
 
 14. 工时单行输入完毕之后，选择 **工作流** \> **提交** 操作将工时单提交到工作流审核流程。
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

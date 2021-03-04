@@ -28,3 +28,6 @@ _**适用于：** 基于资源/非库存场景的 Project Operations，精简部
   - **由公司支付**：您的组织将全额支付公司信用卡的账单，然后从工作人员的账户中扣除个人支出。
 
 您可以在 **支出管理参数** 页面中选择组织使用的方法。
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -36,3 +36,6 @@ _**适用于：** 面向资源/非库存场景的 Project Operations_
 
 - 六小时的已记帐实际销售额。
 - 其余两小时的未记帐实际销售额。 以后可为此交易记帐或标记为非应计费，具体取决于与客户的协商结果。
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

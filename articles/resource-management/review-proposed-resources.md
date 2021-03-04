@@ -62,3 +62,6 @@ _**适用于：** 基于资源/非库存场景的 Project Operations，精简部
 
 若要查看单项资源的更多详细信息，请右键单击该资源打开资源卡。
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

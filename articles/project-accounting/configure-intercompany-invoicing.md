@@ -101,3 +101,6 @@ _**适用于：** 面向资源/非库存场景的 Project Operations_
           - **资源供给公司** = **Contoso Robotics UK**
           - **帐单费率** = **200 美元**
       9. 转到 **销售** > **项目合同**，并将 **Adventure Works 帐单费率** 价目表附加到项目合同的 Adventure Works 项目价目表。
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

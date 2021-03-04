@@ -98,3 +98,6 @@ Project Operations 通过法人级别的配置在同一环境中支持库存/生
 
 对于此部署，请参阅[注册获取预览订阅](https://docs.microsoft.com/dynamics365/fin-ops-core/dev-itpro/dev-tools/sign-up-preview-subscription?toc=/dynamics365/finance/toc.json)和[设置新环境](https://docs.microsoft.com/dynamics365/fin-ops-core/dev-itpro/deployment/deploy-demo-environment?toc=/dynamics365/finance/toc.json)。 
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

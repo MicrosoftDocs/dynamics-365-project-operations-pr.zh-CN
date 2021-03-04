@@ -95,3 +95,6 @@ ms.locfileid: "5148272"
  [资源经理指南](../psa/resource-manager-guide.md)   
  [时间、费用和协作指南](../psa/time-expense-collaboration-guide.md)
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

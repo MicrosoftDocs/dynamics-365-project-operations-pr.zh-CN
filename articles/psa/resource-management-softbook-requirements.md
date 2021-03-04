@@ -63,3 +63,6 @@ ms.locfileid: "5147372"
 若要在项目的 **团队** 选项卡上将软预订资源转换为硬预订，请选择该资源，然后选择 **确认**。
 
 ![确认命令](media/Resource-Management-image83.png)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -42,3 +42,6 @@ Project Operations 本身具有强大功能，但可以由需要 Dynamics 365 �
 - [Project Operations 概述](https://dynamics.microsoft.com/en-us/project-operations/overview/)
 - [Dynamics 365 Project Operations 2020 年发行版本第 1 波概览](https://docs.microsoft.com/dynamics365-release-plan/2020wave1/dynamics365-project-operations/)
 
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

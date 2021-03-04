@@ -43,3 +43,5 @@ _**适用于：** 基于资源/非库存场景的 Project Operations，精简部
 3. 在 **技能** 子网格中，选择 **+添加新要求特征**。
 4. 在快速创建窗格中，查找并选择所需的特征，然后添加 **评分值**。
 5. 选择 **保存并关闭**。
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

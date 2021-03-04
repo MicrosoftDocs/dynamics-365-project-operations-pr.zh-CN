@@ -63,3 +63,6 @@ _**适用于：** 基于资源/非库存场景的 Project Operations，精简部
 
 当记录了项目的所有交易时，项目经理可以将阶段更新为 **结束**。 此时不能记录任何交易，并且项目设置为只读。
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

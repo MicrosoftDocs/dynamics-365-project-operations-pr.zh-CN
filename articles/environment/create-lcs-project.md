@@ -36,3 +36,6 @@ _**适用于：** 面向资源/非库存场景的 Project Operations_
 
 使用此 LCS 项目部署您的 Project Operations 环境。
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

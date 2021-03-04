@@ -64,3 +64,6 @@ ms.locfileid: "4513963"
 5.  当提示包括所选实体的任何相关实体时，选择 **否，不包含必需组件。**
 
     ![包括相关实体](./media/Do-not-include-required.png)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

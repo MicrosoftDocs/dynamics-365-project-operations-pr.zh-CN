@@ -59,3 +59,6 @@ ms.locfileid: "5147237"
      - 已修复：商机、报价单、订单产品和基于项目的明细子网格中可以看到额外的 **新建商机**、**报价单**、**订单明细** 和 **添加产品** 按钮。
 
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

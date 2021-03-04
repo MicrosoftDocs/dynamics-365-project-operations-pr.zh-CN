@@ -65,3 +65,6 @@ ms.locfileid: "4072741"
 6. 如果项目还有为供应商设置的即收即付 (PWP) 条款，则在 **PWP 阈值百分比** 字段中输入项目的阈值百分比。
 
 供应商保留条款也将在您为供应商创建的采购订单中显示。
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

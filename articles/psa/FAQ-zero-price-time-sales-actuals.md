@@ -57,3 +57,6 @@ ms.locfileid: "5146202"
 
 如果在完成上述三项检查后您仍然无法在时间销售额实际值中看到有效价格，请提交支持票证。 
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

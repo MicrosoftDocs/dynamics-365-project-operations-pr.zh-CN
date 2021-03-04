@@ -37,3 +37,6 @@ _**适用于：** 精简部署 - 估价交易开票_
 | 时间和快速支出条目 | 2047499          | 时间条目页上的 **新建** 按钮打开的是 **新建电子邮件签名** 页。                                                                                               |
 | 时间和快速支出条目 | 2059859          | 创建支出条目时，会打开不是预期的弹出窗口。                                                                                                                         |
 | 其他                        | 2044181          | [PO 卸载] - 当您尝试卸载 **msdyn_ProjectServiceCore_Patch** 和 msdyn Project service 核心解决方案时发生错误“记录不可用”。        |
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

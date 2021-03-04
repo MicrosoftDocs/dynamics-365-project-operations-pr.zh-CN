@@ -57,3 +57,6 @@ Dynamics 365 Project Operations 中的基于项目的合同子项用于保留参
 | C1       | CL2           | P1      | No           | 是             | No          | 有效           | 项目 P1 上的时间和费用包含在 CL1 中。 项目 P1 上的支出包含在 CL2 中。 </br>   每个合同子项中包含的内容没有重叠，因此是有效的。  |
 | C1       | CL1           | P1      | 是          | 是             | 是         | 无效       | 违反规则。 项目 P1 上的时间、支出和费用可包含在两个合同的子项中。                                                                                               |
 | CL2      | CL2           | P1      | 是          | 是             | 是         | 无效       | 违反规则。 项目 P1 上的时间、支出和费用可包含在两个合同的子项中。                                                                                               |
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

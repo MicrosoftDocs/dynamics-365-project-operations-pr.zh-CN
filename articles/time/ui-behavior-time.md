@@ -85,3 +85,6 @@ _**适用于：** 基于资源/非库存场景的 Project Operations，精简部
 
 ## <a name="import"></a>导入
 同样的基本流程用于从预订、分派和交换导入。 您可以指定要从中导入预订的日期范围，然后明确选择应该复制到草稿时间条目的预订。 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

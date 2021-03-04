@@ -89,3 +89,6 @@ _**适用于：** 基于资源/非库存场景的 Project Operations，精简部
 8. 在项目页中的 **实际值** 选项卡上，查看 **实际关联视图**。 系统会列出原始条目和已更正的条目。 下图显示了原始支出条目金额和相应的已更正支出条目金额。 
 
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

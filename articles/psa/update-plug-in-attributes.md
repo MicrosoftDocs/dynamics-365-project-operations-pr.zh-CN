@@ -68,3 +68,6 @@ ms.locfileid: "5147057"
 
 9. 关闭插件注册工具。
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

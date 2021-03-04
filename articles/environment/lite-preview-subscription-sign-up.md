@@ -91,3 +91,6 @@ ms.locfileid: "4175880"
 ## <a name="install-a-cds-configuration-and-setup-demo-data"></a>安装 CDS 配置和设置演示数据
 
 按照主题[应用演示设置和配置数据](lite-apply-demo-setup-config-data.md)中的说明安装 CDS 配置和设置演示数据。
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

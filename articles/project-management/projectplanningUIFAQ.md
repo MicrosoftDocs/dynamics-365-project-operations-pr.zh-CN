@@ -106,3 +106,6 @@ Project Operations 依赖于外部计划服务。 此服务需要用户分配有
   - Project Operations 系统
   - 项目系统
   - Project Operations 双重写入系统（如果要部署面向资源/非库存场景的 Project Operations，则需要此角色。）
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

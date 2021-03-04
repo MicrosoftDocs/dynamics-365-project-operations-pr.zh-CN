@@ -34,3 +34,6 @@ _**适用于：** 面向资源/非库存场景的 Project Operations_
 4. 选择期间类型记录，然后选择 **生成期间** 以为期间类型创建期间。 根据所选的期间频率，您可以选择指定开始日期或要生成期间数。
 5. 选择 **期间** 以查看生成的期间。
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

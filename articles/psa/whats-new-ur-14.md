@@ -64,3 +64,6 @@ ms.locfileid: "5147147"
      - 已修复：在用户还输入项目的支出估计成本价之前，不会计算总销售价。
      - 已修复：如果关联的项目合同未处于 **草稿** 状态，则以 **赢得** 形式结束报价单将会失败。
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

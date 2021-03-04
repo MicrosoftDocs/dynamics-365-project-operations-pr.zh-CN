@@ -107,3 +107,6 @@ ms.locfileid: "5148992"
 
    ![修改项目实体上的视图的屏幕截图](media/FAQ-Customize-BPF-8-720.png)
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

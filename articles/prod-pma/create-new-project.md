@@ -104,3 +104,6 @@ ms.locfileid: "4072739"
 
 3. 选择 **保存** ，然后关闭页面。
 4. 在 **能力** 选项卡上，添加 **ProjectMgmt** 技能和 **PMP** 证书。
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

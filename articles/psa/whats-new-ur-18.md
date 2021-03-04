@@ -63,3 +63,6 @@ ms.locfileid: "5147192"
 **Sales**
 
 - 已修复：重新审批时间条目（**批准 > 取消 >** 再次批准）时会创建重复的非计费实际值。
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

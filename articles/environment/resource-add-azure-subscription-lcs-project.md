@@ -70,3 +70,6 @@ _**适用于：** 面向资源/非库存场景的 Project Operations_
 您已成功连接 Azure 订阅。 现在，您可以部署 Dynamics 365 Finance 云托管环境了。
 
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

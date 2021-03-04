@@ -51,3 +51,6 @@ ms.locfileid: "4072657"
 5. 清除流程完成后，清除的评估项目将显示，其中包含负值。 
 
 如果您不打算清除评估，您可以选择清除的评估，然后选择 **反向清除** 。   
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

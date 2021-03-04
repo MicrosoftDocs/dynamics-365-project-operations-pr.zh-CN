@@ -50,3 +50,6 @@ ms.locfileid: "4960506"
 |      <strong>预付现金请求</strong>      |         为预付现金请求创建审批工作流。          |
 |        <strong>增值税退税</strong>        | 为增值税 (VAT) 退税创建审批工作流。  |
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

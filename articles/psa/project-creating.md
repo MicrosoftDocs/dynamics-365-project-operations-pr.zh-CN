@@ -149,3 +149,6 @@ ms.locfileid: "5148407"
 ### <a name="manual-scheduling"></a>手动计划
 
 如果自动计划规则无法满足您的要求，您可以将任务的任务模式设置为 **手动计划**。 此设置会阻止计划引擎计算其他计划属性的值。 无论采用哪种任务模式，如果为任务设置前置任务，始终会影响依赖任务的开始日期。
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

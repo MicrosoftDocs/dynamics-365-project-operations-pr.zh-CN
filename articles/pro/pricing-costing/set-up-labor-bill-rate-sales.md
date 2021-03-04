@@ -55,3 +55,6 @@ _**适用于：** 精简部署 - 估价交易开票_
     | Developer | Fabrikam 美国 | 150 美元 |
 
 3. 将销售价目表 **Fabrikam 美国帐单费率** 附加到项目合同的项目价目表或某个客户中。
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -93,3 +93,6 @@ Project Operations 合同基于 Dynamics 365 Sales 合同构建。 但是，应�
 - Project Operations 合同具有自己的窗体和 UI 元素、业务规则、插件中的业务逻辑以及客户端脚本，这些让它们区别于 Sales 合同。
 
 出于这些原因，您不应该交换使用销售合同和项目合同。
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

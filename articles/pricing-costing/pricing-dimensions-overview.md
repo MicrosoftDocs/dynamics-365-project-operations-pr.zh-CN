@@ -71,3 +71,6 @@ Dynamics 365 Project Operations 随附了一组默认定价维度。 可通过�
 | ----------------|-------------|----------|----------:|----------|
 | My company_Band1 | Contoso US  |Hour | 145|USD     |
 | My company_Band2 | Contoso 印度 |Hour|   67|USD     |
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

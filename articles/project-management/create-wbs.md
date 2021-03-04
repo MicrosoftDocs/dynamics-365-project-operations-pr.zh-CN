@@ -116,3 +116,6 @@ ms.locfileid: "4841310"
 ## <a name="accessibility-and-keyboard-shortcuts"></a>辅助功能和键盘快捷方式
 
 **计划** 网格拥有完善的辅助功能，可以与讲述人、JAWS 或 NVDA 之类屏幕阅读器配合使用。 可使用箭头键在网格区域中移动（和在 Microsoft Excel 中一样），可以使用 Tab 键在交互式用户界面元素中前进，还可以使用向下键、Enter 将或空格键选择和打开下拉菜单。
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

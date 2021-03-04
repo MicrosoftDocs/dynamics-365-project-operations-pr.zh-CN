@@ -160,3 +160,6 @@ ms.locfileid: "4960326"
 - 策略什么时候到期？
 - 策略规则是什么？
 - 策略规则的结果是什么？
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

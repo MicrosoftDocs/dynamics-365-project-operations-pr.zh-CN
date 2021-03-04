@@ -53,3 +53,6 @@ _**适用于：** 基于资源/非库存场景的 Project Operations，精简部
 ## <a name="when-to-evaluate-policies"></a>评估策略的时间
 
 在支出管理参数中，您可以选择在保存明细或提交支出报表时评估支出管理策略。 如果您选择在保存明细时进行评估，用户将提前了解到一次完成支出报表所需执行的操作。 或者，您可以在提交到工作流期间通过在最后进行验证来延后策略评估，从而节省时间。
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

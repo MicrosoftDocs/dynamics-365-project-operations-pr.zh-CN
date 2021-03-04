@@ -43,3 +43,6 @@ ms.locfileid: "5151152"
 
 - 如果持续时间为空，在创建时间条目时将自动填充结束日期。
 - 用户可以更改已批准或已提交的时间条目中的任务。
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -26,3 +26,5 @@ _**适用于：** 基于资源/非库存场景的 Project Operations，精简部
 3.  在 **团队成员** 选项卡上，选择团队成员，然后选择 **生成要求**。
 
 有关如何修改资源要求的信息，请参阅[更新资源要求详细信息](define-resource-requirements.md)来修改资源要求。
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

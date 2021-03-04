@@ -44,3 +44,6 @@ ms.locfileid: "5147843"
 - [计价单位组和计价单位](advanced-units.md)
 - [多单位币种](advanced-currency.md)
 - [记录实际值](advanced-actuals.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -46,3 +46,6 @@ ms.locfileid: "5147597"
 > ![已选择资源](media/Resource-Management-image61.png)
 
 将把通用团队成员替换为项目计划中项目团队和任务分派的硬预订指定资源。
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

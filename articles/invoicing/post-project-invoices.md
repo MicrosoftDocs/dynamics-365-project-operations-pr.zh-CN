@@ -30,3 +30,6 @@ _**适用于：** 面向资源/非库存场景的 Project Operations_
 您可以[手动创建估价发票](../proforma-invoicing/create-manual-proforma-invoice.md)或使用[定期流程](../proforma-invoicing/configure-automated-invoice-creation.md)。 项目经理可以根据需要[调整草稿估价发票](../proforma-invoicing/manage-proforma-invoice.md)，然后确认。
 
 确认的估价发票将发送到 Finance 中的 **项目管理和会计** 模块。 项目会计将设置项目发票方案的格式并更新，然后发布和打印文档。 发布后的项目发票记录在总帐以及客户和项目分类帐中。
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

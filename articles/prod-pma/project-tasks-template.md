@@ -83,3 +83,6 @@ Project Service Automation 到 Finance 集成解决方案使用数据集成功�
 下图显示了数据集成中的模板任务映射的一个示例。 此映射显示将从 Project Service Automation 同步到 Finance 的字段信息。
 
 [![模板映射](./media/ProjectTasksMapping.png)](./media/ProjectTasksMapping.png)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

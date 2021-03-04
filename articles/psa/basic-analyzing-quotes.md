@@ -60,3 +60,6 @@ Project Service Automation 使用毛利和调整后的毛利分析利润率。
 客户的预期计划的分析方法是，将报价单明细详细信息的最新结束日期与报价单中所有报价单明细的请求交付日期进行比较。
 
 客户的预期预算的分析方法是，将客户总预算之和与所有报价单明细中的报价金额进行比较。
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

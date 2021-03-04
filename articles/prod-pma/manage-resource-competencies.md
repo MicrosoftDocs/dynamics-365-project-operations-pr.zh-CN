@@ -53,3 +53,6 @@ ms.locfileid: "4072629"
 5. 在 **等级日期** 字段中，选择 **1-/14/2014** 。
 6. 在 **年资** 字段中，输入 **10** 。
 7. 选择 **保存** ，然后关闭页面。
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

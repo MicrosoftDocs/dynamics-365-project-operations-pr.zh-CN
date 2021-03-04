@@ -71,3 +71,6 @@ ms.locfileid: "5149442"
   
 ### <a name="see-also"></a>另请参阅  
  [配置 Project Service Automation](../psa/configure.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

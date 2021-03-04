@@ -81,3 +81,6 @@ ms.locfileid: "5146697"
 - **刷新实际值** 按钮无法正确计算摘要任务。
 - Microsoft Project 加载项：如果有任何团队成员具有空资源单位，则修复 null 引用错误。
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

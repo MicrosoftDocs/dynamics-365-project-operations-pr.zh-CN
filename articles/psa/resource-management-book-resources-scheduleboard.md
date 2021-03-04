@@ -53,3 +53,6 @@ ms.locfileid: "5144402"
 将使用所选资源完成要求。 在 **预订要求** 窗格中，请注意已更新了要求，并且资源显示为已预订给项目。
 
 ![资源已预订给项目](media/Resource-Management-image76.png)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

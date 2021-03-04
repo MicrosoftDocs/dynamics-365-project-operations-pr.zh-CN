@@ -37,3 +37,5 @@ _**适用于：** 基于资源/非库存场景的 Project Operations，精简部
 ## <a name="edit-resource-assignment-contours"></a>编辑资源分配信息
 
 除了编辑资源要求的详细信息之外，项目经理还可以使用 **指定模式** 功能更新资源要求的各项信息。 选择 **指定模式** 时，将打开一个页面，您可以按日、周或月时间刻度查看信息。 可以针对给定时间段的开始时间、结束时间和总工作量来调整每项信息。
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

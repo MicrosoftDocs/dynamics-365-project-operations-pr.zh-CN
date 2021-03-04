@@ -81,3 +81,6 @@ ms.locfileid: "5146652"
 - 当同时安装了 Dynamics 365 Field Service 和 Project Service Automation 时，**发票** 页上未同时显示 **锁定定价** 和 **使用当前定价** 选项。
 - 对于日语，存在与其他基于日历的页面不一致的翻译。
 - **激活** 和 **停用** 已从 Project Service Automation 中的 **价目表关联** 实体中删除。
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

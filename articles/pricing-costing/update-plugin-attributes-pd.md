@@ -52,3 +52,6 @@ ms.locfileid: "4643207"
 7. 选择 **确定** 关闭页面，然后选择 **更新步骤**。
 8. 对第二个插件 **PreOperationQuoteLineDetail** 重复步骤 2 到 7。 对于此插件，您需要更新 **msdyn_quotelinetransaction 更新** 步骤。
 9. 关闭 **PluginRegistrationTool**。
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

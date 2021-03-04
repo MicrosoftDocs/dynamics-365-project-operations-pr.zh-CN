@@ -67,3 +67,6 @@ ms.locfileid: "5150027"
 已修复以下问题：
 
 - **提取所有交易记录类别** 双击创建多个行。
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

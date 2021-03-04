@@ -43,3 +43,6 @@ _**适用于：** 面向资源/非库存场景的 Project Operations_
 - 需要一个功能丰富的企业级销售税和汇率引擎，用于为项目生成面向客户的发票。
 - 符合国际财务报告标准 (IFRS) 的项目会计和收入确认系统。
 - Finance 或 Supply Chain Management 应用程序，以及集成基于项目的交易。
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -59,3 +59,6 @@ ms.locfileid: "5150477"
 若要审阅记帐里程碑，请转到 **Sales** \> **记帐** \> **固定价格里程碑**。 选择可开票的里程碑，然后选择 **可开票**。 这些里程碑的记帐状态将更改为 **可开票**。
 
 ![固定价格里程碑](media/FPBacklog.png)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

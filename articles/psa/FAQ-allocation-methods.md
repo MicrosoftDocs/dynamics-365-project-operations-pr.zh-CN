@@ -71,3 +71,6 @@ ms.locfileid: "5151602"
 - 平均分发小时
 
 在使用这三种分配方法之一时，不会通知您资源被超额预订。 若要更正超额预订，则需要使用日程安排板。
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

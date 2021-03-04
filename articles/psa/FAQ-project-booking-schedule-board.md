@@ -91,3 +91,6 @@ ms.locfileid: "5146517"
 
 4. 现在资源已经预订，您必须手动分派任务。
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

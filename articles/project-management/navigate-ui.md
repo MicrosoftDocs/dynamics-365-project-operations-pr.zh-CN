@@ -102,3 +102,6 @@ _**适用于：** 基于资源/非库存场景的 Project Operations，精简部
 **添加列**：允许用户在网格中定义可见列。 只能将现成的列添加到 **项目规划** 窗体的网格中。
 
 ![“添加列”按钮](media/navigation5.png)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

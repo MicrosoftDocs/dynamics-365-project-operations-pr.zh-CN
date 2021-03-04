@@ -52,3 +52,6 @@ PSA 中的项目管理工具可帮助您轻松运行项目。 内置模板和计
 - [项目模板](project-templates.md)
 - [项目阶段](project-stages.md)
 - [项目设置](project-settings.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

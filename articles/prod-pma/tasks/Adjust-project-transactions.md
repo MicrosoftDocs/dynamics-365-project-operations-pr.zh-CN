@@ -44,3 +44,6 @@ ms.locfileid: "4072664"
 13. 在列表中，标记所选的行。 
 14. 在“成本价”字段中，输入一个数字。 
 15. 单击“帖子”。 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

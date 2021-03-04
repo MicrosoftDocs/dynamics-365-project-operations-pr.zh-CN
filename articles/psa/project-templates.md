@@ -69,3 +69,6 @@ ms.locfileid: "5148047"
 ### <a name="copying-a-project-team"></a>复制项目团队
 
 在将项目团队从项目模板复制到项目时，通用资源与模板中定义的技能和专长一起复制。 通用资源分派也与项目模板中一样进行维护。 项目模板中不支持指定资源。
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

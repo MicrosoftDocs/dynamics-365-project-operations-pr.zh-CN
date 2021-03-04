@@ -66,3 +66,6 @@ ms.locfileid: "5143595"
 - 客户在创建项目时可能遇到性能下降，因为 **GetBookableResourceIdFromUser** 检索所有可预订资源列，而不是仅检索主 ID。
 - **TransactionType** 实体缺少用于防止输入对交易类型无效的 **计价单位** 和 **计价单位组** 的前期验证更新插件。
 - **删除** 步骤在导入时间条目时无效。
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

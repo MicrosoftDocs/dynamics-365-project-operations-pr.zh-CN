@@ -79,3 +79,6 @@ _**适用于：** 面向资源/非库存场景的 Project Operations_
 18. 关闭远程桌面会话，然后使用 LCS **环境详细信息** 页登录到环境，确认它是否按预期工作。
 
 ![Finance and Operations](./media/10FinanceAndOperations.png)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

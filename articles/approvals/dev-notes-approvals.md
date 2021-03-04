@@ -23,3 +23,6 @@ Dynamics 365 Project Operations 包含确保通过审批阶段正确进行记录
 
   - 所有支持行全部在相关表中创建，如日记帐和实际值。
   - 在继续之前，审批者在项目中将标记为 **项目审批者**。
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

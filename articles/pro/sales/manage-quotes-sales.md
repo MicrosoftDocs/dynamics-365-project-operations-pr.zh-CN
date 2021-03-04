@@ -33,3 +33,6 @@ _**适用于：** 基于资源/非库存场景的 Project Operations，精简部
 2. 使用 **视图切换器** 选择报价单的其他筛选视图。 使用自定义筛选条件，您可以配置自己的视图和导航选项。
 
 可以从此列表页或详细信息页面创建或删除报价单。
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

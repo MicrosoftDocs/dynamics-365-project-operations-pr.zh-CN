@@ -34,3 +34,6 @@ _**适用于：** 基于资源/非库存场景的 Project Operations，精简部
 1. 组织
 2. 客户
 3. 报价单/合同
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

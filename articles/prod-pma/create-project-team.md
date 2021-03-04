@@ -62,3 +62,6 @@ ms.locfileid: "4072769"
 ## <a name="monitor-project-teams"></a>监控项目团队
 1. 在 **所有项目** 页上，选择 **XYZ 升级第 2 阶段** 项目的 **项目 ID** 链接。
 2. 在 **项目团队和计划编制** 快速选项卡上，确认列出的项目资源是正确的。
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

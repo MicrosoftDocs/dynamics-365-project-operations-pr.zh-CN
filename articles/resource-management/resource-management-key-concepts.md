@@ -35,3 +35,6 @@ _**适用于：** 基于资源/非库存场景的 Project Operations，精简部
 
 
 可在 Project Operations 中为项目安排通用资源或指定资源团队。 可使用各种方法添加和分派团队成员和管理其预订和分派。 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

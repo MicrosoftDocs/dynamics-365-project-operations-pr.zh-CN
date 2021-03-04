@@ -98,3 +98,6 @@ ms.locfileid: "4072737"
 5. 对于每个您想处理的项目，选择该项目的行开头处的选项。 
 6. 选择 **处理** 将所选项目的剩余预算金额转移到所选会计年度。
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

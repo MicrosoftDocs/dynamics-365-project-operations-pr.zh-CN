@@ -73,3 +73,6 @@ ms.locfileid: "5147327"
  [客户经理指南](../psa/account-manager-guide.md)   
  [项目经理指南](../psa/project-manager-guide.md)   
  [时间、费用和协作指南](../psa/time-expense-collaboration-guide.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -75,3 +75,6 @@ Project Service Automation 到 Finance 集成解决方案使用数据集成功�
 ## <a name="install-the-project-service-automation-to-finance-integration-solution-in-your-project-service-automation-instance"></a>在 Project Service Automation 中安装 Project Service Automation 到 Finance 集成解决方案
 
 从 [Microsoft 下载中心](https://www.microsoft.com/download/details.aspx?id=57016)下载 Project Service Automation 到 Finance 集成解决方案，然后按照该解决方案随附的说明操作。
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

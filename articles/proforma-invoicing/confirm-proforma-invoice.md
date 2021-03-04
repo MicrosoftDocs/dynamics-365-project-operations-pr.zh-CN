@@ -198,3 +198,6 @@ _**适用于：** 面向资源/非库存场景的 Project Operations_
         </tr>
     </tbody>
 </table>
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

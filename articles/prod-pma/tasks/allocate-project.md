@@ -44,3 +44,6 @@ ms.locfileid: "4072662"
 10. 当分配是您希望的方法时，单击“项目预算”页面的“提交”发送预算或预算修订到审核工作流。  
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

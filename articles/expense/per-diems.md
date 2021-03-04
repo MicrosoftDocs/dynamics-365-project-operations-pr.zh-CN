@@ -31,3 +31,6 @@ _**适用于：** 面向资源/非库存场景的 Project Operations_
     
 ## <a name="submit-expenses-using-per-diem"></a>使用出差津贴提交支出
 若要使用出差津贴提交支出，请在创建支出报表时使用 **出差津贴** 支出类别。 输入 **出差津贴起始日期**、**出差津贴截止日期** 和 **出差津贴地点**。 将根据所选地点的出差津贴费率计算金额，根据出差津贴费率层来计算餐费扣减。
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

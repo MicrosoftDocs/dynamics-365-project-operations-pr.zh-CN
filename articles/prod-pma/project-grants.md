@@ -79,3 +79,6 @@ ms.locfileid: "4072785"
 2. 选择要修改的赠予。
 3. 在“操作窗格”的 **赠予** 选项卡上，在 **维护** 组中，选择 **编辑** 。
 4. 查看赠予详细信息，并进行所需的更改。
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

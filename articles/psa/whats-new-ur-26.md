@@ -74,3 +74,6 @@ ms.locfileid: "5143547"
 - 在报价单或合同中选择基于项目的行时，**建议** 按钮应仅在选择与现有产品关联的基于产品的行时才可见。
 - 从 **Create_ProjectContract** 特权中分开了 **Create_Product** 特权。
 - 删除账单明细将导致 **MarkReadyToInvoiceForProductContractLineAfterDeletingInvoice** 上出现 null 引用错误。
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

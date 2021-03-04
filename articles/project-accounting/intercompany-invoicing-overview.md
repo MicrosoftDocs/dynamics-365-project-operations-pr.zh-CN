@@ -43,3 +43,6 @@ Dynamics 365 Project Operations 使用以下流来处理内部公司交易：
 - [配置内部公司开票](configure-intercompany-invoicing.md)
 - [记录内部公司交易](create-intercompany-transactions.md)
 - [创建内部公司客户和供应商账单](create-intercompany-customer-vendor-invoices.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -35,3 +35,6 @@ _**适用于：** 面向资源/非库存场景的 Project Operations_
 
   可以手动设置项目成本、收入模板、成本模板和期间代码。 如果未手动设置它们，则使用为项目成本和收入配置文件配置的规则在首次计算项目估算期间默认这些值。
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

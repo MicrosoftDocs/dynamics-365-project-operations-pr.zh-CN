@@ -30,3 +30,6 @@ _**适用于：** 面向资源/非库存场景的 Project Operations_
 | 火车票费用   | DKK 578              | DKK 405                         | DKK 173                         |
 | 酒店        | EUR 725              | EUR 557                         | EUR 168                         |
 | 餐费        | EUR 346              | EUR 284                         | EUR 62                          |
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -48,3 +48,6 @@ _**适用于：** 基于资源/非库存场景的 Project Operations，精简部
 - **总体项目状态**：项目经理提供的总体项目运行状况。
 - **注释**：项目经理提供的有关当前项目运行状况的叙述。
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

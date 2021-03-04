@@ -112,3 +112,6 @@ Dynamics 365 Project Service Automation 使用计价单位和计价单位组处�
 
 ### <a name="can-units-and-unit-groups-be-edited-deleted-and-added"></a>是否可编辑、删除和添加计价单位和计价单位组？
 可以。 除了 **时间** 计价单位组和 **小时** 计价单位，可以删除或编辑所有计价单位，还可以添加新的计价单位。 在 PSA 中，不能删除 **时间** 计价单位组和 **小时** 计价单位。 但是，可以使用 **名称** 字段的译文更新它们。
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -57,3 +57,6 @@ ms.locfileid: "4072742"
 
 > [!NOTE]
 > 状态更改为 **已发送** 后，您将无法修改项目报价单。
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

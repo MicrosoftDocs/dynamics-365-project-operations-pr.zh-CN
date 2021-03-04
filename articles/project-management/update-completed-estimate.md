@@ -36,3 +36,6 @@ _**适用于：** 基于资源/非库存场景的 Project Operations，精简部
 - 将默认进度百分比替换为项目真实进度新估算。
 
 这些方法都会导致重新计算任务的 ETC、完工估算 (EAC)、进度百分比，以及任务的预估工作量偏差。 将会重新计算汇总任务的 EAC、ETC 和进度百分比，并生成新的工作量偏差预估。
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

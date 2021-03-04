@@ -54,3 +54,6 @@ Dynamics 365 Project Service Automation 中仅支持 **用户** 和 **联系人*
 ## <a name="what-is-the-difference-between-an-assignment-and-a-booking"></a>分派与预订之间有何区别？
 
 分派是将资源分派给项目计划中的项目任务。 资源可以是实际资源，也可以是通用资源。 预订是将资源硬性或软性分配给项目。 硬预订占用资源的产能。 理想情况下，实际资源、预订和分派应一致，因为它们没有区别。 但是，PSA 不强制执行此共识。 “协调”视图为项目经理显示资源的预订和分派不一致的位置。
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

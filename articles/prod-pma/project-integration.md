@@ -127,3 +127,6 @@ ms.locfileid: "4072665"
 8.  选择要用于安排资源的 **日历** 。
 
 11. 单击 **确定** 。
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

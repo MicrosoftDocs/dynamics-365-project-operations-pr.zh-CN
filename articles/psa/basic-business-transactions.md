@@ -149,3 +149,6 @@ PSA 将这五种实体中的记录视为业务交易。 唯一区别是实体中
 | 草稿发票更正       | 发票明细交易 GUID | 替换          | msdyn_invoicelinetransaction | 已记帐销售额 GUID            | 原始           | msdyn_actual       |
 | 确认发票更正     | 已记帐销售额冲销 GUID    | 冲销          | msdyn_actual                 | 已记帐销售额 GUID            | 原始           | msdyn_actual       |
 | 新的未记帐实际销售额 GUID | 替换                     | msdyn_actual       | 已记帐销售额 GUID            | 原始                     | msdyn_actual       |                    |
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -144,3 +144,6 @@ Dynamics 365 Project Operations 包含可扩展的时间条目自定义控件。
 
 ### <a name="copying-time-entries"></a>复制时间条目
 使用视图 **复制时间条目列** 定义时间输入期间要复制的字段列表。 **日期** 和 **持续时间** 是必填字段，不应从视图中删除。
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

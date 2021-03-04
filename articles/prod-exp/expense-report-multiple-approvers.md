@@ -40,3 +40,6 @@ ms.locfileid: "4960596"
 
     1. 员工的经理审批支出报表。
     2. 预算负责人审批支出报表。
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

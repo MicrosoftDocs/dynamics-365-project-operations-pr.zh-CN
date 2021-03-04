@@ -65,3 +65,6 @@ ms.locfileid: "5148092"
 ## <a name="close"></a>结束
 
 当记录了项目的所有交易时，项目经理可以将阶段更新为 **结束**。 此时不能记录任何交易，并且项目设置为只读。
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

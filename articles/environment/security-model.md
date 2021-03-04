@@ -81,3 +81,6 @@ Project Operations 包括以下角色：：
 有关 Finance 中的安全性的详细信息，请参阅[基于角色的安全性](https://docs.microsoft.com/dynamics365/fin-ops-core/dev-itpro/sysadmin/role-based-security)。
 
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

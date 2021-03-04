@@ -84,3 +84,6 @@ SalesOrderDetail（订单明细） | msdyn_quotelineid | msdyn_quoteline
 > 有关已弃用资源的完整列表，请参阅 [Project Service Automation 3.x 中的已弃用 Web 资源](../developer-guides/web-resources-deprecated-v3.x.md)。
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

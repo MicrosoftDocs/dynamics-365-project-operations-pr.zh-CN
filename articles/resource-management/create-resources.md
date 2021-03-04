@@ -20,3 +20,6 @@ ms.locfileid: "4514494"
 _**适用于：** 基于资源/非库存场景的 Project Operations，精简部署 - 估价开票交易_
 
 您可以使用 Dynamics 365 Field Service 创建可预订资源以在 Dynamics 365 Project Operations 环境中使用。 若要创建这些资源，请参阅[设置可预订资源](https://docs.microsoft.com/dynamics365/field-service/set-up-bookable-resources)。
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

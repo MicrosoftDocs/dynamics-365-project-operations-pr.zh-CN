@@ -98,3 +98,6 @@ _**适用于：** 面向资源/非库存场景的 Project Operations_
 
 按照主题[在 Common Data Service 中设置和应用配置数据](resource-apply-pro-setup-config-data.md)中所述安装 CDS 设置和配置数据。
 应仅在部署了 Finance 演示环境以及 FO 中的演示数据准备就绪后再完成此步骤。
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

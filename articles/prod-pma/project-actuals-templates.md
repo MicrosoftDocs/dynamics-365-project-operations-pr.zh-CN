@@ -140,3 +140,6 @@ Project Service Automation 到 Finance 集成解决方案使用数据集成功�
 [![模板映射 - 实际值更新](./media/ActualsUpdateMapping.jpg)](./media/ActualsUpdateMapping.jpg)
 
 [![模板映射 - 交易更新](./media/TransactionConnectionsUpdate.jpg)](./media/TransactionConnectionsUpdate.jpg)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

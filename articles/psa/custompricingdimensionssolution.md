@@ -68,3 +68,6 @@ ms.locfileid: "5144627"
 > ![请勿包含全部相关组件](media/Do-not-include-required.png)
 
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

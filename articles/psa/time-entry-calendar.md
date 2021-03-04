@@ -42,3 +42,6 @@ Dynamics 365 Project Service Automation 提供新的可扩展时间条目体验�
 ## <a name="extensibility"></a>扩展性
 
 在具有时间条目网格的 **时间条目** 页中，可以添加自定义字段，设置查找字段和创建自定义视图。 也可以设置基于在自定义字段中选择或输入的值设置自定义业务逻辑。
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

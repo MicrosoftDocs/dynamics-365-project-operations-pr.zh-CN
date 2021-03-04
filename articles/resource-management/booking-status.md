@@ -20,3 +20,6 @@ ms.locfileid: "4514495"
 _**适用于：** 基于资源/非库存场景的 Project Operations，精简部署 - 估价开票交易_
 
 您可以使用 Universal Resource Scheduling 中提供的功能让 Dynamics 365 Field Service 为您的组织设置预订状态。 有关如何完成此设置的信息，请参阅[设置预订状态](https://docs.microsoft.com/dynamics365/field-service/set-up-booking-statuses)。
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

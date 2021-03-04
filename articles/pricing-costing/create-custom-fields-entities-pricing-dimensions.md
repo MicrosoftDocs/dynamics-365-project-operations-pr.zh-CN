@@ -77,3 +77,6 @@ _**适用于：** 基于资源/非库存场景的 Project Operations，精简部
 5. 重复步骤 1 - 3 再为“高级系统工程师”创建一个标准标题。
 
 > ![标准标题实体的示例数据](media/ST-data.png)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

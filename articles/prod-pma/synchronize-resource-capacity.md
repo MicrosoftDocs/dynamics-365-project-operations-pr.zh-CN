@@ -49,3 +49,6 @@ ms.locfileid: "4072582"
     | 结束日期    | 输入资源产能汇总的同步流程的结束日期。 |
 
 [![同步流程](./media/projectresourcing09.jpg)](./media/projectresourcing09.jpg)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

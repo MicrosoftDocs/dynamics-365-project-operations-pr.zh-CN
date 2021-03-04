@@ -344,3 +344,6 @@ PSA 中有一个 **协调** 选项卡，可供项目经理在项目团队中协�
 ![“扩展预订”对话框](media/Resource-Management-image58.png)
 
 然后，项目经理或资源经理可使用日程安排板管理资源超额预订超过其产能的任何情况。
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

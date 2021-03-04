@@ -59,3 +59,6 @@ ms.locfileid: "5145392"
 
 ![资源要求](media/RM-how-to-13.png)
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

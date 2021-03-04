@@ -27,3 +27,6 @@ _**适用于：** 基于资源/非库存场景的 Project Operations，精简部
 
 有关如何创建、提交或撤消条目的信息，以及帮助完成报告的其他工具，请参阅[时间条目用户行为](ui-behavior-time.md)。
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

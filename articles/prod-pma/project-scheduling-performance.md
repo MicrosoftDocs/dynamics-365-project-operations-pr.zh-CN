@@ -69,3 +69,6 @@ ms.locfileid: "4072587"
 
 > [!NOTE]
 > 这将在您的环境中所有公司内把常规数据分发给 **ResRollup** 表，以便只需在一个法人中运行批处理作业。 所有 **资源可用性** 视图都需要此批处理作业。 如果未运行此批处理作业，将即时生成 **ResRollup** 数据，这可能需要一些时间。
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

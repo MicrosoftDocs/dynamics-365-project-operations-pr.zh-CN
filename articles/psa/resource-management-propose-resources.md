@@ -113,3 +113,6 @@ ms.locfileid: "5147507"
 若要查看单项资源的更多详细信息，请右键单击该资源打开资源卡。
 
 ![资源卡](media/Resource-Management-image71.png)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

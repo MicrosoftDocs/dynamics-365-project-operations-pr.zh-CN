@@ -26,3 +26,6 @@ Dynamics 365 Project Operations 中的项目管理工具可帮助您轻松运行
 - 销售流程中使用项目估算。
 - 预测管道中的项目的资源要求。
 - 通过跟踪进度和成本消耗成功交付项目。
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

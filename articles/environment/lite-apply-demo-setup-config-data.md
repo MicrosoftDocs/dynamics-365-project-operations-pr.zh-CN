@@ -74,3 +74,6 @@ _**精简部署 - 估价交易开票_
     -   可预订资源的特征
 
     ![完成导入](./media/6CompleteImport.png)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

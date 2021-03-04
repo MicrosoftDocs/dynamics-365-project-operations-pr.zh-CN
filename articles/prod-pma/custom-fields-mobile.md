@@ -429,3 +429,6 @@ final class TSTimesheetDetails_Extension
 1. 应用尝试放入来自项目资源的默认类别。 此默认类别是在 **TSTimesheetSettingsService** 类中的 **getCurrentUserResource** 和 **getDelegatedResourcesForCurrentUser** 方法中设置的。
 2. 如果提供的默认类别不是项目资源级别，应用将尝试从项目活动提取。 此默认类别是在 **TSTimesheetProjectService** 类中的 **getActivitiesForProject** 方法中设置的。
 3. 如果提供的默认类别不是项目活动级别，将从项目参数采用默认类别。 此默认类别是在 **TSTimesheetProjectService** 类中的 **getProjectDetailsbyRule** 方法中设置的。
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

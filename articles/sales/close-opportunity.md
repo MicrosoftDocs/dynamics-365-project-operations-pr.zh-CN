@@ -24,3 +24,6 @@ _**适用于：** 基于资源/非库存场景的 Project Operations，精简部
 如果存在与商机相关联的任何可用报价单，则不允许结束商机。 您可以同时结束与商机关联的所有可用和草稿报价单。 然后，可以结束商机。
 
 有关结束商机的更多一般信息，请参阅[作为赢单或丢单结束商机](https://docs.microsoft.com/dynamics365/sales-enterprise/close-opportunity-won-lost-sales)。
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

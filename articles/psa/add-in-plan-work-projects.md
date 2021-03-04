@@ -242,3 +242,6 @@ ms.locfileid: "5145932"
 
 ### <a name="additional-resources"></a>其他资源
  [项目经理指南](../psa/project-manager-guide.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

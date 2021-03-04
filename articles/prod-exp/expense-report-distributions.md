@@ -37,3 +37,6 @@ ms.locfileid: "4960731"
 |酒店         |EUR 725              |EUR 557                        |EUR 168                          |
 |餐费         |EUR 346              |EUR 284                        |EUR 62                           |
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -96,3 +96,6 @@ ms.locfileid: "4072777"
 ## <a name="review-timesheets"></a>复查工时单
 
 菜单中将提供需要复查的工时单列表。 仅当已将您指定为工作流审批人，此选项才可用。 同时支持审核标题和行。 可通过行级别审核将一个或多个行设置为要审核。 复查工时单信息之后，单击 **审核** 、 **委托** 或 **退回** 以继续执行工作流。
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -56,3 +56,6 @@ _**适用于：** 面向资源/非库存场景的 Project Operations_
 
 > [!NOTE]
 > 当您将某一支出报表映射到批准的出差申请时，交易金额不能大于授权金额。 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

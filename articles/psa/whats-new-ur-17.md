@@ -57,3 +57,6 @@ ms.locfileid: "5143689"
 - 已修复：当交易分类是 **时间** 时，对于所有实体（包括 **QuoteLineDetails**、**JournalLine**、**InvoiceLineDetail** 和 **ContractLineDetails**），**UnitGroup** 均不可编辑。 但是，**单位** 仅对 **JournalLine** 和 **InvoiceLineDetails** 不可编辑。
 
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

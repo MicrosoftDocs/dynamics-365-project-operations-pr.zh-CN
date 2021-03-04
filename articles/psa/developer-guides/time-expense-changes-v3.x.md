@@ -32,3 +32,6 @@ ms.locfileid: "5148587"
 以前，时间和支出的日历和网格视图以 DHTMLX 控件的形式实施。 与实施日历和网格视图有关的项目现在已过时（已弃用）。
 
 有关已弃用资源的完整列表，请参阅 [Project Service Automation 3.x 中的已弃用 Web 资源](web-resources-deprecated-v3.x.md)。
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -132,3 +132,6 @@ ms.locfileid: "5149622"
 
 > [!IMPORTANT] 
 > 现在，当更新未通过插件验证时，TBX 页中的一项已知问题阻止用户更正信息和重新选择“完成”。 解决方法是，设置业务规则验证以尽量避免这种情况发生。
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

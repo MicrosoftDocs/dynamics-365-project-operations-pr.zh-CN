@@ -40,3 +40,6 @@ Dynamics 365 Project Service Automation 中有两个系统仪表板：**业务�
 ## <a name="resource-manager"></a>资源管理器 
 
 **资源管理器** 仪表板为资源经理提供图形仪表板体验，用于监视资源请求和资源需求与利用率。 还可供资源经理按各种维度分解监视的信息。
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

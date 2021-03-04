@@ -53,3 +53,6 @@ ms.locfileid: "5147416"
 - [根据资源要求预订指定资源](book-named-resource.md)
 - [提交资源请求](submit-resource-request.md)
 - [接受或拒绝资源请求的建议项目资源](accept-reject-proposed-resource.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

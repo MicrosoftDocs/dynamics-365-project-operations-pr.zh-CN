@@ -55,3 +55,6 @@ ms.locfileid: "4072590"
 - [项目资源计划编制性能](project-scheduling-performance.md)
 - [在工作分解结构模板中设置角色](set-up-roles-wbs-template.md)
 - [计划资源的资源完成](resource-fulfillment-planned-resources.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

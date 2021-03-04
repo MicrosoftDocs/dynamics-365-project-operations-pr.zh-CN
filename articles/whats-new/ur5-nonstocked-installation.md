@@ -125,3 +125,6 @@ _**适用于：** 面向资源/非库存场景的 Project Operations_
  
  ![分类帐映射同步](media/DW6.png)
  
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -44,3 +44,6 @@ ms.locfileid: "5143688"
 - 已修复：解决了 24 小时工作时间模板不准确地使任务额外增加一天的问题。
 - 已修复：解决了 +13 GMT 工作时间模板不准确地将任务提前一天的问题。
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

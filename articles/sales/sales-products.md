@@ -124,3 +124,6 @@ _**适用于：** 基于资源/非库存场景的 Project Operations，精简部
 - **产品 SKU** 
 
 可以通过编辑产品明细的属性，将 **用户数** 和 **月数** 属性标记为数量因子。 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

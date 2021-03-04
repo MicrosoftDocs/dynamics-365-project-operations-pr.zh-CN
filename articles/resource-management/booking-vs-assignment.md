@@ -26,3 +26,6 @@ _**适用于：** 基于资源/非库存场景的 Project Operations，精简部
 通常，资源的预订总和等于一项或多项任务中资源分配的总和。 但是，Project Operations 不强制执行此共识。 **协调** 视图为项目经理显示资源的预订和分配不一致的位置。
 
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

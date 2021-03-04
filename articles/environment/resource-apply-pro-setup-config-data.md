@@ -134,3 +134,6 @@ _**适用于：** 面向资源/非库存场景的 Project Operations_
 13. 选择 **保存**。 
 
 ![更新后的项目参数](./media/17UpdatedProjectParameters.png)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

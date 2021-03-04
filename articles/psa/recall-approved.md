@@ -107,3 +107,6 @@ ms.locfileid: "5147822"
 下图显示撤销了已批准支出条目时发生的更改。
 
 ![支出条目状态转换](media/ExpenseEntryStateTransitions.png)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

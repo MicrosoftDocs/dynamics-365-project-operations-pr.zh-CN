@@ -107,3 +107,6 @@ ms.locfileid: "4072584"
     > 您不会收到指定资源现在是 2 的警告，因为资源数量仍为 1。
 
 14. 在 **工作分解结构** 页上，在 WBS 中验证资源分配，然后选择 **保存** 。
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -43,3 +43,6 @@ ms.locfileid: "5150927"
 
 ### <a name="currently-extended-time-entry-changes"></a>当前扩展的时间条目更改
 为了最大程度地减小时间条目对当前用户的影响，此角色更改是继续利用时间条目所需的唯一核心要求。 如果创建了自定义视图或单独的时间条目体验，则必须将 **时间条目设置** 字段设置为正确的 PSA 值。
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]
