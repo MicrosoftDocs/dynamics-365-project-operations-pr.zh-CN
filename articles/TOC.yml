@@ -36,6 +36,8 @@
               href: environment/resource-configure-integration-per-legal-entity.md
     - name: 新增功能
       items:
+        - name: 2021 年 3 月 - 基于资源/非库存场景的 Project Operations
+          href: whats-new/whats-new-mar-2021-resource-based.md
         - name: 2021 年 2 月 - 基于资源/非库存场景的 Project Operations
           href: whats-new/whats-new-feb-2021-resource-based.md
         - name: 2021 年 1 月 - 基于资源/非库存场景的 Project Operations
@@ -318,52 +320,52 @@
       items:
         - name: 支出概述
           href: expense/expense-overview.md
-        - name: 项目的支出管理体验
+        - name: 新的支出体验
           items:
-            - name: 配置和设置
-              items:
-                - name: 设置策略
-                  href: expense/set-up-policies.md
-                - name: 设置工作流
-                  href: expense/set-up-workflows.md
-                - name: 管理委派
-                  href: expense/manage-delegation.md
-                - name: 配置支出管理参数
-                  href: expense/configure-expense-management-parameters.md
-                - name: 设置信用卡集成
-                  href: expense/set-up-credit-card-integration.md
-                - name: 设置支出类别
-                  href: expense/set-up-expense-categories.md
-            - name: 使用支出报表上的个人支出
-              href: expense/personal-expenses-expense-report.md
-            - name: 创建支出报表
-              items:
-                - name: 支出报表上的分布
-                  href: expense/distributions-expense-report.md
-            - name: 审批支出报表
-              items:
-                - name: 支出报表和多人审批
-                  href: expense/expense-reports-multiple-approvers.md
-            - name: 发布支出报表
-              href: expense/posting-expense-reports.md
-            - name: 出差申请
-              href: expense/travel-requisition.md
-            - name: 预付现金
-              href: expense/cash-advance.md
-            - name: 出差津贴
-              href: expense/per-diems.md
-            - name: 财务管理
-              items:
-                - name: 增值税返回
-                  href: expense/vat-recovery.md
-            - name: 新的支出体验
-              items:
-                - name: 重新打造支出报表
-                  href: expense/expense-reports-reimagined.md
-                - name: 使用 OCR 使收据与支出匹配
-                  href: expense/match-receipt-expense-ocr.md
-            - name: 移动设备支出管理
-              href: expense/expense-using-mobile.md
+            - name: 重新打造支出报表
+              href: expense/expense-reports-reimagined.md
+            - name: 使用 OCR 捕获收据
+              href: expense/match-receipt-expense-ocr.md
+        - name: 配置和设置
+          items:
+            - name: 设置策略
+              href: expense/set-up-policies.md
+            - name: 设置工作流
+              href: expense/set-up-workflows.md
+            - name: 管理委派
+              href: expense/manage-delegation.md
+            - name: 配置支出管理参数
+              href: expense/configure-expense-management-parameters.md
+            - name: 设置信用卡集成
+              href: expense/set-up-credit-card-integration.md
+            - name: 设置支出类别
+              href: expense/set-up-expense-categories.md
+        - name: 个人支出
+          href: expense/personal-expenses-expense-report.md
+        - name: 内部公司支出
+          href: prod-exp/intercompany-expense.md
+        - name: 创建支出报表
+          items:
+            - name: 支出报表上的分布
+              href: expense/distributions-expense-report.md
+        - name: 审批支出报表
+          items:
+            - name: 支出报表和多人审批
+              href: expense/expense-reports-multiple-approvers.md
+        - name: 发布支出报表
+          href: expense/posting-expense-reports.md
+        - name: 出差申请
+          href: expense/travel-requisition.md
+        - name: 预付现金
+          href: expense/cash-advance.md
+        - name: 出差津贴
+          href: expense/per-diems.md
+        - name: 移动支出应用
+          href: expense/expense-using-mobile.md
+        - name: 财务管理
+          items:
+            - name: 增值税返回
+              href: expense/vat-recovery.md
     - name: 审批
       items:
         - name: 审批概述
@@ -456,6 +458,8 @@
           href: environment/security-model.md
     - name: 新增功能
       items:
+        - name: 2021 年 3 月新增功能 - 精简部署
+          href: pro/whats-new/whats-new-mar-2021-lite.md
         - name: 2021 年 2 月新增功能 - 精简部署
           href: pro/whats-new/whats-new-feb-2021-lite.md
         - name: 2021 年 1 月新增功能 - 精简部署
@@ -894,44 +898,52 @@
   items:
     - name: 支出管理概述
       href: prod-exp/expense-management.md
-    - name: 重新打造支出报表
-      href: prod-exp/ExpenseWorkspaceNew.md
-    - name: 计划支出管理
-      href: prod-exp/plan-expense-management.md
-    - name: 支出管理参数
-      href: prod-exp/Expense-Management-Parameters.md
-    - name: 支出管理移动工作区
-      href: prod-exp/expense-management-mobile-workspace.md
-    - name: 设置支出管理工作流
-      href: prod-exp/expense-workflows.md
-    - name: 支出管理工作流
-      href: prod-exp/expense-workflow.md
-    - name: 管理支出委派
-      href: prod-exp/manage-expense-delegation.md
-    - name: 支出收据处理
-      href: prod-exp/expense-receipt-processing.md
-    - name: 导入和维护信用卡交易
-      href: prod-exp/import-credit-card.md
-    - name: 支出报表上的分布
-      href: prod-exp/expense-report-distributions.md
+    - name: 新的支出体验
+      items:
+        - name: 重新打造支出报表
+          href: expense/expense-reports-reimagined.md
+        - name: 使用 OCR 捕获收据
+          href: expense/match-receipt-expense-ocr.md
+    - name: 配置和设置
+      items:
+        - name: 设置策略
+          href: expense/set-up-policies.md
+        - name: 设置工作流
+          href: expense/set-up-workflows.md
+        - name: 管理委派
+          href: expense/manage-delegation.md
+        - name: 配置支出管理参数
+          href: expense/configure-expense-management-parameters.md
+        - name: 设置信用卡集成
+          href: expense/set-up-credit-card-integration.md
+        - name: 设置支出类别
+          href: expense/set-up-expense-categories.md
+    - name: 个人支出
+      href: expense/personal-expenses-expense-report.md
     - name: 内部公司支出
       href: prod-exp/intercompany-expense.md
-    - name: 定义支出策略
-      href: prod-exp/travel-expense-policies.md
-    - name: 查看支出报表
-      href: prod-exp/view-expense-report.md
+    - name: 创建支出报表
+      items:
+        - name: 支出报表上的分布
+          href: expense/distributions-expense-report.md
+    - name: 审批支出报表
+      items:
+        - name: 支出报表和多人审批
+          href: expense/expense-reports-multiple-approvers.md
     - name: 发布支出报表
-      href: prod-exp/post-expense.md
-    - name: 支出报表和多人审批
-      href: prod-exp/expense-report-multiple-approvers.md
-    - name: 支出管理中的增值税退回
-      href: prod-exp/VAT-expense-report.md
-    - name: 每日规则
-      href: prod-exp/per-diem.md
+      href: expense/posting-expense-reports.md
     - name: 出差申请
-      href: prod-exp/travel-req.md
-    - name: 支出报表上的个人支出
-      href: prod-exp/personal-expenses.md
+      href: expense/travel-requisition.md
+    - name: 预付现金
+      href: expense/cash-advance.md
+    - name: 出差津贴
+      href: expense/per-diems.md
+    - name: 移动支出应用
+      href: expense/expense-using-mobile.md
+    - name: 财务管理
+      items:
+        - name: 增值税返回
+          href: expense/vat-recovery.md
 - name: Dynamics 365 Project Service Automation
   items:
     - name: Project Service Automation
@@ -940,10 +952,16 @@
       items:
         - name: Project Service 3.x 的更新版本计划
           href: psa/version-history-ps.md
+        - name: V3 更新版 29 的新增或变更功能
+          href: psa/whats-new-ur-29.md
+        - name: V3 更新版 28.6 修补程序的新增或变更功能
+          href: psa/whats-new-ur-28-6.md
         - name: V3 更新版 28.5 修补程序的新增或变更功能
           href: psa/whats-new-ur-28-5.md
         - name: V3 更新版 28 的新增或变更功能
           href: psa/whats-new-ur-28.md
+        - name: V3 更新版 27.6 修补程序的新增或变更功能
+          href: psa/whats-new-ur-27-6.md
         - name: V3 更新版 27.5 修补程序的新增或变更功能
           href: psa/whats-new-ur-27-5.md
         - name: V3 更新版 27 的新增或变更功能
