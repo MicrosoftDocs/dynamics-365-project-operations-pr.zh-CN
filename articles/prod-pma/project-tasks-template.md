@@ -1,6 +1,6 @@
 ---
 title: 将项目任务直接从 Project Service Automation 同步到 Finance and Operations
-description: 此主题介绍用于将项目任务直接从 Microsoft Dynamics 365 Project Service Automation 同步到 Dynamics 365 Finance 的模板和基础任务。
+description: 此主题介绍用于直接同步 Microsoft Dynamics 365 Project Service Automation 与 Dynamics 365 Finance 的项目任务的模板和基础任务。
 author: Yowelle
 manager: AnnBe
 ms.date: 07/20/2018
@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: andchoi
 ms.search.validFrom: 2016-11-28
 ms.dyn365.ops.version: AX 7.3.0
-ms.openlocfilehash: 0383607a07def6c21562bf4b0893fe3ce3db6a04
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: 7cc9ee9de576549c132e14c333a1000c22a55236
+ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4072586"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5288908"
 ---
 # <a name="synchronize-project-tasks-directly-from-project-service-automation-to-finance-and-operations"></a>将项目任务直接从 Project Service Automation 同步到 Finance and Operations
 
@@ -45,7 +45,7 @@ Project Service Automation 到 Finance 集成解决方案使用数据集成功�
 
 ## <a name="template-and-task"></a>模板和任务
 
-若要访问此模板，请在 Microsoft Power Apps 管理员中心中选择 **项目** ，然后在右上角中选择 **新建项目** 以选择公共模板。
+若要访问此模板，请在 Microsoft Power Apps 管理员中心中选择 **项目**，然后在右上角中选择 **新建项目** 以选择公共模板。
 
 以下模板和基础任务用于将项目任务从 Project Service Automation 同步到 Finance：
 
@@ -76,7 +76,7 @@ Project Service Automation 到 Finance 集成解决方案使用数据集成功�
 
 如果必须使用 Power Query，请遵守以下准则：
 
-- “项目任务（PSA 到 Fin and Ops）”模板有一个默认筛选器，用于通过在 **IsLineTask** 中将该筛选器设置为 **False** ，从项目任务内排除资源特定的记录。 如果创建自己的模板，则必须添加这个筛选器。
+- “项目任务（PSA 到 Fin and Ops）”模板有一个默认筛选器，用于通过在 **IsLineTask** 中将该筛选器设置为 **False**，从项目任务内排除资源特定的记录。 如果创建自己的模板，则必须添加这个筛选器。
 
 ## <a name="template-mapping-in-data-integration"></a>数据集成中的模板映射
 

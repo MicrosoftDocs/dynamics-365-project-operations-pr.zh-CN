@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: andchoi
 ms.search.validFrom: 2016-11-28
 ms.dyn365.ops.version: AX 7.3.0
-ms.openlocfilehash: cff62e739e88dc45e7c3d1ea044875f0600f2bc1
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: 11ccbd64c37341b2969e10e9a737f1aa4b4a61f9
+ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4072736"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5289673"
 ---
 # <a name="synchronize-project-actuals-directly-from-project-service-automation-to-the-project-integration-journal-for-posting-in-finance-and-operations"></a>将项目实际值直接从 Project Service Automation 同步到 Finance and Operations 中的项目集成日记帐进行过帐
 
@@ -30,7 +30,7 @@ ms.locfileid: "4072736"
 
 此主题介绍用于直接同步 Dynamics 365 Project Service Automation 与 Dynamics 365 Finance 的项目实际值的模板和基础任务。
 
-此模板将交易记录从 Project Service Automation 同步到 Finance 中的暂存表内。 同步完成后， **必须** 将数据从暂存表导入集成日记帐。
+此模板将交易记录从 Project Service Automation 同步到 Finance 中的暂存表内。 同步完成后，**必须** 将数据从暂存表导入集成日记帐。
 
 > [!NOTE]
 > - 版本 8.0.1 开始支持项目实际值集成。
@@ -50,7 +50,7 @@ Project Service Automation 到 Finance 集成解决方案使用数据集成功�
 
 ### <a name="template-and-tasks"></a>模板和任务
 
-若要访问可用模板，请在 Microsoft Power Apps 管理员中心中选择 **项目** ，然后在右上角中选择 **新建项目** 以选择公共模板。
+若要访问可用模板，请在 Microsoft Power Apps 管理员中心中选择 **项目**，然后在右上角中选择 **新建项目** 以选择公共模板。
 
 以下模板和基础任务用于将项目实际值从 Project Service Automation 同步到 Finance：
 
@@ -88,8 +88,8 @@ Project Service Automation 到 Finance 集成解决方案使用数据集成功�
 #### <a name="contract-organizational-unit"></a>合同组织单位
 若要更新模板中插入的条件列，请单击 **映射** 箭头打开映射。 选择 **高级查询和筛选** 链接以打开 Power Query。
 
-- 如果在使用默认的项目实际值（PSA 到 Fin and Ops）模板，请在 Power Query, 中从 **应用的步骤** 部分选择最后一个 **插入的条件** 。 在 **函数** 条目中，将 **USSI** 替换为集成应使用的法人 的名称。 根据需要向 **函数** 条目添加更多条件，然后将 **else** 条件从 **USMF** 更新为正确的法人。
-- 如果要新建模板，必须添加此列来为公司间数据和支出提供支持。 选择 **添加条件列** ，然后为列输入名称，如 **LegalEntity** 。 输入列的条件：where, if **msdyn\_contractorganizationalunitid.msdyn\_name** is \<organizational unit\>, then \<enter the legal entity\>; else null。
+- 如果在使用默认的项目实际值（PSA 到 Fin and Ops）模板，请在 Power Query, 中从 **应用的步骤** 部分选择最后一个 **插入的条件**。 在 **函数** 条目中，将 **USSI** 替换为集成应使用的法人 的名称。 根据需要向 **函数** 条目添加更多条件，然后将 **else** 条件从 **USMF** 更新为正确的法人。
+- 如果要新建模板，必须添加此列来为公司间数据和支出提供支持。 选择 **添加条件列**，然后为列输入名称，如 **LegalEntity**。 输入列的条件：where, if **msdyn\_contractorganizationalunitid.msdyn\_name** is \<organizational unit\>, then \<enter the legal entity\>; else null。
 
 ### <a name="template-mapping-in-data-integration"></a>数据集成中的模板映射
 

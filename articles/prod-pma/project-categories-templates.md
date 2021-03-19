@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: andchoi
 ms.search.validFrom: 2016-11-28
 ms.dyn365.ops.version: AX 8.0.0
-ms.openlocfilehash: ed7ca3c85d3f99b7eefe10f4ddec822b9aeb1684
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: 4abb7fe6554825b97df4cc04ee1b02d731cb4af9
+ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4072743"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5289628"
 ---
 # <a name="synchronize-project-expense-categories-between-finance-and-operations-and-project-service-automation"></a>在 Finance and Operations 和 Project Service Automation 之间同步项目支出类别
 
@@ -51,10 +51,10 @@ Project Service Automation 与 Finance 集成解决方案使用数据集成功�
 > - 必须有与 Project Service Automation 中设置的项目类别匹配的共享类别，并且必须同时为 **项目** 和 **支出** 启用该共享类别。
 > - 对于必须集成的每个 Finance 法人，必须有以下项目类别：
 >
->     - 有 **项目类别** 。 
->     - 已启用 **在支出使用** 。
->     - 已启用 **在日记帐中有效** 。
->     - **交易记录类型** 设置为 **支出** 。
+>     - 有 **项目类别**。 
+>     - 已启用 **在支出使用**。
+>     - 已启用 **在日记帐中有效**。
+>     - **交易记录类型** 设置为 **支出**。
 
 下图显示 Project Service Automation 与 Finance 之间中如何同步数据。
 
@@ -64,7 +64,7 @@ Project Service Automation 与 Finance 集成解决方案使用数据集成功�
 
 ### <a name="template-and-task"></a>模板和任务
 
-若要访问此模板，请在 Microsoft Power Apps 管理员中心中选择 **项目** ，然后在右上角中选择 **新建项目** 以选择公共模板。
+若要访问此模板，请在 Microsoft Power Apps 管理员中心中选择 **项目**，然后在右上角中选择 **新建项目** 以选择公共模板。
 
 以下模板和基础任务用于将项目支出类别从 Finance 同步到 Project Service Automation：
 
@@ -87,10 +87,10 @@ Project Service Automation 与 Finance 集成解决方案使用数据集成功�
 
 1. 单击箭头在项目支出交易记录类别（Fin and Ops 到 PSA）模板中打开项目支出类别任务的映射。
 2. 单击 **高级查询和筛选** 链接以打开 Power Query。
-2. 选择 **添加条件列** 。
-3. 为新列输入名称，如 **BillingType** 。
-4. 输入以下条件： **if CATEGORYID not equal to null then 19235001, Otherwise null** 。
-5. 在列中单击 **确定** 。
+2. 选择 **添加条件列**。
+3. 为新列输入名称，如 **BillingType**。
+4. 输入以下条件：**if CATEGORYID not equal to null then 19235001, Otherwise null**。
+5. 在列中单击 **确定**。
 6. 请务必在映射页上映射这个新列。
 
 下图显示了数据集成中的模板任务映射的一个示例。 此映射显示将从 Finance 同步到 Project Service Automation 的字段信息。

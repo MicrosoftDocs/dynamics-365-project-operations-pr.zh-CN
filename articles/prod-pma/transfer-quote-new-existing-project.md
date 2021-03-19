@@ -18,12 +18,12 @@ ms.search.industry: Service industries
 ms.author: andchoi
 ms.dyn365.ops.version: 7
 ms.search.validFrom: 2019-01-15
-ms.openlocfilehash: ec0d53e9d294b12be9af9bb03885a45b68fb3388
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: 9952336c395d98eb776190f92062fffcfb31556b
+ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4072580"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5288082"
 ---
 # <a name="transfer-a-quotation-to-a-project"></a>将报价单转移到项目
 
@@ -33,8 +33,8 @@ ms.locfileid: "4072580"
 
 要使用此向导，请按照下列步骤操作。
 
-1. 转到 **项目管理和会计** > **报价单** > **项目报价单** 。
-2. 选择要转移的报价单，然后在 **跟进** 选项卡上，在 **修改** 组中，选择 **转移到项目** 。
+1. 转到 **项目管理和会计** > **报价单** > **项目报价单**。
+2. 选择要转移的报价单，然后在 **跟进** 选项卡上，在 **修改** 组中，选择 **转移到项目**。
 3. 按照 **将报价单转移到项目** 向导将报价单与项目关联并转移报价单。
 
 

@@ -18,12 +18,12 @@ ms.search.industry: Service industries
 ms.author: andchoi
 ms.dyn365.ops.version: Version 1611
 ms.search.validFrom: 2016-11-30
-ms.openlocfilehash: 23a5a9f25cfdd6df74257b3500c7a035d711b5f6
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: 7eae471cf42f02e64844a4682cc8ed02cbb14c34
+ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4072585"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5288863"
 ---
 # <a name="project-time-entry-mobile-workspace"></a>项目时间条目移动工作区
 
@@ -100,19 +100,19 @@ ms.locfileid: "4072585"
 
 ## <a name="enter-time-by-using-the-project-time-entry-mobile-workspace"></a>通过使用项目时间条目移动工作区输入时间
 1.  在移动设备上，选择 **项目时间条目** 工作区。
-2.  选择 **时间条目** 。 此时将显示当前周的日历日期。
-3.  对于所选日期，选择 **操作**&gt;**新条目** 。
+2.  选择 **时间条目**。 此时将显示当前周的日历日期。
+3.  对于所选日期，选择 **操作**&gt;**新条目**。
 4.  输入要记录的小时数。
 5.  为时间条目选择项目。 列表显示加载到您的应用程序中供脱机使用的项目。 默认情况下，加载 50 项，但是开发人员可以更改此数字。 有关详细信息，请参阅 [移动平台](https://docs.microsoft.com/dynamics365/fin-ops-core/dev-itpro/mobile-apps/mobile-app-home-page)。
-6.  如果您的项目不在该列表中，请选择 **搜索** 。 按名称搜索，或切换到按项目名称或客户搜索。
+6.  如果您的项目不在该列表中，请选择 **搜索**。 按名称搜索，或切换到按项目名称或客户搜索。
 7.  选择类别。 列表显示加载到您的应用程序中供脱机使用的类别。 默认情况下，加载 50 项，但是开发人员可以更改此数字。 有关详细信息，请参阅 [移动平台](https://docs.microsoft.com/dynamics365/fin-ops-core/dev-itpro/mobile-apps/mobile-app-home-page)。
-8.  如果您的类别不在该列表中，请选择 **搜索** 。 按类别搜索，或切换到按类别名称搜索。
+8.  如果您的类别不在该列表中，请选择 **搜索**。 按类别搜索，或切换到按类别名称搜索。
 9.  选择活动。 列表显示加载到您的应用程序中供脱机使用的活动。 默认情况下，加载 50 项，但是开发人员可以更改此数字。 有关详细信息，请参阅 [移动平台](https://docs.microsoft.com/dynamics365/fin-ops-core/dev-itpro/mobile-apps/mobile-app-home-page)。
-10. 如果您的活动不在该列表中，请选择 **搜索** 。 按活动编号搜索，或切换到按用途搜索。
+10. 如果您的活动不在该列表中，请选择 **搜索**。 按活动编号搜索，或切换到按用途搜索。
 
 11. 选择行属性。
 12. 可选：输入任何外部和内部注释。
-13. 选择 **完成** 。
+13. 选择 **完成**。
 
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

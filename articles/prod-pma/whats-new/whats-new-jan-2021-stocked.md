@@ -9,12 +9,12 @@ ms.prod: ''
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: andchoi
-ms.openlocfilehash: ce1c83e1e238d7919c38d2babea622ca59de86d3
-ms.sourcegitcommit: ef7d498bf80b0bcc1245dc42f30c410c31f891bb
+ms.openlocfilehash: 82787d13c6c2e662841a4f8eebe5638933f0958d
+ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/13/2021
-ms.locfileid: "4958637"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5288037"
 ---
 # <a name="whats-new-or-changed-in-project-operations-january-2021-for-stockedproduction-based-scenarios"></a>2021 年 1 月面向库存/生产订单场景的 Project Operations 的新增或更改功能
 

@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: andchoi
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 3ecf8ee588de9ec41e0b4f384110f912759ed53f
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: f2bab78628333f2d8a6996277ca3a9e63052e939
+ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4072590"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5289088"
 ---
 # <a name="project-resourcing-home-page"></a>项目资源主页
 
@@ -52,7 +52,7 @@ ms.locfileid: "4072590"
 - [设置基于角色的定价](set-up-role-based-pricing.md)
 - [创建项目团队](create-project-team.md)
 - [同步资源产能](synchronize-resource-capacity.md)
-- [项目资源计划编制性能](project-scheduling-performance.md)
+- [项目资源计划性能](project-scheduling-performance.md)
 - [在工作分解结构模板中设置角色](set-up-roles-wbs-template.md)
 - [计划资源的资源完成](resource-fulfillment-planned-resources.md)
 

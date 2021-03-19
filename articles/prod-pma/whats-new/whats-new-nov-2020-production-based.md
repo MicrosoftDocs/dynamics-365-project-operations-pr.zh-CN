@@ -8,12 +8,12 @@ ms.topic: article
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: sigitac
-ms.openlocfilehash: b671f314ddae9a59167bb9059dc7b076df95cb9d
-ms.sourcegitcommit: d33ef0ae39f90fe3b0f6b4524f483e8052057361
+ms.openlocfilehash: 28b967ddb6bec9fcc1be099e6ab218f38640a14c
+ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/03/2020
-ms.locfileid: "4365407"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5287992"
 ---
 # <a name="whats-new-november-2020---project-operations-for-stockedproduction-based-scenarios"></a>2020 年 11 月新增功能 - 面向库存/生产订单场景的 Project Operations
 

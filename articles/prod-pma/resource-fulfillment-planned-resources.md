@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: andchoi
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 2d849e7bdd020b0a2f5f35a627e28434ea77e5fb
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: 4200d74a18c706a492ebd0e5383d5957ce6ab6c8
+ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4072775"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5288773"
 ---
 # <a name="resource-fulfillment-for-planned-resources"></a>计划资源的资源完成
 
@@ -32,14 +32,14 @@ ms.locfileid: "4072775"
 项目经理可为项目计划所需的资源角色。 资源经理将在 **资源完成** 页上根据请求查看这些计划资源，并且可以分配实际资源。
 
 1. 在 **所有项目** 页上，选择 **XYZ 升级第 2 阶段** 项目。
-2. 选择 **项目** ，然后选择 **编辑** 。
-3. 在 **项目团队和计划编制** 选项卡上，选择 **添加** 。
+2. 选择 **项目**，然后选择 **编辑**。
+3. 在 **项目团队和计划编制** 选项卡上，选择 **添加**。
 4. 在 **添加角色** 对话框中，选择 **软件开发人员** 角色。
-5. 选择 **创建** ，然后关闭项目页。
-6. 在 **资源完成** 页上，为 **XYZ 升级项目第 2 阶段** 项目选择 **软件开发人员 1** 。
-7. 选择一个工作人员，然后选择 **分配** 。
+5. 选择 **创建**，然后关闭项目页。
+6. 在 **资源完成** 页上，为 **XYZ 升级项目第 2 阶段** 项目选择 **软件开发人员 1**。
+7. 选择一个工作人员，然后选择 **分配**。
 8. 验证 **软件开发人员 1** 的行已为 **XYZ 升级项目第 2 阶段** 项目删除。
-9. 在 **项目团队和计划编制** 选项卡上，对 **XYZ 升级项目第 2 阶段** 项目验证您在上一步中选择的工作人员已添加为 **软件开发人员** 。
+9. 在 **项目团队和计划编制** 选项卡上，对 **XYZ 升级项目第 2 阶段** 项目验证您在上一步中选择的工作人员已添加为 **软件开发人员**。
 
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

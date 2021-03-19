@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: andchoi
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 006ebbfea42572f17663fab324a20a10321b78f0
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: e6b63ccb5b0f04dedb8a942e22d6e1993204dc20
+ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4072582"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5288548"
 ---
 # <a name="synchronize-resource-capacity"></a>同步资源产能
 
@@ -39,7 +39,7 @@ ms.locfileid: "4072582"
 
 我们建议您使用批次执行。 选项在同步产能预留中可用。
 
-1. 选择 **项目管理与核算** &gt; **定期** &gt; **产能同步** &gt; **同步资源产能汇总** 。
+1. 选择 **项目管理与核算** &gt; **定期** &gt; **产能同步** &gt; **同步资源产能汇总**。
 2. 设置下表中的选项。
 
     | 选项      | 描述 |

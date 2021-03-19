@@ -1,6 +1,6 @@
 ---
 title: 将项目评估直接从 Project Service Automation 同步到 Finance and Operations
-description: 此主题介绍用于将项目工时估计和项目费用估计直接从 Microsoft Dynamics 365 Project Service Automation 同步到 Dynamics 365 Finance 的模板和基础任务。
+description: 此主题介绍用于直接同步 Microsoft Dynamics 365 Project Service Automation 与 Dynamics 365 Finance 的项目工时估计和项目费用估计的模板和基础任务。
 author: Yowelle
 manager: AnnBe
 ms.date: 07/20/2018
@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: andchoi
 ms.search.validFrom: 2016-11-28
 ms.dyn365.ops.version: AX 7.3.0
-ms.openlocfilehash: 336de474c859d30d1ec07ae34bf0c3d578faeef1
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: 58e204b2c1238e00ffb16533cc82dad69fbf77a9
+ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4072732"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5289448"
 ---
 # <a name="synchronize-project-estimates-directly-from-project-service-automation-to-finance-and-operations"></a>将项目评估直接从 Project Service Automation 同步到 Finance and Operations
 
@@ -46,7 +46,7 @@ Project Service Automation 到 Finance 集成解决方案使用数据集成功�
 
 ### <a name="template-and-tasks"></a>模板和任务
 
-若要访问可用模板，请在 Microsoft Power Apps 管理员中心中选择 **项目** ，然后在右上角中选择 **新建项目** 以选择公共模板。
+若要访问可用模板，请在 Microsoft Power Apps 管理员中心中选择 **项目**，然后在右上角中选择 **新建项目** 以选择公共模板。
 
 以下模板和基础任务用于将项目工时估计值从 Project Service Automation 同步到 Finance：
 
@@ -82,8 +82,8 @@ Project Service Automation 到 Finance 集成解决方案使用数据集成功�
 
 若要更新模板中的默认预测模型 ID，请单击 **映射** 箭头打开映射。 选择 **高级查询和筛选** 链接。
 
-- 如果在使用默认项目工时估计值（PSA 到 Fin and Ops）模板，请在 **应用的步骤** 列表中选择 **插入的条件** 。 在 **函数** 条目中，将 **O\_forecast** 替换为集成应使用的预测模型 ID 的名称。 默认模板中包含来自一个演示数据的预测模型 ID。
-- 如果要创建新模板，必须添加此列。 在 Power Query 中，选择 **添加条件列** ，然后为新列输入名称，如 **ModelID** 。 输入列的条件：where, if Project task is not null, then \<enter the forecast model ID\>; else null。
+- 如果在使用默认项目工时估计值（PSA 到 Fin and Ops）模板，请在 **应用的步骤** 列表中选择 **插入的条件**。 在 **函数** 条目中，将 **O\_forecast** 替换为集成应使用的预测模型 ID 的名称。 默认模板中包含来自一个演示数据的预测模型 ID。
+- 如果要创建新模板，必须添加此列。 在 Power Query 中，选择 **添加条件列**，然后为新列输入名称，如 **ModelID**。 输入列的条件：where, if Project task is not null, then \<enter the forecast model ID\>; else null。
 
 #### <a name="filter-out-resource-specific-records"></a>筛选掉资源特定的记录
 
@@ -137,18 +137,18 @@ Project Service Automation 到 Finance 集成解决方案使用数据集成功�
 
 #### <a name="filter-to-include-only-expense-estimate-lines"></a>筛选为仅包含支出估计值行
 
-项目支出估计值（PSA 到 Fin and Ops）模板有一个默认筛选器，用于筛选为集成中仅包含支出行。 如果创建自己的模板，则必须添加这个筛选器。 选择 **交易记录关系** 任务，然后单击 **映射** 箭头打开映射。 选择 **高级查询和筛选** 链接。 筛选 **msdyn\_transactiontype1** 列，以便其中仅包含 **msdyn\_estimateline** 。
+项目支出估计值（PSA 到 Fin and Ops）模板有一个默认筛选器，用于筛选为集成中仅包含支出行。 如果创建自己的模板，则必须添加这个筛选器。 选择 **交易记录关系** 任务，然后单击 **映射** 箭头打开映射。 选择 **高级查询和筛选** 链接。 筛选 **msdyn\_transactiontype1** 列，以便其中仅包含 **msdyn\_estimateline**。
 
 #### <a name="set-the-default-forecast-model-id"></a>设置默认预测模型 ID
 
 若要更新模板中的默认预测模型 ID，请选择 **支出估计值** 任务，然后单击 **映射** 箭头打开映射。 选择 **高级查询和筛选** 链接。
 
-- 如果在使用默认的项目支出类别（PSA 到 Fin and Ops）模板，请在 Power Query, 中从 **应用的步骤** 部分选择第一个 **插入的条件** 。 在 **函数** 条目中，将 **O\_forecast** 替换为集成应使用的预测模型 ID 的名称。 默认模板中包含来自一个演示数据的预测模型 ID。
-- 如果要创建新模板，必须添加此列。 在 Power Query 中，选择 **添加条件列** ，然后为新列输入名称，如 **ModelID** 。 输入列的条件：where, if Estimate line ID is not null, then \<enter the forecast model ID\>; else null。
+- 如果在使用默认的项目支出类别（PSA 到 Fin and Ops）模板，请在 Power Query, 中从 **应用的步骤** 部分选择第一个 **插入的条件**。 在 **函数** 条目中，将 **O\_forecast** 替换为集成应使用的预测模型 ID 的名称。 默认模板中包含来自一个演示数据的预测模型 ID。
+- 如果要创建新模板，必须添加此列。 在 Power Query 中，选择 **添加条件列**，然后为新列输入名称，如 **ModelID**。 输入列的条件：where, if Estimate line ID is not null, then \<enter the forecast model ID\>; else null。
 
 #### <a name="transform-the-billing-types"></a>转换计费类型
 
-项目支出估计值（PSA 到 Fin and Ops）模板包含一个条件列，用于转换集成期间从 Project Service Automation 收到的计费类型。 如果创建自己的模板，则必须添加这个条件列。 选择 **高级查询和筛选** 链接，然后选择 **添加条件列** 。 为新列输入名称，如 **BillingType** 。 然后输入以下条件：
+项目支出估计值（PSA 到 Fin and Ops）模板包含一个条件列，用于转换集成期间从 Project Service Automation 收到的计费类型。 如果创建自己的模板，则必须添加这个条件列。 选择 **高级查询和筛选** 链接，然后选择 **添加条件列**。 为新列输入名称，如 **BillingType**。 然后输入以下条件：
 
 If **msdyn\_billingtype** = 192350000, then **NonChargeable**  
 else if **msdyn\_billingtype** = 192350001, then **Chargeable**  
@@ -157,7 +157,7 @@ else **NotAvailable**
 
 #### <a name="transform-the-transaction-types"></a>转换交易记录类型
 
-项目支出估计值（PSA 到 Fin and Ops）模板包含一个条件列，用于转换集成期间从 Project Service Automation 收到的交易记录类型。 如果创建自己的模板，则必须添加这个条件列。 选择 **高级查询和筛选** 链接，然后选择 **添加条件列** 。 为新列输入名称，如 **TransactionType** 。 然后输入以下条件：
+项目支出估计值（PSA 到 Fin and Ops）模板包含一个条件列，用于转换集成期间从 Project Service Automation 收到的交易记录类型。 如果创建自己的模板，则必须添加这个条件列。 选择 **高级查询和筛选** 链接，然后选择 **添加条件列**。 为新列输入名称，如 **TransactionType**。 然后输入以下条件：
 
 If **msdyn\_transactiontypecode** = 192350000, then **Cost**  
 else if **msdyn\_transactiontypecode** = 192350005, then **Sales**  
