@@ -17,67 +17,70 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 6b9da3ec54ec10408774945d26db9e702c858d05
-ms.sourcegitcommit: 418fa1fe9d605b8faccc2d5dee1b04b4e753f194
+ms.openlocfilehash: 8879229b50ef113d6d6cb8622b707f0c12182a57
+ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/10/2021
-ms.locfileid: "5146652"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5280297"
 ---
-# <a name="whats-new-or-changed-in-project-service-automation-update-release-27-v3"></a><span data-ttu-id="42059-103">Project Service Automation V3 更新版本 27 中的新增功能或更改</span><span class="sxs-lookup"><span data-stu-id="42059-103">What's new or changed in Project Service Automation Update Release 27, V3</span></span>
+# <a name="whats-new-or-changed-in-project-service-automation-update-release-27-v3"></a><span data-ttu-id="3fedd-103">Project Service Automation V3 更新版本 27 中的新增功能或更改</span><span class="sxs-lookup"><span data-stu-id="3fedd-103">What's new or changed in Project Service Automation Update Release 27, V3</span></span>
 
 [!include [banner](../includes/psa-now-project-operations.md)]
 
-<span data-ttu-id="42059-104">我们很高兴地宣布适用于 Dynamics 365 的 Project Service Automation 应用程序的最新更新已推出。</span><span class="sxs-lookup"><span data-stu-id="42059-104">We’re pleased to announce the latest update for the Project Service Automation application for Dynamics 365.</span></span> <span data-ttu-id="42059-105">此版本包括对质量、性能和可用性的一些重要改进。</span><span class="sxs-lookup"><span data-stu-id="42059-105">This release includes some important improvements to quality, performance, and usability.</span></span> <span data-ttu-id="42059-106">此版本与 Dynamics 365 9.x 兼容。</span><span class="sxs-lookup"><span data-stu-id="42059-106">This release is compatible with Dynamics 365 9.x.</span></span> <span data-ttu-id="42059-107">若要更新到此版本，请访问 Dynamics 365 Online 的管理中心解决方案页面以安装更新。</span><span class="sxs-lookup"><span data-stu-id="42059-107">To update to this release, visit the Admin Center for Dynamics 365 online solutions page to install the update.</span></span> <span data-ttu-id="42059-108">有关详细信息，请参阅[安装、更新或移除首选解决方案](https://docs.microsoft.com/power-platform/admin/install-remove-preferred-solution)。</span><span class="sxs-lookup"><span data-stu-id="42059-108">For more information, see [Install, update, or remove a preferred solution](https://docs.microsoft.com/power-platform/admin/install-remove-preferred-solution).</span></span>
+<span data-ttu-id="3fedd-104">我们很高兴地宣布适用于 Dynamics 365 的 Project Service Automation 应用程序的最新更新已推出。</span><span class="sxs-lookup"><span data-stu-id="3fedd-104">We’re pleased to announce the latest update for the Project Service Automation application for Dynamics 365.</span></span> <span data-ttu-id="3fedd-105">此版本包括对质量、性能和可用性的一些重要改进。</span><span class="sxs-lookup"><span data-stu-id="3fedd-105">This release includes some important improvements to quality, performance, and usability.</span></span> <span data-ttu-id="3fedd-106">此版本与 Dynamics 365 9.x 兼容。</span><span class="sxs-lookup"><span data-stu-id="3fedd-106">This release is compatible with Dynamics 365 9.x.</span></span> <span data-ttu-id="3fedd-107">若要更新到此版本，请访问 Dynamics 365 Online 的管理中心解决方案页面以安装更新。</span><span class="sxs-lookup"><span data-stu-id="3fedd-107">To update to this release, visit the Admin Center for Dynamics 365 online solutions page to install the update.</span></span> <span data-ttu-id="3fedd-108">有关详细信息，请参阅[安装、更新或移除首选解决方案](https://docs.microsoft.com/power-platform/admin/install-remove-preferred-solution)。</span><span class="sxs-lookup"><span data-stu-id="3fedd-108">For more information, see [Install, update, or remove a preferred solution](https://docs.microsoft.com/power-platform/admin/install-remove-preferred-solution).</span></span>
 
-<span data-ttu-id="42059-109">本主题列出了 Project Service Automation V3 更新版本 27 中新增或更改的功能和修复。</span><span class="sxs-lookup"><span data-stu-id="42059-109">This topic lists the features and fixes that are new or changed for Project Service Automation V3, Update Release 27.</span></span> <span data-ttu-id="42059-110">该版本的内部版本号为 V3.10.45.98，并且在 2021 年 1 月通过自行更新公开发布。</span><span class="sxs-lookup"><span data-stu-id="42059-110">This version has a build number of V3.10.45.98 and is generally available through a self-update in January 2021.</span></span>
+<span data-ttu-id="3fedd-109">本主题列出了 Project Service Automation V3 更新版本 27 中新增或更改的功能和修复。</span><span class="sxs-lookup"><span data-stu-id="3fedd-109">This topic lists the features and fixes that are new or changed for Project Service Automation V3, Update Release 27.</span></span> <span data-ttu-id="3fedd-110">该版本的内部版本号为 V3.10.45.98，并且在 2021 年 1 月通过自行更新公开发布。</span><span class="sxs-lookup"><span data-stu-id="3fedd-110">This version has a build number of V3.10.45.98 and is generally available through a self-update in January 2021.</span></span>
 
-## <a name="update-release-27"></a><span data-ttu-id="42059-111">更新发布 27</span><span class="sxs-lookup"><span data-stu-id="42059-111">Update Release 27</span></span>
+## <a name="update-release-27"></a><span data-ttu-id="3fedd-111">更新发布 27</span><span class="sxs-lookup"><span data-stu-id="3fedd-111">Update Release 27</span></span>
 
-### <a name="bug-fixes"></a><span data-ttu-id="42059-112">Bug 修复</span><span class="sxs-lookup"><span data-stu-id="42059-112">Bug fixes</span></span>
+### <a name="bug-fixes"></a><span data-ttu-id="3fedd-112">Bug 修复</span><span class="sxs-lookup"><span data-stu-id="3fedd-112">Bug fixes</span></span>
 
-<span data-ttu-id="42059-113">**常规**</span><span class="sxs-lookup"><span data-stu-id="42059-113">**General**</span></span>
+<span data-ttu-id="3fedd-113">**常规**</span><span class="sxs-lookup"><span data-stu-id="3fedd-113">**General**</span></span>
 
-<span data-ttu-id="42059-114">已修复以下问题：</span><span class="sxs-lookup"><span data-stu-id="42059-114">The following issues have been fixed:</span></span>
+<span data-ttu-id="3fedd-114">已修复以下问题：</span><span class="sxs-lookup"><span data-stu-id="3fedd-114">The following issues have been fixed:</span></span>
 
-- <span data-ttu-id="42059-115">由 Project Service Automation 中的插件生成的日志尚未设置为自动删除。</span><span class="sxs-lookup"><span data-stu-id="42059-115">Logs generated by plug-ins in Project Service Automation haven't been set to auto-delete.</span></span>
-- <span data-ttu-id="42059-116">自动升级将因为 Project Service Automation 解决方案包含旧的 null NavBarArea 和 title 元素而失败。</span><span class="sxs-lookup"><span data-stu-id="42059-116">Auto-upgrade fails because the Project Service Automation solution contains a legacy null NavBarArea and title element.</span></span>
+- <span data-ttu-id="3fedd-115">由 Project Service Automation 中的插件生成的日志尚未设置为自动删除。</span><span class="sxs-lookup"><span data-stu-id="3fedd-115">Logs generated by plug-ins in Project Service Automation haven't been set to auto-delete.</span></span>
+- <span data-ttu-id="3fedd-116">自动升级将因为 Project Service Automation 解决方案包含旧的 null NavBarArea 和 title 元素而失败。</span><span class="sxs-lookup"><span data-stu-id="3fedd-116">Auto-upgrade fails because the Project Service Automation solution contains a legacy null NavBarArea and title element.</span></span>
 
-<span data-ttu-id="42059-117">**时间和支出**</span><span class="sxs-lookup"><span data-stu-id="42059-117">**Time and Expense**</span></span>
+<span data-ttu-id="3fedd-117">**时间和支出**</span><span class="sxs-lookup"><span data-stu-id="3fedd-117">**Time and Expense**</span></span>
 
-<span data-ttu-id="42059-118">已修复以下问题：</span><span class="sxs-lookup"><span data-stu-id="42059-118">The following issues have been fixed:</span></span>
+<span data-ttu-id="3fedd-118">已修复以下问题：</span><span class="sxs-lookup"><span data-stu-id="3fedd-118">The following issues have been fixed:</span></span>
 
-- <span data-ttu-id="42059-119">**时间条目** 网格为 **时区无关** 日期行为显示了不正确数据。</span><span class="sxs-lookup"><span data-stu-id="42059-119">The **Time Entry** grid displays incorrect data for **TimeZone Independent** date behavior.</span></span>
-- <span data-ttu-id="42059-120">**时间条目** 网格为 **时区无关** 日期行为创建了不正确的时间。</span><span class="sxs-lookup"><span data-stu-id="42059-120">The **Time Entry** grid creates incorrect time for **TimeZone Independent** date behavior.</span></span>
-- <span data-ttu-id="42059-121">任务查找不限于 **编辑时间条目** 页上的选定项目。</span><span class="sxs-lookup"><span data-stu-id="42059-121">Task lookup isn't limited to the selected project on the **Edit Time Entry** page.</span></span>
-- <span data-ttu-id="42059-122">非项目时间条目的时间审批因为系统在查找项目审批者而被阻止。</span><span class="sxs-lookup"><span data-stu-id="42059-122">Time approval for non-project time entries is blocked because the system is looking for a project approver.</span></span>
-- <span data-ttu-id="42059-123">“实际值”上的正确条目显示不正确的错误消息。</span><span class="sxs-lookup"><span data-stu-id="42059-123">Correct entries on Actuals displays an incorrect error message.</span></span>
-- <span data-ttu-id="42059-124">当任务包含实际成本的 null 值，在刷新项目总计时，出现以下错误：“字典中不存在给定键”。</span><span class="sxs-lookup"><span data-stu-id="42059-124">When a task contains a null value for actual cost and the project totals are refreshed, the following error occurs, "Given key not present in dictionary".</span></span>
-- <span data-ttu-id="42059-125">在特定情况下，**项目估算** 选项卡上的 **分组依据** 筛选器不显示支出估算。</span><span class="sxs-lookup"><span data-stu-id="42059-125">In specific instances, **Group By** filters on the **Project Estimate** tab does not display expense estimates.</span></span>
-- <span data-ttu-id="42059-126">**夏令时** 间隔对于时间条目不正确。</span><span class="sxs-lookup"><span data-stu-id="42059-126">**Daylight Saving Time** interval isn't correct for time entries.</span></span>
+- <span data-ttu-id="3fedd-119">**时间条目** 网格为 **时区无关** 日期行为显示了不正确数据。</span><span class="sxs-lookup"><span data-stu-id="3fedd-119">The **Time Entry** grid displays incorrect data for **TimeZone Independent** date behavior.</span></span>
+- <span data-ttu-id="3fedd-120">**时间条目** 网格为 **时区无关** 日期行为创建了不正确的时间。</span><span class="sxs-lookup"><span data-stu-id="3fedd-120">The **Time Entry** grid creates incorrect time for **TimeZone Independent** date behavior.</span></span>
+- <span data-ttu-id="3fedd-121">任务查找不限于 **编辑时间条目** 页上的选定项目。</span><span class="sxs-lookup"><span data-stu-id="3fedd-121">Task lookup isn't limited to the selected project on the **Edit Time Entry** page.</span></span>
+- <span data-ttu-id="3fedd-122">非项目时间条目的时间审批因为系统在查找项目审批者而被阻止。</span><span class="sxs-lookup"><span data-stu-id="3fedd-122">Time approval for non-project time entries is blocked because the system is looking for a project approver.</span></span>
+- <span data-ttu-id="3fedd-123">“实际值”上的正确条目显示不正确的错误消息。</span><span class="sxs-lookup"><span data-stu-id="3fedd-123">Correct entries on Actuals displays an incorrect error message.</span></span>
+- <span data-ttu-id="3fedd-124">当任务包含实际成本的 null 值，在刷新项目总计时，出现以下错误：“字典中不存在给定键”。</span><span class="sxs-lookup"><span data-stu-id="3fedd-124">When a task contains a null value for actual cost and the project totals are refreshed, the following error occurs, "Given key not present in dictionary".</span></span>
+- <span data-ttu-id="3fedd-125">在特定情况下，**项目估算** 选项卡上的 **分组依据** 筛选器不显示支出估算。</span><span class="sxs-lookup"><span data-stu-id="3fedd-125">In specific instances, **Group By** filters on the **Project Estimate** tab does not display expense estimates.</span></span>
+- <span data-ttu-id="3fedd-126">**夏令时** 间隔对于时间条目不正确。</span><span class="sxs-lookup"><span data-stu-id="3fedd-126">**Daylight Saving Time** interval isn't correct for time entries.</span></span>
 
-<span data-ttu-id="42059-127">**项目管理**</span><span class="sxs-lookup"><span data-stu-id="42059-127">**Project Management**</span></span>
+<span data-ttu-id="3fedd-127">**项目管理**</span><span class="sxs-lookup"><span data-stu-id="3fedd-127">**Project Management**</span></span>
 
-<span data-ttu-id="42059-128">已修复以下问题：</span><span class="sxs-lookup"><span data-stu-id="42059-128">The following issues have been fixed:</span></span>
+<span data-ttu-id="3fedd-128">已修复以下问题：</span><span class="sxs-lookup"><span data-stu-id="3fedd-128">The following issues have been fixed:</span></span>
 
-- <span data-ttu-id="42059-129">改进了缓存，增强了与加载 **项目** 页相关的性能。</span><span class="sxs-lookup"><span data-stu-id="42059-129">Caching improvements, which enhances performance related to loading the **Project** page.</span></span>
-- <span data-ttu-id="42059-130">过时的业务规则阻止项目任务完成。</span><span class="sxs-lookup"><span data-stu-id="42059-130">Obsolete business rule preventing project tasks from being completed.</span></span>
-- <span data-ttu-id="42059-131">Microsoft Project 加载项信息未遵循加载项的日历，导致资源要求不正确。</span><span class="sxs-lookup"><span data-stu-id="42059-131">Microsoft Project Add-in contours aren't respecting the add-in’s calendar resulting in incorrect resource requirements.</span></span>
-- <span data-ttu-id="42059-132">从模板创建项目错误地设置了分配日期，并阻止生成资源要求。</span><span class="sxs-lookup"><span data-stu-id="42059-132">Creating projects from templates incorrectly sets assignment dates and prevents the ability to generate resource requirements.</span></span>
-- <span data-ttu-id="42059-133">用户无法使用键盘访问 **类别**、**说明**、**状态** 选项。</span><span class="sxs-lookup"><span data-stu-id="42059-133">User can't access **Category**, **Description**, **Status** options using the keyboard.</span></span>
-- <span data-ttu-id="42059-134">项目的实际销售值不包括费用和材料销售值。</span><span class="sxs-lookup"><span data-stu-id="42059-134">Actual sales values of the project aren't including fee and materials sales values.</span></span>
-- <span data-ttu-id="42059-135">实际销售额和实际成本的聚合在不同汇率下会不正确。</span><span class="sxs-lookup"><span data-stu-id="42059-135">Aggregation of actual sales and actual cost happens incorrectly with different exchange rates.</span></span>
-- <span data-ttu-id="42059-136">**默认工作时间模板** 中的说明具有误导性。</span><span class="sxs-lookup"><span data-stu-id="42059-136">The description in the **Default Work Hour Template** is misleading.</span></span>
-- <span data-ttu-id="42059-137">如果不刷新，缩进任务不删除用户界面中的 **类别**。</span><span class="sxs-lookup"><span data-stu-id="42059-137">Indenting a task doesn't remove **Category** in the user interface until it is refreshed.</span></span>
-- <span data-ttu-id="42059-138">不允许忽略验证以确保将项目移到结束日期之后。</span><span class="sxs-lookup"><span data-stu-id="42059-138">Missing validation to ensure moving a project beyond its end date isn't permitted.</span></span>
+- <span data-ttu-id="3fedd-129">改进了缓存，增强了与加载 **项目** 页相关的性能。</span><span class="sxs-lookup"><span data-stu-id="3fedd-129">Caching improvements, which enhances performance related to loading the **Project** page.</span></span>
+- <span data-ttu-id="3fedd-130">过时的业务规则阻止项目任务完成。</span><span class="sxs-lookup"><span data-stu-id="3fedd-130">Obsolete business rule preventing project tasks from being completed.</span></span>
+- <span data-ttu-id="3fedd-131">Microsoft Project 加载项信息未遵循加载项的日历，导致资源要求不正确。</span><span class="sxs-lookup"><span data-stu-id="3fedd-131">Microsoft Project Add-in contours aren't respecting the add-in’s calendar resulting in incorrect resource requirements.</span></span>
+- <span data-ttu-id="3fedd-132">从模板创建项目错误地设置了分配日期，并阻止生成资源要求。</span><span class="sxs-lookup"><span data-stu-id="3fedd-132">Creating projects from templates incorrectly sets assignment dates and prevents the ability to generate resource requirements.</span></span>
+- <span data-ttu-id="3fedd-133">用户无法使用键盘访问 **类别**、**说明**、**状态** 选项。</span><span class="sxs-lookup"><span data-stu-id="3fedd-133">User can't access **Category**, **Description**, **Status** options using the keyboard.</span></span>
+- <span data-ttu-id="3fedd-134">项目的实际销售值不包括费用和材料销售值。</span><span class="sxs-lookup"><span data-stu-id="3fedd-134">Actual sales values of the project aren't including fee and materials sales values.</span></span>
+- <span data-ttu-id="3fedd-135">实际销售额和实际成本的聚合在不同汇率下会不正确。</span><span class="sxs-lookup"><span data-stu-id="3fedd-135">Aggregation of actual sales and actual cost happens incorrectly with different exchange rates.</span></span>
+- <span data-ttu-id="3fedd-136">**默认工作时间模板** 中的说明具有误导性。</span><span class="sxs-lookup"><span data-stu-id="3fedd-136">The description in the **Default Work Hour Template** is misleading.</span></span>
+- <span data-ttu-id="3fedd-137">如果不刷新，缩进任务不删除用户界面中的 **类别**。</span><span class="sxs-lookup"><span data-stu-id="3fedd-137">Indenting a task doesn't remove **Category** in the user interface until it is refreshed.</span></span>
+- <span data-ttu-id="3fedd-138">不允许忽略验证以确保将项目移到结束日期之后。</span><span class="sxs-lookup"><span data-stu-id="3fedd-138">Missing validation to ensure moving a project beyond its end date isn't permitted.</span></span>
 
-<span data-ttu-id="42059-139">**Sales**</span><span class="sxs-lookup"><span data-stu-id="42059-139">**Sales**</span></span>
+<span data-ttu-id="3fedd-139">**Sales**</span><span class="sxs-lookup"><span data-stu-id="3fedd-139">**Sales**</span></span>
 
-<span data-ttu-id="42059-140">已修复以下问题：</span><span class="sxs-lookup"><span data-stu-id="42059-140">The following issues have been fixed:</span></span>
+<span data-ttu-id="3fedd-140">已修复以下问题：</span><span class="sxs-lookup"><span data-stu-id="3fedd-140">The following issues have been fixed:</span></span>
 
-- <span data-ttu-id="42059-141">项目报价单行上生成 null 引用异常，因为在未选择项目时，**从项目估算导入** 可见。</span><span class="sxs-lookup"><span data-stu-id="42059-141">A null reference exception is generated on a project quote line because **Import from Project Estimation** is visible when a project hasn't been selected.</span></span>
-- <span data-ttu-id="42059-142">当作为 **赢单** 结束报价单时，发生以下错误：“对象引用未设置为对象的实例”。</span><span class="sxs-lookup"><span data-stu-id="42059-142">The following error, "Object reference not set to an instance of an object" occurs when closing a quote as **Won**.</span></span>
-- <span data-ttu-id="42059-143">从合同子项中取消链接项目过程中，未在实际冲销期间设置调整状态。</span><span class="sxs-lookup"><span data-stu-id="42059-143">Adjustment status isn't set during an actual reversal while unlinking a project from a contract line.</span></span>
-- <span data-ttu-id="42059-144">当同时安装了 Dynamics 365 Field Service 和 Project Service Automation 时，**发票** 页上未同时显示 **锁定定价** 和 **使用当前定价** 选项。</span><span class="sxs-lookup"><span data-stu-id="42059-144">When Dynamics 365 Field Service and Project Service Automation are both installed, the **Lock pricing** and **Use Current Pricing** options are not displayed at a same time on the **Invoice** page.</span></span>
-- <span data-ttu-id="42059-145">对于日语，存在与其他基于日历的页面不一致的翻译。</span><span class="sxs-lookup"><span data-stu-id="42059-145">For the Japanese language, there is inconsistent translation with other calendar-based pages.</span></span>
-- <span data-ttu-id="42059-146">**激活** 和 **停用** 已从 Project Service Automation 中的 **价目表关联** 实体中删除。</span><span class="sxs-lookup"><span data-stu-id="42059-146">**Activate** and **Deactivate** have been removed from **Price List Association** entities in Project Service Automation.</span></span>
+- <span data-ttu-id="3fedd-141">项目报价单行上生成 null 引用异常，因为在未选择项目时，**从项目估算导入** 可见。</span><span class="sxs-lookup"><span data-stu-id="3fedd-141">A null reference exception is generated on a project quote line because **Import from Project Estimation** is visible when a project hasn't been selected.</span></span>
+- <span data-ttu-id="3fedd-142">当作为 **赢单** 结束报价单时，发生以下错误：“对象引用未设置为对象的实例”。</span><span class="sxs-lookup"><span data-stu-id="3fedd-142">The following error, "Object reference not set to an instance of an object" occurs when closing a quote as **Won**.</span></span>
+- <span data-ttu-id="3fedd-143">从合同子项中取消链接项目过程中，未在实际冲销期间设置调整状态。</span><span class="sxs-lookup"><span data-stu-id="3fedd-143">Adjustment status isn't set during an actual reversal while unlinking a project from a contract line.</span></span>
+- <span data-ttu-id="3fedd-144">当同时安装了 Dynamics 365 Field Service 和 Project Service Automation 时，**发票** 页上未同时显示 **锁定定价** 和 **使用当前定价** 选项。</span><span class="sxs-lookup"><span data-stu-id="3fedd-144">When Dynamics 365 Field Service and Project Service Automation are both installed, the **Lock pricing** and **Use Current Pricing** options are not displayed at a same time on the **Invoice** page.</span></span>
+- <span data-ttu-id="3fedd-145">对于日语，存在与其他基于日历的页面不一致的翻译。</span><span class="sxs-lookup"><span data-stu-id="3fedd-145">For the Japanese language, there is inconsistent translation with other calendar-based pages.</span></span>
+- <span data-ttu-id="3fedd-146">**激活** 和 **停用** 已从 Project Service Automation 中的 **价目表关联** 实体中删除。</span><span class="sxs-lookup"><span data-stu-id="3fedd-146">**Activate** and **Deactivate** have been removed from **Price List Association** entities in Project Service Automation.</span></span>
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

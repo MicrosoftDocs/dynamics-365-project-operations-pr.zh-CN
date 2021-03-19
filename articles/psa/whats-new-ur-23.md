@@ -17,53 +17,56 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 87f89828aeff22d9b473539e294d5cf04d46a203
-ms.sourcegitcommit: 418fa1fe9d605b8faccc2d5dee1b04b4e753f194
+ms.openlocfilehash: 379379ff643baa10417333b4be5e56d56eb5bc26
+ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/10/2021
-ms.locfileid: "5150027"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5280522"
 ---
-# <a name="project-service-automation-update-release-23-v3"></a><span data-ttu-id="9ebd3-103">Project Service Automation V3 更新版本 23</span><span class="sxs-lookup"><span data-stu-id="9ebd3-103">Project Service Automation Update Release 23, V3</span></span>
+# <a name="project-service-automation-update-release-23-v3"></a><span data-ttu-id="d3c0b-103">Project Service Automation V3 更新版本 23</span><span class="sxs-lookup"><span data-stu-id="d3c0b-103">Project Service Automation Update Release 23, V3</span></span>
 
 [!include [banner](../includes/psa-now-project-operations.md)]
 
-<span data-ttu-id="9ebd3-104">我们很高兴地宣布适用于 Dynamics 365 的 Project Service Automation 应用程序的最新更新已推出。</span><span class="sxs-lookup"><span data-stu-id="9ebd3-104">We’re pleased to announce the latest update for the Project Service Automation application for Dynamics 365.</span></span> <span data-ttu-id="9ebd3-105">此版本包括对质量、性能和可用性的一些重要改进。</span><span class="sxs-lookup"><span data-stu-id="9ebd3-105">This release includes some important improvements to quality, performance, and usability.</span></span> <span data-ttu-id="9ebd3-106">此版本与 Dynamics 365 9.x 兼容。</span><span class="sxs-lookup"><span data-stu-id="9ebd3-106">This release is compatible with Dynamics 365 9.x.</span></span> <span data-ttu-id="9ebd3-107">若要更新到此版本，请访问 Dynamics 365 Online 的管理中心解决方案页面以安装更新。</span><span class="sxs-lookup"><span data-stu-id="9ebd3-107">To update to this release, visit the Admin Center for Dynamics 365 online solutions page to install the update.</span></span> <span data-ttu-id="9ebd3-108">有关详细信息，请参阅[安装、更新或移除首选解决方案](https://docs.microsoft.com/power-platform/admin/install-remove-preferred-solution)。</span><span class="sxs-lookup"><span data-stu-id="9ebd3-108">For more information, see [Install, update, or remove a preferred solution](https://docs.microsoft.com/power-platform/admin/install-remove-preferred-solution).</span></span>
+<span data-ttu-id="d3c0b-104">我们很高兴地宣布适用于 Dynamics 365 的 Project Service Automation 应用程序的最新更新已推出。</span><span class="sxs-lookup"><span data-stu-id="d3c0b-104">We’re pleased to announce the latest update for the Project Service Automation application for Dynamics 365.</span></span> <span data-ttu-id="d3c0b-105">此版本包括对质量、性能和可用性的一些重要改进。</span><span class="sxs-lookup"><span data-stu-id="d3c0b-105">This release includes some important improvements to quality, performance, and usability.</span></span> <span data-ttu-id="d3c0b-106">此版本与 Dynamics 365 9.x 兼容。</span><span class="sxs-lookup"><span data-stu-id="d3c0b-106">This release is compatible with Dynamics 365 9.x.</span></span> <span data-ttu-id="d3c0b-107">若要更新到此版本，请访问 Dynamics 365 Online 的管理中心解决方案页面以安装更新。</span><span class="sxs-lookup"><span data-stu-id="d3c0b-107">To update to this release, visit the Admin Center for Dynamics 365 online solutions page to install the update.</span></span> <span data-ttu-id="d3c0b-108">有关详细信息，请参阅[安装、更新或移除首选解决方案](https://docs.microsoft.com/power-platform/admin/install-remove-preferred-solution)。</span><span class="sxs-lookup"><span data-stu-id="d3c0b-108">For more information, see [Install, update, or remove a preferred solution](https://docs.microsoft.com/power-platform/admin/install-remove-preferred-solution).</span></span>
 
-<span data-ttu-id="9ebd3-109">本主题列出了 Project Service Automation V3 更新版本 23 中新增或更改的功能和修复。</span><span class="sxs-lookup"><span data-stu-id="9ebd3-109">This topic lists the features and fixes that are new or changed for Project Service Automation V3, Update Release 23.</span></span> <span data-ttu-id="9ebd3-110">该版本的内部版本号为 V 3.10.34.30，并且在 2020 年 8 月通过自行更新公开发布。</span><span class="sxs-lookup"><span data-stu-id="9ebd3-110">This version has a build number of V 3.10.34.30 and is generally available through a self-update in August 2020.</span></span>
+<span data-ttu-id="d3c0b-109">本主题列出了 Project Service Automation V3 更新版本 23 中新增或更改的功能和修复。</span><span class="sxs-lookup"><span data-stu-id="d3c0b-109">This topic lists the features and fixes that are new or changed for Project Service Automation V3, Update Release 23.</span></span> <span data-ttu-id="d3c0b-110">该版本的内部版本号为 V 3.10.34.30，并且在 2020 年 8 月通过自行更新公开发布。</span><span class="sxs-lookup"><span data-stu-id="d3c0b-110">This version has a build number of V 3.10.34.30 and is generally available through a self-update in August 2020.</span></span>
 
-## <a name="update-release-23"></a><span data-ttu-id="9ebd3-111">更新发布 23</span><span class="sxs-lookup"><span data-stu-id="9ebd3-111">Update Release 23</span></span>
+## <a name="update-release-23"></a><span data-ttu-id="d3c0b-111">更新发布 23</span><span class="sxs-lookup"><span data-stu-id="d3c0b-111">Update Release 23</span></span>
 
-### <a name="bug-fixes"></a><span data-ttu-id="9ebd3-112">Bug 修复</span><span class="sxs-lookup"><span data-stu-id="9ebd3-112">Bug fixes</span></span>
+### <a name="bug-fixes"></a><span data-ttu-id="d3c0b-112">Bug 修复</span><span class="sxs-lookup"><span data-stu-id="d3c0b-112">Bug fixes</span></span>
 
-<span data-ttu-id="9ebd3-113">**时间和支出**</span><span class="sxs-lookup"><span data-stu-id="9ebd3-113">**Time and Expense**</span></span>
+<span data-ttu-id="d3c0b-113">**时间和支出**</span><span class="sxs-lookup"><span data-stu-id="d3c0b-113">**Time and Expense**</span></span>
 
-<span data-ttu-id="9ebd3-114">已修复以下问题：</span><span class="sxs-lookup"><span data-stu-id="9ebd3-114">The following issues have been fixed:</span></span>
-- <span data-ttu-id="9ebd3-115">在 **项目团队成员删除** 中处理边缘案例以提供有意义的异常。</span><span class="sxs-lookup"><span data-stu-id="9ebd3-115">Handle edge case in **Project Team Member Delete** to provide a meaningful exception.</span></span>
-- <span data-ttu-id="9ebd3-116">导入工作会导致空白删除屏幕。</span><span class="sxs-lookup"><span data-stu-id="9ebd3-116">Assignment import results in a blank remove screen.</span></span>
+<span data-ttu-id="d3c0b-114">已修复以下问题：</span><span class="sxs-lookup"><span data-stu-id="d3c0b-114">The following issues have been fixed:</span></span>
+- <span data-ttu-id="d3c0b-115">在 **项目团队成员删除** 中处理边缘案例以提供有意义的异常。</span><span class="sxs-lookup"><span data-stu-id="d3c0b-115">Handle edge case in **Project Team Member Delete** to provide a meaningful exception.</span></span>
+- <span data-ttu-id="d3c0b-116">导入工作会导致空白删除屏幕。</span><span class="sxs-lookup"><span data-stu-id="d3c0b-116">Assignment import results in a blank remove screen.</span></span>
 
-<span data-ttu-id="9ebd3-117">**资源管理**</span><span class="sxs-lookup"><span data-stu-id="9ebd3-117">**Resource Management**</span></span>
+<span data-ttu-id="d3c0b-117">**资源管理**</span><span class="sxs-lookup"><span data-stu-id="d3c0b-117">**Resource Management**</span></span>
 
-<span data-ttu-id="9ebd3-118">已修复以下问题：</span><span class="sxs-lookup"><span data-stu-id="9ebd3-118">The following issues have been fixed:</span></span>
+<span data-ttu-id="d3c0b-118">已修复以下问题：</span><span class="sxs-lookup"><span data-stu-id="d3c0b-118">The following issues have been fixed:</span></span>
 
-- <span data-ttu-id="9ebd3-119">**资源利用率网格资源卡** 在时间刻度超过五天时显示错误的数据。</span><span class="sxs-lookup"><span data-stu-id="9ebd3-119">The **Resource utilization grid resource card** shows incorrect data when the time scale is more than five days.</span></span>
-- <span data-ttu-id="9ebd3-120">当客户创建可预订资源时，插件会间歇性地无法自动将资源添加到 Microsoft Office 365 组。</span><span class="sxs-lookup"><span data-stu-id="9ebd3-120">When customers create a bookable resource, the plug-in intermittently fails to automatically add the resource to a Microsoft Office 365 group.</span></span>
-- <span data-ttu-id="9ebd3-121">**协调** 视图在 **周** 或 **月** 视图中错误地显示手动信息。</span><span class="sxs-lookup"><span data-stu-id="9ebd3-121">**Reconciliation** view displays manual contours incorrectly in the **Week** or **Month** view.</span></span>
+- <span data-ttu-id="d3c0b-119">**资源利用率网格资源卡** 在时间刻度超过五天时显示错误的数据。</span><span class="sxs-lookup"><span data-stu-id="d3c0b-119">The **Resource utilization grid resource card** shows incorrect data when the time scale is more than five days.</span></span>
+- <span data-ttu-id="d3c0b-120">当客户创建可预订资源时，插件会间歇性地无法自动将资源添加到 Microsoft Office 365 组。</span><span class="sxs-lookup"><span data-stu-id="d3c0b-120">When customers create a bookable resource, the plug-in intermittently fails to automatically add the resource to a Microsoft Office 365 group.</span></span>
+- <span data-ttu-id="d3c0b-121">**协调** 视图在 **周** 或 **月** 视图中错误地显示手动信息。</span><span class="sxs-lookup"><span data-stu-id="d3c0b-121">**Reconciliation** view displays manual contours incorrectly in the **Week** or **Month** view.</span></span>
 
-<span data-ttu-id="9ebd3-122">**项目管理**</span><span class="sxs-lookup"><span data-stu-id="9ebd3-122">**Project Management**</span></span>
+<span data-ttu-id="d3c0b-122">**项目管理**</span><span class="sxs-lookup"><span data-stu-id="d3c0b-122">**Project Management**</span></span>
 
-<span data-ttu-id="9ebd3-123">已修复以下问题：</span><span class="sxs-lookup"><span data-stu-id="9ebd3-123">The following issues have been fixed:</span></span>
+<span data-ttu-id="d3c0b-123">已修复以下问题：</span><span class="sxs-lookup"><span data-stu-id="d3c0b-123">The following issues have been fixed:</span></span>
 
-- <span data-ttu-id="9ebd3-124">过多的 **usersettings 的 RetrieveMultiple** 实体导致项目审批和其他操作的性能下降。</span><span class="sxs-lookup"><span data-stu-id="9ebd3-124">An excessive number of **RetrieveMultiple for usersettings** entities are causing degraded performance for project approvals and other operations.</span></span>
-- <span data-ttu-id="9ebd3-125">**任务计划** 网格资源查找限制最多只显示项目团队的五个团队成员。</span><span class="sxs-lookup"><span data-stu-id="9ebd3-125">The **Task Planning** grid resource lookup is limited to only show up to five team members from the project team.</span></span> 
-- <span data-ttu-id="9ebd3-126">**任务计划** 网格资源查找不会筛选停用资源。</span><span class="sxs-lookup"><span data-stu-id="9ebd3-126">The **Task Planning** grid resource lookup does not filter inactive resources.</span></span>
-- <span data-ttu-id="9ebd3-127">手动模式未在项目计划工作分解结构中按预期工作。</span><span class="sxs-lookup"><span data-stu-id="9ebd3-127">Manual mode is not working as expected in the project planning work breakdown structure.</span></span>
-- <span data-ttu-id="9ebd3-128">**任务计划** 网格显示 **停用交易记录类别**。</span><span class="sxs-lookup"><span data-stu-id="9ebd3-128">The **Task Planning** grid shows **Inactive Transaction Categories**.</span></span>
-- <span data-ttu-id="9ebd3-129">当任务有多个工作时，**资源分配** 网格舍入不正确。</span><span class="sxs-lookup"><span data-stu-id="9ebd3-129">The **Resource Assignment** grid rounds incorrectly when a task has multiple assignments.</span></span>
-- <span data-ttu-id="9ebd3-130">单个任务的计划成本和实际成本的舍入值不同。</span><span class="sxs-lookup"><span data-stu-id="9ebd3-130">Rounding values are different between planned cost and actual cost for a single task.</span></span>
+- <span data-ttu-id="d3c0b-124">过多的 **usersettings 的 RetrieveMultiple** 实体导致项目审批和其他操作的性能下降。</span><span class="sxs-lookup"><span data-stu-id="d3c0b-124">An excessive number of **RetrieveMultiple for usersettings** entities are causing degraded performance for project approvals and other operations.</span></span>
+- <span data-ttu-id="d3c0b-125">**任务计划** 网格资源查找限制最多只显示项目团队的五个团队成员。</span><span class="sxs-lookup"><span data-stu-id="d3c0b-125">The **Task Planning** grid resource lookup is limited to only show up to five team members from the project team.</span></span> 
+- <span data-ttu-id="d3c0b-126">**任务计划** 网格资源查找不会筛选停用资源。</span><span class="sxs-lookup"><span data-stu-id="d3c0b-126">The **Task Planning** grid resource lookup does not filter inactive resources.</span></span>
+- <span data-ttu-id="d3c0b-127">手动模式未在项目计划工作分解结构中按预期工作。</span><span class="sxs-lookup"><span data-stu-id="d3c0b-127">Manual mode is not working as expected in the project planning work breakdown structure.</span></span>
+- <span data-ttu-id="d3c0b-128">**任务计划** 网格显示 **停用交易记录类别**。</span><span class="sxs-lookup"><span data-stu-id="d3c0b-128">The **Task Planning** grid shows **Inactive Transaction Categories**.</span></span>
+- <span data-ttu-id="d3c0b-129">当任务有多个工作时，**资源分配** 网格舍入不正确。</span><span class="sxs-lookup"><span data-stu-id="d3c0b-129">The **Resource Assignment** grid rounds incorrectly when a task has multiple assignments.</span></span>
+- <span data-ttu-id="d3c0b-130">单个任务的计划成本和实际成本的舍入值不同。</span><span class="sxs-lookup"><span data-stu-id="d3c0b-130">Rounding values are different between planned cost and actual cost for a single task.</span></span>
 
-<span data-ttu-id="9ebd3-131">**Sales**</span><span class="sxs-lookup"><span data-stu-id="9ebd3-131">**Sales**</span></span>
+<span data-ttu-id="d3c0b-131">**Sales**</span><span class="sxs-lookup"><span data-stu-id="d3c0b-131">**Sales**</span></span>
 
-<span data-ttu-id="9ebd3-132">已修复以下问题：</span><span class="sxs-lookup"><span data-stu-id="9ebd3-132">The following issues have been fixed:</span></span>
+<span data-ttu-id="d3c0b-132">已修复以下问题：</span><span class="sxs-lookup"><span data-stu-id="d3c0b-132">The following issues have been fixed:</span></span>
 
-- <span data-ttu-id="9ebd3-133">**提取所有交易记录类别** 双击创建多个行。</span><span class="sxs-lookup"><span data-stu-id="9ebd3-133">**Fetch All Transaction Categories** double-click creates multiple lines.</span></span>
+- <span data-ttu-id="d3c0b-133">**提取所有交易记录类别** 双击创建多个行。</span><span class="sxs-lookup"><span data-stu-id="d3c0b-133">**Fetch All Transaction Categories** double-click creates multiple lines.</span></span>
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]
