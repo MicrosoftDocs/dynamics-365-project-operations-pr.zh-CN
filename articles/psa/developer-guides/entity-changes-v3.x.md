@@ -16,12 +16,12 @@ search.audienceType:
 search.app:
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 48062eda1f524dd3ca0d5feccf11fd5577521275
-ms.sourcegitcommit: 418fa1fe9d605b8faccc2d5dee1b04b4e753f194
+ms.openlocfilehash: fa80f459260f30360e78a1e7bcc00706dbc0b5a4
+ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/10/2021
-ms.locfileid: "5148722"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5284887"
 ---
 # <a name="entity-control-and-user-interface-changes-project-service-automation-3x"></a>实体、控件和用户界面更改 (Project Service Automation 3.x)
 
