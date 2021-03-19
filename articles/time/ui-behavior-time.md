@@ -3,17 +3,17 @@ title: 时间条目 UI 行为
 description: 此主题提供有关时间条目 UI 的行为的信息。
 author: stsporen
 manager: AnnBe
-ms.date: 10/05/2020
+ms.date: 03/03/2021
 ms.topic: article
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: stsporen
-ms.openlocfilehash: 8719e2f9ee4867f17ed75142eca2115f61e37999
-ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
+ms.openlocfilehash: b552266eddc4efc1b41fc500d157239388ad219b
+ms.sourcegitcommit: f78087174a8512199a1bcbd7e8610bbc80e64801
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/28/2020
-ms.locfileid: "4124492"
+ms.lasthandoff: 03/04/2021
+ms.locfileid: "5499603"
 ---
 # <a name="time-entry-ui-behavior"></a>时间条目 UI 行为
 
@@ -21,6 +21,19 @@ _**适用于：** 基于资源/非库存场景的 Project Operations，精简部
 
 
 **周时间条目** 网格是一个自定义控件，有两个主部分，即 **维度** 和 **持续时间**。
+
+## <a name="keyboard-shortcuts"></a>快捷键
+| 操作​        | 快捷方式                  |
+|------------   |------------------------   |
+| 新建​​           | Alt + Shift + n           |
+| 复制行      | Alt + Shift + c           |
+| 编辑条目    | Alt + Shift + e           |
+| 编辑行      | Alt + Shift + Ctrl + e    |
+| 打开条目    | Alt + Shift + o           |
+| 提交​​        | Alt + Shift + s           |
+| 撤消        | Alt + Shift + r           |
+| Delete        | Alt + Shift + d           |
+| 复制周     | Alt + Shift + w           |
 
 ## <a name="dimensions"></a>维度
 **维度** 部分显示可用来输入时间的维度。 下图为支持的自带维度：

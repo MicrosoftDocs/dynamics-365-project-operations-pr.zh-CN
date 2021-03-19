@@ -1,5 +1,5 @@
 ---
-title: 使用手机计算支出
+title: 移动设备支出应用
 description: 此主题提供有关支出管理移动工作区的信息。
 author: suvaidya
 manager: AnnBe
@@ -15,14 +15,14 @@ ms.search.region: ''
 ms.author: shylaw
 ms.search.validFrom: ''
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: 51da574143b91df636d99f91d37470905a9b0529
-ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
+ms.openlocfilehash: 01df30bf48fa9118771b87363d0418eb6b49ecea
+ms.sourcegitcommit: f78087174a8512199a1bcbd7e8610bbc80e64801
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/28/2020
-ms.locfileid: "4120892"
+ms.lasthandoff: 03/04/2021
+ms.locfileid: "5499885"
 ---
-# <a name="expense-using-mobile"></a>使用手机计算支出
+# <a name="mobile-expense-app"></a>移动设备支出应用
 
 _**适用于：** 基于资源/非库存场景的 Project Operations，精简部署 - 估价开票交易_
 
