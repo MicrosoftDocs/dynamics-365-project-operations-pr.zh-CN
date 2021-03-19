@@ -8,18 +8,18 @@ ms.topic: article
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: 2ff830c63f7acf4cc23ac75d44afa9c3553b8724
-ms.sourcegitcommit: 625878bf48ea530f3381843be0e778cebbbf1922
+ms.openlocfilehash: d48da44f382e329a978a8ceee59c354d009f2114
+ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/30/2020
-ms.locfileid: "4175970"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5273007"
 ---
 # <a name="manage-project-price-lists-on-project-quotes---lite"></a>管理项目报价单上的项目价目表 - 精简
 
 _**适用于：** 精简部署 - 估价交易开票_
 
-项目报价单设计为支持多个有时效的销售价目表。 使用 Dynamics 365 Project Operations，将添加一个名为 **项目价目表** 的新关联实体。 此实体与项目报价单之间具有一对多关系。
+项目报价单设计为支持多个有时效的销售价目表。 通过 Dynamics 365 Project Operations，添加了名为 **项目价目表** 的新关联实体。 此实体与项目报价单之间具有一对多关系。
 
 项目价目表用于对项目的时间和支出交易进行定价。 当报价单具有一个或多个项目价目表时，这些价目表用于对通过报价单明细与报价单关联的项目的时间和支出预估以及实际值进行定价。
 

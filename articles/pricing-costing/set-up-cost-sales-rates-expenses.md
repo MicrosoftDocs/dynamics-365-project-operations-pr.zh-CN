@@ -8,18 +8,18 @@ ms.topic: article
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: b518c9eda00bef4d342dd66677344af516012749
-ms.sourcegitcommit: f6f86e80dfef15a7b5f9174b55dddf410522f7c8
+ms.openlocfilehash: ee52daae18c5f9f0b630e54359021fffe1759274
+ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/31/2020
-ms.locfileid: "4180271"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5274897"
 ---
 # <a name="set-up-cost-and-sales-rates-for-expenses"></a>设置支出的成本和销售费率
 
 _**适用于：** 基于资源/非库存场景的 Project Operations，精简部署 - 估价开票交易_
 
-您可以在 Dynamics 365 Project Operations 中设置交易类别的成本和销售价格。 由于成本和销售价格是针对支出设计的，因此，每个包含这些信息的交易类别也必须设置为支出类别。 此设置可确保下游功能的准确性。 交易类别的成本和销售价格只能以一种货币列出，且必须是价目表标头上的货币。
+您可以在 Dynamics 365 Project Operations 中为交易类别设置成本和销售价格。 由于成本和销售价格是针对支出设计的，因此，每个包含这些信息的交易类别也必须设置为支出类别。 此设置可确保下游功能的准确性。 交易类别的成本和销售价格只能以一种货币列出，且必须是价目表标头上的货币。
 
 若要设置交易类别的成本和销售费率，请完成以下步骤。 
 

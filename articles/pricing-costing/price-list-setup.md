@@ -8,18 +8,18 @@ ms.topic: article
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: 000c22944b187b6250f2e982d73020028093fde6
-ms.sourcegitcommit: f6f86e80dfef15a7b5f9174b55dddf410522f7c8
+ms.openlocfilehash: 34ee7bb157426507ec7ca8c031f5cb552e85099b
+ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/31/2020
-ms.locfileid: "4180181"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5275482"
 ---
 # <a name="set-up-price-lists"></a>设置价目表
 
 _**适用于：** 基于资源/非库存场景的 Project Operations，精简部署 - 估价开票交易_
 
-Dynamics 365 Project Operations 中的价目表代表费率目录。 费率表示成本、销售额和记帐费率。 根据价目表是表示成本费率还是销售额和记帐费率，价目表的上下文为 **销售** 或 **成本**。
+Dynamics 365 Project Operations 中的价目表表示费率目录。 费率表示成本、销售额和记帐费率。 根据价目表是表示成本费率还是销售额和记帐费率，价目表的上下文为 **销售** 或 **成本**。
 
 以下扩展项特定于 Project Operations，应用于 Dynamics 365 Sales 中的价目表。
 

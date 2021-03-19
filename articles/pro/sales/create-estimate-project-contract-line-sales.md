@@ -8,12 +8,12 @@ ms.topic: article
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: 2d0d8309fcb4300e33ed2f5933259f99ad7e0d6a
-ms.sourcegitcommit: f6f86e80dfef15a7b5f9174b55dddf410522f7c8
+ms.openlocfilehash: 186b982ee440576e10cf5b78922848b8877afd51
+ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/31/2020
-ms.locfileid: "4180406"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5273526"
 ---
 # <a name="estimate-a-projectbased-contract-line---lite"></a>估算基于项目的合同子项 - 精简
 

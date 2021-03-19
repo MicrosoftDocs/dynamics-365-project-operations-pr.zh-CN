@@ -8,12 +8,12 @@ ms.topic: article
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: f16634a87780c23d699d9ad535dd5e6d4ecb895d
-ms.sourcegitcommit: f6f86e80dfef15a7b5f9174b55dddf410522f7c8
+ms.openlocfilehash: 967e2170aac72de629ebb930e485b8cd6560b6ca
+ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/31/2020
-ms.locfileid: "4180931"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5272422"
 ---
 # <a name="summary-information-on-a-project-quote---lite"></a>项目报价单上的摘要信息 - 精简
 
@@ -21,7 +21,7 @@ _**适用于：** 精简部署 - 估价交易开票_
 
 本文介绍应用于项目报价单的信息。 这包括影响所有报价单明细的设置，以及有关跨所有明细项目汇总以驱动项目报价单的 KPI 的报价单的信息。
 
-下表列出了项目报价单中的摘要信息字段，这些字段是 Dynamics 365 Project Operations 所独有的，或者对 Dynamics 365 Sales 报价单中的行为有某些重要更改。
+下表列出了项目报价单中的摘要信息，这些字段是 Dynamics 365 Project Operations 中的唯一字段，这些字段与 Dynamics 365 Sales 报价单相比，行为有一些重要的变化。
 
 | **字段** | **位置** | **说明** | **下游影响** |
 | --- | --- | --- | --- |

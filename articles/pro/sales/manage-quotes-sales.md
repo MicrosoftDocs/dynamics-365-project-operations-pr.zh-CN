@@ -8,12 +8,12 @@ ms.topic: article
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: 3c33adabbd03cca19ae5e7f401f08a716e9242b2
-ms.sourcegitcommit: 625878bf48ea530f3381843be0e778cebbbf1922
+ms.openlocfilehash: 87921221ea210e67a3ddc53bd124f292de80de99
+ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/30/2020
-ms.locfileid: "4177815"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5272917"
 ---
 # <a name="manage-project-quotes"></a>管理项目报价单
 

@@ -18,12 +18,12 @@ ms.search.industry: Service industries
 ms.author: andchoi
 ms.dyn365.ops.version: 10.0.3
 ms.search.validFrom: 2019-05-29
-ms.openlocfilehash: 1ea1ca002a8f68f86808831b398e452244471322
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: 5dae571fce746b49281587f5349774a7f2c4111b
+ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4072658"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5270982"
 ---
 # <a name="implement-custom-fields-for-the-microsoft-dynamics-365-project-timesheet-mobile-app-on-ios-and-android"></a>为 iOS 和 Android 上的 Microsoft Dynamics 365 Project Timesheet 移动应用实施自定义字段
 
@@ -97,11 +97,11 @@ ms.locfileid: "4072658"
 
 ### <a name="iseditable-noyes"></a>isEditable (NoYes)
 
-如果将此属性设置为 **是** ，则指定用户应该可以编辑工时单条目部分中的字段。 如果将此属性设置为 **否** ，则将字段设置为只读字段。
+如果将此属性设置为 **是**，则指定用户应该可以编辑工时单条目部分中的字段。 如果将此属性设置为 **否**，则将字段设置为只读字段。
 
 ### <a name="ismandatory-noyes"></a>isMandatory (NoYes)
 
-如果将此属性设置为 **是** ，则指定工时单条目部分中的字段为必填字段。
+如果将此属性设置为 **是**，则指定工时单条目部分中的字段为必填字段。
 
 ### <a name="label-str"></a>label（字符串）
 
@@ -109,7 +109,7 @@ ms.locfileid: "4072658"
 
 ### <a name="stringoptions-list-of-strings"></a>stringOptions（字符串列表）
 
-仅当 **fieldBaseType** 设置为 **字符串** 时，此属性才适用。 如果设置 **stringOptions** ，则由列表中的字符串指定可通过选项按钮（单选按钮）选择的字符串值。 如果不提供字符串，则允许字符串字段中的自由文本条目（有关示例，请参阅本主题后面的“对 TSTimesheetEntryService 使用命令链将工时单条目从应用保存回数据库”部分）。
+仅当 **fieldBaseType** 设置为 **字符串** 时，此属性才适用。 如果设置 **stringOptions**，则由列表中的字符串指定可通过选项按钮（单选按钮）选择的字符串值。 如果不提供字符串，则允许字符串字段中的自由文本条目（有关示例，请参阅本主题后面的“对 TSTimesheetEntryService 使用命令链将工时单条目从应用保存回数据库”部分）。
 
 ### <a name="stringlength-int"></a>stringLength（整数）
 
@@ -179,9 +179,9 @@ ms.locfileid: "4072658"
 
 此代码用于控制字段在应用中的显示设置。 例如，控制字段的类型、标签，字段是否为必填字段，以及字段在哪个部分中显示。
 
-下面的示例显示时间条目中的一个字符串字段。 此字段有两个选项，即 **第一个选项** 和 **第二个选项** ，可通过选项按钮（单选按钮）启用这些选项。 应用中的字段与添加到 TSTimesheetLine 表的 **TestLineString** 字段关联。
+下面的示例显示时间条目中的一个字符串字段。 此字段有两个选项，即 **第一个选项** 和 **第二个选项**，可通过选项按钮（单选按钮）启用这些选项。 应用中的字段与添加到 TSTimesheetLine 表的 **TestLineString** 字段关联。
 
-请注意，使用 **TSTimesheetCustomField::newFromMetatdata()** 方法可以简化以下自定义字段属性的初始化： **fieldBaseType** 、 **tableName** 、 **fieldname** 、 **label** 、 **isEditable** 、 **isMandatory** 、 **stringLength** 和 **numberOfDecimals** 。 如果愿意，也可以手动设置这些参数。
+请注意，使用 **TSTimesheetCustomField::newFromMetatdata()** 方法可以简化以下自定义字段属性的初始化：**fieldBaseType**、**tableName**、**fieldname**、**label**、**isEditable**、**isMandatory**、**stringLength** 和 **numberOfDecimals**。 如果愿意，也可以手动设置这些参数。
 
 ```xpp
 ...
@@ -243,7 +243,7 @@ final class TsTimesheetEntry_Extension
 
 若要在典型使用时将自定义字段保存回数据库，必须扩展多个方法：
 
-- **timesheetLineNeedsUpdating** 方法用于确定应用中的用户是否已更改了行记录，以及是否必须将行记录保存到数据库。 如果不需要考虑性能，可以简化此方法，使其始终返回 **true** 。
+- **timesheetLineNeedsUpdating** 方法用于确定应用中的用户是否已更改了行记录，以及是否必须将行记录保存到数据库。 如果不需要考虑性能，可以简化此方法，使其始终返回 **true**。
 - 可扩展 **populateTimesheetLineFromEntryDuringCreate** 和 **populateTimesheetLineFromEntryDuringUpdate** 方法，以使其在 TSTimesheetLine 数据库记录中输入来自提供的 TSTimesheetEntry 数据合同记录的值。 请注意在下面的示例中，如何通过 X++ 代码手动完成了数据库字段与条目字段之间的映射。
 - 如果映射到 **TSTimesheetEntry** 对象的自定义字段必须写回到 TSTimesheetLineweek 数据库表，也可以扩展 **populateTimesheetWeekFromEntry** 方法。
 
@@ -406,11 +406,11 @@ final class TSTimesheetDetails_Extension
 
 ### <a name="adding-additional-validation-for-the-app"></a>为应用添加更多验证
 
-数据库级别工时单功能的现有逻辑仍然可以正常工作。 若要中断保存或提交操作的完成并显示特定错误消息，可通过命令链扩展向代码添加 **throw error("message to user")** 。 下面是有用的可扩展方法的三个示例：
+数据库级别工时单功能的现有逻辑仍然可以正常工作。 若要中断保存或提交操作的完成并显示特定错误消息，可通过命令链扩展向代码添加 **throw error("message to user")**。 下面是有用的可扩展方法的三个示例：
 
-- 如果在对工时表行执行保存操作期间对 TSTimesheetLine 表调用 **validateWrite** 返回了 **false** ，将在移动应用中显示错误消息。
-- 如果在应用中提交工时表期间对 TSTimesheetTable 表调用 **validateSubmit** 返回了 **false** ，将向用户显示错误消息。
-- 对 TSTimesheetLine 表调用 **insert** 方法期间，仍将运行用于填写字段（如 **行属性** ）的逻辑。
+- 如果在对工时表行执行保存操作期间对 TSTimesheetLine 表调用 **validateWrite** 返回了 **false**，将在移动应用中显示错误消息。
+- 如果在应用中提交工时表期间对 TSTimesheetTable 表调用 **validateSubmit** 返回了 **false**，将向用户显示错误消息。
+- 对 TSTimesheetLine 表调用 **insert** 方法期间，仍将运行用于填写字段（如 **行属性**）的逻辑。
 
 ### <a name="hiding-and-marking-out-of-box-fields-as-read-only-via-configuration"></a>通过配置隐藏现成字段和将此类字段标记为只读字段
 

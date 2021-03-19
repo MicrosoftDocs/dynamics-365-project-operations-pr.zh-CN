@@ -8,18 +8,18 @@ ms.topic: article
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: cf53f6909ed5fb9b143197118c799b9803699171
-ms.sourcegitcommit: f6f86e80dfef15a7b5f9174b55dddf410522f7c8
+ms.openlocfilehash: 733b7c83de8137aba6c084d5f03a2a4cf076a16c
+ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/31/2020
-ms.locfileid: "4181166"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5274402"
 ---
 # <a name="set-up-labor-bill-rates---lite"></a>设置人工帐单费率 - 精简
 
 _**适用于：** 精简部署 - 估价交易开票_
 
-每个价目表有一组角色价格或人工费率，这些信息对于价目表标头中包含的上下文和时效有效。 Dynamics 365 Project Operations 中的时间帐单费率只能以一种货币设置，即价目表标头中的货币。
+每个价目表有一组角色价格或人工费率，这些信息对于价目表标头中包含的上下文和时效有效。 只能使用一种货币（即“价目表”标头上的货币）设置 Dynamics 365 Project Operations 中的时间帐单费率。
 
 1. 若要为销售价目表设置人工帐单费率，请基于价目表标头创建一个价目表。 
 2. 在 **角色价格** 选项卡上的子网格中，选择 **+ 新建角色价格**。 

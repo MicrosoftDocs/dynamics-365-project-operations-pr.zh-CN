@@ -8,18 +8,18 @@ ms.topic: article
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: 67a69d521ac0a5632371138bd4fbb9dd00fe34ee
-ms.sourcegitcommit: f6f86e80dfef15a7b5f9174b55dddf410522f7c8
+ms.openlocfilehash: e49a95a04e9506e983d920c49d4c504d9f944c88
+ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/31/2020
-ms.locfileid: "4181486"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5275707"
 ---
 # <a name="copy-price-lists"></a>复制价目表
 
 _**适用于：** 基于资源/非库存场景的 Project Operations，精简部署 - 估价开票交易_
 
-您可以在 Dynamics 365 Project Operations 中创建价目表副本。 例如，您可以使用当前年度的价目表为下一年创建价目表。  或者，您可以从成本价目表复制记帐费率和销售价格的价目表。 
+您可以在 Dynamics 365 Project Operations 中创建价目表的副本。 例如，您可以使用当前年度的价目表为下一年创建价目表。  或者，您可以从成本价目表复制记帐费率和销售价格的价目表。 
 
 若要复制价目表，请完成以下步骤。
 

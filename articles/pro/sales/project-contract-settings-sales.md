@@ -8,12 +8,12 @@ ms.topic: article
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: 28dfb256eb75ca9484161f053969c205fcd60965
-ms.sourcegitcommit: f6f86e80dfef15a7b5f9174b55dddf410522f7c8
+ms.openlocfilehash: 870a583a4f7c9ed461207f65f267b529580cf02b
+ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/31/2020
-ms.locfileid: "4180901"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5272467"
 ---
 # <a name="project-contract-settings---lite"></a>项目合同设置 - 精简
 
@@ -21,7 +21,7 @@ _**适用于：** 精简部署 - 估价交易开票_
 
 此主题提供有关适用于整个项目合同的字段的信息，包括影响所有合同子项的设置。 还包括有关跨所有明细项目汇总以推动项目合同 KPI 的合同的信息。
 
-下表列出了项目合同中的字段，这些字段是 Dynamics 365 Project Operations 所独有的，或者对 Dynamics 365 Sales 中的销售订单的行为有某些重要更改。
+下表列出了项目合同中的特定字段，这些字段是 Dynamics 365 Project Operations 中的唯一字段，这些字段与 Dynamics 365 Sales 中的销售订单相比，行为有一些重要的变化。
 
 | 字段 | 地点 | 描述 | 下游影响 |
 | --- | --- | --- | --- |

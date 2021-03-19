@@ -8,18 +8,18 @@ ms.topic: article
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: eb09140eae5383b882db73195d0360a836ece791
-ms.sourcegitcommit: 625878bf48ea530f3381843be0e778cebbbf1922
+ms.openlocfilehash: 6e9ef33cc9c79f828e85733f4f5a199bce842700
+ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/30/2020
-ms.locfileid: "4177860"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5272647"
 ---
 # <a name="product-based-contract-lines-overview---lite"></a>基于产品的合同子项概述 - 精简
 
 _**适用于：** 精简部署 - 估价交易开票_
 
-您可以在 Dynamics 365 Project Operations 中创建基于产品的合同子项。 基于产品的合同子项可以是手动创建的明细，也可以是产品目录中的项。
+可在 Dynamics 365 Project Operations 中创建基于产品的合同子项。 基于产品的合同子项可以是手动创建的明细，也可以是产品目录中的项。
 
 ## <a name="product-catalog"></a>产品目录
 

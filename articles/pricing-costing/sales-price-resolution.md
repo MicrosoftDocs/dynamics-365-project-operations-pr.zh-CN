@@ -8,18 +8,18 @@ ms.topic: article
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: 8c18dd734312b2dd147381169f5c3dc38a68a601
-ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
+ms.openlocfilehash: 6e89e23189fa65057d7b955897924057c440ccd8
+ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/28/2020
-ms.locfileid: "4119542"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5274942"
 ---
 # <a name="resolve-sales-prices-for-estimates-and-actuals"></a>处理估算和实际值的售价
 
 _**适用于：** 面向资源/非库存场景的 Project Operations_
 
-当在 Dynamics 365 Project Operations 中解析估计值和实际值中的售价时，系统首先使用相关项目报价单或合同的日期和货币来解析销售价目表。 解析销售价目表后，系统将解析销售或记帐费率。
+在 Dynamics 365 Project Operations 中解析估计和实际销售价格时，系统首先使用相关项目报价单或合同的日期和货币来解析销售价目表。 解析销售价目表后，系统将解析销售或记帐费率。
 
 ## <a name="resolve-sales-rates-on-actual-and-estimate-lines-for-time"></a>解析时间的实际值和估计值明细中的销售费率
 

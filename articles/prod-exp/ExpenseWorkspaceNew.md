@@ -1,6 +1,6 @@
 ---
 title: 重新设计的支出报表
-description: 本主题介绍 Microsoft Dynamics 365 Finance 中经过重新设计和重构的支出报表录入体验。 新体验简化了填写支出报表的流程，并缩短了所需时间。
+description: 本主题提供有关重新设计和重新打造的支出报表输入体验的信息。
 author: ryansandness
 manager: AnnBe
 ms.date: 06/14/2019
@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: suvaidya
 ms.search.validFrom: 2019-6-30
 ms.dyn365.ops.version: 10.0.3
-ms.openlocfilehash: d076c0a596940cb08433f7ee57dea54903f6078f
-ms.sourcegitcommit: 9f31b33ed6e7f1b49200a407913201a1337f3401
+ms.openlocfilehash: 7533f8aca317bd8d72e437592b5251fd3a866ba6
+ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/14/2021
-ms.locfileid: "4960236"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5271972"
 ---
 # <a name="redesigned-expense-reports"></a>重新设计的支出报表
 
@@ -40,12 +40,6 @@ ms.locfileid: "4960236"
 - 将添加用于显示支出字段的新菜单项。
 - 支出报表（现有页面）或支出报表字段的现有菜单项未删除。
 - 工作流和所有审批仍会将您带到现有的支出报表页。
-
-## <a name="getting-started-video-for-new-users"></a>为新用户提供的入门视频
-
-> [!VIDEO https://www.microsoft.com/videoplayer/embed/RE2Y7gO]
-
-[Dynamics 365 for Finance and Operations 中的支出体验](https://youtu.be/Ocy-MsTvEE0)视频（上方所示）包含在 YouTube 上的 [Finance and Operations 播放列表](https://www.youtube.com/playlist?list=PLcakwueIHoT_SYfIaPGoOhloFoCXiUSyW)中。
 
 ## <a name="new-features"></a>新功能
 

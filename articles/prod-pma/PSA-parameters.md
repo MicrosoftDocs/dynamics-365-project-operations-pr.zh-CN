@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: ruhercul
 ms.search.validFrom: 2016-11-28
 ms.dyn365.ops.version: AX 7.3.0
-ms.openlocfilehash: 1a0cee090e0ecb306aa3bda62c79a57dfade93c0
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: b8faba1d799e360e58d47a02dc8b46e09fa0d393
+ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4072744"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5270892"
 ---
 # <a name="project-service-automation-integration-parameters"></a>Project Service Automation 集成参数
 
@@ -30,7 +30,7 @@ ms.locfileid: "4072744"
 
 在将 Dynamics 365 Project Service Automation 与 Dynamics 365 Finance 集成时，可在 **Project Service Automation 集成参数** 页面配置默认数据的输入方式。 必须设置以下字段，才能将项目从 Project Service Automation 成功同步到 Finance 中。
 
-若要打开 **Project Service Automation 集成参数** 页，请转到 **项目管理与核算** \> **设置** \> **Dynamics 365 for Project Service Automation 集成参数** 。 
+若要打开 **Project Service Automation 集成参数** 页，请转到 **项目管理与核算** \> **设置** \> **Dynamics 365 for Project Service Automation 集成参数**。 
 
 > [!NOTE]
 > - 版本 8.0 中提供项目任务集成、费用交易记录类别、工时估计值、费用估计值和功能锁定。
@@ -43,9 +43,9 @@ ms.locfileid: "4072744"
 |                        | 时间类别        | 选择默认时间类别。 从 Project Service Automation 同步工时估计值时使用该值。 从 Project Service Automation 同步工时估计值和工时实际值时，Finance 中的新项目工时预测的 **类别** 字段将设置为该值。 |
 |                        | 费用类别         | 选择默认费用类别。 从 Project Service Automation 同步费用实际值时使用该值。 从 Project Service Automation 同步费用实际值时，Finance 中的新费用交易记录的 **类别** 字段将设置为该值。 |
 | 项目组的默认值 | 项目类型         | 单击 **新建** 添加一行，可在该行中选择要为默认项目组设置的项目类型。 在配置中，特定项目类型只能选择一次。 |
-|                        | 项目组        | 为所选项目类型选择默认项目组。 从 Project Service Automation 同步新项目时，如果尚未在集成模板中提供默认值， **项目组** 字段将设置为项目类型的默认值。 |
+|                        | 项目组        | 为所选项目类型选择默认项目组。 从 Project Service Automation 同步新项目时，如果尚未在集成模板中提供默认值，**项目组** 字段将设置为项目类型的默认值。 |
 | 计费类型默认值  | 记帐类型         | 单击 **新建** 添加一行，可在该行中选择要为默认行属性设置的计费类型。 在配置中，特定计费类型只能选择一次。 |
-|                        | 行属性        | 为所选计费类型选择默认行属性。 从 Project Service Automation 同步新工时估计值、新费用估计值或新实际值时， **行属性** 字段将设置为计费类型的默认值。 |
+|                        | 行属性        | 为所选计费类型选择默认行属性。 从 Project Service Automation 同步新工时估计值、新费用估计值或新实际值时，**行属性** 字段将设置为计费类型的默认值。 |
 | 功能锁定  | 不适用       | 为源自 Project Service Automation 的项目和合同选择要在 Finance 中禁用的功能。 例如，可关闭 Finance 中的编辑合同和项目，创建工作分解结构以及输入工时单功能。 将继续启用与核算有关的字段，即使根据参数设置这些字段不可用也不例外。 默认情况下，将启用所有功能。 |
 
 

@@ -17,16 +17,16 @@ ms.search.industry: ''
 ms.author: kfend
 ms.dyn365.ops.version: ''
 ms.search.validFrom: 2020-10-01
-ms.openlocfilehash: 7fce84c9cc1f9c1beda73f403c052f779d10559f
-ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
+ms.openlocfilehash: 2b6a34e6c744e4b8ad9400f05844fefa005536a1
+ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/28/2020
-ms.locfileid: "4120802"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5275887"
 ---
 # <a name="dynamics-365-project-operations"></a>Dynamics 365 Project Operations
 
-Microsoft Dynamics 365 Project Operations 在一个应用程序中连接销售、资源、项目管理和财务团队，以赢得更多交易、加快项目交付，从而最大程度地提高收益。
+Microsoft Dynamics 365 Project Operations 在单个应用程序中连接销售、资源分配、项目管理和财务团队，以达成更多交易，加快项目交付，并实现利润最大化。
 
 -   **领导者获得业务见解** 以提高所有团队、数据和流程的可见性，获取 AI 功能来更好、更快地作出业务决策。
 -   **启用销售功能** 以赢得更多交易，并以快速准确的报价、灵活的定价以及从预估到执行的无缝转换来加快销售周期。
@@ -40,7 +40,7 @@ Project Operations 本身具有强大功能，但可以由需要 Dynamics 365 �
 有关详细信息，请参阅：
 
 - [Project Operations 概述](https://dynamics.microsoft.com/en-us/project-operations/overview/)
-- [Dynamics 365 Project Operations 2020 年发行版本第 1 波概览](https://docs.microsoft.com/dynamics365-release-plan/2020wave1/dynamics365-project-operations/)
+- [Dynamics 365 Project Operations 2020 年发行版本第 1 波概述](https://docs.microsoft.com/dynamics365-release-plan/2020wave1/dynamics365-project-operations/)
 
 
 

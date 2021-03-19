@@ -8,12 +8,12 @@ ms.topic: article
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: bdda1a940e733270399d092e543c3982c47174d0
-ms.sourcegitcommit: f6f86e80dfef15a7b5f9174b55dddf410522f7c8
+ms.openlocfilehash: 532eea802430e8b5a66c4a0d4348937708400347
+ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/31/2020
-ms.locfileid: "4181577"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5273062"
 ---
 # <a name="manage-multiple-customers-on-project-quotes---lite"></a>管理项目报价单上的多个客户 - 精简
 

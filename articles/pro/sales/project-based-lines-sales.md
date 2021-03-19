@@ -8,12 +8,12 @@ ms.topic: article
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: bba555003b76e3e87412679b274f74f68ac7203b
-ms.sourcegitcommit: f6f86e80dfef15a7b5f9174b55dddf410522f7c8
+ms.openlocfilehash: cac6125abc7269ee95667ae589d5a748b3d4190c
+ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/31/2020
-ms.locfileid: "4180991"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5272512"
 ---
 # <a name="project-based-opportunity-lines---lite"></a>基于项目的商机明细 - 精简
 
@@ -27,7 +27,7 @@ _**适用于：** 精简部署 - 估价交易开票_
 
 | **字段** | **位置** | **说明** | **下游影响** |
 | --- | --- | --- | --- |
-| 产品类型 | “常规”选项卡（隐藏） | 您可以选择以下选项之一：</br>- 基于项目的服务（仅在安装了 Dynamics 365 Project Operations 时可用）</br>- 产品（仅在安装了 Project Operations 和 Dynamics 365 Sales 时可用） | 当您从商机上的基于项目的明细网格创建基于项目的商机明细时，此字段的值将设置为 **基于项目的服务**。 <br> 如果您更改或替代此值，将不会在基于项目的明细项目上启用项目功能。 |
+| 产品类型 | “常规”选项卡（隐藏） | 您可以选择以下选项之一：</br>- 基于项目的服务（仅在安装 Dynamics 365 Project Operations 后可用）</br>- 产品（仅在安装了 Project Operations 和 Dynamics 365 Sales 时可用） | 当您从商机上的基于项目的明细网格创建基于项目的商机明细时，此字段的值将设置为 **基于项目的服务**。 <br> 如果您更改或替代此值，将不会在基于项目的明细项目上启用项目功能。 |
 | 商机​​ | “常规”选项卡 | 此字段是只读的，引用此明细项目所属的父商机记录。 | 此字段没有下游影响。 |
 | 客户 | “常规”选项卡 | 此可编辑文本字段可用于向明细项目提供短标识。 | 当您从此商机创建报价单时，此值将转移到报价单明细。 |
 | 客户预算 | “常规”选项卡 | 此可编辑的货币字段可用于跟踪客户愿意为此明细项目花费的金额。 | 当您从此商机创建报价单时，此值将转移到报价单明细上的相应字段。 |

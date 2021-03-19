@@ -8,19 +8,19 @@ ms.topic: article
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: e86f1a5a7b2859df5bf9569ee9ca306c6dcc6293
-ms.sourcegitcommit: 625878bf48ea530f3381843be0e778cebbbf1922
+ms.openlocfilehash: 63d9fc56f47c3bb7c5477af8f3bfa1be11a09a45
+ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/30/2020
-ms.locfileid: "4177995"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5272377"
 ---
 # <a name="quotes---key-concepts---lite"></a>报价单 - 关键概念 - 精简
 
 _**适用于：** 精简部署 - 估价交易开票_
 
 
-以下是在 Dynamics 365 Project Operations 中开始使用项目报价单之前要知道的关键概念：
+在 Dynamics 365 Project Operations 中开始使用项目报价单之前，要了解以下关键概念：
 
 ## <a name="contracting-unit"></a>合同签订部门
 

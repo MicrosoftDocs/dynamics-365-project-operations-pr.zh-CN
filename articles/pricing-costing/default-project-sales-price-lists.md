@@ -8,12 +8,12 @@ ms.topic: article
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: fd29a3fc9c873d46dd66a05ad100c7515177d6cd
-ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
+ms.openlocfilehash: 04c97429ab8ac769dd22b4127432d80de8fde937
+ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/28/2020
-ms.locfileid: "4130927"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5275572"
 ---
 # <a name="default-price-lists"></a>默认价目表
 
@@ -21,7 +21,7 @@ _**适用于：** 基于资源/非库存场景的 Project Operations，精简部
 
 ## <a name="sales-price-lists"></a>销售价目表
 
-Dynamics 365 Project Operations 中的每个项目报价单和合同都包含一个默认的销售价目表。 
+Dynamics 365 Project Operations 中的每个项目报价单和合同都包含一个默认销售价目表。 
 
 ### <a name="price-list-default-on-project-quotes"></a>项目报价单上的默认价目表
 系统将完成以下过程来确定项目报价单上默认使用哪个价目表：

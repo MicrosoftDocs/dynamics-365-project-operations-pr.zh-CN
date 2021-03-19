@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: andchoi
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 34a3ea3dda64969fe66248e295cd3dd8bbe72a05
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: db96ffc5fdd6bc759cd35fff0a39a64d9854a4f0
+ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4072629"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5270622"
 ---
 # <a name="manage-resource-competencies"></a>管理资源能力
 
@@ -40,19 +40,19 @@ ms.locfileid: "4072629"
 ## <a name="set-up-competencies-certificates"></a>设置能力：证书
 
 1. 在 **工作人员** 列表页上，选择您要为其添加证书信息的工作人员的行。
-2. 在操作窗格的 **工作人员** 选项卡的 **能力** 组中，选择 **证书** 。
-3. 选择 **新建** ，然后在 **证书类型** 字段中选择 **PMP** 。
-4. 在 **开始日期** 字段中，选择 **10/1/2015** ，并选择 **保存** 。
+2. 在操作窗格的 **工作人员** 选项卡的 **能力** 组中，选择 **证书**。
+3. 选择 **新建**，然后在 **证书类型** 字段中选择 **PMP**。
+4. 在 **开始日期** 字段中，选择 **10/1/2015**，并选择 **保存**。
 
 ## <a name="set-up-competencies-skills"></a>设置能力：技能
 
-1. 在 **工作人员** 列表页，确保仍然选择在上一过程中使用的工作人员。 然后在操作窗格的 **工作人员** 选项卡的 **能力** 组中，选择 **技能** 。
-2. 选择 **新建** 。
-3. 在 **技能** 字段中，选择 **项目管理** 。
-4. 在 **级别** 字段中选择 **5 专家** 。
-5. 在 **等级日期** 字段中，选择 **1-/14/2014** 。
-6. 在 **年资** 字段中，输入 **10** 。
-7. 选择 **保存** ，然后关闭页面。
+1. 在 **工作人员** 列表页，确保仍然选择在上一过程中使用的工作人员。 然后在操作窗格的 **工作人员** 选项卡的 **能力** 组中，选择 **技能**。
+2. 选择 **新建**。
+3. 在 **技能** 字段中，选择 **项目管理**。
+4. 在 **级别** 字段中选择 **5 专家**。
+5. 在 **等级日期** 字段中，选择 **1-/14/2014**。
+6. 在 **年资** 字段中，输入 **10**。
+7. 选择 **保存**，然后关闭页面。
 
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

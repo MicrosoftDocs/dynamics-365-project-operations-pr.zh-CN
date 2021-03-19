@@ -9,12 +9,12 @@ ms.prod: ''
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: sigitac
-ms.openlocfilehash: bfa13ab74031eb52c128fed16a31e3a8167e8bde
-ms.sourcegitcommit: ec8ab099a03725de9f61edfdeb90fbefae54cd4e
+ms.openlocfilehash: 383fa01a7d79989aef041a8fd68749446aeba367
+ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 12/09/2020
-ms.locfileid: "4707662"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5272197"
 ---
 # <a name="whats-new-december-2020---project-operations-lite-deployment---deal-to-proforma-invoicing"></a>2020 年 12 月新增功能 - Project Operations 精简部署 - 估价交易开票
 
