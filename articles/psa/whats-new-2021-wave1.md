@@ -17,12 +17,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 3895f06c6a401f200cf832940ef85eaa8d66fbb2
-ms.sourcegitcommit: 418fa1fe9d605b8faccc2d5dee1b04b4e753f194
+ms.openlocfilehash: d99906b11b0189fc8227accd68bd0457f6baa42c
+ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/10/2021
-ms.locfileid: "5151152"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5281152"
 ---
 # <a name="whats-new-or-changed-in-project-service-automation-early-access-wave-1-2021-v3"></a>Project Service Automation 2021 年提前访问第 1 波 V3 的新增或变更功能
 

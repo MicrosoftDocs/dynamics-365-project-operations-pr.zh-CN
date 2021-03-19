@@ -17,12 +17,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: ee3be43da401af405ab329b9b5a724a2e95c0219
-ms.sourcegitcommit: 418fa1fe9d605b8faccc2d5dee1b04b4e753f194
+ms.openlocfilehash: db416343ac9ac2591007e83be80493a48f9ae904
+ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/10/2021
-ms.locfileid: "5147102"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5280657"
 ---
 # <a name="project-service-automation-update-release-20-v3"></a>Project Service Automation V3 更新版本 20
 
@@ -42,7 +42,7 @@ ms.locfileid: "5147102"
 
 - 如果使用需要数小时的分配方法导入项目团队成员，而指定的小时数为零，则会产生不明错误消息。
 - 如果在项目任务的 **说明** 字段中输入的字符达到了最大数量，用户将收到“不正确”错误。
-- 如果用户的语言设置设置为日语，**Microsoft Dynamics 365 Project Service Automation 加载项下载** 页面将重定向到英文下载页面。
+- 当用户的语言设置设为日语时，**Microsoft Dynamics 365 Project Service Automation 加载项下载** 页会重定向到英语下载页。
 - 发生服务器错误时，**项目** 窗体 **日程安排** 选项卡上的同步标签有时不会消失。
 - 修改任务，正在向服务器发送冗余任务更新。
 

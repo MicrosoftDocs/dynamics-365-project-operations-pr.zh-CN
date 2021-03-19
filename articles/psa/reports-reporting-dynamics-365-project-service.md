@@ -18,14 +18,14 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 25486b0c153842cab4331f27eea4872f848bea50
-ms.sourcegitcommit: 418fa1fe9d605b8faccc2d5dee1b04b4e753f194
+ms.openlocfilehash: 78c62f69c6529669789a461f1ded8e3ea5f8219e
+ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/10/2021
-ms.locfileid: "5147687"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5283267"
 ---
-# <a name="reporting-home-page"></a>报表主页
+# <a name="reporting-home-page"></a>报告主页
 
 [!include [banner](../includes/psa-now-project-operations.md)]
 
@@ -43,7 +43,7 @@ ms.locfileid: "5147687"
 
 ## <a name="power-bi-insights-apps"></a>Power BI 见解应用程序
 
-Microsoft Power BI 和 Dynamics 365 一起以见解应用程序的形式让您可以妥善处理数据。 有关见解应用程序可用性的信息，请参阅 [Power BI见解应用程序页](https://powerbi.microsoft.com/power-bi-insights-apps/)。
+Microsoft Power BI 和 Dynamics 365 一起以见解应用的形式让您可以妥善处理数据。 有关见解应用程序可用性的信息，请参阅 [Power BI见解应用程序页](https://powerbi.microsoft.com/power-bi-insights-apps/)。
 
 
 ## <a name="additional-resources"></a>其他资源

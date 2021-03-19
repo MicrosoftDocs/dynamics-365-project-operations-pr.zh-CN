@@ -18,12 +18,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: d8c212ef2c9fd9dcd6be0b8f0a31aa5a948176bc
-ms.sourcegitcommit: 418fa1fe9d605b8faccc2d5dee1b04b4e753f194
+ms.openlocfilehash: 25f1af15c03001a92f96689ff36a3159a5352a46
+ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/10/2021
-ms.locfileid: "5147642"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5283222"
 ---
 # <a name="working-with-the-project-service-automation-data-model"></a>使用 Project Service Automation 数据模型
 
@@ -87,7 +87,7 @@ PSA 为合同增加的其他实体是 **项目合同明细项目价目表**、**
 
 ## <a name="reporting-on-resources"></a>资源的报告
 
-项目资源使用 Universal Resource Scheduling (URS) 中与其他应用程序（如 Microsoft Dynamics 365 Field Service）共享的 **可预订资源** 实体。 下面是报告项目资源时可能必须使用的实体的列表。
+项目资源使用 Universal Resource Scheduling (URS) 中与其他应用（如 Microsoft Dynamics 365 Field Service）共享的 **可预订资源** 实体。 下面是报告项目资源时可能必须使用的实体的列表。
 
 - **可预订资源** – 此实体表示项目团队使用的用户、联系人、通用资源、帐户、组或设备。
 - **可预订资源特征** – 此实体包括资源的技能、认证或教育情况。 这些特征可能有由分级模型定义的等级值。
