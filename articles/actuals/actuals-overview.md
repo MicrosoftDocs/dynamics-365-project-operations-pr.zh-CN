@@ -1,6 +1,6 @@
 ---
 title: 实际值
-description: 此主题提供有关如何在 Microsoft Dynamics 365 Project Operations 中使用实际值的信息。
+description: 本主题提供有关如何在 Microsoft Dynamics 365 Project Operations 中使用实际值的信息。
 author: rumant
 manager: AnnBe
 ms.date: 09/16/2020
@@ -16,12 +16,12 @@ ms.search.region: ''
 ms.search.industry: ''
 ms.author: rumant
 ms.search.validFrom: 2020-10-01
-ms.openlocfilehash: 13c429763fa805fae5324e4dcf1bf7669e842281
-ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
+ms.openlocfilehash: 6a94bd143b0d0dad2a08511a34e592a057b6d2a1
+ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/28/2020
-ms.locfileid: "4126292"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5291788"
 ---
 # <a name="actuals"></a>实际值 
 
@@ -70,7 +70,7 @@ _**适用于：** 面向资源/非库存场景的 Project Operations_
 您可以使用条目日记帐记录材料、费用、时间、支出或税务交易类的成本或收入。 日记帐可以用于以下目的：
 
 - 记录项目的材料实际成本和销售额。
-- 将交易实际值从另一个系统移至 Microsoft Dynamics 365 Project Operations。
+- 将交易实际值从另一个系统移到 Microsoft Dynamics 365 Project Operations。
 - 记录另一个系统中发生的成本。 这些成本可能包括采购成本或分包成本。
 
 > [!IMPORTANT]

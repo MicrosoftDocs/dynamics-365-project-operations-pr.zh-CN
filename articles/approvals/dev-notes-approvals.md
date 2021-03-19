@@ -8,12 +8,12 @@ ms.topic: article
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: stsporen
-ms.openlocfilehash: 9e4e910d0ff0a5f2603148fcc5daa0d423a4d174
-ms.sourcegitcommit: a9dbcd3aff4c6ae495412e4980e105ae160fd1ec
+ms.openlocfilehash: d58c776b0341c08b0292e1b459a7d7ebac550bcc
+ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/10/2020
-ms.locfileid: "4483937"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5290258"
 ---
 # <a name="developer-notes-for-approvals"></a>审批开发人员注释
 

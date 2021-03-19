@@ -18,12 +18,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: fb4ba934c444b3447f42c78b4dd1244185bb2f7e
-ms.sourcegitcommit: 418fa1fe9d605b8faccc2d5dee1b04b4e753f194
+ms.openlocfilehash: 13d309ac8200c114624cec69fa124d6af766cba8
+ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/10/2021
-ms.locfileid: "5144807"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5290483"
 ---
 # <a name="create-a-customer-account-project-service"></a>创建客户帐户 (Project Service)
 

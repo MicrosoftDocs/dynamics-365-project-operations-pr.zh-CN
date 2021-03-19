@@ -8,16 +8,16 @@ ms.topic: article
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: sigitac
-ms.openlocfilehash: 6f4360b7febab57b97df0776ef9148d2a38f16a7
-ms.sourcegitcommit: 625878bf48ea530f3381843be0e778cebbbf1922
+ms.openlocfilehash: 44edf2613ea4b26dadbd9edc47c784c488c577de
+ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/30/2020
-ms.locfileid: "4175880"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5290033"
 ---
 # <a name="sign-up-for-a-preview-subscription---lite"></a>注册获取预览订阅 - 精简 
 
-此主题说明如何订阅预览合作伙伴产品/服务以及部署“Dynamics 365 Project Operations 精简部署 - 估价交易开票”。
+本主题说明如何订阅预览版合作伙伴产品/服务，并进行 Dynamics 365 Project Operations 精简部署 - 估价交易开单。
 
 > [!NOTE]
 > 此流程将在即将发布的 Project Operations 中更改。
@@ -42,7 +42,7 @@ ms.locfileid: "4175880"
 
 在开始之前，请确保已使用需要 Project Operations 预览的租户中的用户工作帐户登录到浏览器。
 
-1. 通过将服务代码粘贴到浏览器 URL 中来兑换第一个服务代码 **Dynamics 365 Project Operations (CRM) - 预览试用**。
+1. 通过将第一个服务代码 **Dynamics 365 Project Operations (CRM) - 预览试用** 粘贴到浏览器 URL 来兑换它。
 
 ![兑换服务](./media/16RedeemFirstOfferNew.png)
 
@@ -71,7 +71,7 @@ ms.locfileid: "4175880"
 
 ![分配许可证](./media/15AssignLicenses.png)
 
-3. 确认已选择 **Dynamics 365 Project Operations (CRM) 预览** 和 **Office 365 Project Operations - 预览** 许可证。 
+3. 验证是否选择了 **Dynamics 365 Project Operations (CRM) 预览版** 和 **Office 365 Project Operations - 预览版** 许可证。 
 4. 选择 **保存更改**。
 
 ## <a name="create-a-new-cds-environment"></a>创建新 CDS 环境
@@ -84,7 +84,7 @@ ms.locfileid: "4175880"
 
 ![添加数据库](./media/20CreateEnvironment1.png)
 
-4. 创建环境后，安装 **Microsoft Dynamics 365 Project Operations** 解决方案。 
+4. 创建该环境后，安装 **Microsoft Dynamics 365 Project Operations** 解决方案。 
 
 ![安装解决方案](./media/21InstallSolution.png)
 
