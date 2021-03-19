@@ -8,29 +8,32 @@ ms.topic: article
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: ruhercul
-ms.openlocfilehash: 454b8931db53739a7bc19364911109802a1ed087
-ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
+ms.openlocfilehash: 98a61746f172b50bf6fa29cb0d21462cd616f417
+ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/28/2020
-ms.locfileid: "4127338"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5286507"
 ---
-# <a name="resource-estimates"></a><span data-ttu-id="dd549-103">资源预估</span><span class="sxs-lookup"><span data-stu-id="dd549-103">Resource estimates</span></span>
+# <a name="resource-estimates"></a><span data-ttu-id="96d14-103">资源预估</span><span class="sxs-lookup"><span data-stu-id="96d14-103">Resource estimates</span></span>
 
-<span data-ttu-id="dd549-104">_**适用于：** 基于资源/非库存场景的 Project Operations，精简部署 - 估价开票交易_</span><span class="sxs-lookup"><span data-stu-id="dd549-104">_**Applies To:** Project Operations for resource/non-stocked based scenarios, Lite deployment - deal to proforma invoicing_</span></span>
+<span data-ttu-id="96d14-104">_**适用于：** 基于资源/非库存场景的 Project Operations，精简部署 - 估价开票交易_</span><span class="sxs-lookup"><span data-stu-id="96d14-104">_**Applies To:** Project Operations for resource/non-stocked based scenarios, Lite deployment - deal to proforma invoicing_</span></span>
 
-<span data-ttu-id="dd549-105">资源预估来自工作分解结构中定义的分时段工作量以及适用的定价维度。</span><span class="sxs-lookup"><span data-stu-id="dd549-105">Resource estimates come from time-phased effort that is defined in the work breakdown structure along with applicable pricing dimensions.</span></span> <span data-ttu-id="dd549-106">通常，计算方式是 **每个角色的费率/小时 x 时数**。</span><span class="sxs-lookup"><span data-stu-id="dd549-106">Typically, the calculation is **rate/hr for each role x hours.**</span></span> <span data-ttu-id="dd549-107">每个资源的分时段工作量存储在资源分配记录中。</span><span class="sxs-lookup"><span data-stu-id="dd549-107">The time-phased effort for each resource is stored in the resource assignment record.</span></span> <span data-ttu-id="dd549-108">定价存储在预定义的价目表中。</span><span class="sxs-lookup"><span data-stu-id="dd549-108">The pricing is stored in a pre-defined price list.</span></span> <span data-ttu-id="dd549-109">单位转换基于适用的价目表应用。</span><span class="sxs-lookup"><span data-stu-id="dd549-109">Unit conversion is applied based on the applicable price list.</span></span>
+<span data-ttu-id="96d14-105">资源预估来自工作分解结构中定义的分时段工作量以及适用的定价维度。</span><span class="sxs-lookup"><span data-stu-id="96d14-105">Resource estimates come from time-phased effort that is defined in the work breakdown structure along with applicable pricing dimensions.</span></span> <span data-ttu-id="96d14-106">通常，计算方式是 **每个角色的费率/小时 x 时数**。</span><span class="sxs-lookup"><span data-stu-id="96d14-106">Typically, the calculation is **rate/hr for each role x hours.**</span></span> <span data-ttu-id="96d14-107">每个资源的分时段工作量存储在资源分配记录中。</span><span class="sxs-lookup"><span data-stu-id="96d14-107">The time-phased effort for each resource is stored in the resource assignment record.</span></span> <span data-ttu-id="96d14-108">定价存储在预定义的价目表中。</span><span class="sxs-lookup"><span data-stu-id="96d14-108">The pricing is stored in a pre-defined price list.</span></span> <span data-ttu-id="96d14-109">单位转换基于适用的价目表应用。</span><span class="sxs-lookup"><span data-stu-id="96d14-109">Unit conversion is applied based on the applicable price list.</span></span>
 
 ![资源预估](./media/navigation12.png)
 
-## <a name="default-cost-price-and-cost-currency"></a><span data-ttu-id="dd549-111">默认成本费和成本货币</span><span class="sxs-lookup"><span data-stu-id="dd549-111">Default cost price and cost currency</span></span>
+## <a name="default-cost-price-and-cost-currency"></a><span data-ttu-id="96d14-111">默认成本费和成本货币</span><span class="sxs-lookup"><span data-stu-id="96d14-111">Default cost price and cost currency</span></span>
 
-<span data-ttu-id="dd549-112">成本费默认为部门中的值。</span><span class="sxs-lookup"><span data-stu-id="dd549-112">Cost prices are defaulted from the Organizational Unit.</span></span>
+<span data-ttu-id="96d14-112">成本费默认为部门中的值。</span><span class="sxs-lookup"><span data-stu-id="96d14-112">Cost prices are defaulted from the Organizational Unit.</span></span>
 
-## <a name="default-bill-rate-and-sales-currency"></a><span data-ttu-id="dd549-113">默认帐单费率和销售货币</span><span class="sxs-lookup"><span data-stu-id="dd549-113">Default bill rate and sales currency</span></span>
+## <a name="default-bill-rate-and-sales-currency"></a><span data-ttu-id="96d14-113">默认帐单费率和销售货币</span><span class="sxs-lookup"><span data-stu-id="96d14-113">Default bill rate and sales currency</span></span>
 
-<span data-ttu-id="dd549-114">每笔交易应用一次售价。</span><span class="sxs-lookup"><span data-stu-id="dd549-114">Sales prices are applied once per deal.</span></span> <span data-ttu-id="dd549-115">销售价目表的默认层次结构如下：</span><span class="sxs-lookup"><span data-stu-id="dd549-115">The hierarchy for sale price list defaulting is as follows:</span></span>
+<span data-ttu-id="96d14-114">每笔交易应用一次售价。</span><span class="sxs-lookup"><span data-stu-id="96d14-114">Sales prices are applied once per deal.</span></span> <span data-ttu-id="96d14-115">销售价目表的默认层次结构如下：</span><span class="sxs-lookup"><span data-stu-id="96d14-115">The hierarchy for sale price list defaulting is as follows:</span></span>
 
-1. <span data-ttu-id="dd549-116">组织</span><span class="sxs-lookup"><span data-stu-id="dd549-116">Organization</span></span>
-2. <span data-ttu-id="dd549-117">客户</span><span class="sxs-lookup"><span data-stu-id="dd549-117">Customer</span></span>
-3. <span data-ttu-id="dd549-118">报价单/合同</span><span class="sxs-lookup"><span data-stu-id="dd549-118">Quote/contract</span></span>
+1. <span data-ttu-id="96d14-116">组织</span><span class="sxs-lookup"><span data-stu-id="96d14-116">Organization</span></span>
+2. <span data-ttu-id="96d14-117">客户</span><span class="sxs-lookup"><span data-stu-id="96d14-117">Customer</span></span>
+3. <span data-ttu-id="96d14-118">报价单/合同</span><span class="sxs-lookup"><span data-stu-id="96d14-118">Quote/contract</span></span>
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]
