@@ -18,40 +18,43 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 802da28a9079ae348aae14e260f280ef17f346f5
-ms.sourcegitcommit: 418fa1fe9d605b8faccc2d5dee1b04b4e753f194
+ms.openlocfilehash: b2b711977baaae9dabbdf49a3b4a6f3bad9dec18
+ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/10/2021
-ms.locfileid: "5151512"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5290708"
 ---
-# <a name="configure-expense-categories-project-service"></a><span data-ttu-id="1a607-103">配置费用类别 (Project Service)</span><span class="sxs-lookup"><span data-stu-id="1a607-103">Configure expense categories (Project Service)</span></span>
+# <a name="configure-expense-categories-project-service"></a><span data-ttu-id="99042-103">配置费用类别 (Project Service)</span><span class="sxs-lookup"><span data-stu-id="99042-103">Configure expense categories (Project Service)</span></span>
 
 [!include [banner](../includes/psa-now-project-operations.md)]
 
 [!INCLUDE[cc-applies-to-psa-app-1x-2x](../includes/cc-applies-to-psa-app-1x-2x.md)]
 
-<span data-ttu-id="1a607-104">顾问为您的客户工作时，将产生费用，包括机票、餐饮、差旅等费用。</span><span class="sxs-lookup"><span data-stu-id="1a607-104">Your consultants incur expenses when they work for your clients, including airfare, meals, mileage, and other expenses.</span></span> <span data-ttu-id="1a607-105">请设置顾问可用于输入其费用的费用类别，以便您向客户开这些费用的发票。</span><span class="sxs-lookup"><span data-stu-id="1a607-105">Set up expense categories your consultants can use to enter their expenses, so you can invoice your client for those expenses.</span></span>  
+<span data-ttu-id="99042-104">顾问为您的客户工作时，将产生费用，包括机票、餐饮、差旅等费用。</span><span class="sxs-lookup"><span data-stu-id="99042-104">Your consultants incur expenses when they work for your clients, including airfare, meals, mileage, and other expenses.</span></span> <span data-ttu-id="99042-105">请设置顾问可用于输入其费用的费用类别，以便您向客户开这些费用的发票。</span><span class="sxs-lookup"><span data-stu-id="99042-105">Set up expense categories your consultants can use to enter their expenses, so you can invoice your client for those expenses.</span></span>  
   
-<span data-ttu-id="1a607-106">每种费用类别都可以有自己的计价单位组和计价单位。</span><span class="sxs-lookup"><span data-stu-id="1a607-106">Each expense category can have its own unit group and unit.</span></span> <span data-ttu-id="1a607-107">可以为向费用类别分派的计价单位组中每个计价单位的每个费用类别定义价格。</span><span class="sxs-lookup"><span data-stu-id="1a607-107">You can define pricing for each expense category for each unit in the unit group assigned to the expense category.</span></span>  
+<span data-ttu-id="99042-106">每种费用类别都可以有自己的计价单位组和计价单位。</span><span class="sxs-lookup"><span data-stu-id="99042-106">Each expense category can have its own unit group and unit.</span></span> <span data-ttu-id="99042-107">可以为向费用类别分派的计价单位组中每个计价单位的每个费用类别定义价格。</span><span class="sxs-lookup"><span data-stu-id="99042-107">You can define pricing for each expense category for each unit in the unit group assigned to the expense category.</span></span>  
   
-1.  <span data-ttu-id="1a607-108">转到 **Project Service > 费用类别**。</span><span class="sxs-lookup"><span data-stu-id="1a607-108">Go to **Project Service > Expense Categories**.</span></span>  
+1.  <span data-ttu-id="99042-108">转到 **Project Service > 费用类别**。</span><span class="sxs-lookup"><span data-stu-id="99042-108">Go to **Project Service > Expense Categories**.</span></span>  
   
-2.  <span data-ttu-id="1a607-109">单击 **新建**。</span><span class="sxs-lookup"><span data-stu-id="1a607-109">Click **New**.</span></span>  
+2.  <span data-ttu-id="99042-109">单击 **新建**。</span><span class="sxs-lookup"><span data-stu-id="99042-109">Click **New**.</span></span>  
   
-3.  <span data-ttu-id="1a607-110">在 **常规** 区域中，根据需要填写字段。</span><span class="sxs-lookup"><span data-stu-id="1a607-110">In the **General** area, fill in the fields as needed.</span></span> <span data-ttu-id="1a607-111">最好至少设置以下费用类别：</span><span class="sxs-lookup"><span data-stu-id="1a607-111">It’s a good practice to set up the following expense categories at a minimum:</span></span>  
+3.  <span data-ttu-id="99042-110">在 **常规** 区域中，根据需要填写字段。</span><span class="sxs-lookup"><span data-stu-id="99042-110">In the **General** area, fill in the fields as needed.</span></span> <span data-ttu-id="99042-111">最好至少设置以下费用类别：</span><span class="sxs-lookup"><span data-stu-id="99042-111">It’s a good practice to set up the following expense categories at a minimum:</span></span>  
   
-    -   <span data-ttu-id="1a607-112">机票</span><span class="sxs-lookup"><span data-stu-id="1a607-112">Airfare</span></span>  
+    -   <span data-ttu-id="99042-112">机票</span><span class="sxs-lookup"><span data-stu-id="99042-112">Airfare</span></span>  
   
-    -   <span data-ttu-id="1a607-113">酒店</span><span class="sxs-lookup"><span data-stu-id="1a607-113">Hotel</span></span>  
+    -   <span data-ttu-id="99042-113">酒店</span><span class="sxs-lookup"><span data-stu-id="99042-113">Hotel</span></span>  
   
-    -   <span data-ttu-id="1a607-114">餐饮</span><span class="sxs-lookup"><span data-stu-id="1a607-114">Meal</span></span>  
+    -   <span data-ttu-id="99042-114">餐饮</span><span class="sxs-lookup"><span data-stu-id="99042-114">Meal</span></span>  
   
-    -   <span data-ttu-id="1a607-115">汽车租赁</span><span class="sxs-lookup"><span data-stu-id="1a607-115">Car rental</span></span>  
+    -   <span data-ttu-id="99042-115">汽车租赁</span><span class="sxs-lookup"><span data-stu-id="99042-115">Car rental</span></span>  
   
-    -   <span data-ttu-id="1a607-116">每日</span><span class="sxs-lookup"><span data-stu-id="1a607-116">Per diem</span></span>  
+    -   <span data-ttu-id="99042-116">每日</span><span class="sxs-lookup"><span data-stu-id="99042-116">Per diem</span></span>  
   
-4.  <span data-ttu-id="1a607-117">单击屏幕右下角的 **保存**。</span><span class="sxs-lookup"><span data-stu-id="1a607-117">Click **Save** at the bottom right corner of the screen.</span></span>  
+4.  <span data-ttu-id="99042-117">单击屏幕右下角的 **保存**。</span><span class="sxs-lookup"><span data-stu-id="99042-117">Click **Save** at the bottom right corner of the screen.</span></span>  
   
-### <a name="see-also"></a><span data-ttu-id="1a607-118">另请参阅</span><span class="sxs-lookup"><span data-stu-id="1a607-118">See Also</span></span>  
- [<span data-ttu-id="1a607-119">配置 Project Service Automation</span><span class="sxs-lookup"><span data-stu-id="1a607-119">Configure Project Service Automation</span></span>](../psa/configure.md)
+### <a name="see-also"></a><span data-ttu-id="99042-118">另请参阅</span><span class="sxs-lookup"><span data-stu-id="99042-118">See Also</span></span>  
+ [<span data-ttu-id="99042-119">配置 Project Service Automation</span><span class="sxs-lookup"><span data-stu-id="99042-119">Configure Project Service Automation</span></span>](../psa/configure.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]
