@@ -8,12 +8,12 @@ ms.topic: article
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: sigitac
-ms.openlocfilehash: 3698b68b5dd0460343d26af0fcea5b9a56be4083
-ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
+ms.openlocfilehash: b7adf61a82714a0148d9c8b1d2b2b37fd611c1cf
+ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/28/2020
-ms.locfileid: "4131917"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5287497"
 ---
 # <a name="configure-project-categories"></a>配置项目类别
 
@@ -37,7 +37,7 @@ Project Operations 提供强大的功能，可以对项目的收入和支出进�
 
 ## <a name="shared-categories"></a>共享类别
 
-Dynamics 365 使用共享类别概念对不同应用程序中的支出进行分类，如 Dynamics 365 Finance、Dynamics 365 Supply Chain 和 Dynamics 365 Project Operations。 对于创建的每个交易类别，Project Operations 会自动创建四个相关的共享类别：工时、支出、费用和项目。 您可以转到 **项目管理和会计** \> **设置** \> **类别** \> **共享类别** 查看和调整共享类别。
+Dynamics 365 使用“共享类别”概念对 Dynamics 365 Finance、Dynamics 365 Supply Chain 和 Dynamics 365 Project Operations 等不同应用程序中的费用进行分类。 对于创建的每个交易类别，Project Operations 会自动创建四个相关的共享类别：工时、支出、费用和项目。 您可以转到 **项目管理和会计** \> **设置** \> **类别** \> **共享类别** 查看和调整共享类别。
 
 ## <a name="project-categories"></a>项目类别
 

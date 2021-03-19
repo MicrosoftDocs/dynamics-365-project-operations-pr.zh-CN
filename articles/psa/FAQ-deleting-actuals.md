@@ -18,12 +18,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 36cd241c7c7a2ff6ae018c94d691bc95d1f0c912
-ms.sourcegitcommit: 418fa1fe9d605b8faccc2d5dee1b04b4e753f194
+ms.openlocfilehash: e3122c5d9495b3ff9a683f477e719ce0c228a84d
+ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/10/2021
-ms.locfileid: "5148947"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5286057"
 ---
 # <a name="why-cant-i-delete-records-from-the-actuals-entity"></a>为什么我无法从实际值实体中删除记录?
 

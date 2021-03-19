@@ -8,12 +8,12 @@ ms.topic: article
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: ruhercul
-ms.openlocfilehash: f159ecac53b824ef208221bb14958923fb5da63b
-ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
+ms.openlocfilehash: 14094d603be2834dc66abff2ff1faf5e940b1ffa
+ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/28/2020
-ms.locfileid: "4127328"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5286597"
 ---
 # <a name="project-tracking-overview"></a>项目跟踪概述
 
@@ -23,7 +23,7 @@ _**适用于：** 基于资源/非库存场景的 Project Operations，精简部
 
 ## <a name="effort-tracking-view"></a>工作量跟踪视图
 
-**工作量跟踪** 视图通过比较在任务花费的实际工时数与任务的计划工时数来跟踪计划中任务的进度。 Dynamics 365 Project Operations 使用以下公式计算跟踪指标：
+**工作量跟踪** 视图通过比较在任务花费的实际工时数与任务的计划工时数来跟踪计划中任务的进度。 Dynamics 365 Project Operations 使用以下公式计算跟踪度量：
 
 - **进度百分比**：迄今实际已用工作量 ÷ 完工估算 (EAC) 
 - **待完成估算 (ETC)**：计划工作量 – 迄今实际已用工作量 

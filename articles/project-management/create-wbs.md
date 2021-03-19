@@ -8,12 +8,12 @@ ms.topic: article
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: ruhercul
-ms.openlocfilehash: d7fa645e78d2206e333d9f85fcec0f7a9c213c23
-ms.sourcegitcommit: 260ce052fed760bb44c514517806049ca13a5459
+ms.openlocfilehash: 695bbc2ae1ba1e762472b5f5fa853c89017d2f52
+ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "4841310"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5287002"
 ---
 # <a name="create-a-work-breakdown-structure-wbs"></a>创建工作分解结构 (WBS)
 
@@ -92,6 +92,8 @@ ms.locfileid: "4841310"
 | 开头 | 开始日期和时间。 |
 | 客户 | 任务的名称。 |
 | ID | 工作分解结构中的任务的编号。 |
+
+作为管理员，您可以对任务实体定义自定义字段。 但是，字段不能显示在计划网格上。 要查看自定义字段，可将其添加到 **项目任务** 详细信息页。
 
 ## <a name="staffing-attributes"></a>人员配备属性
 

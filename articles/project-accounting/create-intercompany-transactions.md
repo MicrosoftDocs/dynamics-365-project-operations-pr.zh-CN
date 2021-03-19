@@ -8,12 +8,12 @@ ms.topic: article
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: sigitac
-ms.openlocfilehash: 0a9d34d69ff59f0cb470bb852d8a80ecaedf6544
-ms.sourcegitcommit: addbe0647619413e85e7cde80f6a21db95ab623e
+ms.openlocfilehash: 6d23e45d99be61e93d98a8377ff5fa05b3febb6b
+ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/20/2020
-ms.locfileid: "4595433"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5287407"
 ---
 # <a name="create-intercompany-transactions"></a>创建内部公司交易
 
@@ -69,7 +69,7 @@ _**适用于：** 面向资源/非库存场景的 Project Operations_
     5. 创建一个新项目，并将其与此合同子项相关联。
 4. 以资源（**候芳音**）身份登录。 转到 **项目** > **时间条目**，并为 Adventure Works 项目创建时间条目。
 5. 以项目经理身份登录。 转到 **项目** > **批准**，并批准候芳音记录的时间条目交易。
-6. 导航到 Adventure Works 项目，然后选择**相关** > **实际值**。 此时会创建以下实际值交易。
+6. 导航到 Adventure Works 项目，然后选择 **相关** > **实际值**。 此时会创建以下实际值交易。
 
 | **交易记录类型** | **单价** | **交易货币** | **金额** |
 | --- | --- | --- | --- |

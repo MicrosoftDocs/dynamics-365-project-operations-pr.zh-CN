@@ -8,17 +8,17 @@ ms.topic: article
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: ruhercul
-ms.openlocfilehash: 10872366453985561bda0c07e50cff7f5f6d333e
-ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
+ms.openlocfilehash: 3f0429366c69346113003355679c055cd2c74ca3
+ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/28/2020
-ms.locfileid: "4131692"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5287047"
 ---
 # <a name="expense-estimates"></a>费用估算
 _**适用于：** 基于资源/非库存场景的 Project Operations，精简部署 - 估价开票交易_
 
-除了定义基于资源的预估之外，Dynamics 365 Project Operations 还允许项目经理为每个项目定义基于项目的支出。 每个支出项都可与特定项目任务或支出类别关联。 支出类别通常在组织级别定义。 每个支出类别的定价通常在以下层次结构中定义：
+除了定义基于资源的估计值外，Dynamics 365 Project Operations 还允许项目经理为每个项目定义基于项目的费用。 每个支出项都可与特定项目任务或支出类别关联。 支出类别通常在组织级别定义。 每个支出类别的定价通常在以下层次结构中定义：
 
 - 组织
 - 客户
