@@ -17,18 +17,18 @@ ms.search.industry: Service industries
 ms.author: suvaidya
 ms.dyn365.ops.version: ''
 ms.search.validFrom: 2020-10-01
-ms.openlocfilehash: 5fc8691984e22b2fa35e26b1a7d94cc56c25c26d
-ms.sourcegitcommit: 625878bf48ea530f3381843be0e778cebbbf1922
+ms.openlocfilehash: 4bd4e9cb22bfd6a86fd86e5fc403cb185aab140a
+ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/30/2020
-ms.locfileid: "4177185"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5277732"
 ---
 # <a name="manage-project-price-lists-on-a-quote"></a>管理报价单上的项目价目表
 
 _**适用于：** 基于资源/非库存场景的 Project Operations，精简部署 - 估价开票交易_
 
-Dynamics 365 Project Operations 扩展 Dynamics 365 Sales 中的价目表实体。 
+Dynamics 365 Project Operations 扩展了 Dynamics 365 Sales 中的价目表实体。 
 
 ## <a name="key-entities"></a>关键实体
 

@@ -1,6 +1,6 @@
 ---
 title: 资源管理模式概述
-description: 本主题提供有关 Dynamics 365 Project Operations 中的资源管理功能的信息。
+description: 此主题介绍 Dynamics 365 Project Operations 中的资源管理功能。
 author: ruhercul
 manager: Annbe
 ms.date: 10/01/2020
@@ -8,12 +8,12 @@ ms.topic: article
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: ruhercul
-ms.openlocfilehash: 73ba6190e2e366f22372102d14d26f6d71ba0bc1
-ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
+ms.openlocfilehash: 872f4f2878f474e16674932f23fe192c6a8de6eb
+ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/28/2020
-ms.locfileid: "4118507"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5279442"
 ---
 # <a name="resource-management-modes-overview"></a>资源管理模式概述
 

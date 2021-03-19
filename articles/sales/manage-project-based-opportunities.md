@@ -8,12 +8,12 @@ ms.topic: article
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: c5a8bfea5540432a62d7075443cf237571bfa4de
-ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
+ms.openlocfilehash: 2d1f9b29e0e9516ff78517e47694a2385c083ec7
+ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/28/2020
-ms.locfileid: "4118462"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5277822"
 ---
 # <a name="manage-project-based-opportunities"></a>管理基于项目的商机
 
@@ -21,7 +21,7 @@ _**适用于：** 基于资源/非库存场景的 Project Operations，精简部
 
 基于项目的公司通常将业务交付分布在多个国家和地区。 项目执行和交付的成本可能因管理交付的地理位置或部门而异。 这继而会影响交易的利润。 交付基于项目的服务通常涉及大量的人事资源时间、大量出差支出、材料成本和其他支出。
 
-Dynamics 365 Project Operations 中基于项目的商机在设计加入了对 Dynamics 365 Sales 的扩展。 此主题将详细介绍基于项目的公司在管理基于项目的商机时所需的其他功能中包含的不同字段和业务逻辑。
+Dynamics 365 Project Operations 中基于项目的商机是通过 Dynamics 365 Sales 的扩展设计的。 此主题将详细介绍基于项目的公司在管理基于项目的商机时所需的其他功能中包含的不同字段和业务逻辑。
 
 ## <a name="view-all-project-based-opportunities"></a>查看所有基于项目的商机
 

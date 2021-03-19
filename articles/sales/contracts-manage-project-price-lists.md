@@ -8,12 +8,12 @@ ms.topic: article
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: 030684576e1f53d27921907b07c9e5e0c5efe612
-ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
+ms.openlocfilehash: 2cfac6eda64d1d8e578115bba07942a7d786328f
+ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/28/2020
-ms.locfileid: "4133290"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5278587"
 ---
 # <a name="manage-project-price-lists-on-project-contracts"></a>管理项目合同上的项目价目表
 

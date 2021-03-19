@@ -8,18 +8,18 @@ ms.topic: article
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: 6dde924c24dcffe2a8fb690e6eb429e4c3d9fb28
-ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
+ms.openlocfilehash: d51eb890a4744051ddd7268e1f1f11b15a23b609
+ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/28/2020
-ms.locfileid: "4126382"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5278362"
 ---
 # <a name="import-an-estimate-to-a-project-based-contract-line"></a>将估算导入基于项目的合同子项
 
 _**适用于：** 面向资源/非库存场景的 Project Operations_
 
-在 Dynamics 365 Project Operations 中，您可以将估算从项目导入到基于项目的合同子项。
+在 Dynamics 365 Project Operations 中，您可以将项目估算导入到基于项目的合同子项。
 
 1. 验证是否已填充基于项目的合同子项上的 **项目** 字段。
 2. 在 **合同子项详细信息** 选项卡上，在子网格上，选择 **从项目估算导入**。 将打开带有汇总选项的对话页面。 可用汇总选项包括 **交易类**、**类别**、**角色** 和 **项目任务**。 根据汇总选择，将复制此合同子项中包括的所有交易类的项目估算。 

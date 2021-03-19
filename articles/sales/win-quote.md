@@ -8,18 +8,18 @@ ms.topic: article
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: 47804db0144c2b0f9dee2c60518e8aba6fb27473
-ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
+ms.openlocfilehash: a2c752ba6395ed4bf025092219350dc245f7428f
+ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/28/2020
-ms.locfileid: "4124672"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5277237"
 ---
 # <a name="close-a-quote"></a>结束报价单
 
 _**适用于：** 面向资源/非库存场景的 Project Operations_
 
-项目报价单可作为赢单或丢单结束。 由于 Microsoft Dynamics 365 Project Operations 中的报价单不支持“激活”和“修订”功能，因此您可以结束草稿报价单。
+项目报价单可作为赢单或丢单结束。 因为 Microsoft Dynamics 365 Project Operations 中不支持对报价单执行激活和修订功能，所以您可以结束草稿报价单。
 
 ## <a name="close-a-quote-as-won"></a>作为赢单结束报价单
 

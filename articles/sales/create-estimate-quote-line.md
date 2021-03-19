@@ -17,12 +17,12 @@ ms.search.industry: Service industries
 ms.author: rumant
 ms.dyn365.ops.version: ''
 ms.search.validFrom: 2020-10-01
-ms.openlocfilehash: 97030689eddb88576ffcf9dd848f8a0776512192
-ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
+ms.openlocfilehash: d525bd86621178761346221306dfc83e13e720d2
+ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/28/2020
-ms.locfileid: "4122917"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5278452"
 ---
 # <a name="create-estimates-on-a-quote-line"></a>根据报价单明细创建估算
 

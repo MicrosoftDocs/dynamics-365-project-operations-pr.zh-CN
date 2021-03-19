@@ -8,18 +8,18 @@ ms.topic: article
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: ruhercul
-ms.openlocfilehash: a14f0ec328049d1b199201955c384df9fac61e39
-ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
+ms.openlocfilehash: bcdfc7296ec09421668673d8502e7103c887d667
+ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/28/2020
-ms.locfileid: "4123862"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5279487"
 ---
 # <a name="resource-management-key-concepts"></a>资源管理的关键概念
 
 _**适用于：** 基于资源/非库存场景的 Project Operations，精简部署 - 估价开票交易_
 
-资源是基于服务的组织的最重要资产。 在正确的时间找到适合的资源，为项目预订这些资源，以及保持利用资源的能力可帮助组织达成收入目标和客户满意度目标。 可使用 Dynamics 365 Project Operations 中的项目资源安排功能执行以下任务：
+资源是基于服务的组织的最重要资产。 在正确的时间找到适合的资源，为项目预订这些资源，以及保持利用资源的能力可帮助组织达成收入目标和客户满意度目标。 您可使用 Dynamics 365 Project Operations 中的项目资源安排功能执行以下任务：
 
 - 通过预订可用合格资源组建项目团队。
 - 创建通用团队成员记录和定义其角色与资源部门。

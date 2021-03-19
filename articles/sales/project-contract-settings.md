@@ -8,12 +8,12 @@ ms.topic: article
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: 2f29e396f8d30a5c5648b5c9937f1f20fbf72e89
-ms.sourcegitcommit: f6f86e80dfef15a7b5f9174b55dddf410522f7c8
+ms.openlocfilehash: 4c04ff004febf3a07b329bf375e38acb43d19887
+ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/31/2020
-ms.locfileid: "4181126"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5277597"
 ---
 # <a name="project-contract-settings"></a>项目合同设置
 
@@ -21,7 +21,7 @@ _**适用于：** 面向资源/非库存场景的 Project Operations_
 
 此主题提供有关适用于整个项目合同的字段的信息，包括影响所有合同子项的设置。 还包括有关跨所有明细项目汇总以推动项目合同 KPI 的合同的信息。
 
-下表列出了项目合同中的字段，这些字段是 Dynamics 365 Project Operations 所独有的，或者对 Dynamics 365 Sales 中的销售订单的行为有某些重要更改。
+下表列出了项目合同中的特定字段，这些字段是 Dynamics 365 Project Operations 中的唯一字段，这些字段与 Dynamics 365 Sales 中的销售订单相比，行为有一些重要的变化。
 
 | 字段 | 地点 | 描述 | 下游影响 |
 | --- | --- | --- | --- |

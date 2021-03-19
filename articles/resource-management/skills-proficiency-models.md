@@ -8,12 +8,12 @@ ms.topic: article
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: ruhercul
-ms.openlocfilehash: 1d04148f2e0953744da5ca32aa9062e3ae9530e7
-ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
+ms.openlocfilehash: 68675ca95f78382e7a3702805da840a5c8ef2f50
+ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/28/2020
-ms.locfileid: "4128857"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5279172"
 ---
 # <a name="skills-and-certifications"></a>技能和认证
 _**适用于：** 基于资源/非库存场景的 Project Operations，精简部署 - 估价开票交易_

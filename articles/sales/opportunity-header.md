@@ -8,12 +8,12 @@ ms.topic: article
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: 1344e21d58fbc28198468146f9cea9cf00572d7d
-ms.sourcegitcommit: f6f86e80dfef15a7b5f9174b55dddf410522f7c8
+ms.openlocfilehash: c58c3696ae03e8a33a25a9483825a4b7cbf850be
+ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/31/2020
-ms.locfileid: "4181216"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5277687"
 ---
 # <a name="opportunity-settings"></a>商机设置
 
@@ -22,7 +22,7 @@ _**适用于：** 面向资源/非库存场景的 Project Operations_
 
 商机标题或摘要捕获将应用于基于项目的商机上所有明细的基于项目的交易的综合信息。
 
-Dynamics 365 Project Operations 中基于项目的商机是 Dynamics 365 Sales 中商机的扩展。 这些扩展提供特定于基于项目的商机以及这类商机所需的附加功能。 这些扩展可以包含基于项目的商机中可用的新字段和功能区操作。 您可能会发现 Project Operations 中不可用但 Sales 中可用的一些字段、功能和默认设置逻辑。
+Dynamics 365 Project Operations 中基于项目的商机是 Dynamics 365 Sales 中的商机扩展。 这些扩展提供特定于基于项目的商机以及这类商机所需的附加功能。 这些扩展可以包含基于项目的商机中可用的新字段和功能区操作。 您可能会发现 Project Operations 中不可用但 Sales 中可用的一些字段、功能和默认设置逻辑。
 
 下表包括基于项目的商机中的字段，这些字段是 Project Operations 所特有的，或具有对 Sales 中的商机的一些重要的行为更改。
 

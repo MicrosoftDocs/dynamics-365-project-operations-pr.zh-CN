@@ -8,12 +8,12 @@ ms.topic: article
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: 67e927962feb248aa7f07a69463b433e1ec89761
-ms.sourcegitcommit: f6f86e80dfef15a7b5f9174b55dddf410522f7c8
+ms.openlocfilehash: 2b57d052d6b50ee420249cf5441077b092b4e13f
+ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/31/2020
-ms.locfileid: "4181981"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5277867"
 ---
 # <a name="manage-multiple-customers-on-a-project-quote"></a>管理项目报价单上的多个客户
 
@@ -23,7 +23,7 @@ _**适用于：** 基于资源/非库存场景的 Project Operations，精简部
 
 项目报价单的 **客户** 选项卡上的所有报价单客户默认为为报价单创建的任何 **新** 的基于项目的报价单明细上的报价单明细客户。 任何现有的基于项目的报价单明细都不会继承在它们之后创建的新报价单客户记录。
 
-在报价单赢单之前，报价单客户和报价单明细客户可以随时添加、更新或删除。 报价单上的有效客户必须在 **客户** 页上设置为业主公司或法人中的客户。 法人在 Dynamics 365 Project Operations 的 **项目管理和会计** 模块中设置，在 Project Operations 的 **项目销售和交付** 模块中作为公司出现。
+在报价单赢单之前，报价单客户和报价单明细客户可以随时添加、更新或删除。 报价单上的有效客户必须在 **客户** 页上设置为业主公司或法人中的客户。 法律实体在 Dynamics 365 Project Operations 的 **项目管理和会计** 模块中设置，并且可以在 Project Operations 的 **项目销售和交付** 模块中用作公司。
 
 ## <a name="concept-of-a-primary-customer"></a>主要客户概念
 

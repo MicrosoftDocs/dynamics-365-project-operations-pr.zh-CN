@@ -17,18 +17,18 @@ ms.search.industry: Service industries
 ms.author: rumant
 ms.dyn365.ops.version: ''
 ms.search.validFrom: 2020-10-01
-ms.openlocfilehash: 8d113111f5fbf6f5d23ef02cae36d85a27beed93
-ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
+ms.openlocfilehash: 899279b33f4fe8780d110d7c18a097407bd8d839
+ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/28/2020
-ms.locfileid: "4121297"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5277507"
 ---
 # <a name="quotes---key-concepts"></a>报价单 - 关键概念
 
 _**适用于：** 基于资源/非库存场景的 Project Operations，精简部署 - 估价开票交易_
 
-在 Dynamics 365 Project Operations 中，有两种类型的报价单：项目和销售。 下面是这两种报价单类型的差别：
+在 Dynamics 365 Project Operations 中，有两种类型的报价单：项目报价单和销售报价单。 下面是这两种报价单类型的差别：
 
 - **明细项网格**：在销售报价单中，明细项只有一个网格。 在项目报价单中，明细项有两个网格。 一个针对项目明细，另一个针对产品明细。
 - **激活和修订**：销售报价单支持激活和修订。 项目报价单不支持这些流程。
