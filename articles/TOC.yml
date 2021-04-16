@@ -36,6 +36,8 @@
               href: environment/resource-configure-integration-per-legal-entity.md
     - name: 新增功能
       items:
+        - name: 2021 年 4 月 - 基于资源/非库存场景的 Project Operations
+          href: whats-new/whats-new-apr-2021-resource-based.md
         - name: 2021 年 3 月 - 基于资源/非库存场景的 Project Operations
           href: whats-new/whats-new-mar-2021-resource-based.md
         - name: 2021 年 2 月 - 基于资源/非库存场景的 Project Operations
@@ -64,7 +66,7 @@
           items:
             - name: 管理项目商机概述
               href: sales/manage-project-based-opportunities.md
-            - name: 基于项目的商机设置
+            - name: 针对基于项目的商机的标题详细信息
               href: sales/opportunity-header.md
             - name: 基于项目的商机明细
               href: sales/project-based-lines.md
@@ -78,27 +80,31 @@
           items:
             - name: 管理项目报价单概述
               href: pro/sales/manage-quotes-sales.md
-            - name: 项目报价单概念
+            - name: 基于项目的报价单所特有的概念
               href: sales/quotes-key-concepts.md
-            - name: 项目报价单设置
+            - name: 针对基于项目的报价单的标题详细信息
               href: sales/quote-values-budget-limits-contract.md
             - name: 管理一个项目报价单上的多个客户
               href: sales/manage-multiple-customers-quote.md
             - name: 管理报价单上的项目价目表
-              href: sales/managing-project-price-lists.md
+              href: pro/sales/manage-project-price-lists-sales.md
             - name: 基于项目的报价单明细
               items:
                 - name: 基于项目的报价单明细概述
-                  href: sales/manage-quoted-values-budget-limits-quote-line.md
+                  href: pro/sales/manage-quoted-values-budget-limits-quote-line-sales.md
                 - name: 管理基于项目的报价单明细上的多个客户
                   href: sales/manage-multiple-customers-quote-line.md
+                - name: 将项目和任务映射到基于项目的报价单明细
+                  href: pro/sales/mapping-projects-tasks-quote-line-sales.md
+                - name: 配置基于项目的报价单明细的应计费组件
+                  href: pro/sales/configure-chargeable-components-quote-line-sales.md
                 - name: 配置项目报价单明细的应计费组件
                   href: sales/configure-chargeable-quoteline.md
-                - name: 根据报价单明细创建估算
+                - name: 预估项目报价单明细
                   href: sales/create-estimate-quote-line.md
                 - name: 将项目估算导入到基于项目的报价单明细
                   href: sales/import-estimate-quote-line.md
-                - name: 基于项目的报价单明细上的账单计划
+                - name: 基于项目的报价单明细上的发票计划
                   href: sales/invoice-schedule-quote-line.md
             - name: 复制项目报价单
               href: sales/lose-quote.md
@@ -108,9 +114,9 @@
           items:
             - name: 管理项目合同概述
               href: pro/sales/manage-contracts-sales.md
-            - name: 项目合同概念
+            - name: 基于项目的合同所特有的概念
               href: sales/contracts-key-concepts.md
-            - name: 项目合同设置
+            - name: 针对基于项目的合同的标题详细信息
               href: sales/project-contract-settings.md
             - name: 管理项目合同上的项目价目表
               href: sales/contracts-manage-project-price-lists.md
@@ -119,21 +125,21 @@
             - name: 基于项目的合同子项
               items:
                 - name: 基于项目的合同子项概述
-                  href: sales/manage-contract-values-project-based.md
+                  href: pro/sales/manage-contract-values-project-based-sales.md
                 - name: 管理基于项目的合同子项上的多个客户
                   href: sales/manage-multiple-customers-contract-line.md
-                - name: 配置基于项目的合同子项的应计费组件
-                  href: sales/configure-chargeable-contract-line.md
-                - name: 预估基于项目的合同子项
+                - name: 在项目合同子项上映射项目和任务
+                  href: pro/sales/mapping-projects-tasks-contract-line-sales.md
+                - name: 配置项目合同子项的应计费组件
+                  href: pro/sales/configure-chargeable-components-contract-line.md
+                - name: 预估项目合同子项
                   href: sales/create-estimate-contract-line.md
                 - name: 将项目估算导入到基于项目的合同子项
                   href: sales/import-estimate-project-contract-line.md
-                - name: 根据基于项目的合同子项创建账单计划
+                - name: 根据基于项目的合同子项创建发票计划
                   href: sales/invoice-schedules-contract-line.md
             - name: 确认项目合同
               href: pro/sales/confirm-contract-sales.md
-            - name: 复制项目合同
-              href: pro/sales/copy-project-contracts-sales.md
             - name: 预付款和保留款
               items:
                 - name: 预付款和保留款合同
@@ -146,16 +152,16 @@
       items:
         - name: 价目表设置
           items:
-            - name: 设置价目表
+            - name: 价目表定义
               href: pricing-costing/price-list-setup.md
-            - name: 产品价目表
-              href: pricing-costing/product-price-list.md
             - name: 设置人工帐单费率
               href: pricing-costing/set-up-labor-bill-rate.md
             - name: 设置人工成本费率
               href: pricing-costing/set-up-labor-cost-rate.md
             - name: 设置支出的成本和销售费率
               href: pricing-costing/set-up-cost-sales-rates-expenses.md
+            - name: 设置材料的成本和销售费率
+              href: pricing-costing/set-up-cost-sales-rates-materials.md
         - name: 默认值和替代值
           items:
             - name: 默认价目表
@@ -168,6 +174,8 @@
               href: pricing-costing/sales-price-resolution.md
             - name: 复制价目表
               href: pricing-costing/copy-price-lists.md
+            - name: 停用价目表
+              href: pricing-costing/deactivatepricelists.md
         - name: 定价维度
           items:
             - name: 定价维度概述
@@ -218,18 +226,24 @@
               href: project-management/create-wbs.md
             - name: 创建工作
               href: project-management/create-assignments.md
-        - name: 预估项目
+        - name: 关于项目的财务估算
           items:
-            - name: 预估项目概述
+            - name: 财务估算概念
               href: project-management/estimating-projects-overview.md
-            - name: 资源预估
+            - name: 项目资源时间的财务估算
               href: project-management/resource-estimates.md
-            - name: 创建支出预估
+            - name: 项目支出的财务估算
               href: project-management/create-expense-estimates.md
+            - name: 项目材料的财务估算
+              href: project-management/create-material-estimate.md
         - name: 项目跟踪
           items:
-            - name: 项目跟踪概述
+            - name: 项目工作量跟踪
               href: project-management/project-tracking-overview.md
+            - name: 项目人工成本跟踪
+              href: project-management/project-cost-tracking.md
+            - name: 项目人工收入跟踪
+              href: project-management/project-sales-tracking.md
             - name: 更新完工估算
               href: project-management/update-completed-estimate.md
         - name: 项目团队成员
@@ -248,6 +262,8 @@
           items:
             - name: 使用复制项目开发项目模板
               href: project-management/dev-copy-project.md
+            - name: 使用计划 API（公开预览版）
+              href: project-management/schedule-api-preview.md
     - name: 资源管理
       items:
         - name: 关键概念
@@ -366,6 +382,10 @@
           items:
             - name: 增值税返回
               href: expense/vat-recovery.md
+    - name: 材料使用情况
+      items:
+        - name: 记录项目和项目任务的材料使用情况
+          href: material/material-usage-log.md
     - name: 审批
       items:
         - name: 审批概述
@@ -378,6 +398,8 @@
       items:
         - name: 实际值概述
           href: actuals/actuals-overview.md
+        - name: 将实际值链接到原始记录
+          href: actuals/linkingactuals.md
         - name: 更正日记帐
           items:
             - name: 创建并确认更正日记帐
@@ -386,25 +408,27 @@
       items:
         - name: 开票流程概述
           href: invoicing/post-project-invoices.md
-        - name: 管理项目账单方案
+        - name: 管理项目发票方案
           href: invoicing/format-update-project-invoice-proposals.md
         - name: 估价开票
           items:
-            - name: 管理项目记帐积压
+            - name: 管理基于项目的记帐积压
               href: proforma-invoicing/manage-billing-backlog.md
             - name: 管理上限状态和验证
               href: pro/proforma-invoicing/manage-nte-status-validations-sales.md
-            - name: 手动创建估价项目账单
+            - name: 估价基于项目的发票
               href: proforma-invoicing/create-manual-proforma-invoice.md
-            - name: 管理估价项目账单
+            - name: 管理估价基于项目的发票
               href: proforma-invoicing/manage-proforma-invoice.md
             - name: 对保留款或预付款开票
               href: pro/proforma-invoicing/invoice-retainer-advance-sales.md
-            - name: 确认估价项目账单
+            - name: 确认估价基于项目的发票
               href: proforma-invoicing/confirm-proforma-invoice.md
-            - name: 配置 Project Invoice Automation
+            - name: 创建更正基于项目的发票
+              href: proforma-invoicing/corrective-invoices.md
+            - name: 配置基于项目的发票自动化
               href: proforma-invoicing/configure-automated-invoice-creation.md
-    - name: 项目核算
+    - name: 项目会计
       items:
         - name: 财务维度默认值
           href: project-accounting/financial-dimension-defaults.md
@@ -424,7 +448,7 @@
               href: project-accounting/configure-intercompany-invoicing.md
             - name: 创建内部公司交易
               href: project-accounting/create-intercompany-transactions.md
-            - name: 创建内部公司客户和供应商账单
+            - name: 创建内部公司客户和供应商发票
               href: project-accounting/create-intercompany-customer-vendor-invoices.md
     - name: 收入确认
       items:
@@ -458,6 +482,8 @@
           href: environment/security-model.md
     - name: 新增功能
       items:
+        - name: 2021 年 4 月新增功能 - 精简部署
+          href: pro/whats-new/whats-new-apr-2021-lite.md
         - name: 2021 年 3 月新增功能 - 精简部署
           href: pro/whats-new/whats-new-mar-2021-lite.md
         - name: 2021 年 2 月新增功能 - 精简部署
@@ -486,7 +512,7 @@
           items:
             - name: 项目商机概述
               href: sales/manage-project-based-opportunities.md
-            - name: 项目商机设置
+            - name: 项目商机的标题详细信息
               href: pro/sales/opportunity-header-sales.md
             - name: 管理基于产品的商机明细
               href: pro/sales/product-based-lines-sales.md
@@ -502,9 +528,9 @@
           items:
             - name: 基于项目的报价单概述
               href: pro/sales/manage-quotes-sales.md
-            - name: 项目报价单概念
+            - name: 项目报价单所特有的概念
               href: pro/sales/quotes-key-concepts-sales.md
-            - name: 项目报价单设置
+            - name: 项目报价单的标题详细信息
               href: pro/sales/quote-values-budget-limits-contract-sales.md
             - name: 项目报价单上的多个客户
               href: pro/sales/manage-multiple-customers-quote-sales.md
@@ -532,7 +558,7 @@
                   href: pro/sales/create-estimate-quote-line-sales.md
                 - name: 导入项目估算
                   href: pro/sales/import-estimate-project-quote-sales.md
-                - name: 管理账单计划
+                - name: 管理发票计划
                   href: sales/invoice-schedule-quote-line.md
             - name: 复制基于项目的报价单
               href: sales/lose-quote.md
@@ -542,9 +568,9 @@
           items:
             - name: 基于项目的合同概述
               href: pro/sales/manage-contracts-sales.md
-            - name: 项目合同概念
+            - name: 项目合同所特有的概念
               href: pro/sales/contracts-key-concepts-sales.md
-            - name: 项目合同设置
+            - name: 项目合同的标题详细信息
               href: pro/sales/project-contract-settings-sales.md
             - name: 项目合同上的多个客户
               href: pro/sales/manage-multiple-customers-contract-sales.md
@@ -572,7 +598,7 @@
                   href: pro/sales/create-estimate-project-contract-line-sales.md
                 - name: 将项目估算导入项目合同子项
                   href: pro/sales/import-estimate-project-contract-line-sales.md
-                - name: 管理项目合同子项上的账单计划
+                - name: 管理项目合同子项上的发票计划
                   href: pro/sales/invoice-schedules-contract-line-sales.md
             - name: 复制项目合同
               href: pro/sales/copy-project-contracts-sales.md
@@ -590,30 +616,32 @@
       items:
         - name: 价目表设置
           items:
-            - name: 设置价目表
+            - name: 价目表定义
               href: pricing-costing/price-list-setup.md
-            - name: 设置销售价目表
-              href: pricing-costing/sales-price-list-setup.md
-            - name: 设置人工帐单费率 - 精简
+            - name: 设置产品价目表
+              href: pricing-costing/product-price-list.md
+            - name: 设置人工帐单费率
               href: pro/pricing-costing/set-up-labor-bill-rate-sales.md
-            - name: 设置人工成本费率 - 精简
+            - name: 设置人工成本费率
               href: pro/pricing-costing/set-up-labor-cost-rates-sales.md
-            - name: 设置目录产品的成本和销售费率 - 精简
-              href: pro/pricing-costing/set-up-cost-sales-rates-catalog-products.md
             - name: 设置支出的成本和销售费率
               href: pricing-costing/set-up-cost-sales-rates-expenses.md
+            - name: 设置材料的成本和销售费率
+              href: pricing-costing/set-up-cost-sales-rates-materials.md
         - name: 默认值和替代值
           items:
             - name: 默认价目表
               href: pricing-costing/default-project-sales-price-lists.md
             - name: 替代项目销售价目表
               href: pricing-costing/override-project-sales-price-list-default.md
-            - name: 根据估计值和实际值处理成本费 - 精简
+            - name: 根据项目估计值和实际值处理成本费
               href: pro/pricing-costing/cost-price-resolution-sales.md
-            - name: 处理售价估计值和实际值 - 精简
+            - name: 处理项目估计值和实际值的售价
               href: pro/pricing-costing/sales-price-resolution-sales.md
             - name: 复制价目表
               href: pricing-costing/copy-price-lists.md
+            - name: 停用项目价目表
+              href: pricing-costing/deactivatepricelists.md
         - name: 定价维度
           items:
             - name: 定价维度概述
@@ -664,18 +692,24 @@
               href: project-management/create-wbs.md
             - name: 创建工作
               href: project-management/create-assignments.md
-        - name: 预估项目
+        - name: 关于项目的财务估算
           items:
-            - name: 预估项目概述
+            - name: 财务估算概念
               href: project-management/estimating-projects-overview.md
-            - name: 资源预估
+            - name: 项目资源时间的财务估算
               href: project-management/resource-estimates.md
-            - name: 创建支出预估
+            - name: 项目支出的财务估算
               href: project-management/create-expense-estimates.md
+            - name: 项目材料的财务估算
+              href: project-management/create-material-estimate.md
         - name: 项目跟踪
           items:
-            - name: 项目跟踪概述
+            - name: 项目工作量跟踪
               href: project-management/project-tracking-overview.md
+            - name: 项目人工成本跟踪
+              href: project-management/project-cost-tracking.md
+            - name: 项目人工收入跟踪
+              href: project-management/project-sales-tracking.md
             - name: 更新完工估算
               href: project-management/update-completed-estimate.md
         - name: 项目团队成员
@@ -694,6 +728,8 @@
           items:
             - name: 使用复制项目开发项目模板
               href: project-management/dev-copy-project.md
+            - name: 使用计划 API（公开预览版）
+              href: project-management/schedule-api-preview.md
     - name: 资源管理
       items:
         - name: 关键概念
@@ -768,6 +804,10 @@
           href: expense/expense-overview.md
         - name: 支出条目（精简）
           href: expense/basic-expense.md
+    - name: 材料使用情况
+      items:
+        - name: 记录项目和项目任务的材料使用情况
+          href: material/material-usage-log.md
     - name: 审批
       items:
         - name: 审批概述
@@ -780,6 +820,8 @@
       items:
         - name: 实际值概述
           href: actuals/actuals-overview.md
+        - name: 将实际值链接到原始记录
+          href: actuals/linkingactuals.md
         - name: 更正日记帐
           items:
             - name: 创建并确认更正日记帐
@@ -790,15 +832,15 @@
           href: pro/proforma-invoicing/manage-billing-backlog-sales.md
         - name: 管理上限状态和验证
           href: pro/proforma-invoicing/manage-nte-status-validations-sales.md
-        - name: 手动创建估价项目账单
+        - name: 估价项目发票
           href: pro/proforma-invoicing/create-manual-proforma-invoice-sales.md
-        - name: 管理估价项目账单
+        - name: 管理估价项目发票
           href: pro/proforma-invoicing/manage-proforma-invoice-sales.md
         - name: 对保留款或预付款开票
           href: pro/proforma-invoicing/invoice-retainer-advance-sales.md
-        - name: 确认估价项目账单
+        - name: 确认估价项目发票
           href: pro/proforma-invoicing/confirm-proforma-invoice-sales.md
-        - name: 创建更正项目账单
+        - name: 创建更正项目发票
           href: pro/proforma-invoicing/corrective-invoices-sales.md
         - name: 配置 Project Invoice Automation
           href: pro/proforma-invoicing/configure-automated-invoice-creation-sales.md
@@ -806,6 +848,8 @@
   items:
     - name: 新增功能
       items:
+        - name: 2021 年 3 月新增功能 - 适用于库存/生产订单场景的 Project Operations
+          href: prod-pma/whats-new/whats-new-mar-2021-stocked.md
         - name: 2021 年 1 月新增功能 - 适用于库存/生产订单场景的 Project Operations
           href: prod-pma/whats-new/whats-new-jan-2021-stocked.md
         - name: 2020 年 12 月新增功能 - 适用于库存/生产订单场景的 Project Operations
@@ -826,13 +870,15 @@
       href: prod-pma/create-and-apply-vendor-payment-retention-terms.md
     - name: 设置和使用附条件支付供应商付款
       href: prod-pma/setup-manage-vendor-payments.md
-    - name: 根据采购收据进行成本累算
+    - name: 根据采购收据进行成本应计
       href: 'https://docs.microsoft.com/dynamics365/finance/accounts-payable/project-cost-accrual-purchase-receipts'
     - name: 项目开票
       href: 'https://docs.microsoft.com/dynamics365/finance/accounts-payable/project-invoicing'
+    - name: 项目发票方案性能
+      href: prod-pma/project-invoice-proposal-performance.md
     - name: 项目合同
       href: prod-pma/project-contracts.md
-    - name: 根据进度创建高级记账合同
+    - name: 根据进度创建高级记帐合同
       href: prod-pma/project-create-advanced-contracts-for-billing-based-progress.md
     - name: 项目预测和预算
       href: prod-pma/project-forecasts-budgets.md
@@ -952,6 +998,10 @@
       items:
         - name: Project Service 3.x 的更新版本计划
           href: psa/version-history-ps.md
+        - name: V3 更新版 30 的新增或变更功能
+          href: psa/whats-new-ur-30.md
+        - name: V3 更新版 29.5 修补程序的新增或变更功能
+          href: psa/whats-new-ur-29-5.md
         - name: V3 更新版 29 的新增或变更功能
           href: psa/whats-new-ur-29.md
         - name: V3 更新版 28.6 修补程序的新增或变更功能
@@ -1228,7 +1278,7 @@
                   href: psa/set-up-currencies-exchange-rates.md
                 - name: 创建部门
                   href: psa/create-organizational-units.md
-                - name: 设置账单频率
+                - name: 设置发票频率
                   href: psa/set-up-invoice-frequencies.md
                 - name: 配置交易类别
                   href: psa/configure-transaction-categories.md
@@ -1310,7 +1360,7 @@
               href: psa/approve-time-expenses.md
             - name: 核查项目实际值
               href: psa/review-project-actuals.md
-            - name: 查看并发送账单
+            - name: 查看并发送发票
               href: psa/view-send-invoices.md
             - name: 查看仪表板和报表
               href: psa/view-dashboards-reports.md
