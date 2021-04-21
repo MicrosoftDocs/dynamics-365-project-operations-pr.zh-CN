@@ -3,17 +3,17 @@ title: 确定部署类型
 description: 此主题提供的信息可帮助您确定您公司的 Project operations 的正确部署类型。
 author: stsporen
 manager: Annbe
-ms.date: 11/05/2020
+ms.date: 03/15/2021
 ms.topic: article
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: stsporen
-ms.openlocfilehash: 2da6af3240d8e561d01b1fcd8d32b657dbac1588
-ms.sourcegitcommit: 24528bb9c0ef8898077cb3bc672daa211c0e73aa
+ms.openlocfilehash: 715b117cae5418fc743ea870772278450fff5ae9
+ms.sourcegitcommit: df30839484ef278675c5c712af0f7ba66ed9cdd3
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/04/2021
-ms.locfileid: "5479553"
+ms.lasthandoff: 03/17/2021
+ms.locfileid: "5663583"
 ---
 # <a name="determine-your-deployment-type"></a>确定部署类型
 
@@ -44,9 +44,9 @@ Project Operations 支持多个部署选项以满足您的要求。 无论您是
 - [面向资源/非库存场景的 Project Operations](#integrated)
 - [面向库存/生产订单场景的 Project Operations](#pma)
 
-Project Operations 通过法人级别的配置在同一环境中支持库存/生产订单场景和非库存/资源场景。 例如，Contoso 可以在他们的美国生产设施中使用库存/生产订单功能（法人 = Contoso Manufacturing United States）。 Contoso 可以在他们位于英国的 Contoso 机械臂维修设施中使用非库存/资源功能（法人 = Contoso Robotics United Kingdom）。
+Project Operations 通过法人级别的配置在同一环境中支持库存/生产订单场景和非库存/资源场景。 例如，Contoso 可以在其美国制造设施内使用库存/生产订单功能（法人 = Contoso Manufacturing United States）。 Contoso 可以在其为英国的 Contoso Robotics Arms 服务机构中使用非库存/基于资源的功能（法人 = Contoso Robotics United Kingdom）。
 
-### <a name="lite-deployment---deal-to-proforma-invoicing"></a><a  name="lite"></a>精简部署 - 估价交易开票
+### <a name="lite-deployment---deal-to-proforma-invoicing"></a><a  name="lite"></a>精简部署 - 估价交易开单
 
 精简部署包括以下功能：
 
@@ -56,7 +56,7 @@ Project Operations 通过法人级别的配置在同一环境中支持库存/生
 - 统一资源管理
 - 时间跟踪
 - 基本支出
-- 估价和面向客户的开票 
+- 针对项目经理的审阅和编辑进行估价开票 
 
 #### <a name="deployment-steps"></a>部署步骤
 使用[部署调查表](https://aka.ms/provisionprojectoperations)确定 Project Operations 的最佳部署模型。
@@ -94,7 +94,7 @@ Project Operations 通过法人级别的配置在同一环境中支持库存/生
 - 完整开票
 - 收入确认
 - 生产订单
-- 材料支持
+- 库存材料支持与库存
 
 #### <a name="deployment-steps"></a>部署步骤
 使用[部署调查表](https://aka.ms/provisionprojectoperations)确定 Project Operations 的最佳部署模型。

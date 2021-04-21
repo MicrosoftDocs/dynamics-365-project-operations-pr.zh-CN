@@ -3,7 +3,7 @@ title: 重新打造支出报表
 description: 本主题说明了重新设计和重新构想的支出报表条目体验。
 author: suvaidya
 manager: AnnBe
-ms.date: 03/01/2021
+ms.date: 03/26/2021
 ms.topic: article
 ms.prod: ''
 ms.service: project-operations
@@ -15,12 +15,12 @@ ms.search.region: ''
 ms.author: suvaidya
 ms.search.validFrom: ''
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: aaa7dd24915982cf137b5959f2f4c244b9c1e012
-ms.sourcegitcommit: f78087174a8512199a1bcbd7e8610bbc80e64801
+ms.openlocfilehash: 79e6a407689813f8c87fdffba0cda84df10d3b83
+ms.sourcegitcommit: 46726e5c8c994735c1e570e08d6ed8f9c9341319
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/04/2021
-ms.locfileid: "5499705"
+ms.lasthandoff: 03/26/2021
+ms.locfileid: "5717684"
 ---
 # <a name="expense-reports-reimagined"></a>重新打造支出报表
 
@@ -41,11 +41,7 @@ ms.locfileid: "5499705"
 - 支出报表（现有页面）或支出报表字段的现有菜单项未删除。
 - 工作流和所有审批仍会将您带到现有的支出报表页。
 
-## <a name="getting-started-video-for-new-users"></a>为新用户提供的入门视频
-
-> [!VIDEO https://www.microsoft.com/videoplayer/embed/RE2Y7gO]
-
-[Dynamics 365 for Finance and Operations 中的支出体验](https://youtu.be/Ocy-MsTvEE0)视频（上方所示）包含在 YouTube 上的 [Finance and Operations 播放列表](https://www.youtube.com/playlist?list=PLcakwueIHoT_SYfIaPGoOhloFoCXiUSyW)中。
+> [!VIDEO https://www.microsoft.com/videoplayer/embed/RE4IQFM]
 
 ## <a name="new-features"></a>新功能
 

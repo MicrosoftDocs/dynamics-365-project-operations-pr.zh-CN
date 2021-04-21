@@ -1,27 +1,27 @@
 ---
-title: 管理项目报价单上的项目价目表 - 精简
-description: 此主题提供有关使用报价单上的项目价目表的信息。  (Sales)
+title: 管理项目报价单上的项目价目表
+description: 此主题提供有关使用报价单上的项目价目表的信息。
 author: rumant
 manager: Annbe
-ms.date: 10/01/2020
+ms.date: 03/30/2021
 ms.topic: article
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: d48da44f382e329a978a8ceee59c354d009f2114
-ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
+ms.openlocfilehash: 912d2fad33ac02c3ba980da7eeb88eef5c331230
+ms.sourcegitcommit: 5fd529f2308edfe9322082313e6d50146df56aca
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5273007"
+ms.lasthandoff: 04/06/2021
+ms.locfileid: "5858597"
 ---
-# <a name="manage-project-price-lists-on-project-quotes---lite"></a>管理项目报价单上的项目价目表 - 精简
+# <a name="manage-project-price-lists-on-project-quotes"></a>管理项目报价单上的项目价目表 
 
 _**适用于：** 精简部署 - 估价交易开票_
 
 项目报价单设计为支持多个有时效的销售价目表。 通过 Dynamics 365 Project Operations，添加了名为 **项目价目表** 的新关联实体。 此实体与项目报价单之间具有一对多关系。
 
-项目价目表用于对项目的时间和支出交易进行定价。 当报价单具有一个或多个项目价目表时，这些价目表用于对通过报价单明细与报价单关联的项目的时间和支出预估以及实际值进行定价。
+项目价目表用于为项目的时间、材料和支出交易定价。 当报价单具有一个或多个项目价目表时，这些价目表用于通过报价单明细对与该报价单关联的项目的时间、材料、支出估计和实际值进行定价。
 
 当项目报价单上没有项目价目表时，您将收到一条警告消息。 此消息指出，由于没有项目价目表，不会对您的预估和实际项目工作和支出进行定价。 它们的销售值将为零 (0) 价格。
 

@@ -8,14 +8,14 @@ ms.topic: article
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: 967e2170aac72de629ebb930e485b8cd6560b6ca
-ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
+ms.openlocfilehash: 0a7fb3419536ca3a595ec339b971e32c11f9671e
+ms.sourcegitcommit: df30839484ef278675c5c712af0f7ba66ed9cdd3
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5272422"
+ms.lasthandoff: 03/17/2021
+ms.locfileid: "5663973"
 ---
-# <a name="summary-information-on-a-project-quote---lite"></a>项目报价单上的摘要信息 - 精简
+# <a name="header-details-for-project-quotes"></a>项目报价单的标题详细信息
 
 _**适用于：** 精简部署 - 估价交易开票_
 

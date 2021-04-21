@@ -1,6 +1,6 @@
 ---
-title: 将项目预估导入基于项目的报价单明细
-description: 此主题提供有关将预估从项目导入报价单明细的信息。
+title: 将项目估算导入到项目报价单明细
+description: 本主题提供有关将估算值从项目导入项目报价单明细的信息。
 author: rumant
 manager: Annbe
 ms.date: 10/09/2020
@@ -8,14 +8,14 @@ ms.topic: article
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: b32ac22188922a56fa13ea67e0ead77b9b045d9f
-ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
+ms.openlocfilehash: 40facf002ca8aa77cbd7f1cfa29dab24842fd932
+ms.sourcegitcommit: 5fd529f2308edfe9322082313e6d50146df56aca
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5278317"
+ms.lasthandoff: 04/06/2021
+ms.locfileid: "5858732"
 ---
-# <a name="import-estimates-for-a-project-to-a-project-based-quote-line"></a>将项目预估导入基于项目的报价单明细
+# <a name="import-estimates-for-a-project-to-a-project-quote-line"></a>将项目估算导入到项目报价单明细
 
 _**适用于：** 面向资源/非库存场景的 Project Operations_
 

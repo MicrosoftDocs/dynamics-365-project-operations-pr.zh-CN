@@ -3,17 +3,17 @@ title: 管理项目合同上的项目价目表
 description: 此主题提供有关管理项目合同中的项目价格表的信息。
 author: rumant
 manager: Annbe
-ms.date: 10/27/2020
+ms.date: 03/30/2021
 ms.topic: article
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: 2cfac6eda64d1d8e578115bba07942a7d786328f
-ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
+ms.openlocfilehash: ffc48782394995781535ae56142dc76afeb9a040
+ms.sourcegitcommit: 5fd529f2308edfe9322082313e6d50146df56aca
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5278587"
+ms.lasthandoff: 04/06/2021
+ms.locfileid: "5858552"
 ---
 # <a name="manage-project-price-lists-on-project-contracts"></a>管理项目合同上的项目价目表
 
@@ -21,13 +21,13 @@ _**适用于：** 基于资源/非库存场景的 Project Operations，精简部
 
 Dynamics 365 Project Operations 中的项目合同设计为支持合同上的多个有时效的销售价目表。 在 Project Operations 中，有一个名为 **项目价目表** 的新的关联实体。 此实体与项目合同之间具有一对多关系。
 
-项目价目表用于对项目的时间和支出交易进行定价。 当合同有一个或多个项目价目表时，这些价目表用于为通过合同子项与合同关联的项目中的时间和支出估计值和实际值定价。
+项目价目表用于为项目的时间、材料和支出交易定价。 当合同具有一个或多个项目价目表时，这些价目表用于通过合同子项对与该合同关联的项目的时间、材料、支出估计和实际值进行定价。
 
-如果项目合同中没有项目价目表，您将看到一条警告消息，指示没有项目价目表，您的估计值、实际项目工作和支出不会定价。 销售值不会有价格。
+如果项目合同上没有项目价目表，将显示一条警告消息，指出不存在项目价目表，并且将不会对您的估计值、实际项目工作、材料和记录的支出进行定价。 销售值不会有价格。
 
 ## <a name="associate-or-unassociate-a-project-price-list-on-a-project-contract"></a>关联或取消关联项目合同中的项目价目表
 
-### <a name="create-or-associate-a-specific-price-list-for-estimating-project-based-work-and-expenses"></a>创建或关联特定价目表以估算基于项目的工作和支出
+### <a name="create-or-associate-a-specific-price-list-for-estimating-project-based-work-material-and-expenses"></a>为基于项目的工作、材料和支出创建或关联特定的价目表
 
 1. 在项目合同上，选择 **项目价目表** 选项卡。
 2. 在子网格中，选择 **+ 添加新项目价目表**。
@@ -52,7 +52,7 @@ Dynamics 365 Project Operations 中的项目合同设计为支持合同上的多
 
 ## <a name="set-up-automatic-defaulting-of-project-price-lists-on-a-contract"></a>设置合同上的项目价格表的自动默认设置
 
-项目价目表可以设置为项目合同上的默认列表。 此设置可以帮助确保您的组织中的所有合同始终以该价格期间的标准价目表开始。
+可以将项目价目表设置为默认项目价目表。 此安装程序可确保贵组织的所有合同始终从该价格期间的标准项目价目表开始。
 
 ### <a name="set-up-the-organizational-default-for-project-price-lists"></a>设置项目价目表的组织默认值
 

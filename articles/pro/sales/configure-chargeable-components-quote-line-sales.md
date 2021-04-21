@@ -1,23 +1,23 @@
 ---
-title: 配置报价单明细的应计费组件 - 精简
+title: 配置报价单明细的应计费组件
 description: 此主题提供有关在基于项目的报价单明细上设置应计费和非应计费组件的信息。
 author: rumant
 manager: Annbe
-ms.date: 10/13/2020
+ms.date: 03/30/2021
 ms.topic: article
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: 0e293587adf15d0523bef6b7e688fdc883aba0fa
-ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
+ms.openlocfilehash: 1a9e1851bd8c5a4070df2774c945d1f3eabaaa8a
+ms.sourcegitcommit: 5fd529f2308edfe9322082313e6d50146df56aca
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5273862"
+ms.lasthandoff: 04/06/2021
+ms.locfileid: "5858282"
 ---
-# <a name="configure-the-chargeable-components-of-a-quote-line---lite"></a>配置报价单明细的应计费组件 - 精简
+# <a name="configure-the-chargeable-components-of-a-quote-line"></a>配置报价单明细的应计费组件 
 
-_**适用于：** 精简部署 - 估价交易开票_
+_**适用于：** 精简部署 - 估价交易开单，基于资源/非库存场景的 Project Operations_
 
 基于项目的报价单明细具有 *包含* 组件和 *应计费* 组件概念。
 
@@ -42,7 +42,7 @@ _**适用于：** 精简部署 - 估价交易开票_
 
 ### <a name="update-a-project-task-to-be-chargeable-or-non-chargeable"></a>将项目任务更新为应计费或非应计费
 
-项目任务在特定的基于项目的报价单明细的上下文中可以是应计费或非应计费，这样可以进行以下设置：
+项目任务在特定的基于项目的报价单明细的上下文中可以是应计费或非应计费，这样可以进行以下设置。
 
 如果基于项目的报价单明细包含 **时间** 和任务 **T1**，该任务将作为应计费与报价单明细关联。 如果有另一个包含 **支出** 的报价单明细，您可以将该报价单明细上的 **T1** 任务作为非应计费关联。 结果是，任务中记录的所有时间都为应计费，任务中记录的所有支出都为非应计费。
 
@@ -61,22 +61,575 @@ _**适用于：** 精简部署 - 估价交易开票_
 交易的计费类型可以通过更新 **应计费类别** 子网格上的 **计费类型** 字段在报价单明细的 **应计费类别** 选项卡上配置。
 
 ### <a name="resolve-chargeability"></a>解析应计费
-仅在报价单明细中包含 **时间** 且 **任务** 和 **角色** 在报价单明细中配置为应计费时，为时间创建的估计值或实际值才会被视为应计费。
+仅在以下情况下才会将为时间创建的估算或实际值视为应计费：
 
-仅在报价单明细中包含 **支出** 且 **任务** 和 **交易类别** 在报价单明细中配置为应计费时，为支出创建的估计值或实际值才会被视为应计费。
+   - 报价单明细中包含 **时间**。
+   - 在报价单明细上将 **角色** 配置为应计费。
+   - 在报价单明细上将 **包括的任务** 设置为 **选定任务**。 
 
-| 包括时间 | 包括支出 | 包含的任务 | 角色 | 类别 | 任务 | 记帐 |
-| --- | --- | --- | --- | --- | --- | --- |
-| 是 | 是 | 整个项目 | 应计费 | 应计费 | 无法设置 | 时间实际值的计费：应计费 </br>支出实际值的计费：应计费 |
-| 是 | 是 | 仅所选任务 | 应计费 | 应计费 | 应计费 | 时间实际值的计费：应计费</br>支出实际值的计费：应计费 |
-| 是 | 是 | 仅所选任务 | 非应计费 | 应计费 | 应计费 | 时间实际值的计费：非应计费</br>支出实际值的计费：应计费 |
-| 是 | 是 | 仅所选任务 | 应计费 | 应计费 | 非应计费 | 时间实际值的计费：非应计费</br> 支出实际值的计费：非应计费 |
-| 是 | 是 | 仅所选任务 | 非应计费 | 应计费 | 非应计费 | 时间实际值的计费：非应计费</br> 支出实际值的计费：非应计费 |
-| 是 | 是 | 仅所选任务 | 非应计费 | 非应计费 | 应计费 | 时间实际值的计费：非应计费</br> 支出实际值的计费：非应计费 |
-| No | 是 | 整个项目 | 无法设置 | 应计费 | 无法设置 | 时间实际值的计费：不可用 </br>支出实际值的计费：应计费 |
-| No | 是 | 整个项目 | 无法设置 | 非应计费 | 无法设置 | 时间实际值的计费：不可用 </br>支出实际值的计费：非应计费 |
-| 是 | No | 整个项目 | 应计费 | 无法设置 | 无法设置 | 时间实际值的计费：应计费</br>支出实际值的计费：不可用 |
-| 是 | No | 整个项目 | 非应计费 | 无法设置 | 无法设置 | 时间实际值的计费：非应计费 </br>支出实际值的计费：不可用 |
+如果这三种情况属实，则还会将 **任务** 配置为应计费。 
+
+仅在以下情况下才会将为支出创建的估算或实际值视为应计费： 
+
+   - 报价单明细中包含 **支出**。
+   - 在报价单明细上将 **交易类别** 配置为应计费。
+   - 在报价单明细上将 **包括的任务** 设置为 **选定任务**。
+
+如果这三种情况属实，则还会将 **任务** 配置为应计费。 
+
+仅在以下情况下才会将为材料创建的估算或实际值视为应计费：
+
+   - 报价单明细中包含 **材料**。
+   - 在报价单明细上将 **包括的任务** 设置为 **选定任务**。
+
+如果这两种情况属实，则还应将 **任务** 配置为应计费。 
+
+
+<table border="0" cellspacing="0" cellpadding="0">
+    <tbody>
+        <tr>
+            <td width="70" valign="top">
+                <p>
+                    <strong>包括时间</strong>
+                </p>
+            </td>
+            <td width="78" valign="top">
+                <p>
+                    <strong>包括支出</strong>
+                    <strong></strong>
+                </p>
+            </td>
+            <td width="63" valign="top">
+                <p>
+                    <strong>包括材料</strong>
+                    <strong></strong>
+                </p>
+            </td>
+            <td width="75" valign="top">
+                <p>
+                    <strong>包含的任务</strong>
+                    <strong></strong>
+                </p>
+            </td>
+            <td width="65" valign="top">
+                <p>
+                    <strong>角色</strong>
+                    <strong></strong>
+                </p>
+            </td>
+            <td width="70" valign="top">
+                <p>
+                    <strong>类别</strong>
+                    <strong></strong>
+                </p>
+            </td>
+            <td width="65" valign="top">
+                <p>
+                    <strong>任务</strong>
+                    <strong></strong>
+                </p>
+            </td>
+            <td width="350" valign="top">
+                <p>
+                    <strong>应计费影响</strong>
+                </p>
+            </td>
+        </tr>
+        <tr>
+            <td width="70" valign="top">
+                <p>
+是 </p>
+            </td>
+            <td width="78" valign="top">
+                <p>
+是 </p>
+            </td>
+            <td width="63" valign="top">
+                <p>
+是 </p>
+            </td>
+            <td width="75" valign="top">
+                <p>
+整个项目 </p>
+            </td>
+            <td width="65" valign="top">
+                <p>
+应计费 </p>
+            </td>
+            <td width="70" valign="top">
+                <p>
+应计费 </p>
+            </td>
+            <td width="65" valign="top">
+                <p>
+无法设置 </p>
+            </td>
+            <td width="350" valign="top">
+                <p>
+时间实际值的计费：应计费 </p>
+                <p>
+支出实际值的计费：应计费 </p>
+                <p>
+材料实际值的计费类型：应计费 </p>
+            </td>
+        </tr>
+        <tr>
+            <td width="70" valign="top">
+                <p>
+是 </p>
+            </td>
+            <td width="78" valign="top">
+                <p>
+是 </p>
+            </td>
+            <td width="63" valign="top">
+                <p>
+是 </p>
+            </td>
+            <td width="75" valign="top">
+                <p>
+仅所选任务 </p>
+            </td>
+            <td width="65" valign="top">
+                <p>
+应计费 </p>
+            </td>
+            <td width="70" valign="top">
+                <p>
+应计费 </p>
+            </td>
+            <td width="65" valign="top">
+                <p>
+应计费 </p>
+            </td>
+            <td width="350" valign="top">
+                <p>
+时间实际值的计费：应计费 </p>
+                <p>
+支出实际值的计费：应计费 </p>
+                <p>
+材料实际值的计费类型：应计费 </p>
+            </td>
+        </tr>
+        <tr>
+            <td width="70" valign="top">
+                <p>
+是 </p>
+            </td>
+            <td width="78" valign="top">
+                <p>
+是 </p>
+            </td>
+            <td width="63" valign="top">
+                <p>
+是 </p>
+            </td>
+            <td width="75" valign="top">
+                <p>
+仅所选任务 </p>
+            </td>
+            <td width="65" valign="top">
+                <p>
+                    <strong>非应计费</strong>
+                </p>
+            </td>
+            <td width="70" valign="top">
+                <p>
+应计费 </p>
+            </td>
+            <td width="65" valign="top">
+                <p>
+应计费 </p>
+            </td>
+            <td width="350" valign="top">
+                <p>
+时间实际值的计费：<strong>非应计费</strong>
+                </p>
+                <p>
+支出实际值的计费：应计费 </p>
+                <p>
+材料实际值的计费类型：应计费 </p>
+            </td>
+        </tr>
+        <tr>
+            <td width="70" valign="top">
+                <p>
+是 </p>
+            </td>
+            <td width="78" valign="top">
+                <p>
+是 </p>
+            </td>
+            <td width="63" valign="top">
+                <p>
+是 </p>
+            </td>
+            <td width="75" valign="top">
+                <p>
+仅所选任务 </p>
+            </td>
+            <td width="65" valign="top">
+                <p>
+应计费 </p>
+            </td>
+            <td width="70" valign="top">
+                <p>
+应计费 </p>
+            </td>
+            <td width="65" valign="top">
+                <p>
+                    <strong>非应计费</strong>
+                </p>
+            </td>
+            <td width="350" valign="top">
+                <p>
+时间实际值的计费：<strong>非应计费</strong>
+                </p>
+                <p>
+支出实际值的计费类型：<strong>非应计费</strong>
+                </p>
+                <p>
+材料实际值的计费类型：<strong>非应计费</strong>
+                </p>
+            </td>
+        </tr>
+        <tr>
+            <td width="70" valign="top">
+                <p>
+是 </p>
+            </td>
+            <td width="78" valign="top">
+                <p>
+是 </p>
+            </td>
+            <td width="63" valign="top">
+                <p>
+是 </p>
+            </td>
+            <td width="75" valign="top">
+                <p>
+仅所选任务 </p>
+            </td>
+            <td width="65" valign="top">
+                <p>
+                    <strong>非应计费</strong>
+                </p>
+            </td>
+            <td width="70" valign="top">
+                <p>
+应计费 </p>
+            </td>
+            <td width="65" valign="top">
+                <p>
+                    <strong>非应计费</strong>
+                </p>
+            </td>
+            <td width="350" valign="top">
+                <p>
+时间实际值的计费：<strong>非应计费</strong>
+                </p>
+                <p>
+支出实际值的计费类型：<strong>非应计费</strong>
+                </p>
+                <p>
+材料实际值的计费类型：<strong>非应计费</strong>
+                </p>
+            </td>
+        </tr>
+        <tr>
+            <td width="70" valign="top">
+                <p>
+是 </p>
+            </td>
+            <td width="78" valign="top">
+                <p>
+是 </p>
+            </td>
+            <td width="63" valign="top">
+                <p>
+是 </p>
+            </td>
+            <td width="75" valign="top">
+                <p>
+仅所选任务 </p>
+            </td>
+            <td width="65" valign="top">
+                <p>
+                    <strong>非应计费</strong>
+                </p>
+            </td>
+            <td width="70" valign="top">
+                <p>
+                    <strong>非应计费</strong>
+                </p>
+            </td>
+            <td width="65" valign="top">
+                <p>
+应计费 </p>
+            </td>
+            <td width="350" valign="top">
+                <p>
+时间实际值的计费：<strong>非应计费</strong>
+                </p>
+                <p>
+支出实际值的计费类型：<strong>非应计费</strong>
+                </p>
+                <p>
+材料实际值的计费类型：应计费 </p>
+            </td>
+        </tr>
+        <tr>
+            <td width="70" valign="top">
+                <p>
+                    <strong>No</strong>
+                </p>
+            </td>
+            <td width="78" valign="top">
+                <p>
+是 </p>
+            </td>
+            <td width="63" valign="top">
+                <p>
+是 </p>
+            </td>
+            <td width="75" valign="top">
+                <p>
+整个项目 </p>
+            </td>
+            <td width="65" valign="top">
+                <p>
+无法设置 </p>
+            </td>
+            <td width="70" valign="top">
+                <p>
+                    <strong>应计费</strong>
+                </p>
+            </td>
+            <td width="65" valign="top">
+                <p>
+无法设置 </p>
+            </td>
+            <td width="350" valign="top">
+                <p>
+时间实际值的计费：<strong>不可用</strong>
+                </p>
+                <p>
+支出实际值的计费：应计费 </p>
+                <p>
+材料实际值的计费类型：应计费 </p>
+            </td>
+        </tr>
+        <tr>
+            <td width="70" valign="top">
+                <p>
+                    <strong>No</strong>
+                </p>
+            </td>
+            <td width="78" valign="top">
+                <p>
+是 </p>
+            </td>
+            <td width="63" valign="top">
+                <p>
+是 </p>
+            </td>
+            <td width="75" valign="top">
+                <p>
+整个项目 </p>
+            </td>
+            <td width="65" valign="top">
+                <p>
+无法设置 </p>
+            </td>
+            <td width="70" valign="top">
+                <p>
+                    <strong>非应计费</strong>
+                </p>
+            </td>
+            <td width="65" valign="top">
+                <p>
+无法设置 </p>
+            </td>
+            <td width="350" valign="top">
+                <p>
+时间实际值的计费：<strong>不可用</strong>
+                </p>
+                <p>
+支出实际值的计费类型：<strong>非应计费</strong>
+                </p>
+                <p>
+材料实际值的计费类型：应计费 </p>
+            </td>
+        </tr>
+        <tr>
+            <td width="70" valign="top">
+                <p>
+是 </p>
+            </td>
+            <td width="78" valign="top">
+                <p>
+                    <strong>No</strong>
+                </p>
+            </td>
+            <td width="63" valign="top">
+                <p>
+是 </p>
+            </td>
+            <td width="75" valign="top">
+                <p>
+整个项目 </p>
+            </td>
+            <td width="65" valign="top">
+                <p>
+应计费 </p>
+            </td>
+            <td width="70" valign="top">
+                <p>
+无法设置 </p>
+            </td>
+            <td width="65" valign="top">
+                <p>
+无法设置 </p>
+            </td>
+            <td width="350" valign="top">
+                <p>
+时间实际值的计费：应计费 </p>
+                <p>
+支出实际值的计费类型：<strong>不可用</strong>
+                </p>
+                <p>
+材料实际值的计费类型：应计费 </p>
+            </td>
+        </tr>
+        <tr>
+            <td width="70" valign="top">
+                <p>
+是 </p>
+            </td>
+            <td width="78" valign="top">
+                <p>
+                    <strong>No</strong>
+                </p>
+            </td>
+            <td width="63" valign="top">
+                <p>
+是 </p>
+            </td>
+            <td width="75" valign="top">
+                <p>
+整个项目 </p>
+            </td>
+            <td width="65" valign="top">
+                <p>
+                    <strong>非应计费</strong>
+                </p>
+            </td>
+            <td width="70" valign="top">
+                <p>
+无法设置 </p>
+            </td>
+            <td width="65" valign="top">
+                <p>
+无法设置 </p>
+            </td>
+            <td width="350" valign="top">
+                <p>
+时间实际值的计费：<strong>非应计费</strong>
+                </p>
+                <p>
+支出实际值的计费类型：<strong>不可用</strong>
+                </p>
+                <p>
+材料实际值的计费类型：应计费 </p>
+            </td>
+        </tr>
+        <tr>
+            <td width="70" valign="top">
+                <p>
+是 </p>
+            </td>
+            <td width="78" valign="top">
+                <p>
+是 </p>
+            </td>
+            <td width="63" valign="top">
+                <p>
+                    <strong>No</strong>
+                </p>
+            </td>
+            <td width="75" valign="top">
+                <p>
+整个项目 </p>
+            </td>
+            <td width="65" valign="top">
+                <p>
+应计费 </p>
+            </td>
+            <td width="70" valign="top">
+                <p>
+应计费 </p>
+            </td>
+            <td width="65" valign="top">
+                <p>
+无法设置 </p>
+            </td>
+            <td width="350" valign="top">
+                <p>
+时间实际值的计费：应计费 </p>
+                <p>
+支出实际值的计费：应计费 </p>
+                <p>
+材料实际值的计费类型：<strong>不可用</strong>
+                </p>
+            </td>
+        </tr>
+        <tr>
+            <td width="70" valign="top">
+                <p>
+是 </p>
+            </td>
+            <td width="78" valign="top">
+                <p>
+是 </p>
+            </td>
+            <td width="63" valign="top">
+                <p>
+                    <strong>No</strong>
+                </p>
+            </td>
+            <td width="75" valign="top">
+                <p>
+整个项目 </p>
+            </td>
+            <td width="65" valign="top">
+                <p>
+                    <strong>非应计费</strong>
+                </p>
+            </td>
+            <td width="70" valign="top">
+                <p>
+                    <strong>非应计费</strong>
+                </p>
+            </td>
+            <td width="65" valign="top">
+                <p>
+无法设置 </p>
+            </td>
+            <td width="350" valign="top">
+                <p>
+时间实际值的计费：<strong>非应计费</strong>
+                </p>
+                <p>
+支出实际值的计费类型：<strong>非应计费</strong>
+                </p>
+                <p>
+材料实际值的计费类型：<strong>不可用</strong>
+                </p>
+            </td>
+        </tr>
+    </tbody>
+</table>
+
 
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

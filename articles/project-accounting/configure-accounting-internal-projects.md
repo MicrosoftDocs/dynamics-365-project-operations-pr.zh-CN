@@ -8,12 +8,12 @@ ms.topic: article
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: sigitac
-ms.openlocfilehash: 9f1cc75b12fec81d726e46f8d970dcfe030f6b29
-ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
+ms.openlocfilehash: 65d05e3a6321dc32aee55c28b3eaa4bd0bae2f86
+ms.sourcegitcommit: 5fd529f2308edfe9322082313e6d50146df56aca
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5287587"
+ms.lasthandoff: 04/06/2021
+ms.locfileid: "5857967"
 ---
 # <a name="configure-accounting-for-internal-projects"></a>配置内部项目会计
 
@@ -28,6 +28,7 @@ _**适用于：** 面向资源/非库存场景的 Project Operations_
 
 - 时间交易通过借记 **成本** 科目并记入 **工资分配** 科目来过帐。
 - 支出交易通过借记 **成本** 科目并记入 **支出的抵销科目** 来过帐。
+- 项目交易过帐通过借记 **成本** 科目和贷记 **成本 - 项目** 科目来实现。
 
 交易过帐到项目后，如果项目与项目合同相关联，系统将冲销所有累计交易并创建新的可计费交易。 可计费交易遵循在各自的项目成本和收入模板中定义的会计规则。
 

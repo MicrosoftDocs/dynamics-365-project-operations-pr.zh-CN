@@ -8,16 +8,16 @@ ms.topic: article
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: c5c29872ef3d62780eea3c0eda48c8fd2a9af4b1
-ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
+ms.openlocfilehash: 4737f9870904bfc7adac11b8e2aa13bb8c610ca3
+ms.sourcegitcommit: 5fd529f2308edfe9322082313e6d50146df56aca
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5272782"
+ms.lasthandoff: 04/06/2021
+ms.locfileid: "5858037"
 ---
-# <a name="map-projects-and-tasks-to-a-project-based-contract-line---lite"></a>将项目和任务映射到基于项目的合同子项 - 精简
+# <a name="map-projects-and-tasks-to-a-project-based-contract-line"></a>将项目和任务映射到基于项目的合同子项 
 
-_**适用于：** 精简部署 - 估价交易开票_
+_**适用于：** 精简部署 - 估价交易开单，基于资源/非库存场景的 Project Operations_
 
 在基于项目的合同子项上，您可以将项目中的特定任务映射到合同子项。
 

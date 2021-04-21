@@ -1,39 +1,52 @@
 ---
-title: 资源预估
-description: 此主题提供有关在 Project Operations 中如何计算资源预估的信息。
-author: ruhercul
+title: 项目资源时间的财务估算
+description: 此主题提供了关于如何计算时间财务估算的信息。
+author: rumant
 manager: Annbe
-ms.date: 10/01/2020
+ms.date: 03/19/2021
 ms.topic: article
 ms.service: project-operations
 ms.reviewer: kfend
-ms.author: ruhercul
-ms.openlocfilehash: 98a61746f172b50bf6fa29cb0d21462cd616f417
-ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
+ms.author: rumant
+ms.openlocfilehash: 91156c5cf79af8c66c12b84a6d2b17aa7fe09ed1
+ms.sourcegitcommit: 386921f44f1e9a8a828b140206d52945de07aee7
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5286507"
+ms.lasthandoff: 03/22/2021
+ms.locfileid: "5701815"
 ---
-# <a name="resource-estimates"></a>资源预估
+# <a name="financial-estimates-for-resource-time-on-projects"></a>项目资源时间的财务估算
 
 _**适用于：** 基于资源/非库存场景的 Project Operations，精简部署 - 估价开票交易_
 
-资源预估来自工作分解结构中定义的分时段工作量以及适用的定价维度。 通常，计算方式是 **每个角色的费率/小时 x 时数**。 每个资源的分时段工作量存储在资源分配记录中。 定价存储在预定义的价目表中。 单位转换基于适用的价目表应用。
+系统根据三种因素来计算时间财务估算： 
+
+- 分派给项目规划的每个叶节点任务的通用或指定团队成员类型。 
+- 工作的类型或复杂程度。
+- 任务资源分配工作分布。 
+
+前两个因素会影响资源分派的单位成本或帐单费率。 资源分派的单位成本或帐单费率由分派的资源的属性确定。 这些属性包括资源所属的部门以及资源的标准角色。 您还可以为资源添加与您的业务相关的自定义属性（如标准职务或体验级别），并让它们影响分派的单位成本或帐单费率。
+除了资源的属性之外，工作属性（例如任务）还可能会影响分派的单位帐单费率或成本费率。 例如，如果特定任务更复杂，则将资源分配给这些特定任务会导致比不太复杂的任务更高的单位成本或帐单费率。   
+
+第三个因素提供按该费率计算的小时数。 在任务涉及两个时间段的情况下，该任务资源分派的第一部分的成本计算和定价可能会不同于任务的第二部分。 每个资源分派的工作估算是一个复杂的值，此值与每天的工作量每日分配一起存储。
+
+有关如何将工作和资源自定义属性设置为定价和成本计算维度的详细说明，请参阅[定价维度概述](../pricing-costing/pricing-dimensions-overview.md)。
+
+每项资源分配的财务估算的计算公式为 **分配的费用/小时乘以小时数。**  与工作量估算相似，每项资源分配的成本和收入的财务估算是一个复杂值，此值与每天的货币金额每日分配一起存储。 
+
+## <a name="summarizing-financial-estimates-for-time"></a>汇总时间财务估算
+叶节点任务中的时间财务估算是该任务的所有资源分配的财务估算总和。
+
+摘要任务或父任务中的时间财务估算是其所有子任务的财务估算总和。 这是项目的估算人工成本。 
 
 ![资源预估](./media/navigation12.png)
 
 ## <a name="default-cost-price-and-cost-currency"></a>默认成本费和成本货币
 
-成本费默认为部门中的值。
+默认成本价格来自附加到项目合同单位的价目表。 项目的成本货币始终是项目的合同单位的货币。 分配资源时，成本的财务估算以项目成本货币为单位进行存储。 有时，在价目表中设置成本费率所使用的货币不同于项目的成本货币。 在这种情况下，应用程序将针对项目货币转换设置成本价格所采用的货币。 在 **估算** 网格上，所有成本估算均以项目成本货币显示和汇总。 
 
 ## <a name="default-bill-rate-and-sales-currency"></a>默认帐单费率和销售货币
 
-每笔交易应用一次售价。 销售价目表的默认层次结构如下：
-
-1. 组织
-2. 客户
-3. 报价单/合同
-
+如果赢得交易，则默认销售价格来自相关项目合同所附加的项目价目表，如果交易仍处于预售阶段，则来自相关项目报价单。 项目的销售货币始终是项目报价单或项目合同的货币。 分配资源时，销售的财务估算以项目销售货币为单位进行存储。 与成本不同，在价目表中设置的销售价格从不会与项目的销售货币不同。 不存在需要货币换算的情况。 在 **估算** 网格上，所有销售估算均以项目销售货币显示和汇总。 
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

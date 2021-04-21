@@ -1,29 +1,27 @@
 ---
-title: 配置发票自动创建 - 精简
-description: 此主题提供有关配置估价发票自动创建的信息。
+title: 设置发票自动创建
+description: 本主题提供关于设置和配置形式发票的自动创建的信息。
 author: rumant
 manager: Annbe
-ms.date: 10/13/2020
+ms.date: 04/05/2021
 ms.topic: article
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: 1d911ab0defaaee40d8752557e1115ea49c8fa93
-ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
+ms.openlocfilehash: 359c5902e0b6a08ab7fc982095062e4d1816db6c
+ms.sourcegitcommit: ca0fc078d1a12484eca193fe051b8442c0559db8
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5274312"
+ms.lasthandoff: 04/07/2021
+ms.locfileid: "5866806"
 ---
-# <a name="configure-automatic-invoice-creation---lite"></a>配置发票自动创建 - 精简
+# <a name="set-up-automatic-invoice-creation"></a>设置发票自动创建 
  
-_**适用于：** 精简部署 - 估价交易开票_
+_**适用于：** 精简部署 - 估价交易开单，基于资源/非库存场景的 Project Operations_
 
 您可以在 Dynamics 365 Project Operations 中配置自动创建发票。 系统基于每个项目合同和合同子项的发票计划创建草稿估价发票。 发票计划在合同子项级别配置。 合同中的每一行可以有不同的发票计划，也可以在合同的每一行中包含相同的发票计划。
 
-在您创建发票时，系统始终会为每个项目合同创建至少一个发票。 在某些情况下，可能创建多个发票。
-
-例如，如果合同有多个客户，则将创建与该项目合同中具有可计费交易需要开票的客户数量相同的发票数量。
+在您创建发票时，系统始终会为每个项目合同创建至少一个发票。 在某些情况下，可能创建多个发票。 例如，如果合同有多个客户，则将创建与该项目合同中具有可计费交易需要开票的客户数量相同的发票数量。
 
 ## <a name="understand-how-transactions-are-included-on-an-invoice"></a>了解发票上如何包含交易 
 

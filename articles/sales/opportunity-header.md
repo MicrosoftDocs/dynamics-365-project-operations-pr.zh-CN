@@ -8,14 +8,14 @@ ms.topic: article
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: c58c3696ae03e8a33a25a9483825a4b7cbf850be
-ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
+ms.openlocfilehash: ab8016014c0af60d1c0dfd37fdd457f279fb8059
+ms.sourcegitcommit: df30839484ef278675c5c712af0f7ba66ed9cdd3
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5277687"
+ms.lasthandoff: 03/17/2021
+ms.locfileid: "5664078"
 ---
-# <a name="opportunity-settings"></a>商机设置
+# <a name="header-details-for-project-based-opportunities"></a>针对基于项目的商机的标题详细信息
 
 _**适用于：** 面向资源/非库存场景的 Project Operations_
 

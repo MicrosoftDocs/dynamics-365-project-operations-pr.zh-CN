@@ -1,21 +1,21 @@
 ---
-title: 处理估算和实际值的售价 - 精简
-description: 此主题提供有关解析估计值和实际值中的售价的信息。
+title: 处理项目估计值和实际值的售价
+description: 该主题提供了有关解析项目估计值和实际值的销售价格的信息。
 author: rumant
 manager: Annbe
-ms.date: 10/19/2020
+ms.date: 04/07/2021
 ms.topic: article
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: 25620704570fa702e1e5e09c83005be50f98f20a
-ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
+ms.openlocfilehash: 3bf4686b414300370e6b364834b33edad98b7f39
+ms.sourcegitcommit: ac90be6106592f883a0de39a75836fb40255d65a
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5274492"
+ms.lasthandoff: 04/09/2021
+ms.locfileid: "5877345"
 ---
-# <a name="resolve-sales-prices-for-estimates-and-actuals---lite"></a>处理估算和实际值的售价 - 精简
+# <a name="resolve-sales-prices-for-project-estimates-and-actuals"></a>处理项目估计值和实际值的售价
 
 _**适用于：** 精简部署 - 估价交易开票_
 
@@ -55,5 +55,14 @@ _**适用于：** 精简部署 - 估价交易开票_
 
 4. 如果系统无法匹配 **类别** 和 **单位** 字段值，销售费率将默认为零 (0)。
 
+## <a name="resolving-sales-rates-on-actual-and-estimate-lines-for-material"></a>解析材料的实际明细和估算明细中中的销售费率
+
+在 Project Operations 中，材料估算明细用于表示项目上材料和材料估算明细的报价单明细和合同子项详细信息。
+
+解析销售价目表后，系统将完成以下步骤来设定默认销售单价。
+
+1. 系统使用材料估算明细中的 **产品** 和 **单位** 字段组合，以根据解析的价目表中的价目表项进行匹配。
+2. 如果系统发现价目表项具有适用于 **产品** 和 **单位** 字段组合的销售费率，并且定价方式为 **货币金额**，则使用价目表明细中指定的销售价格。
+3. 如果 **产品** 和 **单位** 字段值不匹配，则销售费率将默认为零。
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

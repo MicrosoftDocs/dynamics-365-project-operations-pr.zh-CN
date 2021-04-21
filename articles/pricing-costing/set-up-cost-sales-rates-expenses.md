@@ -3,17 +3,17 @@ title: 设置支出的成本和销售费率
 description: 此主题提供有关如何设置交易和支出类别的成本和销售费率的信息。
 author: rumant
 manager: Annbe
-ms.date: 10/13/2020
+ms.date: 04/07/2021
 ms.topic: article
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: ee52daae18c5f9f0b630e54359021fffe1759274
-ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
+ms.openlocfilehash: 34e3c24ae1aa999954af9b347633820d265ac0c3
+ms.sourcegitcommit: ac90be6106592f883a0de39a75836fb40255d65a
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5274897"
+ms.lasthandoff: 04/09/2021
+ms.locfileid: "5877209"
 ---
 # <a name="set-up-cost-and-sales-rates-for-expenses"></a>设置支出的成本和销售费率
 
@@ -23,9 +23,10 @@ _**适用于：** 基于资源/非库存场景的 Project Operations，精简部
 
 若要设置交易类别的成本和销售费率，请完成以下步骤。 
 
-1. 基于价目表标头创建价目表。 
-2. 在 **类别价格** 的子网格菜单上，选择 **+ 新建类别价格**。 
-3. 在 **快速创建** 页上，输入您要为其创建新价格的交易类别和计价单位。
+1. 转到 **销售** > **客户** > **价目表**。
+2. 选择 **新建** 以创建新的价目表。 
+3. 在 **类别价格** 的子网格菜单上，选择 **新建类别价格**。 
+4. 在 **快速创建** 页上，输入您要为其创建新价格的交易类别和计价单位。
 
 下表列出了类别价格明细的 **常规** 选项卡和 **快速创建** 页上的字段，当您在销售或成本价目表中创建类别价格时，应记住这些信息。
 

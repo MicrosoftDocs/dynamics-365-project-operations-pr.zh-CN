@@ -8,16 +8,16 @@ ms.topic: article
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: f3f18644a51d87cf3bb5b4effba2236eaf3d81a9
-ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
+ms.openlocfilehash: 0aedaa2ec77bb54031fccd0db2872e0aa5fea5e0
+ms.sourcegitcommit: 5fd529f2308edfe9322082313e6d50146df56aca
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5273412"
+ms.lasthandoff: 04/06/2021
+ms.locfileid: "5858237"
 ---
-# <a name="import-estimates-for-a-project-to-a-project-based-quote-line---lite"></a>将项目估算导入到基于项目的报价单明细 - 精简
+# <a name="import-estimates-for-a-project-to-a-project-based-quote-line"></a>将项目估算导入到基于项目的报价单明细 
 
-_**适用于：** 精简部署 - 估价交易开票_
+_**适用于：** 精简部署 - 估价交易开单，基于资源/非库存场景的 Project Operations_
 
 如果在预售阶段创建了项目，您可以选择将财务预估从项目导入到基于项目的报价单明细。
 
@@ -30,7 +30,7 @@ _**适用于：** 精简部署 - 估价交易开票_
   - **角色** 
   - **项目任务**
 
-根据您的选择，将复制此报价单明细中包括的所有交易类的项目预估。 要检查包括哪些交易类，选择基于项目的报价单明细上的 **常规** 选项卡，并检查 **包括时间**、**包括支出** 和 **包括费用**。  若要检查所包括的任务，选择报价单明细上的 **应计费任务** 选项卡。
+根据您的选择，将复制此报价单明细中包括的所有交易类的项目预估。 若要检查包括哪些交易分类，请在基于项目的报价单明细中选择 **常规** 选项卡，并检查 **包括时间**、**包括支出**、**包括材料** 和 **包括费用** 的值。  若要检查所包括的任务，选择报价单明细上的 **应计费任务** 选项卡。
 
 根据关联的任务和包括交易类，这些任务和交易类组合的所有估算将被全部导入到报价单明细。
 

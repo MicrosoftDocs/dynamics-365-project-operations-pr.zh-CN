@@ -3,19 +3,19 @@ title: 预付现金
 description: 本主题提供有关预付现金的信息。
 author: suvaidya
 manager: AnnBe
-ms.date: 02/01/2021
+ms.date: 03/25/2021
 ms.topic: article
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: suvaidya
 ms.dyn365.ops.version: ''
 ms.search.validFrom: 2020-10-01
-ms.openlocfilehash: 6da50ac5611fcbd54aef8d8591ee112200468177
-ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
+ms.openlocfilehash: 5ac8956720deac9e9c9191cefb870a7fbbeedcca
+ms.sourcegitcommit: 9ebf7dd501898053bfa824f732adabf3f273613b
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5276697"
+ms.lasthandoff: 03/26/2021
+ms.locfileid: "5715549"
 ---
 # <a name="cash-advance"></a>预付现金
 
@@ -60,7 +60,22 @@ _**适用于：** 面向资源/非库存场景的 Project Operations_
 
 当您为已收到的预付现金创建并提交支出报表时，支出将根据该预付现金自动进行调整。 如果您的预付现金大于支出金额，您必须使用 **返还现金** 支出类别将余额退还给公司。 如果公司支付的预付现金少于您的支出的金额，公司必须向您付还余额。 
 
-### <a name="example"></a>示例
+### <a name="select-cash-advances-that-apply-to-your-expenses"></a>选择适用于支出的预付现金
+在提交支出报表之前，可以选择与报表上的支出交易一致的预付现金。 若要使用此功能，必须从 **功能管理** 工作区中启用以下两项功能：
+
+  - 重新打造支出报表
+  - 将预付现金映射到支出行的功能
+ 
+ 启用这些功能时：
+ 
+  - 您可以为每个支出行设置一个或多个预付现金。
+  - 在保存支出报表时，可以实时看到预付现金的可用余额。 这使您可以同时处理支出交易和返现交易。
+  - 您可以为一个支出交易选择多个预付现金。
+  - 使用查询可以获得预付现金对帐数据。 
+ 
+如果您不使用这些功能，功能将保持不变，提交支出后会自动减少现有预付现金。
+
+### <a name="example"></a>示例 
 您计划从西雅图前往纽约，参加一次会议。 您根据会议入场券、机票、酒店、餐饮和出租车的估计成本创建了一个 3000.00 美元的预付现金请求。 除非您的经理批准此请求，否则不会向您付款。 在您的经理批准后，所请求的预付现金打入您的银行帐户，金额为 3000.00 美元。 然后，您参加了会议。 出差结束后，您发现总支出只有 2790.00 美元。 在 **付款方式** 字段中选择 **现金**，然后提交您的支出 2790.00 美元。 您提交的支出金额将根据借给您的 3000.00 美元的预付现金自动调整。 现在，您欠 210.00 美元 (3000.00 - 2790.00) 余额，您可以使用 **退还现金** 支出类别将余额退还给公司。
 
 
