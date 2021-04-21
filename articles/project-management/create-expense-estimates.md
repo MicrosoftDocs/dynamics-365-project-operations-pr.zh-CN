@@ -1,43 +1,45 @@
 ---
-title: 费用估算
+title: 项目支出的财务估算
 description: 此主题提供有关定义或预估基于项目的支出的信息。
-author: ruhercul
+author: rumant
 manager: Annbe
-ms.date: 10/01/2020
+ms.date: 03/19/2021
 ms.topic: article
 ms.service: project-operations
 ms.reviewer: kfend
-ms.author: ruhercul
-ms.openlocfilehash: 3f0429366c69346113003355679c055cd2c74ca3
-ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
+ms.author: rumant
+ms.openlocfilehash: ad4901b1264289f1da881154bc147fc3f8da698f
+ms.sourcegitcommit: 386921f44f1e9a8a828b140206d52945de07aee7
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5287047"
+ms.lasthandoff: 03/22/2021
+ms.locfileid: "5701771"
 ---
-# <a name="expense-estimates"></a><span data-ttu-id="88a52-103">费用估算</span><span class="sxs-lookup"><span data-stu-id="88a52-103">Expense estimates</span></span>
-<span data-ttu-id="88a52-104">_**适用于：** 基于资源/非库存场景的 Project Operations，精简部署 - 估价开票交易_</span><span class="sxs-lookup"><span data-stu-id="88a52-104">_**Applies To:** Project Operations for resource/non-stocked based scenarios, Lite deployment - deal to proforma invoicing_</span></span>
+# <a name="financial-estimates-for-expenses-on-projects"></a><span data-ttu-id="2fc50-103">项目支出的财务估算</span><span class="sxs-lookup"><span data-stu-id="2fc50-103">Financial estimates for expenses on projects</span></span>
+<span data-ttu-id="2fc50-104">_**适用于：** 基于资源/非库存场景的 Project Operations，精简部署 - 估价开票交易_</span><span class="sxs-lookup"><span data-stu-id="2fc50-104">_**Applies To:** Project Operations for resource/non-stocked based scenarios, Lite deployment - deal to proforma invoicing_</span></span>
 
-<span data-ttu-id="88a52-105">除了定义基于资源的估计值外，Dynamics 365 Project Operations 还允许项目经理为每个项目定义基于项目的费用。</span><span class="sxs-lookup"><span data-stu-id="88a52-105">Along with defining resource-based estimates, Dynamics 365 Project Operations allows Project managers to define project-based expenses for each project.</span></span> <span data-ttu-id="88a52-106">每个支出项都可与特定项目任务或支出类别关联。</span><span class="sxs-lookup"><span data-stu-id="88a52-106">Each expense item can be associated with a specific project task or expense category.</span></span> <span data-ttu-id="88a52-107">支出类别通常在组织级别定义。</span><span class="sxs-lookup"><span data-stu-id="88a52-107">Expense categories are typically defined at the organizational level.</span></span> <span data-ttu-id="88a52-108">每个支出类别的定价通常在以下层次结构中定义：</span><span class="sxs-lookup"><span data-stu-id="88a52-108">Pricing for each expense category is typically defined in the following hierarchy:</span></span>
+<span data-ttu-id="2fc50-105">Dynamics 365 Project Operations 允许项目经理为每个项目或任务定义基于项目的支出。</span><span class="sxs-lookup"><span data-stu-id="2fc50-105">Dynamics 365 Project Operations allows Project managers to define project-based expenses for each project or a task.</span></span> <span data-ttu-id="2fc50-106">每个支出项目可以与特定的项目任务相关联。</span><span class="sxs-lookup"><span data-stu-id="2fc50-106">Each expense item can be associated with a specific project task.</span></span> <span data-ttu-id="2fc50-107">支出按不同的支出类别进行分类，这些类别在组织级别定义。</span><span class="sxs-lookup"><span data-stu-id="2fc50-107">Expenses are categorized into different expense categories, which are defined at the organizational level.</span></span> <span data-ttu-id="2fc50-108">每个支出类别的定价和成本计算在价目表中定义。</span><span class="sxs-lookup"><span data-stu-id="2fc50-108">Pricing and costing for each expense category is defined in the price list.</span></span> 
 
-- <span data-ttu-id="88a52-109">组织</span><span class="sxs-lookup"><span data-stu-id="88a52-109">Organization</span></span>
-- <span data-ttu-id="88a52-110">客户</span><span class="sxs-lookup"><span data-stu-id="88a52-110">Customer</span></span>
-- <span data-ttu-id="88a52-111">报价单/合同</span><span class="sxs-lookup"><span data-stu-id="88a52-111">Quote/contract</span></span>
+<span data-ttu-id="2fc50-109">完成以下步骤来查看、添加或删除项目支出。</span><span class="sxs-lookup"><span data-stu-id="2fc50-109">Complete the following steps to view, add, or delete a project expense.</span></span>
 
-<span data-ttu-id="88a52-112">完成以下步骤来查看、添加或删除项目支出。</span><span class="sxs-lookup"><span data-stu-id="88a52-112">Complete the following steps to view, add, or delete a project expense.</span></span>
+1. <span data-ttu-id="2fc50-110">转到 **项目**，然后选择要处理的项目。</span><span class="sxs-lookup"><span data-stu-id="2fc50-110">Go to **Projects**, and select the project you want to work on.</span></span>
+2. <span data-ttu-id="2fc50-111">选择 **项目预估** 选项卡，查看项目支出列表。</span><span class="sxs-lookup"><span data-stu-id="2fc50-111">Select the **Project Estimates** tab and view the list of project expenses.</span></span>
+3. <span data-ttu-id="2fc50-112">选择 **新建支出** 添加支出。</span><span class="sxs-lookup"><span data-stu-id="2fc50-112">Select **New Expense** to add an expense.</span></span> <span data-ttu-id="2fc50-113">或者，选择要删除的支出，然后选择 **删除支出**。</span><span class="sxs-lookup"><span data-stu-id="2fc50-113">Or, select an expense to delete, and then select **Delete Expense**.</span></span>
 
-1. <span data-ttu-id="88a52-113">转到 **项目**，然后选择要处理的项目。</span><span class="sxs-lookup"><span data-stu-id="88a52-113">Go to **Projects**, and select the project you want to work on.</span></span>
-2. <span data-ttu-id="88a52-114">选择 **项目预估** 选项卡，查看项目支出列表。</span><span class="sxs-lookup"><span data-stu-id="88a52-114">Select the **Project Estimates** tab and view the list of project expenses.</span></span>
-3. <span data-ttu-id="88a52-115">选择 **新建支出** 添加支出。</span><span class="sxs-lookup"><span data-stu-id="88a52-115">Select **New Expense** to add an expense.</span></span> <span data-ttu-id="88a52-116">或者，选择要删除的支出，然后选择 **删除支出**。</span><span class="sxs-lookup"><span data-stu-id="88a52-116">Or, select an expense to delete, and then select **Delete Expense**.</span></span>
+<span data-ttu-id="2fc50-114">下表提供有关项目 **支出估算行** 上的字段的信息。</span><span class="sxs-lookup"><span data-stu-id="2fc50-114">The following table provides information about the fields on the **Expense Estimate line** on a Project.</span></span> 
 
-<span data-ttu-id="88a52-117">将为每个支出明细项目定义以下属性：</span><span class="sxs-lookup"><span data-stu-id="88a52-117">The following attributes are defined for each expense line item:</span></span>
-
-- <span data-ttu-id="88a52-118">**类别**：用于描述项目中产生的所有支出的常用分组。</span><span class="sxs-lookup"><span data-stu-id="88a52-118">**Category**: The common groupings used to describe all expenses incurred on a project.</span></span>
-- <span data-ttu-id="88a52-119">**开始日期**：预测将产生支出的日期。</span><span class="sxs-lookup"><span data-stu-id="88a52-119">**Start Date**: The date when the expense is forecasted to be incurred.</span></span>
-- <span data-ttu-id="88a52-120">**数量**：预估的特定类别的支出项目的数量。</span><span class="sxs-lookup"><span data-stu-id="88a52-120">**Quantity**: The estimated number of expense items for a specific category.</span></span>
-- <span data-ttu-id="88a52-121">**成本单价**：用于计算支出成本的单价。</span><span class="sxs-lookup"><span data-stu-id="88a52-121">**Unit Cost Price**: The unit price used to calculate to cost of the expense.</span></span>
-- <span data-ttu-id="88a52-122">**销售单价**：用于计算支出的销售价格的单价。</span><span class="sxs-lookup"><span data-stu-id="88a52-122">**Unit Sales Price**: The unit price used to calculate the sale prices of the expense.</span></span>
-
+| <span data-ttu-id="2fc50-115">**字段**</span><span class="sxs-lookup"><span data-stu-id="2fc50-115">**Field**</span></span> | <span data-ttu-id="2fc50-116">**说明**</span><span class="sxs-lookup"><span data-stu-id="2fc50-116">**Description**</span></span> | <span data-ttu-id="2fc50-117">**下游影响**</span><span class="sxs-lookup"><span data-stu-id="2fc50-117">**Downstream impact**</span></span> |
+| --- | --- | --- |
+| <span data-ttu-id="2fc50-118">任务</span><span class="sxs-lookup"><span data-stu-id="2fc50-118">Task</span></span> | <span data-ttu-id="2fc50-119">项目中的任务的列表。</span><span class="sxs-lookup"><span data-stu-id="2fc50-119">A list of tasks in the project.</span></span> <span data-ttu-id="2fc50-120">这包括摘要和叶节点任务。</span><span class="sxs-lookup"><span data-stu-id="2fc50-120">This includes summary and leaf node tasks.</span></span> | <span data-ttu-id="2fc50-121">为支出估算行选择任务会影响任务的估算支出成本和估算支出销售。</span><span class="sxs-lookup"><span data-stu-id="2fc50-121">Selecting a task for an expense estimate line will impact the estimated expense cost and estimated expense sales for a task.</span></span> <span data-ttu-id="2fc50-122">如果该字段留空，则仅在项目级别跟踪和汇总支出估算。</span><span class="sxs-lookup"><span data-stu-id="2fc50-122">If this field is left empty, the expense estimate is tracked and summarized only at the project level.</span></span> |
+| <span data-ttu-id="2fc50-123">类别</span><span class="sxs-lookup"><span data-stu-id="2fc50-123">Category</span></span> | <span data-ttu-id="2fc50-124">应用程序中已链接支出类别的交易类别列表。</span><span class="sxs-lookup"><span data-stu-id="2fc50-124">A list of transaction categories that have linked expense categories in the application.</span></span> | <span data-ttu-id="2fc50-125">选择类别将有助于支出估算行的定价和成本计算。</span><span class="sxs-lookup"><span data-stu-id="2fc50-125">Selecting a category drives pricing and costing on the expense estimate line.</span></span> |
+| <span data-ttu-id="2fc50-126">开始日期</span><span class="sxs-lookup"><span data-stu-id="2fc50-126">Start date</span></span> | <span data-ttu-id="2fc50-127">发生支出的预测日期。</span><span class="sxs-lookup"><span data-stu-id="2fc50-127">The forecasted date on which the expense will occur.</span></span> | <span data-ttu-id="2fc50-128">此字段没有下游影响。</span><span class="sxs-lookup"><span data-stu-id="2fc50-128">There is no downstream impact for this field.</span></span> |
+| <span data-ttu-id="2fc50-129">计价单位组</span><span class="sxs-lookup"><span data-stu-id="2fc50-129">Unit group</span></span> | <span data-ttu-id="2fc50-130">此字段中的默认值来自在所选类别上设置为默认值的计价单位组。</span><span class="sxs-lookup"><span data-stu-id="2fc50-130">The default value in this field comes from the unit group that's set up as default on the selected category.</span></span> <span data-ttu-id="2fc50-131">您可以更新此字段以选择其他计价单位组。</span><span class="sxs-lookup"><span data-stu-id="2fc50-131">You can update this field to select another unit group.</span></span> | <span data-ttu-id="2fc50-132">此字段没有下游影响。</span><span class="sxs-lookup"><span data-stu-id="2fc50-132">There is no downstream impact for this field.</span></span> |
+| <span data-ttu-id="2fc50-133">计价单位</span><span class="sxs-lookup"><span data-stu-id="2fc50-133">Unit</span></span> | <span data-ttu-id="2fc50-134">此字段中的值默认为所选类别的默认单位。</span><span class="sxs-lookup"><span data-stu-id="2fc50-134">The value in this field defaults to the default unit of the selected category.</span></span> <span data-ttu-id="2fc50-135">您可以更新此字段以选择其他单位。</span><span class="sxs-lookup"><span data-stu-id="2fc50-135">You can update this field to select another unit.</span></span> | <span data-ttu-id="2fc50-136">更改此单位将会导致不同的默认单价和成本。</span><span class="sxs-lookup"><span data-stu-id="2fc50-136">Changing the unit results in a different default unit price and cost.</span></span> |
+| <span data-ttu-id="2fc50-137">数量</span><span class="sxs-lookup"><span data-stu-id="2fc50-137">Quantity</span></span> | <span data-ttu-id="2fc50-138">您将发生的预计支出的数量。</span><span class="sxs-lookup"><span data-stu-id="2fc50-138">The quantity of the estimated expense you will incur.</span></span> | <span data-ttu-id="2fc50-139">此字段没有下游影响。</span><span class="sxs-lookup"><span data-stu-id="2fc50-139">There is no downstream impact for this field.</span></span> |
+| <span data-ttu-id="2fc50-140">单位成本</span><span class="sxs-lookup"><span data-stu-id="2fc50-140">Unit Cost</span></span> | <span data-ttu-id="2fc50-141">在适用的成本价目表中设置的所选类别和单位组合的成本</span><span class="sxs-lookup"><span data-stu-id="2fc50-141">The cost of the selected category and unit combination as set up in the applicable cost price list</span></span> | <span data-ttu-id="2fc50-142">单位成本始终以项目的成本货币显示。</span><span class="sxs-lookup"><span data-stu-id="2fc50-142">The unit cost is always shown in the project's cost currency.</span></span> |
+| <span data-ttu-id="2fc50-143">单价</span><span class="sxs-lookup"><span data-stu-id="2fc50-143">Unit Price</span></span> | <span data-ttu-id="2fc50-144">在适用的销售价目表中设置的所选类别和单位组合的价格。</span><span class="sxs-lookup"><span data-stu-id="2fc50-144">The price of the selected category and unit combination as setup in the applicable sales price list.</span></span> | <span data-ttu-id="2fc50-145">单位价格始终以项目的销售货币显示。</span><span class="sxs-lookup"><span data-stu-id="2fc50-145">The unit price is always shown in the project's sales currency.</span></span> |
+| <span data-ttu-id="2fc50-146">总成本</span><span class="sxs-lookup"><span data-stu-id="2fc50-146">Total Cost</span></span> | <span data-ttu-id="2fc50-147">按数量 \* 单位成本计算的成本金额。</span><span class="sxs-lookup"><span data-stu-id="2fc50-147">The cost amount that is calculated as quantity \* unit cost.</span></span>| <span data-ttu-id="2fc50-148">成本金额始终以项目的成本货币显示。</span><span class="sxs-lookup"><span data-stu-id="2fc50-148">The cost amount is always shown in the project's cost currency.</span></span> |
+| <span data-ttu-id="2fc50-149">总销售额</span><span class="sxs-lookup"><span data-stu-id="2fc50-149">Total Sales</span></span> | <span data-ttu-id="2fc50-150">按数量 \* 单价计算的销售金额。</span><span class="sxs-lookup"><span data-stu-id="2fc50-150">The sales amount that is calculated as quantity \* unit price.</span></span> | <span data-ttu-id="2fc50-151">销售金额始终以项目的销售货币显示。</span><span class="sxs-lookup"><span data-stu-id="2fc50-151">The sales amount is always shown in the project's sales currency.</span></span> |
 
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]
