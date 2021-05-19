@@ -34,6 +34,22 @@
               href: environment/security-model.md
             - name: 配置每个法人的 Project Operations 集成
               href: environment/resource-configure-integration-per-legal-entity.md
+        - name: 配置双重写入集成
+          items:
+            - name: 双重写入集成概述
+              href: environment/resource-dual-write-overview.md
+            - name: Project Operations 双重写入映射版本
+              href: environment/resource-dual-write-maps.md
+            - name: Project Operations 设置和配置数据集成
+              href: environment/resource-dual-write-setup-integration.md
+            - name: 项目估计值和实际值集成
+              href: environment/resource-dual-write-estimates-actuals.md
+            - name: 项目发票集成
+              href: environment/resource-dual-write-project-invoice.md
+            - name: 支出管理集成
+              href: environment/resource-dual-write-expense.md
+            - name: 供应商发票集成
+              href: environment/resource-dual-write-vendor-invoice.md
     - name: 新增功能
       items:
         - name: 2021 年 4 月 - 基于资源/非库存场景的 Project Operations
@@ -216,6 +232,8 @@
           href: project-management/understand-project-status.md
         - name: 定义项目日历
           href: project-management/define-project-calendars.md
+        - name: 日程安排模式
+          href: project-management/scheduling-modes.md
         - name: 更新项目
           href: project-management/update-project.md
         - name: 复制项目
@@ -404,6 +422,12 @@
           items:
             - name: 创建并确认更正日记帐
               href: actuals/create-confirm-correction-journals.md
+    - name: 采购
+      items:
+        - name: 配置非库存材料以及待定供应商发票
+          href: procurement/configure-materials-nonstocked.md
+        - name: 使用待定供应商发票为项目采购非库存材料
+          href: procurement/pending-vendor-invoices.md
     - name: 开票
       items:
         - name: 开票流程概述
@@ -424,10 +448,12 @@
               href: pro/proforma-invoicing/invoice-retainer-advance-sales.md
             - name: 确认估价基于项目的发票
               href: proforma-invoicing/confirm-proforma-invoice.md
-            - name: 创建更正基于项目的发票
+            - name: 创建基于更正项目的发票
               href: proforma-invoicing/corrective-invoices.md
             - name: 配置基于项目的发票自动化
               href: proforma-invoicing/configure-automated-invoice-creation.md
+        - name: 管理项目发票方案
+          href: invoicing/format-update-project-invoice-proposals.md
     - name: 项目会计
       items:
         - name: 财务维度默认值
@@ -682,6 +708,8 @@
           href: project-management/understand-project-status.md
         - name: 定义项目日历
           href: project-management/define-project-calendars.md
+        - name: 日程安排模式
+          hreF: project-management/scheduling-modes.md
         - name: 更新项目
           href: project-management/update-project.md
         - name: 复制项目
@@ -848,6 +876,8 @@
   items:
     - name: 新增功能
       items:
+        - name: 2021 年 4 月新增功能 - 适用于库存/生产订单场景的 Project Operations
+          href: prod-pma/whats-new/whats-new-apr-2021-stocked.md
         - name: 2021 年 3 月新增功能 - 适用于库存/生产订单场景的 Project Operations
           href: prod-pma/whats-new/whats-new-mar-2021-stocked.md
         - name: 2021 年 1 月新增功能 - 适用于库存/生产订单场景的 Project Operations
@@ -871,9 +901,9 @@
     - name: 设置和使用附条件支付供应商付款
       href: prod-pma/setup-manage-vendor-payments.md
     - name: 根据采购收据进行成本应计
-      href: 'https://docs.microsoft.com/dynamics365/finance/accounts-payable/project-cost-accrual-purchase-receipts'
+      href: /dynamics365/finance/accounts-payable/project-cost-accrual-purchase-receipts
     - name: 项目开票
-      href: 'https://docs.microsoft.com/dynamics365/finance/accounts-payable/project-invoicing'
+      href: /dynamics365/finance/accounts-payable/project-invoicing
     - name: 项目发票方案性能
       href: prod-pma/project-invoice-proposal-performance.md
     - name: 项目合同
@@ -998,6 +1028,8 @@
       items:
         - name: Project Service 3.x 的更新版本计划
           href: psa/version-history-ps.md
+        - name: V3 更新版 31 的新增或变更功能
+          href: psa/whats-new-ur-31.md
         - name: V3 更新版 30 的新增或变更功能
           href: psa/whats-new-ur-30.md
         - name: V3 更新版 29.5 修补程序的新增或变更功能
@@ -1327,7 +1359,7 @@
             - name: 查看资源利用率
               href: psa/view-resource-utilization.md
             - name: Universal Resource Scheduling (URS)
-              href: 'https://docs.microsoft.com/dynamics365/common-scheduler/schedule-anything-with-universal-resource-scheduling'
+              href: /dynamics365/common-scheduler/schedule-anything-with-universal-resource-scheduling
         - name: 项目经理指南
           items:
             - name: 项目经理指南 (Project Service)
