@@ -1,9 +1,9 @@
 ---
 title: 定义项目日历
-description: 此主题提供有关使用项目日历跟踪项目计划的信息。
+description: 本主题提供有关如何将日历模板应用于项目以跟踪项目计划的信息。
 author: ruhercul
 manager: AnnBe
-ms.date: 09/18/2020
+ms.date: 02/05/2021
 ms.topic: article
 ms.prod: ''
 ms.service: project-operations
@@ -17,38 +17,49 @@ ms.search.industry: Service industries
 ms.author: ruhercul
 ms.dyn365.ops.version: ''
 ms.search.validFrom: 2020-10-01
-ms.openlocfilehash: e25b11b6b947627ca2ac88952e74aecccc346c89
-ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
+ms.openlocfilehash: 1d5642d7a2246dc878b2bc4f504f138b71d29a69
+ms.sourcegitcommit: c45ceda833b30ad39861f5bcd3ba1bbfff11fe7a
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5286957"
+ms.lasthandoff: 05/04/2021
+ms.locfileid: "5981289"
 ---
 # <a name="define-project-calendars"></a>定义项目日历
 
 _**适用于：** 基于资源/非库存场景的 Project Operations，精简部署 - 估价开票交易_
 
-若要创建项目计划，请创建一个项目日历模板，用于定义每天的工时数和节假日。 若要创建项目日历模板，请将工作模板与项目的 **日历模板** 字段关联。 执行以下步骤创建一个工作模板。
+若要创建和管理项目，必须将日历模板应用于该项目。 日历模板定义以下项目属性：
 
-1. 在左侧导航窗格中选择 **资源**。 
-2. 在 **资源** 列表页中，打开一条用户记录，然后选择 **显示工时**。
+- 工作时数，包括开始和结束时间
+- 工作天数
+- 日历例外（如非工作日）
 
-  > [!NOTE]
-  > 确保浏览器页中允许弹出窗口。 这样您就可以查看为资源设置的工时。
-  
-3. 在 **月视图** 选项卡中，选择 **设置**。 将显示三个选项的列表： 
+应用于项目的日历模板是组织设置中定义的日历模板的副本。
 
-  - 新建周计划
-  - 一天的工作计划
-  - 休息时间
+> [!NOTE]
+> 如果更改日历模板，这些更改不会传播到项目的工作时间。 要更改项目的工作时间，必须应用新的模板。
 
-4. 选择 **新建周计划**，然后为此资源计划设置选项。 可设置定期周计划、日工时参数、节假日等。
-5. 设置日期范围，选择 **保存**，然后选择 **关闭**。 
-6. 回到 **资源** 列表页，然后选择要为其设置工时的资源。 
-7. 选择 **日历设置为** 以设置工作模板。 
-8. 在 **工作模板** 对话框中，输入工作模板的名称，然后选择 **应用**。 
+要为您的组织创建日历模板，有两个关键要求：
+
+- 使用新的或现有的可预订资源定义模板的所需工作时间。
+- 创建一个新的日历模板，将该模板与可预订资源相关联。
+
+**定义模板的工作时间**
+
+1. 转到 **资源**\>**资源**。
+2. 创建要在日历模板中引用的新资源，或选择一个现有资源。
+3. 选择资源的 **工作时间** 选项卡，完成[为资源设置工作时间](https://docs.microsoft.com/dynamics365/field-service/set-work-hours-resource)中的说明配置日历规则。
+
+**创建新的日历模板**
+
+1. 转到 **设置** \> **日历模板**。
+2. 选择 **新建**，输入名称、说明和模板资源。
+
+> [!NOTE]
+> 在日历模板中引用资源时，该资源的日历的副本将与日历模板相关联。 如果所复制模板的工作时间发生更改，这些更改不会传播到日历模板。
 
 现在可将此工作模板与项目日历模板关联。
 
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]
+
