@@ -8,12 +8,12 @@ ms.topic: article
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: sigitac
-ms.openlocfilehash: eec85b83cad4cd8fb6e0ec9c026c6a571bccf7f2
-ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
+ms.openlocfilehash: 0a76447bb1a81a7157fccc0cd58eddd1eb5995de
+ms.sourcegitcommit: 3d78338773929121d17ec3386f6cb67bfb2272cc
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5287362"
+ms.lasthandoff: 04/27/2021
+ms.locfileid: "5950118"
 ---
 # <a name="financial-dimension-defaults"></a>财务维度默认值
 
@@ -21,7 +21,7 @@ _**适用于：** 面向资源/非库存场景的 Project Operations_
 
 [!include [rename-banner](~/includes/cc-data-platform-banner.md)]
 
-Dynamics 365 Project Operations 使用 Dynamics 365 Finance 中的[财务维度](https://docs.microsoft.com/dynamics365/finance/general-ledger/financial-dimensions)框架提供有关项目子分类帐和总帐交易的其他见解。
+Dynamics 365 Project Operations 使用 Dynamics 365 Finance 中的[财务维度](/dynamics365/finance/general-ledger/financial-dimensions)框架提供有关项目子分类帐和总帐交易的其他见解。
 
 默认财务维度可以在客户、项目资金来源、里程碑、项目合同子项或项目上设置。
 

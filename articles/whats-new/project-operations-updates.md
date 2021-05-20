@@ -9,12 +9,12 @@ ms.prod: ''
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: sigitac
-ms.openlocfilehash: 5a1ab3b506ae94bba3a6ca96b164437d3fd3a035
-ms.sourcegitcommit: ac90be6106592f883a0de39a75836fb40255d65a
+ms.openlocfilehash: 6f7feb8c84441f97ad52016371284eb91b37478a
+ms.sourcegitcommit: 3d78338773929121d17ec3386f6cb67bfb2272cc
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/09/2021
-ms.locfileid: "5877524"
+ms.lasthandoff: 04/27/2021
+ms.locfileid: "5948228"
 ---
 # <a name="project-operations-updates"></a>Project Operations 更新
 
@@ -49,23 +49,23 @@ Dataverse 环境中的 Project Operations 更新每月推出。
 | 站   | 区域        | 当前版本 | 下一版本 | 公开发布 |
 |-----------|---------------|-----------------|--------------|---------------------|
 | 第 1 站 |   &nbsp;      |    &nbsp;       | &nbsp;       |      &nbsp;         |
-|   &nbsp;  | 第一版 |  4.9.0.221       | TBD     | 2021 年 4 月 23 日           |
+|   &nbsp;  | 第一版 |  4.9.0.221       | TBD     | 2021 年 4 月 30 日           |
 | 第 2 站 |   &nbsp;      |    &nbsp;       | &nbsp;       |      &nbsp;         |
-|   &nbsp;  | 南美 |  4.9.0.221       | TBD     | 2021 年 4 月 23 日           |
-|    &nbsp; | 加拿大        |  4.9.0.221       | TBD     | 2021 年 4 月 23 日           |
-|   &nbsp;  | 印度         |  4.9.0.221       | TBD     | 2021 年 4 月 23 日           |
-|   &nbsp;  | 法国         |  4.9.0.221       | TBD     | 2021 年 4 月 23 日           |
-|   &nbsp;  | 阿拉伯联合酋长国         |  4.9.0.221       | TBD     | 2021 年 4 月 23 日           |
-|   &nbsp;  | 南非         |  4.9.0.221       | TBD     | 2021 年 4 月 23 日           |
+|   &nbsp;  | 南美 |  4.9.0.221       | TBD     | 2021 年 4 月 30 日           |
+|    &nbsp; | 加拿大        |  4.9.0.221       | TBD     | 2021 年 4 月 30 日           |
+|   &nbsp;  | 印度         |  4.9.0.221       | TBD     | 2021 年 4 月 30 日           |
+|   &nbsp;  | 法国         |  4.9.0.221       | TBD     | 2021 年 4 月 30 日           |
+|   &nbsp;  | 阿拉伯联合酋长国         |  4.9.0.221       | TBD     | 2021 年 4 月 30 日           |
+|   &nbsp;  | 南非         |  4.9.0.221       | TBD     | 2021 年 4 月 30 日           |
 | 第 3 站  |      &nbsp;   |     &nbsp;      |     &nbsp;   |      &nbsp;         |
-|   &nbsp;  | 日本         |  4.9.0.221       | TBD     | 2021 年 4 月 30 日           |
-|   &nbsp;  | 亚太  |  4.9.0.221       | TBD     | 2021 年 4 月 30 日           |
-|   &nbsp;  | 英国 |  4.9.0.221       | TBD     | 2021 年 4 月 30 日           |
-|   &nbsp;  | 大洋洲       |  4.9.0.221       | TBD     | 2021 年 4 月 30 日           |
+|   &nbsp;  | 日本         |  4.9.0.221       | TBD     | 2021 年 5 月 7 日           |
+|   &nbsp;  | 亚太  |  4.9.0.221       | TBD     | 2021 年 5 月 7 日           |
+|   &nbsp;  | 英国 |  4.9.0.221       | TBD     | 2021 年 5 月 7 日           |
+|   &nbsp;  | 大洋洲       |  4.9.0.221       | TBD     | 2021 年 5 月 7 日           |
 | 第 4 站 |     &nbsp;    |     &nbsp;      |     &nbsp;   |      &nbsp;         |
-|   &nbsp;  | 欧洲        |  4.8.0.92       | 4.9.0.221     | 2021 年 4 月 16 日           |
+|   &nbsp;  | 欧洲        |  4.9.0.221       | TBD     | 2021 年 5 月 14 日           |
 | 第 5 站 |     &nbsp;    |     &nbsp;      |     &nbsp;   |      &nbsp;         |
-|   &nbsp;  | 北美 |  4.8.0.92       | 4.9.0.221     | 2021 年 4 月 23 日           |
+|   &nbsp;  | 北美 |  4.9.0.221       | TBD     | 2021 年 5 月 21 日           |
 
 ## <a name="release-schedule-for-project-management-and-accounting-in-the-finance-and-operations-apps-environment"></a>Finance and Operations 应用环境中的项目管理和会计的发行计划
 
@@ -73,15 +73,15 @@ Dataverse 环境中的 Project Operations 更新每月推出。
 
 | 支持版本 | 公开发布（自动更新） |
 | --- | --- |
+| 10.0.18 | 2021 年 4 月 16 日 |
 | 10.0.17 | 2021 年 3 月 19 日 |
 | 10.0.16 | 2021 年 1 月 22 日 |
 
 
-目标发布日期可能会发生更改。 有关详细信息，请参阅[服务更新可用性](https://docs.microsoft.com/dynamics365/fin-ops-core/fin-ops/get-started/public-preview-releases?toc=/dynamics365/finance/toc.json)。
+目标发布日期可能会发生更改。 有关详细信息，请参阅[服务更新可用性](/dynamics365/fin-ops-core/fin-ops/get-started/public-preview-releases?toc=%2fdynamics365%2ffinance%2ftoc.json)。
 
 | 目标发布日期 | 公开发布（自动更新） |
 | --- | --- |
-| 10.0.18 | 2021 年 4 月 16 日 |
 | 10.0.19 | 2021 年 6 月 18 日 |
 | 10.0.20 | 2021 年 7 月 16 日 |
 

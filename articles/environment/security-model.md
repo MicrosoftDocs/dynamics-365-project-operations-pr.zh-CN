@@ -8,12 +8,12 @@ ms.topic: article
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: stsporen
-ms.openlocfilehash: 3f65d13809fef342be8bec682c11d95c4d9e9b19
-ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
+ms.openlocfilehash: 8acaa86dec8ebca8f9850877d345e30be3e3a919
+ms.sourcegitcommit: 3d78338773929121d17ec3386f6cb67bfb2272cc
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5276787"
+ms.lasthandoff: 04/27/2021
+ms.locfileid: "5951198"
 ---
 # <a name="security-model"></a>安全模型
 
@@ -58,7 +58,7 @@ Web 项目会在分配后自动将用户添加到组中。
 
 Project Operations 不会通过隐式操作创建组，只会通过推进组建立的显式操作来创建组。
 
-**组管理** 对话中的组成员搜索仅限于那些被设置为环境安全组一部分的用户。 有关详细信息，请参阅[控制用户对环境的访问权限：安全组和许可证](https://docs.microsoft.com/power-platform/admin/control-user-access)。
+**组管理** 对话中的组成员搜索仅限于那些被设置为环境安全组一部分的用户。 有关详细信息，请参阅[控制用户对环境的访问权限：安全组和许可证](/power-platform/admin/control-user-access)。
 
 ![组模式](./media/groupsmode.png)
 
@@ -70,7 +70,7 @@ Project Operations 不会通过隐式操作创建组，只会通过推进组建�
 ## <a name="deployment-recommendation"></a>部署建议
 随着 Office 组协作模型的发展，以后会添加功能来提供更详细的控制。 鼓励今天部署 Project Operations 的客户专注于传统的 Microsoft Dynamics 365 安全模型。
 
-有关详细信息，请参阅 [Common Data Service 中的安全性](https://docs.microsoft.com/power-platform/admin/wp-security)。
+有关详细信息，请参阅 [Common Data Service 中的安全性](/power-platform/admin/wp-security)。
 
 ## <a name="project-operations-and-microsoft-dynamics-365-finance-security"></a>Project Operations 和 Microsoft Dynamics 365 Finance 的安全性
 Project Operations 包括以下角色：：
@@ -78,7 +78,7 @@ Project Operations 包括以下角色：：
 - 项目经理
 - 项目会计
 
-有关 Finance 中的安全性的详细信息，请参阅[基于角色的安全性](https://docs.microsoft.com/dynamics365/fin-ops-core/dev-itpro/sysadmin/role-based-security)。
+有关 Finance 中的安全性的详细信息，请参阅[基于角色的安全性](/dynamics365/fin-ops-core/dev-itpro/sysadmin/role-based-security)。
 
 
 

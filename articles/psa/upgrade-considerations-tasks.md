@@ -18,12 +18,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: a067521410f0fe0d8f5d4c510a35f2a3b018dce3
-ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
+ms.openlocfilehash: d31ca60b267063e9cadf544468ece501353950fa
+ms.sourcegitcommit: 3d78338773929121d17ec3386f6cb67bfb2272cc
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5281737"
+ms.lasthandoff: 04/27/2021
+ms.locfileid: "5951333"
 ---
 # <a name="upgrade-considerations-for-the-work-breakdown-structure"></a>工作分解结构的升级注意事项
 
@@ -34,20 +34,20 @@ ms.locfileid: "5281737"
 ## <a name="key-entities"></a>关键实体
 对于已经使用资源加载的准确工作分解结构，需要以下实体：
 
-- [项目](https://docs.microsoft.com/dynamics365/customerengagement/on-premises/developer/entities/msdyn_project)
-- [项目团队](https://docs.microsoft.com/dynamics365/customerengagement/on-premises/developer/entities/msdyn_projectteam)
-- [项目任务](https://docs.microsoft.com/dynamics365/customerengagement/on-premises/developer/entities/msdyn_projecttask)
-- [资源分派](https://docs.microsoft.com/dynamics365/customerengagement/on-premises/developer/entities/msdyn_resourceassignment)
-- [项目任务依赖关系](https://docs.microsoft.com/dynamics365/customerengagement/on-premises/developer/entities/msdyn_projecttaskdependency)
-- [可预订资源](https://docs.microsoft.com/dynamics365/customerengagement/on-premises/developer/entities/bookableresource)
+- [项目](/dynamics365/customerengagement/on-premises/developer/entities/msdyn_project)
+- [项目团队](/dynamics365/customerengagement/on-premises/developer/entities/msdyn_projectteam)
+- [项目任务](/dynamics365/customerengagement/on-premises/developer/entities/msdyn_projecttask)
+- [资源分派](/dynamics365/customerengagement/on-premises/developer/entities/msdyn_resourceassignment)
+- [项目任务依赖关系](/dynamics365/customerengagement/on-premises/developer/entities/msdyn_projecttaskdependency)
+- [可预订资源](/dynamics365/customerengagement/on-premises/developer/entities/bookableresource)
 
 若要定义已加载资源的工作分解结构，必须完成以下步骤：
 
-1. 创建新项目。 有关如何创建新项目的详细信息，请参阅 [msdyn_project](https://docs.microsoft.com/dynamics365/customerengagement/on-premises/developer/entities/msdyn_project)。
-2. 创建一个或多个任务。 有关如何创建任务的详细信息，请参阅 [msdyn_projecttask](https://docs.microsoft.com/dynamics365/customerengagement/on-premises/developer/entities/msdyn_projecttask)。
-3. 定义任务依赖项。 有关详细信息，请参阅[项目任务依赖关系](https://docs.microsoft.com/dynamics365/customerengagement/on-premises/developer/entities/msdyn_projecttaskdependency)。
-4. 为项目分派项目团队成员。 有关详细信息，请参阅 [msdyn_projectteam](https://docs.microsoft.com/dynamics365/customerengagement/on-premises/developer/entities/msdyn_projectteam)。
-5. 为任务分派项目团队成员。 有关详细信息，请参阅 [msdyn_resourceassignment](https://docs.microsoft.com/dynamics365/customerengagement/on-premises/developer/entities/msdyn_resourceassignment)。
+1. 创建新项目。 有关如何创建新项目的详细信息，请参阅 [msdyn_project](/dynamics365/customerengagement/on-premises/developer/entities/msdyn_project)。
+2. 创建一个或多个任务。 有关如何创建任务的详细信息，请参阅 [msdyn_projecttask](/dynamics365/customerengagement/on-premises/developer/entities/msdyn_projecttask)。
+3. 定义任务依赖项。 有关详细信息，请参阅[项目任务依赖关系](/dynamics365/customerengagement/on-premises/developer/entities/msdyn_projecttaskdependency)。
+4. 为项目分派项目团队成员。 有关详细信息，请参阅 [msdyn_projectteam](/dynamics365/customerengagement/on-premises/developer/entities/msdyn_projectteam)。
+5. 为任务分派项目团队成员。 有关详细信息，请参阅 [msdyn_resourceassignment](/dynamics365/customerengagement/on-premises/developer/entities/msdyn_resourceassignment)。
 
 ## <a name="project-team-relationships"></a>项目团队关系
 

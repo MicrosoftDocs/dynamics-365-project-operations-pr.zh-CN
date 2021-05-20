@@ -8,12 +8,12 @@ ms.topic: article
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: 1d3a54a9fcb0b0cef9461219e22305afbf5266e5
-ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
+ms.openlocfilehash: 5e51920e3a95e89fe923d59ecd2498ba243f895f
+ms.sourcegitcommit: 3d78338773929121d17ec3386f6cb67bfb2272cc
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5272827"
+ms.lasthandoff: 04/27/2021
+ms.locfileid: "5949713"
 ---
 # <a name="manage-leads---lite"></a>管理潜在顾客 - 精简
 
@@ -55,7 +55,7 @@ _**适用于：** 精简部署 - 估价交易开票_
 - 根据潜在顾客的 **名** 和 **姓** 字段中的值与客户关联的联系人记录。
 - 将 **类型** 字段设置为 **基于工作** 的基于项目的商机。
 
-有关授予潜在顾客资格的详细信息，请参阅[授予潜在顾客资格或转换潜在顾客](https://docs.microsoft.com/dynamics365/sales-enterprise/qualify-lead-convert-opportunity-sales)。
+有关授予潜在顾客资格的详细信息，请参阅[授予潜在顾客资格或转换潜在顾客](/dynamics365/sales-enterprise/qualify-lead-convert-opportunity-sales)。
 
 ## <a name="business-process-flow-for-project-based-deals"></a>基于项目的交易的业务流程
 

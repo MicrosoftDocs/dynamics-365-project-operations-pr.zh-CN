@@ -8,12 +8,12 @@ ms.topic: article
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: stsporen
-ms.openlocfilehash: 0af8067fc0673890a317ac6f4e62d74b7f4eebca
-ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
+ms.openlocfilehash: 2470d573f4537cb22de4dbd98caff148cbe0bda3
+ms.sourcegitcommit: 3d78338773929121d17ec3386f6cb67bfb2272cc
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5290078"
+ms.lasthandoff: 04/27/2021
+ms.locfileid: "5950253"
 ---
 # <a name="deploy-project-operations---lite"></a>部署 Project Operations - 精简
 
@@ -34,14 +34,14 @@ Project Operations 支持多个部署模型。 若要确定最佳部署模型，
 
 ## <a name="install-project-operations-to-a-new-cds-environment"></a><a name="new"></a>将 Project Operations 安装到新的 CDS 环境中
 
-1. 作为具有 Project Operations 许可证的[全局或 Power Platform 管理员](https://docs.microsoft.com/power-platform/admin/global-service-administrators-can-administer-without-license)，在 [PowerPlatform 管理中心](https://admin.powerplatform.com)创建一个新的 CDS 环境。 确保 **CDS 数据库** 和 **Dynamics 365 应用** 已启用。 已启用，请参阅[在 Power Platform 管理中心创建和管理环境](https://docs.microsoft.com/power-platform/admin/create-environment#create-an-environment-in-the-power-platform-admin-center)。
+1. 作为具有 Project Operations 许可证的[全局或 Power Platform 管理员](/power-platform/admin/global-service-administrators-can-administer-without-license)，在 [PowerPlatform 管理中心](https://admin.powerplatform.com)创建一个新的 CDS 环境。 确保 **CDS 数据库** 和 **Dynamics 365 应用** 已启用。 已启用，请参阅[在 Power Platform 管理中心创建和管理环境](/power-platform/admin/create-environment#create-an-environment-in-the-power-platform-admin-center)。
 2. 从 Dynamics 365 应用的部署列表中选择 **Microsoft Dynamics 365 Project Operations**。
 
 
 ## <a name="install-project-operations-to-an-existing-cds-environment"></a><a name="existing"></a>将 Project Operations 安装到现有 CDS 环境中
 
-1. 作为具有 Project Operations 许可证的[全局或 Power Platform 管理员](https://docs.microsoft.com/power-platform/admin/global-service-administrators-can-administer-without-license)，在 [PowerPlatform 管理中心](https://admin.powerplatform.com)中找到要安装 Project Operations 的环境。
-2. 安装 Dynamics 365 应用的部署列表中的 **Microsoft Dynamics 365 Project Operations**。 有关详细信息，请参阅[管理 Dynamics 365 应用](https://docs.microsoft.com/power-platform/admin/manage-apps)。
+1. 作为具有 Project Operations 许可证的[全局或 Power Platform 管理员](/power-platform/admin/global-service-administrators-can-administer-without-license)，在 [PowerPlatform 管理中心](https://admin.powerplatform.com)中找到要安装 Project Operations 的环境。
+2. 安装 Dynamics 365 应用的部署列表中的 **Microsoft Dynamics 365 Project Operations**。 有关详细信息，请参阅[管理 Dynamics 365 应用](/power-platform/admin/manage-apps)。
 
 
 

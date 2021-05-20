@@ -11,12 +11,12 @@ author: ruhercul
 ms.author: ruhercul
 search.audienceType: IT Pro, Developer
 search.app: ''
-ms.openlocfilehash: 377e50fc5772c4dc146ccee098bf2806bbc8c6b7
-ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
+ms.openlocfilehash: c521fb4000b4856fc5c2fbf3275bf3b3e0dfa458
+ms.sourcegitcommit: 3d78338773929121d17ec3386f6cb67bfb2272cc
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5275077"
+ms.lasthandoff: 04/27/2021
+ms.locfileid: "5950568"
 ---
 # <a name="sample-data-installation-for-the-project-service-application"></a>Project Service 应用程序的示例数据安装
 
@@ -149,7 +149,7 @@ Project Service 和 Field Service 示例数据安装程序作为自解压的可�
 
 5. 第一个用户的日历（在 **userstocreateandconfigure** 标记中）用于在导入演示数据时填充所有可预订资源的工作时间。 导航到 **设置** > **安全** > **用户**，找到您的 "Spencer Low" 用户“，然后打开“工作时间”选项。 编辑现有工作时间，选择 **从开始到结束的所有各周的定期计划** 选项。 确保 **工作时间设置为早晨 8 点 - 下午 5 点（9 小时），星期一至星期五，时区设置为太平洋时间（美国和加拿大）**。 这样可以确保项目和日程安排板正常显示。
 
-**建议：** 如果您需要在安装示例数据期间出现错误时还原到起点，应在现在考虑创建组织的备份。 有关更多信息，请参阅[备份和还原实例](https://docs.microsoft.com/dynamics365/customer-engagement/admin/backup-restore-instances)。
+**建议：** 如果您需要在安装示例数据期间出现错误时还原到起点，应在现在考虑创建组织的备份。 有关更多信息，请参阅[备份和还原实例](/dynamics365/customer-engagement/admin/backup-restore-instances)。
 
 ## <a name="run-the-package-deployer"></a>运行 Package Deployer。
 

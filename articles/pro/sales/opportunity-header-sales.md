@@ -8,12 +8,12 @@ ms.topic: article
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: 6631e136572b958ca616d708a5e3c3c2d9f2675c
-ms.sourcegitcommit: df30839484ef278675c5c712af0f7ba66ed9cdd3
+ms.openlocfilehash: ed82cb511337d9f6286e13b244d049022a184eef
+ms.sourcegitcommit: 3d78338773929121d17ec3386f6cb67bfb2272cc
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/17/2021
-ms.locfileid: "5663808"
+ms.lasthandoff: 04/27/2021
+ms.locfileid: "5950613"
 ---
 # <a name="header-details-for-project-opportunities"></a>项目商机的标题详细信息
 
@@ -33,7 +33,7 @@ Dynamics 365 Project Operations 中基于项目的商机是 Dynamics 365 Sales �
 | 客户经理 | “常规”选项卡 | 此基于项目的商机的客户经理的姓名。 | 客户经理负责在此项目完成之前管理与客户的关系。 根据与客户经理关联的可预订资源记录，默认设置合同签订部门。 |
 | 合同签订部门 | “常规”选项卡 | 负责交付与此交易关联的一个或多个项目的部门。 | 合同签订部门是在交易完成后完成项目的公司部门。 每个合同签订部门都有一种货币，此货币用于报告项目中产生的预估成本和实际成本。 |
 
-商机的 **摘要** 选项卡上的所有其他字段和部分，请参阅[创建或编辑商机（Sales 和销售中心）](https://docs.microsoft.com/dynamics365/sales-enterprise/create-edit-opportunity-sales)
+商机的 **摘要** 选项卡上的所有其他字段和部分，请参阅[创建或编辑商机（Sales 和销售中心）](/dynamics365/sales-enterprise/create-edit-opportunity-sales)
 
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

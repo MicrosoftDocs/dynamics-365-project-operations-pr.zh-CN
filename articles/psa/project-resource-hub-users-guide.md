@@ -18,12 +18,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: e27cc0919272784a030374f457d1ab1dccc1f9f1
-ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
+ms.openlocfilehash: 2450c00bae9eeb31d3b4bb14e6255e0681997672
+ms.sourcegitcommit: 3d78338773929121d17ec3386f6cb67bfb2272cc
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5283762"
+ms.lasthandoff: 04/27/2021
+ms.locfileid: "5948121"
 ---
 # <a name="user-guide-for-project-resource-hub"></a>项目资源中心的用户指南
 
@@ -48,7 +48,7 @@ ms.locfileid: "5283762"
 ## <a name="install-the-mobile-app"></a>安装移动应用程序
 需要先在设备上安装移动设备应用程序，才能开始使用项目资源中心应用程序。 
 
-[!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [安装适用于手机和平板电脑的 Dynamics 365](https://docs.microsoft.com/dynamics365/mobile-app/install-dynamics-365-for-phones-and-tablets)。
+[!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [安装适用于手机和平板电脑的 Dynamics 365](/dynamics365/mobile-app/install-dynamics-365-for-phones-and-tablets)。
 
 ## <a name="basic-navigation"></a>基本导航栏
 1.  登录移动设备应用程序时，将显示“我的应用程序”页面，其中包含一列您可以访问的应用程序。 
@@ -99,7 +99,7 @@ ms.locfileid: "5283762"
 5. 继续为周输入费用。 完成后且一切看起来正确无误时，请点按 **提交**。 管理员将审核和批准您的费用。
 
 ## <a name="general-information-on-how-to-use-the-mobile-app"></a>有关如何使用移动应用程序的常规信息 
-[!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [移动基本知识指南](https://docs.microsoft.com/dynamics365/mobile-app/dynamics-365-phones-tablets-users-guide)。
+[!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [移动基本知识指南](/dynamics365/mobile-app/dynamics-365-phones-tablets-users-guide)。
 
 ### <a name="see-also"></a>另请参阅  
  [Project Service 概述](../psa/overview.md)   

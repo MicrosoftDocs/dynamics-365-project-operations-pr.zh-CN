@@ -17,12 +17,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: c2378ff6affd9bc21b8e9afab4108bca3983a454
-ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
+ms.openlocfilehash: cbce900adece5880f22962b5efb859a8d65c6904
+ms.sourcegitcommit: 3d78338773929121d17ec3386f6cb67bfb2272cc
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5284302"
+ms.lasthandoff: 04/27/2021
+ms.locfileid: "5947913"
 ---
 # <a name="install-and-customize-project-service"></a>安装和自定义 (Project Service)
 
@@ -34,20 +34,20 @@ ms.locfileid: "5284302"
 <!-- TODO: I expect to find the information on how to get and install this here. Please find that and add it here. Same for Project Service.--> 
   
 ## <a name="install-project-service"></a>安装 Project Service  
- [!INCLUDE[pn_project_service_auto](../includes/pn-project-service-auto.md)] 是首选解决方案。 可通过多种方法购买此解决方案。 [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [培训组织和用户](https://docs.microsoft.com/dynamics365/customerengagement/on-premises/admin/onboard-your-organization-and-users-to-dynamics-365-online)。  
+ [!INCLUDE[pn_project_service_auto](../includes/pn-project-service-auto.md)] 是首选解决方案。 可通过多种方法购买此解决方案。 [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [培训组织和用户](/dynamics365/customerengagement/on-premises/admin/onboard-your-organization-and-users-to-dynamics-365-online)。  
   
 ## <a name="customize-pn_project_service_auto-forms-and-reports"></a>自定义 [!INCLUDE[pn_project_service_auto](../includes/pn-project-service-auto.md)]窗体和报表  
  如果希望自定义任何 [!INCLUDE[pn_project_service_auto](../includes/pn-project-service-auto.md)] 窗体、仪表板或报表，可以在以下链接中找到详细信息：  
   
-- [开始应用制作和自定义](https://docs.microsoft.com/dynamics365/customerengagement/on-premises/customize/getting-started-customization)  
+- [开始应用制作和自定义](/dynamics365/customerengagement/on-premises/customize/getting-started-customization)  
   
-- [创建和设计窗体](https://docs.microsoft.com/dynamics365/customerengagement/on-premises/customize/create-design-forms)  
+- [创建和设计窗体](/dynamics365/customerengagement/on-premises/customize/create-design-forms)  
   
-- [创建和编辑仪表板](https://docs.microsoft.com/dynamics365/customerengagement/on-premises/customize/create-edit-dashboards)  
+- [创建和编辑仪表板](/dynamics365/customerengagement/on-premises/customize/create-edit-dashboards)  
   
-- [创建和编辑流程](https://docs.microsoft.com/dynamics365/customerengagement/on-premises/customize/guide-staff-through-common-tasks-processes)  
+- [创建和编辑流程](/dynamics365/customerengagement/on-premises/customize/guide-staff-through-common-tasks-processes)  
   
-- [报告和分析简介](https://docs.microsoft.com/dynamics365/customerengagement/on-premises/analytics/reporting-analytics-with-dynamics-365)  
+- [报告和分析简介](/dynamics365/customerengagement/on-premises/analytics/reporting-analytics-with-dynamics-365)  
   
 ### <a name="see-also"></a>另请参阅  
  [管理员指南](../psa/admin-guide.md)   

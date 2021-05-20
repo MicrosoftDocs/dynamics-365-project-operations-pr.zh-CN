@@ -18,12 +18,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 92c4cb3e1661f0415d49b84c9a59aba4bda38f20
-ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
+ms.openlocfilehash: d52caf0739ee55c25598318608f0c235107c85f3
+ms.sourcegitcommit: 3d78338773929121d17ec3386f6cb67bfb2272cc
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5282277"
+ms.lasthandoff: 04/27/2021
+ms.locfileid: "5951378"
 ---
 # <a name="sign-in-to-project-service-automation"></a>登录 Project Service Automation
 
@@ -39,7 +39,7 @@ ms.locfileid: "5282277"
   
 - 您的密码  
   
-  您可能通过管理员发送的电子邮件收到了此信息。如果您的此信息不全，或者登录时出现问题，请[请咨询您的管理员或支持人员](https://docs.microsoft.com/dynamics365/customerengagement/on-premises/basics/find-administrator-support)。  
+  您可能通过管理员发送的电子邮件收到了此信息。如果您的此信息不全，或者登录时出现问题，请[请咨询您的管理员或支持人员](/dynamics365/customerengagement/on-premises/basics/find-administrator-support)。  
   
 ## <a name="set-your-personal-options-to-allow-email"></a>设置个人选项以允许电子邮件  
  您需要配置您的电子邮件设置为允许其他人代表您发送电子邮件，这样当您有时间和费用批准或注册项目时，[!INCLUDE[pn_project_service_auto](../includes/pn-project-service-auto.md)]就可以为您发送电子邮件通知。  

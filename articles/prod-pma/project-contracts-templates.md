@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: andchoi
 ms.search.validFrom: 2017-12-13
 ms.dyn365.ops.version: AX 7.3.0
-ms.openlocfilehash: 319000e6a826580049e8575def5790ab595a3165
-ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
+ms.openlocfilehash: 85722f61a672cc55cd2b511dc80ebfbe4807b957
+ms.sourcegitcommit: 3d78338773929121d17ec3386f6cb67bfb2272cc
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5289583"
+ms.lasthandoff: 04/27/2021
+ms.locfileid: "5950388"
 ---
 # <a name="synchronize-project-contracts-and-projects-directly-from-project-service-automation-to-finance"></a>将项目合同和项目直接从 Project Service Automation 同步到 Finance 
 
@@ -109,8 +109,8 @@ Project Service Automation 中有一项会影响项目合同行里程碑模板�
 ## <a name="prerequisites-and-mapping-setup"></a>先决条件和映射设置
 
 - 必须先同步科目，才能同步项目合同和项目。
-- 在连接集中，向 **msdyn\_name \[Name\]** 添加 **msdyn\_organizationalunits** 的集成密钥字段映射。 可能首先需要向连接集添加一个项目。 有关详细信息，请参阅[将数据集成到 Common Data Service for Apps](https://docs.microsoft.com/powerapps/administrator/data-integrator)。
-- 在连接集中，向 **msdynce\_projectnumber \[Project Number\]** 添加 **msdyn\_projects** 的集成密钥字段映射。 可能首先需要向连接集添加一个项目。 有关详细信息，请参阅[将数据集成到 Common Data Service for Apps](https://docs.microsoft.com/powerapps/administrator/data-integrator)。
+- 在连接集中，向 **msdyn\_name \[Name\]** 添加 **msdyn\_organizationalunits** 的集成密钥字段映射。 可能首先需要向连接集添加一个项目。 有关详细信息，请参阅[将数据集成到 Common Data Service for Apps](/powerapps/administrator/data-integrator)。
+- 在连接集中，向 **msdynce\_projectnumber \[Project Number\]** 添加 **msdyn\_projects** 的集成密钥字段映射。 可能首先需要向连接集添加一个项目。 有关详细信息，请参阅[将数据集成到 Common Data Service for Apps](/powerapps/administrator/data-integrator)。
 - 可将项目合同和项目的 **SourceDataID** 更新为其他值，也可以将其从映射中移除。 默认模板值为 **Project Service Automation**。
 - 必须更新 **PaymentTerms** 映射，才能在 Finance 中体现有效的付款期限。 也可以从项目任务中移除映射。 默认值映射具有演示数据的默认值。 下表显示 Project Service Automation 中的值。
 
@@ -131,7 +131,7 @@ Project Service Automation 中有一项会影响项目合同行里程碑模板�
 如果必须使用 Power Query，请遵守以下准则：
 
 - 项目和合同（PSA 到 Fin and Ops）模板有一个默认筛选器，其中仅包含类型为 **工作项 (msdyn\_ordertype = 192350001)** 的销售订单。 此筛选器有助于确保不在 Finance 中为销售订单创建项目合同。 如果创建自己的模板，则必须添加这个筛选器。
-- 创建一个 Power Query 筛选器，让它仅包含应同步到集成连接集的法人的合同组织。 例如，应将您的包含合同组织单位 Contoso US 的项目合同同步到 USSI 法人，但您的包含合同组织单位 Contoso Global 的项目合同则应同步到 USMF 法人。 如果不向任务映射添加此筛选器，则将把所有项目合同同步到为连接集定义的法人，而不考虑合同组织单位。
+- 创建一个 Power Query 筛选器，让它仅包含应同步到集成连接集的法人的合同组织。 例如，您与 Contoso US 的合同部门之间的项目合同应同步到 USSI 法人，但是与 Contoso Global 的合同部门之间的项目合同应同步到 USMF 法人。 如果不向任务映射添加此筛选器，则将把所有项目合同同步到为连接集定义的法人，而不考虑合同组织单位。
 
 ## <a name="template-mapping-in-data-integration"></a>数据集成中的模板映射
 

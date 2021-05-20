@@ -3,18 +3,18 @@ title: 2021 年 4 月新增功能 - 基于资源/非库存场景的 Project Oper
 description: 本主题提供有关 2021 年 4 月版基于资源/非库存场景的 Project Operations 中提供的质量更新的信息。
 author: sigitac
 manager: tfehr
-ms.date: 04/05/2021
+ms.date: 04/22/2021
 ms.topic: article
 ms.prod: ''
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: sigitac
-ms.openlocfilehash: 359d39898ed60c7253b122cb884465fbd9605e0c
-ms.sourcegitcommit: 8ff9fe396db6dec581c21cd6bb9acc2691c815b0
+ms.openlocfilehash: 339a488908add09c5e4f62568bb83b78450e7082
+ms.sourcegitcommit: 69fadd3ce475d6aed2e1ed81a15becb28f020eb9
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/07/2021
-ms.locfileid: "5867982"
+ms.lasthandoff: 04/22/2021
+ms.locfileid: "5935463"
 ---
 # <a name="whats-new-april-2021---project-operations-for-resourcenon-stocked-based-scenarios"></a>2021 年 4 月新增功能 - 基于资源/非库存场景的 Project Operations
 
@@ -33,8 +33,26 @@ _**适用于：** 面向资源/非库存场景的 Project Operations_
   - 在项目的销售周期中对非库存材料进行估算和定价。 有关详细信息，请参阅[设置目录产品的成本和销售费率 - 精简](../pro/pricing-costing/set-up-cost-sales-rates-catalog-products.md)。
   - 在项目交付期间跟踪非库存材料的使用情况。 有关详细信息，请参阅[记录项目和项目任务的材料使用情况](../material/material-usage-log.md)。
   - 开票功能使用了非库存材料成本。 有关详细信息，请参阅[管理记帐积压](../proforma-invoicing/manage-billing-backlog.md)。
+  - 有关如何配置此功能的信息，请参阅[配置非库存材料以及待定供应商发票](../procurement/configure-materials-nonstocked.md)
 - 基于任务的记帐：添加了将项目任务与项目合同子项关联的功能，从使它们的记帐方法、发票频率和客户与合同子项上的这些内容相同。 此关联可确保根据项目任务的此设置进行准确的开票、会计、收入评估和识别。
 - Dynamics 365 Dataverse 中的新 API 允许对 **计划实体** 执行创建、更新和删除操作。 有关详细信息，请参阅[使用计划 API 对计划实体执行操作](../project-management/schedule-api-preview.md)。
+
+## <a name="project-operations-dual-write-maps-updates"></a>Project Operations 双重写入映射更新
+
+以下列表显示了在 Project Operations 2021 年 4 月发行版本中修改或添加的双重写入映射。
+
+| **实体映射** | **更新版本** | **注释** |
+| --- | --- | --- |
+| Project Operations 集成实际值 (msdyn\_actuals) | 1.0.0.14 | 修改了映射以同步材料项目实际值。 |
+| 用于支出估算的 Project Operations 集成实体 (msdyn\_estimateslines) | 1.0.0.2 | 将项目合同子项同步添加到 Finance and Operations 应用，以提供基于任务的帐单支持。 |
+| 用于工时估算的 Project Operations 集成实体 (msdyn\_resourceassignments) | 1.0.0.5 | 将项目合同子项同步添加到 Finance and Operations 应用，以提供基于任务的帐单支持。 |
+| 用于材料估算的 Project Operations 集成表 (msdyn\_estimatelines) | 1.0.0.0 | 新增表映射，将 Dataverse 的材料估算同步到Finance and Operations 应用。 |
+| Project Operations 集成项目供应商发票导出实体 (msdyn\_projectvendorinvoices) | 1.0.0.0 | 新增表映射，将 Finance and Operations 应用中的供应商发票标头同步到 Dataverse。 |
+| Project Operations 集成项目供应商发票明细导出实体 (msdyn\_projectvendorinvoicelines) | 1.0.0.0 | 新增表映射，将 Finance and Operations 应用中的供应商发票明细同步到 Dataverse。 |
+
+您应该始终在您的环境中运行最新版本的映射，并在更新 Project Operations Dataverse 解决方案以及 Finance and Operations 解决方案版本时启用所有相关的表映射。 如果未激活最新版本的映射，某些功能可能无法正常工作。 您可以在 **双重写入** 页的 **版本** 列中看到映射的活动版本。 您可以通过选择 **表映射版本**，选择最新版本，然后保存所选版本来激活映射的新版本。 如果您自定义了现成的表映射，请重新应用更改。 有关详细信息，请参阅[应用程序生命周期管理](/dynamics365/fin-ops-core/dev-itpro/data-entities/dual-write/app-lifecycle-management)。
+
+如果您在启动映射时遇到问题，请按照双重写入疑难解答指南中[映射上缺少表列的问题](/dynamics365/fin-ops-core/dev-itpro/data-entities/dual-write/dual-write-troubleshooting-finops-upgrades#missing-table-columns-issue-on-maps)一节中的说明操作。
 
 ## <a name="quality-updates"></a>质量更新
 
@@ -67,7 +85,7 @@ _**适用于：** 面向资源/非库存场景的 Project Operations_
 
 | **功能区域** | **参考编号** | **质量更新** |
 | --- | --- | --- |
-| 项目管理和会计 | [491941](https://fix.lcs.dynamics.com/Issue/Details/?bugId=491941) | 冲销估算消除在 **定期** 中无法正常工作。  |
+| 项目管理和会计 | [491941](https://fix.lcs.dynamics.com/Issue/Details/?bugId=491941) | 冲销估算消除在 **定期** 部分不起作用。  |
 | 项目管理和会计 | [509773](https://fix.lcs.dynamics.com/Issue/Details/?bugId=509773) | **会计调整** 功能会使选择了 **不允许手动输入** 的分类帐科目产生问题。 |
 | 项目管理和会计 | [510728](https://fix.lcs.dynamics.com/Issue/Details/?bugId=5109728) | 添加了业务逻辑，以处理更正发票，包括保留款金额或核销的保留者金额。 |
 | 项目管理和会计 | [514364](https://fix.lcs.dynamics.com/Issue/Details/?bugId=514364) | 内部公司项目开票中的 WIP 销售值过帐选择了意外帐户。 |

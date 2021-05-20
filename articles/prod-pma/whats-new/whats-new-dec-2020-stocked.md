@@ -9,12 +9,12 @@ ms.prod: ''
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: andchoi
-ms.openlocfilehash: 8d1755b308a415deff1fd1a35122197476673988
-ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
+ms.openlocfilehash: 4a208ed98a5549030bd663e18b1b490d1a42ee33
+ms.sourcegitcommit: 3d78338773929121d17ec3386f6cb67bfb2272cc
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5288127"
+ms.lasthandoff: 04/27/2021
+ms.locfileid: "5950208"
 ---
 # <a name="whats-new-or-changed-in-project-operations-december-2020-for-stockedproduction-based-scenarios"></a>2020 年 12 月面向库存/生产订单场景的的 Project Operations 的新增功能
 
@@ -141,7 +141,7 @@ _适用范围：面向库存/生产订单场景的 Project Operations_
 
 ## <a name="regulatory-updates"></a>法规更新
 
-有关 Dynamics 365 Finance 的法规更新的信息，请参阅[法规更新](https://docs.microsoft.com/dynamics365/finance/localizations/regulatory-updates)。 了解法规更新的另一种方法是登录 Lifecycle Services(LCS)，然后使用问题搜索工具查看计划的法规更新。 通过问题搜索，您可以按国家/地区、功能类型和发布进行搜索。
+有关 Dynamics 365 Finance 的法规更新的信息，请参阅[法规更新](/dynamics365/finance/localizations/regulatory-updates)。 了解法规更新的另一种方法是登录 Lifecycle Services(LCS)，然后使用问题搜索工具查看计划的法规更新。 通过问题搜索，您可以按国家/地区、功能类型和发布进行搜索。
 
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

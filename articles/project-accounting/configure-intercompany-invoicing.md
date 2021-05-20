@@ -3,17 +3,17 @@ title: 配置内部公司开票
 description: 本主题提供了有关配置内部公司项目开票的信息和示例。
 author: sigitac
 manager: tfehr
-ms.date: 11/20/2020
+ms.date: 04/12/2021
 ms.topic: article
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: sigitac
-ms.openlocfilehash: 2dec6669a41161a23f74ea962df6d8708b905315
-ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
+ms.openlocfilehash: bb39e212d00f8874254d4255f310217cdf46eb5a
+ms.sourcegitcommit: 3d78338773929121d17ec3386f6cb67bfb2272cc
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5287542"
+ms.lasthandoff: 04/27/2021
+ms.locfileid: "5949668"
 ---
 # <a name="configure-intercompany-invoicing"></a>配置内部公司开票
 
@@ -23,9 +23,9 @@ _**适用于：** 面向资源/非库存场景的 Project Operations_
 
 ## <a name="example-configure-intercompany-invoicing"></a>示例：配置内部公司开票
 
-在下面的示例中，Contoso Robotics USA (USPM) 是借款法律实体，Contoso Robotics UK (GBPM) 是贷款法律实体。 
+在下列示例中，Contoso Robotics USA (USPM) 是借款法人，Contoso Robotics UK (GBPM) 是贷款法人。 
 
-1. **配置法律实体之间的内部公司会计**。 必须在总帐[内部公司会计](https://docs.microsoft.com/dynamics365/finance/general-ledger/intercompany-accounting-setup)页上配置每对借款和贷款法律实体。
+1. **配置法律实体之间的内部公司会计**。 必须在总帐[内部公司会计](/dynamics365/finance/general-ledger/intercompany-accounting-setup)页上配置每对借款和贷款法律实体。
     
     1. 在 Dynamics 365 Finance 中，转到 **总帐** > **过帐设置** > **内部公司会计**。 使用以下信息创建记录：
 
@@ -39,7 +39,7 @@ _**适用于：** 面向资源/非库存场景的 Project Operations_
      3. 展开 **名称**，按 **类型** 筛选记录并选择 **法律实体**。 
      4. 查找并选择 **Contoso Robotics USA (USPM)** 的客户记录。
      5. 选择 **使用匹配项**。 
-     6. 选择客户组，然后保存记录。
+     6. 选择客户组 **50 - 内部公司客户**，然后保存记录。
      7. 选择法律实体 **USPM**。
      8. 转至 **应付帐款** > **供应商** > **所有供应商**。 为法律实体 **GBPM** 创建新记录。
      9. 展开 **名称**，按 **类型** 筛选记录并选择 **法律实体**。 
@@ -47,7 +47,7 @@ _**适用于：** 面向资源/非库存场景的 Project Operations_
      11. 选择 **使用匹配项**，选择供应商组，然后保存记录。
      12. 在供应商记录中，选择 **常规** > **设置** > **内部公司**。
      13. 在 **贸易关系** 选项卡上，将 **可用** 设置为 **是**。
-     14. 选择供应商公司 **GBPM**，在 **我的客户类型** 中，选择在此过程前面创建的客户类型。
+     14. 将 **客户公司** 字段设置为 **GBPM**，在 **我的客户记录** 中，选择您在过程的前面创建的客户记录。
 
 3. **在项目管理和会计参数中配置内部公司设置**。 
 
@@ -59,7 +59,7 @@ _**适用于：** 面向资源/非库存场景的 Project Operations_
     6. 在 **当借出资源时** 组中，选择 **...** > **新建**。 
     7. 在此网格中，选择以下信息：
 
-          - **借款法律实体** = **GBPM**
+          - **借款法律实体** = **USPM**
           - **应计收入** = **是**
           - **默认工时单类别** = **默认值 – 小时**
           - **默认支出类别** = **默认值 – 支出**
@@ -71,30 +71,30 @@ _**适用于：** 面向资源/非库存场景的 Project Operations_
      3. 在 **成本帐户** 选项卡上的 **分类帐帐户类型** 中，选择 **内部公司成本**。 使用以下信息创建新记录：
       
         - **贷款法律实体** = **GBPM**
-        - **主科目** = 选择内部公司成本的主科目
+        - **主客户** = 选择内部公司成本的主客户。 此设置是必需的。 此设置用于 Finance 中的内部公司流，但不用于与项目相关的内部公司流。 此选择没有下游影响。 
         
      4. 选择贷款法律实体 **GBPM**。 
      5. 转到 **项目管理和会计** > **设置** > **过帐** > **分类帐过帐设置**。 
      6. 在 **收入帐户** 选项卡上的 **分类帐帐户类型** 中，选择 **内部公司收入**。 使用以下信息创建新记录：
 
         - **借款法律实体** = **USPM**
-        - **主科目** = 选择内部公司收入的主科目 
+        - **主客户** = 选择内部公司收入的主客户。 此设置是必需的。 此设置用于 Finance 中的内部公司流，但不用于与项目相关的内部公司流。 此选择没有下游影响。 
 
 5. **设置人工转帐定价**。 在 Dataverse 上的 Project Operations 中配置了内部公司转帐定价。 为内部公司开票配置[人工成本费率](../pricing-costing/set-up-labor-cost-rate.md#transfer-pricing-and-costs-for-resources-outside-of-your-division-or-legal-entity)和[人工帐单费率](../pricing-costing/set-up-labor-bill-rate.md#transfer-pricing-or-set-up-bill-rates-for-resources-from-other-organizational-units-or-divisions)。 对于内部公司支出交易，不支持转帐定价。 组织间单位销售价格始终会设置为与资源单位成本费相同的值。
 
-      Contoso Robotics UK 中的开发人员资源成本为每小时 88 GBP。 该资源在美国项目上每工作一小时，Contoso Robotics UK 就会向 Contoso Robotics USA 收取 120 美元。 对于 Contoso Robotics UK 开发人员资源所做的工作，Contoso Robotics USA 将向客户 Adventure Works 收取 200 美元。
+      Contoso Robotics UK 的开发人员资源成本为每小时 88 英镑。 对于此资源在美国项目中的工作，Contoso Robotics UK 每小时向 Contoso Robotics USA 收取 120 美元。 对于 Contoso Robotics UK 开发人员资源所做的工作，Contoso Robotics USA 向客户 Adventure Works 收取 200 美元。
 
-      1. 在 Dataverse 上的 Project Operations 中，转到 **销售** > **价目表**。 创建一个名为 **Contoso Robotics UK 成本费率** 的新成本价目表。 
+      1. 在 Dataverse 上的 Project Operations 中，转到 **销售** > **价目表**。 创建一个新的成本价目表，称为 **Contoso Robotics UK 成本费率**。 
       2. 在此成本价目表中，使用以下信息创建记录：
          - **角色** = **开发人员**
          - **成本** = **88 GBP**
-      3. 转到 **设置** > **部门**，并将此成本价目表附加到 **Contoso Robotics UK** 部门。
-      4. 转到 **销售** > **价目表**。 创建一个名为 **Contoso Robotics USA 成本费率** 的成本价目表。 
+      3. 转到 **设置** > **组织单位**，将此成本价目表附加到 **Contoso Robotics UK** 组织单位。
+      4. 转到 **销售** > **价目表**。 创建一个成本价目表，称为 **Contoso Robotics USA 成本费率**。 
       5. 在此成本价目表中，使用以下信息创建记录：
           - **角色** = **开发人员**
           - **资源供给公司** = **Contoso Robotics UK**
           - **成本** = **120 美元**
-      6. 转到 **设置** > **部门**，并将此 **Contoso Robotics USA 成本费率** 成本价目表附加到 **Contoso Robotics USA** 部门。
+      6. 转到 **设置** > **组织单位**，将 **Contoso Robotics USA 成本费率** 成本价目表附加到 **Contoso Robotics USA** 组织单位。
       7. 转到 **销售** > **价目表**。 创建一个名为 **Adventure Works 帐单费率** 的销售价目表。 
       8. 在此销售价目表中，使用以下信息创建记录：
           - **角色** = **开发人员**

@@ -18,12 +18,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 1e66177e92e701c2dc09bed005f748ca19ae980d
-ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
+ms.openlocfilehash: ad5c5deca1964d57f22459c129f9936be0c30fde
+ms.sourcegitcommit: 3d78338773929121d17ec3386f6cb67bfb2272cc
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5283357"
+ms.lasthandoff: 04/27/2021
+ms.locfileid: "5951513"
 ---
 # <a name="dashboards"></a>仪表板
 
@@ -35,7 +35,7 @@ Dynamics 365 Project Service Automation 中有两个系统仪表板：**业务�
 
 ## <a name="practice-manager"></a>业务管理器 
 
-**业务管理器** 仪表板为业务经理提供图形仪表板体验，用于跟踪成本、销售额和毛利与利用率。 还可以供业务经理按各种维度（如客户、项目或资源角色）分解信息。 有关如何创建和自定义仪表板的详细信息，请参阅[创建或编辑仪表板](https://docs.microsoft.com/dynamics365/customerengagement/on-premises/customize/create-edit-dashboards)。
+**业务管理器** 仪表板为业务经理提供图形仪表板体验，用于跟踪成本、销售额和毛利与利用率。 还可以供业务经理按各种维度（如客户、项目或资源角色）分解信息。 有关如何创建和自定义仪表板的详细信息，请参阅[创建或编辑仪表板](/dynamics365/customerengagement/on-premises/customize/create-edit-dashboards)。
 
 ## <a name="resource-manager"></a>资源管理器 
 

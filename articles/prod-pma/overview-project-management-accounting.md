@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: andchoi
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: ff423e2ae2d6a2ac48196ce2784baf3606f6575b
-ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
+ms.openlocfilehash: 2f6ceabe1809cc94357a31f1d57c445593f0f788
+ms.sourcegitcommit: 3d78338773929121d17ec3386f6cb67bfb2272cc
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5289763"
+ms.lasthandoff: 04/27/2021
+ms.locfileid: "5950433"
 ---
 # <a name="project-management-and-accounting-overview"></a>项目管理和会计概述
 
@@ -227,7 +227,7 @@ WBS 是对项目所完成的工作的说明。 WBS 是一个任务层次结构�
 在为项目创建客户发票前，可以创建预备发票，或创建 发票方案。 在发票方案中，您可以选择要在项目发票中包括的项目交易记录。 然后您可以在过帐项目发票并将其发送给客户或其他融资来源之前，查看发票详细信息。 
 
 
-有关如何处理项目发票的详细信息，请参阅[项目开票](https://docs.microsoft.com/dynamics365/finance/accounts-payable/project-invoicing)。
+有关如何处理项目发票的详细信息，请参阅[项目开票](/dynamics365/finance/accounts-payable/project-invoicing)。
 
 
 ### <a name="calculate-the-cost-to-complete-a-project"></a>计算完成项目的成本

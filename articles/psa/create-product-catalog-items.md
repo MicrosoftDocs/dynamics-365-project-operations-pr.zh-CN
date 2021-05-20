@@ -18,12 +18,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 2351d87d2953f0e661d8f5281a4fdd071edb9c05
-ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
+ms.openlocfilehash: 6343ff4dcfeae5d53eaf8eaa860afaf42559857a
+ms.sourcegitcommit: 3d78338773929121d17ec3386f6cb67bfb2272cc
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5292013"
+ms.lasthandoff: 04/27/2021
+ms.locfileid: "5950343"
 ---
 # <a name="create-product-catalog-items-project-service"></a>创建产品目录项目 (Project Service)
 
@@ -33,7 +33,7 @@ ms.locfileid: "5292013"
 
 若要包括产品，例如软件许可证，在您的项目报价单和估计中，需要添加每个产品到产品目录。  
   
- 有关向产品目录添加产品的详细信息，请参阅[创建产品 (Sales)](https://docs.microsoft.com/dynamics365/sales-enterprise/create-product-sales)。  
+ 有关向产品目录添加产品的详细信息，请参阅[创建产品 (Sales)](/dynamics365/sales-enterprise/create-product-sales)。  
   
 ### <a name="see-also"></a>另请参阅  
  [配置 Project Service](../psa/configure.md)

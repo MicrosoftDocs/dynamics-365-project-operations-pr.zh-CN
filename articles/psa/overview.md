@@ -18,12 +18,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 371cfc5bc04ac0fe780400247dc1c1762ade9e21
-ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
+ms.openlocfilehash: a1aa7a5529ef23476523f2c00882da30bb3a3e97
+ms.sourcegitcommit: 3d78338773929121d17ec3386f6cb67bfb2272cc
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5284167"
+ms.lasthandoff: 04/27/2021
+ms.locfileid: "5949623"
 ---
 # <a name="what-is-dynamics-365-project-service-automation"></a>什么是 Dynamics 365 Project Service Automation？
 
@@ -47,10 +47,10 @@ Project Service Automation (PSA) 应用程序帮助组织有效跟踪、管理�
 ## <a name="whats-new-in-psa"></a>PSA 中的新增功能
 团队激动地发布我们的最新更新！ 其中包含用户界面改进、bug 修复并且添加了重要的新特性和功能。 您问；我们听。
 
-浏览 [2019 年 10 月发行说明](https://docs.microsoft.com/dynamics365-release-plan/2019wave2/index)以查看最新增强功能和新增功能。
+浏览 [2019 年 10 月发行说明](/dynamics365-release-plan/2019wave2/index)以查看最新增强功能和新增功能。
 
 ### <a name="in-development"></a>正在开发
-若要查看我们计划在不久的将来推出的功能，请转到 [Dynamics 365：2020 年发行版本第 1 波计划](https://docs.microsoft.com/dynamics365-release-plan/2020wave1/index)。
+若要查看我们计划在不久的将来推出的功能，请转到 [Dynamics 365：2020 年发行版本第 1 波计划](/dynamics365-release-plan/2020wave1/index)。
 
 ## <a name="get-help-with-psa-version-3x"></a>获取 PSA 版本 3.x 的帮助
 正在寻求帮助规划实施的资源？ 请查看这些可下载的指南。

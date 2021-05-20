@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: suvaidya
 ms.dyn365.ops.version: Version 1611
 ms.search.validFrom: 2016-11-30
-ms.openlocfilehash: 2d257ced3dadb320c501bfd5f64dcd8f21c1a4d3
-ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
+ms.openlocfilehash: cc19297131937949fe6f7eed00ee66fb5e3bff13
+ms.sourcegitcommit: 3d78338773929121d17ec3386f6cb67bfb2272cc
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5272017"
+ms.lasthandoff: 04/27/2021
+ms.locfileid: "5950468"
 ---
 # <a name="expense-management-mobile-workspace"></a>支出管理移动工作区
 
@@ -58,7 +58,7 @@ ms.locfileid: "5272017"
 先决条件根据为您的组织部署的版本有所不同。
 
 ### <a name="prerequisites-if-you-use-dynamics-365-finance"></a>使用 Dynamics 365 Finance 的先决条件 
-如果已经为您的组织部署 Finance，系统管理员必须发布 **支出管理** 移动工作区。 有关说明，请参阅[发布移动工作区](https://docs.microsoft.com/dynamics365/fin-ops-core/dev-itpro/mobile-apps/publish-mobile-workspace)。
+如果已经为您的组织部署 Finance，系统管理员必须发布 **支出管理** 移动工作区。 有关说明，请参阅[发布移动工作区](/dynamics365/fin-ops-core/dev-itpro/mobile-apps/publish-mobile-workspace)。
 
 ### <a name="prerequisites-if-you-use-version-1611-with-platform-update-3-or-later"></a>使用带平台更新 3 或更高版本的版本 1611 时的先决条件
 如果已经为您的组织部署带平台更新 3 或更高版本的版本 1611，系统管理员必须完成以下先决条件。 
@@ -77,16 +77,16 @@ ms.locfileid: "5272017"
 <td>系统管理员</td>
 <td>KB 4019015 是包含<strong>支出管理</strong>移动工作区的 X++ 更新或元数据修补程序。 若要实施 KB 4019015，系统管理员必须遵循这些步骤。
 <ol>
-<li><a href="https://docs.microsoft.com/dynamics365/fin-ops-core/dev-itpro/migration-upgrade/install-metadata-hotfix-package#download-the-hotfix-from-lcs">从 Microsoft Dynamics Lifecycle Services (LCS) 下载元数据修补程序</a>。</li>
-<li><a href="https://docs.microsoft.com/dynamics365/fin-ops-core/dev-itpro/migration-upgrade/install-metadata-hotfix-package#install-the-metadata-hotfix-package">安装元数据修补程序</a>。</li>
-<li><a href="https://docs.microsoft.com/dynamics365/fin-ops-core/dev-itpro/deployment/create-apply-deployable-package">创建</a>包含 <strong>ApplicationSuite</strong> 和 <strong>ExpenseMobile</strong> 模型的可部署包，然后将可部署包上载到 LCS。</li>
-<li><a href="https://docs.microsoft.com/dynamics365/fin-ops-core/dev-itpro/deployment/apply-deployable-package-system">应用可部署包</a>。</li>
+<li><a href="/dynamics365/fin-ops-core/dev-itpro/migration-upgrade/install-metadata-hotfix-package#download-the-hotfix-from-lcs">从 Microsoft Dynamics Lifecycle Services (LCS) 下载元数据修补程序</a>。</li>
+<li><a href="/dynamics365/fin-ops-core/dev-itpro/migration-upgrade/install-metadata-hotfix-package#install-the-metadata-hotfix-package">安装元数据修补程序</a>。</li>
+<li><a href="/dynamics365/fin-ops-core/dev-itpro/deployment/create-apply-deployable-package">创建</a>包含 <strong>ApplicationSuite</strong> 和 <strong>ExpenseMobile</strong> 模型的可部署包，然后将可部署包上载到 LCS。</li>
+<li><a href="/dynamics365/fin-ops-core/dev-itpro/deployment/apply-deployable-package-system">应用可部署包</a>。</li>
 </ol></td>
 </tr>
 <tr class="even">
 <td>发布<strong>支出管理</strong>移动工作区。</td>
 <td>系统管理员</td>
-<td>请查阅<a href="https://docs.microsoft.com/dynamics365/fin-ops-core/dev-itpro/mobile-apps/publish-mobile-workspace">发布移动工作区</a>。</td>
+<td>请查阅<a href="/dynamics365/fin-ops-core/dev-itpro/mobile-apps/publish-mobile-workspace">发布移动工作区</a>。</td>
 </tr>
 </tbody>
 </table>
@@ -128,11 +128,11 @@ ms.locfileid: "5272017"
 ## <a name="quickly-enter-expenses-by-using-the-expense-management-mobile-workspace"></a>使用支出管理移动工作区快速输入支出
 1. 在您的移动设备上，打开 **支出管理** 工作区。
 2. 选择 **快速输入支出**。
-3. 选择支出的类别。 您将看到加载到应用中以供脱机使用的支出类别列表。 默认情况下，加载 50 项，但是开发人员可以更改此数字。 有关详细信息，开发人员应该查看[移动平台](https://docs.microsoft.com/dynamics365/fin-ops-core/dev-itpro/mobile-apps/platform/mobile-platform-home-page)。 如果您的类别不在该列表中，请选择 **搜索** 进行在线搜索。 按支出类别搜索，或切换到按支出类型搜索。
+3. 选择支出的类别。 您将看到加载到应用中以供脱机使用的支出类别列表。 默认情况下，加载 50 项，但是开发人员可以更改此数字。 有关详细信息，开发人员应该查看[移动平台](/dynamics365/fin-ops-core/dev-itpro/mobile-apps/platform/mobile-platform-home-page)。 如果您的类别不在该列表中，请选择 **搜索** 进行在线搜索。 按支出类别搜索，或切换到按支出类型搜索。
 4. 输入支出的交易日期。
 5. 可选：输入支出的商家。
 6. 输入支出金额。
-7. 选择支出的货币。 您将看到加载到应用中以供脱机使用的货币代码列表。 默认情况下，加载 400 个货币，但是开发人员可以更改此数字。 有关详细信息，开发人员应该查看[移动平台](https://docs.microsoft.com/dynamics365/fin-ops-core/dev-itpro/mobile-apps/platform/mobile-platform-home-page)。 如果您的货币不在该列表中，请选择 **搜索** 进行在线搜索。 按货币搜索，或切换到按名称搜索。
+7. 选择支出的货币。 您将看到加载到应用中以供脱机使用的货币代码列表。 默认情况下，加载 400 个货币，但是开发人员可以更改此数字。 有关详细信息，开发人员应该查看[移动平台](/dynamics365/fin-ops-core/dev-itpro/mobile-apps/platform/mobile-platform-home-page)。 如果您的货币不在该列表中，请选择 **搜索** 进行在线搜索。 按货币搜索，或切换到按名称搜索。
 8. 选择 **拍照** 或 **选择图像**。
 9. 请执行以下步骤之一：
 
@@ -163,11 +163,11 @@ ms.locfileid: "5272017"
 7. 在列表中选择一项或多项支出。
 8. 选择 **完成**。
 9. 若要向支出报表添加新支出，请选择 **新建支出**。
-10. 选择支出的类别。 您将看到加载到应用中以供脱机使用的支出类别列表。 默认情况下，加载 50 项，但是开发人员可以更改此数字。 有关详细信息，开发人员应该查看[移动平台](https://docs.microsoft.com/dynamics365/fin-ops-core/dev-itpro/mobile-apps/platform/mobile-platform-home-page)。 如果您的类别不在该列表中，请选择 **搜索** 进行在线搜索。 按支出类别搜索，或切换到按支出类型搜索。
+10. 选择支出的类别。 您将看到加载到应用中以供脱机使用的支出类别列表。 默认情况下，加载 50 项，但是开发人员可以更改此数字。 有关详细信息，开发人员应该查看[移动平台](/dynamics365/fin-ops-core/dev-itpro/mobile-apps/platform/mobile-platform-home-page)。 如果您的类别不在该列表中，请选择 **搜索** 进行在线搜索。 按支出类别搜索，或切换到按支出类型搜索。
 11. 可选：输入支出的商家。
 12. 输入支出的交易日期。
 13. 输入支出金额。
-14. 选择支出的货币。 您将看到加载到应用中以供脱机使用的货币代码列表。 默认情况下，加载 400 个货币，但是开发人员可以更改此数字。 有关详细信息，开发人员应该查看[移动平台](https://docs.microsoft.com/dynamics365/fin-ops-core/dev-itpro/mobile-apps/platform/mobile-platform-home-page)。 如果您的货币不在该列表中，请选择 **搜索** 进行在线搜索。 按货币搜索，或切换到按名称搜索。
+14. 选择支出的货币。 您将看到加载到应用中以供脱机使用的货币代码列表。 默认情况下，加载 400 个货币，但是开发人员可以更改此数字。 有关详细信息，开发人员应该查看[移动平台](/dynamics365/fin-ops-core/dev-itpro/mobile-apps/platform/mobile-platform-home-page)。 如果您的货币不在该列表中，请选择 **搜索** 进行在线搜索。 按货币搜索，或切换到按名称搜索。
 15. 选择 **完成**。
 16. 若要向支出添加更多详细信息，请选择 **添加更多详细信息**。 可用字段取决于您的公司的支出管理配置。
 17. 如果公司政策要求提供支出收据，请选择 **收据**，然后执行以下步骤：
@@ -213,12 +213,12 @@ ms.locfileid: "5272017"
 
         - 如果选择了 **以前来宾**，请执行以下步骤：
 
-            1. 在列表中选择一个或多个以前的来宾。 您将看到已添加到以前的支出报表并加载到您的应用中以供脱机使用的以前来宾列表。 默认情况下，加载 50 项，但是开发人员可以更改此数字。 有关详细信息，开发人员应该查看[移动平台](https://docs.microsoft.com/dynamics365/fin-ops-core/dev-itpro/mobile-apps/platform/mobile-platform-home-page)。 如果以前来宾不在该列表中，请选择 **搜索** 进行在线搜索。 按名称搜索，或切换到按组织、国家/地区或职务搜索。
+            1. 在列表中选择一个或多个以前的来宾。 您将看到已添加到以前的支出报表并加载到您的应用中以供脱机使用的以前来宾列表。 默认情况下，加载 50 项，但是开发人员可以更改此数字。 有关详细信息，开发人员应该查看[移动平台](/dynamics365/fin-ops-core/dev-itpro/mobile-apps/platform/mobile-platform-home-page)。 如果以前来宾不在该列表中，请选择 **搜索** 进行在线搜索。 按名称搜索，或切换到按组织、国家/地区或职务搜索。
             2. 选择 **完成**。
 
         - 如果选择了 **同事**，请执行以下步骤：
 
-            1. 在列表中选择一个或多个同事。 您将看到加载到应用中以供脱机使用的同事列表。 默认情况下，加载 50 项，但是开发人员可以更改此数字。 有关详细信息，开发人员应该查看[移动平台](https://docs.microsoft.com/dynamics365/fin-ops-core/dev-itpro/mobile-apps/platform/mobile-platform-home-page)。 如果您的同事不在该列表中，请选择 **搜索** 进行在线搜索。 按名称搜索，或切换到按公司或职务搜索。
+            1. 在列表中选择一个或多个同事。 您将看到加载到应用中以供脱机使用的同事列表。 默认情况下，加载 50 项，但是开发人员可以更改此数字。 有关详细信息，开发人员应该查看[移动平台](/dynamics365/fin-ops-core/dev-itpro/mobile-apps/platform/mobile-platform-home-page)。 如果您的同事不在该列表中，请选择 **搜索** 进行在线搜索。 按名称搜索，或切换到按公司或职务搜索。
             2. 选择 **完成**。
 
     3. 选择 **返回** 按钮返回支出详细信息。
@@ -227,7 +227,7 @@ ms.locfileid: "5272017"
 
     1. 选择要细化的第一个日期。
     2. 选择 **添加明细**。
-    3. 选择支出明细的子类别。 您将看到加载到应用中以供脱机使用的支出子类别列表。 默认情况下，加载 50 项，但是开发人员可以更改此数字。 有关详细信息，开发人员应该查看[移动平台](https://docs.microsoft.com/dynamics365/fin-ops-core/dev-itpro/mobile-apps/platform/mobile-platform-home-page)。 如果您的子类别不在该列表中，请选择 **搜索** 进行在线搜索。 按支出子类别名称搜索。
+    3. 选择支出明细的子类别。 您将看到加载到应用中以供脱机使用的支出子类别列表。 默认情况下，加载 50 项，但是开发人员可以更改此数字。 有关详细信息，开发人员应该查看[移动平台](/dynamics365/fin-ops-core/dev-itpro/mobile-apps/platform/mobile-platform-home-page)。 如果您的子类别不在该列表中，请选择 **搜索** 进行在线搜索。 按支出子类别名称搜索。
     4. 输入明细的交易金额。
     5. 如果需要，编辑交易日期。
     6. 选择 **完成**。

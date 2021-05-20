@@ -8,12 +8,12 @@ ms.topic: article
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: sigitac
-ms.openlocfilehash: 0021147530d1aa9f82cc54ca8c92b9977c1eea2c
-ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
+ms.openlocfilehash: 4a5f4d524530594bd3118f9b320acf4033c5d503
+ms.sourcegitcommit: 3d78338773929121d17ec3386f6cb67bfb2272cc
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5287227"
+ms.lasthandoff: 04/27/2021
+ms.locfileid: "5948319"
 ---
 # <a name="integration-journal-in-project-operations"></a>Project Operations 中的集成日记帐
 
@@ -38,7 +38,7 @@ Project Operations 集成日志中的记录使用定期流程 **从暂存表导�
 日记帐行基于项目实际值创建。 以下列表包含一些更值得注意的默认规则和转换规则：
 
   - 每个项目实际交易在 Project Operations 集成日记帐中都有一行。 时间和材料计费类型的成本和未记帐销售交易显示在单独的行上。
-  - **日期** 字段表示交易的日期。 **会计日期** 字段表示交易记录到分类帐的日期。 如果会计日期在 [已结束的财务期间](https://docs.microsoft.com/dynamics365/finance/general-ledger/close-general-ledger-at-period-end)内，并且在 **项目管理和会选参数** 页的 **财务** 选项卡上设置了参数 **将会计日期自动设置到未结分类帐期间**，系统会将交易的会计日期调整为下一个未结分类帐期间的第一个日期。
+  - **日期** 字段表示交易的日期。 **会计日期** 字段表示交易记录到分类帐的日期。 如果会计日期在 [已结束的财务期间](/dynamics365/finance/general-ledger/close-general-ledger-at-period-end)内，并且在 **项目管理和会选参数** 页的 **财务** 选项卡上设置了参数 **将会计日期自动设置到未结分类帐期间**，系统会将交易的会计日期调整为下一个未结分类帐期间的第一个日期。
   - **凭证** 字段显示每个实际交易的凭证号。 凭证编号规则在 **项目管理和会计参数** 页的 **编号规则** 选项卡上定义。 每一行分配一个新编号。 在过帐凭证后，您可以选择 **凭证交易** 页上的 **相关凭证** 来查看成本和未记帐销售交易的关系。
   - **类别** 字段表示项目交易，基于相关项目实际值的交易类别设定默认值。
     - 如果在项目实际值中设置了 **交易类别**，并且给定法人中存在相关 **项目类别**，类别将默认为此项目类别。

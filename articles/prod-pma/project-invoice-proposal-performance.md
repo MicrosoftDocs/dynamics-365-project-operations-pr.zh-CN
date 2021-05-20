@@ -3,7 +3,7 @@ title: 项目发票方案性能
 description: 该主题提供了关于项目发票方案性能改进的信息。
 author: Yowelle
 manager: AnnBe
-ms.date: 03/05/2021
+ms.date: 04/20/2021
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -18,18 +18,16 @@ ms.search.region: Global
 ms.author: andchoi
 ms.search.validFrom: 20121-03-05
 ms.dyn365.ops.version: 10.0.18
-ms.openlocfilehash: 78c924cba8107471a5f8e6d6a38265890d32d72b
-ms.sourcegitcommit: 2350c6f3728067a8298adde640e6fdd5984eb077
+ms.openlocfilehash: 1641d5f731029fdbdc16c4b652cc752a583058c6
+ms.sourcegitcommit: 68d52fc983861114e654ffc8d2472b4db9b48981
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/10/2021
-ms.locfileid: "5573548"
+ms.lasthandoff: 04/20/2021
+ms.locfileid: "5920291"
 ---
 # <a name="project-invoice-proposal-performance"></a>项目发票方案性能
 
 [!include [banner](../includes/banner.md)]
-
-[!include [banner](../includes/preview-banner.md)]
 
 创建新的发票方案时，由于项目数和子项目数增加，可能会遇到性能问题。 为了提高性能，提供了一项功能，可缩短为已过帐的项目交易创建新发票方案所需的时间。
 

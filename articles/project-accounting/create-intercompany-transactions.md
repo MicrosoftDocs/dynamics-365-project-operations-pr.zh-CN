@@ -3,17 +3,17 @@ title: 创建内部公司交易
 description: 本主题提供了有关如何创建内部公司交易的信息。
 author: sigitac
 manager: tfehr
-ms.date: 11/19/2020
+ms.date: 04/12/2021
 ms.topic: article
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: sigitac
-ms.openlocfilehash: 6d23e45d99be61e93d98a8377ff5fa05b3febb6b
-ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
+ms.openlocfilehash: b8b35e8875ac4aff1ae9690c4d4afabe25af8dc9
+ms.sourcegitcommit: 7468d668c48c1d87934aab9a034decd51e56dec6
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5287407"
+ms.lasthandoff: 04/13/2021
+ms.locfileid: "5880437"
 ---
 # <a name="create-intercompany-transactions"></a>创建内部公司交易
 
@@ -62,7 +62,7 @@ _**适用于：** 面向资源/非库存场景的 Project Operations_
     4. 将货币设置为 **美元**。
     5. 保存记录。
 3. 转到 **销售** > **项目合同**，并为 Adventure Works 创建新的项目合同。
-    1. 将负责公司设置为 **USPM**，并将合同单位设置为 **Contoso Robotics US**。
+    1. 将负责公司设置为 **USPM**，将合同单位设置为 **Contoso Robotics US**。
     2. 选择 Adventure Works 作为客户。
     3. 选择某一产品价目表并保存记录。
     4. 在 **合同子项** 选项卡上，创建新合同子项。 设置任意名称，然后选择 **时间和材料** 作为记帐方法。
@@ -94,7 +94,7 @@ _**适用于：** 面向资源/非库存场景的 Project Operations_
     此未记帐销售现在可以开票了。 可以在需要时在财务上过帐 Adventure Works 客户的账单。
 
 10. 以 **GBPM** 会计身份登录。 打开 Project Operations 的“财务”实例，然后打开公司 **GBPM**。 
-11. 转到 **项目管理和会计** > **定期** > **Customer Engagement 上的 Project Operations** > **从暂存导入**，然后运行定期流程以填写 Project Operations 集成日记帐。
+11. 转到 **项目管理和会计** > **定期** > **Project Operations 集成** > **从暂存表导入**，运行定期流程来填充 Project Operations 集成日记帐。
 12. 转到 **项目管理和会计** > **日记帐** > **Project Operations 集成日记帐** 并查看这些行。 系统将创建以下行。
 
     | **交易记录类型** | **单价** | **交易货币** | **金额** |
