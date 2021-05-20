@@ -1,6 +1,6 @@
 ---
 title: 创建工作时间模板
-description: 如何在 Project Service 中创建工作时间模板
+description: 本主题介绍如何在 Project Service 中创建工作时间模板。
 author: ruhercul
 manager: kfend
 ms.service: project-operations
@@ -18,53 +18,53 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 5e859a58f86d8cd98fa429beeeb99cf397a207cf
-ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
+ms.openlocfilehash: 525f601ad6fee902cb6d5c128b596cc2d33f30c4
+ms.sourcegitcommit: c45ceda833b30ad39861f5bcd3ba1bbfff11fe7a
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5285022"
+ms.lasthandoff: 05/04/2021
+ms.locfileid: "5981244"
 ---
-# <a name="create-a-work-hours-template-project-service"></a><span data-ttu-id="8b012-103">创建工作时间模板 (Project Service)</span><span class="sxs-lookup"><span data-stu-id="8b012-103">Create a work hours template (Project Service)</span></span>
+# <a name="create-a-work-hours-template-project-service"></a><span data-ttu-id="7cff8-103">创建工作时间模板 (Project Service)</span><span class="sxs-lookup"><span data-stu-id="7cff8-103">Create a work hours template (Project Service)</span></span>
 
 [!include [banner](../includes/psa-now-project-operations.md)]
 
-[!INCLUDE[cc-applies-to-psa-app-1x-2x](../includes/cc-applies-to-psa-app-1x-2x.md)]
+[!INCLUDE[cc-applies-to-psa-app-1x-2x](../includes/cc-applies-to-psa-app-3x.md)]
 
-<span data-ttu-id="8b012-104">在创建项目时间表之前，您需要设置用于定义工作时间数量的项目日历，该日历可容纳时间表中的每一天和任何节假日。</span><span class="sxs-lookup"><span data-stu-id="8b012-104">Before you can create project schedules, you need to set up a project calendar that defines the number of working hours to accommodate per day in the schedule and any business closures.</span></span> <span data-ttu-id="8b012-105">您可使用工作时间模板执行此操作，该模板包含有关每天工作时间、休息日和任何其他节假日的详细信息。</span><span class="sxs-lookup"><span data-stu-id="8b012-105">You do this with a work hours template, which contains details about work hours per day, days off, and any other business closures.</span></span>  
-  
- <span data-ttu-id="8b012-106">当您在创建项目时，可将工作模板关联至项目日历，以应用项目的时间表。</span><span class="sxs-lookup"><span data-stu-id="8b012-106">When you’re creating a project, you associate a work template to the project calendar to apply the schedule for the project.</span></span>  
-  
- <span data-ttu-id="8b012-107">创建工作时间模板可采用以下两种方法：</span><span class="sxs-lookup"><span data-stu-id="8b012-107">There are two ways you can create a work hours template:</span></span>  
-  
--   <span data-ttu-id="8b012-108">创建基于资源日历的工作时间模板。</span><span class="sxs-lookup"><span data-stu-id="8b012-108">Create a work hours template based on a resource’s calendar.</span></span>  
-  
--   <span data-ttu-id="8b012-109">创建新的工作时间模板。</span><span class="sxs-lookup"><span data-stu-id="8b012-109">Create a new work hours template.</span></span>  
-  
-#### <a name="to-create-a-work-hours-template-based-on-a-resources-calendar"></a><span data-ttu-id="8b012-110">创建基于资源日历的工作时间模板</span><span class="sxs-lookup"><span data-stu-id="8b012-110">To create a work hours template based on a resource’s calendar</span></span>  
-  
-1.  <span data-ttu-id="8b012-111">转到 **Project Service > 资源**。</span><span class="sxs-lookup"><span data-stu-id="8b012-111">Go to **Project Service > Resources**.</span></span>  
-  
-2.  <span data-ttu-id="8b012-112">选择要基于您工作时间的资源。</span><span class="sxs-lookup"><span data-stu-id="8b012-112">Select the resource you want to base your work hours on.</span></span>  
-  
-3.  <span data-ttu-id="8b012-113">单击 **将日历另存为**，输入工作时间模板的名称，然后单击 **保存**。</span><span class="sxs-lookup"><span data-stu-id="8b012-113">Click **Save Calendar As**, enter a name for the work hours template, and then click **Save**.</span></span>  
-  
-4.  <span data-ttu-id="8b012-114">完成更改选项后，单击 **保存并关闭**。</span><span class="sxs-lookup"><span data-stu-id="8b012-114">When you’re done changing options, click **Save and Close**.</span></span>  
-  
-5.  <span data-ttu-id="8b012-115">在屏幕右下角，单击 **保存** 按钮。</span><span class="sxs-lookup"><span data-stu-id="8b012-115">Click the **Save** button at the bottom right corner of the screen.</span></span>  
-  
-#### <a name="to-create-a-new-work-hours-template"></a><span data-ttu-id="8b012-116">创建新的工作时间模板</span><span class="sxs-lookup"><span data-stu-id="8b012-116">To create a new work hours template</span></span>  
-  
-1.  <span data-ttu-id="8b012-117">转至 **Project Service > 工作时间模板**。</span><span class="sxs-lookup"><span data-stu-id="8b012-117">Go to **Project Service > Work Hours Templates**.</span></span>  
-  
-2.  <span data-ttu-id="8b012-118">单击 **新建**。</span><span class="sxs-lookup"><span data-stu-id="8b012-118">Click **New**.</span></span>  
-  
-3.  <span data-ttu-id="8b012-119">输入工作时间模板的名称。</span><span class="sxs-lookup"><span data-stu-id="8b012-119">Enter a name for the work hours template.</span></span>  
-  
-4.  <span data-ttu-id="8b012-120">选择要基于工作时间的资源，然后单击 **保存**。</span><span class="sxs-lookup"><span data-stu-id="8b012-120">Select a resource to base the work hours on, and then click **Save**.</span></span>  
-  
-### <a name="see-also"></a><span data-ttu-id="8b012-121">另请参阅</span><span class="sxs-lookup"><span data-stu-id="8b012-121">See Also</span></span>  
- [<span data-ttu-id="8b012-122">设置资源</span><span class="sxs-lookup"><span data-stu-id="8b012-122">Set up resources</span></span>](../psa/set-up-resources.md)
+<span data-ttu-id="7cff8-104">若要创建和管理项目，必须将日历模板应用于该项目。</span><span class="sxs-lookup"><span data-stu-id="7cff8-104">To create and manage a project, you must apply a calendar template to the project.</span></span> <span data-ttu-id="7cff8-105">日历模板定义以下项目属性：</span><span class="sxs-lookup"><span data-stu-id="7cff8-105">The calendar template defines the following project attributes:</span></span>
+
+- <span data-ttu-id="7cff8-106">工作时数，包括开始和结束时间</span><span class="sxs-lookup"><span data-stu-id="7cff8-106">Working hours, including start and end time</span></span>
+- <span data-ttu-id="7cff8-107">工作天数</span><span class="sxs-lookup"><span data-stu-id="7cff8-107">Working days</span></span>
+- <span data-ttu-id="7cff8-108">日历例外（如非工作日）</span><span class="sxs-lookup"><span data-stu-id="7cff8-108">Calendar exceptions such as non-working days</span></span>
+
+<span data-ttu-id="7cff8-109">应用于项目的日历模板是组织设置中定义的日历模板的副本。</span><span class="sxs-lookup"><span data-stu-id="7cff8-109">The calendar template that's applied to a project is a copy of the calendar template defined in your organization’s settings.</span></span>
+
+> [!NOTE]
+> <span data-ttu-id="7cff8-110">如果更改日历模板，这些更改不会传播到项目的工作时间。</span><span class="sxs-lookup"><span data-stu-id="7cff8-110">If you change the calendar template, those changes don't propagate to the working hours of the project.</span></span> <span data-ttu-id="7cff8-111">要更改项目的工作时间，必须应用新的模板。</span><span class="sxs-lookup"><span data-stu-id="7cff8-111">To change the working hours of the project, a new template must be applied.</span></span>
+
+<span data-ttu-id="7cff8-112">要为您的组织创建日历模板，有两个关键要求：</span><span class="sxs-lookup"><span data-stu-id="7cff8-112">To create a calendar template for your organization, there are two key requirements:</span></span>
+
+- <span data-ttu-id="7cff8-113">使用新的或现有的可预订资源定义模板的所需工作时间。</span><span class="sxs-lookup"><span data-stu-id="7cff8-113">Define the desired working hours of the template using a new or existing bookable resource.</span></span>
+- <span data-ttu-id="7cff8-114">创建一个新的日历模板，将该模板与可预订资源相关联。</span><span class="sxs-lookup"><span data-stu-id="7cff8-114">Create a new calendar template and associate the template with the bookable resource.</span></span>
+
+<span data-ttu-id="7cff8-115">**定义模板的工作时间**</span><span class="sxs-lookup"><span data-stu-id="7cff8-115">**Define the working hours of the template**</span></span>
+
+1. <span data-ttu-id="7cff8-116">转到 **资源**\>**资源**。</span><span class="sxs-lookup"><span data-stu-id="7cff8-116">Go to **Resources** \> **Resources**.</span></span>
+2. <span data-ttu-id="7cff8-117">创建要在日历模板中引用的新资源，或选择一个现有资源。</span><span class="sxs-lookup"><span data-stu-id="7cff8-117">Create a new resource to reference in the calendar template, or select an existing resource.</span></span>
+3. <span data-ttu-id="7cff8-118">选择资源的 **工作时间** 选项卡，完成[为资源设置工作时间](https://docs.microsoft.com/dynamics365/field-service/set-work-hours-resource)中的说明配置日历规则。</span><span class="sxs-lookup"><span data-stu-id="7cff8-118">Select the **Work Hours** tab of the resource and complete the instructions in [Set work hours for a resource](https://docs.microsoft.com/dynamics365/field-service/set-work-hours-resource) to configure the calendar rules.</span></span>
+
+<span data-ttu-id="7cff8-119">**创建新的日历模板**</span><span class="sxs-lookup"><span data-stu-id="7cff8-119">**Create a new calendar template**</span></span>
+
+1. <span data-ttu-id="7cff8-120">转到 **设置** \> **日历模板**。</span><span class="sxs-lookup"><span data-stu-id="7cff8-120">Go to **Settings** \> **Calendar Template**.</span></span>
+2. <span data-ttu-id="7cff8-121">选择 **新建**，输入名称、说明和模板资源。</span><span class="sxs-lookup"><span data-stu-id="7cff8-121">Select **New**, and enter a name, description, and template resource.</span></span>
+
+
+> [!NOTE]
+> <span data-ttu-id="7cff8-122">在日历模板中引用资源时，该资源的日历的副本将与日历模板相关联。</span><span class="sxs-lookup"><span data-stu-id="7cff8-122">When a resource is referenced in a calendar template, a copy of the resource’s calendar is associated with the calendar template.</span></span> <span data-ttu-id="7cff8-123">如果所复制模板的工作时间发生更改，这些更改不会传播到日历模板。</span><span class="sxs-lookup"><span data-stu-id="7cff8-123">If the working hours of the copied template change, those changes will not propagate to the calendar template.</span></span>
+
+
+### <a name="see-also"></a><span data-ttu-id="7cff8-124">另请参阅</span><span class="sxs-lookup"><span data-stu-id="7cff8-124">See Also</span></span>  
+ [<span data-ttu-id="7cff8-125">设置资源</span><span class="sxs-lookup"><span data-stu-id="7cff8-125">Set up resources</span></span>](../psa/set-up-resources.md)
 
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]
