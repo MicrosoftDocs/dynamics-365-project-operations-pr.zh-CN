@@ -52,6 +52,8 @@
               href: environment/resource-dual-write-vendor-invoice.md
     - name: 新增功能
       items:
+        - name: 2021 年 5 月 - 基于资源/非库存场景的 Project Operations
+          href: whats-new/whats-new-may-2021-resource-based.md
         - name: 2021 年 4 月 - 基于资源/非库存场景的 Project Operations
           href: whats-new/whats-new-apr-2021-resource-based.md
         - name: 2021 年 3 月 - 基于资源/非库存场景的 Project Operations
@@ -374,6 +376,8 @@
               href: expense/set-up-credit-card-integration.md
             - name: 设置支出类别
               href: expense/set-up-expense-categories.md
+            - name: 使用里程运价率层设置里程
+              href: expense/set-up-mileage.md
         - name: 个人支出
           href: expense/personal-expenses-expense-report.md
         - name: 内部公司支出
@@ -508,6 +512,8 @@
           href: environment/security-model.md
     - name: 新增功能
       items:
+        - name: 2021 年 5 月新增功能 - 精简部署
+          href: pro/whats-new/whats-new-may-2021-lite.md
         - name: 2021 年 4 月新增功能 - 精简部署
           href: pro/whats-new/whats-new-apr-2021-lite.md
         - name: 2021 年 3 月新增功能 - 精简部署
@@ -1028,6 +1034,8 @@
       items:
         - name: Project Service 3.x 的更新版本计划
           href: psa/version-history-ps.md
+        - name: V3 更新版 32 的新增或变更功能
+          href: psa/whats-new-ur-32.md
         - name: V3 更新版 31 的新增或变更功能
           href: psa/whats-new-ur-31.md
         - name: V3 更新版 30 的新增或变更功能
@@ -1266,6 +1274,8 @@
               href: psa/time-entry-calendar.md
             - name: 自定义每周时间条目
               href: psa/time-entry-extensibility-v3.md
+            - name: 审批集
+              href: psa/approval-set.md
     - name: 常见问题和疑难解答 (3.x)
       items:
         - name: 为什么价格在支出费用实际值中默认为零？
