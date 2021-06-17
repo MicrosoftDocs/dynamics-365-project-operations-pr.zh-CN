@@ -2,37 +2,35 @@
 title: 管理项目报价单
 description: 此主题提供有关项目报价单的信息。
 author: rumant
-manager: Annbe
 ms.date: 10/26/2020
 ms.topic: article
-ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: 87921221ea210e67a3ddc53bd124f292de80de99
-ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
+ms.openlocfilehash: 8e0b20d4780a14edc3c242e261e22d4905f783a4
+ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5272917"
+ms.lasthandoff: 05/10/2021
+ms.locfileid: "5994800"
 ---
-# <a name="manage-project-quotes"></a><span data-ttu-id="e0ab9-103">管理项目报价单</span><span class="sxs-lookup"><span data-stu-id="e0ab9-103">Manage project quotes</span></span>
+# <a name="manage-project-quotes"></a><span data-ttu-id="3692d-103">管理项目报价单</span><span class="sxs-lookup"><span data-stu-id="3692d-103">Manage project quotes</span></span>
 
-<span data-ttu-id="e0ab9-104">_**适用于：** 基于资源/非库存场景的 Project Operations，精简部署 - 估价开票交易_</span><span class="sxs-lookup"><span data-stu-id="e0ab9-104">_**Applies To:** Project Operations for resource/non-stocked based scenarios, Lite deployment - deal to proforma invoicing_</span></span>
+<span data-ttu-id="3692d-104">_**适用于：** 基于资源/非库存场景的 Project Operations，精简部署 - 估价开票交易_</span><span class="sxs-lookup"><span data-stu-id="3692d-104">_**Applies To:** Project Operations for resource/non-stocked based scenarios, Lite deployment - deal to proforma invoicing_</span></span>
 
-<span data-ttu-id="e0ab9-105">在 Dynamics 365 Project Operations 中，项目报价单专门用于帮助构建项目工作方案。</span><span class="sxs-lookup"><span data-stu-id="e0ab9-105">In Dynamics 365 Project Operations, project quotes are designed to help build proposals for project work.</span></span> <span data-ttu-id="e0ab9-106">Project Operations 中项目报价单的结构针对具有以下组件的项目方案构造：</span><span class="sxs-lookup"><span data-stu-id="e0ab9-106">The structure of a project quote in Project Operations is structured for project proposals with the following components:</span></span>
+<span data-ttu-id="3692d-105">在 Dynamics 365 Project Operations 中，项目报价单专门用于帮助构建项目工作方案。</span><span class="sxs-lookup"><span data-stu-id="3692d-105">In Dynamics 365 Project Operations, project quotes are designed to help build proposals for project work.</span></span> <span data-ttu-id="3692d-106">Project Operations 中项目报价单的结构针对具有以下组件的项目方案构造：</span><span class="sxs-lookup"><span data-stu-id="3692d-106">The structure of a project quote in Project Operations is structured for project proposals with the following components:</span></span>
 
-  - <span data-ttu-id="e0ab9-107">标识将显示为高级组件的独立工作组件的报价单明细。</span><span class="sxs-lookup"><span data-stu-id="e0ab9-107">Quote lines that identify the discrete components of work that will be presented as high-level components.</span></span>
-  - <span data-ttu-id="e0ab9-108">标识和估计每个高级组件或报价单明细的工作的报价单明细详细信息。</span><span class="sxs-lookup"><span data-stu-id="e0ab9-108">Quote line details that identify and estimate the work for each high-level component or quote line.</span></span> <span data-ttu-id="e0ab9-109">与报价单明细关联的工作的计划或日期估计和财务方面信息。</span><span class="sxs-lookup"><span data-stu-id="e0ab9-109">Schedule or date estimates and the financial aspects for the work are tied to that quote line.</span></span>
-  - <span data-ttu-id="e0ab9-110">为每个报价单明细设置合同签订模型和应计费组件。</span><span class="sxs-lookup"><span data-stu-id="e0ab9-110">Contracting models and chargeable components are set up for each quote line.</span></span> <span data-ttu-id="e0ab9-111">此设置帮助估计每个报价单明细和整个报价单的收入、花费和利润率的传播。</span><span class="sxs-lookup"><span data-stu-id="e0ab9-111">This set up helps estimate the spread of revenue, spend, and profitability for each quote line and the overall quote.</span></span>
+  - <span data-ttu-id="3692d-107">标识将显示为高级组件的独立工作组件的报价单明细。</span><span class="sxs-lookup"><span data-stu-id="3692d-107">Quote lines that identify the discrete components of work that will be presented as high-level components.</span></span>
+  - <span data-ttu-id="3692d-108">标识和估计每个高级组件或报价单明细的工作的报价单明细详细信息。</span><span class="sxs-lookup"><span data-stu-id="3692d-108">Quote line details that identify and estimate the work for each high-level component or quote line.</span></span> <span data-ttu-id="3692d-109">与报价单明细关联的工作的计划或日期估计和财务方面信息。</span><span class="sxs-lookup"><span data-stu-id="3692d-109">Schedule or date estimates and the financial aspects for the work are tied to that quote line.</span></span>
+  - <span data-ttu-id="3692d-110">为每个报价单明细设置合同签订模型和应计费组件。</span><span class="sxs-lookup"><span data-stu-id="3692d-110">Contracting models and chargeable components are set up for each quote line.</span></span> <span data-ttu-id="3692d-111">此设置帮助估计每个报价单明细和整个报价单的收入、花费和利润率的传播。</span><span class="sxs-lookup"><span data-stu-id="3692d-111">This set up helps estimate the spread of revenue, spend, and profitability for each quote line and the overall quote.</span></span>
 
-## <a name="view-all-project-based-quotes"></a><span data-ttu-id="e0ab9-112">查看所有基于项目的报价单</span><span class="sxs-lookup"><span data-stu-id="e0ab9-112">View all project-based quotes</span></span>
+## <a name="view-all-project-based-quotes"></a><span data-ttu-id="3692d-112">查看所有基于项目的报价单</span><span class="sxs-lookup"><span data-stu-id="3692d-112">View all project-based quotes</span></span>
 
-<span data-ttu-id="e0ab9-113">可以从 **报价单** 列表页查看所有项目报价单的列表。</span><span class="sxs-lookup"><span data-stu-id="e0ab9-113">A list of all the project quotes can be seen from the **Quotes** list page.</span></span> 
+<span data-ttu-id="3692d-113">可以从 **报价单** 列表页查看所有项目报价单的列表。</span><span class="sxs-lookup"><span data-stu-id="3692d-113">A list of all the project quotes can be seen from the **Quotes** list page.</span></span> 
 
-1. <span data-ttu-id="e0ab9-114">转到 **销售** > **报价单**。</span><span class="sxs-lookup"><span data-stu-id="e0ab9-114">Go to **Sales** > **Quotes**.</span></span> <span data-ttu-id="e0ab9-115">包含您在系统中的所有项目报价单的列表将显示。</span><span class="sxs-lookup"><span data-stu-id="e0ab9-115">A list of all your project quotes in the system are shown.</span></span> 
-2. <span data-ttu-id="e0ab9-116">使用 **视图切换器** 选择报价单的其他筛选视图。</span><span class="sxs-lookup"><span data-stu-id="e0ab9-116">Use the **View Switcher** to select other filtered views of the quotes.</span></span> <span data-ttu-id="e0ab9-117">使用自定义筛选条件，您可以配置自己的视图和导航选项。</span><span class="sxs-lookup"><span data-stu-id="e0ab9-117">Using custom filter criteria, you can configure your own views and navigation options.</span></span>
+1. <span data-ttu-id="3692d-114">转到 **销售** > **报价单**。</span><span class="sxs-lookup"><span data-stu-id="3692d-114">Go to **Sales** > **Quotes**.</span></span> <span data-ttu-id="3692d-115">包含您在系统中的所有项目报价单的列表将显示。</span><span class="sxs-lookup"><span data-stu-id="3692d-115">A list of all your project quotes in the system are shown.</span></span> 
+2. <span data-ttu-id="3692d-116">使用 **视图切换器** 选择报价单的其他筛选视图。</span><span class="sxs-lookup"><span data-stu-id="3692d-116">Use the **View Switcher** to select other filtered views of the quotes.</span></span> <span data-ttu-id="3692d-117">使用自定义筛选条件，您可以配置自己的视图和导航选项。</span><span class="sxs-lookup"><span data-stu-id="3692d-117">Using custom filter criteria, you can configure your own views and navigation options.</span></span>
 
-<span data-ttu-id="e0ab9-118">可以从此列表页或详细信息页面创建或删除报价单。</span><span class="sxs-lookup"><span data-stu-id="e0ab9-118">Quotes can be created or deleted from this list page or detail pages.</span></span>
+<span data-ttu-id="3692d-118">可以从此列表页或详细信息页面创建或删除报价单。</span><span class="sxs-lookup"><span data-stu-id="3692d-118">Quotes can be created or deleted from this list page or detail pages.</span></span>
 
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]
