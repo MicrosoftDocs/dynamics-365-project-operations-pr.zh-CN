@@ -2,18 +2,16 @@
 title: 配置基于项目的合同子项的应计费组件
 description: 此主题提供有关如何在 Project Operations 中向合同子项添加应计费组件的信息。
 author: rumant
-manager: Annbe
 ms.date: 10/08/2020
 ms.topic: article
-ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: ddada2cb412ba7370fb0a750325a84772937d8d0
-ms.sourcegitcommit: 5fd529f2308edfe9322082313e6d50146df56aca
+ms.openlocfilehash: b29c912828aa4af2d2d9cb47869012087cb834b4
+ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/06/2021
-ms.locfileid: "5858462"
+ms.lasthandoff: 05/10/2021
+ms.locfileid: "6003710"
 ---
 # <a name="configure-chargeable-components-of-a-project-based-contract-line"></a>配置基于项目的合同子项的应计费组件
 

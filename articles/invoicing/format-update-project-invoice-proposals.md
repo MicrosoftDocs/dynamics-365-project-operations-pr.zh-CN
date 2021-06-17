@@ -2,18 +2,16 @@
 title: 管理项目发票方案
 description: 本主题提供有关使用面向资源/非库存场景的 Project Operations 处理面向客户的发票的详细信息。
 author: sigitac
-manager: Annbe
 ms.date: 04/12/2021
 ms.topic: article
-ms.service: project-operations
 ms.reviewer: kfend
 ms.author: sigitac
-ms.openlocfilehash: 6b8eacf2b43219a9adad897637b78a9c94351554
-ms.sourcegitcommit: 3d78338773929121d17ec3386f6cb67bfb2272cc
+ms.openlocfilehash: 7e6d060c1cca08f86e2d04ca96c9315a17316d11
+ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/27/2021
-ms.locfileid: "5950703"
+ms.lasthandoff: 05/10/2021
+ms.locfileid: "6001460"
 ---
 # <a name="manage-project-invoice-proposals"></a>管理项目发票方案
 

@@ -2,11 +2,9 @@
 title: 项目合同
 description: 本主题举例说明可以为不同类型的项目和融资来源创建的项目合同，以及如何管理合同和发票项目客户。
 author: Yowelle
-manager: AnnBe
 ms.date: 11/03/2017
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: ProjProjectContractsListPage, ProjProjectsListPage
 audience: Application User, IT Pro
@@ -18,12 +16,12 @@ ms.search.region: Global
 ms.author: andchoi
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: b53eb6ff3f98e7efc3d6b997cd4d877025225936
-ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
+ms.openlocfilehash: a794ec38ac07c1418f9e95b741941a83492bb3d5
+ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5289538"
+ms.lasthandoff: 05/10/2021
+ms.locfileid: "5999750"
 ---
 # <a name="project-contracts"></a>项目合同
 
@@ -100,7 +98,7 @@ ms.locfileid: "5289538"
 <li>100%</li>
 </ul></td>
 <td><ul>
-<li>7</li>
+<li>1</li>
 <li>2</li>
 <li>3</li>
 </ul></td>
@@ -118,8 +116,8 @@ ms.locfileid: "5289538"
 <li>100%</li>
 </ul></td>
 <td><ul>
-<li>7</li>
-<li>7</li>
+<li>1</li>
+<li>1</li>
 <li>2</li>
 </ul></td>
 </tr>
@@ -138,8 +136,8 @@ ms.locfileid: "5289538"
 <li>50%</li>
 </ul></td>
 <td><ul>
-<li>7</li>
-<li>7</li>
+<li>1</li>
+<li>1</li>
 <li>2</li>
 <li>2</li>
 </ul></td>
@@ -155,7 +153,7 @@ ms.locfileid: "5289538"
 <li>100%</li>
 </ul></td>
 <td><ul>
-<li>7</li>
+<li>1</li>
 <li>2</li>
 </ul></td>
 </tr>

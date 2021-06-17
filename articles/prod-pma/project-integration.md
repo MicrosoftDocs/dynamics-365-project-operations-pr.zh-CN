@@ -2,11 +2,9 @@
 title: Microsoft Project Client 集成
 description: 规划和维护项目计划可能非常复杂，因此项目经理需要使用工具来帮助管理此任务。 与 Microsoft Project Client 的集成提供了对打开和管理项目工作分解结构的支持。
 author: Yowelle
-manager: AnnBe
 ms.date: 12/11/2017
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: ProjWbsTemplate
 audience: Application User
@@ -18,12 +16,12 @@ ms.search.region: Global
 ms.author: andchoi
 ms.search.validFrom: 2017-12-04
 ms.dyn365.ops.version: 7.2999999999999998
-ms.openlocfilehash: e93d23559d1f3aca9022cd97dae3b0726bb5ca05
-ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
+ms.openlocfilehash: 032d726bb6206c563b573f30d13fe2697a13c949
+ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5289313"
+ms.lasthandoff: 05/10/2021
+ms.locfileid: "5999435"
 ---
 # <a name="microsoft-project-client-integration"></a>Microsoft Project Client 集成
 

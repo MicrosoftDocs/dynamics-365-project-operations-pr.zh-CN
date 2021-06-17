@@ -2,11 +2,9 @@
 title: 将项目合同和项目直接从 Project Service Automation 同步到 Finance
 description: 此主题介绍用于直接同步 Microsoft Dynamics 365 Project Service Automation 与 Dynamics 365 Finance 的项目合同和项目的模板和基础任务。
 author: Yowelle
-manager: AnnBe
 ms.date: 12/17/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 audience: Application User
 ms.reviewer: josaw
@@ -17,12 +15,12 @@ ms.search.region: Global
 ms.author: andchoi
 ms.search.validFrom: 2017-12-13
 ms.dyn365.ops.version: AX 7.3.0
-ms.openlocfilehash: 85722f61a672cc55cd2b511dc80ebfbe4807b957
-ms.sourcegitcommit: 3d78338773929121d17ec3386f6cb67bfb2272cc
+ms.openlocfilehash: 2f5fa0143c903f08b3937426805cb43d5d6109e3
+ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/27/2021
-ms.locfileid: "5950388"
+ms.lasthandoff: 05/10/2021
+ms.locfileid: "5999795"
 ---
 # <a name="synchronize-project-contracts-and-projects-directly-from-project-service-automation-to-finance"></a>将项目合同和项目直接从 Project Service Automation 同步到 Finance 
 
@@ -116,7 +114,7 @@ Project Service Automation 中有一项会影响项目合同行里程碑模板�
 
     | Value | 描述   |
     |-------|---------------|
-    | 7     | N30        |
+    | 1     | N30        |
     | 2     | 2/10 N30 |
     | 3     | N45        |
     | 4     | N60        |

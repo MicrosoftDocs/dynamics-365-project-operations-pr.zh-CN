@@ -2,18 +2,16 @@
 title: 将 Azure 订阅添加到 LCS 项目
 description: 此主题提供有关如何将您的 Azure 订阅连接到 LCS 项目的信息。
 author: sigitac
-manager: Annbe
 ms.date: 04/12/2021
 ms.topic: article
-ms.service: project-operations
 ms.reviewer: kfend
 ms.author: sigitac
-ms.openlocfilehash: a80c926ba67a1620e39d8c7677a05678454e6340
-ms.sourcegitcommit: 7468d668c48c1d87934aab9a034decd51e56dec6
+ms.openlocfilehash: 6daa86d453ec5022cdd75dff0394c8818292406c
+ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/13/2021
-ms.locfileid: "5880527"
+ms.lasthandoff: 05/10/2021
+ms.locfileid: "6000605"
 ---
 # <a name="add-an-azure-subscription-to-an-lcs-project"></a>将 Azure 订阅添加到 LCS 项目
 

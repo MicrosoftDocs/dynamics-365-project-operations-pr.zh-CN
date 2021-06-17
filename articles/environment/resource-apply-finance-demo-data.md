@@ -2,18 +2,16 @@
 title: 在 Finance 云托管环境中应用演示数据
 description: 此主题说明如何将 Project Operations 中的演示数据应用于 Dynamics 365 Finance 云托管环境。
 author: sigitac
-manager: Annbe
 ms.date: 10/01/2020
 ms.topic: article
-ms.service: project-operations
 ms.reviewer: kfend
 ms.author: sigitac
-ms.openlocfilehash: a7239301dc8b775dc4a53a1cf6c0bcba3956125a
-ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
+ms.openlocfilehash: 7d8a198b3bfd71ae08bc338d17896519b5ffd6b8
+ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5289853"
+ms.lasthandoff: 05/10/2021
+ms.locfileid: "6000139"
 ---
 # <a name="apply-demo-data-to-a-finance-cloud-hosted-environment"></a>在 Finance 云托管环境中应用演示数据
 

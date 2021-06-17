@@ -2,19 +2,17 @@
 title: 供应商发票集成
 description: 此主题提供有关 Project Operations 中的供应商发票集成的信息。
 author: sigitac
-manager: Annbe
 ms.date: 04/27/2021
 ms.topic: article
 ms.prod: ''
-ms.service: project-operations
 ms.reviewer: kfend
 ms.author: sigitac
-ms.openlocfilehash: 07839436c3777b0554e0721d250bff643e38c088
-ms.sourcegitcommit: 02f00960198cc78a5e96955a9e4390c2c6393bbf
+ms.openlocfilehash: d4f1b0ad94b71dc4adc5b2b3423340c5fdb171eb
+ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/28/2021
-ms.locfileid: "5955714"
+ms.lasthandoff: 05/10/2021
+ms.locfileid: "6002243"
 ---
 # <a name="vendor-invoice-integration"></a>供应商发票集成
 

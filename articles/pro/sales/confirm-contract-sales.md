@@ -2,18 +2,16 @@
 title: 确认项目合同
 description: 此主题提供如何在 Project Operations 中确认合同的信息。
 author: rumant
-manager: Annbe
 ms.date: 10/13/2020
 ms.topic: article
-ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: d807d3631f40a93ec7dbd918b64c287fd4875c79
-ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
+ms.openlocfilehash: b5eabcad028a8282f552f3571b170d9b933a7b88
+ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5273817"
+ms.lasthandoff: 05/10/2021
+ms.locfileid: "6003665"
 ---
 # <a name="confirm-a-project-contract"></a>确认项目合同
 

@@ -2,11 +2,9 @@
 title: 为 iOS 和 Android 上的 Microsoft Dynamics 365 Project Timesheet 移动应用实施自定义字段
 description: 本主题提供有关使用扩展实施自定义字段的常见模式。
 author: Yowelle
-manager: AnnBe
 ms.date: 05/29/2019
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 audience: Application User
 ms.reviewer: kfend
@@ -18,12 +16,12 @@ ms.search.industry: Service industries
 ms.author: andchoi
 ms.dyn365.ops.version: 10.0.3
 ms.search.validFrom: 2019-05-29
-ms.openlocfilehash: 5dae571fce746b49281587f5349774a7f2c4111b
-ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
+ms.openlocfilehash: 23b002559dcbb9118ccb2b36d70707ccb37b19ad
+ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5270982"
+ms.lasthandoff: 05/10/2021
+ms.locfileid: "6003009"
 ---
 # <a name="implement-custom-fields-for-the-microsoft-dynamics-365-project-timesheet-mobile-app-on-ios-and-android"></a>为 iOS 和 Android 上的 Microsoft Dynamics 365 Project Timesheet 移动应用实施自定义字段
 
@@ -53,8 +51,8 @@ ms.locfileid: "5270982"
 
 | 类型值 | Type              | 注释​​ |
 |-------------|-------------------|-------|
-| 12           | 字符串（和枚举） | 字段显示为文本字段。 |
-| 7           | 整型           | 值显示为无小数位的数字。 |
+| 0           | 字符串（和枚举） | 字段显示为文本字段。 |
+| 1           | 整型           | 值显示为无小数位的数字。 |
 | 2           | 实数              | 值显示为有小数位的数字。<p>若要在应用中将实数值显示为货币，请使用 **fieldExtenededType** 属性。 可使用 **numberOfDecimals** 属性设置显示的小数位数。</p> |
 | 3           | Date              | 数据格式由 **用户选项** 中 **语言和国家/地区首选项** 下的 **日期、时间和数字格式** 设置决定。 |
 | 4           | Boolean           | |

@@ -2,18 +2,16 @@
 title: 内部公司开票概述
 description: 本主题提供了有关内部公司项目开票的信息和示例。
 author: sigitac
-manager: tfehr
 ms.date: 11/19/2020
 ms.topic: article
-ms.service: project-operations
 ms.reviewer: kfend
 ms.author: sigitac
-ms.openlocfilehash: 3ad75089de1a2f99646f7aba213e199a2bec347d
-ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
+ms.openlocfilehash: 42af89105f8325f1c94df6d2133d2c329facf2b3
+ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5287317"
+ms.lasthandoff: 05/10/2021
+ms.locfileid: "6002630"
 ---
 # <a name="intercompany-invoicing-overview"></a>内部公司开票概述
 
@@ -21,7 +19,7 @@ _**适用于：** 面向资源/非库存场景的 Project Operations_
 
 您的组织可能具有多个为项目彼此转移产品和服务的分公司、附属机构和其他法人。 提供服务或产品的法律实体称为 *贷款法律实体*。 接收服务或产品的法律实体称为 *借款法律实体*。
 
-下图显示了一个典型情形，其中有 Contoso Robotics USA（借款法律实体）和Contoso Robotics UK（贷款法律实体）这两个法律实体，它们共享资源来为 Adventure works 客户交付项目。 对于此情形，Contoso Robotics USA 已签约将工作交付给 Adventure Works。
+下图显示了一个典型方案，其中，两个法人实体 Contoso Robotics USA（借款法人实体）和 Contoso  Robotics UK（贷款法人实体）共享资源以为客户 Adventure works 交付项目。 对于此情形，Contoso Robotics USA 签订合同以向 Adventure Works 交付工作。
 
 ![内部公司开票](./media/IntercompanyScenario.png) 
 

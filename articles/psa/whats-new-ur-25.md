@@ -2,8 +2,6 @@
 title: Project Service Automation V3 更新版本 25 中的新增功能或更改
 description: 本主题列出了 Project Service Automation V3 更新版本 25 中可用的功能和修复。
 author: ruhercul
-manager: kfend
-ms.service: project-operations
 ms.custom: dyn365-projectservice
 ms.date: 10/26/2020
 ms.topic: article
@@ -17,12 +15,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 3aa10e1d4b23fbe6c2743d71497bdef840776008
-ms.sourcegitcommit: 3d78338773929121d17ec3386f6cb67bfb2272cc
+ms.openlocfilehash: 92dd74378457cf877e8ec26eb85a7883dda97d51
+ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/27/2021
-ms.locfileid: "5948860"
+ms.lasthandoff: 05/10/2021
+ms.locfileid: "6000200"
 ---
 # <a name="whats-new-or-changed-in-project-service-automation-update-release-25-v3"></a>Project Service Automation V3 更新版本 25 中的新增功能或更改
 

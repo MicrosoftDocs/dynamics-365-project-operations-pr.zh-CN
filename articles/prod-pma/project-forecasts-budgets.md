@@ -2,11 +2,9 @@
 title: 项目预测和预算
 description: Microsoft Dynamics 365 Finance 提供项目预测和项目预算来管理和控制您的项目。
 author: Yowelle
-manager: AnnBe
 ms.date: 10/25/2017
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: ForecastModel, ProjYearEndProcess
 audience: Application User
@@ -18,12 +16,12 @@ ms.search.region: Global
 ms.author: andchoi
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 2685e99800ef6fd0b613377271259da0da805aad
-ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
+ms.openlocfilehash: c1c1cde984334af8cc30e7899e3cf0b38467666f
+ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5289403"
+ms.lasthandoff: 05/10/2021
+ms.locfileid: "5999615"
 ---
 # <a name="project-forecasts-and-budgets"></a>项目预测和预算
 

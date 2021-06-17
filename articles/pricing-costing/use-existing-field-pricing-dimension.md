@@ -2,11 +2,9 @@
 title: 作为定价维度的 Project Operations 字段
 description: 本主题提供有关在 Dynamics 365 Project Operations 中使用字段作为定价维度的信息。
 author: rumant
-manager: AnnBe
 ms.date: 09/18/2020
 ms.topic: article
 ms.prod: ''
-ms.service: project-operations
 audience: Application User
 ms.reviewer: kfend
 ms.search.scope: ''
@@ -17,12 +15,12 @@ ms.search.industry: Service industries
 ms.author: suvaidya
 ms.dyn365.ops.version: ''
 ms.search.validFrom: 2020-10-01
-ms.openlocfilehash: 04b823e8237590a294ed0706e64d0ecb9d2cf56f
-ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
+ms.openlocfilehash: a29460b2a9dc9a9755e7e28a6cd9712c6b06e8c6
+ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5274627"
+ms.lasthandoff: 05/10/2021
+ms.locfileid: "6004475"
 ---
 # <a name="project-operations-fields-as-pricing-dimensions"></a>作为定价维度的 Project Operations 字段
 

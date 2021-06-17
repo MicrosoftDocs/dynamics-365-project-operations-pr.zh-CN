@@ -2,18 +2,16 @@
 title: 管理不可超出状态和验证
 description: 此主题提供在 Project Operations 中执行的上限检查的相关信息。
 author: rumant
-manager: Annbe
 ms.date: 04/05/2021
 ms.topic: article
-ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: 7026ff654a9db8e8a22bcef544b043af39865559
-ms.sourcegitcommit: ca0fc078d1a12484eca193fe051b8442c0559db8
+ms.openlocfilehash: d51a61e441b004ae836037aefa172fdd20ac83ed
+ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/07/2021
-ms.locfileid: "5866716"
+ms.lasthandoff: 05/10/2021
+ms.locfileid: "6003890"
 ---
 # <a name="manage-not-to-exceed-status-and-validations"></a>管理不可超出状态和验证 
 

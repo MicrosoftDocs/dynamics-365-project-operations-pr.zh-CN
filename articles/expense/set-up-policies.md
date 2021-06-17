@@ -2,11 +2,9 @@
 title: 定义支出策略
 description: 您可以定义您的工作人员在输入和提交支出报表和出差申请时必须遵守的支出策略。
 author: suvaidya
-manager: AnnBe
 ms.date: 09/23/2020
 ms.topic: article
 ms.prod: ''
-ms.service: project-operations
 ms.search.form: ''
 audience: Application User
 ms.reviewer: kfend
@@ -15,12 +13,12 @@ ms.search.region: Global
 ms.author: suvaidya
 ms.search.validFrom: ''
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: 863d1e44dad9fa0d2174cf77582a1d820988e92d
-ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
+ms.openlocfilehash: fa108db9aa0d2a22c35d2d046917ddae1f3842c1
+ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5276067"
+ms.lasthandoff: 05/10/2021
+ms.locfileid: "6001865"
 ---
 # <a name="define-expense-policies"></a>定义支出策略
 

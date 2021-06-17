@@ -2,19 +2,17 @@
 title: 设置目录产品的成本和销售费率 - 精简
 description: 此主题提供有关如何设置产品目录中各项的成本和销售费率的信息。
 author: rumant
-manager: Annbe
 ms.date: 10/09/2020
 ms.topic: article
 ms.prod: ''
-ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: f0941c549cc38f0938a5819e8cb6ca9912f14790
-ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
+ms.openlocfilehash: 4995859696c844e99593139f63dffbf86a52f2f0
+ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5274447"
+ms.lasthandoff: 05/10/2021
+ms.locfileid: "6004301"
 ---
 # <a name="set-up-cost-and-sales-rates-for-catalog-products---lite"></a>设置目录产品的成本和销售费率 - 精简
 

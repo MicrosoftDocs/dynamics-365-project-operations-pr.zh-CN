@@ -2,8 +2,6 @@
 title: Project Service Automation V3 更新版本 12 中的新增功能或更改
 description: 本主题介绍 Project Service Automation V3 更新版本 12 中的新增功能。
 author: ruhercul
-manager: kfend
-ms.service: project-operations
 ms.custom: dyn365-projectservice
 ms.date: 02/04/2020
 ms.topic: article
@@ -17,12 +15,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 58a12ded135712d8194499ce4a9ba9e4e2aa99bd
-ms.sourcegitcommit: 3d78338773929121d17ec3386f6cb67bfb2272cc
+ms.openlocfilehash: f29eaf7c471104ad3e319d8f4e1cbc70e44fc1ca
+ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/27/2021
-ms.locfileid: "5949488"
+ms.lasthandoff: 05/10/2021
+ms.locfileid: "6000335"
 ---
 # <a name="project-service-automation-update-release-12-v3"></a>Project Service Automation V3 更新版本 12
 

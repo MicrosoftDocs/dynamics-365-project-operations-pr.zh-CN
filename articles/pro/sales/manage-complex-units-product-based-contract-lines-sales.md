@@ -2,18 +2,16 @@
 title: 管理基于产品的合同子项的复杂单位 - 精简
 description: 此主题提供有关支持基于订阅的产品的销售的信息。
 author: rumant
-manager: Annbe
 ms.date: 10/28/2020
 ms.topic: article
-ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: 029d2aa4fd20fc036a34ae6136fe12454f3b7703
-ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
+ms.openlocfilehash: 86da5a96919438e883b56fc8ecfe765f70a789ff
+ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5273322"
+ms.lasthandoff: 05/10/2021
+ms.locfileid: "6003170"
 ---
 # <a name="manage-complex-units-for-product-based-contract-lines---lite"></a>管理基于产品的合同子项的复杂单位 - 精简
 
