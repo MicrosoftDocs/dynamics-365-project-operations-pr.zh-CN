@@ -2,8 +2,6 @@
 title: Project Service Automation 中的预订分配方法
 description: 此主题介绍分配的不同预订方法。
 author: ruhercul
-manager: kfend
-ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 9/26/2019
@@ -18,12 +16,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 6fefaf0677ec1b3b84b202824ba16a87fa1b8d5c
-ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
+ms.openlocfilehash: 89c455b45829a4e28dc8bb71cf34e52375ed6efd
+ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5286327"
+ms.lasthandoff: 05/10/2021
+ms.locfileid: "5993274"
 ---
 # <a name="booking-allocation-methods-in-project-service-automation"></a>Project Service Automation 中的预订分配方法
 
@@ -48,14 +46,14 @@ ms.locfileid: "5286327"
 
 |         预订          |    第 1 天    |    第 2 天    |    第 3 天    |    第 4 天    |    第 5 天    |    总额    |
 |---------------------------|-------------|-------------|-------------|-------------|-------------|-------------|
-|    现有预订    |    12        |    12        |    12        |    12        |    12        |    12        |
+|    现有预订    |    0        |    0        |    0        |    0        |    0        |    0        |
 |    新预订          |    8        |    8        |    4        |    0        |    0        |    20       |
 
 前期负荷方法考虑现有预订和可用产能。 例如，如果同一个资源已在工作周内有 20 小时的预订，新预订将使用剩余产能，如下所示：
 
 |   预订          | 第 1 天 | 第 2 天 | 第 3 天 | 第 4 天 | 第 5 天 | 总额 |
 |---------------------|-------|-------|-------|-------|-------|-------|
-| 现有预订 | 8     | 8     | 4     | 12     | 12     | 20    |
+| 现有预订 | 8     | 8     | 4     | 0     | 0     | 20    |
 | 新预订       | 0     | 0     | 4     | 8     | 8     | 20    |
 
 由于考虑了可用产能，如果资源没有可以通过预订分配的剩余产能，您可能收到错误消息。 使用此方法，不能超额预订。

@@ -2,18 +2,16 @@
 title: 应用演示设置和配置数据 - 精简
 description: 此主题提供有关如何为 Project Operations 应用演示设置和配置数据的信息。
 author: sigitac
-manager: Annbe
 ms.date: 01/27/2021
 ms.topic: article
-ms.service: project-operations
 ms.reviewer: kfend
 ms.author: sigitac
-ms.openlocfilehash: 694dbc74591de74895095a9da6e590069711fc83
-ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
+ms.openlocfilehash: 7729b4a9ef5f498b78af298f7233d7dd45434bb3
+ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5290123"
+ms.lasthandoff: 05/10/2021
+ms.locfileid: "5997140"
 ---
 # <a name="apply-demo-setup-and-configuration-data-for-project-operations---lite"></a>为 Project Operations 应用演示设置和配置数据 - 精简 
 
@@ -28,8 +26,8 @@ _**精简部署 - 估价交易开票_
 
 ## <a name="instructions"></a>指令
 
-1. 下载[主数据包](https://download.microsoft.com/download/3/4/1/341bf279-a64f-4baa-af31-ce624859b518/ProjOpsSampleSetupData%20-%20CE%20only%20CMT.zip)。 
-2. 导航到文件夹 *ProjOpsDemoDataSetupAndMaster - Integrated CMT*，运行可执行文件 *DataMigrationUtility*。
+1. 下载[主数据包](https://download.microsoft.com/download/3/4/1/341bf279-a64f-4baa-af31-ce624859b518/ProjOpsSampleSetupData-%20CE%20only.zip)。 
+2. 导航到文件夹 *ProjOpsSampleSetupData - CE only CMT* 并运行可执行文件 *DataMigrationUtility*。
 3. 在 Common Data Service 配置迁移 (CMT) 向导的第 1 页上，选择 **导入数据**，然后选择 **继续**。
 
     ![配置迁移](./media/1ConfigurationMigration.png)
@@ -41,18 +39,18 @@ _**精简部署 - 估价交易开票_
    ![配置登录](./media/2ConfigurationSignin.png)
 
 7. 在第 3 页上，在租户的组织列表中，选择要将演示数据导入的组织，然后选择 **登录**。
-8. 在第 4 页上，从解压缩的文件夹 *ProjOpsDemoDataSetupAndMaster - Integrated CMT* 中选择 zip 文件 *MasterAndSetupData*。
+8. 在第 4 页上，从解压缩文件夹 *ProjOpsSampleSetupData - CE only CMT* 中选择 zip 文件 *SampleSetupAndConfigData*。
 
    ![Zip 文件](./media/3ZipFile.png)
 
-   ![选择 1 个文件](./media/4SelectAFile.png)
+   ![选择文件](./media/4SelectAFile.png)
 
 9. 选择 zip 文件后，选择 **导入数据**。
 
    ![导入数据](./media/5ImportData.png)
 
 10. 导入将运行大约二到十分钟，具体时间取决于您的网络速度。 完成后，退出 CMT 向导。 
-11. 检查您的组织在以下 20 个实体中的数据：
+11. 检查您的组织在以下 18 个实体中的数据：
 
     -   货币
     -   帐户​​

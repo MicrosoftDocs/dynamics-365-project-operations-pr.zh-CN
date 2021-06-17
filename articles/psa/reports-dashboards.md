@@ -2,8 +2,6 @@
 title: 仪表板
 description: 此主题介绍 Dynamics 365 Project Service Automation 中的报告仪表板。
 author: ruhercul
-manager: kfend
-ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 03/01/2019
@@ -18,12 +16,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: ad5c5deca1964d57f22459c129f9936be0c30fde
-ms.sourcegitcommit: 3d78338773929121d17ec3386f6cb67bfb2272cc
+ms.openlocfilehash: 24c5def3dba980757c4281b649ff132e1c86915a
+ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/27/2021
-ms.locfileid: "5951513"
+ms.lasthandoff: 05/10/2021
+ms.locfileid: "5998130"
 ---
 # <a name="dashboards"></a>仪表板
 

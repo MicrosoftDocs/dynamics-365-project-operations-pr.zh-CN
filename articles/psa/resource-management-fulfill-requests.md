@@ -2,8 +2,6 @@
 title: 满足资源要求
 description: 此主题介绍如何满足资源要求。
 author: ruhercul
-manager: kfend
-ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 03/28/2019
@@ -18,12 +16,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 5df7431aa0385381a13927db6ae757f87f1832f1
-ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
+ms.openlocfilehash: 1814d3a48611a76ee957967fc6da0b66e821ce5d
+ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5283087"
+ms.lasthandoff: 05/10/2021
+ms.locfileid: "5997995"
 ---
 # <a name="fulfilling-resource-requests"></a>满足资源请求
 

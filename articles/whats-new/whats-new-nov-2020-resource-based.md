@@ -2,18 +2,16 @@
 title: 2020 年 11 月新增功能 - 面向资源/非库存场景的 Project Operations
 description: 此主题提供有关 2020 年 11 月版本的面向资源/非库存场景的 Project Operations 中推出的质量更新的信息。
 author: sigitac
-manager: Annbe
 ms.date: 10/30/2020
 ms.topic: article
-ms.service: project-operations
 ms.reviewer: kfend
 ms.author: sigitac
-ms.openlocfilehash: fa6530a0eefb1ae6a84a662c6131182d97d49aeb
-ms.sourcegitcommit: 3d78338773929121d17ec3386f6cb67bfb2272cc
+ms.openlocfilehash: f6b14a1cbe7f3d41c86aedaf863434214f911eaa
+ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/27/2021
-ms.locfileid: "5950928"
+ms.lasthandoff: 05/10/2021
+ms.locfileid: "5995610"
 ---
 # <a name="whats-new-november-2020---project-operations-for-resourcenon-stocked-based-scenarios"></a>2020 年 11 月新增功能 - 面向资源/非库存场景的 Project Operations
 

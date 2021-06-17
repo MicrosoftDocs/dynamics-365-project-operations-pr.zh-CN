@@ -2,19 +2,17 @@
 title: 关闭报价单 - 精简
 description: 此主题提供有关在 Project Operations 中结束报价单的信息。
 author: rumant
-manager: Annbe
 ms.date: 10/01/2020
 ms.topic: article
 ms.prod: ''
-ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: 6214e1b5bec5c9173a6b6e69578de14654da633e
-ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
+ms.openlocfilehash: 75345fed57dcbdb84f2a82587c7d0c152530c72b
+ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5272257"
+ms.lasthandoff: 05/10/2021
+ms.locfileid: "5994125"
 ---
 # <a name="close-a-quote---lite"></a>关闭报价单 - 精简
 

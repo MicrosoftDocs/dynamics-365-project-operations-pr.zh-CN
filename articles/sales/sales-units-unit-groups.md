@@ -2,11 +2,9 @@
 title: 计价单位和计价单位组
 description: 本主题提供了有关如何在 Dynamics 365 Project Operations 中创建计价单位和计价单位组的信息。
 author: rumant
-manager: AnnBe
 ms.date: 09/18/2020
 ms.topic: article
 ms.prod: ''
-ms.service: project-operations
 audience: Application User
 ms.reviewer: kfend
 ms.search.scope: ''
@@ -17,12 +15,12 @@ ms.search.industry: Service industries
 ms.author: suvaidya
 ms.dyn365.ops.version: ''
 ms.search.validFrom: 2020-10-01
-ms.openlocfilehash: 162366f4b7aa678b4e39d9745a657037bf36cbe0
-ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
+ms.openlocfilehash: 646e20189efb4aab56972f01a52b1bff19f2e79f
+ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5277327"
+ms.lasthandoff: 05/10/2021
+ms.locfileid: "5996060"
 ---
 # <a name="units-and-unit-groups"></a>计价单位和计价单位组
 

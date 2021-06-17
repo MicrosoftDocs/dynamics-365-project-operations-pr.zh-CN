@@ -2,19 +2,17 @@
 title: 配置非库存材料以及待定供应商发票
 description: 本主题说明如何启用非库存材料以及待定供应商发票。
 author: sigitac
-manager: tfehr
 ms.date: 04/12/2021
 ms.topic: article
 ms.prod: ''
-ms.service: project-operations
 ms.reviewer: kfend
 ms.author: sigitac
-ms.openlocfilehash: a84245a246f49ab69466aba0fec332f0489eec6c
-ms.sourcegitcommit: 7468d668c48c1d87934aab9a034decd51e56dec6
+ms.openlocfilehash: 24418f3aad8356bd209eef7487a47a3870bce10f
+ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/13/2021
-ms.locfileid: "5880625"
+ms.lasthandoff: 05/10/2021
+ms.locfileid: "5993900"
 ---
 # <a name="configure-non-stocked-materials-and-pending-vendor-invoices"></a>配置非库存材料以及待定供应商发票
 
@@ -61,11 +59,11 @@ Dynamics 365 Finance：
 
 ### <a name="activate-workflow-to-create-accounts-based-on-vendor-entity"></a>激活工作流以基于供应商实体创建客户
 
-双重写入业务流程解决方案提供[供应商主集成](https://docs.microsoft.com/dynamics365/fin-ops-core/dev-itpro/data-entities/dual-write/vendor-mapping)。 作为此功能的先决条件，必须在 **客户** 实体中创建供应商数据。 激活模板工作流流程，在 **客户** 表中创建供应商，如[在供应商设计之间切换](https://docs.microsoft.com/dynamics365/fin-ops-core/dev-itpro/data-entities/dual-write/vendor-switch#use-the-extended-vendor-design-for-vendors-of-the-organization-type)中所述。
+双重写入业务流程解决方案提供[供应商主集成](/dynamics365/fin-ops-core/dev-itpro/data-entities/dual-write/vendor-mapping.md)。 作为此功能的先决条件，必须在 **客户** 实体中创建供应商数据。 激活模板工作流流程，在 **客户** 表中创建供应商，如[在供应商设计之间切换](/dynamics365/fin-ops-core/dev-itpro/data-entities/dual-write/vendor-switch.md#use-the-extended-vendor-design-for-vendors-of-the-organization-type)中所述。
 
 ### <a name="set-products-to-be-created-as-active"></a>将产品设置为以活动状态创建
 
-非库存材料必须在 Finance 中配置为 **已发布产品**。 双重写入业务流程解决方案提供现成的[已发布产品与 Dataverse 产品集成目录](https://docs.microsoft.com/dynamics365/fin-ops-core/dev-itpro/data-entities/dual-write/product-mapping)。 默认情况下，Finance 中的产品在草稿状态下同步到 Dataverse。 要将产品同步到活动状态，以可以将其直接用于材料使用文档或待定供应商发票，转到 **系统** > **管理** > **系统管理** > **系统设置**，在 **销售** 选项卡上，将 **创建处于活动状态的产品** 设置为 **是**。
+非库存材料必须在 Finance 中配置为 **已发布产品**。 双重写入业务流程解决方案提供现成的[已发布产品与 Dataverse 产品集成目录](/dynamics365/fin-ops-core/dev-itpro/data-entities/dual-write/product-mapping.md)。 默认情况下，Finance 中的产品在草稿状态下同步到 Dataverse。 要将产品同步到活动状态，以可以将其直接用于材料使用文档或待定供应商发票，转到 **系统** > **管理** > **系统管理** > **系统设置**，在 **销售** 选项卡上，将 **创建处于活动状态的产品** 设置为 **是**。
 
 ## <a name="configure-prerequisites-in-finance"></a>在 Finance 中配置先决条件
 

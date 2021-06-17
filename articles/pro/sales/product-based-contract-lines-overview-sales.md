@@ -2,18 +2,16 @@
 title: 基于产品的合同子项概述 - 精简
 description: 此主题介绍基于产品的合同子项。
 author: rumant
-manager: Annbe
 ms.date: 10/07/2020
 ms.topic: article
-ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: 6e9ef33cc9c79f828e85733f4f5a199bce842700
-ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
+ms.openlocfilehash: f248865287cdd3b1fdb3bbc40ad1c48b5302c2c0
+ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5272647"
+ms.lasthandoff: 05/10/2021
+ms.locfileid: "5994530"
 ---
 # <a name="product-based-contract-lines-overview---lite"></a>基于产品的合同子项概述 - 精简
 

@@ -2,8 +2,6 @@
 title: 如何在 Web 应用程序中将可预订资源分派给任务
 description: 可预订资源分派方法的概述。
 author: JohnPBurrows
-manager: kfend
-ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 8/21/2018
@@ -18,12 +16,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: b4296837cabd4c6f7e2d2924079658e45ce8b87c
-ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
+ms.openlocfilehash: 32a04ddef901515cd77262b5ae6be2458cb6b00c
+ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5286282"
+ms.lasthandoff: 05/10/2021
+ms.locfileid: "5993277"
 ---
 # <a name="how-do-i-assign-a-bookable-resource-to-a-task-in-the-web-app-project-service-app-v2x"></a>如何在 Web 应用程序（Project Service 应用程序 v2.x）中将可预订资源分派到任务？
 

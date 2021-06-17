@@ -2,18 +2,16 @@
 title: 配置项目类别
 description: 此主题提供有关设置项目类别的信息。
 author: sigitac
-manager: Annbe
 ms.date: 10/01/2020
 ms.topic: article
-ms.service: project-operations
 ms.reviewer: kfend
 ms.author: sigitac
-ms.openlocfilehash: b7adf61a82714a0148d9c8b1d2b2b37fd611c1cf
-ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
+ms.openlocfilehash: d82302f12ba75a92f2de0e9746ad7e61ce0cdc6b
+ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5287497"
+ms.lasthandoff: 05/10/2021
+ms.locfileid: "5995160"
 ---
 # <a name="configure-project-categories"></a>配置项目类别
 
@@ -29,7 +27,7 @@ Project Operations 提供强大的功能，可以对项目的收入和支出进�
 
 ## <a name="transaction-categories"></a>交易记录类别
 
-交易类别代表项目交易的基本分组，不特定于公司或交易类型。 例如，Contoso Robotics 使用“设计”、“旅行”、“安装”和“服务交易”类别对项目交易进行分组。
+交易类别代表项目交易的基本分组，不特定于公司或交易类型。 例如，Contoso Robotics 使用设计、旅行、安装和服务交易类别对项目交易进行分组。
 
 交易类别在 Project Operations 模块中定义。 
 1. 转到 **设置**\>**交易类别** 打开窗体。 

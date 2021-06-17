@@ -2,19 +2,17 @@
 title: 替代项目销售价目表
 description: 此主题提供有关创建自定义销售价目表的信息。
 author: rumant
-manager: Annbe
 ms.date: 10/22/2020
 ms.topic: article
 ms.prod: ''
-ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: 17a86e89f626cef720fe3c8db0cbd8d6a2a3ddd5
-ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
+ms.openlocfilehash: db2ff6acaad6ab4cbcc98d3d5b06b36ed23b758f
+ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5275527"
+ms.lasthandoff: 05/10/2021
+ms.locfileid: "5995070"
 ---
 # <a name="override-project-sales-price-lists"></a>替代项目销售价目表
 

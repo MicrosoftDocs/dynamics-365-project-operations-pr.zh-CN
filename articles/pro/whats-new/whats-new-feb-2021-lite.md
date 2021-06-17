@@ -2,19 +2,17 @@
 title: 2021 年 2 月新增功能 - Project Operations 精简部署
 description: 此主题提供有关 2021 年 2 月版本的 Project Operations 精简部署中推出的质量更新的信息。
 author: sigitac
-manager: tfehr
 ms.date: 02/08/2021
 ms.topic: article
 ms.prod: ''
-ms.service: project-operations
 ms.reviewer: kfend
 ms.author: sigitac
-ms.openlocfilehash: df6490d3d9c28b095efd5ef856064de4b1517055
-ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
+ms.openlocfilehash: 3fc46ab3e82fdf7ae473202c5be737a3b8c86ab2
+ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5272152"
+ms.lasthandoff: 05/10/2021
+ms.locfileid: "5993990"
 ---
 # <a name="whats-new-february-2021---project-operations-lite-deployment"></a>2021 年 2 月新增功能 - Project Operations 精简部署
 

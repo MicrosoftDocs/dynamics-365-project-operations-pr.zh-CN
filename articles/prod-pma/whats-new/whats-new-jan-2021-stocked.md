@@ -2,19 +2,17 @@
 title: 2021 年 1 月面向库存/生产订单场景的 Project Operations 的新增或更改功能
 description: 此主题提供有关 2021 年 1 月版本的面向库存/生产订单场景的 Project Operations 中推出的质量更新的信息。
 author: andchoi
-manager: tfehr
 ms.date: 1/08/2021
 ms.topic: article
 ms.prod: ''
-ms.service: project-operations
 ms.reviewer: kfend
 ms.author: andchoi
-ms.openlocfilehash: 43816d1dbcbea608eb675b037f8956cd44e8a063
-ms.sourcegitcommit: 3d78338773929121d17ec3386f6cb67bfb2272cc
+ms.openlocfilehash: b987e998a36351bb00aaad475525872d407f774b
+ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/27/2021
-ms.locfileid: "5950838"
+ms.lasthandoff: 05/10/2021
+ms.locfileid: "5997454"
 ---
 # <a name="whats-new-or-changed-in-project-operations-january-2021-for-stockedproduction-based-scenarios"></a>2021 年 1 月面向库存/生产订单场景的 Project Operations 的新增或更改功能
 

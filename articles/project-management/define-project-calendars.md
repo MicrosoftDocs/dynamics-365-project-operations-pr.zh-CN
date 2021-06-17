@@ -2,11 +2,9 @@
 title: 定义项目日历
 description: 本主题提供有关如何将日历模板应用于项目以跟踪项目计划的信息。
 author: ruhercul
-manager: AnnBe
 ms.date: 02/05/2021
 ms.topic: article
 ms.prod: ''
-ms.service: project-operations
 audience: Application User
 ms.reviewer: kfend
 ms.search.scope: ''
@@ -17,12 +15,12 @@ ms.search.industry: Service industries
 ms.author: ruhercul
 ms.dyn365.ops.version: ''
 ms.search.validFrom: 2020-10-01
-ms.openlocfilehash: 1d5642d7a2246dc878b2bc4f504f138b71d29a69
-ms.sourcegitcommit: c45ceda833b30ad39861f5bcd3ba1bbfff11fe7a
+ms.openlocfilehash: 0d1a2c4bd2d4022bbf79afcef79170eb482e6418
+ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/04/2021
-ms.locfileid: "5981289"
+ms.lasthandoff: 05/10/2021
+ms.locfileid: "5998985"
 ---
 # <a name="define-project-calendars"></a>定义项目日历
 
@@ -48,7 +46,7 @@ _**适用于：** 基于资源/非库存场景的 Project Operations，精简部
 
 1. 转到 **资源**\>**资源**。
 2. 创建要在日历模板中引用的新资源，或选择一个现有资源。
-3. 选择资源的 **工作时间** 选项卡，完成[为资源设置工作时间](https://docs.microsoft.com/dynamics365/field-service/set-work-hours-resource)中的说明配置日历规则。
+3. 选择资源的 **工作时间** 选项卡，完成[为资源设置工作时间](/dynamics365/field-service/set-work-hours-resource.md)中的说明配置日历规则。
 
 **创建新的日历模板**
 
