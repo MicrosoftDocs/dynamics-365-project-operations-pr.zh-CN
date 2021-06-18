@@ -2,8 +2,6 @@
 title: 使用 Project Finder Mobile 应用程序查找您的下一个项目
 description: 如何使用 Project Service 的 Project Finder Mobile 应用程序查找您的下一个项目
 author: ruhercul
-manager: kfend
-ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 8/03/2018
@@ -18,12 +16,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: c15be8d9884c31298f996477c732c542fce65fcc
-ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
+ms.openlocfilehash: f686c8329c3965ab98b7de9909dc3567b6cb5094
+ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5275257"
+ms.lasthandoff: 05/10/2021
+ms.locfileid: "6007490"
 ---
 # <a name="find-your-next-project-with-the-project-finder-mobile-app-project-service"></a>使用 Project Finder Mobile 应用程序查找您的下一个项目 (Project Service)
 

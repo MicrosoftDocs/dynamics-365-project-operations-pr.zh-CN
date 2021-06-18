@@ -2,11 +2,9 @@
 title: 创建新项目
 description: 本主题提供有关如何创建新项目的信息。
 author: Yowelle
-manager: AnnBe
 ms.date: 09/01/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: ProjProjectsListPage
 audience: Application User
@@ -18,12 +16,12 @@ ms.search.region: Global
 ms.author: andchoi
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 9b29340dc88aea888ea2f5ea975eaea59d014279
-ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
+ms.openlocfilehash: 8218747366be8536601cb007318c642ac122536b
+ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5270712"
+ms.lasthandoff: 05/10/2021
+ms.locfileid: "6006230"
 ---
 # <a name="create-a-new-project"></a>创建新项目
 
@@ -55,7 +53,7 @@ ms.locfileid: "5270712"
 
 [![角色示例](./media/projectresourcing05.jpg)](./media/projectresourcing05.jpg) 
 
-**场景**：Contoso 被雇用完成具有已审核项目章节的时间和材料项目。 初级项目经理仍在完成项目的工作范围。 资源经理当前正在确定要预留的处理新项目的特定资源。 由于项目的重要性质，项目出资人请求高级项目经理作为其中一个角色。 如果初级项目经理在项目计划期间需要资源信息，资源经理必须获得新的资源并且定义定义系统中的角色。
+**方案：** Contoso 受雇完成具有批准的项目章程的时间和材料项目。 初级项目经理仍在完成项目的工作范围。 资源经理当前正在确定要预留的处理新项目的特定资源。 由于项目的重要性质，项目出资人请求高级项目经理作为其中一个角色。 如果初级项目经理在项目计划期间需要资源信息，资源经理必须获得新的资源并且定义定义系统中的角色。
 
 以下步骤显示资源经理如何设置高级项目经理角色并将资源特性与其关联。 之后，角色可用于搜索符合所需的资源能力的可用资源。
 

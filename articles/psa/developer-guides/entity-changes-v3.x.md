@@ -2,12 +2,10 @@
 title: 实体、控件和用户界面更改 (Project Service Automation 3.x)
 description: 此主题介绍 Microsoft Dynamics Project Service Automation 3.x 的解决方案更改。
 author: makk
-manager: kfend
 ms.custom:
 - dyn365-projectservice
 ms.date: 03/15/2019
 ms.topic: article
-ms.service: business-applications
 ms.author: makk
 audience: admin
 search.audienceType:
@@ -16,12 +14,12 @@ search.audienceType:
 search.app:
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: fa80f459260f30360e78a1e7bcc00706dbc0b5a4
-ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
+ms.openlocfilehash: e3d6f515cec51cb30f83ff22a14ecb125dc81214
+ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5284887"
+ms.lasthandoff: 05/10/2021
+ms.locfileid: "6007940"
 ---
 # <a name="entity-control-and-user-interface-changes-project-service-automation-3x"></a>实体、控件和用户界面更改 (Project Service Automation 3.x)
 

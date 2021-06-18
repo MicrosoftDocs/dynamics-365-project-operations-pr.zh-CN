@@ -2,18 +2,16 @@
 title: 创建内部公司客户和供应商账单
 description: 本主题提供了有关如何创建内部公司客户和供应商账单的信息。
 author: sigitac
-manager: tfehr
 ms.date: 04/12/2021
 ms.topic: article
-ms.service: project-operations
 ms.reviewer: kfend
 ms.author: sigitac
-ms.openlocfilehash: 92d08537fe0c2a1deba486974db53e7ebe1ff2d8
-ms.sourcegitcommit: 3d78338773929121d17ec3386f6cb67bfb2272cc
+ms.openlocfilehash: eb9e49fee4d4a52ec53e0919c2d32c224f04df66
+ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/27/2021
-ms.locfileid: "5948378"
+ms.lasthandoff: 05/10/2021
+ms.locfileid: "6010955"
 ---
 # <a name="create-intercompany-customer-and-vendor-invoices"></a>创建内部公司客户和供应商账单
 

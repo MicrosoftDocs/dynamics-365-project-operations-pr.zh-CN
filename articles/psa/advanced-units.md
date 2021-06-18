@@ -2,8 +2,6 @@
 title: 计价单位组和计价单位
 description: 此主题介绍计价单位组和计价单位。
 author: rumant
-manager: kfend
-ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 03/05/2019
@@ -18,12 +16,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 45e4a95b429cd9d1f174653bd28cf567f690676d
-ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
+ms.openlocfilehash: e981f39bbb6ca4277778382a5816952df2a8a1fb
+ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5291608"
+ms.lasthandoff: 05/10/2021
+ms.locfileid: "6009560"
 ---
 # <a name="unit-groups-and-units"></a>计价单位组和计价单位
 
@@ -86,9 +84,9 @@ Dynamics 365 Project Service Automation 使用计价单位和计价单位组处�
     - **默认时间单位**：天 
     - **货币**：GBP
 
-| 角色      | 计价单位组 | 单位 | 部门 | 价格   |
+| 角色      | 计价单位组 | 计价单位 | 部门 | 单价   |
 |-----------|------------|------|---------------------|---------|
-| 开发人员 | Time       | Day  | Contoso 英国          | 800 GBP |
+| 开发人员 | 时间       | 日  | Contoso 英国          | 800 GBP |
 
 ### <a name="time-entry"></a>时间条目
 

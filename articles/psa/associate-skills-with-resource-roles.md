@@ -2,8 +2,6 @@
 title: 将技能与资源角色关联
 description: 如何将技能与 Project Service 中的资源角色关联
 author: JohnPBurrows
-manager: kfend
-ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 8/03/2018
@@ -18,12 +16,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: b515c977d2b1798359f86211372dfc1faf18b353
-ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
+ms.openlocfilehash: 8da276405341e99e19fbfb3553edd72df9b5be6f
+ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5291338"
+ms.lasthandoff: 05/10/2021
+ms.locfileid: "6009290"
 ---
 # <a name="associate-skills-with-resource-roles-project-service"></a>将技能与资源角色关联 (Project Service)
 

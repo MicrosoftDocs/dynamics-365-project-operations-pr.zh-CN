@@ -2,18 +2,16 @@
 title: 创建工作分解结构
 description: 本主题说明如何在新计划界面中创建包括基本控件的工作分解结构 (WBS)。
 author: ruhercul
-manager: tfehr
 ms.date: 01/07/2021
 ms.topic: article
-ms.service: project-operations
 ms.reviewer: kfend
 ms.author: ruhercul
-ms.openlocfilehash: 695bbc2ae1ba1e762472b5f5fa853c89017d2f52
-ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
+ms.openlocfilehash: ac3facacd95e5e677635cb037d0d3458da612410
+ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5287002"
+ms.lasthandoff: 05/10/2021
+ms.locfileid: "6005690"
 ---
 # <a name="create-a-work-breakdown-structure-wbs"></a>创建工作分解结构 (WBS)
 

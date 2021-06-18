@@ -2,11 +2,9 @@
 title: 移动设备上的项目工时单
 description: 员工可通过“我的工时单(已针对移动优化)”创建和提交工时单，以便在移动设备上记录特定项目的工时。
 author: abruer
-manager: AnnBe
 ms.date: 03/16/2018
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 audience: Application User
 ms.reviewer: josaw
@@ -15,12 +13,12 @@ ms.search.region: Global
 ms.author: abruer
 ms.search.validFrom: 2018-03-16
 ms.dyn365.ops.version: April 2018 update
-ms.openlocfilehash: 8241e74e8d9fb5a748bedbd5e913adea0bafa450
-ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
+ms.openlocfilehash: f079f0adc5123907723bb58d86592ff822141aac
+ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5271117"
+ms.lasthandoff: 05/10/2021
+ms.locfileid: "6005915"
 ---
 # <a name="project-timesheets-on-a-mobile-device"></a>移动设备上的项目工时单
 

@@ -2,12 +2,10 @@
 title: 开发主页 (Project Service Automation 3.x)
 description: 本主题提供介绍适用于 Dynamics 365 Project Service Automation (PSA) 版本 3.x 的开发信息的主题的链接。
 author: makk
-manager: kfend
 ms.custom:
 - dyn365-projectservice
 ms.date: 03/26/2019
 ms.topic: article
-ms.service: business-applications
 ms.author: makk
 audience: admin
 search.audienceType:
@@ -16,12 +14,12 @@ search.audienceType:
 search.app:
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: a39a7000fcdaaa0e7b5465951ce54c0c1e65f3d5
-ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
+ms.openlocfilehash: a9db51ea8e29420f2258dff4febd7d638a6c0267
+ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5284797"
+ms.lasthandoff: 05/10/2021
+ms.locfileid: "6007850"
 ---
 # <a name="development-home-page-project-service-automation-3x"></a>开发主页 (Project Service Automation 3.x)
 

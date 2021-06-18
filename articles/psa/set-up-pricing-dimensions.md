@@ -2,12 +2,10 @@
 title: 将自定义字段设置为定价维度
 description: 此主题介绍如何设置自定义定价维度。
 author: Rumant
-manager: kfend
 ms.custom:
 - dyn365-projectservice
 ms.date: 11/20/2018
 ms.topic: article
-ms.service: business-applications
 ms.author: rumant
 audience: Admin
 search.audienceType:
@@ -17,12 +15,12 @@ search.audienceType:
 search.app:
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 81f926e0aa209dd83f9b850c2342bd35a4f236c3
-ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
+ms.openlocfilehash: cce3a3fe6aef247380f6284f58d49337f969c38c
+ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5282457"
+ms.lasthandoff: 05/10/2021
+ms.locfileid: "6008300"
 ---
 # <a name="setting-up-custom-fields-as-pricing-dimensions"></a>将自定义字段设置为定价维度 
 
@@ -74,8 +72,8 @@ ms.locfileid: "5282457"
 | 角色        | 部门    |工作位置      |标准标题      |资源工作时间      |  加价|
 | ------------|-------------|-------------------|--------------------|-------------------------|--------:|
 |             | Contoso 印度|现场            |                    |加班                 |15     |
-|             | Contoso 印度|本地             |                    |加班                 |10     |
-|             | Contoso US   |本地             |                    |加班                 |20     |
+|             | Contoso 印度|局部             |                    |加班                 |10     |
+|             | Contoso US   |局部             |                    |加班                 |20     |
 
 
 如果 Contoso 印度中一位基础费率为 100 美元的资源在现场工作，并且在时间条目中记录了 8 小时的正常工时和 2 小时的加班，Project Service 定价引擎将对 8 小时使用基础费率 100，从而记录 800 美元。 至于 2 小时的加班，则为基础费率 100 应用 15% 的加价，因此单价为 115 美元，记录的总成本为 230 美元。

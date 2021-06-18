@@ -2,11 +2,9 @@
 title: 项目报价单
 description: 本文介绍项目报价单的概念，您可以向客户提供有吸引力的项目报价单，以此作为项目阶段的第一步。 项目报价单可以包含进行报价的物料和服务、基本联系信息、特殊贸易协议和折扣以及可能的税金和附加费。
 author: Yowelle
-manager: AnnBe
 ms.date: 09/14/2017
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: SalesQuotationProjTable
 audience: Application User, IT Pro
@@ -18,12 +16,12 @@ ms.search.region: Global
 ms.author: andchoi
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: f8f86c86aac8ebae9a77bacbb5275f1f7e6609f2
-ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
+ms.openlocfilehash: 322c2403543b9eaebbd4bad56cfbe6f7c42b682a
+ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5289133"
+ms.lasthandoff: 05/10/2021
+ms.locfileid: "6009740"
 ---
 # <a name="project-quotations"></a>项目报价单
 
