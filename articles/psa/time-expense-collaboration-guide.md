@@ -2,8 +2,6 @@
 title: 时间、支出和协作指南
 description: Project Service 的时间、支出和协作指南
 author: revathiMuthiah
-manager: kfend
-ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 8/03/2018
@@ -18,61 +16,61 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 53bd787af65f4179d62ca6756bc6e8b4599730fa
-ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
+ms.openlocfilehash: ae95041bb6883cd7ae7a779eb6a3cf9741572802
+ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5282007"
+ms.lasthandoff: 05/10/2021
+ms.locfileid: "6011765"
 ---
-# <a name="time-expense-and-collaboration-guide-project-service"></a><span data-ttu-id="ea75f-103">时间、支出和协作指南 (Project Service)</span><span class="sxs-lookup"><span data-stu-id="ea75f-103">Time, expense, and collaboration guide (Project Service)</span></span>
+# <a name="time-expense-and-collaboration-guide-project-service"></a><span data-ttu-id="ebf91-103">时间、支出和协作指南 (Project Service)</span><span class="sxs-lookup"><span data-stu-id="ebf91-103">Time, expense, and collaboration guide (Project Service)</span></span>
 
 [!include [banner](../includes/psa-now-project-operations.md)]
 
 [!INCLUDE[cc-applies-to-psa-app-1x-2x](../includes/cc-applies-to-psa-app-1x-2x.md)]
 
-<span data-ttu-id="ea75f-104">欢迎使用 [!INCLUDE[pn_project_service_auto](../includes/pn-project-service-auto.md)] 应用，它可帮助公司来管理基于项目的销售。</span><span class="sxs-lookup"><span data-stu-id="ea75f-104">Welcome to the [!INCLUDE[pn_project_service_auto](../includes/pn-project-service-auto.md)] app, which helps companies manage their project-based sales.</span></span> 
+<span data-ttu-id="ebf91-104">欢迎使用 [!INCLUDE[pn_project_service_auto](../includes/pn-project-service-auto.md)] 应用，它可帮助公司来管理基于项目的销售。</span><span class="sxs-lookup"><span data-stu-id="ebf91-104">Welcome to the [!INCLUDE[pn_project_service_auto](../includes/pn-project-service-auto.md)] app, which helps companies manage their project-based sales.</span></span> 
   
- <span data-ttu-id="ea75f-105">本指南指导您如何为您从事的项目输入时间和费用。</span><span class="sxs-lookup"><span data-stu-id="ea75f-105">This guides you through entering your time and expenses for the projects you’re working on.</span></span> <span data-ttu-id="ea75f-106">了解您的时间和费用输入以确定：</span><span class="sxs-lookup"><span data-stu-id="ea75f-106">Stay on top of your time and expense entry to make sure:</span></span>  
+ <span data-ttu-id="ebf91-105">本指南指导您如何为您从事的项目输入时间和费用。</span><span class="sxs-lookup"><span data-stu-id="ebf91-105">This guides you through entering your time and expenses for the projects you’re working on.</span></span> <span data-ttu-id="ebf91-106">了解您的时间和费用输入以确定：</span><span class="sxs-lookup"><span data-stu-id="ebf91-106">Stay on top of your time and expense entry to make sure:</span></span>  
   
-- <span data-ttu-id="ea75f-107">您的客户正确记帐</span><span class="sxs-lookup"><span data-stu-id="ea75f-107">Your clients are billed properly</span></span>  
+- <span data-ttu-id="ebf91-107">您的客户正确记帐</span><span class="sxs-lookup"><span data-stu-id="ebf91-107">Your clients are billed properly</span></span>  
   
-- <span data-ttu-id="ea75f-108">您完成的工作获得好评</span><span class="sxs-lookup"><span data-stu-id="ea75f-108">You get credit for the work you’ve done</span></span>  
+- <span data-ttu-id="ebf91-108">您完成的工作获得好评</span><span class="sxs-lookup"><span data-stu-id="ebf91-108">You get credit for the work you’ve done</span></span>  
   
-- <span data-ttu-id="ea75f-109">您的经理了解您的项目的状态</span><span class="sxs-lookup"><span data-stu-id="ea75f-109">Your managers know the status of your projects</span></span>  
+- <span data-ttu-id="ebf91-109">您的经理了解您的项目的状态</span><span class="sxs-lookup"><span data-stu-id="ebf91-109">Your managers know the status of your projects</span></span>  
   
-  <span data-ttu-id="ea75f-110">您还可以通过共享文档和通过与您的项目关联的 [!INCLUDE[pn_office_365_groups](../includes/pn-office-365-groups.md)] 开始对话来与团队成员协作。</span><span class="sxs-lookup"><span data-stu-id="ea75f-110">You can also collaborate with your fellow team members by sharing documents and starting conversations through [!INCLUDE[pn_office_365_groups](../includes/pn-office-365-groups.md)] associated with your projects.</span></span>  
+  <span data-ttu-id="ebf91-110">您还可以通过共享文档和通过与您的项目关联的 [!INCLUDE[pn_office_365_groups](../includes/pn-office-365-groups.md)] 开始对话来与团队成员协作。</span><span class="sxs-lookup"><span data-stu-id="ebf91-110">You can also collaborate with your fellow team members by sharing documents and starting conversations through [!INCLUDE[pn_office_365_groups](../includes/pn-office-365-groups.md)] associated with your projects.</span></span>  
   
-  <span data-ttu-id="ea75f-111">可以通过 Web 应用程序（基于浏览器的应用程序）输入时间和费用，或使用您的移动设备上的适用于手机和平板电脑的 [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)]。</span><span class="sxs-lookup"><span data-stu-id="ea75f-111">You can enter time and expenses through the web app (browser-based app), or with the [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] for phones and tablets app on your mobile device.</span></span> <span data-ttu-id="ea75f-112">在您准备好开始下一个项目时，可以使用 Project Finder Mobile 应用程序。</span><span class="sxs-lookup"><span data-stu-id="ea75f-112">When you’re ready for your next project, you can use the Project Finder Mobile app.</span></span>  
+  <span data-ttu-id="ebf91-111">可以通过 Web 应用程序（基于浏览器的应用程序）输入时间和费用，或使用您的移动设备上的适用于手机和平板电脑的 [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)]。</span><span class="sxs-lookup"><span data-stu-id="ebf91-111">You can enter time and expenses through the web app (browser-based app), or with the [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] for phones and tablets app on your mobile device.</span></span> <span data-ttu-id="ebf91-112">在您准备好开始下一个项目时，可以使用 Project Finder Mobile 应用程序。</span><span class="sxs-lookup"><span data-stu-id="ebf91-112">When you’re ready for your next project, you can use the Project Finder Mobile app.</span></span>  
   
-<span data-ttu-id="ea75f-113">单击以下链接了解如何使用 [!INCLUDE[pn_project_service_auto](../includes/pn-project-service-auto.md)]的更多信息：</span><span class="sxs-lookup"><span data-stu-id="ea75f-113">Click on a link below to learn more about what you can do with [!INCLUDE[pn_project_service_auto](../includes/pn-project-service-auto.md)]:</span></span>  
+<span data-ttu-id="ebf91-113">单击以下链接了解如何使用 [!INCLUDE[pn_project_service_auto](../includes/pn-project-service-auto.md)]的更多信息：</span><span class="sxs-lookup"><span data-stu-id="ebf91-113">Click on a link below to learn more about what you can do with [!INCLUDE[pn_project_service_auto](../includes/pn-project-service-auto.md)]:</span></span>  
   
--   [<span data-ttu-id="ea75f-114">获取应用程序</span><span class="sxs-lookup"><span data-stu-id="ea75f-114">Get the apps</span></span>](../psa/get-apps.md)  
+-   [<span data-ttu-id="ebf91-114">获取应用程序</span><span class="sxs-lookup"><span data-stu-id="ebf91-114">Get the apps</span></span>](../psa/get-apps.md)  
   
--   [<span data-ttu-id="ea75f-115">登录</span><span class="sxs-lookup"><span data-stu-id="ea75f-115">Sign in</span></span>](../psa/sign-in.md)  
+-   [<span data-ttu-id="ebf91-115">登录</span><span class="sxs-lookup"><span data-stu-id="ebf91-115">Sign in</span></span>](../psa/sign-in.md)  
   
--   [<span data-ttu-id="ea75f-116">查看日程安排</span><span class="sxs-lookup"><span data-stu-id="ea75f-116">View your schedule</span></span>](../psa/view-schedule.md)  
+-   [<span data-ttu-id="ebf91-116">查看日程安排</span><span class="sxs-lookup"><span data-stu-id="ebf91-116">View your schedule</span></span>](../psa/view-schedule.md)  
   
--   [<span data-ttu-id="ea75f-117">在 Office 365 日历中管理项目和预订</span><span class="sxs-lookup"><span data-stu-id="ea75f-117">Manage projects and bookings in your Office 365 calendar</span></span>](../psa/manage-project-bookings-office-365-calendar.md)  
+-   [<span data-ttu-id="ebf91-117">在 Office 365 日历中管理项目和预订</span><span class="sxs-lookup"><span data-stu-id="ebf91-117">Manage projects and bookings in your Office 365 calendar</span></span>](../psa/manage-project-bookings-office-365-calendar.md)  
   
--   [<span data-ttu-id="ea75f-118">输入时间</span><span class="sxs-lookup"><span data-stu-id="ea75f-118">Enter time</span></span>](../psa/enter-time.md)  
+-   [<span data-ttu-id="ebf91-118">输入时间</span><span class="sxs-lookup"><span data-stu-id="ebf91-118">Enter time</span></span>](../psa/enter-time.md)  
   
--   [<span data-ttu-id="ea75f-119">输入费用</span><span class="sxs-lookup"><span data-stu-id="ea75f-119">Enter expenses</span></span>](../psa/enter-expenses.md)  
+-   [<span data-ttu-id="ebf91-119">输入费用</span><span class="sxs-lookup"><span data-stu-id="ebf91-119">Enter expenses</span></span>](../psa/enter-expenses.md)  
   
--   [<span data-ttu-id="ea75f-120">允许他人输入您的时间条目或费用</span><span class="sxs-lookup"><span data-stu-id="ea75f-120">Allow someone else to enter your time entry or expense</span></span>](../psa/allow-someone-else-enter-time-entry-expense.md)  
+-   [<span data-ttu-id="ebf91-120">允许他人输入您的时间条目或费用</span><span class="sxs-lookup"><span data-stu-id="ebf91-120">Allow someone else to enter your time entry or expense</span></span>](../psa/allow-someone-else-enter-time-entry-expense.md)  
   
--   [<span data-ttu-id="ea75f-121">计划休息时间</span><span class="sxs-lookup"><span data-stu-id="ea75f-121">Schedule time off</span></span>](../psa/schedule-time-off.md)  
+-   [<span data-ttu-id="ebf91-121">计划休息时间</span><span class="sxs-lookup"><span data-stu-id="ebf91-121">Schedule time off</span></span>](../psa/schedule-time-off.md)  
   
--   [<span data-ttu-id="ea75f-122">通过 Office 365 组与项目团队成员协作</span><span class="sxs-lookup"><span data-stu-id="ea75f-122">Collaborate with your project team members with Office 365 Groups</span></span>](../psa/collaborate-project-team-members-office-365-groups.md)  
+-   [<span data-ttu-id="ebf91-122">通过 Office 365 组与项目团队成员协作</span><span class="sxs-lookup"><span data-stu-id="ebf91-122">Collaborate with your project team members with Office 365 Groups</span></span>](../psa/collaborate-project-team-members-office-365-groups.md)  
   
--   [<span data-ttu-id="ea75f-123">使用 Project Finder Mobile 应用程序查找您的下一个项目</span><span class="sxs-lookup"><span data-stu-id="ea75f-123">Find your next project with the Project Finder Mobile app</span></span>](../psa/find-next-project-finder-mobile-app.md)  
+-   [<span data-ttu-id="ebf91-123">使用 Project Finder Mobile 应用程序查找您的下一个项目</span><span class="sxs-lookup"><span data-stu-id="ebf91-123">Find your next project with the Project Finder Mobile app</span></span>](../psa/find-next-project-finder-mobile-app.md)  
   
-### <a name="see-also"></a><span data-ttu-id="ea75f-124">另请参阅</span><span class="sxs-lookup"><span data-stu-id="ea75f-124">See Also</span></span>  
- <span data-ttu-id="ea75f-125">[Project Service 概述](../psa/overview.md) </span><span class="sxs-lookup"><span data-stu-id="ea75f-125">[Overview of Project Service](../psa/overview.md) </span></span>  
- <span data-ttu-id="ea75f-126">[管理员指南](../psa/admin-guide.md) </span><span class="sxs-lookup"><span data-stu-id="ea75f-126">[Administrator Guide](../psa/admin-guide.md) </span></span>  
- <span data-ttu-id="ea75f-127">[客户经理指南](../psa/account-manager-guide.md) </span><span class="sxs-lookup"><span data-stu-id="ea75f-127">[Account Manager Guide](../psa/account-manager-guide.md) </span></span>  
- <span data-ttu-id="ea75f-128">[项目经理指南](../psa/project-manager-guide.md) </span><span class="sxs-lookup"><span data-stu-id="ea75f-128">[Project Manager Guide](../psa/project-manager-guide.md) </span></span>  
- [<span data-ttu-id="ea75f-129">资源经理指南</span><span class="sxs-lookup"><span data-stu-id="ea75f-129">Resource Manager Guide</span></span>](../psa/resource-manager-guide.md)   
+### <a name="see-also"></a><span data-ttu-id="ebf91-124">另请参阅</span><span class="sxs-lookup"><span data-stu-id="ebf91-124">See Also</span></span>  
+ <span data-ttu-id="ebf91-125">[Project Service 概述](../psa/overview.md) </span><span class="sxs-lookup"><span data-stu-id="ebf91-125">[Overview of Project Service](../psa/overview.md) </span></span>  
+ <span data-ttu-id="ebf91-126">[管理员指南](../psa/admin-guide.md) </span><span class="sxs-lookup"><span data-stu-id="ebf91-126">[Administrator Guide](../psa/admin-guide.md) </span></span>  
+ <span data-ttu-id="ebf91-127">[客户经理指南](../psa/account-manager-guide.md) </span><span class="sxs-lookup"><span data-stu-id="ebf91-127">[Account Manager Guide](../psa/account-manager-guide.md) </span></span>  
+ <span data-ttu-id="ebf91-128">[项目经理指南](../psa/project-manager-guide.md) </span><span class="sxs-lookup"><span data-stu-id="ebf91-128">[Project Manager Guide](../psa/project-manager-guide.md) </span></span>  
+ [<span data-ttu-id="ebf91-129">资源经理指南</span><span class="sxs-lookup"><span data-stu-id="ebf91-129">Resource Manager Guide</span></span>](../psa/resource-manager-guide.md)   
 
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

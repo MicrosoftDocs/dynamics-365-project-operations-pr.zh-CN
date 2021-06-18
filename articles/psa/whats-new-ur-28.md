@@ -2,8 +2,6 @@
 title: Project Service Automation V3 更新版本 28 中的新增功能或更改
 description: 本主题列出了 Project Service Automation V3 更新版本 28 中可用的功能和修复。
 author: ruhercul
-manager: kfend
-ms.service: project-operations
 ms.custom: dyn365-projectservice
 ms.date: 01/26/2021
 ms.topic: article
@@ -17,43 +15,43 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 2d5e8c629f8108ed039948ca70842c9d8afebfa6
-ms.sourcegitcommit: 3d78338773929121d17ec3386f6cb67bfb2272cc
+ms.openlocfilehash: b06a5ee6d0e2da76801a36701f38f1885d6c7562
+ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/27/2021
-ms.locfileid: "5948657"
+ms.lasthandoff: 05/10/2021
+ms.locfileid: "6010505"
 ---
-# <a name="whats-new-or-changed-in-project-service-automation-update-release-28-v3"></a><span data-ttu-id="1002a-103">Project Service Automation V3 更新版本 28 中的新增功能或更改</span><span class="sxs-lookup"><span data-stu-id="1002a-103">What's new or changed in Project Service Automation Update Release 28, V3</span></span>
+# <a name="whats-new-or-changed-in-project-service-automation-update-release-28-v3"></a><span data-ttu-id="0548f-103">Project Service Automation V3 更新版本 28 中的新增功能或更改</span><span class="sxs-lookup"><span data-stu-id="0548f-103">What's new or changed in Project Service Automation Update Release 28, V3</span></span>
 
 [!include [banner](../includes/psa-now-project-operations.md)]
 
-<span data-ttu-id="1002a-104">我们很高兴地宣布适用于 Dynamics 365 的 Project Service Automation 应用程序的最新更新已推出。</span><span class="sxs-lookup"><span data-stu-id="1002a-104">We’re pleased to announce the latest update for the Project Service Automation application for Dynamics 365.</span></span> <span data-ttu-id="1002a-105">此版本包括对质量、性能和可用性的一些重要改进。</span><span class="sxs-lookup"><span data-stu-id="1002a-105">This release includes some important improvements to quality, performance, and usability.</span></span> <span data-ttu-id="1002a-106">此版本与 Dynamics 365 9.x 兼容。</span><span class="sxs-lookup"><span data-stu-id="1002a-106">This release is compatible with Dynamics 365 9.x.</span></span> <span data-ttu-id="1002a-107">若要更新到此版本，请访问 Dynamics 365 Online 的管理中心解决方案页面以安装更新。</span><span class="sxs-lookup"><span data-stu-id="1002a-107">To update to this release, visit the Admin Center for Dynamics 365 online solutions page to install the update.</span></span> <span data-ttu-id="1002a-108">有关详细信息，请参阅[安装、更新或移除首选解决方案](/power-platform/admin/install-remove-preferred-solution)。</span><span class="sxs-lookup"><span data-stu-id="1002a-108">For more information, see [Install, update, or remove a preferred solution](/power-platform/admin/install-remove-preferred-solution).</span></span>
+<span data-ttu-id="0548f-104">我们很高兴地宣布适用于 Dynamics 365 的 Project Service Automation 应用程序的最新更新已推出。</span><span class="sxs-lookup"><span data-stu-id="0548f-104">We’re pleased to announce the latest update for the Project Service Automation application for Dynamics 365.</span></span> <span data-ttu-id="0548f-105">此版本包括对质量、性能和可用性的一些重要改进。</span><span class="sxs-lookup"><span data-stu-id="0548f-105">This release includes some important improvements to quality, performance, and usability.</span></span> <span data-ttu-id="0548f-106">此版本与 Dynamics 365 9.x 兼容。</span><span class="sxs-lookup"><span data-stu-id="0548f-106">This release is compatible with Dynamics 365 9.x.</span></span> <span data-ttu-id="0548f-107">若要更新到此版本，请访问 Dynamics 365 Online 的管理中心解决方案页面以安装更新。</span><span class="sxs-lookup"><span data-stu-id="0548f-107">To update to this release, visit the Admin Center for Dynamics 365 online solutions page to install the update.</span></span> <span data-ttu-id="0548f-108">有关详细信息，请参阅[安装、更新或移除首选解决方案](/power-platform/admin/install-remove-preferred-solution)。</span><span class="sxs-lookup"><span data-stu-id="0548f-108">For more information, see [Install, update, or remove a preferred solution](/power-platform/admin/install-remove-preferred-solution).</span></span>
 
-<span data-ttu-id="1002a-109">此主题列出了作为 Project Service Automation V3 更新版 28 的新增或更改功能的功能或修补程序。此版本的版本号为 V3.10.46.32，通过 2021 年 1 月的自动更新公开发布。</span><span class="sxs-lookup"><span data-stu-id="1002a-109">This topic lists the features and fixes that are new or changed for Project Service Automation V3, Update Release 28 This version has a build number of V3.10.46.32 and is generally available through a self-update in January 2021.</span></span>
+<span data-ttu-id="0548f-109">此主题列出了作为 Project Service Automation V3 更新版 28 的新增或更改功能的功能或修补程序。此版本的版本号为 V3.10.46.32，通过 2021 年 1 月的自动更新公开发布。</span><span class="sxs-lookup"><span data-stu-id="0548f-109">This topic lists the features and fixes that are new or changed for Project Service Automation V3, Update Release 28 This version has a build number of V3.10.46.32 and is generally available through a self-update in January 2021.</span></span>
 
-## <a name="update-release-28"></a><span data-ttu-id="1002a-110">更新发布 28</span><span class="sxs-lookup"><span data-stu-id="1002a-110">Update Release 28</span></span>
+## <a name="update-release-28"></a><span data-ttu-id="0548f-110">更新发布 28</span><span class="sxs-lookup"><span data-stu-id="0548f-110">Update Release 28</span></span>
 
-### <a name="bug-fixes"></a><span data-ttu-id="1002a-111">Bug 修复</span><span class="sxs-lookup"><span data-stu-id="1002a-111">Bug fixes</span></span>
+### <a name="bug-fixes"></a><span data-ttu-id="0548f-111">Bug 修复</span><span class="sxs-lookup"><span data-stu-id="0548f-111">Bug fixes</span></span>
 
-<span data-ttu-id="1002a-112">**时间和支出**</span><span class="sxs-lookup"><span data-stu-id="1002a-112">**Time and Expense**</span></span>
+<span data-ttu-id="0548f-112">**时间和支出**</span><span class="sxs-lookup"><span data-stu-id="0548f-112">**Time and Expense**</span></span>
 
-<span data-ttu-id="1002a-113">已修复以下问题：</span><span class="sxs-lookup"><span data-stu-id="1002a-113">The following issues have been fixed:</span></span>
+<span data-ttu-id="0548f-113">已修复以下问题：</span><span class="sxs-lookup"><span data-stu-id="0548f-113">The following issues have been fixed:</span></span>
 
-- <span data-ttu-id="1002a-114">用户可以使用 **批量编辑** 来更新已批准和提交的时间条目。</span><span class="sxs-lookup"><span data-stu-id="1002a-114">Users can use **Bulk Edit** to update time entries that have been approved and submitted.</span></span>
+- <span data-ttu-id="0548f-114">用户可以使用 **批量编辑** 来更新已批准和提交的时间条目。</span><span class="sxs-lookup"><span data-stu-id="0548f-114">Users can use **Bulk Edit** to update time entries that have been approved and submitted.</span></span>
 
-<span data-ttu-id="1002a-115">**项目管理**</span><span class="sxs-lookup"><span data-stu-id="1002a-115">**Project Management**</span></span>
+<span data-ttu-id="0548f-115">**项目管理**</span><span class="sxs-lookup"><span data-stu-id="0548f-115">**Project Management**</span></span>
 
-<span data-ttu-id="1002a-116">已修复以下问题：</span><span class="sxs-lookup"><span data-stu-id="1002a-116">The following issues have been fixed:</span></span>
+<span data-ttu-id="0548f-116">已修复以下问题：</span><span class="sxs-lookup"><span data-stu-id="0548f-116">The following issues have been fixed:</span></span>
 
-- <span data-ttu-id="1002a-117">在将任务 GUID 解释为数字的情况下，无法使用 **工作分解结构** 页上功能区中的 **编辑任务** 打开任务进行编辑。</span><span class="sxs-lookup"><span data-stu-id="1002a-117">In cases where the task GUID is interpreted as a number, tasks can't be opened for edit using **Edit Task** in the ribbon on the **Work Breakdown Structure** page.</span></span>
+- <span data-ttu-id="0548f-117">在将任务 GUID 解释为数字的情况下，无法使用 **工作分解结构** 页上功能区中的 **编辑任务** 打开任务进行编辑。</span><span class="sxs-lookup"><span data-stu-id="0548f-117">In cases where the task GUID is interpreted as a number, tasks can't be opened for edit using **Edit Task** in the ribbon on the **Work Breakdown Structure** page.</span></span>
 
-<span data-ttu-id="1002a-118">**Sales**</span><span class="sxs-lookup"><span data-stu-id="1002a-118">**Sales**</span></span>
+<span data-ttu-id="0548f-118">**Sales**</span><span class="sxs-lookup"><span data-stu-id="0548f-118">**Sales**</span></span>
 
-<span data-ttu-id="1002a-119">已修复以下问题：</span><span class="sxs-lookup"><span data-stu-id="1002a-119">The following issues have been fixed:</span></span>
+<span data-ttu-id="0548f-119">已修复以下问题：</span><span class="sxs-lookup"><span data-stu-id="0548f-119">The following issues have been fixed:</span></span>
 
-- <span data-ttu-id="1002a-120">调用 **GetEstimatesForProject** 插件时，生成 null 引用异常。</span><span class="sxs-lookup"><span data-stu-id="1002a-120">A null reference exception is generated when the **GetEstimatesForProject** plug-in is invoked.</span></span>
-- <span data-ttu-id="1002a-121">除了已更新的 **InvoiceStatus** 属性外，里程碑网格上的 **标记为已准备好开票** 仅部分更新了属性。</span><span class="sxs-lookup"><span data-stu-id="1002a-121">**Mark ready to invoice** on the milestone grid only partially updates attributes, except for the **InvoiceStatus** attribute, which is updated.</span></span>
+- <span data-ttu-id="0548f-120">调用 **GetEstimatesForProject** 插件时，生成 null 引用异常。</span><span class="sxs-lookup"><span data-stu-id="0548f-120">A null reference exception is generated when the **GetEstimatesForProject** plug-in is invoked.</span></span>
+- <span data-ttu-id="0548f-121">除了已更新的 **InvoiceStatus** 属性外，里程碑网格上的 **标记为已准备好开票** 仅部分更新了属性。</span><span class="sxs-lookup"><span data-stu-id="0548f-121">**Mark ready to invoice** on the milestone grid only partially updates attributes, except for the **InvoiceStatus** attribute, which is updated.</span></span>
 
 
 

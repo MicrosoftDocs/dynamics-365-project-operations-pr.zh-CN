@@ -3,8 +3,6 @@ title: 报价、定价和记帐主页
 description: 本主题提供有关报价、定价和记帐的信息。
 author: rumant
 ms.author: rumant
-manager: kfend
-ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 03/01/2019
@@ -18,32 +16,32 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: ee6ed766595773aa8af65e8e3e5aa816de4e6117
-ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
+ms.openlocfilehash: 0923dbca91e2975d0fd90dde012122a85e5ac700
+ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5283492"
+ms.lasthandoff: 05/10/2021
+ms.locfileid: "6008930"
 ---
-# <a name="quoting-pricing-and-billing-home-page"></a><span data-ttu-id="c7aa1-103">报价、定价和记帐主页</span><span class="sxs-lookup"><span data-stu-id="c7aa1-103">Quoting, pricing, and billing home page</span></span>
+# <a name="quoting-pricing-and-billing-home-page"></a><span data-ttu-id="5efb3-103">报价、定价和记帐主页</span><span class="sxs-lookup"><span data-stu-id="5efb3-103">Quoting, pricing, and billing home page</span></span>
 
 [!include [banner](../includes/psa-now-project-operations.md)]
 
 [!INCLUDE[cc-applies-to-psa-app-3.x](../includes/cc-applies-to-psa-app-3x.md)]
 
-<span data-ttu-id="c7aa1-104">报价、定价和记帐是小型和大型组织使用的功能。</span><span class="sxs-lookup"><span data-stu-id="c7aa1-104">Quoting, pricing, and billing are features that are used by both small and large organizations.</span></span> <span data-ttu-id="c7aa1-105">了解这些功能在应用程序中的工作方式之后，组织可以更轻松地自定义配置。</span><span class="sxs-lookup"><span data-stu-id="c7aa1-105">By understanding how these features work in the application, organizations can more easily customize configurations.</span></span>
+<span data-ttu-id="5efb3-104">报价、定价和记帐是小型和大型组织使用的功能。</span><span class="sxs-lookup"><span data-stu-id="5efb3-104">Quoting, pricing, and billing are features that are used by both small and large organizations.</span></span> <span data-ttu-id="5efb3-105">了解这些功能在应用程序中的工作方式之后，组织可以更轻松地自定义配置。</span><span class="sxs-lookup"><span data-stu-id="5efb3-105">By understanding how these features work in the application, organizations can more easily customize configurations.</span></span>
 
-<span data-ttu-id="c7aa1-106">以下主题提供有关 PSA 中的报价、定价和记帐功能的详细信息：</span><span class="sxs-lookup"><span data-stu-id="c7aa1-106">The following topics provide more information about the quoting, pricing, and billing functionality in PSA:</span></span>
+<span data-ttu-id="5efb3-106">以下主题提供有关 PSA 中的报价、定价和记帐功能的详细信息：</span><span class="sxs-lookup"><span data-stu-id="5efb3-106">The following topics provide more information about the quoting, pricing, and billing functionality in PSA:</span></span>
 
-- [<span data-ttu-id="c7aa1-107">销售流程</span><span class="sxs-lookup"><span data-stu-id="c7aa1-107">Sales process</span></span>](basic-sales-process.md)
-- [<span data-ttu-id="c7aa1-108">报价单明细</span><span class="sxs-lookup"><span data-stu-id="c7aa1-108">Quote lines</span></span>](basic-quote-lines.md)
-- [<span data-ttu-id="c7aa1-109">定价</span><span class="sxs-lookup"><span data-stu-id="c7aa1-109">Pricing</span></span>](basic-pricing.md)
-- [<span data-ttu-id="c7aa1-110">业务交易</span><span class="sxs-lookup"><span data-stu-id="c7aa1-110">Business transactions</span></span>](basic-business-transactions.md)
-- [<span data-ttu-id="c7aa1-111">分析项目报价单</span><span class="sxs-lookup"><span data-stu-id="c7aa1-111">Analyzing project quotes</span></span>](basic-analyzing-quotes.md)
-- [<span data-ttu-id="c7aa1-112">组织单位</span><span class="sxs-lookup"><span data-stu-id="c7aa1-112">Organizational units</span></span>](advanced-organizational.md)
-- [<span data-ttu-id="c7aa1-113">计价单位组和计价单位</span><span class="sxs-lookup"><span data-stu-id="c7aa1-113">Unit groups and units</span></span>](advanced-units.md)
-- [<span data-ttu-id="c7aa1-114">多单位币种</span><span class="sxs-lookup"><span data-stu-id="c7aa1-114">Multi-unit currency</span></span>](advanced-currency.md)
-- [<span data-ttu-id="c7aa1-115">记录实际值</span><span class="sxs-lookup"><span data-stu-id="c7aa1-115">Recording actuals</span></span>](advanced-actuals.md)
+- [<span data-ttu-id="5efb3-107">销售流程</span><span class="sxs-lookup"><span data-stu-id="5efb3-107">Sales process</span></span>](basic-sales-process.md)
+- [<span data-ttu-id="5efb3-108">报价单明细</span><span class="sxs-lookup"><span data-stu-id="5efb3-108">Quote lines</span></span>](basic-quote-lines.md)
+- [<span data-ttu-id="5efb3-109">定价</span><span class="sxs-lookup"><span data-stu-id="5efb3-109">Pricing</span></span>](basic-pricing.md)
+- [<span data-ttu-id="5efb3-110">业务交易</span><span class="sxs-lookup"><span data-stu-id="5efb3-110">Business transactions</span></span>](basic-business-transactions.md)
+- [<span data-ttu-id="5efb3-111">分析项目报价单</span><span class="sxs-lookup"><span data-stu-id="5efb3-111">Analyzing project quotes</span></span>](basic-analyzing-quotes.md)
+- [<span data-ttu-id="5efb3-112">组织单位</span><span class="sxs-lookup"><span data-stu-id="5efb3-112">Organizational units</span></span>](advanced-organizational.md)
+- [<span data-ttu-id="5efb3-113">计价单位组和计价单位</span><span class="sxs-lookup"><span data-stu-id="5efb3-113">Unit groups and units</span></span>](advanced-units.md)
+- [<span data-ttu-id="5efb3-114">多单位币种</span><span class="sxs-lookup"><span data-stu-id="5efb3-114">Multi-unit currency</span></span>](advanced-currency.md)
+- [<span data-ttu-id="5efb3-115">记录实际值</span><span class="sxs-lookup"><span data-stu-id="5efb3-115">Recording actuals</span></span>](advanced-actuals.md)
 
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -2,11 +2,9 @@
 title: 时间和材料项目的项目销售订单
 description: 本主题介绍如何为时间和材料项目创建基于项目的销售订单。
 author: Yowelle
-manager: AnnBe
 ms.date: 04/05/2019
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 audience: Application User
 ms.reviewer: josaw
@@ -17,29 +15,29 @@ ms.search.region: Global
 ms.author: andchoi
 ms.search.validFrom: 2019-04-05
 ms.dyn365.ops.version: AX 10.0.2
-ms.openlocfilehash: 74a90ea0bdb8f760273c0f6b1c61bffcb70b6c8d
-ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
+ms.openlocfilehash: dec9bc700d18f71ec7c9e976b38cb8cbb41f21b5
+ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5289043"
+ms.lasthandoff: 05/10/2021
+ms.locfileid: "6009650"
 ---
-# <a name="project-sales-orders-for-time-and-material-projects"></a><span data-ttu-id="2c56d-103">时间和材料项目的项目销售订单</span><span class="sxs-lookup"><span data-stu-id="2c56d-103">Project sales orders for time and material projects</span></span>
+# <a name="project-sales-orders-for-time-and-material-projects"></a><span data-ttu-id="070e5-103">时间和材料项目的项目销售订单</span><span class="sxs-lookup"><span data-stu-id="070e5-103">Project sales orders for time and material projects</span></span>
 
 [!include[banner](../includes/banner.md)]
 
-<span data-ttu-id="2c56d-104">此主题描述如何为项目创建销售订单。</span><span class="sxs-lookup"><span data-stu-id="2c56d-104">This topic describes how to create a sales order for a project.</span></span> <span data-ttu-id="2c56d-105">只能为类型为 **时间和材料** 的项目创建销售订单。</span><span class="sxs-lookup"><span data-stu-id="2c56d-105">Sales orders can only be created for projects of type **time and material**.</span></span>
+<span data-ttu-id="070e5-104">此主题描述如何为项目创建销售订单。</span><span class="sxs-lookup"><span data-stu-id="070e5-104">This topic describes how to create a sales order for a project.</span></span> <span data-ttu-id="070e5-105">只能为类型为 **时间和材料** 的项目创建销售订单。</span><span class="sxs-lookup"><span data-stu-id="070e5-105">Sales orders can only be created for projects of type **time and material**.</span></span>
 
-<span data-ttu-id="2c56d-106">如果时间和材料项目的项目合同中有多个融资来源，则必须启用 **项目管理与核算参数** 页面上的 **允许项目的销售订单具有多个融资来源** 参数。</span><span class="sxs-lookup"><span data-stu-id="2c56d-106">If a time and material project has multiple funding sources on the project contract, you must enable the **Allow sales orders for projects with multiple funding sources** parameter on the **Project management and accounting parameters** page.</span></span> 
+<span data-ttu-id="070e5-106">如果时间和材料项目的项目合同中有多个融资来源，则必须启用 **项目管理与核算参数** 页面上的 **允许项目的销售订单具有多个融资来源** 参数。</span><span class="sxs-lookup"><span data-stu-id="070e5-106">If a time and material project has multiple funding sources on the project contract, you must enable the **Allow sales orders for projects with multiple funding sources** parameter on the **Project management and accounting parameters** page.</span></span> 
 
 > [!NOTE]
-> - <span data-ttu-id="2c56d-107">从应用程序版本 10.0.2 及更高版本开始，支持具有多个融资来源的项目销售订单。</span><span class="sxs-lookup"><span data-stu-id="2c56d-107">Support for project sales orders with multiple funding sources is available starting with application release 10.0.2 and higher.</span></span>
-> - <span data-ttu-id="2c56d-108">2020 年 4 月发布波次中将删除用于启用对具有多个融资来源的项目销售订单的支持的参数，之后将始终启用此功能。</span><span class="sxs-lookup"><span data-stu-id="2c56d-108">The parameter to enable the support for project sales orders with multiple funding sources will be removed in the April 2020 release wave, after which the functionality will always be enabled.</span></span>
+> - <span data-ttu-id="070e5-107">从应用程序版本 10.0.2 及更高版本开始，支持具有多个融资来源的项目销售订单。</span><span class="sxs-lookup"><span data-stu-id="070e5-107">Support for project sales orders with multiple funding sources is available starting with application release 10.0.2 and higher.</span></span>
+> - <span data-ttu-id="070e5-108">2020 年 4 月发布波次中将删除用于启用对具有多个融资来源的项目销售订单的支持的参数，之后将始终启用此功能。</span><span class="sxs-lookup"><span data-stu-id="070e5-108">The parameter to enable the support for project sales orders with multiple funding sources will be removed in the April 2020 release wave, after which the functionality will always be enabled.</span></span>
 
-<span data-ttu-id="2c56d-109">可通过两种方法创建基于项目的销售订单：</span><span class="sxs-lookup"><span data-stu-id="2c56d-109">You can create project-based sales orders in two ways:</span></span>
+<span data-ttu-id="070e5-109">可通过两种方法创建基于项目的销售订单：</span><span class="sxs-lookup"><span data-stu-id="070e5-109">You can create project-based sales orders in two ways:</span></span>
 
-- <span data-ttu-id="2c56d-110">转到项目本身。</span><span class="sxs-lookup"><span data-stu-id="2c56d-110">Go to the project itself.</span></span> <span data-ttu-id="2c56d-111">在操作窗格上，选择 **管理 > 物料任务 > 销售订单**。</span><span class="sxs-lookup"><span data-stu-id="2c56d-111">On the Action Pane, select **Manage > Item tasks > Sales order**.</span></span> <span data-ttu-id="2c56d-112">项目信息默认为项目的销售订单。</span><span class="sxs-lookup"><span data-stu-id="2c56d-112">The project information will default to the sales order from the project.</span></span> <span data-ttu-id="2c56d-113">如果项目合同有多个融资来源，您将需要选择融资来源才能为销售订单设置客户。</span><span class="sxs-lookup"><span data-stu-id="2c56d-113">If the project contract has more than one funding source, you will need to select the funding source to set the customer for the sales order.</span></span> <span data-ttu-id="2c56d-114">如果项目只有一个融资来源，将自动设置客户。</span><span class="sxs-lookup"><span data-stu-id="2c56d-114">If there is only one funding source for the project, the customer will be automatically set.</span></span>
-- <span data-ttu-id="2c56d-115">转到 **所有销售订单** 列表页并创建一个新的销售订单。</span><span class="sxs-lookup"><span data-stu-id="2c56d-115">Go to the **All sales order** list page and create a new sales order.</span></span> <span data-ttu-id="2c56d-116">您将需要为销售订单选择项目。</span><span class="sxs-lookup"><span data-stu-id="2c56d-116">You will need to select the project for the sales order.</span></span> <span data-ttu-id="2c56d-117">选择项目之后，将从融资来源设置客户，而如果项目合同有多个融资来源，则您将需要选择此融资来源。</span><span class="sxs-lookup"><span data-stu-id="2c56d-117">After the project is selected, the customer will be set from the funding source or you will need to select the funding source if the project contract has multiple funding sources.</span></span>
+- <span data-ttu-id="070e5-110">转到项目本身。</span><span class="sxs-lookup"><span data-stu-id="070e5-110">Go to the project itself.</span></span> <span data-ttu-id="070e5-111">在操作窗格上，选择 **管理 > 物料任务 > 销售订单**。</span><span class="sxs-lookup"><span data-stu-id="070e5-111">On the Action Pane, select **Manage > Item tasks > Sales order**.</span></span> <span data-ttu-id="070e5-112">项目信息默认为项目的销售订单。</span><span class="sxs-lookup"><span data-stu-id="070e5-112">The project information will default to the sales order from the project.</span></span> <span data-ttu-id="070e5-113">如果项目合同有多个融资来源，您将需要选择融资来源才能为销售订单设置客户。</span><span class="sxs-lookup"><span data-stu-id="070e5-113">If the project contract has more than one funding source, you will need to select the funding source to set the customer for the sales order.</span></span> <span data-ttu-id="070e5-114">如果项目只有一个融资来源，将自动设置客户。</span><span class="sxs-lookup"><span data-stu-id="070e5-114">If there is only one funding source for the project, the customer will be automatically set.</span></span>
+- <span data-ttu-id="070e5-115">转到 **所有销售订单** 列表页并创建一个新的销售订单。</span><span class="sxs-lookup"><span data-stu-id="070e5-115">Go to the **All sales order** list page and create a new sales order.</span></span> <span data-ttu-id="070e5-116">您将需要为销售订单选择项目。</span><span class="sxs-lookup"><span data-stu-id="070e5-116">You will need to select the project for the sales order.</span></span> <span data-ttu-id="070e5-117">选择项目之后，将从融资来源设置客户，而如果项目合同有多个融资来源，则您将需要选择此融资来源。</span><span class="sxs-lookup"><span data-stu-id="070e5-117">After the project is selected, the customer will be set from the funding source or you will need to select the funding source if the project contract has multiple funding sources.</span></span>
 
 
 
