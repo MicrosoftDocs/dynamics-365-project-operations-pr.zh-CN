@@ -2,8 +2,6 @@
 title: 部门
 description: 此主题介绍 Dynamics 365 Project Service Automation 中的部门。
 author: rumant
-manager: kfend
-ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 03/04/2019
@@ -18,12 +16,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 89ff652e186601ccdf75d99dc08a4f082e576cb0
-ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
+ms.openlocfilehash: 3be18adfa1d346bdabae7e89375ca2c5a2dbda95
+ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5291653"
+ms.lasthandoff: 05/10/2021
+ms.locfileid: "6009605"
 ---
 # <a name="organizational-units"></a>部门 
 
@@ -124,7 +122,7 @@ Contoso 在大量国际市场（如拉丁美洲、北美、亚太、西欧和中
 如果采用复杂的成本中心、部门、记帐办公室层次结构，请将该层次结构的叶节点设置为不同的部门。
 以下示例显示典型的层次结构：
 
-**Contoso 印度**
+**Contoso印度**
 
   - SAP 业务 
 
@@ -136,7 +134,7 @@ Contoso 在大量国际市场（如拉丁美洲、北美、亚太、西欧和中
     - 技术顾问
     - 职能顾问 
     
-**Contoso US**
+**Contoso 美国**
 
  - SAP 业务 
 
