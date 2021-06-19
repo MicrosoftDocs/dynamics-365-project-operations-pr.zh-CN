@@ -2,18 +2,16 @@
 title: 计划模式
 description: 本主题介绍计划模式。
 author: ruhercul
-manager: AnnBe
-ms.date: 05/04/2021
+ms.date: 05/28/2021
 ms.topic: article
-ms.service: project-operations
 ms.reviewer: kfend
 ms.author: ruhercul
-ms.openlocfilehash: fe54944999617b248ff925148a78601dd4be7aca
-ms.sourcegitcommit: c45ceda833b30ad39861f5bcd3ba1bbfff11fe7a
+ms.openlocfilehash: 508ff1df8f7e31066712fab6f8871dfdb107a43b
+ms.sourcegitcommit: fc96c6eb9a2094f9fa3d1ae39646730ef9d558ba
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/04/2021
-ms.locfileid: "5981424"
+ms.lasthandoff: 05/28/2021
+ms.locfileid: "6116696"
 ---
 # <a name="scheduling-modes"></a>计划模式
 
@@ -25,12 +23,12 @@ Dynamics 365 Project Operations 让组织能够定义他们如何管理工作分
 Project Operations 中有三个计划模式：
 
   - 固定持续时间（这是默认模式）
-  - 固定的工作
+  - 固定工作量（*工作*）
   - 固定的单位
 
 受特定计划模式的定义影响的值由以下公式确定：
 
-  工作量（*工作*）= 持续时间 x 单位
+  工作量 = 持续时间 x 单位
 
 定义项目的计划模式时，您将设置以下值之一，之后此值将无法更改。 将此值保持为常数会对其赋予优先级，这会通知系统在其他两个值更改时不要更改它。 下表提供了有关选择特定模式的影响的信息。
 

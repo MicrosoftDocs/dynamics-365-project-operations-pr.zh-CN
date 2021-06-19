@@ -2,18 +2,16 @@
 title: 使用计划 API 对计划实体执行操作
 description: 该主题提供了关于使用计划 API 的信息和示例。
 author: sigitac
-manager: Annbe
 ms.date: 04/27/2021
 ms.topic: article
-ms.service: project-operations
 ms.reviewer: kfend
 ms.author: sigitac
-ms.openlocfilehash: e03f4e6c49a835206b23cade3fabe3fd26693441
-ms.sourcegitcommit: 3d78338773929121d17ec3386f6cb67bfb2272cc
+ms.openlocfilehash: 4a032dc7bcbdf23fce3c3b2ca63c51d473bd8e26
+ms.sourcegitcommit: fc96c6eb9a2094f9fa3d1ae39646730ef9d558ba
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/27/2021
-ms.locfileid: "5950793"
+ms.lasthandoff: 05/28/2021
+ms.locfileid: "6116786"
 ---
 # <a name="use-schedule-apis-to-perform-operations-with-scheduling-entities"></a>使用计划 API 对计划实体执行操作
 
@@ -268,7 +266,6 @@ ID 属性是可选的。 如果提供了此属性，则系统会尝试使用它�
 - 每个用户最多只能有 10 个公开的 **OperationSets**。
 - Project Operations 目前对一个项目最多支持总共 500 个任务。
 - **OperationSet** 故障状态和故障日志当前不可用。
-- 计划 API 为公开预览版。 Microsoft 不支持在生产环境中使用这些 API。
 - [项目和任务的限制和界限](/project-for-the-web/project-for-the-web-limits-and-boundaries)
 
 ## <a name="error-handling"></a>错误处理
