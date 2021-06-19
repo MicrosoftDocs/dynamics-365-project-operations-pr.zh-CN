@@ -2,8 +2,6 @@
 title: 时间条目日历
 description: 此主题介绍如何使用时间条目日历。
 author: rumant
-manager: kfend
-ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 05/20/2019
@@ -18,12 +16,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 0188258a7d3c0e1644ae6db051995e6e02bcbf58
-ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
+ms.openlocfilehash: 3efa30f017643cbcf7baa72f8ab964091c9e4f28
+ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5282097"
+ms.lasthandoff: 05/10/2021
+ms.locfileid: "6013070"
 ---
 # <a name="time-entry-calendar"></a>时间条目日历
 

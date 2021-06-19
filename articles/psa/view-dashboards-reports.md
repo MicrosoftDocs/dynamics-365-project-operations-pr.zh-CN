@@ -2,8 +2,6 @@
 title: 查看仪表板和报表
 description: 如何在 Project Service 中查看仪表板和报表
 author: JohnPBurrows
-manager: kfend
-ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 8/03/2018
@@ -18,12 +16,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 294fb2bf81aaf07f62937e69ad07f6ddbc72dc80
-ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
+ms.openlocfilehash: 00d42d6e79c592bd828bbf54353cde52900d288d
+ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5281467"
+ms.lasthandoff: 05/10/2021
+ms.locfileid: "6012935"
 ---
 # <a name="view-dashboards-and-reports-project-service"></a>查看仪表板和报表 (Project Service)
 

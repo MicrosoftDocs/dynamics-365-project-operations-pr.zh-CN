@@ -1,8 +1,6 @@
 ---
 title: 提交资源请求
 description: 此主题介绍如何提交针对项目资源的请求。
-manager: kfend
-ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 12/1/2018
@@ -18,12 +16,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 8976ca2360be8676350178059615c59995544a71
-ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
+ms.openlocfilehash: acdd228a9eb9d6c6c56f126ccca416613332a838
+ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5282232"
+ms.lasthandoff: 05/10/2021
+ms.locfileid: "6013160"
 ---
 # <a name="submitting-a-resource-request"></a>提交资源请求
 

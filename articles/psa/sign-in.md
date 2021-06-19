@@ -2,8 +2,6 @@
 title: 登录 Project Service Automation
 description: 如何登录到 Project Service
 author: ruhercul
-manager: kfend
-ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 8/03/2018
@@ -18,12 +16,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: d52caf0739ee55c25598318608f0c235107c85f3
-ms.sourcegitcommit: 3d78338773929121d17ec3386f6cb67bfb2272cc
+ms.openlocfilehash: 8891ef08d187706a9fdef1be3f0c97beac4d711c
+ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/27/2021
-ms.locfileid: "5951378"
+ms.lasthandoff: 05/10/2021
+ms.locfileid: "6013205"
 ---
 # <a name="sign-in-to-project-service-automation"></a>登录 Project Service Automation
 
