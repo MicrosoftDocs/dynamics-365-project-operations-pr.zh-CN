@@ -1,9 +1,7 @@
 ---
 title: 升级注意事项 - 从 Microsoft Dynamics 365 Project Service Automation 版本 2.x 或 1.x 升级到版本 3
 description: 此主题介绍从 Project Service Automation 版本 2.x 或 1.x 升级到版本 3 时必须考虑的注意事项。
-manager: kfend
 ms.prod: ''
-ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 11/13/2018
@@ -18,12 +16,12 @@ search.audienceType:
 search.app:
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: ff0777705c6d0e2c0d8aa4ed191f4ae6b1786100
-ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
+ms.openlocfilehash: 04ae6aa3ef6a14a6f85dce3eaa5af01e0adce9ba
+ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5281647"
+ms.lasthandoff: 05/10/2021
+ms.locfileid: "6014870"
 ---
 # <a name="upgrade-considerations---psa-version-2x-or-1x-to-version-3"></a>升级注意事项 - PSA 版本 2.x 或 1.x 到版本 3.x
 
@@ -106,7 +104,7 @@ Dynamics 365 Project Service Automation 和 Dynamics 365 Field Service 都使用
  
 升级完成后时，将把与通用团队成员对应的明细任务中的部门添加到通用团队成员，并删除明细任务。 因此，建议您在升级前为包含通用资源的每个项目生成团队。
 
-对于分派给部门与合同签订项目部门不同的角色，并且尚未生成团队的任务，升级将为该角色创建一个通用团队成员，但是对该团队成员的部门使用项目的合同签订部门。 请回去参考 Project Z 的示例，已经为合同签订部门 Contoso 美国和实施阶段内的项目计划测试任务分配了技术顾问角色，并且采用了分配给 Contoso 印度的部门。 已经为实施阶段后完成的集成测试任务分派了技术顾问角色。 部门为 Contoso 美国，未生成团队。 升级将创建一个通用团队成员（这是分派有所有三个任务的工时的技术顾问），以及部门 Contoso 美国（这是项目的合同签订部门）。   
+对于分派给部门与合同签订项目部门不同的角色，并且尚未生成团队的任务，升级将为该角色创建一个通用团队成员，但是对该团队成员的部门使用项目的合同签订部门。 回去参考 Project Z 的示例时，发现已经为合同签订部门 Contoso 美国和实施阶段内的项目计划测试任务分派了技术顾问角色，并且采用了分派给 Contoso 印度的部门。 已经为实施阶段后完成的集成测试任务分派了技术顾问角色。 部门为 Contoso 美国，未生成团队。 升级将创建一个通用团队成员（这是分派有所有三个任务的工时的技术顾问），以及部门 Contoso 美国（这是项目的合同签订部门）。   
  
 更改不生成的团队成员中不同资源部门的默认设置是我们之所以建议您在升级之前为包含通用资源的每个项目生成或重新生成团队，以便不丢失部门分配的原因。
 

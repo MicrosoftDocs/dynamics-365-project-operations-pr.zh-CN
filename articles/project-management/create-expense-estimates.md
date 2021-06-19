@@ -2,18 +2,16 @@
 title: 项目支出的财务估算
 description: 此主题提供有关定义或预估基于项目的支出的信息。
 author: rumant
-manager: Annbe
 ms.date: 03/19/2021
 ms.topic: article
-ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: ad4901b1264289f1da881154bc147fc3f8da698f
-ms.sourcegitcommit: 386921f44f1e9a8a828b140206d52945de07aee7
+ms.openlocfilehash: 18d8568fae35fc251d9cf48d900b8a436e2e4500
+ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "5701771"
+ms.lasthandoff: 05/10/2021
+ms.locfileid: "6014150"
 ---
 # <a name="financial-estimates-for-expenses-on-projects"></a>项目支出的财务估算
 _**适用于：** 基于资源/非库存场景的 Project Operations，精简部署 - 估价开票交易_

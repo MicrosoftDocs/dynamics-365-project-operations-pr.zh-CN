@@ -2,8 +2,6 @@
 title: 向项目添加文档
 description: 将文档添加至 Project Service 中的项目的步骤
 author: ruhercul
-manager: kfend
-ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 7/30/2018
@@ -18,12 +16,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: db54d1e2820824bc8df32bcb304fd1f22fb694da
-ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
+ms.openlocfilehash: 8cc17b3bf5c57663ba85fa6ce96875459d601057
+ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5285562"
+ms.lasthandoff: 05/10/2021
+ms.locfileid: "6014600"
 ---
 # <a name="add-documents-to-a-project-project-service"></a>将文档添加至项目 (Project Service)
 

@@ -2,8 +2,6 @@
 title: 项目定价
 description: 此主题介绍 Dynamics 365 Project Service Automation 中的定价工作原理。
 author: rumant
-manager: kfend
-ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 03/11/2019
@@ -18,12 +16,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 2337a1cef55ecc3b7625a0c9a643b9ed8a1d70e5
-ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
+ms.openlocfilehash: f7f116877340e9efec1aa7b3af875920f38fcdce
+ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5291158"
+ms.lasthandoff: 05/10/2021
+ms.locfileid: "6014960"
 ---
 # <a name="project-pricing"></a>项目定价 
 

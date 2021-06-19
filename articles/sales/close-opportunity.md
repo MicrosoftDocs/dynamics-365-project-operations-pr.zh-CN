@@ -2,18 +2,16 @@
 title: 结束商机
 description: 此主题提供有关结束项目商机的信息。
 author: rumant
-manager: Annbe
 ms.date: 10/01/2020
 ms.topic: article
-ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: 01c2452003d9ac5fbf85704ead67f7ee8011ed1c
-ms.sourcegitcommit: 3d78338773929121d17ec3386f6cb67bfb2272cc
+ms.openlocfilehash: af01a729723f61ea11d161861554ec9e6b93b811
+ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/27/2021
-ms.locfileid: "5949893"
+ms.lasthandoff: 05/10/2021
+ms.locfileid: "6013700"
 ---
 # <a name="close-an-opportunity"></a>结束商机
 

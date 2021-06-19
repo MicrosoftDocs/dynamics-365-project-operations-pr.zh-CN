@@ -2,18 +2,16 @@
 title: 配置基于项目的报价单明细的应计费组件
 description: 本主题提供了有关基于项目的报价单明细上所含、应计费和非应计费组件的信息。
 author: rumant
-manager: Annbe
 ms.date: 11/18/2020
 ms.topic: article
-ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: 5484c37181bc8a26a6dfe67807093cc83e53e703
-ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
+ms.openlocfilehash: a9febf305e3cd29bab42cd6c83a941f7b494fa56
+ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5278712"
+ms.lasthandoff: 05/10/2021
+ms.locfileid: "6013565"
 ---
 # <a name="configure-the-chargeable-components-of-a-project-based-quote-line"></a>配置基于项目的报价单明细的应计费组件
 

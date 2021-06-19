@@ -2,8 +2,6 @@
 title: 高级报价、定价和记帐
 description: 本主题提供有关 Project Service Automation 中的报价、记帐和定价的信息。
 author: kfend
-manager: kfend
-ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 2/14/2019
@@ -18,12 +16,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: c4674aba1d152289c78a202f9da1f710e28f9960
-ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
+ms.openlocfilehash: b7046a15e17953d6f39a792ab907cbac4a2cf027
+ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5275212"
+ms.lasthandoff: 05/10/2021
+ms.locfileid: "6015185"
 ---
 # <a name="advanced-quoting-pricing-and-billing-guide"></a>高级报价、定价和记帐指南
 

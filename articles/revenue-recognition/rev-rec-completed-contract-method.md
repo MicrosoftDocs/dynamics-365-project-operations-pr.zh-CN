@@ -2,18 +2,16 @@
 title: 管理收入估算
 description: 本主题提供有关如何使用项目收入估算的信息。
 author: sigitac
-manager: Annbe
 ms.date: 11/04/2020
 ms.topic: article
-ms.service: project-operations
 ms.reviewer: kfend
 ms.author: sigitac
-ms.openlocfilehash: b63346f56db8b906e5aa45940465bdb18e3df480
-ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
+ms.openlocfilehash: e3cbaff18d8bd4d6f6a7577bba25b3e843b1757e
+ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5278992"
+ms.lasthandoff: 05/10/2021
+ms.locfileid: "6013836"
 ---
 # <a name="manage-revenue-estimates"></a>管理收入估算
 

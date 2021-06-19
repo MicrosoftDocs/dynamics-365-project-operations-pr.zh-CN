@@ -2,8 +2,6 @@
 title: 多货币方案（版本 3.x）
 description: 此主题介绍多货币方案。
 author: rumant
-manager: kfend
-ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 12/26/2018
@@ -18,12 +16,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 33e44297dc80801c3e4416cd9fc3bedae5f3c4ba
-ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
+ms.openlocfilehash: 70f27d29c74a82f0307bd0724347960e5755e3a8
+ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5291698"
+ms.lasthandoff: 05/10/2021
+ms.locfileid: "6014780"
 ---
 # <a name="multiple-currency-scenarios"></a>多货币方案
 
@@ -36,7 +34,7 @@ Microsoft Dynamics 365 有两种货币概念：
 - **交易货币** - 进行交易时使用的货币。 
 - **基础货币** - Dynamics 365 实例的货币。 此货币是在设置 Dynamics 365 实例时设置的。 不能更改。
 
-例如，Contoso US 以每件 15 英镑 (GBP) 的价格向英国的一位客户销售了 100 件 T 恤衫。 下表显示订单产品实体中如何记录这笔交易。
+例如，Contoso 美国以每件 15 英镑 (GBP) 的价格向英国的一位客户销售了 100 件 T 恤衫。 下表显示订单产品实体中如何记录这笔交易。
 
 | 产品 | 数量 | 单价 | 货币 | 金额 | 汇率 | 单价（基础货币）| 金额（基础货币）|
 |---------|----------|----------------|----------|--------|---------------|----------------------|--------------|
@@ -68,7 +66,7 @@ PSA 在以下方面扩展了成本和销售额的交易货币概念：
 
 ## <a name="multiple-currency-scenario"></a>多货币方案
 
-此部分介绍英国 Contoso 为日本客户 Fabrikam 交付的项目的示例。 下面介绍此方案是如何设置的：
+此部分介绍 Contoso 英国公司为日本客户 Fabrikam 交付的项目的示例。 下面介绍此方案是如何设置的：
 
 1. 在 **设置** \> **业务管理** \> **货币** 下设置 GBP 和日元 (JPY)。 
 2. 设置名称为 **Fabrikam - 日本** 的客户帐户，并选择 JPY 作为此帐户的货币。

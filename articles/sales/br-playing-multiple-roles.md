@@ -2,18 +2,16 @@
 title: 当可预订资源在项目中担任多个角色时，估计项目销售和成本
 description: 本主题说明如何使用定价维度来支持在项目中担任多个角色的资源的定价和成本估算。
 author: rumant
-manager: tfehr
 ms.date: 11/16/2020
 ms.topic: article
-ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: f01c9c6adfeedc11fcb04a7e8b8f5a55e5f8dc79
-ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
+ms.openlocfilehash: 7ef9765b7db1c6650fb0599bf5fb4b4b6304be69
+ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5278812"
+ms.lasthandoff: 05/10/2021
+ms.locfileid: "6013655"
 ---
 # <a name="estimate-project-sales-and-costs-when-a-bookable-resource-fills-multiple-roles-on-a-project"></a>当可预订资源在项目中担任多个角色时，估计项目销售和成本 
 
