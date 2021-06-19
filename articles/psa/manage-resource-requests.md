@@ -2,8 +2,6 @@
 title: 管理资源请求
 description: 如何在 Project Service 中管理资源请求
 author: JohnPBurrows
-manager: kfend
-ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 8/03/2018
@@ -18,39 +16,39 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: e19f3a710191e3a5b41ffb89b289e357e574207f
-ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
+ms.openlocfilehash: 7c7ca0dbaeb8938fc2254da782b359a5dd29e6da
+ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5284212"
+ms.lasthandoff: 05/10/2021
+ms.locfileid: "6015005"
 ---
-# <a name="manage-resource-requests-project-service"></a><span data-ttu-id="45409-103">管理资源请求 (Project Service)</span><span class="sxs-lookup"><span data-stu-id="45409-103">Manage resource requests (Project Service)</span></span>
+# <a name="manage-resource-requests-project-service"></a><span data-ttu-id="340c4-103">管理资源请求 (Project Service)</span><span class="sxs-lookup"><span data-stu-id="340c4-103">Manage resource requests (Project Service)</span></span>
 
 [!include [banner](../includes/psa-now-project-operations.md)]
 
 [!INCLUDE[cc-applies-to-psa-app-1x-2x](../includes/cc-applies-to-psa-app-1x-2x.md)]
 
-<span data-ttu-id="45409-104">帐户管理员和项目管理员定期为其项目请求资源。</span><span class="sxs-lookup"><span data-stu-id="45409-104">Account managers and project managers regularly request resources for their projects.</span></span> <span data-ttu-id="45409-105">通过 [!INCLUDE[pn_project_service_auto](../includes/pn-project-service-auto.md)] 功能，您可以找到拥有必需的技能和熟练程度的顾问，并将其与这些资源请求配对。</span><span class="sxs-lookup"><span data-stu-id="45409-105">With the [!INCLUDE[pn_project_service_auto](../includes/pn-project-service-auto.md)] capabilities, you can find and match consultants who have the required skills and proficiencies to those resource requests.</span></span>  
+<span data-ttu-id="340c4-104">帐户管理员和项目管理员定期为其项目请求资源。</span><span class="sxs-lookup"><span data-stu-id="340c4-104">Account managers and project managers regularly request resources for their projects.</span></span> <span data-ttu-id="340c4-105">通过 [!INCLUDE[pn_project_service_auto](../includes/pn-project-service-auto.md)] 功能，您可以找到拥有必需的技能和熟练程度的顾问，并将其与这些资源请求配对。</span><span class="sxs-lookup"><span data-stu-id="340c4-105">With the [!INCLUDE[pn_project_service_auto](../includes/pn-project-service-auto.md)] capabilities, you can find and match consultants who have the required skills and proficiencies to those resource requests.</span></span>  
   
-1. <span data-ttu-id="45409-106">转到 **Project Service** > **资源请求**。</span><span class="sxs-lookup"><span data-stu-id="45409-106">Go to **Project Service** > **Resource Requests**.</span></span>  
+1. <span data-ttu-id="340c4-106">转到 **Project Service** > **资源请求**。</span><span class="sxs-lookup"><span data-stu-id="340c4-106">Go to **Project Service** > **Resource Requests**.</span></span>  
   
-2. <span data-ttu-id="45409-107">选择资源请求并单击 **查找资源**。</span><span class="sxs-lookup"><span data-stu-id="45409-107">Select a resource request and click **Find Resources**.</span></span> <span data-ttu-id="45409-108">这将显示所有资源及其可用性的日历视图，以及用于提供资源预订状态的视觉视图的颜色编码。</span><span class="sxs-lookup"><span data-stu-id="45409-108">This shows a calendar view of all resources and their availability, with color coding that provides a visual view of a resource’s booking status.</span></span>  
+2. <span data-ttu-id="340c4-107">选择资源请求并单击 **查找资源**。</span><span class="sxs-lookup"><span data-stu-id="340c4-107">Select a resource request and click **Find Resources**.</span></span> <span data-ttu-id="340c4-108">这将显示所有资源及其可用性的日历视图，以及用于提供资源预订状态的视觉视图的颜色编码。</span><span class="sxs-lookup"><span data-stu-id="340c4-108">This shows a calendar view of all resources and their availability, with color coding that provides a visual view of a resource’s booking status.</span></span>  
   
-    <span data-ttu-id="45409-109">执行以下任何步骤以优化搜索：</span><span class="sxs-lookup"><span data-stu-id="45409-109">Do any of the following to optimize your search:</span></span>  
+    <span data-ttu-id="340c4-109">执行以下任何步骤以优化搜索：</span><span class="sxs-lookup"><span data-stu-id="340c4-109">Do any of the following to optimize your search:</span></span>  
   
-   -   <span data-ttu-id="45409-110">从屏幕顶端选择视图或排序顺序。</span><span class="sxs-lookup"><span data-stu-id="45409-110">Select a view or sort order from the top of the screen.</span></span> <span data-ttu-id="45409-111">还可以选择显示该 **天**、**周** 还是 **月** 的可用性，以及使用箭头查看上一时间段或下一时间段。</span><span class="sxs-lookup"><span data-stu-id="45409-111">You can also select whether to show availability for the **Day**, **Week**, or **Month**, and use the arrows to view the previous or next time period.</span></span> <span data-ttu-id="45409-112">可使用搜索框查找特定资源。</span><span class="sxs-lookup"><span data-stu-id="45409-112">Use the search box to find a specific resource.</span></span>  
+   -   <span data-ttu-id="340c4-110">从屏幕顶端选择视图或排序顺序。</span><span class="sxs-lookup"><span data-stu-id="340c4-110">Select a view or sort order from the top of the screen.</span></span> <span data-ttu-id="340c4-111">还可以选择显示该 **天**、**周** 还是 **月** 的可用性，以及使用箭头查看上一时间段或下一时间段。</span><span class="sxs-lookup"><span data-stu-id="340c4-111">You can also select whether to show availability for the **Day**, **Week**, or **Month**, and use the arrows to view the previous or next time period.</span></span> <span data-ttu-id="340c4-112">可使用搜索框查找特定资源。</span><span class="sxs-lookup"><span data-stu-id="340c4-112">Use the search box to find a specific resource.</span></span>  
   
-   -   <span data-ttu-id="45409-113">单击 **选项** 可更改显示的内容。</span><span class="sxs-lookup"><span data-stu-id="45409-113">Click **Options** to change what displays.</span></span> <span data-ttu-id="45409-114">例如，可以显示图例来显示针对不同类型预订的颜色方案，也可以选择仅显示特定类型的预订（例如，硬性预订或软性预订）。</span><span class="sxs-lookup"><span data-stu-id="45409-114">For example, you can show a legend that shows the color scheme for the different types of bookings, or you can choose to show only a certain type of booking (for example, hard booking or soft booking).</span></span>  
+   -   <span data-ttu-id="340c4-113">单击 **选项** 可更改显示的内容。</span><span class="sxs-lookup"><span data-stu-id="340c4-113">Click **Options** to change what displays.</span></span> <span data-ttu-id="340c4-114">例如，可以显示图例来显示针对不同类型预订的颜色方案，也可以选择仅显示特定类型的预订（例如，硬性预订或软性预订）。</span><span class="sxs-lookup"><span data-stu-id="340c4-114">For example, you can show a legend that shows the color scheme for the different types of bookings, or you can choose to show only a certain type of booking (for example, hard booking or soft booking).</span></span>  
   
-   -   <span data-ttu-id="45409-115">单击 **筛选器** 显示 **筛选器** 窗格，在其中按部门、角色、技能或其他属性筛选结果。</span><span class="sxs-lookup"><span data-stu-id="45409-115">Click **Filter** to display the **Filter** pane, which lets you filter your results by organizational unit, role, skill, or other attributes.</span></span>  
+   -   <span data-ttu-id="340c4-115">单击 **筛选器** 显示 **筛选器** 窗格，在其中按部门、角色、技能或其他属性筛选结果。</span><span class="sxs-lookup"><span data-stu-id="340c4-115">Click **Filter** to display the **Filter** pane, which lets you filter your results by organizational unit, role, skill, or other attributes.</span></span>  
   
-       <span data-ttu-id="45409-116">![Project Service 资源请求屏幕](../psa/media/project-service-resource-request-screen.png "Project Service 资源请求屏幕")</span><span class="sxs-lookup"><span data-stu-id="45409-116">![Project Service Resource Request screen](../psa/media/project-service-resource-request-screen.png "Project Service Resource Request screen")</span></span>  
+       <span data-ttu-id="340c4-116">![Project Service 资源请求屏幕](../psa/media/project-service-resource-request-screen.png "Project Service 资源请求屏幕")</span><span class="sxs-lookup"><span data-stu-id="340c4-116">![Project Service Resource Request screen](../psa/media/project-service-resource-request-screen.png "Project Service Resource Request screen")</span></span>  
   
-3. <span data-ttu-id="45409-117">在您要预订的资源的日历中，选择预订资源的时间段，然后单击 **预订** 以预订资源或 **建议预订** 以建议预订并让请求人进行批准。</span><span class="sxs-lookup"><span data-stu-id="45409-117">In the calendar for the resource you want to book, select the time period to book the resource, and then either click **Book** to book the resource or **Propose Booking** to propose the booking and have the requestor approve it.</span></span> <span data-ttu-id="45409-118">预订资源时，可以软预订，也可以硬预订。</span><span class="sxs-lookup"><span data-stu-id="45409-118">When you book a resource, you can soft book or hard book.</span></span>  
+3. <span data-ttu-id="340c4-117">在您要预订的资源的日历中，选择预订资源的时间段，然后单击 **预订** 以预订资源或 **建议预订** 以建议预订并让请求人进行批准。</span><span class="sxs-lookup"><span data-stu-id="340c4-117">In the calendar for the resource you want to book, select the time period to book the resource, and then either click **Book** to book the resource or **Propose Booking** to propose the booking and have the requestor approve it.</span></span> <span data-ttu-id="340c4-118">预订资源时，可以软预订，也可以硬预订。</span><span class="sxs-lookup"><span data-stu-id="340c4-118">When you book a resource, you can soft book or hard book.</span></span>  
   
-### <a name="see-also"></a><span data-ttu-id="45409-119">另请参阅</span><span class="sxs-lookup"><span data-stu-id="45409-119">See Also</span></span>  
- [<span data-ttu-id="45409-120">资源经理指南</span><span class="sxs-lookup"><span data-stu-id="45409-120">Resource Manager Guide</span></span>](../psa/resource-manager-guide.md)
+### <a name="see-also"></a><span data-ttu-id="340c4-119">另请参阅</span><span class="sxs-lookup"><span data-stu-id="340c4-119">See Also</span></span>  
+ [<span data-ttu-id="340c4-120">资源经理指南</span><span class="sxs-lookup"><span data-stu-id="340c4-120">Resource Manager Guide</span></span>](../psa/resource-manager-guide.md)
 
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]
