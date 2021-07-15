@@ -2,7 +2,7 @@
 title: 项目发票方案性能
 description: 该主题提供了关于项目发票方案性能改进的信息。
 author: Yowelle
-ms.date: 04/20/2021
+ms.date: 06/16/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: andchoi
 ms.search.validFrom: 20121-03-05
 ms.dyn365.ops.version: 10.0.18
-ms.openlocfilehash: 0e7a9eedc80a88e80b7788be4fe4b2f969be8ba1
-ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
+ms.openlocfilehash: 5a14acf51d277b16896d64c4b12ee00bfb326910
+ms.sourcegitcommit: 3a4b181be08ef0428104d72b54a3e61ac2782f14
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/10/2021
-ms.locfileid: "5999480"
+ms.lasthandoff: 06/17/2021
+ms.locfileid: "6269779"
 ---
 # <a name="project-invoice-proposal-performance"></a>项目发票方案性能
 
@@ -44,4 +44,6 @@ ms.locfileid: "5999480"
 3.  刷新浏览器。
 
 > [!NOTE]
-> 启用记帐规则或运行批处理过程时，无法应用发票方案性能。
+> 启用记帐规则后，无法应用发票方案性能。
+> 
+> 在批量创建发票方案的流程中，无论您输入什么内容，子任务数都将基于具有可开票交易的合同数将任务拆分为最大数量。 例如，如果您在批量创建发票方案时输入的子任务数为 **3**，并且只有两个具有可开票交易的合同，则仅创建两个子任务。

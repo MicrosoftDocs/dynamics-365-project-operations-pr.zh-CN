@@ -1,19 +1,19 @@
 ---
-title: 使用计划 API 对计划实体执行操作
-description: 该主题提供了关于使用计划 API 的信息和示例。
+title: 使用项目计划 API 对计划实体执行操作
+description: 本主题提供有关使用项目计划 API 的信息和示例。
 author: sigitac
-ms.date: 04/27/2021
+ms.date: 06/22/2021
 ms.topic: article
 ms.reviewer: kfend
 ms.author: sigitac
-ms.openlocfilehash: 4a032dc7bcbdf23fce3c3b2ca63c51d473bd8e26
-ms.sourcegitcommit: fc96c6eb9a2094f9fa3d1ae39646730ef9d558ba
+ms.openlocfilehash: 4915261c08a3271a919e04084e92a14b297c1b35
+ms.sourcegitcommit: 2f16c2bc7c8350676a6a380c61fffa9958db6a0b
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/28/2021
-ms.locfileid: "6116786"
+ms.lasthandoff: 06/22/2021
+ms.locfileid: "6293216"
 ---
-# <a name="use-schedule-apis-to-perform-operations-with-scheduling-entities"></a>使用计划 API 对计划实体执行操作
+# <a name="use-project-schedule-apis-to-perform-operations-with-scheduling-entities"></a>使用项目计划 API 对计划实体执行操作
 
 _**适用于：** 基于资源/非库存场景的 Project Operations，精简部署 - 估价开票交易_
 
@@ -22,9 +22,9 @@ _**适用于：** 基于资源/非库存场景的 Project Operations，精简部
 
 ## <a name="scheduling-entities"></a>计划实体
 
-通过计划 API，可以针对 **计划实体** 执行创建、更新和删除操作。 这些实体通过 Web 项目中的计划引擎进行管理。 早期 Dynamics 365 Project Operations 版本中限制对 **计划实体** 执行创建、更新和删除操作。
+项目计划 API 提供对 **计划实体** 执行创建、更新和删除操作的能力。 这些实体通过 Web 项目中的计划引擎进行管理。 早期 Dynamics 365 Project Operations 版本中限制对 **计划实体** 执行创建、更新和删除操作。
 
-下表提供了 **计划实体** 的完整列表。
+下表提供了项目计划实体的完整列表。
 
 | 实体名称  | 实体逻辑名称 |
 | --- | --- |
@@ -39,19 +39,19 @@ _**适用于：** 基于资源/非库存场景的 Project Operations，精简部
 
 OperationSet 是一种工作单位模式，当必须在交易内处理多个计划影响请求时，可以使用该模式。
 
-## <a name="schedule-apis"></a>计划 API
+## <a name="project-schedule-apis"></a>项目计划 API
 
-下面是当前计划 API 的列表。
+下面是当前项目计划 API 的列表。
 
 - **msdyn_CreateProjectV1**：此 API 可用于创建项目。 将立即创建项目和默认项目 Bucket。
 - **msdyn_CreateTeamMemberV1**：此 API 可用于创建项目团队成员。 系统会立即创建团队成员记录。
 - **msdyn_CreateOperationSetV1**：此 API 可用于安排必须在交易中执行多个请求。
-- **msdyn_PSSCreateV1**：此 API 可用于创建实体。 该实体可以是支持创建操作的任何计划实体。
-- **msdyn_PSSUpdateV1**：此 API 可用于更新实体。 该实体可以是支持更新操作的任何计划实体。
-- **msdyn_PSSDeleteV1**：此 API 可用于删除实体。 该实体可以是支持删除操作的任何计划实体。
+- **msdyn_PSSCreateV1**：此 API 可用于创建实体。 该实体可以是支持创建操作的任何项目计划实体。
+- **msdyn_PSSUpdateV1**：此 API 可用于更新实体。 该实体可以是支持更新操作的任何项目计划实体。
+- **msdyn_PSSDeleteV1**：此 API 可用于删除实体。 该实体可以是支持删除操作的任何项目计划实体。
 - **msdyn_ExecuteOperationSetV1**：此 API 用于执行给定操作集内的所有操作。
 
-## <a name="using-schedule-apis-with-operationset"></a>将计划 API 与 OperationSet 一同使用
+## <a name="using-project-schedule-apis-with-operationset"></a>将项目计划 API 与 OperationSet 一起使用
 
 由于会立即创建同时具有 **CreateProjectV1** 和 **CreateTeamMemberV1** 的记录，因此这些 API 不能直接在 **OperationSet** 中使用。 但是，可以使用 API 创建所需记录，创建 **OperationSet**，然后在 **OperationSet** 中使用这些预先创建的记录。
 
@@ -257,7 +257,7 @@ ID 属性是可选的。 如果提供了此属性，则系统会尝试使用它�
 ## <a name="limitations-and-known-issues"></a>限制和已知问题
 下面是一系列限制和已知问题：
 
-- 计划 API 仅供 **具有 Microsoft 项目许可证的用户** 使用。 以下用户不能使用它们：
+- 项目计划 API 仅供 **具有 Microsoft Project 许可证的用户** 使用。 以下用户不能使用它们：
     - 应用程序用户
     - 系统用户
     - 集成用户
@@ -271,7 +271,7 @@ ID 属性是可选的。 如果提供了此属性，则系统会尝试使用它�
 ## <a name="error-handling"></a>错误处理
 
    - 要查看操作集生成的错误，转到 **设置** \> **计划集成** \> **操作集**。
-   - 若要查看项目计划服务生成的错误，转到 **设置** \> **计划集成** \> **PSS 错误日志**。
+   - 若要查看项目计划服务生成的错误，请转到 **设置** \> **计划集成** \> **PSS 错误日志**。
 
 ## <a name="sample-scenario"></a>示例方案
 

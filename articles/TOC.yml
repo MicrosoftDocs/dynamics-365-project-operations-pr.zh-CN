@@ -28,6 +28,8 @@
               href: environment/resource-apply-pro-setup-config-data.md
         - name: 部署环境
           items:
+            - name: 通过双写入支持手动部署 Project Operations Dataverse 应用
+              href: environment/resource-manual-deploy-dataverse-dualwrite.md
             - name: 设置新环境
               href: environment/resource-provision-new-environment.md
             - name: 安全模型
@@ -52,6 +54,10 @@
               href: environment/resource-dual-write-vendor-invoice.md
     - name: 新增功能
       items:
+        - name: 2021 年 7 月 - 基于资源/非库存场景的 Project Operations
+          href: whats-new/whats-new-july-2021-resource-based.md
+        - name: 2021 年 6 月 - 基于资源/非库存场景的 Project Operations
+          href: whats-new/whats-new-june-2021-resource-based.md
         - name: 2021 年 5 月 - 基于资源/非库存场景的 Project Operations
           href: whats-new/whats-new-may-2021-resource-based.md
         - name: 2021 年 4 月 - 基于资源/非库存场景的 Project Operations
@@ -282,7 +288,7 @@
           items:
             - name: 使用复制项目开发项目模板
               href: project-management/dev-copy-project.md
-            - name: 使用计划 API（公开预览版）
+            - name: 使用项目日程安排 API（公开预览版）
               href: project-management/schedule-api-preview.md
     - name: 资源管理
       items:
@@ -436,8 +442,6 @@
       items:
         - name: 开票流程概述
           href: invoicing/post-project-invoices.md
-        - name: 管理项目发票方案
-          href: invoicing/format-update-project-invoice-proposals.md
         - name: 估价开票
           items:
             - name: 管理基于项目的记帐积压
@@ -456,8 +460,22 @@
               href: proforma-invoicing/corrective-invoices.md
             - name: 配置基于项目的发票自动化
               href: proforma-invoicing/configure-automated-invoice-creation.md
-        - name: 管理项目发票方案
-          href: invoicing/format-update-project-invoice-proposals.md
+        - name: 客户开票
+          items:
+            - name: 管理项目发票方案
+              href: invoicing/format-update-project-invoice-proposals.md
+            - name: 更正项目发票方案草稿会计
+              href: invoicing/correct-project-invoice-proposals.md
+        - name: 内部公司开票
+          items:
+            - name: 内部公司开票概述
+              href: project-accounting/intercompany-invoicing-overview.md
+            - name: 配置内部公司开票
+              href: project-accounting/configure-intercompany-invoicing.md
+            - name: 创建内部公司交易
+              href: project-accounting/create-intercompany-transactions.md
+            - name: 创建内部公司客户和供应商发票
+              href: project-accounting/create-intercompany-customer-vendor-invoices.md
     - name: 项目会计
       items:
         - name: 财务维度默认值
@@ -470,16 +488,6 @@
           href: project-accounting/configure-accounting-billable-projects.md
         - name: Project Operations 中的集成日记帐
           href: project-accounting/project-operations-integration-journal.md
-        - name: 内部公司开票
-          items:
-            - name: 内部公司开票概述
-              href: project-accounting/intercompany-invoicing-overview.md
-            - name: 配置内部公司开票
-              href: project-accounting/configure-intercompany-invoicing.md
-            - name: 创建内部公司交易
-              href: project-accounting/create-intercompany-transactions.md
-            - name: 创建内部公司客户和供应商发票
-              href: project-accounting/create-intercompany-customer-vendor-invoices.md
     - name: 收入确认
       items:
         - name: 收入确认概述
@@ -512,6 +520,10 @@
           href: environment/security-model.md
     - name: 新增功能
       items:
+        - name: 2021 年 7 月新增功能 - 精简部署
+          href: pro/whats-new/whats-new-july-2021-lite.md
+        - name: 2021 年 6 月新增功能 - 精简部署
+          href: pro/whats-new/whats-new-june-2021-lite.md
         - name: 2021 年 5 月新增功能 - 精简部署
           href: pro/whats-new/whats-new-may-2021-lite.md
         - name: 2021 年 4 月新增功能 - 精简部署
@@ -762,7 +774,7 @@
           items:
             - name: 使用复制项目开发项目模板
               href: project-management/dev-copy-project.md
-            - name: 使用计划 API（公开预览版）
+            - name: 使用项目日程安排 API（公开预览版）
               href: project-management/schedule-api-preview.md
     - name: 资源管理
       items:
@@ -882,6 +894,10 @@
   items:
     - name: 新增功能
       items:
+        - name: 2021 年 7 月新增功能 - 适用于库存/生产订单场景的 Project Operations
+          href: prod-pma/whats-new/whats-new-jul-2021-stocked.md
+        - name: 2021 年 5 月新增功能 - 适用于库存/生产订单场景的 Project Operations
+          href: prod-pma/whats-new/whats-new-may-2021-stocked.md
         - name: 2021 年 4 月新增功能 - 适用于库存/生产订单场景的 Project Operations
           href: prod-pma/whats-new/whats-new-apr-2021-stocked.md
         - name: 2021 年 3 月新增功能 - 适用于库存/生产订单场景的 Project Operations
@@ -1034,6 +1050,10 @@
       items:
         - name: Project Service 3.x 的更新版本计划
           href: psa/version-history-ps.md
+        - name: V3 更新版 33 的新增或变更功能
+          href: psa/whats-new-ur-33.md
+        - name: V3 更新版 32.5 的新增或变更功能
+          href: psa/whats-new-ur-32-5.md
         - name: V3 更新版 32 的新增或变更功能
           href: psa/whats-new-ur-32.md
         - name: V3 更新版 31 的新增或变更功能

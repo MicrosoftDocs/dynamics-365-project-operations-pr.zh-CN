@@ -6,12 +6,13 @@ ms.date: 10/01/2020
 ms.topic: article
 ms.reviewer: kfend
 ms.author: ruhercul
-ms.openlocfilehash: 94db65a2ddbdc6a7226c70907bcce4c45b4a3923
-ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
+ms.custom: intro-internal
+ms.openlocfilehash: 41265534661e51565bf31105ef69cec9b3b181c3
+ms.sourcegitcommit: 0fafe022731f0e1e8693382ff906e3f8541d34ca
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/10/2021
-ms.locfileid: "6000875"
+ms.lasthandoff: 07/07/2021
+ms.locfileid: "6367880"
 ---
 # <a name="resource-management-modes-overview"></a>资源管理模式概述
 

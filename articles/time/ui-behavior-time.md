@@ -6,12 +6,12 @@ ms.date: 03/03/2021
 ms.topic: article
 ms.reviewer: kfend
 ms.author: stsporen
-ms.openlocfilehash: 0cb62231eb3b387b610b7510023994dce66b1cc9
-ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
+ms.openlocfilehash: fd62fb1d8e0b2d859cb7da8b99cb725af587ff2f
+ms.sourcegitcommit: 639ec8a41fda15dedfd6918702d33ea406999ba6
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/10/2021
-ms.locfileid: "5995880"
+ms.lasthandoff: 06/24/2021
+ms.locfileid: "6304290"
 ---
 # <a name="time-entry-ui-behavior"></a>时间条目 UI 行为
 
@@ -25,7 +25,7 @@ _**适用于：** 基于资源/非库存场景的 Project Operations，精简部
 |------------   |------------------------   |
 | 新建​​           | Alt + Shift + n           |
 | 复制行      | Alt + Shift + c           |
-| 编辑条目    | Alt + Shift + e           |
+| 编辑实体    | Alt + Shift + e           |
 | 编辑行      | Alt + Shift + Ctrl + e    |
 | 打开条目    | Alt + Shift + o           |
 | 提交​​        | Alt + Shift + s           |
