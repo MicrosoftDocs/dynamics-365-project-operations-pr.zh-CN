@@ -832,6 +832,16 @@
           items:
             - name: 资源利用率概述
               href: resource-management/resource-utilization-overview.md
+    - name: Project Operations 中的分包合同管理
+      items:
+        - name: 管理分包合同概述
+          href: pro/subcontracting/managing-subcontracts-overview.md
+        - name: 合同分包中的关键概念
+          href: pro/subcontracting/key-concepts-subcontracting.md
+        - name: 管理供应商和项目价目表
+          href: pro/subcontracting/vendors-purchase-price-lists.md
+        - name: 作为可预订资源的分包商
+          href: pro/subcontracting/subcontractors-as-bookable-resources.md
     - name: 时间
       items:
         - name: 时间概述
@@ -1050,6 +1060,8 @@
       items:
         - name: Project Service 3.x 的更新版本计划
           href: psa/version-history-ps.md
+        - name: V3 更新版 34 的新增或变更功能
+          href: psa/whats-new-ur-34.md
         - name: V3 更新版 33 的新增或变更功能
           href: psa/whats-new-ur-33.md
         - name: V3 更新版 32.5 的新增或变更功能
