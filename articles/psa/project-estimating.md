@@ -16,12 +16,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 48f313b15f788645b88a4d878e3bece419d63126
-ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
+ms.openlocfilehash: fe51af8adb7c3831a57494b8359def2a0176b552efe16feb53a2a265f5ffcb0c
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/10/2021
-ms.locfileid: "6009155"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "7002545"
 ---
 # <a name="project-costs-and-revenue"></a>项目成本和收入
 
@@ -31,7 +31,7 @@ ms.locfileid: "6009155"
 
 项目估算提供项目计划中估算和计划工作的财务视图。 **项目** 页的 **估算** 选项卡显示您计划的工作的成本和收入影响。 还提供有关大量预定义维度的信息。 
 
-> ![“估算”选项卡](media/project-5.png)
+> ![“估算”选项卡。](media/project-5.png)
 
 ## <a name="cost-and-sales-values-of-the-project"></a>项目的成本和销售值
 
@@ -66,13 +66,13 @@ ms.locfileid: "6009155"
 
 **估算** 选项卡有一个网格视图，其中显示估算明细。 网格中包含单位、总成本费和总销售价的列，如下图中所示。 
 
-> ![“估算”选项卡中的网格视图](media/project-6.png)
+> ![“估算”选项卡中的网格视图。](media/project-6.png)
 
 ## <a name="time-phased-view-of-project-estimates"></a>项目估算的分时段视图
 
 项目估算的分时段视图按照您选择的时间刻度显示时间线内网格视图的估算数据。 默认情况下，按 **角色** 维度透视估算数据。
 
-> ![项目估算的分时段视图](media/project-7.png)
+> ![项目估算的分时段视图。](media/project-7.png)
 
 ## <a name="allocating-estimated-effort-based-on-the-task-mode"></a>基于任务模式分配估算的工作量
 

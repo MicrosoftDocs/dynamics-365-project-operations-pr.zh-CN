@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: andchoi
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: da7add25634cd1d7ff36c7a9b57b1efa6ad765d7
-ms.sourcegitcommit: 0fafe022731f0e1e8693382ff906e3f8541d34ca
+ms.openlocfilehash: 1465e68fb119927f474bf4d5b26cb0cd1d60824340a7d46e59d23036d99503f3
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 07/07/2021
-ms.locfileid: "6369680"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "7007495"
 ---
 # <a name="project-management-and-accounting-overview"></a>项目管理和会计概述
 
@@ -34,14 +34,14 @@ ms.locfileid: "6369680"
 ## <a name="projects-across-industries"></a>跨行业的项目
 项目管理和会计功能可以在多个行业中使用，如下图所示。
 
-[![跨行业的项目](./media/projects-accross-industries.jpg)](./media/projects-accross-industries.jpg) 
+[![跨行业的项目。](./media/projects-accross-industries.jpg)](./media/projects-accross-industries.jpg) 
 
 在呼叫中心，票证可用于描述解决呼叫所需的一组操作。 咨询公司，如管理或技术咨询组织或广告代理商，将其活动称为项目。 在市场营销中，市场活动表示一组必须交付的工作。 在基于项目的制造中，生产订单涉及生产某些成品所必须完成的各项工作。 无论使用什么名称，这些项目都涉及资源、计划和成本，而项目管理和会计功能可以帮助规划、执行和分析这些项目。
 
 ## <a name="project-phases"></a>项目阶段
 尽管以下流程针对外部项目或针对一个或多个客户完成的项目，但此功能也适用于内部的纯成本项目。 
 
-![项目的 3 个阶段](./media/3-stages-of-a-project.png) 
+![项目的 3 个阶段。](./media/3-stages-of-a-project.png) 
 
 如上图所示，项目管理和会计可以分为三个阶段：
 
@@ -50,7 +50,7 @@ ms.locfileid: "6369680"
 3.  分析
 
 ## <a name="initiate-the-project"></a>启动项目
-在项目启动期间，会执行几个关键流程。 您可以使用项目报价单将估计的人工、支出和材料传达给客户。 您可以在项目合同中记录账单条款、限制和协议。 您可以使用工作分解结构 (WBS) 来计划和估计工作。 您可以设置预测和预算来引导项目执行。 下图显示了一个项目的结构。[![项目结构](./media/project-structure1.jpg)](./media/project-structure1.jpg)  
+在项目启动期间，会执行几个关键流程。 您可以使用项目报价单将估计的人工、支出和材料传达给客户。 您可以在项目合同中记录账单条款、限制和协议。 您可以使用工作分解结构 (WBS) 来计划和估计工作。 您可以设置预测和预算来引导项目执行。 下图显示了一个项目的结构。[![项目结构。](./media/project-structure1.jpg)](./media/project-structure1.jpg)  
 
 ### <a name="create-project-quotations"></a>创建项目报价单
 

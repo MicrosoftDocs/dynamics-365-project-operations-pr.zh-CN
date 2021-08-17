@@ -15,12 +15,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 71f75c1c516ca6e652baf311aa14e0c3fd4ba81e
-ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
+ms.openlocfilehash: e90b84bbfcd007e97e96b294144f058ac73746e3d358437692f0a8e6e92b8de3
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/10/2021
-ms.locfileid: "5998175"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6998315"
 ---
 # <a name="recall-approved-time-or-expense-entries"></a>撤消以前批准的时间或支出条目
 
@@ -98,13 +98,13 @@ ms.locfileid: "5998175"
 
 下图显示撤销了已批准时间条目时发生的更改。
 
-![时间条目状态转换](media/TimeEntryStateTransitions.png)
+![时间条目状态转换。](media/TimeEntryStateTransitions.png)
 
 ## <a name="changes-to-expense-entry-records"></a>对支出条目记录的更改
 
 下图显示撤销了已批准支出条目时发生的更改。
 
-![支出条目状态转换](media/ExpenseEntryStateTransitions.png)
+![支出条目状态转换。](media/ExpenseEntryStateTransitions.png)
 
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

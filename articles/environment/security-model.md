@@ -6,12 +6,12 @@ ms.date: 10/01/2020
 ms.topic: article
 ms.reviewer: kfend
 ms.author: stsporen
-ms.openlocfilehash: ccca2f387ce3abef3b24cb96fdbcc69f3c0c075b
-ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
+ms.openlocfilehash: 2f283771921504dc29ddcc26ca659d4e151598840339bd8c1a857e8bf5dde9ed
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/10/2021
-ms.locfileid: "6002225"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6991475"
 ---
 # <a name="security-model"></a>安全模型
 
@@ -58,7 +58,7 @@ Project Operations 不会通过隐式操作创建组，只会通过推进组建�
 
 **组管理** 对话中的组成员搜索仅限于那些被设置为环境安全组一部分的用户。 有关详细信息，请参阅[控制用户对环境的访问权限：安全组和许可证](/power-platform/admin/control-user-access)。
 
-![组模式](./media/groupsmode.png)
+![组模式。](./media/groupsmode.png)
 
 1. 项目由创建用户创建和负责。
 2. 项目负责人将更新到团队。

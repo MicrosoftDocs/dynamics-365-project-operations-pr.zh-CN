@@ -16,12 +16,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 33c27acc6747c94d76892f41031adc46150da0e0
-ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
+ms.openlocfilehash: 28555f29e65c11255c8966f3d4b900512aa01c30fef0a9cef3a3794edaf92a0b
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/10/2021
-ms.locfileid: "6011540"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6987515"
 ---
 # <a name="business-transactions"></a>业务交易
 
@@ -88,7 +88,7 @@ PSA 将这五种实体中的记录视为业务交易。 唯一区别是实体中
 
 以下示例显示对 PSA 项目生命周期中的时间条目的典型处理。
 
-> ![处理 Project Service 生命周期中的时间条目](media/basic-guide-17.png)
+> ![处理 Project Service 生命周期中的时间条目。](media/basic-guide-17.png)
  
 1. 提交时间条目将导致创建两个日记帐行：一个针对成本，一个针对未记帐销售额。
 2. 最终批准时间条目将导致创建两个实际值：一个针对成本，一个针对未记帐销售额。

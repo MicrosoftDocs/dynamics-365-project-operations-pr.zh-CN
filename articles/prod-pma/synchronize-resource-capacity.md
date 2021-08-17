@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: andchoi
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 8bde3c434680f0651293cbce13ecdce945c3a743
-ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
+ms.openlocfilehash: 5f2e9b8e189be0594569e14ebc41c6ed452afd10aba34ea1397b3e3f66cd2e96
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/10/2021
-ms.locfileid: "5997500"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "7005605"
 ---
 # <a name="synchronize-resource-capacity"></a>同步资源产能
 
@@ -29,7 +29,7 @@ ms.locfileid: "5997500"
 
 资源同步流程帮助确保日历和基础日历信息深入到项目资源计划。 如果更改日历，流程对项目资源计划进行所需的更新。 因为日历的资源信息提前同步，这些流程还有助于改进性能。 因此，资源计划信息的更新更快。 我们建议您批量计划流程，而不是一次计划一个。 否则，某些员工可能忘记上次同步信息的起迄日期。 如果不使用起迄日期，可能在日期同步时发生间隔。
 
-![日历同步](./media/projectresourcing04-1024x471.jpg)
+![日历同步。](./media/projectresourcing04-1024x471.jpg)
 
 ## <a name="synchronize-resource-capacity-roll-ups"></a>同步资源产能汇总
 
@@ -46,7 +46,7 @@ ms.locfileid: "5997500"
     | 开始日期  | 输入资源产能汇总的同步流程的开始日期。 |
     | 结束日期    | 输入资源产能汇总的同步流程的结束日期。 |
 
-[![同步流程](./media/projectresourcing09.jpg)](./media/projectresourcing09.jpg)
+[![同步流程。](./media/projectresourcing09.jpg)](./media/projectresourcing09.jpg)
 
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

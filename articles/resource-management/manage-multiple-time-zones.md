@@ -6,12 +6,12 @@ ms.date: 10/05/2020
 ms.topic: article
 ms.reviewer: kfend
 ms.author: ruhercul
-ms.openlocfilehash: 1480d68105be1041e791de567b180178b330d71e
-ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
+ms.openlocfilehash: d3fc0453e3038839107a98c4179e6bd4aede95cf4a5fcfe2d52f823b83029485
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/10/2021
-ms.locfileid: "5997725"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6988685"
 ---
 # <a name="manage-time-zones"></a>管理时区
 
@@ -32,13 +32,13 @@ _**适用于：** 基于资源/非库存场景的 Project Operations，精简部
 
 - 用户必须配置其设备的时区，使其与系统的 **个性化设置** 中定义的时区匹配。
  
-  ![Windows 10 中的时区设置](media/reconcile-assignments-03.png)
+  ![Windows 10 中的时区设置。](media/reconcile-assignments-03.png)
 
-  ![个性化设置中的时区设置](media/reconcile-assignments-04.png)
+  ![个性化设置中的时区设置。](media/reconcile-assignments-04.png)
  
 - 可预订资源必须至少有一分钟的工作时间与用于定义所请求扩展的分布重叠。 例如，以下资源的工作时间在上午 9:00 到下午 7:00 之间。 
 
-  ![资源分布比较](media/reconcile-assignments-05.png)
+  ![资源分布比较。](media/reconcile-assignments-05.png)
 
 下表显示了：
 
@@ -47,25 +47,25 @@ _**适用于：** 基于资源/非库存场景的 Project Operations，精简部
 - 资源 B：此资源与项目位于不同时区，从其时区的上午 7:00 开始。 但是，预订将在上午 9:00 开始，因为这是工作分布的最早开始时间。
 - 资源 C 和 D：这些资源位于不同时区，彼此之间以及与项目之间都不同，其预订开始时间不早于各自的可用开始时间。
 
-|实体  |日历  |
+|Entity  |日历  |
 |-|-|
-|项目日历模板   | ![项目日历](media/reconcile-assignments-06.png) |
-|资源 A  | ![资源 A 日历](media/reconcile-assignments-06.png) |
-|资源 B  |  ![资源 B 日历](media/reconcile-assignments-07.png) |
-|资源 C  |  ![资源 C 日历](media/reconcile-assignments-08.png) |
-|资源 D  | ![资源 D 日历](media/reconcile-assignments-09.png)  |
+|项目日历模板   | ![项目日历。](media/reconcile-assignments-06.png) |
+|资源 A  | ![资源 A 日历。](media/reconcile-assignments-06.png) |
+|资源 B  |  ![资源 B 日历。](media/reconcile-assignments-07.png) |
+|资源 C  |  ![资源 C 日历。](media/reconcile-assignments-08.png) |
+|资源 D  | ![资源 D 日历。](media/reconcile-assignments-09.png)  |
  
 在导航到 **协调** 视图时，会显示资源分配和关联的预订不足。
 
-![扩展前的协调视图](media/reconcile-assignments-10.png)
+![扩展前的协调视图。](media/reconcile-assignments-10.png)
 
 在对每个资源使用扩展预订功能之后，由于每个资源的工作时间与预订不足的信息重叠，因此成功为每个资源扩展了预订。
 
-![预订扩展后的协调视图](media/reconcile-assignments-11.png) 
+![预订扩展后的协调视图。](media/reconcile-assignments-11.png) 
 
 请注意，仔细查看预订的详细信息会发现预订开始时间有所不同。 预订开始时间不早于分配信息的开始时间，也不早于资源的可用开始时间。
 
-![日程安排板中的新资源预订](media/reconcile-assignments-12.png)
+![日程安排板中的新资源预订。](media/reconcile-assignments-12.png)
 
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

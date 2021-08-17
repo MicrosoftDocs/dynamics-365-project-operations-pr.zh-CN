@@ -14,12 +14,12 @@ search.audienceType:
 search.app:
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 400d817ee7cbae6f6da95db4286ad6c4d6ff349a
-ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
+ms.openlocfilehash: e59e343887ef59ee28bee13346a0c9bf3ad7df27346e2a4f3f02a1e5c08c060f
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/10/2021
-ms.locfileid: "6007985"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6995210"
 ---
 # <a name="add-new-custom-entity-forms-project-service-automation-2x"></a>添加新的自定义实体窗体 (Project Service Automation 2.x)
 
@@ -57,7 +57,7 @@ Dynamics 365 Project Service Automation 依赖商机、报价单、订单和发�
     - 将 **我的项目信息** 窗体作为非托管解决方案的一部分导出，然后在导出的解决方案的 customization.xml 文件中查找 **formId** 值。
     - 在窗体编辑器中打开 **我的项目信息** 窗体，然后在 URL 的 **fromId** 参数旁边查找全局唯一标识符 (GUID)，如下图中所示。
 
-    ![URL 中新窗体的 formId 值](media/how-to-add-custom-forms-in-v2.0.png)
+    ![URL 中新窗体的 formId 值。](media/how-to-add-custom-forms-in-v2.0.png)
 
 5. 通过编辑 msdyn\_/SalesDocument/PSSalesDocumentCustomFormIds.js Web 资源为 **formId** 值创建 **msdyn\_ordertype** 映射。 从资源中删除代码，替换为以下代码。
 

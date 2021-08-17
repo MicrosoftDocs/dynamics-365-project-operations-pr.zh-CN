@@ -16,12 +16,12 @@ search.audienceType:
 search.app:
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 5c8c28839f5e7b3259afbea4ab400d0c4fca95fd
-ms.sourcegitcommit: 0fafe022731f0e1e8693382ff906e3f8541d34ca
+ms.openlocfilehash: d17939777a6670bafc41b372adc922f8bdcc0411f3fdb399e7c9ab01eca87dd0
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 07/07/2021
-ms.locfileid: "6368870"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6998450"
 ---
 # <a name="pricing-and-costing-dimensions-home-page"></a>定价和定成本维度主页
 
@@ -41,7 +41,7 @@ ms.locfileid: "6368870"
 
 PSA 随附了一组默认定价维度。 可通过转到 **Project Service** > **参数** 查看。 在参数记录中 **基于金额的定价维度** 选项卡上，验证角色 **msdyn_resourcecategory** 和资源部门 **msdyn_organizationalunit** 的字段 **适用于销售** 和 **适用于成本** 是否设置为 **是**。 这样就可以为每个角色与部门的组合设置价格和成本。
 
-![“适用于销售”已突出显示的 Project Service 参数的屏幕截图](media/PS-OOB-parameters.png)
+![“适用于销售”已突出显示的 Project Service 参数的屏幕截图。](media/PS-OOB-parameters.png)
 
 > [!IMPORTANT]
 > 如果在 PSA 版本 3 之前已将角色和部门的自带字段用作定价维度，则不存在任何显而易见的更改。 可以继续正常使用 Project Service。 

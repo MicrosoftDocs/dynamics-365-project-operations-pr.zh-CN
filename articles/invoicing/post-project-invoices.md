@@ -7,12 +7,12 @@ ms.topic: article
 ms.reviewer: kfend
 ms.author: sigitac
 ms.custom: intro-internal
-ms.openlocfilehash: 0eab33c8640f665555cf5ec5b0f188e5af65a493
-ms.sourcegitcommit: 0fafe022731f0e1e8693382ff906e3f8541d34ca
+ms.openlocfilehash: 804d42f7e8bfd103b9143dc0f5c7ddecdee9e66e6072c3e7bf76b2a8c549cf55
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 07/07/2021
-ms.locfileid: "6369005"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "7003760"
 ---
 # <a name="invoicing-process-overview"></a>开票流程概述
 
@@ -20,7 +20,7 @@ _**适用于：** 面向资源/非库存场景的 Project Operations_
 
 面向资源/非库存场景的 Project Operations 提供了量身定制的全面功能，可以满足项目经理和应收帐款业务员/项目会计的需求。 对于开票流程，项目经理管理项目记帐积压，应收帐款业务员/项目会计创建合规且准确的面向客户的发票单据。
 
-![开票流关系图](./media/invoicing-flow.png)
+![开票流关系图。](./media/invoicing-flow.png)
 
 项目合同子项定义关联的项目交易的记帐方法。 当项目经理批准时间和支出交易时，系统会将交易记录在 **项目实际值** 实体中，并将信息发送到 Dynamics 365 Finance 中的 **项目管理和会计** 模块。 项目会计然后使用 [Project Operations 集成日记帐](../project-accounting/project-operations-integration-journal.md)来审核和过帐记录。 此日记帐包含项目实际值的重要会计详细信息，如记帐、销售税组、记帐物料销售税组和财务维度。
 

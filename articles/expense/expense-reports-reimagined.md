@@ -2,7 +2,7 @@
 title: 重新打造支出报表
 description: 本主题说明了重新设计和重新构想的支出报表条目体验。
 author: suvaidya
-ms.date: 06/14/2021
+ms.date: 07/08/2021
 ms.topic: article
 ms.prod: ''
 ms.search.form: ''
@@ -13,12 +13,12 @@ ms.search.region: ''
 ms.author: suvaidya
 ms.search.validFrom: ''
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: f8c44f86ff7c00e2d5b927bbe6878be7ab6d7758
-ms.sourcegitcommit: e93f436afbb92a312fc71b6371866f01927e49d5
+ms.openlocfilehash: dba30d16283d820d04d3a1b2fec0acbf30252e87b86c899686ef4df0985ae6ee
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/14/2021
-ms.locfileid: "6250993"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6997820"
 ---
 # <a name="expense-reports-reimagined"></a>重新打造支出报表
 
@@ -57,12 +57,13 @@ ms.locfileid: "6250993"
 | 汇率计算器 | 添加了汇率计算器，可让您计算现金支付多货币交易的汇率。 |
 | 保存和添加新支出行 | 输入新支出时，**保存** 和 **新建** 按钮可用，帮助您快速输入支出行。 |
 | 更清晰地查看拆分和细化行 | 细化和拆分行直接添加到支出列表中，以增加可见性，帮助您轻松确定是否有错误。 |
-| 在细化行中查看子类别详细信息 | 父支出的细化行显示支出报表中的子类别标签，该报表可帮助您快速查看粒度详细信息。|
+| 在细化行中查看子类别详细信息 | 父支出的细化行显示支出报表中的子类别标签。 通过细化，您可以一目了然地查看细粒度细节。|
 | 在细化时显示收据 | 收据可以在细化时显示。 |
 | 预付现金选择 | 选择一个或多个预付现金以完成单个支出交易。 |
 | 预付现金余额 | 在针对批准和付款的预付现金创建支出条目时，实时查看预付现金余额。 |
 
 初始版本关注的是支出输入场景。 任何支出报表的检查或审批场景都将继续使用现有的支出输入页面。
+
 
 以下功能在支出报表重新打造工作区上不受支持，但计划在未来版本中推出： 
 

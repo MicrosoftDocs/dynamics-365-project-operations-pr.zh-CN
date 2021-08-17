@@ -7,12 +7,12 @@ ms.topic: article
 ms.prod: ''
 ms.reviewer: kfend
 ms.author: sigitac
-ms.openlocfilehash: 7fff69f062bf09fe7ceca61d951b535d2e010bfd
-ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
+ms.openlocfilehash: 06471532d2e41bb80ebf92f0a8b93c324b3f6d3e845cea8033d85d291ea237eb
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/10/2021
-ms.locfileid: "5999975"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6986570"
 ---
 # <a name="expense-management-integration"></a>支出管理集成
 
@@ -28,7 +28,7 @@ _**适用于：** 面向资源/非库存场景的 Project Operations_
 2. 在 Finance 中，转到 **支出管理** > **设置** > **共享类别**，选择具有 **支出** 交易类的共享类别。 将 **可以在支出中使用** 参数设置为 **True**，并定义要使用的支出类型。
 3. 使用此共享类别记录，转到 **支出管理** > **设置** > **支出类别**，然后选择 **新建**，创建新的支出类别。 保存记录后，双重写入将使用表映射 **Project Operations 集成项目支出类别导出实体 (msdyn\_expensecategories)** 将此记录同步到 Dataverse。
 
-  ![支出类别集成](./media/DW6ExpenseCategories.png)
+  ![支出类别集成。](./media/DW6ExpenseCategories.png)
 
 Finance and Operations 应用中的支出类别特定于公司或法人。 Dataverse 中有单独的对应的法人特定记录。 当项目经理估算支出时，如果支出类别是为与他们正在处理的项目的负责公司不同的其他公司负责的项目创建的，他们则无法选择该支出类别。 
 
@@ -40,7 +40,7 @@ Finance and Operations 应用中的支出类别特定于公司或法人。 Datav
   - 双重写入使用 **Project Operations 集成项目支出导出实体 (msdyn\_expenses)** 表映射同步到 Dataverse。
   - 在支出报表过帐时，税子分类帐、供应商子分类帐和其他财务过帐将记录为适用。
 
-  ![支出报表集成](./media/DW6ExpenseReports.png)
+  ![支出报表集成。](./media/DW6ExpenseReports.png)
 
 将记录写入 Dataverse 中的 **支出** 实体时，系统将触发该记录的自动审批流程。 如果需要，可以转到 **高级设置** > **系统** > **系统作业**，在 Dataverse 中查看自动审批流程的状态。 审批完成后，将在 **实际值** 实体中创建支出交易类记录。
 

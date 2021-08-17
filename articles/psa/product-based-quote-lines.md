@@ -16,12 +16,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 1bd789f4ee4d5b4603093be24aa25addafa9e8e8
-ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
+ms.openlocfilehash: 3cc2e8788ea699b57ef75903ec3771f2e66fe867a9b8b6328a55b484eb13ede4
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/10/2021
-ms.locfileid: "5998490"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "7008575"
 ---
 # <a name="product-based-quote-lines"></a>基于产品的报价单明细
 
@@ -58,7 +58,7 @@ Dynamics 365 产品目录中的产品具有默认计价单位和计价单位组�
 
 安装 PSA 之后，将在报价单中基于产品的明细内输入默认销售价。 然后将 **定价** 字段设置为 **替代定价**，以便您编辑报价单明细中的默认价格。
 
-> ![设置替代定价](media/basic-guide-10.png)
+> ![设置替代定价。](media/basic-guide-10.png)
  
 ## <a name="quantity-factors-for-products"></a>产品的数量因子
 
@@ -78,7 +78,7 @@ PSA 将验证是否只有数值属性或具有数值数据类型的产品属性�
 
 可以通过编辑产品明细的属性，将 **用户数目** 和 **月数** 属性标记为数量因子。 
 
-> ![将“用户数目”和“月数”标记为数量因子](media/basic-guide-11.png)
+> ![将“用户数目”和“月数”标记为数量因子。](media/basic-guide-11.png)
  
 
 

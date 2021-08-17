@@ -16,12 +16,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 105e3cb2ef7b904e96dc21013906e0b7444e3b88
-ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
+ms.openlocfilehash: 90525cf1e7cd487a03b064466ad1b13f8afb7819443fc4bacf9c7d3eee86f0b6
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/10/2021
-ms.locfileid: "5997185"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6987380"
 ---
 # <a name="create-a-work-hours-template-project-service"></a>创建工作时间模板 (Project Service)
 

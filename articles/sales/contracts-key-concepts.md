@@ -6,12 +6,12 @@ ms.date: 10/07/2020
 ms.topic: article
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: ba7b8955567232a46742bc234adcb2ad1875ddac
-ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
+ms.openlocfilehash: ce84984f873e6336a6d065f0aa7a72f1474404a84d3dbb614c09d58bff66d83d
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/10/2021
-ms.locfileid: "6013520"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6986930"
 ---
 # <a name="concepts-unique-to-project-based-contracts"></a>基于项目的合同所特有的概念
 

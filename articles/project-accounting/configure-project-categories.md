@@ -6,12 +6,12 @@ ms.date: 10/01/2020
 ms.topic: article
 ms.reviewer: kfend
 ms.author: sigitac
-ms.openlocfilehash: d82302f12ba75a92f2de0e9746ad7e61ce0cdc6b
-ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
+ms.openlocfilehash: cea43422469adf12f336f7686814a8199717090c18804d3d0a7509452349566e
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/10/2021
-ms.locfileid: "5995160"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6997100"
 ---
 # <a name="configure-project-categories"></a>配置项目类别
 
@@ -23,7 +23,7 @@ Project Operations 提供强大的功能，可以对项目的收入和支出进�
 
 交易类别是项目交易的基本分组。 在该分组中，存在一组可以在应用程序和模块之间共享的共享类别。 更深入地讲，项目类别是粒度级别最细的类别。 项目类别特定于法人、模块和应用程序。
 
-![交易类别、共享类别和项目类别之间的相关性](media/project-categories.png)
+![交易类别、共享类别和项目类别之间的相关性。](media/project-categories.png)
 
 ## <a name="transaction-categories"></a>交易记录类别
 

@@ -15,12 +15,12 @@ search.audienceType:
 search.app:
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: da8615fa147838d9088c639039d5a2534e662e82
-ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
+ms.openlocfilehash: 9f690dfdb40e962ef329f323716f3f755493805d764dbfaa2d4f9d042231cee7
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/10/2021
-ms.locfileid: "6014285"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "7006775"
 ---
 # <a name="turn-off-a-pricing-dimension"></a>关闭定价维度
 
@@ -32,7 +32,7 @@ ms.locfileid: "6014285"
 
 但是，如果这样做，可能会收到以下错误消息。
 
-![关闭定价维度时可能出现的业务流程错误](media/Business-Process-Error.png)
+![关闭定价维度时可能出现的业务流程错误。](media/Business-Process-Error.png)
 
 
 此错误消息说明存在已经为正在关闭的维度设置的定价记录。 必须先删除引用某个维度的所有 **角色价格** 和 **角色价格加价** 记录，才能将该维度的适用性设置为 **否**。 此规则同时适用于自带定价维度和您可能已创建的任何自定义定价维度。 要执行此项验证的原因是，Project Service 的一项约束要求每个 **角色价格** 记录都必须有唯一的维度组合。 例如，在名称为 **2018 年美国成本费率** 的价目表中，有以下 **角色价格** 行。 

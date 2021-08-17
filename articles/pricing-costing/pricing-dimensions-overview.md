@@ -8,12 +8,12 @@ ms.prod: ''
 ms.reviewer: kfend
 ms.author: rumant
 ms.custom: intro-internal
-ms.openlocfilehash: e8d62dcf9975e5427926210a881dec2c256f1b8b
-ms.sourcegitcommit: 0fafe022731f0e1e8693382ff906e3f8541d34ca
+ms.openlocfilehash: 4b3b71c0b64a24f6914c70c4383eee654e7d4947ececaf9b4e6394f45a081a4c
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 07/07/2021
-ms.locfileid: "6368465"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "7001960"
 ---
 # <a name="pricing-dimensions-overview"></a>定价维度概述
 
@@ -33,7 +33,7 @@ _**适用于：** 基于资源/非库存场景的 Project Operations，精简部
 
 Dynamics 365 Project Operations 随附了一组默认定价维度。 可通过转到 **Project Operations** > **参数** 查看这些定价维度。 在参数记录中 **基于金额的定价维度** 选项卡上，验证角色 **msdyn_resourcecategory** 和资源部门 **msdyn_organizationalunit** 的字段 **适用于销售** 和 **适用于成本** 是否设置为 **是**。 启用这些字段后，您可以为每个角色与部门的组合设置价格和成本。
 
-![“适用于销售”已突出显示的 Project Service 参数的屏幕截图](media/PS-OOB-parameters.png)
+![“适用于销售”已突出显示的 Project Service 参数的屏幕截图。](media/PS-OOB-parameters.png)
 
 如果需要使用更多属性制订资源的价格或成本，可以创建自定义的字段、实体和维度。 有关详细信息，请参阅以下文主题。 
   

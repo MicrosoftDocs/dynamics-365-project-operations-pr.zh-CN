@@ -14,12 +14,12 @@ search.audienceType:
 search.app:
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: b0d50733340f277453f4ef5b52bdd3ee089449cd
-ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
+ms.openlocfilehash: d04561fb6bcbc64f6ad3ea922bff1912824be64c6bb2b18cddd95e9b1b5c7850
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/10/2021
-ms.locfileid: "6012800"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6988775"
 ---
 # <a name="update-plug-in-attributes-to-include-new-pricing-dimensions"></a>更新插件属性以包括新定价维度
 
@@ -42,25 +42,25 @@ ms.locfileid: "6012800"
 1. 打开 **PluginRegistrationTool**，然后连接到您的在线实例。
 2. 单击 **搜索**，然后搜索要更新的插件。
 
- ![搜索树的屏幕截图](media/PRT-1.png)
+ ![搜索树的屏幕截图。](media/PRT-1.png)
 
 3. 找到插件后，将其选中，然后单击 **在主窗体中选择**。
 
 4. 选择要更新的插件的步骤，然后选择 **更新**。
 
- ![要更新的插件的屏幕截图](media/PRT-2.png)
+ ![要更新的插件的屏幕截图。](media/PRT-2.png)
  
 5. 在更新窗口中，单击筛选属性中的省略号 (**...**)。
 
- ![更新现有步骤配置信息的屏幕截图](media/PRT-3.png)
+ ![更新现有步骤配置信息的屏幕截图。](media/PRT-3.png)
  
 6. 选中定价属性复选框。
 
- ![显示定价属性的复选框选择情况的屏幕截图](media/PRT-4.png)
+ ![显示定价属性的复选框选择情况的屏幕截图。](media/PRT-4.png)
 
 7. 单击 **确定** 关闭页面，然后选择 **更新步骤**。
 
- ![显示“更新步骤”按钮的屏幕截图](media/PRT-5.png)
+ ![显示“更新步骤”按钮的屏幕截图。](media/PRT-5.png)
  
 8. 对第二个插件 (**PreOperationQuoteLineDetail - Update of msdyn_quotelinetransaction**) 重复此流程。
 

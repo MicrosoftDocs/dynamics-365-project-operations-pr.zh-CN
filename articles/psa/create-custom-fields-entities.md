@@ -15,12 +15,12 @@ search.audienceType:
 search.app:
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 3d838bde8a3d7cbc15e06fb3289924468c284a8a
-ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
+ms.openlocfilehash: f501bcc106a296f35bba996b6ab3a8b758cefb1926033faf04ee23c42bc94d39
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/10/2021
-ms.locfileid: "5998940"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6992420"
 ---
 # <a name="create-custom-fields-and-entities"></a>创建自定义字段和实体 
 
@@ -43,7 +43,7 @@ ms.locfileid: "5998940"
 2. 在解决方案资源管理器中左侧导航窗格上，选择 **实体**。
 3. 单击 **新建** 创建一个IE名称为 **标准标题** 的新实体。 输入其余所需信息，然后单击 **保存**。
 
-> ![标准标题实体定义](media/Standard-Title-entity-definition.png)
+> ![标准标题实体定义。](media/Standard-Title-entity-definition.png)
 
 
 ### <a name="option-set-based-dimensions"></a>基于选项集的维度 
@@ -54,9 +54,9 @@ ms.locfileid: "5998940"
 2. 在解决方案资源管理器中左侧导航窗格上，选择 **选项集**。 
 3. 单击 **新建** 创建一个新的选项集，输入其余必需信息，然后单击 **保存**。
 
-> ![称为“资源工作位置”且基于选项集的定价维度 ](media/Option-set-PD-called-Resource-Work-Location.png)
+> ![称为“资源工作位置”且基于选项集的定价维度。](media/Option-set-PD-called-Resource-Work-Location.png)
 
-> ![称为“资源工作时间”且基于选项集的定价维度 ](media/Option-set-PD-called-Resource-Work-Hours.PNG)
+> ![称为“资源工作时间”且基于选项集的定价维度。](media/Option-set-PD-called-Resource-Work-Hours.PNG)
 
 
 ## <a name="create-data-for-entity-based-dimensions"></a>为基于实体的维度创建数据
@@ -68,7 +68,7 @@ ms.locfileid: "5998940"
 3. 关闭窗体。 
 4. 重复步骤 1 - 3 再为“高级系统工程师”创建一个标准标题。
 
-> ![标准标题实体的示例数据 ](media/ST-data.png)
+> ![标准标题实体的示例数据。](media/ST-data.png)
 
 
 

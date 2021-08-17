@@ -16,12 +16,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 5f01ba14baa0a2378b0a230a46aed3a682342ce6
-ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
+ms.openlocfilehash: 58d5aa68dd5af7fc2b39caac429948e55bbc94c39dfb7fc9ae15a37cc3c92ce6
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/10/2021
-ms.locfileid: "6014195"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "7000520"
 ---
 # <a name="sales-processes"></a>销售流程
 
@@ -39,7 +39,7 @@ ms.locfileid: "6014195"
 
 下图显示基于项目的组织中的典型销售流程。
 
-> ![基于项目的组织中的销售流程](media/basic-guide-1.png)
+> ![基于项目的组织中的销售流程。](media/basic-guide-1.png)
 
 ## <a name="estimating-a-sale"></a>估算销售
 可以根据以前交付的项目和项目的复杂程度估算销售值。 对于涉及之前项目的延伸的项目，或供应商的专业知识水平很高且使用著名工作模板的项目，可使用更简单的估算流程。 更复杂的项目通常采用更长的采购程序。 因此，销售估算流程中的阶段更多。 在流程早期，销售团队使用客户经理和行业专家 (SME) 输入的内容开始为报价的每项不同的工作组成部分创建高级别的估算。 这些工作组成部分表示为报价单明细。 
@@ -50,7 +50,7 @@ ms.locfileid: "6014195"
 
 也可以在一个商机实体类型下创建备用报价单，或将系统设置为赢得报价单时创建项目合同。 在此情况下，可以向项目合同记录附加代表 SOW 的 Word 文档。
 
-![结束报价单以创建项目合同](media/basic-guide-2.png)
+![结束报价单以创建项目合同。](media/basic-guide-2.png)
 
 ## <a name="configuring-the-sales-process"></a>配置销售流程
 可以使用 Microsoft Dynamics 365 中的业务流程 (BPF) 配置销售流程。 BPF 为销售员提供引导式界面，用于在公司的典型阶段中向其移动交易。
@@ -66,7 +66,7 @@ ms.locfileid: "6014195"
 
 这六个阶段带有 V 形控件 (\>)，在创建的每个商机实体类型中选择后可展开。
 
-![Dynamics 365 中的业务流程配置](media/basic-guide-3.png)
+![Dynamics 365 中的业务流程配置。](media/basic-guide-3.png)
  
 您的组织可能使用不同实体表示发展的同一个交易。 在销售流程早期，交易由商机实体表示。 随着时间过去和更多详细信息出现，可以使用高级别估算创建一个或多个报价单。 如果内部利益干系人和客户利益干系人审核其中一个报价单，报价单实体将表示该交易。 客户接受报价单之后，项目合同或 SOW 表示交易。 为了支持此行为，构造了 BPF，以便将流程中的每个阶段链接到不同数据库表。
 
@@ -77,7 +77,7 @@ ms.locfileid: "6014195"
 > [!NOTE]
 > PSA 有针对商机、报价单、订单和发票实体的特定页面。 必须使用这些实体的项目信息页创建项目服务商机、报价单、订单和发票。 如果使用其他页创建记录，则不能从 **项目信息** 页打开记录。 如果要从 **项目信息** 页打开记录，则必须使用 **项目信息** 页删除该记录和重新创建。 在 **项目信息** 页中，这些实体类型中每一个的业务逻辑可以确保正确设置记录的 **类型** 字段，并且正确初始化所有必需概念。
 
-> ![新订单的项目信息](media/basic-guide-4.png)
+> ![新订单的项目信息。](media/basic-guide-4.png)
  
 ## <a name="differences-between-project-service-automation-and-sales"></a>Project Service Automation 与 Sales 之间的差别
 尽管 PSA 中的销售流程使用 Sales 中的销售流程的基本功能，因为基于项目的组织的业务实践变化形式，具有某些关键差别。 以下是一些示例：

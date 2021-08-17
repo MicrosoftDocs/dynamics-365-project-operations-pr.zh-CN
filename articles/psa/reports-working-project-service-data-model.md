@@ -16,12 +16,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 37c7b15daa75cc3ba53ff6a3bcc0ab54717aa62d
-ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
+ms.openlocfilehash: 375850b893b7afead8371824606b422d3f36c36de4da908fdf76666bd1b415ee
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/10/2021
-ms.locfileid: "6008795"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "7002410"
 ---
 # <a name="working-with-the-project-service-automation-data-model"></a>使用 Project Service Automation 数据模型
 
@@ -53,7 +53,7 @@ PSA 还为 Dynamics 365 数据模型新增了基于报价单的实体。 以下�
 
 PSA 为报价单增加的其他实体是 **报价单明细项目价目表**、**报价单明细资源类别** 和 **报价单明细交易类别**。
 
-![显示报价单、报价单行和项目关系的关系图](media/PS-Reporting-image2.png "显示报价单、报价单行和项目关系的关系图")
+![显示报价单、报价单行和项目关系的关系图。](media/PS-Reporting-image2.png "显示报价单、报价单行和项目关系的关系图")
 
 ## <a name="reporting-on-project-contracts"></a>项目合同的报告
 
@@ -69,7 +69,7 @@ PSA 还新增了针对项目合同的实体。 以下是一些示例：
 
 PSA 为合同增加的其他实体是 **项目合同明细项目价目表**、**项目合同明细资源类别** 和 **项目合同明细交易类别**。
 
-![显示订单、订单行和项目关系的关系图](media/PS-Reporting-image3.png "显示订单、订单行和项目关系的关系图")
+![显示订单、订单行和项目关系的关系图。](media/PS-Reporting-image3.png "显示订单、订单行和项目关系的关系图")
 
 ## <a name="reporting-on-projects"></a>项目的报告
 
@@ -81,7 +81,7 @@ PSA 为合同增加的其他实体是 **项目合同明细项目价目表**、**
 - **资源要求** – 此实体中包含针对任何通用资源团队成员的要求。
 - **估算** 和 **估算明细** – 这些资源之间存在标头/明细关系，其中包含项目的支出估算。 任务估算存储在 **资源估算** 视图中。
 
-![显示资源要求和项目关系的关系图](media/PS-Reporting-image4.png "显示资源要求和项目关系的关系图")
+![显示资源要求和项目关系的关系图。](media/PS-Reporting-image4.png "显示资源要求和项目关系的关系图")
 
 ## <a name="reporting-on-resources"></a>资源的报告
 
@@ -92,7 +92,7 @@ PSA 为合同增加的其他实体是 **项目合同明细项目价目表**、**
 - **可预订资源类别** – 此实体表示可预订资源的角色。
 - **可预订资源预订** – 此实体表示为项目预订的资源时间。 每项预订都有标头实体和明细实体，而每项明细都有用于表示预订状态的状态。
 
-![显示可预订资源特征关系的关系图](media/PS-Reporting-image5.png "显示可预订资源特征关系的关系图")
+![显示可预订资源特征关系的关系图。](media/PS-Reporting-image5.png "显示可预订资源特征关系的关系图")
 
 ## <a name="reporting-on-actual-transactions"></a>实际交易的报告
 
@@ -120,7 +120,7 @@ PSA 为合同增加的其他实体是 **项目合同明细项目价目表**、**
 
 **交易起源** 实体记录 **实际值** 记录的来源，而 **交易连接** 实体则记录 **实际值** 记录的相关记录。 此外，**实际值** 记录中包含对项目、项目合同（订单）、可预订资源和客户的引用。
 
-![显示事务连接、原始和实际关系的关系图](media/PS-Reporting-image6.png "显示事务连接、原始和实际关系的关系图")
+![显示事务连接、原始和实际关系的关系图。](media/PS-Reporting-image6.png "显示事务连接、原始和实际关系的关系图")
 
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

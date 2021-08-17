@@ -7,12 +7,12 @@ ms.topic: article
 ms.prod: ''
 ms.reviewer: kfend
 ms.author: sigitac
-ms.openlocfilehash: 6992498df5beb97d4e7197e301f093320dc28a23
-ms.sourcegitcommit: 3abf1e67938d91bd826b025ae3187cd313f556b9
+ms.openlocfilehash: 8cff4c37e1c2df29041ef86cdcf05afa6093f890565a855024202e87fd533ea5
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 07/07/2021
-ms.locfileid: "6433642"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "7009205"
 ---
 # <a name="whats-new-july-2021---project-operations-lite-deployment"></a>2021 年 7 月新增功能 - Project Operations 精简部署
 
@@ -20,7 +20,7 @@ _适用范围：精简部署 - 估价交易开票_
 
 此主题适用于以下 Dynamics 365 Project Operations 组件和版本：
 
-  - Dataverse 环境中的 Project Operations 版本 4.12.0.148。
+  - Dataverse 环境上的 Project Operations 版本 4.12.0.148 或 4.12.0.152。
 
 ## <a name="quality-updates"></a>质量更新
 | **功能区域**              | **参考编号** | **质量更新**                                                                                                                                                                                             |
@@ -59,3 +59,4 @@ _适用范围：精简部署 - 估价交易开票_
 | 常规                       | 2296857              | 长时间运行的作业的进度跟踪。                                                                                                                                                                        |
 | 常规                       | 2253682              | 当在没有双重写入业务流程解决方案的环境中安装双重写入核心时，不应安装 Project Operations 双重写入解决方案。                                                |
 | 常规                       | 2316420              | 如果更改应用程序用户的业务部门，Project Service 核心预配将失败。                                                                                                                     |
+| 常规                       | 2376405              | 修复了发布者驱动的更新问题（质量更新在 4.12.0.152 版本中可用）                                                                                                                     |

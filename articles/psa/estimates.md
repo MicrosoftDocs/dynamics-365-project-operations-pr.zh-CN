@@ -16,12 +16,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: fcb3c85af092667cc5a473ab4674c3be47e33327
-ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
+ms.openlocfilehash: ebb59d2b38bf99aed15206646e77c74003aba2a92a6d8d262e6e7b2017285ed3
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/10/2021
-ms.locfileid: "6007580"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6992375"
 ---
 # <a name="estimates"></a>估算
 
@@ -83,24 +83,24 @@ PSA 不支持更改合同或项目中的订单。
 1. 打开 PluginRegistrationTool，然后连接到您的在线实例。
 2. 选择 **搜索**，然后搜索要更新的插件。
 
-    ![“搜索树”对话框](media/basic-guide-19.png)
+    ![“搜索树”对话框。](media/basic-guide-19.png)
 
 3. 选择插件，然后在主页中选择 **选择**。
 4. 选择要更新的插件的步骤，然后选择 **更新**。
 
-    ![在插件中选择步骤](media/basic-guide-20.png)
+    ![在插件中选择步骤。](media/basic-guide-20.png)
 
 5. 在 **更新现有步骤** 对话框的 **筛选属性** 字段中，选择省略号按钮 (**...**)：
  
-    ![“更新现有步骤”对话框](media/basic-guide-21.png)
+    ![“更新现有步骤”对话框。](media/basic-guide-21.png)
 
 6. 在 **选择属性** 对话框中，选中自定义属性的复选框。
 
-    ![“选择属性”对话框](media/basic-guide-22.png)
+    ![“选择属性”对话框。](media/basic-guide-22.png)
 
 7. 选择 **确定** 关闭对话框，然后选择 **更新步骤**。
  
-    ![“更新步骤”按钮](media/basic-guide-23.png)
+    ![“更新步骤”按钮。](media/basic-guide-23.png)
 
 8. 对第二个插件重复步骤 1 到 7。
 9. 关闭 PluginRegistrationTool。

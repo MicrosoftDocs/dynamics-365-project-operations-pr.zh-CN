@@ -17,12 +17,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: ee6fda5da83e4cb3c4910af49c33243f39fc73d7
-ms.sourcegitcommit: 0fafe022731f0e1e8693382ff906e3f8541d34ca
+ms.openlocfilehash: 06894a64e4d96ec14799b528ff17b92fbb0d36ba8fdbc9b58abb892563e822b5
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 07/07/2021
-ms.locfileid: "6368915"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "7000250"
 ---
 # <a name="what-is-dynamics-365-project-service-automation"></a>什么是 Dynamics 365 Project Service Automation？
 
@@ -79,10 +79,10 @@ Project Service Automation (PSA) 应用程序帮助组织有效跟踪、管理�
 
  [白皮书（应用程序版本 2.x 或 1.x）](../psa/white-papers.md)
 
- [面向开发人员的说明（应用程序版本 2.x）](../psa/developer-guides/add-custom-qoi-forms-v2.x.md)
+ [开发人员注意事项（应用版本 2.x）](../psa/developer-guides/add-custom-qoi-forms-v2.x.md)
 
  ## <a name="watch-a-2-minute-overview-video"></a>观看 2 分钟的概述视频
- <a name="heroArea"></a> [![ProjectService_IntroVideo](../psa/media/project-service-intro-video.png "ProjectService_IntroVideo")](https://go.microsoft.com/fwlink/p/?LinkId=799457)
+ <a name="heroArea"></a> [![ProjectService_IntroVideo](../psa/media/project-service-intro-video.png "ProjectService_IntroVideo."](https://go.microsoft.com/fwlink/p/?LinkId=799457)
 
 
 

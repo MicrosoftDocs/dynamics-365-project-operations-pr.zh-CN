@@ -16,12 +16,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 3be18adfa1d346bdabae7e89375ca2c5a2dbda95
-ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
+ms.openlocfilehash: dccb01e5d1c032039cac980061d93b443ef0f9e1296cdd2d8efd7b1bf7338ce0
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/10/2021
-ms.locfileid: "6009605"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "7005065"
 ---
 # <a name="organizational-units"></a>部门 
 
@@ -53,7 +53,7 @@ PSA 中的部门具有专门的货币和专门的成本价目表。
 - **合同签订部门** – 代表主要负责赢得销售和管理对客户的工作和服务交付的公司组或部门的部门。 合同签订部门通过 **商机**、**报价单**、**项目合同** 和 **项目** 页标题部门中的 **合同签订部门** 字段识别。
 - **资源单位** – 资源所属部门或将资源分派给的部门。 这种部门可以将自己的资源提供给工作说明书 (SOW) 中和合同签订部门负责的项目中的某些角色。
 
-> ![合同签订部门和资源部门](media/advanced-1.png)
+> ![合同签订部门和资源部门。](media/advanced-1.png)
 
 ## <a name="organizational-unit-faqs"></a>部门常见问题
 

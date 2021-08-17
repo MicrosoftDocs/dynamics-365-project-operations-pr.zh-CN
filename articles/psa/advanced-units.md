@@ -16,12 +16,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: e981f39bbb6ca4277778382a5816952df2a8a1fb
-ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
+ms.openlocfilehash: 55696b32b7b37048ba4c292b33d93b7b12614f2186fb972a2c3f3732e5512c82
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/10/2021
-ms.locfileid: "6009560"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6987560"
 ---
 # <a name="unit-groups-and-units"></a>计价单位组和计价单位
 
@@ -44,7 +44,7 @@ ms.locfileid: "6009560"
 
 下图显示 **天** 计价单位的示例设置，其中，**数量** 字段显示一天中的小时数，以及 **周** 计价单位的示例设置，其中，**数量** 字段显示一周中的天数。
 
-> ![计价单位组：“信息”页](media/advanced-2.png)
+> ![计价单位组：“信息”页。](media/advanced-2.png)
 
 ## <a name="using-units-and-unit-groups"></a>使用计价单位和计价单位组
 

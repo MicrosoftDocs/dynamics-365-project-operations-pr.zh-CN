@@ -16,12 +16,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: a46ec93744067205e1aa8c99dba52967a1780957
-ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
+ms.openlocfilehash: c98708cf91f9c5d078f3a1d3d619c9ca93cffa3e6bbca34511947b602a1c678a
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/10/2021
-ms.locfileid: "6014900"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6995435"
 ---
 # <a name="quotes-and-quote-lines"></a>报价单和报价单明细
 
@@ -84,7 +84,7 @@ PSA 中基于项目的报价单明细采用以下记帐方法：
 
 可以为每项报价单明细关联这些交易分类中的一种或多种。 报价单赢单后，将把交易分类与报价单明细之间关联转给合同明细。
  
-> ![将交易类型映射到报价单和合同明细的屏幕截图](media/basic-guide-5.png)
+> ![将交易类型映射到报价单和合同明细的屏幕截图。](media/basic-guide-5.png)
   
 例如，报价单中可能包含以下两项报价单明细： 
 - 使用了其中适用时间和费用交易分类的时间和材料记帐方法的咨询工作。 例如，根据所用时间和材料向客户开 **Dynamics AX 实施** 示例项目所有时间和费用交易的发票。 

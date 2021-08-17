@@ -6,12 +6,12 @@ ms.date: 11/18/2020
 ms.topic: article
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: d46d4659a5f60226f80b29f3dd8607249cb91ac2
-ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
+ms.openlocfilehash: 1e8487d3d32acab294bb2de16fb0278f357f774e62b553eb0c1ebd5b6246e332
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/10/2021
-ms.locfileid: "6011180"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6996245"
 ---
 # <a name="use-a-bookable-resource-as-a-pricing-dimension"></a>将可预订资源用作定价维度
 
@@ -64,18 +64,18 @@ ms.locfileid: "6011180"
 1. 请在 **定价维度** 网格中双击行以打开 **msdyn_bookableresource** 的维度页。
 2. 在维度页的 **相关** 选项卡上，选择 **定价维度字段名称**。
 
-  ![“定价维度字段名称”选项卡](media/PD-fieldname.png)
+  ![“定价维度字段名称”选项卡。](media/PD-fieldname.png)
 
 3. 在打开的关联视图中，选择 **添加新定价维度字段名称**。
 
-  ![添加新定价维度字段名称](media/Add-NewPD-fieldname.png)
+  ![添加新定价维度字段名称。](media/Add-NewPD-fieldname.png)
 
   此选项用于打开 **msdyn_bookableresource** 的 **新定价维度字段名称** 页。 
 
 4. 在 **新定价维度字段名称** 页上，将 **msdyn_projectteam** 添加到 **实体逻辑名称** 中。
 5. 向 **字段名称** 中添加 **msdyn_bookableresourceid**。
 
- ![“新定价维度字段名称”窗体](media/PD-fieldname-Added.png)
+ ![“新定价维度字段名称”窗体。](media/PD-fieldname-Added.png)
 
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

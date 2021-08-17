@@ -6,12 +6,12 @@ ms.date: 04/22/2021
 ms.topic: article
 ms.reviewer: kfend
 ms.author: sigitac
-ms.openlocfilehash: b24a20d47eefa43b2e4e184a377decdb280d436d
-ms.sourcegitcommit: fd6e9ff78392c7bac35591d9130c00d2750438ae
+ms.openlocfilehash: c8bc389c83eaf2a7720ef3fa969c677eed11e7959199b5f0083df5bf3b43ea43
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/12/2021
-ms.locfileid: "6025763"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "7003805"
 ---
 # <a name="project-operations-dual-write-map-versions"></a>Project Operations 双重写入映射版本
 
@@ -32,7 +32,7 @@ _**适用于：** 面向资源/非库存场景的 Project Operations_
 
 1. 从映射列表中，选择具有所有先决条件的分类帐 **(msdyn\_ledgers)** 映射，然后选中 **初始同步** 复选框。 在 **初始同步的主体** 字段中，为分类帐映射和所有必备映射都选择 **Finance and Operations 应用**。 选择 **运行**。
 
-![分类帐映射同步](media/DW6.png)
+![分类帐映射同步。](media/DW6.png)
 
 2. 对上表中列出的所有其余表映射执行相同的步骤。 运行这些映射时，不要选中 **初始同步** 复选框。
 
@@ -65,7 +65,7 @@ _**适用于：** 面向资源/非库存场景的 Project Operations_
 
 1. 为 **所有公司 (bookableresourcecategories)** 表映射启用项目资源角色，因为此映射需要初始同步。在 **初始同步的主体** 字段中，选择 **Common data service**。 
 
- ![资源角色表映射同步](media/6ResourceInitialSync.jpg)
+ ![资源角色表映射同步。](media/6ResourceInitialSync.jpg)
 
  等待映射的状态进入 **正在运行**，进行下一步。
 

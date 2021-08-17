@@ -6,12 +6,12 @@ ms.date: 07/02/2021
 ms.topic: article
 ms.reviewer: kfend
 ms.author: sigitac
-ms.openlocfilehash: 2b5a65f5e29915c349d40400ebbf3e4923b36a67
-ms.sourcegitcommit: 52b26950bb3b1596ad81aa4ff91745ee9615d1b0
+ms.openlocfilehash: 5ba43ba9f917da068415fb62067ab73433b701139ee07014b6bd8c02612008ce
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 07/02/2021
-ms.locfileid: "6334771"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6991520"
 ---
 # <a name="sign-up-for-a-preview-subscription---lite"></a>注册获取预览订阅 - 精简 
 
@@ -52,16 +52,16 @@ ms.locfileid: "6334771"
 
 1. 按照主题 [Dataverse 部署模型](lite-deployment.md)中的说明预配新的 Project Operations Dataverse 部署环境。 选择环境类型时，请确保使用 **试用(基于订阅)**。
 
-  ![新环境](./media/19CreateEnvironment.png)
+  ![新建环境。](./media/19CreateEnvironment.png)
 
 2. 选择 **启用 Dynamics 365 应用** 设置，将 **自动部署这些应用** 留空。  
 3. 选择 **保存** 创建环境。
 
-  ![添加数据库](./media/20CreateEnvironment1.png)
+  ![添加数据库。](./media/20CreateEnvironment1.png)
 
 4. 创建该环境后，安装 **Microsoft Dynamics 365 Project Operations** 解决方案。 
 
-![安装解决方案](./media/21InstallSolution.png)
+![安装解决方案。](./media/21InstallSolution.png)
 
 ## <a name="install-a-cds-configuration-and-setup-demo-data"></a>安装 CDS 配置和设置演示数据
 

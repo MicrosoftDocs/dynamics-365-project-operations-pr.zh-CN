@@ -7,12 +7,12 @@ ms.topic: article
 ms.reviewer: kfend
 ms.author: ruhercul
 ms.custom: intro-internal
-ms.openlocfilehash: 41265534661e51565bf31105ef69cec9b3b181c3
-ms.sourcegitcommit: 0fafe022731f0e1e8693382ff906e3f8541d34ca
+ms.openlocfilehash: 5c0f98a6f08129ebef9b6d3fed1cc85969aa347c815a643d3c8dd639b42c0e8c
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 07/07/2021
-ms.locfileid: "6367880"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "7008215"
 ---
 # <a name="resource-management-modes-overview"></a>资源管理模式概述
 
@@ -24,7 +24,7 @@ Dynamics 365 Project Operations 支持两种模式，以便您执行整个预订
 ## <a name="central-mode"></a>集中模式
 对于将资源集中分配到项目的组织，集中模式提供了一种确保项目经理可以在项目级别定义资源要求的方法。 资源要求的完成将委派给资源经理。 项目经理可以接受或拒绝资源经理建议的资源。
 
-![集中模式](./media/resource-management-central.png)
+![集中模式。](./media/resource-management-central.png)
 
 若要使用集中模式管理资源，请参阅：
 
@@ -37,7 +37,7 @@ Dynamics 365 Project Operations 支持两种模式，以便您执行整个预订
 ## <a name="hybrid-mode"></a>混合模式
 对于需要灵活分配资源的组织，混合模式让项目经理和资源经理都可以预订资源。
 
-![混合模式](./media/resource-management-hybrid.png)
+![混合模式。](./media/resource-management-hybrid.png)
 
 除了受支持的集中模式流程之外，另请参阅以下主题来在混合模式下管理所有其他支持的预订流：
 

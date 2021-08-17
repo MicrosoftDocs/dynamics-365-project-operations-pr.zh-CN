@@ -6,12 +6,12 @@ ms.date: 10/06/2020
 ms.topic: article
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: 6bb675a6e0b71e88a8176bee2f91152faa53997f
-ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
+ms.openlocfilehash: bf3d10cc4a742f7247586d09f5b209cbfdbbd790bdf97e09da06d9db583e61a5
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/10/2021
-ms.locfileid: "5996375"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6992015"
 ---
 # <a name="manage-multiple-customers-on-project-based-quote-lines"></a>管理基于项目的报价单明细上的多个客户
 

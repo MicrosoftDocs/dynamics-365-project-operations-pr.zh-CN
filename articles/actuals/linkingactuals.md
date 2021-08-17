@@ -7,12 +7,12 @@ ms.topic: article
 ms.prod: ''
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: 9fc49211f3c2c79e18f6dd18e9a687091793cad0
-ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
+ms.openlocfilehash: b5a70d2c2b3f98028b4e4998ed25ab73a275c66e4b8137eb573b943658a1a41e
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/10/2021
-ms.locfileid: "5996735"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6991745"
 ---
 # <a name="link-actuals-to-original-records"></a>将实际值链接到原始记录
 
@@ -77,7 +77,7 @@ Project Operations 将这五种实体中的记录视为业务交易。 唯一区
 
 以下示例显示对 Project Operations 项目生命周期中的时间条目的典型处理。
 
-> ![处理 Project Service 生命周期中的时间条目](media/basic-guide-17.png)
+> ![处理 Project Service 生命周期中的时间条目。](media/basic-guide-17.png)
  
 1. 时间条目提交操作将创建两个日记帐行：一个成本行，一个未记帐销售额行。
 2. 最终批准时间条目将创建两个实际值：一个成本实际值，一个未记帐销售额实际值。

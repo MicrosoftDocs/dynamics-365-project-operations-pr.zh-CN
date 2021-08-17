@@ -6,12 +6,12 @@ ms.date: 03/22/2021
 ms.topic: article
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: cb76987cf15a14639f34cd3b67c1296a020b2e3e
-ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
+ms.openlocfilehash: d37df64db1808722b7851c952c20be731aa2d670fe066c02ef90386712487407
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/10/2021
-ms.locfileid: "5996510"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6987785"
 ---
 # <a name="labor-cost-tracking-on-projects"></a>项目人工成本跟踪
 

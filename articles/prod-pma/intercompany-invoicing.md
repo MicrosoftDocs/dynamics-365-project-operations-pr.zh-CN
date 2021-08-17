@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: andchoi
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 9d1debf8f67b7dbe7752075c6f8e5f2cdd37a3ae
-ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
+ms.openlocfilehash: 7c201ccec2069869707409ff6a9236e81e125f06b391c67202927f5c038787d8
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/10/2021
-ms.locfileid: "6002765"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6995795"
 ---
 # <a name="intercompany-invoicing"></a>内部公司开票
 
@@ -33,7 +33,7 @@ ms.locfileid: "6002765"
 
 下图显示典型的情况：两个法人，SI FR（借入法人）和 SI USA（借出法人）共享资源以为客户 A 交付项目。这种情况下，SI FR 被签约提供工作给客户 A。 
 
-[![内部公司开票示例](./media/interco.invoicing-01.jpg)](./media/interco.invoicing-01.jpg) 
+[![内部公司开票示例。](./media/interco.invoicing-01.jpg)](./media/interco.invoicing-01.jpg) 
 
 目标是进行更灵活更强大的成本控制、收入确认、纳税和转让内部公司项目交易的价格。 此外，还提供了以下功能︰
 

@@ -16,12 +16,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 7c7ca0dbaeb8938fc2254da782b359a5dd29e6da
-ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
+ms.openlocfilehash: 518edcb210e33a7922e8920f896479a79d264ab62742641cc66b7c3a33b6c6e8
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/10/2021
-ms.locfileid: "6015005"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6985130"
 ---
 # <a name="manage-resource-requests-project-service"></a>管理资源请求 (Project Service)
 
@@ -43,7 +43,7 @@ ms.locfileid: "6015005"
   
    -   单击 **筛选器** 显示 **筛选器** 窗格，在其中按部门、角色、技能或其他属性筛选结果。  
   
-       ![Project Service 资源请求屏幕](../psa/media/project-service-resource-request-screen.png "Project Service 资源请求屏幕")  
+       ![Project Service 资源请求屏幕。](../psa/media/project-service-resource-request-screen.png "Project Service 资源请求屏幕")  
   
 3. 在您要预订的资源的日历中，选择预订资源的时间段，然后单击 **预订** 以预订资源或 **建议预订** 以建议预订并让请求人进行批准。 预订资源时，可以软预订，也可以硬预订。  
   

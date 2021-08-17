@@ -16,12 +16,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 7d9ebc0b283731356e0b9b26f2d665a12183519f
-ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
+ms.openlocfilehash: 28dc05d50850fed5241c5360ccbeaeb1f4d9d7fc3916bd2a3cd1bb6f43457dd1
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/10/2021
-ms.locfileid: "6014825"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "7000745"
 ---
 # <a name="recording-actuals"></a>记录实际值 
 
@@ -31,7 +31,7 @@ ms.locfileid: "6014825"
 
 记录项目期间发生的所有财务交易。 这些交易记录为 **实际值**。 下表显示创建的不同类型的实际值，具体取决于项目是时间和材料、固定价格还是内部项目，或者是否处于售前阶段。
 
-> ![显示如何记录实际值的表](media/advanced-table2.png)
+> ![显示如何记录实际值的表。](media/advanced-table2.png)
 
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

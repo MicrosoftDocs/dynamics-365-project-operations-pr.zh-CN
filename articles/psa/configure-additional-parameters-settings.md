@@ -16,12 +16,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: f4e883e71beacffb6e2b0b56967046c3f38f7d50
-ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
+ms.openlocfilehash: fb23569db5136cd1b8b7d2f5735de8a91b441b76ab7e027d27087b3785f4636e
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/10/2021
-ms.locfileid: "6001100"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "7000430"
 ---
 # <a name="configure-additional-parameter-settings-project-service"></a>配置其他参数设置 (Project Service)
 

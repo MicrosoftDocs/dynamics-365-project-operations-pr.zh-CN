@@ -16,12 +16,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 7cc49a846c98c0359ce4cd681c42ff57e16dc9bd
-ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
+ms.openlocfilehash: e5c0e53c7fbde92c0f0b445847d2499532626637cf66fa1bb556eccc1e6079ee
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/10/2021
-ms.locfileid: "6011585"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6992510"
 ---
 # <a name="accept-or-reject-a-proposed-project-resource"></a>接受或拒绝建议的项目资源
 
@@ -33,14 +33,14 @@ ms.locfileid: "6011585"
 
 当资源经理建议指定资源以填充项目的通用资源请求时，将把通用团队成员的 **请求状态** 字段更新为 **需要审阅**。 将把请求发给项目经理以便批准或拒绝。
 
-![具有建议的通用团队成员](media/RM-how-to-19.png)
+![具有建议的通用团队成员。](media/RM-how-to-19.png)
 
 **项目团队成员** 页面 **建议的资源** 选项卡上的网格显示所建议资源的当前预订。 接受建议后，将更新网格以体现该预订。 
 
 若要接受建议的资源和为团队预订该资源，请单击 **接受建议**。  
 若要拒绝建议，请单击 **拒绝资源**。
 
-![接受资源建议](media/RM-how-to-20.png) 
+![接受资源建议。](media/RM-how-to-20.png) 
 
 与使用指定资源直接满足通用资源请求类似，将替换通用资源，并使用指定团队成员更新所分配任务。
 

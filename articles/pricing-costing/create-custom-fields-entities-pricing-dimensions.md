@@ -15,12 +15,12 @@ ms.search.industry: Service industries
 ms.author: suvaidya
 ms.dyn365.ops.version: ''
 ms.search.validFrom: 2020-10-01
-ms.openlocfilehash: 41c57690fecbc3bee2a1eb5d26f8a6aa56d8bea9
-ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
+ms.openlocfilehash: 40a6a4173cb0e4d7ea5bcf24c8954fe9d7e079d1e9ecf4aac252b5133f12d3ff
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/10/2021
-ms.locfileid: "6000515"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "7003625"
 ---
 # <a name="create-custom-fields-and-entities-as-pricing-dimensions"></a>创建自定义字段和实体，作为定价维度
 
@@ -44,7 +44,7 @@ _**适用于：** 基于资源/非库存场景的 Project Operations，精简部
 3. 选择 **新建** 创建一个IE名称为 **标准标题** 的新实体。 
 4. 输入其余所需信息，然后选择 **保存**。
 
-> ![标准标题实体定义](media/Standard-Title-entity-definition.png)
+> ![标准标题实体定义。](media/Standard-Title-entity-definition.png)
 
 ### <a name="option-set-based-dimensions"></a>基于选项集的维度 
 可创建两个基于选项集的维度。 
@@ -54,11 +54,11 @@ _**适用于：** 基于资源/非库存场景的 Project Operations，精简部
 
 下图提供了 **资源工作位置** 维度的视图。 
 
-> ![称为“资源工作位置”且基于选项集的定价维度](media/Option-set-PD-called-Resource-Work-Location.png)
+> ![称为“资源工作位置”且基于选项集的定价维度。](media/Option-set-PD-called-Resource-Work-Location.png)
 
 下图提供了 **资源工作时间** 维度的视图。 
 
-> ![称为“资源工作时间”且基于选项集的定价维度](media/Option-set-PD-called-Resource-Work-Hours.png)
+> ![称为“资源工作时间”且基于选项集的定价维度。](media/Option-set-PD-called-Resource-Work-Hours.png)
 
 1. 转到 **设置** > **解决方案**，双击 **\<your organization name> 定价维度**。 
 2. 在解决方案资源管理器内的左侧导航窗格中，选择 **选项集**。 
@@ -74,7 +74,7 @@ _**适用于：** 基于资源/非库存场景的 Project Operations，精简部
 4. 关闭该页面。 
 5. 重复步骤 1 - 3 再为“高级系统工程师”创建一个标准标题。
 
-> ![标准标题实体的示例数据](media/ST-data.png)
+> ![标准标题实体的示例数据。](media/ST-data.png)
 
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

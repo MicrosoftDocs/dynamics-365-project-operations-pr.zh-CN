@@ -15,12 +15,12 @@ search.audienceType:
 search.app:
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 0ffbb1f7aa25e723c7842259f1c0127b3d2e26d6
-ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
+ms.openlocfilehash: c551673708ae2d965979136e92326be98252304a601964c1fbc52a329c592712
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/10/2021
-ms.locfileid: "6012080"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6988955"
 ---
 # <a name="use-bookable-resource-as-a-pricing-dimension"></a>将可预订资源用作定价维度
 
@@ -62,18 +62,18 @@ ms.locfileid: "6012080"
 1. 为此，请在 **定价维度** 网格中单击行以打开 **msdyn_bookableresource** 的维度页。
 2. 在维度页的 **相关** 选项卡上，单击 **定价维度字段名称**。
 
- ![“定价维度字段名称”选项卡](media/PD-fieldname.png)
+ ![“定价维度字段名称”选项卡。](media/PD-fieldname.png)
 
 4. 在打开的关联视图中，单击 **添加新定价维度字段名称**。
 
- ![添加新定价维度字段名称](media/Add-NewPD-fieldname.png)
+ ![添加新定价维度字段名称。](media/Add-NewPD-fieldname.png)
 
 
 此选项用于打开 **msdyn_bookableresource** 的 **新定价维度字段名称** 页。 
 
 5. 将 **msdyn_projectteam** 添加到 **实体逻辑名称** 字段，将 **msdyn_bookableresourceid** 添加到 **字段名称** 字段。 保存记录。
 
- ![“新定价维度字段名称”窗体](media/PD-fieldname-Added.png)
+ ![“新定价维度字段名称”窗体。](media/PD-fieldname-Added.png)
 
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

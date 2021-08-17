@@ -16,12 +16,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 148f52f74ee64c2ee218dda3b09e1188e70217b0
-ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
+ms.openlocfilehash: 59e05a55d41573b96785a2f41a7d5d822f6b515fb55edddea5ef1862b7694a1b
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/10/2021
-ms.locfileid: "6009200"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "7000160"
 ---
 # <a name="product-catalog-pricing"></a>产品目录定价 
 
@@ -44,7 +44,7 @@ ms.locfileid: "6009200"
 
 PSA 支持在将价格配置为定价、标准成本或当前成本时使用各种舍入选项。 除了利用多种定价方法和舍入选项，还可以将折扣表与价目表项关联。 
 
-> ![将目录中的产品添加到不同价目表中](media/basic-guide-16.png)
+> ![将目录中的产品添加到不同价目表中。](media/basic-guide-16.png)
 
 通过选择 **项目报价单** 页中的 **创建自定义报价** 为报价单创建新的自定义价目表时，PSA 将创建该价目表的备份，并将新价目表标头中的 **实体** 字段设置为 **销售实体**。 将为新价目表的名称追加报价单名称和时间戳。 也可以在自定义工作流中使用新价目表的名称和报价单的名称对使用自定义定价的报价单触发额外审阅和审批。
 

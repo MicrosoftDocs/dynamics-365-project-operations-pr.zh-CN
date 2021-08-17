@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: andchoi
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 8218747366be8536601cb007318c642ac122536b
-ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
+ms.openlocfilehash: 5aa5e00252697f91a585eaaa83a0c8a39b315cc1b25fcbf6343fdf2ce31a824e
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/10/2021
-ms.locfileid: "6006230"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6985940"
 ---
 # <a name="create-a-new-project"></a>创建新项目
 
@@ -51,7 +51,7 @@ ms.locfileid: "6006230"
 
 项目经理可使用项目资源功能创建项目所需的角色。 在确认的资源在预留资源期间仍未知时可以使用角色。 角色可临时预留为计划资源，以便您可以继续项目计划阶段。
 
-[![角色示例](./media/projectresourcing05.jpg)](./media/projectresourcing05.jpg) 
+[![角色示例。](./media/projectresourcing05.jpg)](./media/projectresourcing05.jpg) 
 
 **方案：** Contoso 受雇完成具有批准的项目章程的时间和材料项目。 初级项目经理仍在完成项目的工作范围。 资源经理当前正在确定要预留的处理新项目的特定资源。 由于项目的重要性质，项目出资人请求高级项目经理作为其中一个角色。 如果初级项目经理在项目计划期间需要资源信息，资源经理必须获得新的资源并且定义定义系统中的角色。
 

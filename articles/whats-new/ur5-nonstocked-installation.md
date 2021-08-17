@@ -7,12 +7,12 @@ ms.topic: article
 ms.prod: ''
 ms.reviewer: kfend
 ms.author: ruhercul
-ms.openlocfilehash: d85a180aa094a048b4422605b25151d10785f67d
-ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
+ms.openlocfilehash: 3665bccfa25c759c0f2351c691d24901867c178f7c339f4a524856842666aec5
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/10/2021
-ms.locfileid: "6011045"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6986750"
 ---
 # <a name="update-project-operations-in-your-finance-environment"></a>在 Finance 环境中更新 Project Operations
 
@@ -33,7 +33,7 @@ _**适用于：** 面向资源/非库存场景的 Project Operations_
 4. 验证环境是否正在运行。 如果未启动，请启动该环境。
 5. 在 **可用更新** 下的 **新版本** 部分，选择 10.0.15 对应的 **查看更新**。
 
-![查看更新按钮](media/view-update.png)
+![查看更新按钮。](media/view-update.png)
 
 6. 在 **二进制更新** 页上，选择 **保存包**。
 7. 在 **查看和保存更新** 页上，选择 **保存包**。
@@ -47,11 +47,11 @@ _**适用于：** 面向资源/非库存场景的 Project Operations_
 2. 在列表中，选择之前保存的包，然后选择 **应用**。
 3. 选择 **是** 确认您要部署该包。
 
-![确认包部署对话框](media/confirm-package-deployment.png)
+![确认包部署对话框。](media/confirm-package-deployment.png)
 
 4. 选择 **是** 确认您要更新应用程序。
 
-![确认应用程序更新对话框](media/confirm-application-update.png)
+![确认应用程序更新对话框。](media/confirm-application-update.png)
 
 部署和应用程序更新将开始。 
 
@@ -84,7 +84,7 @@ _**适用于：** 面向资源/非库存场景的 Project Operations_
 
 1. 在 Dataverse 环境中，转到 **设置**，在 **系统** 组中，选择 **安全**。
 
-![Dataverse 环境设置](media/Picture21.png)
+![Dataverse 环境设置。](media/Picture21.png)
 
 2. 选择 **安全角色**。
 3. 在角色列表中，选择 **双重写入应用用户**，然后选择 **自定义实体** 选项卡。 
@@ -121,7 +121,7 @@ _**适用于：** 面向资源/非库存场景的 Project Operations_
 6. 从映射列表中，选择具有所有先决条件的 **分类帐(msdyn_ledgers)** 映射，然后选中 **初始同步** 复选框。 
 7. 在 **用于初始同步的主应用** 中，选择 **Finance and Operations 应用**，然后选择 **运行**。
  
- ![分类帐映射同步](media/DW6.png)
+ ![分类帐映射同步。](media/DW6.png)
  
 
 

@@ -16,12 +16,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 26d79ff79801f8ad0f80020d49fdc80f76dd9aef
-ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
+ms.openlocfilehash: afce9cd2d4b3920dc5de5d3deab8920a7f51f275a73918a84db300739b1b4feb
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/10/2021
-ms.locfileid: "6006995"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6987065"
 ---
 # <a name="whats-new-or-changed-in-project-service-automation-version-3"></a>Project Service Automation 版本 3 中的新增功能或更改
 
@@ -36,7 +36,7 @@ ms.locfileid: "6006995"
 ## <a name="project-scheduling"></a>项目计划编制
 项目计划在早期版本中称为工作分解结构 (WBS)，已经重命名为“计划”，可以通过单击 **计划** 选项卡访问。 
 
-![项目计划](media/psa-schedule-01.png)
+![项目计划。](media/psa-schedule-01.png)
 
 计划现在为交互采用了新的界面，该界面既现代，又容易访问。 但是基础 Project Service Automation 计划引擎未变。 和 Project Service Automation 的上一个版本一样，可使用计划网格功能区中的控件按钮与计划交互。 计划的其他更改包括：
 
@@ -95,22 +95,22 @@ ms.locfileid: "6006995"
 ## <a name="estimates"></a>估算
 估算已拆分为两个选项卡：**资源分派** 和 **估算**。 **资源分派** 选项卡中包含工作量估算，并通过分时段视图显示任务的资源分派。 可根据计划引擎生成的结果编辑估算。
 
-![“资源分派”选项卡显示任务的工作量估算和资源分派](media/resource-assignments-tab-02.png)
+![“资源分派”选项卡显示任务的工作量估算和资源分派。](media/resource-assignments-tab-02.png)
 
 **估算** 选项卡显示资源分派的成本和销售额。 这些金额为只读。 定成本和销售定价现在通过计划中的团队成员分派驱动。 这表示如果任务没有分派，将在未分派桶下显示。 还表示如果没有 **角色**（这是默认定价维度），如果您为项目关联客户或合同/报价单，则不存在估算成本或销售额。 
 
-![“估算”选项卡显示成本和销售额](media/estimates-tab-03.png)
+![“估算”选项卡显示成本和销售额。](media/estimates-tab-03.png)
   
 在计划视图中，任务还支持类别。 如果在估算的分时段视图中按类别分组，则体验更好，特别是当您的项目中还有支出估算时。 支出估算使用单独选项卡中的网格输入。 
 
 可以在 **支出估算** 选项卡上的网格中输入支出估算。 
 
-![“支出估算”选项卡显示支出估算网格](media/expense-estimates-tab-04.png)
+![“支出估算”选项卡显示支出估算网格。](media/expense-estimates-tab-04.png)
 
 ## <a name="resource-management"></a>资源管理
 在 Project Service Automation 版本 3 中，由于采用了新的统一客户端 UI，并且对预订与分派之间的关系进行了更改，所以使用通用资源或实际资源为项目安排人员的方法与版本 2 和版本 1 差别很大。 但是可预订资源（**实际** 资源和 **通用** 资源）的概念未变，团队成员、要求、分派和预订的概念也未变。   
 
-![使用资源选取器](media/resource-management-05.png)
+![使用资源选取器。](media/resource-management-05.png)
 
 ### <a name="assign-a-real-bookable-resource"></a>分派实际可预订资源 
 在 Project Service Automation 版本 3 中，预订与任务分派之间的联系不如在 Project Service Automation 早期版本中紧密。 可以使用团队网格预订 **实际** 团队成员，就像在市场内一样。
@@ -136,7 +136,7 @@ ms.locfileid: "6006995"
 ### <a name="reconciliation"></a>协调
 **协调** 选项卡显示每个项目团队成员的预订和所有分派。 此视图通过单元格显示可表示时间点（从数月到数天）的工时。 项目经理可通过此视图协调其项目团队的团队成员预订及其分派。 这非常有用，因为预订之间的关系不紧密，所以规划项目时更灵活。 
 
-![协调选项卡显示项目团队成员的预订和分派](media/resource-reconciliation-tab-06.png)
+![协调选项卡显示项目团队成员的预订和分派。](media/resource-reconciliation-tab-06.png)
 
 对于每个资源，视图显示团队成员的预订与其任务分派汇总之间的区别，并显示项目中的预订和分派之间可能出现的两项差别： 
 
@@ -151,19 +151,19 @@ ms.locfileid: "6006995"
 ### <a name="landing-page"></a>登陆页
 版本 3 中已弃用了不可扩展的自定义时间条目体验。 而是现在提供可扩展、可访问的本机网格体验。 可使用左侧的站点地图访问时间条目功能。 由于此项更改，您不再可以一次性输入一周的时间。 相反，您需要在网格中为每天创建一个时间条目。 创建一些时间条目之后，用户可以使用本主题后文介绍的 **复制功能** 批量创建时间条目。 
 
-![时间条目登陆页](media/time-entry-landing-page-07.png)
+![时间条目登陆页。](media/time-entry-landing-page-07.png)
  
 ### <a name="create-new-time-entries"></a>创建新的时间条目 
 单击功能区中的 **新建** 打开时间条目的快速创建页面，可在其中输入以分钟、小时或天为单位的持续时间。 要输入，只需开始键入 h、m 或 d 和数量。  
 
-![时间条目快速创建](media/quick-create-time-entry-08.png)
+![时间条目快速创建。](media/quick-create-time-entry-08.png)
 
 查找字段受系统视图支持。 例如，输入项目信息之后，**项目任务** 字段默认设置为 **我已开启的项目任务** 视图。 若要为尚未分派给用户的任务创建时间条目，请在查找中单击 **更改视图**，然后选择 **所有可用的项目任务**。 时间条目以创建并在网格中显示后，可以直接在网格中编辑任何明细值。  
 
 ### <a name="bulk-createcopy"></a>批量创建/复制 
 创建一些时间条目之后，可以使用复制功能批量创建更多时间条目。 单击 **复制** 打开 **复制** 对话框。 在 **开始期间:开始日期** 中，设置必须从中复制时间段的日期范围。 在 **结束期间: 开始日期** 中，指定必须为其创建时间条目的日期。 单击 **复制** 将时间条目复制到 **结束期间** 中指定的相应星期几。 例如，将把上周星期一的时间条目复制到 **结束期间** 中指定的周的星期一。 
 
-![批量复制时间条目](media/bulk-copy-time-entry-09.png)
+![批量复制时间条目。](media/bulk-copy-time-entry-09.png)
  
 ### <a name="import-data"></a>导入数据 
 分派和交换采用同一种 UI 模式，所以用户可以从需要导入预订的时间开始指定日期范围。 然后必须明确选择应该复制到 **草稿** 时间条目中的预订。 在版本 3 中，不再可以在网格和日历中查看 **建议** 时间条目的模式。  
@@ -179,7 +179,7 @@ ms.locfileid: "6006995"
 
 **捕获时间和支出条目中自定义字段内的数据并通过支持提交和审批流的实体传播** - 下图中显示对时间条目的典型处理。
 
-![时间条目处理流](media/process-time-entries-10.png)
+![时间条目处理流。](media/process-time-entries-10.png)
 
 如果业务要求固定时间和支出实体必须捕获自定义定价维度，并通过上个图中的所有实体传播自定义定价维度中的时间和条目资源设置的值，请参阅[将自定义字段设置为定价维度](set-up-pricing-dimensions.md)
 
@@ -236,7 +236,7 @@ Project Service Automation 随附了一组默认定价维度和角色与资源�
 
 从版本 3 开始，角色和支出类别的应计费选项设置在报价单或合同子项级别进行。 定价设置与应计费设置分开。 不必使用顶部导航，即可在 **报价单明细** 和 **合同子项** 页中找到 **应计费角色** 和 **应计费类别**，形式为选项卡。
 
-![应计费角色](media/chargeable-12.png)
+![应计费角色。](media/chargeable-12.png)
  
 应计费角色和应计费类别的设置也利用自带可编辑网格控件。 对于每个角色和类别，报价和合同签订阶段支持的记帐类型选项与之前版本一样，仍然是 **应计费** 和 **不应计费**。 报价和合同签订阶段不支持 **免费** 类型。 只有时间或支出审批期间才支持 **免费**。  
  
@@ -247,11 +247,11 @@ Project Service Automation 随附了一组默认定价维度和角色与资源�
   
 下图显示创建自定义价目表之前的情况。
 
-![自定义价目表之前](media/before-custom-price-lists-13.png)
+![自定义价目表之前。](media/before-custom-price-lists-13.png)
 
 下图显示创建自定义价目表之后的情况。
 
-![自定义价目表之后](media/after-custom-price-lists-14.png)
+![自定义价目表之后。](media/after-custom-price-lists-14.png)
 
 > [!NOTE]
 > 单击 **创建自定义定价** 到创建自定义价目表之间可能会短暂延迟。 建议刷新网格，而不是多次单击。 如果为关联的价目表名称附加了报价单名称或项目合同名称，说明已创建了自定义价目表。

@@ -17,12 +17,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: cbb3e5c7f74cdf37ae4d259687bf7a98102a8131
-ms.sourcegitcommit: 0fafe022731f0e1e8693382ff906e3f8541d34ca
+ms.openlocfilehash: 15c8d26fcf4eb9fda8a4fe4ce085ea3becdc2c76f11525357b75f59e18fd6017
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 07/07/2021
-ms.locfileid: "6368150"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6992465"
 ---
 # <a name="actuals-overview"></a>实际值概述
 
@@ -32,7 +32,7 @@ ms.locfileid: "6368150"
 
 实际值是已完成的项目工作量。 可将项目实际值回溯到其源文档。 这些源文档包括时间、支出和日记帐条目，以及发票。
 
-![如何将项目实际值跟踪到源文档](media/basic-guide-18.png)
+![如何将项目实际值跟踪到源文档。](media/basic-guide-18.png)
 
 ## <a name="submitting-a-time-entry"></a>提交时间条目
 

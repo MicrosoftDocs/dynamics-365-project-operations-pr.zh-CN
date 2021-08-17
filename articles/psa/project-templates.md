@@ -16,12 +16,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: bedcbc76d932a81e0c78bb58ce6a161446a26dde
-ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
+ms.openlocfilehash: 34df8ed9a8baff949097af1b95da56bfe9a4240c213896fafd5c7dcfcf580b6c
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/10/2021
-ms.locfileid: "5998265"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "7002500"
 ---
 # <a name="project-templates"></a>项目模板 
 
@@ -47,7 +47,7 @@ ms.locfileid: "5998265"
 
 - 在根据报价单创建项目时，您可以在 **快速创建: 项目** 窗体中选择项目模板。
 
-> ![“快速创建: 项目”对话框](media/project-11.png)
+> ![“快速创建: 项目”对话框。](media/project-11.png)
 
 - 通过选择 **新建项目** 创建项目时，保存记录之前将显示 **项目** 页。 在 **选取模板** 字段中，选择组织中的一个预定义项目模板。
 - 使用 **模板实体** 页上的 **从模板创建项目**。

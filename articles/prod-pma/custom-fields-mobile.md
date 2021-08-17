@@ -16,12 +16,12 @@ ms.search.industry: Service industries
 ms.author: andchoi
 ms.dyn365.ops.version: 10.0.3
 ms.search.validFrom: 2019-05-29
-ms.openlocfilehash: 23b002559dcbb9118ccb2b36d70707ccb37b19ad
-ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
+ms.openlocfilehash: 9f19a6d069c4f825be8515a6d26739c50d3b064698fc1872ede07a4e74ee4dcb
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/10/2021
-ms.locfileid: "6003009"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "7005740"
 ---
 # <a name="implement-custom-fields-for-the-microsoft-dynamics-365-project-timesheet-mobile-app-on-ios-and-android"></a>为 iOS 和 Android 上的 Microsoft Dynamics 365 Project Timesheet 移动应用实施自定义字段
 
@@ -153,13 +153,13 @@ ms.locfileid: "6003009"
 
 下面是移动应用创建工时单条目的屏幕快照。 其中显示“时间条目”部分中的现成字段和一个名称为“测试字符串”的自定义字段，并且已设置了枚举值“第二个选项”。
 
-![测试应用中的字符串自定义字段](media/timesheet-entry.jpg)
+![测试应用中的字符串自定义字段。](media/timesheet-entry.jpg)
 
 
 
 下面是移动应用中用户选择“测试字符串”自定义字段的一个可用枚举选项的屏幕快照。  两个选项为显示为单选按钮的“第一个选项”和“第二个选项”。 当前已选择第二个选项。
 
-![“测试字符串”自定义字段的选项按钮（单选按钮）](media/enum-option.jpg)
+![“测试字符串”自定义字段的选项按钮（单选按钮）。](media/enum-option.jpg)
 
 
 
@@ -171,7 +171,7 @@ ms.locfileid: "6003009"
 
 显示应用程序对象树的 Visual Studio 的屏幕快照。 其中显示了 TSTimesheetLine 表的一个扩展，该表中有一个 TestLineString 字段被作为自定义字段添加。
 
-![行字符串](media/b6756b4a3fc5298093327a088a7710fd.png)
+![行字符串。](media/b6756b4a3fc5298093327a088a7710fd.png)
 
 ### <a name="use-chain-of-command-on-the-buildcustomfieldlist-method-of-the-tstimesheetsettings-class-to-show-a-field-in-the-timesheet-entry-section"></a>对 TSTimesheetSettings 类的 buildCustomFieldList 方法使用命令链在工时表条目部分中显示字段
 
@@ -317,11 +317,11 @@ final class TSTimesheetEntryService_Extension
 
 下面是用户查看工时单的移动应用的屏幕快照。 右上角已选择了“更多信息”按钮，以便显示“查看更多详细信息”选项。  
 
-![“查看更多详细信息”命令](media/show-more.png)
+![“查看更多详细信息”命令。](media/show-more.png)
 
 下面是移动应用显示工时表的“更多”部分的屏幕快照。 已向工时表标题部分添加了一个名称为“此工时单的利用率 (计算自定义字段)”的自定义字段。 为这个自定义字段设置了只读值“0.667”。
 
-![“更多”部分](media/more-section.jpg)
+![“更多”部分。](media/more-section.jpg)
 
 ### <a name="extend-the-tstimesheettable-table-so-that-it-has-a-custom-field"></a>扩展 TSTimesheetTable 表，使其具有自定义字段
 
@@ -414,7 +414,7 @@ final class TSTimesheetDetails_Extension
 
 可通过项目参数将现成字段设置为在移动应用中隐藏或只读。 请设置 **项目管理和会计参数** 页 **工时表** 选项卡上 **移动工时单** 部分中的选项。
 
-![项目参数](media/5753b8ecccd1d8bb2b002dd538b3f762.png)
+![项目参数。](media/5753b8ecccd1d8bb2b002dd538b3f762.png)
 
 ### <a name="changing-the-activities-that-are-available-for-selection-via-extensions"></a>通过扩展更改可供选择的活动
 

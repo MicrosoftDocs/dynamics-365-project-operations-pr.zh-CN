@@ -7,12 +7,12 @@ ms.topic: article
 ms.prod: ''
 ms.reviewer: kfend
 ms.author: sigitac
-ms.openlocfilehash: d0712d9d5dfc6c35ccd07142ff5948f50e6a254c
-ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
+ms.openlocfilehash: fd98ec360cbd89c9fb7e49bfa11cfffeffca541441e641c973a23c141c922cd2
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/10/2021
-ms.locfileid: "5995475"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6988550"
 ---
 # <a name="provision-a-new-environment"></a>设置新环境
 
@@ -52,12 +52,12 @@ _**适用于：** 面向资源/非库存场景的 Project Operations_
 
 6. 选择部署的环境类型。 通过基于订阅的试用，您可以在 30 天内部署 CDS 环境。 
 
-![部署设置](./media/1DeploymentSettings.png)
+![部署设置。](./media/1DeploymentSettings.png)
 
 > [!IMPORTANT]
 > 选择 **同意** 确认服务条款，然后选择 **完成** 返回部署设置。
 
-![同意部署](./media/2DeploymentConsent.png)
+![同意部署。](./media/2DeploymentConsent.png)
 
 7. 可选 - 将演示数据应用到环境。 转到 **高级设置**，选择 **自定义 SQL 数据库配置**，将 **为应用程序数据库指定数据集** 设置为 **演示**。
 
@@ -67,7 +67,7 @@ _**适用于：** 面向资源/非库存场景的 Project Operations_
 
 9. 要确认环境已成功部署，请选择 **登录**，然后登录到环境进行确认。
 
-![ 环境详细信息](./media/3EnvironmentDetails.png)
+![环境详细信息。](./media/3EnvironmentDetails.png)
 
 ## <a name="apply-updates-to-the-finance-environment"></a>将更新应用于 Finance 环境
 
@@ -77,19 +77,19 @@ Project Operations 需要应用程序版本为 **10.0.13 (10.0.569.20009)** 或�
 
 1. 在 LCS 中，在 **环境详细信息** 页上的 **可用更新** 部分，选择 **查看更新**。
 
-![查看更新](./media/5ViewUpdates.png)
+![查看更新。](./media/5ViewUpdates.png)
 
 2. 在 **二进制更新** 页上，选择 **保存包**。
 
-![保存包](./media/6SavePackage.png)
+![保存包。](./media/6SavePackage.png)
 
 3. 单击 **全选**，然后选择 **保存包**。
 
-![查看和保存更新](./media/7ReviewAndSaveUpdates.png)
+![查看和保存更新。](./media/7ReviewAndSaveUpdates.png)
 
 4. 输入包的名称和说明，然后选择 **保存**。 根据 Internet 连接的不同，此过程可能需要一些时间。
 
-![将包上载到资产库](./media/8UploadPackageToAssetsLibrary.png)
+![将包上载到资产库。](./media/8UploadPackageToAssetsLibrary.png)
 
 5. 保存包后，请选择 **完成**，然后将此包保存到您的 LCS 项目的资产库中。
 
@@ -97,15 +97,15 @@ Project Operations 需要应用程序版本为 **10.0.13 (10.0.569.20009)** 或�
 
 6. 若要应用更新，导航到 LCS 中的 **环境详细信息** 页，选择 **维护** > **应用更新**。
 
-![维护环境](./media/9MaintainEnvironment.png)
+![维护环境。](./media/9MaintainEnvironment.png)
 
 7. 在更新列表中，选择您创建的包，然后选择 **应用**。
 
-![应用更新](./media/10ApplyUpdates.png)
+![应用更新。](./media/10ApplyUpdates.png)
 
 维护环境需要一些时间。 完成后，环境将返回到已部署状态。
 
-![环境已部署](./media/11EnvironmentDeployed.png)
+![环境已部署。](./media/11EnvironmentDeployed.png)
 
 ## <a name="establish-a-dual-write-connection"></a>建立双写入连接 
 
@@ -113,41 +113,41 @@ Project Operations 需要应用程序版本为 **10.0.13 (10.0.569.20009)** 或�
 2. 在 **Common Data Service 环境信息** 下，选择 **链接到面向应用程序的 CDS**。
 3. 链接完成后，再次选择 **链接到面向应用程序的 CDS**。 您将被重定向到 Finance 中的“双写入”。
 
-![指向 CDS 的链接](./media/12LinktoCDS.png)
+![指向 CDS 的链接。](./media/12LinktoCDS.png)
 
 4. 选择 **应用解决方案** 访问将在集成中映射的实体。
 
-![应用解决方案](./media/13ApplySolutions.png)
+![应用解决方案。](./media/13ApplySolutions.png)
 
 5. 选择 **Dynamics 365 Finance and Operations 双重写入实体映射** 和 **Dynamics 365 Project Operations 双重写入实体映射** 这两个解决方案，然后选择 **应用**。
 
-![确认解决方案](./media/14ConfirmSolutions.png)
+![确认解决方案。](./media/14ConfirmSolutions.png)
 
 应用解决方案后，双写入实体将应用于环境。
 
-![应用解决方案](./media/15ApplyingSolutions.png)
+![应用解决方案。](./media/15ApplyingSolutions.png)
 
 应用实体后，所有可用映射都将在环境中列出。
 
-![双写入映射](./media/15DWMappings.png)
+![双写入映射。](./media/15DWMappings.png)
 
 ## <a name="refresh-the-data-entities-after-the-update"></a>更新后刷新数据实体
 
 1. 在 Finance 中，转到 **数据管理** 工作区。
 
-![数据管理工作区](./media/16DataManagement.png)
+![数据管理工作区。](./media/16DataManagement.png)
 
 2. 选择 **框架参数** 磁贴。
 
-![框架参数](./media/17FrameworkParameters.png)
+![框架参数。](./media/17FrameworkParameters.png)
 
 3. 在 **实体设置** 页上，选择 **刷新实体列表**。
 
-![刷新实体列表](./media/18RefreshEntityList.png)
+![刷新实体列表。](./media/18RefreshEntityList.png)
 
 刷新时间大约需要 20 分钟。 完成时，您将收到警报。
 
-![刷新确认](./media/19RefreshConfirmation.png)
+![刷新确认。](./media/19RefreshConfirmation.png)
 
 ## <a name="update-security-settings-on-project-operations-on-dataverse"></a>在 Dataverse 上更新 Project Operations 上的安全设置
 
@@ -188,17 +188,17 @@ Project Operations 需要应用程序版本为 **10.0.13 (10.0.569.20009)** 或�
 4. 若要刷新实体，选择映射名称，然后选择 **刷新实体**。 
 
 
-![刷新映射](./media/20RefreshMapping.png)
+![刷新映射。](./media/20RefreshMapping.png)
 
 5. 刷新完成后，运行映射。 在启用下一个映射之前，验证表中的映射是否处于 **正在运行** 状态。 运行具有大量先决条件的映射可能需要一些时间。
 
 要运行具有先决条件的映射，请启用 **显示相关实体映射** 切换。 如果表中指示 **先决条件初始同步** 为 **否**，请在运行前确认 **初始同步** 标志在所有先决条件映射中均为 **关闭**。
 
-![运行映射](./media/21RunMap.png)
+![运行映射。](./media/21RunMap.png)
 
 6. 验证所有项目相关映射是否处于运行状态。
 
-![所有映射正在运行](./media/22AllMapsRunning.png)
+![所有映射正在运行。](./media/22AllMapsRunning.png)
 
 
 ## <a name="apply-configuration-data-in-cds-for-project-operations-optional"></a>在 Project Operations 的 CDS 中应用配置数据（可选）
