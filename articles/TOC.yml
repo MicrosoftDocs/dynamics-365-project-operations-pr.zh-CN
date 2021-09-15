@@ -4,6 +4,8 @@
   items:
     - name: 确定部署类型
       href: environment/determine-deployment-type.md
+    - name: 注册试用 Project Operations
+      href: environment/admin-trials.md
     - name: Project Operations 更新
       href: whats-new/project-operations-updates.md
 - name: 基于资源/非库存场景的 Project Operations
@@ -54,6 +56,8 @@
               href: environment/resource-dual-write-vendor-invoice.md
     - name: 新增功能
       items:
+        - name: 2021 年 8 月 - 基于资源/非库存场景的 Project Operations
+          href: whats-new/whats-new-august-2021-resource-based.md
         - name: 2021 年 7 月 - 基于资源/非库存场景的 Project Operations
           href: whats-new/whats-new-july-2021-resource-based.md
         - name: 2021 年 6 月 - 基于资源/非库存场景的 Project Operations
@@ -418,6 +422,8 @@
       items:
         - name: 审批概述
           href: approvals/approvals-overview.md
+        - name: 审批集
+          href: approvals/approval-sets.md
         - name: 开发人员注释
           items:
             - name: 待审批的开发人员注释
@@ -520,6 +526,10 @@
           href: environment/security-model.md
     - name: 新增功能
       items:
+        - name: 2021 年第 2 波抢先体验新增功能 - 精简部署
+          href: pro/whats-new/whats-new-2021-early-access-lite.md
+        - name: 2021 年 8 月新增功能 - 精简部署
+          href: pro/whats-new/whats-new-august-2021-lite.md
         - name: 2021 年 7 月新增功能 - 精简部署
           href: pro/whats-new/whats-new-july-2021-lite.md
         - name: 2021 年 6 月新增功能 - 精简部署
@@ -834,14 +844,28 @@
               href: resource-management/resource-utilization-overview.md
     - name: Project Operations 中的分包合同管理
       items:
-        - name: 管理分包合同概述
+        - name: Project Operations 中的分包合同管理
           href: pro/subcontracting/managing-subcontracts-overview.md
+        - name: 2021 年 10 月抢先体验中的合同分包
+          href: pro/subcontracting/Subcontracting_EA_scope.md
         - name: 合同分包中的关键概念
           href: pro/subcontracting/key-concepts-subcontracting.md
         - name: 管理供应商和项目价目表
           href: pro/subcontracting/vendors-purchase-price-lists.md
         - name: 作为可预订资源的分包商
           href: pro/subcontracting/subcontractors-as-bookable-resources.md
+        - name: 分包合同的标题详细信息
+          href: pro/subcontracting/subcontract-header-details.md
+        - name: 分包合同时间子项
+          href: pro/subcontracting/subcontract-line-time.md
+        - name: 分包合同支出子项
+          href: pro/subcontracting/subcontract-line-expense.md
+        - name: 分包合同产品子项
+          href: pro/subcontracting/subcontract-line-products.md
+        - name: 分包合同子项资源
+          href: pro/subcontracting/subcontract-line-resources.md
+        - name: 分包合同子项里程碑
+          href: pro/subcontracting/subcontract-line-milestones.md
     - name: 时间
       items:
         - name: 时间概述
@@ -868,6 +892,8 @@
       items:
         - name: 审批概述
           href: approvals/approvals-overview.md
+        - name: 审批集
+          href: approvals/approval-sets.md
         - name: 开发人员注释
           items:
             - name: 待审批的开发人员注释
@@ -1060,6 +1086,8 @@
       items:
         - name: Project Service 3.x 的更新版本计划
           href: psa/version-history-ps.md
+        - name: V3 更新版 35 的新增或变更功能
+          href: psa/whats-new-ur-35.md
         - name: V3 更新版 34 的新增或变更功能
           href: psa/whats-new-ur-34.md
         - name: V3 更新版 33 的新增或变更功能
@@ -1306,7 +1334,7 @@
               href: psa/time-entry-calendar.md
             - name: 自定义每周时间条目
               href: psa/time-entry-extensibility-v3.md
-            - name: 审批集
+            - name: Project Service Automation 中的审批集
               href: psa/approval-set.md
     - name: 常见问题和疑难解答 (3.x)
       items:
