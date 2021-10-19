@@ -2,16 +2,16 @@
 title: 注册 Project Operations 试用版
 description: 此主题介绍如何部署 Dynamics 365 Project Operations 试用版。
 author: ruhercul
-ms.date: 08/19/2021
+ms.date: 10/04/2021
 ms.topic: article
 ms.reviewer: kfend
 ms.author: ruhercul
-ms.openlocfilehash: e9c0d81591061f0ff01200dd5fd634a4a9ff31e4
-ms.sourcegitcommit: 0e5de344f2040075ba431918a4499a80510458d9
+ms.openlocfilehash: 1c8ae111acffb45fef1c2e6435849471ae331796
+ms.sourcegitcommit: 05ee415093d152b5b9e1203c3db0ea7f0c5a75a5
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/25/2021
-ms.locfileid: "7418446"
+ms.lasthandoff: 10/04/2021
+ms.locfileid: "7599202"
 ---
 # <a name="sign-up-for-project-operations-trials"></a>注册 Project Operations 试用版 
 
@@ -85,15 +85,9 @@ _**适用范围：** 面向资源/非库存场景的 Project Operations，精简
 
    预配开始后，将把您重定向到 Power Platform 管理中心中的环境列表。 进行预配时，您的环境的状态为 **正在准备实例**。
  
-  预配完成后，您的环境的状态为 **就绪**。
+  预配完成后，环境的状态将为 **准备就绪**。 预配环境包括部署演示数据。
  
-4.  预配完成后，选择相应的 Microsoft Dataverse URL，以及用于验证部署的 Finance and Operations 应用 URL。
-
-## <a name="demo-data-installation"></a>安装演示数据
-
-请使用以下链接访问非库存材料和精简部署场景的演示数据包。 
-- [非库存材料演示数据](resource-apply-pro-setup-config-data.md)
-- [精简版演示数据](lite-apply-demo-setup-config-data.md)
+4.  选择相应的 Microsoft Dataverse URL 和 Finance and Operations 应用 URL 以验证部署。
 
 ## <a name="configuring-dual-write"></a>配置双重写入
 仅限非库存材料部署：配置双重写入映射。 有关详细信息，请参阅 [Project Operations 双重写入映射版本](resource-dual-write-maps.md)。

@@ -15,12 +15,12 @@ ms.search.industry: Service industries
 ms.author: ruhercul
 ms.dyn365.ops.version: ''
 ms.search.validFrom: 2020-10-01
-ms.openlocfilehash: 181032b27ee67591a3bb40ab080477c51c1e34a46e9aac20039e4e5df3a5ab1d
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 9c2ea49e008d6cde40f152320face073c7e5f548
+ms.sourcegitcommit: bbe484e58a77efe77d28b34709fb6661d5da00f9
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "7000925"
+ms.lasthandoff: 09/10/2021
+ms.locfileid: "7487629"
 ---
 # <a name="define-project-calendars"></a>定义项目日历
 
@@ -46,7 +46,7 @@ _**适用于：** 基于资源/非库存场景的 Project Operations，精简部
 
 1. 转到 **资源**\>**资源**。
 2. 创建要在日历模板中引用的新资源，或选择一个现有资源。
-3. 选择资源的 **工作时间** 选项卡，完成[为资源设置工作时间](/dynamics365/field-service/set-work-hours-resource.md)中的说明配置日历规则。
+3. 选择资源的 **工作时间** 选项卡，完成[为资源设置工作时间](/dynamics365/field-service/set-work-hours-resource)中的说明配置日历规则。
 
 **创建新的日历模板**
 

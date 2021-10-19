@@ -2,17 +2,17 @@
 title: 使用待定供应商发票购买非库存材料
 description: 本主题说明如何记录待定供应商发票。
 author: sigitac
-ms.date: 04/12/2021
+ms.date: 09/13/2021
 ms.topic: article
 ms.prod: ''
 ms.reviewer: kfend
 ms.author: sigitac
-ms.openlocfilehash: 2ce9f244eaa549742aeb55024ca9ef4d82cde1bd4a5b9c7f8c762cf72e0da83f
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: e95f7dabe597968707fdd2dead40bfb93d7f1f95
+ms.sourcegitcommit: 74a7e1c9c338fb8a4b0ad57c5560a88b6e02d0b2
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "7009025"
+ms.lasthandoff: 09/23/2021
+ms.locfileid: "7547278"
 ---
 # <a name="purchase-non-stocked-materials-using-a-pending-vendor-invoice"></a>使用待定供应商发票购买非库存材料
 
@@ -20,7 +20,7 @@ _**适用于：** 面向资源/非库存场景的 Project Operations_
 
 当公司为项目采购非库存材料时，可以立即针对项目记录成本。 
 
-例如，Contoso Robotics US 正在执行设备更新项目，需要软件许可证。 这些许可证是从第三方供应商购买的。  使用 Dynamics 365 Finance，应付帐款职员记录待定供应商发票单据，并将许可证成本直接归于设备更新项目。 
+例如，Contoso Robotics US 正在执行设备续订项目，并且需要软件许可证。 这些许可证是从第三方供应商购买的。  使用 Dynamics 365 Finance，应付帐款职员记录待定供应商发票单据，并将许可证成本直接归于设备更新项目。 
 
 > [!IMPORTANT]
 > 在使用本主题所述的功能之前，请查看并应用所需的配置。 有关详细信息，请参阅[启用非库存材料和待定供应商发票](configure-materials-nonstocked.md)。 
@@ -45,4 +45,5 @@ _**适用于：** 面向资源/非库存场景的 Project Operations_
     - 供应商余额金额。
     - 销售税金额。
     - 项目的成本将记录到采购集成帐户中。
-    - Dataverse 中的项目实际值交易。 此交易将使用 [Project Operations 集成日记帐](../project-accounting/project-operations-integration-journal.md)进一步处理。 过帐此日记帐会将金额从采购集成帐户转移到项目成本帐户。
+    - Dataverse 中的项目实际成本交易。  此交易将使用 [Project Operations 集成日记帐](../project-accounting/project-operations-integration-journal.md)进一步处理。 过帐此日记帐会将金额从采购集成帐户转移到项目成本帐户。 
+    - 使用时间和材料记帐方法向项目客户记帐的购买。 此外，还会在 Dataverse 中为购买创建未记帐的销售交易。 Dataverse 中的产品价目表用于未记帐销售交易的销售价格和金额。

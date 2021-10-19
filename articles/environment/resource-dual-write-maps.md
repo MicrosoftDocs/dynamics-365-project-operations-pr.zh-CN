@@ -6,12 +6,12 @@ ms.date: 04/22/2021
 ms.topic: article
 ms.reviewer: kfend
 ms.author: sigitac
-ms.openlocfilehash: c8bc389c83eaf2a7720ef3fa969c677eed11e7959199b5f0083df5bf3b43ea43
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 452f9f16bfbae2d547afb9fcf4fc51595ea49890
+ms.sourcegitcommit: 74a7e1c9c338fb8a4b0ad57c5560a88b6e02d0b2
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "7003805"
+ms.lasthandoff: 09/23/2021
+ms.locfileid: "7547098"
 ---
 # <a name="project-operations-dual-write-map-versions"></a>Project Operations 双重写入映射版本
 
@@ -49,8 +49,8 @@ _**适用于：** 面向资源/非库存场景的 Project Operations_
 | 用于材料估算的 Project Operations 集成表 (msdyn\_estimatelines) | 1.0.0.0 | 预配时不需要。 |
 | 项目发票方案 V2 (invoices) | 1.0.0.3 | 预配时不需要。 |
 | Project Operations 集成实际值 (msdyn_actuals) | 1.0.0.14 | 预配时不需要。 |
-| Project Operations 集成合同子项里程碑 (msdyn_contractlinesscheduleofvalues) | 1.0.0.4 | 预配时不需要。 |
-| 用于支出估算的 Project Operations 集成实体 (msdyn_estimateslines) | 1.0.0.2 | 预配时不需要。 |
+| Project Operations 集成合同子项里程碑 (msdyn_contractlinescheduleofvalues) | 1.0.0.4 | 预配时不需要。 |
+| 用于支出估算的 Project Operations 集成实体 (msdyn_estimatelines) | 1.0.0.2 | 预配时不需要。 |
 | 用于工时估算的 Project Operations 集成实体 (msdyn_resourceassignments) | 1.0.0.5 | 预配时不需要。 |
 | Project Operations 集成项目支出类别导出实体 (msdyn_expensecategories) | 1.0.0.1 | 预配时不需要。 |
 | Project Operations 集成项目支出导出实体 (msdyn_expenses) | 1.0.0.2 | 预配时不需要。 |

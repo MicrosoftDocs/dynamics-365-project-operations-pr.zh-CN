@@ -56,6 +56,10 @@
               href: environment/resource-dual-write-vendor-invoice.md
     - name: 新增功能
       items:
+        - name: 2021 年 10 月 - 基于资源/非库存场景的 Project Operations
+          href: whats-new/whats-new-oct-2021-resource-based.md
+        - name: 2021 年 9 月 - 基于资源/非库存场景的 Project Operations
+          href: whats-new/whats-new-sept-2021-resource-based.md
         - name: 2021 年 8 月 - 基于资源/非库存场景的 Project Operations
           href: whats-new/whats-new-august-2021-resource-based.md
         - name: 2021 年 7 月 - 基于资源/非库存场景的 Project Operations
@@ -292,7 +296,7 @@
           items:
             - name: 使用复制项目开发项目模板
               href: project-management/dev-copy-project.md
-            - name: 使用项目日程安排 API（公开预览版）
+            - name: 使用项目日程安排 API
               href: project-management/schedule-api-preview.md
     - name: 资源管理
       items:
@@ -444,6 +448,14 @@
           href: procurement/configure-materials-nonstocked.md
         - name: 使用待定供应商发票为项目采购非库存材料
           href: procurement/pending-vendor-invoices.md
+        - name: 使用项目采购订单为项目采购非库存材料
+          href: procurement/non-stocked-materials-project-purchase-orders.md
+        - name: 供应商保留
+          items:
+            - name: 供应商保留概述
+              href: procurement/vendor-retention-overview.md
+            - name: 设置供应商保留
+              href: procurement/set-up-vendor-retention.md
     - name: 开票
       items:
         - name: 开票流程概述
@@ -528,6 +540,10 @@
       items:
         - name: 2021 年第 2 波抢先体验新增功能 - 精简部署
           href: pro/whats-new/whats-new-2021-early-access-lite.md
+        - name: 2021 年 10 月新增功能 - 精简部署
+          href: pro/whats-new/whats-new-oct-2021-lite.md
+        - name: 2021 年 9 月新增功能 - 精简部署
+          href: pro/whats-new/whats-new-sept-2021-lite.md
         - name: 2021 年 8 月新增功能 - 精简部署
           href: pro/whats-new/whats-new-august-2021-lite.md
         - name: 2021 年 7 月新增功能 - 精简部署
@@ -784,7 +800,7 @@
           items:
             - name: 使用复制项目开发项目模板
               href: project-management/dev-copy-project.md
-            - name: 使用项目日程安排 API（公开预览版）
+            - name: 使用项目日程安排 API
               href: project-management/schedule-api-preview.md
     - name: 资源管理
       items:
@@ -858,7 +874,7 @@
           href: pro/subcontracting/subcontract-header-details.md
         - name: 分包合同时间子项
           href: pro/subcontracting/subcontract-line-time.md
-        - name: 分包合同支出子项
+        - name: 分包合同支出类别子项
           href: pro/subcontracting/subcontract-line-expense.md
         - name: 分包合同产品子项
           href: pro/subcontracting/subcontract-line-products.md
@@ -1086,6 +1102,8 @@
       items:
         - name: Project Service 3.x 的更新版本计划
           href: psa/version-history-ps.md
+        - name: V3 更新版 36 的新增或变更功能
+          href: psa/whats-new-ur-36.md
         - name: V3 更新版 35 的新增或变更功能
           href: psa/whats-new-ur-35.md
         - name: V3 更新版 34 的新增或变更功能
