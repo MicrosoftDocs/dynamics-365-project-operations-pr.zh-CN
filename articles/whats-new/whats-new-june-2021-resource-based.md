@@ -7,12 +7,12 @@ ms.topic: article
 ms.prod: ''
 ms.reviewer: kfend
 ms.author: sigitac
-ms.openlocfilehash: 483992768f8b8a02dd0d56b9479c7d591fa676d1eca41161e68b7cf3f97107af
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: c6a40335df89cc6b2bb35e54832140aac6eb9ac6
+ms.sourcegitcommit: 03414a74ddf1f2d63043d734ebdee7485f1aadd2
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "7003850"
+ms.lasthandoff: 10/25/2021
+ms.locfileid: "7679198"
 ---
 # <a name="whats-new-june-2021---project-operations-for-resourcenon-stocked-based-scenarios"></a>2021 年 6 月新增功能 - 适用于基于资源/非库存场景的 Project Operations
 
@@ -30,6 +30,7 @@ _**适用于：** 面向资源/非库存场景的 Project Operations_
 - 能够删除[用于调整场景的项目发票方案行](../invoicing/correct-project-invoice-proposals.md)。
 - 细化支出行反映支出报表[支出报表重新打造新功能](../expense/expense-reports-reimagined.md#new-features)中的子类别名称。
 - 在创建新支出时，付款方式在新支出窗格中可用。
+- 项目日程安排 API 的正式发布。 此新功能允许客户以编程方式对项目任务、资源分配、任务依赖项和项目团队成员记录执行创建、更新和删除操作。 有关详细信息，请参阅[使用项目日程安排 API 执行操作和计划实体](../project-management/schedule-api-preview.md)。
 
 ## <a name="project-operations-dual-write-maps-updates"></a>Project Operations 双重写入映射更新
 

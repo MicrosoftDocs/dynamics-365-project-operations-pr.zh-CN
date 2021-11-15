@@ -2,16 +2,16 @@
 title: 创建工作分解结构
 description: 本主题说明如何在新计划界面中创建包括基本控件的工作分解结构 (WBS)。
 author: ruhercul
-ms.date: 01/07/2021
+ms.date: 06/30/2021
 ms.topic: article
 ms.reviewer: kfend
 ms.author: ruhercul
-ms.openlocfilehash: 701c386af8a227308d6868deda27a63e6101e85f667b0392501bb0490329f484
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: f77450d0d754606dd336072248012fea462510a4
+ms.sourcegitcommit: a12d21c7cab296f5b6a3181d76a06f57dee1267c
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6998720"
+ms.lasthandoff: 10/19/2021
+ms.locfileid: "7655406"
 ---
 # <a name="create-a-work-breakdown-structure-wbs"></a>创建工作分解结构 (WBS)
 
@@ -117,5 +117,26 @@ ms.locfileid: "6998720"
 
 **计划** 网格拥有完善的辅助功能，可以与讲述人、JAWS 或 NVDA 之类屏幕阅读器配合使用。 可使用箭头键在网格区域中移动（和在 Microsoft Excel 中一样），可以使用 Tab 键在交互式用户界面元素中前进，还可以使用向下键、Enter 将或空格键选择和打开下拉菜单。
 
+## <a name="project-limitations"></a>项目限制 
+如果您要在 Project Operations 中使用工作分解结构，则应该了解以下限制。 这些限制适用于项目和任务。 有关详细信息，请参阅 [Project for the Web 限制和边界](/project-for-the-web/project-for-the-web-limits-and-boundaries)。
+
+| **字段**                                          |  **限制**           |
+|----------------------------------------------------|----------------------|
+| 项目的最大总任务数                  | 500                  |
+| 项目的最长总持续时间               | 3650 天（10 年） |
+| 项目的最大总资源数              | 150                  |
+| 项目的最大总链接数（仅后续项） | 600                  |
+| 项目的最大总自定义字段数          | 10                   |
+
+**任务限制**
+
+| **字段**                               |   **限制**           |
+|-----------------------------------------|-----------------------|
+| 最大层次结构级别                 | 10 个级别             |
+| 最大链接数（后续项 + 前置项） | 20                    |
+| 叶节点任务的最长持续时间           | 1250 天             |
+| 摘要任务的最长持续时间      | 3650 天（10 年）  |
+| 分配给任务的最大资源数    | 20 个资源          |
+| 任务支持的日期范围         | 1/1/2000 - 12/31/2149 |
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

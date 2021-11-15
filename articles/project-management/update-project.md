@@ -1,23 +1,23 @@
 ---
-title: 更新项目
+title: 创建并更新项目
 description: 此主题提供有关在 Project Operations 中更新项目的信息。
 author: ruhercul
-ms.date: 10/01/2020
+ms.date: 10/20/2021
 ms.topic: article
 ms.reviewer: kfend
 ms.author: ruhercul
-ms.openlocfilehash: b0ec03a2c4dd7bc833b22b7a93fed810b4998a2788f4ff40234e3dd163bd9eb6
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: d0847b5343cf3e353b91eae04c94509f14213ba5
+ms.sourcegitcommit: 51224cb3bf7cdeae6614d39fc8d899c83dbad5f2
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "7000880"
+ms.lasthandoff: 10/23/2021
+ms.locfileid: "7678338"
 ---
-# <a name="update-a-project"></a>更新项目
+# <a name="create-and-update-a-project"></a>创建并更新项目
 
 _**适用于：** 基于资源/非库存场景的 Project Operations，精简部署 - 估价开票交易_
 
-以下是创建项目后可以在项目中更新的字段的摘要，以及更新的所有适用含义。
+以下是创建项目后可以对项目更新的字段的摘要。 这还包括基于这些更新的任何适用影响。
 
 ## <a name="project-detail-fields"></a>项目详细信息字段
 
@@ -25,8 +25,8 @@ _**适用于：** 基于资源/非库存场景的 Project Operations，精简部
 - **说明**：项目的概述。
 - **客户**：要向其交付项目的公司。
 - **日历模板**：项目的工作时间。 当字段更改时，将重新计算整个计划。
-- **货币**：项目的货币。 此字段的默认值基于在合同签订部门定义的货币。 当合同签订部门更新时，此字段也会更新。
-- **合同签订部门**：代表主要负责赢得销售和管理对客户的工作和服务交付的公司组或部门的部门。 
+- **货币**：项目的货币。 此字段的默认值基于在合同签订部门中定义的货币。 当合同签订部门更新时，此字段也会更新。
+- **合同签订部门**：代表主要负责赢得销售和管理对客户的工作和服务交付的公司组或部门的部门。  未定义项目经理的部门时，此字段将默认为项目参数中定义的值。
 - **项目经理**：有权审阅和审批时间条目和支出的项目团队成员。
 
 ## <a name="estimate-fields"></a>预估字段

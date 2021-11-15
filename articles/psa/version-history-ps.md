@@ -22,12 +22,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 9ed9cb4615ba45c6b42154caffbd16806d30a8e7
-ms.sourcegitcommit: 23f68542fb5913534f0f76529b843cd268dbd7f6
+ms.openlocfilehash: 71cb8d0d9111e84bbd85dd116ce39465081f1653
+ms.sourcegitcommit: 95c0a30142fbacfd0c2ef63f42066f3a3534b832
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/11/2021
-ms.locfileid: "7623308"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "7773562"
 ---
 # <a name="update-release-schedule-for-project-service-3x"></a>Project Service 3.x 的更新版本计划
 
@@ -37,7 +37,7 @@ ms.locfileid: "7623308"
 
 | 解决方案  | 最新版本 |
 |-------|----|
-| Project Service Automation    | 3.10.57.152 |
+| Project Service Automation    | 3.10.58.120 |
 | Project Service Automation 桌面加载项                | 3.15          |
 
 有关 Project Service 的更新的信息，请参阅 [Dynamics 365 发行计划](/dynamics365/release-plans/)。 
@@ -45,28 +45,29 @@ ms.locfileid: "7623308"
 | 站  | 区域 | 当前版本 | 下一版本 |  计划日期
 | :---   | :---   | :---   | :---   |:---   |         
 |<strong>第 1 站</strong> | |  |  | |
-| | <i>第一版</i> | [3.10.57.152](whats-new-ur-36.md) | TBD | 2021 年 10 月 29 日
+| | <i>第一版</i> | [3.10.58.120](whats-new-ur-37.md) | TBD | 2021 年 12 月 3 日
 |<strong>第 2 站</strong> | |  |  | |
-| | <i>南美</i> | [3.10.57.152](whats-new-ur-36.md) | TBD | 2021 年 11 月 5 日
-| | <i>加拿大</i> | [3.10.57.152](whats-new-ur-36.md) | TBD | 2021 年 11 月 5 日
-| | <i>印度</i> | [3.10.57.152](whats-new-ur-36.md) | TBD | 2021 年 11 月 5 日
-| | <i>法国</i> | [3.10.57.152](whats-new-ur-36.md) | TBD | 2021 年 11 月 5 日
-| | <i>南非</i> | [3.10.57.152](whats-new-ur-36.md) | TBD | 2021 年 11 月 5 日
-| | <i>德国</i> | [3.10.57.152](whats-new-ur-36.md) | TBD | 2021 年 11 月 5 日
-| | <i>瑞士</i> | [3.10.57.152](whats-new-ur-36.md) | TBD | 2021 年 11 月 5 日
+| | <i>南美</i> | [3.10.58.120](whats-new-ur-37.md) | TBD | 2021 年 12 月 10 日
+| | <i>加拿大</i> | [3.10.58.120](whats-new-ur-37.md) | TBD | 2021 年 12 月 10 日
+| | <i>印度</i> | [3.10.58.120](whats-new-ur-37.md) | TBD | 2021 年 12 月 10 日
+| | <i>法国</i> | [3.10.58.120](whats-new-ur-37.md) | TBD | 2021 年 12 月 10 日
+| | <i>南非</i> | [3.10.58.120](whats-new-ur-37.md) | TBD | 2021 年 12 月 10 日
+| | <i>德国</i> | [3.10.58.120](whats-new-ur-37.md) | TBD | 2021 年 12 月 10 日
+| | <i>瑞士</i> | [3.10.58.120](whats-new-ur-37.md) | TBD | 2021 年 12 月 10 日
 |<strong>第 3 站</strong> | |  |  | |
-| | <i>日本</i> | [3.10.56.110](whats-new-ur-35.md) | [3.10.57.152](whats-new-ur-36.md) | 2021 年 10 月 15 日
-| | <i>亚太地区</i> | [3.10.56.110](whats-new-ur-35.md) | [3.10.57.152](whats-new-ur-36.md) | 2021 年 10 月 15 日
-| | <i>英国</i> | [3.10.56.110](whats-new-ur-35.md) | [3.10.57.152](whats-new-ur-36.md) | 2021 年 10 月 15 日
-| | <i>大洋洲</i> | [3.10.56.110](whats-new-ur-35.md) | [3.10.57.152](whats-new-ur-36.md) | 2021 年 10 月 15 日
-| | <i>阿拉伯联合酋长国</i> | [3.10.56.110](whats-new-ur-35.md) | [3.10.57.152](whats-new-ur-36.md) | 2021 年 10 月 15 日
+| | <i>日本</i> | [3.10.57.152](whats-new-ur-36.md) | [3.10.58.120](whats-new-ur-37.md) | 2021 年 11 月 12 日
+| | <i>亚太地区</i> | [3.10.57.152](whats-new-ur-36.md) | [3.10.58.120](whats-new-ur-37.md) | 2021 年 11 月 12 日
+| | <i>英国</i> | [3.10.57.152](whats-new-ur-36.md) | [3.10.58.120](whats-new-ur-37.md) | 2021 年 11 月 12 日
+| | <i>大洋洲</i> | [3.10.57.152](whats-new-ur-36.md) | [3.10.58.120](whats-new-ur-37.md) | 2021 年 11 月 12 日
+| | <i>阿拉伯联合酋长国</i> | [3.10.57.152](whats-new-ur-36.md) | [3.10.58.120](whats-new-ur-37.md) | 2021 年 11 月 12 日
 |<strong>第 4 站</strong> | |  |  | |
-| | <i>欧洲</i> | [3.10.56.110](whats-new-ur-35.md) | [3.10.57.152](whats-new-ur-36.md) | 2021 年 10 月 22 日
+| | <i>欧洲</i> | [3.10.57.152](whats-new-ur-36.md) | [3.10.58.120](whats-new-ur-37.md) | 2021 年 11 月 19 日
 |<strong>第 5 站</strong> | |  |  | |
-| | <i>北美</i> | [3.10.56.110](whats-new-ur-35.md) | [3.10.57.152](whats-new-ur-36.md) | 2021 年 10 月 29 日
+| | <i>北美</i> | [3.10.57.152](whats-new-ur-36.md) | [3.10.58.120](whats-new-ur-37.md) | 2021 年 12 月 3 日
 |<strong>第 6 站</strong> | |  |  | |
-| | <i>政府社区云</i> | [3.10.56.110](whats-new-ur-35.md) | [3.10.57.152](whats-new-ur-36.md) | 2021 年 10 月 29 日
-| | <i>专用规模组</i> | [3.10.56.110](whats-new-ur-35.md) | [3.10.57.152](whats-new-ur-36.md) | 2021 年 11 月 5 日
+| | <i>政府社区云</i> | [3.10.57.152](whats-new-ur-36.md) | [3.10.58.120](whats-new-ur-37.md) | 2021 年 12 月 3 日
+| | <i>专用规模组</i> | [3.10.57.152](whats-new-ur-36.md) | [3.10.58.120](whats-new-ur-37.md) | 2021 年 12 月 10 日
+
 
 
 >[!Note]
