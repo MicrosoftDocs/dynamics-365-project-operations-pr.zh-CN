@@ -2,17 +2,17 @@
 title: Project Operations 更新
 description: 本主题提供有关 Dynamics 365 Project Operations 的发行版本的信息。
 author: sigitac
-ms.date: 10/04/2021
+ms.date: 11/15/2021
 ms.topic: article
 ms.prod: ''
 ms.reviewer: kfend
 ms.author: sigitac
-ms.openlocfilehash: 493218d53075f3044adce47bed8ecdc031cca8e7
-ms.sourcegitcommit: b8b7a59eee7d93638446e93726d270316e45ab3d
+ms.openlocfilehash: e4cafde5e866690f31452eceffdd81ffeb14e635
+ms.sourcegitcommit: 97e5887ae5bad6c26aa1179b51c9b71c434ea8fe
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/10/2021
-ms.locfileid: "7783412"
+ms.lasthandoff: 12/06/2021
+ms.locfileid: "7892164"
 ---
 # <a name="project-operations-updates"></a>Project Operations 更新
 
@@ -28,17 +28,17 @@ Dynamics 365 Project Operations 包括两个组件：
 - Dynamics 365 Finance 环境中的项目管理和会计包含支出管理功能、项目会计和收入确认。 Finance and Operations 应用环境用于面向资源/非库存场景的 Project Operations 和面向库存/生产订单场景的 Project Operations。
 
 ## <a name="project-operations-release-notes"></a>Project Operations 发行说明
-- [资源/非库存](whats-new-oct-2021-resource-based.md)场景的 Project Operations 最新发行说明。
-- [精简部署](../pro/whats-new/whats-new-oct-2021-lite.md)场景的 Project Operations 最新发行说明。
-- [库存/生产订单](../prod-pma/whats-new/whats-new-jul-2021-stocked.md)场景的 Project Operations 最新发行说明。
+- [资源/非库存](whats-new-nov-2021-resource-based.md)场景的 Project Operations 最新发行说明。
+- [精简部署](../pro/whats-new/whats-new-nov-2021-lite.md)场景的 Project Operations 最新发行说明。
+- [库存/生产订单](../prod-pma/whats-new/whats-new-oct-2021-stocked.md)场景的 Project Operations 最新发行说明。
 
 ## <a name="project-operations-latest-version"></a>Project Operations 最新版本
 
 | Dataverse 环境中的 Project Operations | Finance and Operations 应用环境中的项目管理和会计 | 
 | --- | --- |
-| 4.26.0.145 | 10.0.21 |
+| 4.26.0.150 | 10.0.22 |
 
-对于 Project Operations 资源/非库存方案，建议使用双重写入业务流程版本 2.2.2.83 或更高版本。
+对于 Project Operations 资源/非库存方案，建议使用双重写入业务流程版本 2.3.1.15 或更高版本。
 
 ## <a name="release-schedule-for-project-operations-on-dataverse-environment"></a>Dataverse 环境中的 Project Operations 的发行计划
 
@@ -47,23 +47,23 @@ Dataverse 环境中的 Project Operations 更新每月推出。
 | 站 | 区域 | 当前版本号 | 精简部署的自动更新 | 资源/非库存部署的自动更新 | 下一个版本号 | 下一个版本公开发布 |
 |-----------|-----------------------|-----------------|--------------------|---------------------|---------------------|---------------------|
 | 第 1 站 |   &nbsp;              |    &nbsp;       | &nbsp;             |      &nbsp;         |      &nbsp;         |      &nbsp;         |
-|   &nbsp;  | 第一版         |  4.26.0.145     | 2021 年 11 月 12 日  | 2021 年 11 月 19 日   | TBD                 | 2021 年 12 月 3 日   |
+|   &nbsp;  | 第一版         |  4.26.0.150     | 完成           | 完成            | TBD                 | 2021 年 12 月 6 日   |
 | 第 2 站 |   &nbsp;              |    &nbsp;       | &nbsp;             |      &nbsp;         |      &nbsp;         |      &nbsp;         |
-|   &nbsp;  | 南美         |  4.26.0.145     | 2021 年 11 月 12 日  | 2021 年 11 月 19 日   | TBD                 | 2021 年 12 月 3 日   |
-|   &nbsp;  | 加拿大                |  4.26.0.145     | 2021 年 11 月 12 日  | 2021 年 11 月 19 日   | TBD                 | 2021 年 12 月 3 日   |
-|   &nbsp;  | 印度                 |  4.26.0.145     | 2021 年 11 月 12 日  | 2021 年 11 月 19 日   | TBD                 | 2021 年 12 月 3 日   |
-|   &nbsp;  | 法国                |  4.26.0.145     | 2021 年 11 月 12 日  | 2021 年 11 月 19 日   | TBD                 | 2021 年 12 月 3 日   |
-|   &nbsp;  | 南非          |  4.26.0.145     | 2021 年 11 月 12 日  | 2021 年 11 月 19 日   | TBD                 | 2021 年 12 月 3 日   |
+|   &nbsp;  | 南美         |  4.26.0.150     | 完成           | 完成            | TBD                 | 2021 年 12 月 6 日   |
+|   &nbsp;  | 加拿大                |  4.26.0.150     | 完成           | 完成            | TBD                 | 2021 年 12 月 6 日   |
+|   &nbsp;  | 印度                 |  4.26.0.150     | 完成           | 完成            | TBD                 | 2021 年 12 月 6 日   |
+|   &nbsp;  | 法国                |  4.26.0.150     | 完成           | 完成            | TBD                 | 2021 年 12 月 6 日   |
+|   &nbsp;  | 南非          |  4.26.0.150     | 完成           | 完成            | TBD                 | 2021 年 12 月 6 日   |
 | 第 3 站 |      &nbsp;           |     &nbsp;      |     &nbsp;         |      &nbsp;         |      &nbsp;         |      &nbsp;         |
-|   &nbsp;  | 日本                 |  4.26.0.145     | 2021 年 11 月 12 日  | 2021 年 11 月 19 日   | TBD                 | 2021 年 12 月 10 日   |
-|   &nbsp;  | 亚太          |  4.26.0.145     | 2021 年 11 月 12 日  | 2021 年 11 月 19 日   | TBD                 | 2021 年 12 月 10 日   |
-|   &nbsp;  | 英国         |  4.26.0.145     | 2021 年 11 月 12 日  | 2021 年 11 月 19 日   | TBD                 | 2021 年 12 月 10 日   |
-|   &nbsp;  | 大洋洲               |  4.26.0.145     | 2021 年 11 月 12 日  | 2021 年 11 月 19 日   | TBD                 | 2021 年 12 月 10 日   |
-|   &nbsp;  | 阿拉伯联合酋长国  |  4.26.0.145     | 2021 年 11 月 12 日  | 2021 年 11 月 19 日   | TBD                 | 2021 年 12 月 10 日   |
+|   &nbsp;  | 日本                 |  4.26.0.150     | 完成           | 完成            | TBD                 | 2021 年 12 月 10 日   |
+|   &nbsp;  | 亚太          |  4.26.0.150     | 完成           | 完成            | TBD                 | 2021 年 12 月 10 日   |
+|   &nbsp;  | 英国         |  4.26.0.150     | 完成           | 完成            | TBD                 | 2021 年 12 月 10 日   |
+|   &nbsp;  | 大洋洲               |  4.26.0.150     | 完成           | 完成            | TBD                 | 2021 年 12 月 10 日   |
+|   &nbsp;  | 阿拉伯联合酋长国  |  4.26.0.150     | 完成           | 完成            | TBD                 | 2021 年 12 月 10 日   |
 | 第 4 站 |     &nbsp;            |     &nbsp;      |     &nbsp;         |      &nbsp;         |      &nbsp;         |      &nbsp;         |
-|   &nbsp;  | 欧洲                |  4.25.0.91      | 完成           | 完成            | 4.26.0.145          | 2021 年 11 月 12 日   |
+|   &nbsp;  | 欧洲                |  4.26.0.150     | 完成           | 2021 年 12 月 10 日   | TBD                 | 2021 年 12 月 17 日   |
 | 第 5 站 |     &nbsp;            |     &nbsp;      |     &nbsp;         |      &nbsp;         |      &nbsp;         |      &nbsp;         |
-|   &nbsp;  | 北美         |  4.25.0.91      | 完成           | 完成            | 4.26.0.145          | 2021 年 11 月 19 日   |
+|   &nbsp;  | 北美         |  4.26.0.150     | 2021 年 12 月 10 日  | 2021 年 12 月 17 日   | TBD                 | 2022 年 1 月 7 日    |
 
 
 ## <a name="release-schedule-for-project-management-and-accounting-in-the-finance-and-operations-apps-environment"></a>Finance and Operations 应用环境中的项目管理和会计的发行计划

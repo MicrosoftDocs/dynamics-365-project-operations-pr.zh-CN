@@ -2,7 +2,7 @@
 title: 设置信用卡集成
 description: 本主题介绍如何处理与支出相关的信用卡交易。
 author: suvaidya
-ms.date: 04/02/2021
+ms.date: 11/17/2021
 ms.topic: article
 ms.prod: ''
 ms.search.form: ''
@@ -13,12 +13,12 @@ ms.search.region: ''
 ms.author: shylaw
 ms.search.validFrom: ''
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: 51c364dff41d856e493581e1b87fd29571f641c70e7233bdebb910efbc64b983
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 49c8f2369a8be41fbc04c74bdb6b565b4f4b7b79
+ms.sourcegitcommit: 9f26cf8bb640af1eb9f7f0872805965d7ffcb9d3
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6996200"
+ms.lasthandoff: 11/19/2021
+ms.locfileid: "7826245"
 ---
 # <a name="set-up-credit-card-integration"></a>设置信用卡集成
 
@@ -50,10 +50,18 @@ _**适用于：** 基于资源/非库存场景的 Project Operations，精简部
 
 ## <a name="delete-credit-card-transactions"></a>删除信用卡交易 
 
-有时，在导入信用卡交易后，可能需要删除某些交易。 这可能是因为交易是重复交易，或者因为数据可能不够准确。 管理员可以使用 **删除信用卡交易** 功能来选择和删除 **未附加** 到支出报表的信用卡交易。 
+有时，在导入信用卡交易后，可能需要删除某些交易。 这可能是因为交易重复或数据不准确。 管理员可以使用 **删除信用卡交易** 功能来选择和删除 **未附加** 到支出报表的信用卡交易。 
 
 1. 转到 **定期任务** > **删除信用卡交易**。
 2. 选择 **筛选** 并提供用于标识要包含的记录的信息。
 3. 选择 **确定** 以删除记录。 
+
+## <a name="storing-credit-card-numbers"></a>存储信用卡号码
+
+三个选项可用于存储信用卡号码。 信用卡号码存储在 **支出管理参数** 页面上。
+
+- **防止输入卡号** – 不存储信用卡号码。
+- **哈希卡号（存储最后四位数）**– 以加密格式存储信用卡号码的最后四位数。
+- **存储卡号** - 以未加密格式存储信用卡号码。 此选项不符合付款卡行业 (PCI) 数据安全标准 (DSS)。 因此，为了使其组织符合 PCI DSS 法规，组织管理员应选择不存储信用卡号或存储哈希卡号。
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

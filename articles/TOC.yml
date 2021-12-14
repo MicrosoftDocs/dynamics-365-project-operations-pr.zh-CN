@@ -58,7 +58,9 @@
           href: environment/uninstall-project-operations.md
     - name: 新增功能
       items:
-        - name: 2021 年 10 月 - 基于资源/非库存场景的 Project Operations
+        - name: 2021 年 11 月 - 适用于资源/非库存材料场景的 Project Operations
+          href: whats-new/whats-new-nov-2021-resource-based.md
+        - name: 2021 年 10 月 - 适用于资源/非库存材料场景的 Project Operations
           href: whats-new/whats-new-oct-2021-resource-based.md
         - name: 2021 年 9 月 - 基于资源/非库存场景的 Project Operations
           href: whats-new/whats-new-sept-2021-resource-based.md
@@ -302,11 +304,13 @@
               href: project-management/schedule-api-preview.md
             - name: 项目日程安排 API 性能
               href: project-management/project-schedule-api-performance.md
+            - name: 项目日程安排日志
+              href: project-management/schedule-api-logs.md
     - name: 资源管理
       items:
         - name: 关键概念
           href: resource-management/resource-management-key-concepts.md
-        - name: 预订与工作
+        - name: 预订与分配
           href: resource-management/booking-vs-assignment.md
         - name: 资源管理模式概述
           href: resource-management/resource-management-mode-overview.md
@@ -544,6 +548,8 @@
       items:
         - name: 2021 年第 2 波抢先体验新增功能 - 精简部署
           href: pro/whats-new/whats-new-2021-early-access-lite.md
+        - name: 2021 年 11 月新增功能 - 精简部署
+          href: pro/whats-new/whats-new-nov-2021-lite.md
         - name: 2021 年 10 月新增功能 - 精简部署
           href: pro/whats-new/whats-new-oct-2021-lite.md
         - name: 2021 年 9 月新增功能 - 精简部署
@@ -812,7 +818,7 @@
       items:
         - name: 关键概念
           href: resource-management/resource-management-key-concepts.md
-        - name: 预订与工作
+        - name: 预订与分配
           href: resource-management/booking-vs-assignment.md
         - name: 资源管理模式概述
           href: resource-management/resource-management-mode-overview.md
@@ -952,6 +958,10 @@
   items:
     - name: 新增功能
       items:
+        - name: 2021 年 10 月新增功能 - 适用于库存/生产订单场景的 Project Operations
+          href: prod-pma/whats-new/whats-new-oct-2021-stocked.md
+        - name: 2021 年 9 月新增功能 - 适用于库存/生产订单场景的 Project Operations
+          href: prod-pma/whats-new/whats-new-sep-2021-stocked.md
         - name: 2021 年 7 月新增功能 - 适用于库存/生产订单场景的 Project Operations
           href: prod-pma/whats-new/whats-new-jul-2021-stocked.md
         - name: 2021 年 5 月新增功能 - 适用于库存/生产订单场景的 Project Operations
@@ -1108,6 +1118,8 @@
       items:
         - name: Project Service 3.x 的更新版计划
           href: psa/version-history-ps.md
+        - name: V3 更新版 37.5 的新增或变更功能
+          href: psa/whats-new-ur-37-5.md
         - name: V3 更新版 37 的新增或变更功能
           href: psa/whats-new-ur-37.md
         - name: V3 更新版 36 的新增或变更功能
