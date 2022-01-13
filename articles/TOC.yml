@@ -8,6 +8,10 @@
       href: environment/admin-trials.md
     - name: Project Operations 更新
       href: whats-new/project-operations-updates.md
+    - name: 已删除或弃用的功能
+      items:
+        - name: Project Operations 中已删除或弃用的功能
+          href: whats-new/removed-depreciated-features-project.md
 - name: 基于资源/非库存场景的 Project Operations
   items:
     - name: 开始
@@ -58,6 +62,8 @@
           href: environment/uninstall-project-operations.md
     - name: 新增功能
       items:
+        - name: 2021 年 12 月 - 适用于资源/非库存材料场景的 Project Operations
+          href: whats-new/whats-new-dec-2021-resource-based.md
         - name: 2021 年 11 月 - 适用于资源/非库存材料场景的 Project Operations
           href: whats-new/whats-new-nov-2021-resource-based.md
         - name: 2021 年 10 月 - 适用于资源/非库存材料场景的 Project Operations
@@ -400,6 +406,8 @@
               href: expense/set-up-expense-categories.md
             - name: 使用里程运价率层设置里程
               href: expense/set-up-mileage.md
+        - name: 支出项设置
+          href: prod-exp/expense-itemization.md
         - name: 个人支出
           href: expense/personal-expenses-expense-report.md
         - name: 内部公司支出
@@ -530,6 +538,12 @@
           href: revenue-recognition/cost-complete-methods.md
         - name: 管理收入估计
           href: revenue-recognition/rev-rec-completed-contract-method.md
+    - name: 疑难解答
+      items:
+        - name: 项目销售流程
+          items:
+            - name: 创建项目、合同、报价单或可预订资源时出现币种不匹配错误
+              href: troubleshooting/project-sales-process/currency-mismatch-error.md
 - name: 精简部署 - 估价交易开票
   items:
     - name: 开始
@@ -548,6 +562,8 @@
       items:
         - name: 2021 年第 2 波抢先体验新增功能 - 精简部署
           href: pro/whats-new/whats-new-2021-early-access-lite.md
+        - name: 2021 年 12 月新增功能 - 精简部署
+          href: pro/whats-new/whats-new-dec-2021-lite.md
         - name: 2021 年 11 月新增功能 - 精简部署
           href: pro/whats-new/whats-new-nov-2021-lite.md
         - name: 2021 年 10 月新增功能 - 精简部署
@@ -890,10 +906,24 @@
           href: pro/subcontracting/subcontract-line-expense.md
         - name: 分包合同产品子项
           href: pro/subcontracting/subcontract-line-products.md
-        - name: 分包合同子项资源
+        - name: 分包商子项资源
           href: pro/subcontracting/subcontract-line-resources.md
         - name: 分包合同子项里程碑
           href: pro/subcontracting/subcontract-line-milestones.md
+        - name: 分包项目团队成员
+          href: pro/subcontracting/subcontracting-project-team-members.md
+        - name: 针对项目团队成员的分包选项
+          href: pro/subcontracting/subcon-options.md
+        - name: 对已分包资源分配的成本评估
+          href: pro/subcontracting/costing-subcon-ra.md
+        - name: 配置日程安排板以显示合同员工和已分包容量
+          href: pro/subcontracting/configure-sb-subcon.md
+        - name: 为项目配备合同工和已分包容量
+          href: pro/subcontracting/staffing-cw.md
+        - name: 记录已分包部分的时间、支出和材料使用情况
+          href: pro/subcontracting/recording-subcon-actuals.md
+        - name: 分包合同的状态转换
+          href: pro/subcontracting/subcon-states.md
     - name: 时间
       items:
         - name: 时间概述
@@ -1118,6 +1148,8 @@
       items:
         - name: Project Service 3.x 的更新版计划
           href: psa/version-history-ps.md
+        - name: V3 更新版 38 的新增或变更功能
+          href: psa/whats-new-ur-38.md
         - name: V3 更新版 37.5 的新增或变更功能
           href: psa/whats-new-ur-37-5.md
         - name: V3 更新版 37 的新增或变更功能
@@ -1204,6 +1236,8 @@
           href: psa/implementation-guides/resource-management-guide.md
         - name: 报告指南
           href: psa/implementation-guides/reporting-guide.md
+    - name: 从 Project Service Automation 升级到 Project Operations - 精简
+      href: psa/upgrade-project-operations-non-stocked.md
     - name: Project Service Automation 升级（应用版本 3.x）
       items:
         - name: Project Service Automation 升级
