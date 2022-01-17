@@ -2,16 +2,16 @@
 title: 注册 Project Operations 试用版
 description: 此主题介绍如何部署 Dynamics 365 Project Operations 试用版。
 author: ruhercul
-ms.date: 10/04/2021
+ms.date: 12/08/2021
 ms.topic: article
 ms.reviewer: kfend
 ms.author: ruhercul
-ms.openlocfilehash: 1c8ae111acffb45fef1c2e6435849471ae331796
-ms.sourcegitcommit: 05ee415093d152b5b9e1203c3db0ea7f0c5a75a5
+ms.openlocfilehash: e40b4ac23241730f5c2db89f0dc674083f9e7abe
+ms.sourcegitcommit: 8f970b46d0303dafaa75fc7d00567d232e1e600b
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/04/2021
-ms.locfileid: "7599202"
+ms.lasthandoff: 12/09/2021
+ms.locfileid: "7901606"
 ---
 # <a name="sign-up-for-project-operations-trials"></a>注册 Project Operations 试用版 
 
@@ -90,7 +90,8 @@ _**适用范围：** 面向资源/非库存场景的 Project Operations，精简
 4.  选择相应的 Microsoft Dataverse URL 和 Finance and Operations 应用 URL 以验证部署。
 
 ## <a name="configuring-dual-write"></a>配置双重写入
-仅限非库存材料部署：配置双重写入映射。 有关详细信息，请参阅 [Project Operations 双重写入映射版本](resource-dual-write-maps.md)。
+- 若要为双重写入配置安全角色，请参阅[在 Dataverse 中更新 Project Operations 上的安全设置](resource-provision-new-environment.md)。
+- 若要配置双重写入映射，请参阅[运行 Project Operations 双重写入映射](resource-provision-new-environment.md#run-project-operations-dual-write-maps)。
 
 ## <a name="assign-licenses"></a>分配许可证
 

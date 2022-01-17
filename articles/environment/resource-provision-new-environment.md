@@ -7,12 +7,12 @@ ms.topic: article
 ms.prod: ''
 ms.reviewer: kfend
 ms.author: sigitac
-ms.openlocfilehash: 7f63b144b6fe3eb848d0c303b64237516a97cb56
-ms.sourcegitcommit: 083e3d219cd5126eecb74debb1b70b361680b1f6
+ms.openlocfilehash: a00426678d23000dc19386792d346318eab74ed9
+ms.sourcegitcommit: d3f66dfb5978c5c6b7fd51363c7f9278737c49c1
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 09/18/2021
-ms.locfileid: "7501405"
+ms.lasthandoff: 12/17/2021
+ms.locfileid: "7928650"
 ---
 # <a name="provision-a-new-environment"></a>设置新环境
 
@@ -159,7 +159,6 @@ Project Operations 需要应用程序版本为 **10.0.13 (10.0.569.20009)** 或�
       - **会计日历**
       - **分类帐**
       - **公司**
-      - **货币汇率类型**
       - **支出**
 
 5. 更新安全角色后，转到 **设置** > **安全** > **团队**，然后在 **本地企业负责人** 团队视图中选择默认团队。

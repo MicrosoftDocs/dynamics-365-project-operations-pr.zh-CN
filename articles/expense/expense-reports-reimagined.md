@@ -1,8 +1,8 @@
 ---
-title: 重新打造支出报表
+title: 重新打造支出报表（包含视频）
 description: 本主题说明了重新设计和重新构想的支出报表条目体验。
 author: suvaidya
-ms.date: 07/08/2021
+ms.date: 12/16/2021
 ms.topic: article
 ms.prod: ''
 ms.search.form: ''
@@ -13,12 +13,12 @@ ms.search.region: ''
 ms.author: suvaidya
 ms.search.validFrom: ''
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: dba30d16283d820d04d3a1b2fec0acbf30252e87b86c899686ef4df0985ae6ee
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: db5812ebf5a96afee53144efb231093f6af85b68
+ms.sourcegitcommit: 1186e9822e06a13fde89b67ea89427eddfe23cee
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6997820"
+ms.lasthandoff: 12/20/2021
+ms.locfileid: "7941021"
 ---
 # <a name="expense-reports-reimagined"></a>重新打造支出报表
 
@@ -58,6 +58,7 @@ ms.locfileid: "6997820"
 | 保存和添加新支出行 | 输入新支出时，**保存** 和 **新建** 按钮可用，帮助您快速输入支出行。 |
 | 更清晰地查看拆分和细化行 | 细化和拆分行直接添加到支出列表中，以增加可见性，帮助您轻松确定是否有错误。 |
 | 在细化行中查看子类别详细信息 | 父支出的细化行显示支出报表中的子类别标签。 通过细化，您可以一目了然地查看细粒度细节。|
+|快速列出经常性支出明细 | 利用重构的支出工作区，通过添加子类别、开始日期和数量，可以快速列出经常性支出明细。 数量是指连续时间段内费用重复发生的次数。 |
 | 在细化时显示收据 | 收据可以在细化时显示。 |
 | 预付现金选择 | 选择一个或多个预付现金以完成单个支出交易。 |
 | 预付现金余额 | 在针对批准和付款的预付现金创建支出条目时，实时查看预付现金余额。 |

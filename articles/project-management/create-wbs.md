@@ -2,16 +2,16 @@
 title: 创建工作分解结构
 description: 本主题说明如何在新计划界面中创建包括基本控件的工作分解结构 (WBS)。
 author: ruhercul
-ms.date: 06/30/2021
+ms.date: 12/16/2021
 ms.topic: article
 ms.reviewer: kfend
 ms.author: ruhercul
-ms.openlocfilehash: f77450d0d754606dd336072248012fea462510a4
-ms.sourcegitcommit: a12d21c7cab296f5b6a3181d76a06f57dee1267c
+ms.openlocfilehash: 3b8162d256aa145301fc64bee9682caa8737496f
+ms.sourcegitcommit: d3f66dfb5978c5c6b7fd51363c7f9278737c49c1
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/19/2021
-ms.locfileid: "7655406"
+ms.lasthandoff: 12/17/2021
+ms.locfileid: "7928604"
 ---
 # <a name="create-a-work-breakdown-structure-wbs"></a>创建工作分解结构 (WBS)
 
@@ -95,7 +95,7 @@ ms.locfileid: "7655406"
 
 ## <a name="staffing-attributes"></a>人员配备属性
 
-人员配备属性通过计划中的 **资源** 字段访问。 可搜索现有资源，或选择 **创建**，然后在 **快速创建** 窗格中把项目团队成员作为新资源添加。
+人员配备属性通过计划中的 **资源** 字段访问。 可搜索现有资源，或选择 **创建**，然后在 **快速创建** 窗格中把项目团队成员作为新资源添加。  当您使用任务网格、板块视图或甘特图中的资源选择器搜索资源时，搜索会返回现有项目团队成员或可用的可预订资源。
 
 **角色**、**资源单位** 和 **位置名称** 字段用于描述任务的人员配备要求。 这些人员配备属性与任务计划一起用于查找可用于完成此任务的资源。
 
@@ -127,6 +127,7 @@ ms.locfileid: "7655406"
 | 项目的最大总资源数              | 150                  |
 | 项目的最大总链接数（仅后续项） | 600                  |
 | 项目的最大总自定义字段数          | 10                   |
+| 每个任务的最大清单项数                   | 20                   |
 
 **任务限制**
 
