@@ -2,16 +2,18 @@
 title: 项目资源时间的财务估算
 description: 此主题提供了关于如何计算时间财务估算的信息。
 author: rumant
+manager: Annbe
 ms.date: 03/19/2021
 ms.topic: article
+ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: e4be4c8087005ae66a54d40ac88017df591c56eca64f04b00cf34b0e5a8a09ce
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 91156c5cf79af8c66c12b84a6d2b17aa7fe09ed1
+ms.sourcegitcommit: 386921f44f1e9a8a828b140206d52945de07aee7
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6998675"
+ms.lasthandoff: 03/22/2021
+ms.locfileid: "5701815"
 ---
 # <a name="financial-estimates-for-resource-time-on-projects"></a>项目资源时间的财务估算
 
@@ -37,7 +39,7 @@ _**适用于：** 基于资源/非库存场景的 Project Operations，精简部
 
 摘要任务或父任务中的时间财务估算是其所有子任务的财务估算总和。 这是项目的估算人工成本。 
 
-![资源预估。](./media/navigation12.png)
+![资源预估](./media/navigation12.png)
 
 ## <a name="default-cost-price-and-cost-currency"></a>默认成本费和成本货币
 

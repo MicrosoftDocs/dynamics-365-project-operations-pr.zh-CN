@@ -2,6 +2,8 @@
 title: 创建时间条目
 description: 此主题介绍如何创建时间条目。
 author: rumant
+manager: kfend
+ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 05/20/2019
@@ -16,12 +18,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 0d0e21d0964788564d3db9173c3a0b3378cd0049b4455a23ccc1bccd1c21d9e7
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 520d3a6e6cc3d486d778c66c2ef7fd3ff20cd582
+ms.sourcegitcommit: 418fa1fe9d605b8faccc2d5dee1b04b4e753f194
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6990395"
+ms.lasthandoff: 02/10/2021
+ms.locfileid: "5149667"
 ---
 # <a name="create-time-entries"></a>创建时间条目
 
@@ -68,6 +70,3 @@ ms.locfileid: "6990395"
 ## <a name="group-by-sort-search-and-filter-capabilities"></a>分组依据、排序、搜索和筛选功能
 
 可以按列中指定的维度对时间条目进行分组和筛选。 在 **分组依据** 字段中选择要用于筛选时间条目的维度。 也可以使用列标题中的排序箭头按升序或降序为时间条目记录排序。 此外，还可以显示或隐藏条目，方法是选择列标题中的 **筛选** 按钮，然后在 **搜索** 框中输入应该用于按项目名称、项目任务、时间条目或资源搜索时间条目的文本。
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

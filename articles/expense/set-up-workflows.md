@@ -2,9 +2,11 @@
 title: 设置支出管理工作流
 description: 您可以设置用于审核和审批出差和支出文档的工作流程。
 author: suvaidya
+manager: AnnBe
 ms.date: 09/23/2020
 ms.topic: article
 ms.prod: ''
+ms.service: project-operations
 ms.search.form: ''
 audience: Application User
 ms.reviewer: kfend
@@ -13,12 +15,12 @@ ms.search.region: ''
 ms.author: shylaw
 ms.search.validFrom: ''
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: 883e871b434c910747e45904cc9dc0c46bb4e2df788f503b848ad41984884edd
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: af6463b07e282ae1ff6aa7dc1a540ff7c8cc318a
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6997730"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4127687"
 ---
 # <a name="set-up-workflows-for-expense-management"></a>设置支出管理工作流
 
@@ -46,6 +48,3 @@ _**适用于：** 基于资源/非库存场景的 Project Operations，精简部
 |       <strong>出差申请</strong>       |          为出差申请创建审批工作流。           |
 |      <strong>预付现金请求</strong>      |         为预付现金请求创建审批工作流。          |
 |        <strong>增值税退税</strong>        | 为增值税 (VAT) 退税创建审批工作流。  |
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

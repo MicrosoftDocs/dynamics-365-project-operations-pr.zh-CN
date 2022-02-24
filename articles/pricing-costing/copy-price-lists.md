@@ -2,22 +2,24 @@
 title: 复制价目表
 description: 此主题提供有关如何在 Project Operations 中复制价目表的信息。
 author: rumant
+manager: Annbe
 ms.date: 10/13/2020
 ms.topic: article
+ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: ad09bdce563a48843b3ed96e7aaabd9c0d5960336b9e1c74fddb9b61f760f4cd
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 67a69d521ac0a5632371138bd4fbb9dd00fe34ee
+ms.sourcegitcommit: f6f86e80dfef15a7b5f9174b55dddf410522f7c8
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "7003715"
+ms.lasthandoff: 10/31/2020
+ms.locfileid: "4181486"
 ---
 # <a name="copy-price-lists"></a>复制价目表
 
 _**适用于：** 基于资源/非库存场景的 Project Operations，精简部署 - 估价开票交易_
 
-您可以在 Dynamics 365 Project Operations 中创建价目表的副本。 例如，您可以使用当前年度的价目表为下一年创建价目表。  或者，您可以从成本价目表复制记帐费率和销售价格的价目表。 
+您可以在 Dynamics 365 Project Operations 中创建价目表副本。 例如，您可以使用当前年度的价目表为下一年创建价目表。  或者，您可以从成本价目表复制记帐费率和销售价格的价目表。 
 
 若要复制价目表，请完成以下步骤。
 
@@ -41,6 +43,3 @@ _**适用于：** 基于资源/非库存场景的 Project Operations，精简部
 1. 在价目表的 **角色**、**类别** 和 **价目表项** 选项卡上，您可以选择 **更新价格** 来为子网格中的所有价格应用加价。 
 2. 在打开的对话页面上，输入加价。 您还可以输入负加成百分比，将价格降低一定百分比。 
 3. 在对话页面上选择 **确定**，然后验证子网格中的价格是否反映了您所作的更改。
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -2,6 +2,8 @@
 title: 项目进度和成本消耗
 description: 此主题介绍如何跟踪项目进度和成本消耗。
 author: ruhercul
+manager: kfend
+ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 08/21/2020
@@ -16,12 +18,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 8bde19fbf1dd9f0c760455ecb7f7f2bd14a358d441bf024ec0cdefa42866f53e
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 0b69cee49e028b98bbb32e4a7e7aedf5479527dc
+ms.sourcegitcommit: 418fa1fe9d605b8faccc2d5dee1b04b4e753f194
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6987155"
+ms.lasthandoff: 02/10/2021
+ms.locfileid: "5148002"
 ---
 # <a name="project-progress-and-cost-consumption"></a>项目进度和成本消耗
 
@@ -96,6 +98,3 @@ Project Service Automation 使用以下公式计算跟踪度量：
 **总体项目状态** 字段是一个可编辑字段，其中显示项目的总体状态。 其使用颜色编码（如绿色、黄色和红色）来指示上升的风险。 项目经理可使用 **注释** 字段输入有关状态的特定注释。 **状态更新时间** 字段不可编辑，其值是时间戳，用于指示状态的上次更新时间。
 
 **计划绩效** 和 **成本绩效** 字段从跟踪日期设置。 如果 **工作量跟踪** 视图中根节点的计划与成本的偏差为正，可将这些字段设置为 **提前**。 如果根节点的计划与成本偏差为负，可将其设置为 **落后**。
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

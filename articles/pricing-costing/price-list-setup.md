@@ -2,22 +2,24 @@
 title: 设置价目表
 description: 此主题提供有关如何设置成本和销售价目表的信息。
 author: rumant
+manager: Annbe
 ms.date: 10/20/2020
 ms.topic: article
+ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: 227e9a6f0ce6fd3fa1c2b0bd9afa014a3ec4f9758ead0dfb408156535692575c
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 000c22944b187b6250f2e982d73020028093fde6
+ms.sourcegitcommit: f6f86e80dfef15a7b5f9174b55dddf410522f7c8
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "7009475"
+ms.lasthandoff: 10/31/2020
+ms.locfileid: "4180181"
 ---
 # <a name="set-up-price-lists"></a>设置价目表
 
 _**适用于：** 基于资源/非库存场景的 Project Operations，精简部署 - 估价开票交易_
 
-Dynamics 365 Project Operations 中的价目表表示费率目录。 费率表示成本、销售额和记帐费率。 根据价目表是表示成本费率还是销售额和记帐费率，价目表的上下文为 **销售** 或 **成本**。
+Dynamics 365 Project Operations 中的价目表代表费率目录。 费率表示成本、销售额和记帐费率。 根据价目表是表示成本费率还是销售额和记帐费率，价目表的上下文为 **销售** 或 **成本**。
 
 以下扩展项特定于 Project Operations，应用于 Dynamics 365 Sales 中的价目表。
 
@@ -38,6 +40,3 @@ Dynamics 365 Project Operations 中的价目表表示费率目录。 费率表�
 | 货币 | **常规** 选项卡和 **快速创建** 窗体 | 此字段用于确定与此价目表相关的每个角色、类别或价目表项明细中的货币的默认值。 | 在 **销售** 价目表中，角色、类别或价目表项明细不能以此货币之外的任何货币创建。 在 **成本** 价目表中，您可以使用任何货币创建角色价格明细。 此处定义的货币用作默认货币。 与角色价格相关的用户设置可以替代此值来支持使用任何货币设置人工成本费率。 类别成本费率和价目表项成本只能使用此处定义的货币设置。 |
 | 时间单位 | **常规** 选项卡和 **快速创建** 窗体 | 此字段用于确定与此价目表相关的每个角色明细中的时间单位的默认值。 | 此字段值仅用于相关的角色价格设置。 在 **成本** 和 **销售** 价目表中，您可以使用任何时间单位创建角色价格明细。 此处定义的时间单位用作默认时间单位。 与用户设置相关的角色价格可以替代此值，来支持使用任何时间单位设置人工成本费率和记帐费率。 |
 | 描述 | **常规** 选项卡和 **快速创建** 窗体 | 此文本字段让您可以为价目表提供多行说明。 | 此字段显示在具有相关价目表的各个实体中的价目表的 **关联** 视图中。 |
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

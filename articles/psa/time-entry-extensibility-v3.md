@@ -2,6 +2,8 @@
 title: 自定义周时间条目
 description: 此主题介绍如何实施为组织的业务提供支持的自定义业务规则。
 author: stsporen
+manager: kfend
+ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 07/09/2019
@@ -16,20 +18,20 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: fa2ef927e0234919ee4777f24c60569fb33a8570f6d48be6aef356df4f08a6e7
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: a34244884bc81da74ae3bf550bde6f982d04abd3
+ms.sourcegitcommit: 418fa1fe9d605b8faccc2d5dee1b04b4e753f194
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "7002275"
+ms.lasthandoff: 02/10/2021
+ms.locfileid: "5149622"
 ---
-# <a name="customize-weekly-time-entry"></a>自定义每周时间条目 
+# <a name="customize-weekly-time-entry"></a>自定义周时间条目 
 
 [!include [banner](../includes/psa-now-project-operations.md)]
 
 [!INCLUDE[cc-applies-to-psa-app-3.x](../includes/cc-applies-to-psa-app-3x.md)]
 
-在 Microsoft Dynamics 365 Project Service Automation 版本 3.3 中，Microsoft 引入了一个新型网格，供项目资源一次性快速输入最多一周的时间。 这个新的周时间条目网格可以按日期、行或周显示条目的总计。 资源可以创建周内时间条目的副本，还可以从之前周批量复制。 系统定制员可以自定义视图，方法是添加字段，添加对其他实体的查找，以及实施自定义业务规则以支持其组织的业务。
+在 Microsoft Dynamics 365 Project Service Automation 版本 3.3 中，Microsoft 引入了一个现代网格，供项目资源一次性快速输入最多一周的时间。 这个新的周时间条目网格可以按日期、行或周显示条目的总计。 资源可以创建周内时间条目的副本，还可以从之前周批量复制。 系统定制员可以自定义视图，方法是添加字段，添加对其他实体的查找，以及实施自定义业务规则以支持其组织的业务。
 
 时间条目和新的周时间网格通过站点地图访问。 早期 PSA 版本的不可扩展自定义时间条目体验已被可扩展周时间条目网格取代和只读网格和日历中的替代体验取代。 由于此项更改，用户可以以周为量输入时间。
 
@@ -130,6 +132,3 @@ ms.locfileid: "7002275"
 
 > [!IMPORTANT] 
 > 现在，当更新未通过插件验证时，TBX 页中的一项已知问题阻止用户更正信息和重新选择“完成”。 解决方法是，设置业务规则验证以尽量避免这种情况发生。
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

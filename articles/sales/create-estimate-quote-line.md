@@ -2,9 +2,11 @@
 title: 根据报价单明细创建估算
 description: 此主题提供有关如何在项目的报价单明细中创建估算的信息。
 author: rumant
+manager: AnnBe
 ms.date: 09/18/2020
 ms.topic: article
 ms.prod: ''
+ms.service: project-operations
 audience: Application User
 ms.reviewer: kfend
 ms.search.scope: ''
@@ -15,12 +17,12 @@ ms.search.industry: Service industries
 ms.author: rumant
 ms.dyn365.ops.version: ''
 ms.search.validFrom: 2020-10-01
-ms.openlocfilehash: 8d7e7df4830612f5a7c43adf37f75bdb623959ffe00fe219441d8e394ddecac3
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 97030689eddb88576ffcf9dd848f8a0776512192
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6996425"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4122917"
 ---
 # <a name="create-estimates-on-a-quote-line"></a>根据报价单明细创建估算
 
@@ -86,6 +88,3 @@ _**适用于：** 基于资源/非库存场景的 Project Operations，精简部
 7. 选择 **确定** 关闭对话框，然后选择 **更新步骤**。
 8. 对第二个插件重复步骤 1 到 7。
 9. 关闭 PluginRegistrationTool。
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

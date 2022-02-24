@@ -2,6 +2,8 @@
 title: 在 Office 365 日历中管理项目和预订
 description: 如何在 Office 365 日历中管理项目和预订
 author: ruhercul
+manager: kfend
+ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 8/03/2018
@@ -15,12 +17,12 @@ search.audienceType:
 search.app:
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: b38affbfc8d339ac1a2093391286ea4c095207be8de2e8eeca558e6fcc5bcc07
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: c575bd3deba5bcde2526ccfc598327917bf91642
+ms.sourcegitcommit: 418fa1fe9d605b8faccc2d5dee1b04b4e753f194
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6985310"
+ms.lasthandoff: 02/10/2021
+ms.locfileid: "5144447"
 ---
 # <a name="manage-projects-and-bookings-in-your-calendar-project-service"></a>在日历中管理项目和预订 (Project Service)
 
@@ -50,7 +52,7 @@ ms.locfileid: "6985310"
   
 - 需要 [!INCLUDE[pn_office_365](../includes/pn-office-365.md)] 全局管理员或系统管理员凭据。  
   
-- 您的管理员需要配置电子邮件服务器配置文件，而每位用户则需要配置自己的邮箱。 [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [通过服务器端同步设置电子邮件处理](/dynamics365/customerengagement/on-premises/admin/set-up-server-side-synchronization-of-email-appointments-contacts-and-tasks)  
+- 您的管理员需要配置电子邮件服务器配置文件，而每位用户则需要配置自己的邮箱。 [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [通过服务器端同步设置电子邮件处理](https://docs.microsoft.com/dynamics365/customerengagement/on-premises/admin/set-up-server-side-synchronization-of-email-appointments-contacts-and-tasks)  
   
 ## <a name="turn-on-synchronization-for-your-organization-admin-task"></a>为组织开启同步（管理员任务）  
   
@@ -89,6 +91,3 @@ ms.locfileid: "6985310"
   
 ### <a name="see-also"></a>另请参阅  
  [时间、费用和协作指南](../psa/time-expense-collaboration-guide.md)
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

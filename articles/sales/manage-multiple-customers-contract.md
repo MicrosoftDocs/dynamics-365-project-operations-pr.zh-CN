@@ -2,16 +2,18 @@
 title: 管理项目合同上的多个客户
 description: 此主题提供有关如何管理项目合同上的多个客户的信息。
 author: rumant
+manager: Annbe
 ms.date: 11/18/2020
 ms.topic: article
+ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: 1adb786c36d43a148e8c5a8b25ded5a997557119f7e6e9e2248935ad4ed211d5
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 5554cb062710c3587d81b1a29771a7af84d2d05f
+ms.sourcegitcommit: 573be7e36604ace82b35e439cfa748aa7c587415
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6992060"
+ms.lasthandoff: 11/25/2020
+ms.locfileid: "4643148"
 ---
 # <a name="manage-multiple-customers-on-project-contracts"></a>管理项目合同上的多个客户
 
@@ -45,6 +47,3 @@ ms.locfileid: "6992060"
 您可以通过在网格中进行编辑来编辑计费拆分百分比。 如果计费拆分百分比总计不是 100%，将出现错误。 编辑计费拆分百分比后，刷新 **项目合同** 页面以去除错误。
 
 您还可以选择项目合同客户子网格上的 **平均分配**。 将计费拆分平均分配给项目合同中的所有客户。 如果存在任何舍入系数，会将其添加到舍入客户。 其中一个合同客户始终将 **舍入** 标志设置为 **是**。 该客户是舍入客户。 通常，舍入客户也是合同的主要客户，但并不强制要求是这样。
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

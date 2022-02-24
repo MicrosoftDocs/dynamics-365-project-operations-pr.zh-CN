@@ -1,6 +1,8 @@
 ---
 title: 2020 年第 1 波 Project Service Automation 版本 3.x 中的新增功能或更改
 description: 本主题介绍 2020 年第 1 波 Project Service Automation 版本 3 中的新增功能和更改。
+manager: kfend
+ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 05/15/2020
@@ -16,12 +18,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: a88b777c54ce54935d5483f616f3a24724ee192d40fbfd5d514f990e958dd5ea
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 5110679038ae7ed1e21a3e7dc80a4657e0752b49
+ms.sourcegitcommit: 418fa1fe9d605b8faccc2d5dee1b04b4e753f194
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "7002095"
+ms.lasthandoff: 02/10/2021
+ms.locfileid: "5150927"
 ---
 # <a name="whats-new-or-changed-in-project-service-automation-version-3-wave-1-2020"></a>2020 年第 1 波 Project Service Automation 版本 3 中的新增功能或更改
 
@@ -41,6 +43,3 @@ ms.locfileid: "7002095"
 
 ### <a name="currently-extended-time-entry-changes"></a>当前扩展的时间条目更改
 为了最大程度地减小时间条目对当前用户的影响，此角色更改是继续利用时间条目所需的唯一核心要求。 如果创建了自定义视图或单独的时间条目体验，则必须将 **时间条目设置** 字段设置为正确的 PSA 值。
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -2,9 +2,11 @@
 title: 根据物料需求接收采购订单上的物料
 description: 本主题介绍如何根据物料需求接收某一采购订单的物料。
 author: Yowelle
+manager: AnnBe
 ms.date: 08/06/2019
 ms.topic: business-process
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: ProjProjectsListPage, ProjTable, ProjSalesItemReq, InventItemIdLookupSimple, PurchCreateFromSalesOrder, VendAccountItemLookup, PurchTable, PurchEditLines
 audience: Application User
@@ -14,12 +16,12 @@ ms.search.region: Global
 ms.author: andchoi
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: da5eff576040f20cc206800b4d4ca987d08b0185ec5364bc1efc940f85d36371
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: a5b3622458da957ed150311f6ea75d5f1444d5f1
+ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6998945"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "4072771"
 ---
 # <a name="receive-items-on-purchase-order-from-item-requirement"></a>根据物料需求接收采购订单上的物料
 
@@ -54,6 +56,3 @@ ms.locfileid: "6998945"
 21. 在 **产品收据** 字段中，键入一个值。
 22. 选择 **确定**。
 
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

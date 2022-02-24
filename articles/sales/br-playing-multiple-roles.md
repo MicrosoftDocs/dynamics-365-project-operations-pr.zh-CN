@@ -2,16 +2,18 @@
 title: 当可预订资源在项目中担任多个角色时，估计项目销售和成本
 description: 本主题说明如何使用定价维度来支持在项目中担任多个角色的资源的定价和成本估算。
 author: rumant
+manager: tfehr
 ms.date: 11/16/2020
 ms.topic: article
+ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: 28a67e79b03dfbc38e9786350c931838ef27891a3d26787fc0334e0572528228
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: da17f0f58623128d51fda0f5529182cd37ea41b9
+ms.sourcegitcommit: 2d399bc9d07807626f0d6b2d0cf304240c47591c
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6990125"
+ms.lasthandoff: 11/17/2020
+ms.locfileid: "4531373"
 ---
 # <a name="estimate-project-sales-and-costs-when-a-bookable-resource-fills-multiple-roles-on-a-project"></a>当可预订资源在项目中担任多个角色时，估计项目销售和成本 
 
@@ -104,6 +106,3 @@ _**适用范围：** 面向资源/非库存场景的 Project Operations，精简
 ### <a name="estimates-grid"></a>估算网格 
 
 在 **估计** 网格上，同一资源的两个工作的定价不同。 **任务 A** 中的资源的工作使用 **咨询负责人** 的 **角色** 属性值定价。 **任务 B** 中的同一个资源的工作使用 **网络技术人员** 的 **角色** 属性值定价。
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

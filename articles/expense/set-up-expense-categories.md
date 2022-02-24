@@ -2,16 +2,18 @@
 title: 设置支出类别
 description: 此主题提供有关如何为支出报表设置支出类别和共享类别的信息。
 author: suvaidya
+manager: Annbe
 ms.date: 10/01/2020
 ms.topic: article
+ms.service: project-operations
 ms.reviewer: kfend
 ms.author: suvaidya
-ms.openlocfilehash: 8f5b1a5d069b8d73051406369ecba2c4547eaa38e0d5bde2e34f52c5b7b724bd
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 13e72e4b852fd0edac5ad35d5162e74b016bce33
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6993095"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4123772"
 ---
 # <a name="set-up-expense-categories"></a>设置支出类别
 
@@ -59,6 +61,3 @@ _**适用于：** 面向资源/非库存场景的 Project Operations_
 
     - 是否将任何子类别排除在退税之外？
     - 子类别的项目销售税组是什么？
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

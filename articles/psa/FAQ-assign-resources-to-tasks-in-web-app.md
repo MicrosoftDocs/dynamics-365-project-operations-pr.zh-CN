@@ -16,12 +16,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 25cf017c53d7db23e467b3b610e2990e56e95cb56bdf9820e427dfeeeb979637
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 32a04ddef901515cd77262b5ae6be2458cb6b00c
+ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6987695"
+ms.lasthandoff: 05/10/2021
+ms.locfileid: "5993277"
 ---
 # <a name="how-do-i-assign-a-bookable-resource-to-a-task-in-the-web-app-project-service-app-v2x"></a>如何在 Web 应用程序（Project Service 应用程序 v2.x）中将可预订资源分派到任务？
 
@@ -43,7 +43,7 @@ ms.locfileid: "6987695"
 3.  选择 **起始** 和 **截止** 日期。
 
     > [!div class="mx-imgBorder"] 
-    > ![添加团队成员的屏幕截图。](media/FAQ-Resources-to-Tasks2-1.png "添加团队成员的屏幕截图")
+    > ![添加团队成员的屏幕截图](media/FAQ-Resources-to-Tasks2-1.png "添加团队成员的屏幕截图")
  
 4.  选择以下分配方法之一预订资源：
     - **完全产能** 为指定的起始日期和截止日期预订资源的完全产能。
@@ -63,12 +63,12 @@ ms.locfileid: "6987695"
     3. 选择 **确定**。 团队成员现在分派到了任务。
 
     > [!div class="mx-imgBorder"] 
-    > ![使用 WBS 添加资源的屏幕截图。](media/FAQ-Resources-to-Tasks2-2.png "使用 WBS 添加资源的屏幕截图")
+    > ![使用 WBS 添加资源的屏幕截图](media/FAQ-Resources-to-Tasks2-2.png "使用 WBS 添加资源的屏幕截图")
  
 在团队成员网格上，您将在“分派的时数”下看到资源的已分派时数的总和。 它将小于或等于资源的预订时数。 
 
 > [!div class="mx-imgBorder"] 
-> ![资源的已分派时数的屏幕截图。](media/FAQ-Resources-to-Tasks2-3.png "资源的已分派时数的屏幕截图")
+> ![资源的已分派时数的屏幕截图](media/FAQ-Resources-to-Tasks2-3.png "资源的已分派时数的屏幕截图")
  
 如果您尝试分派到资源的任务在资源预订的结束日期之后开始，此资源将不会显示在下拉列表中。
 
@@ -92,22 +92,22 @@ ms.locfileid: "6987695"
 4. 选择 **确定**。
 
     > [!div class="mx-imgBorder"] 
-    > ![使用 WBS 添加资源的屏幕截图。](media/FAQ-Resources-to-Tasks2-4.png "使用 WBS 添加资源的屏幕截图")
+    > ![使用 WBS 添加资源的屏幕截图](media/FAQ-Resources-to-Tasks2-4.png "使用 WBS 添加资源的屏幕截图")
  
 在 WBS 中将角色分派到任务后，选择 **生成项目团队**。 Project Service 根据角色、资源部门和项目日历通过聚合任务分派来创建最低数量的通用团队成员。
 
 > [!div class="mx-imgBorder"] 
-> ![生成项目团队的屏幕截图。](media/FAQ-Resources-to-Tasks2-5.png "生成项目团队的屏幕截图")
+> ![生成项目团队的屏幕截图](media/FAQ-Resources-to-Tasks2-5.png "生成项目团队的屏幕截图")
  
 在团队成员网格中，您将会看到具有此角色和职位名称的通用资源类型的资源。 如果角色需要两个资源来完成工作，“生成团队”功能将创建两个团队成员，并使用职位名称来区分它们。
 
 > [!div class="mx-imgBorder"] 
-> ![添加两个通用资源的屏幕截图。](media/FAQ-Resources-to-Tasks2-6.png "添加两个通用资源的屏幕截图")
+> ![添加两个通用资源的屏幕截图](media/FAQ-Resources-to-Tasks2-6.png "添加两个通用资源的屏幕截图")
  
 您可以通过选择“资源要求”下的链接来打开通用团队成员的支持资源要求。
 
 > [!div class="mx-imgBorder"] 
-> ![打开支持资源要求的屏幕截图。](media/FAQ-Resources-to-Tasks2-7.png "打开支持资源要求的屏幕截图")
+> ![打开支持资源要求的屏幕截图](media/FAQ-Resources-to-Tasks2-7.png "打开支持资源要求的屏幕截图")
 
 为通用资源选择 **预订**，然后您可以使用日程安排板查找和预订实际资源。 您还可以通过选择 **提交请求** 来提交由资源经理满足的要求。
 

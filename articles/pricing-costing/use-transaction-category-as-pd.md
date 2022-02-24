@@ -2,16 +2,18 @@
 title: 将交易类别用作定价维度
 description: 本主题提供有关如何使用“交易类别”字段作为定价维度的信息。
 author: rumant
+manager: tfehr
 ms.date: 11/05/2020
 ms.topic: article
+ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: ab8093aca9a33bbbaef41c6fc7d33cad930bfadd13b0f7587c3de9032ac0d630
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: bace11455d34fdda95e08be1a7cc37850a0cf589
+ms.sourcegitcommit: 869bde007805ef255f61b03937e4a44aeef61df9
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6996110"
+ms.lasthandoff: 11/12/2020
+ms.locfileid: "4513964"
 ---
 # <a name="use-transaction-category-as-a-pricing-dimension"></a>将交易类别用作定价维度
 
@@ -48,6 +50,3 @@ _**适用于：** 基于资源/非库存场景的 Project Operations，精简部
 2. 在 **参数** 页上的 **基于金额的定价维度** 选项卡上，验证网格是否显示 **定价维度** 实体中的记录。
 3. 向此列表添加 **交易类别**，然后将 **适用于成本** 和 **适用于销售** 字段设置为 **是**。
 4. 在 **维度类型** 字段中，选择 **基于金额**，然后选择与成本和销售有关的 **交易类别** 的优先级。
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

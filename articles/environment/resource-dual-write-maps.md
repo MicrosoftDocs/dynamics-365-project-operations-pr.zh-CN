@@ -2,16 +2,18 @@
 title: Project Operations 双重写入映射版本
 description: 本主题提供 Dynamics 365 Project Operations 所需的双重写入映射的列表。
 author: sigitac
+manager: Annbe
 ms.date: 04/22/2021
 ms.topic: article
+ms.service: project-operations
 ms.reviewer: kfend
 ms.author: sigitac
-ms.openlocfilehash: 452f9f16bfbae2d547afb9fcf4fc51595ea49890
-ms.sourcegitcommit: 74a7e1c9c338fb8a4b0ad57c5560a88b6e02d0b2
+ms.openlocfilehash: fa0342985f2c860cd3cb3f686f0dcaa59d8cfd41
+ms.sourcegitcommit: bc51629df94c164325cf2afee387d0e7cda66da7
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 09/23/2021
-ms.locfileid: "7547098"
+ms.lasthandoff: 04/23/2021
+ms.locfileid: "5938953"
 ---
 # <a name="project-operations-dual-write-map-versions"></a>Project Operations 双重写入映射版本
 
@@ -32,40 +34,40 @@ _**适用于：** 面向资源/非库存场景的 Project Operations_
 
 1. 从映射列表中，选择具有所有先决条件的分类帐 **(msdyn\_ledgers)** 映射，然后选中 **初始同步** 复选框。 在 **初始同步的主体** 字段中，为分类帐映射和所有必备映射都选择 **Finance and Operations 应用**。 选择 **运行**。
 
-![分类帐映射同步。](media/DW6.png)
+![分类帐映射同步](media/DW6.png)
 
-2. 对上表中列出的所有其余表映射执行相同的步骤。 运行这些映射时，不要选中 **初始同步** 复选框。
+1. 对上表中列出的所有其余表映射执行相同的步骤。 运行这些映射时，不要选中 **初始同步** 复选框。
 
 ## <a name="project-operations-dual-write-maps"></a>Project Operations 双重写入映射
 
-以下映射是 Project Operations 解决方案所必需的。 从 Project Operations 的 2021 年 5 月更新版本 4.10.0.186 开始列出了双重写入映射版本。
+以下映射是 Project Operations 解决方案所必需的。
 
 | **实体映射** | **最新版本** | **初始同步** |
 | --- | --- | --- |
 | 项目交易关系的集成实体 (msdyn\_transactionconnections) | 1.0.0.0 | 预配时不需要。 |
 | 项目合同抬头 (sales orders) | 1.0.0.1 | 预配时不需要。 |
 | 项目合同子项 (salesorderdetails) | 1.0.0.0 | 预配时不需要。 |
-| 项目资金来源 (msdyn_projectcontractsplitbillingrules) | 1.0.0.2 | 预配时不需要。 |
+| 项目资金来源 (msdyn_projectcontractsplitbillingrules) | 1.0.0.1 | 预配时不需要。 |
 | 用于材料估算的 Project Operations 集成表 (msdyn\_estimatelines) | 1.0.0.0 | 预配时不需要。 |
-| 项目发票方案 V2 (invoices) | 1.0.0.3 | 预配时不需要。 |
+| 项目发票方案 V2 (invoices) | 1.0.0.2 | 预配时不需要。 |
 | Project Operations 集成实际值 (msdyn_actuals) | 1.0.0.14 | 预配时不需要。 |
-| Project Operations 集成合同子项里程碑 (msdyn_contractlinescheduleofvalues) | 1.0.0.4 | 预配时不需要。 |
-| 用于支出估算的 Project Operations 集成实体 (msdyn_estimatelines) | 1.0.0.2 | 预配时不需要。 |
+| Project Operations 集成合同子项里程碑 (msdyn_contractlinesscheduleofvalues) | 1.0.0.4 | 预配时不需要。 |
+| 用于支出估算的 Project Operations 集成实体 (msdyn_estimateslines) | 1.0.0.2 | 预配时不需要。 |
 | 用于工时估算的 Project Operations 集成实体 (msdyn_resourceassignments) | 1.0.0.5 | 预配时不需要。 |
-| Project Operations 集成项目支出类别导出实体 (msdyn_expensecategories) | 1.0.0.1 | 预配时不需要。 |
+| Project Operations 集成项目支出类别导出实体 (msdyn_expensecategories) | 1.0.0.2 | 预配时不需要。 |
 | Project Operations 集成项目支出导出实体 (msdyn_expenses) | 1.0.0.2 | 预配时不需要。 |
 | Project Operations 集成项目供应商发票导出实体 (msdyn_projectvendorinvoices) | 1.0.0.0 | 预配时不需要。 |
-| Project Operations 集成项目供应商发票明细导出实体 (msdyn_projectvendorinvoicelines) | 1.0.0.1 | 预配时不需要。 |
+| Project Operations 集成项目供应商发票明细导出实体 (msdyn_projectvendorinvoicelines) | 1.0.0.0 | 预配时不需要。 |
 | 所有公司的项目资源角色 (bookableresourcecategories) | 1.0.0.1 | 需要对表映射进行初始同步，以同步预配期间在 Dynamics 365 Dataverse 环境中填充的项目经理和团队成员资源角色。 Dataverse 是初始同步的主要来源。 |
 | 项目任务 (msdyn_projecttasks) | 1.0.0.4 | 预配时不需要。 |
 | 项目交易类别 (msdyn_transactioncategories) | 1.0.0.0 | 预配时不需要。 |
-| 项目 V2 (msdyn_projects) | 1.0.0.2 | 预配时不需要。 |
+| 项目 V2 (msdyn_projects) | 1.0.0.1 | 预配时不需要。 |
 
 完成以下步骤运行列出的映射。
 
 1. 为 **所有公司 (bookableresourcecategories)** 表映射启用项目资源角色，因为此映射需要初始同步。在 **初始同步的主体** 字段中，选择 **Common data service**。 
 
- ![资源角色表映射同步。](media/6ResourceInitialSync.jpg)
+ ![资源角色表映射同步](media/6ResourceInitialSync.jpg)
 
  等待映射的状态进入 **正在运行**，进行下一步。
 

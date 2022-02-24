@@ -2,10 +2,12 @@
 title: 添加新的自定义实体窗体 (Project Service Automation 2.x)
 description: 此主题介绍如何在 Dynamics 365 Project Service Automation 2.x 中为商机、报价单、订单或发票添加自定义实体窗体。
 author: makk
+manager: kfend
 ms.custom:
 - dyn365-projectservice
 ms.date: 3/14/2019
 ms.topic: article
+ms.service: business-applications
 ms.author: makk
 audience: admin
 search.audienceType:
@@ -14,12 +16,12 @@ search.audienceType:
 search.app:
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: e59e343887ef59ee28bee13346a0c9bf3ad7df27346e2a4f3f02a1e5c08c060f
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 31986efed81892cc5722cb8f5e292cde14d8843d
+ms.sourcegitcommit: 418fa1fe9d605b8faccc2d5dee1b04b4e753f194
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6995210"
+ms.lasthandoff: 02/10/2021
+ms.locfileid: "5144582"
 ---
 # <a name="add-new-custom-entity-forms-project-service-automation-2x"></a>添加新的自定义实体窗体 (Project Service Automation 2.x)
 
@@ -57,7 +59,7 @@ Dynamics 365 Project Service Automation 依赖商机、报价单、订单和发�
     - 将 **我的项目信息** 窗体作为非托管解决方案的一部分导出，然后在导出的解决方案的 customization.xml 文件中查找 **formId** 值。
     - 在窗体编辑器中打开 **我的项目信息** 窗体，然后在 URL 的 **fromId** 参数旁边查找全局唯一标识符 (GUID)，如下图中所示。
 
-    ![URL 中新窗体的 formId 值。](media/how-to-add-custom-forms-in-v2.0.png)
+    ![URL 中新窗体的 formId 值](media/how-to-add-custom-forms-in-v2.0.png)
 
 5. 通过编辑 msdyn\_/SalesDocument/PSSalesDocumentCustomFormIds.js Web 资源为 **formId** 值创建 **msdyn\_ordertype** 映射。 从资源中删除代码，替换为以下代码。
 
@@ -94,6 +96,3 @@ Dynamics 365 Project Service Automation 依赖商机、报价单、订单和发�
     ```
 
 6. 保存自定义设置，然后发布。
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

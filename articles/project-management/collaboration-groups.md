@@ -2,16 +2,18 @@
 title: 与 Office 组协作
 description: Office 组可让您与 Common Data Service 中的其他团队成员共享项目。
 author: ruhercul
+manager: Annbe
 ms.date: 10/01/2020
 ms.topic: article
+ms.service: project-operations
 ms.reviewer: kfend
 ms.author: ruhercul
-ms.openlocfilehash: 2ad284bb3eb461e254292fcf78ea135c9b978deeded30927c3c442afc2ec0b7e
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 815658ef66fb8083fb066f8f4d64a503580bfad2
+ms.sourcegitcommit: 573be7e36604ace82b35e439cfa748aa7c587415
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "7003130"
+ms.lasthandoff: 11/25/2020
+ms.locfileid: "4642487"
 ---
 # <a name="collaboration-with-office-groups"></a>与 Office 组协作
 
@@ -24,6 +26,3 @@ Office 组可让您与 Common Data Service 中的其他团队成员共享项目�
 > [!NOTE] 
 > 仅在按 **组** 并添加用户时，用户才会被添加到组中。 这与 Web 项目的行为不同。 
 
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

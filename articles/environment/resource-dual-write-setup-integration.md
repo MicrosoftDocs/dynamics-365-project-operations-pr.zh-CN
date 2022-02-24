@@ -2,17 +2,19 @@
 title: Project Operations 设置和配置数据集成
 description: 本主题提供有关设置和配置 Project Operations 双重写入映射的信息。
 author: sigitac
+manager: Annbe
 ms.date: 4/23/2021
 ms.topic: article
 ms.prod: ''
+ms.service: project-operations
 ms.reviewer: kfend
 ms.author: sigitac
-ms.openlocfilehash: 6d263f7c5ef0d562edde6a603340a3b8746195df190fdb527bfa40297f68eed2
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: d5fe81dca30039f99d5d7b9bb459214e540db945
+ms.sourcegitcommit: bc51629df94c164325cf2afee387d0e7cda66da7
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6986525"
+ms.lasthandoff: 04/23/2021
+ms.locfileid: "5938955"
 ---
 # <a name="project-operations-setup-and-configuration-data-integration"></a>Project Operations 设置和配置数据集成
 
@@ -24,7 +26,7 @@ _**适用于：** 面向资源/非库存场景的 Project Operations_
 
 在 Dataverse 中创建项目合同、合同子项和项目，并将其同步到 Finance and Operations 应用以进行其他会计工作。 这些实体中的记录只能在 Dataverse 中创建和删除。 不过，可以在 Finance and Operations 应用中将诸如销售税组默认值和财务维度之类的会计属性添加到这些记录中。
 
-  ![项目合同集成概念。](./media/1ProjectContract.jpg)
+  ![项目合同集成概念](./media/1ProjectContract.jpg)
 
 将在 Dataverse 中跟踪销售活动潜在顾客、商机和报价单，它们不会同步到 Finance and Operations 应用，因为没有与此活动关联的下游会计。
 
@@ -51,7 +53,7 @@ Dataverse 中的项目合同子项使用 **项目合同子项(salesorderdetails)
 
 使用固定价格记帐方法的项目合同子项通过记帐里程碑来开票。 记帐里程碑使用 **Project Operations 集成合同子项里程碑(msdyn\_contractlinescheduleofvalues)** 表映射同步到 Finance and Operations 应用中的项目帐户内交易。
 
-  ![记帐里程碑集成。](./media/2Milestones.jpg)
+  ![记帐里程碑集成](./media/2Milestones.jpg)
 
 会计可以转到 **项目管理和会计** > **项目合同** > **维护** > **帐户内交易** 或 **项目管理和会计** > **所有项目** > **维护** > **帐户内交易**，查看帐户内交易并调整这些交易的会计属性。
 
@@ -61,13 +63,13 @@ Dataverse 中的项目合同子项使用 **项目合同子项(salesorderdetails)
 
 项目任务通过 **项目任务(msdyn\_projecttasks)** 表映射同步到 Finance and Operations 应用，同步后仅用于引用目的。 不支持通过 Finance and Operations 应用创建、更新和删除操作。
 
-  ![项目任务集成。](./media/3Tasks.jpg)
+  ![项目任务集成](./media/3Tasks.jpg)
 
 ## <a name="project-resources"></a>项目资源
 
 **项目资源角色** 实体使用 **所有公司的项目资源角色(bookableresourcecategories)** 表映射同步到 Finance and Operations 应用，同步后仅用于引用目的。 由于 Dataverse 中的资源角色不是特定于公司的，因此系统会自动为双重写入集成范围内包含的所有法人在 Finance and Operations 应用中创建各自的公司特定的资源角色记录。
 
-![资源角色集成。](./media/5Resources.jpg)
+![资源角色集成](./media/5Resources.jpg)
 
 Project Operations 中的项目资源在 Dataverse 中维护，不同步到 Finance and Operations 应用。
 
@@ -75,6 +77,6 @@ Project Operations 中的项目资源在 Dataverse 中维护，不同步到 Fina
 
 交易类别在 Dataverse 中维护，并使用 **项目交易类别(msdyn\_transactioncategories)** 表映射同步到 Finance and Operations 应用。 交易类别记录同步后，系统将自动创建四个共享类别记录。 每个记录对应于 Finance and Operations 应用中的交易类型，并将它们链接到交易类别记录。
 
-![交易类别集成。](./media/4TransactionCategories.jpg)
+![交易类别集成](./media/4TransactionCategories.jpg)
 
 为估计值和实际值使用交易类别需要项目会计或系统管理员在每个法人中创建相应的项目类别。 有关详细信息，请参阅[配置项目类别](../project-accounting/configure-project-categories.md)。

@@ -2,16 +2,18 @@
 title: 编辑预订
 description: 本主题提供有关如何更新和更改预订的信息。
 author: ruhercul
+manager: Annbe
 ms.date: 11/12/2020
 ms.topic: article
+ms.service: project-operations
 ms.reviewer: kfend
 ms.author: ruhercul
-ms.openlocfilehash: 7f3676811f304fe852bda46ac85291c3b75958d8dd1e0a07f87c58ef5efe8738
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 3980df0608c387d47ad68bbf2e816d408f1c2cf0
+ms.sourcegitcommit: 260ce052fed760bb44c514517806049ca13a5459
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "7008305"
+ms.lasthandoff: 01/08/2021
+ms.locfileid: "4841309"
 ---
 # <a name="edit-bookings"></a>编辑预订
 
@@ -31,6 +33,3 @@ _**适用于：** 基于资源/非库存场景的 Project Operations，精简部
 ## <a name="schedule-board"></a>计划板
 
 在 **日程安排板** 中，资源经理将获得整个组织中所有预订的组合视图。 在此视图中，资源经理可以延长、缩短或移动现有预订，类似于 **维护预订** 中提供的功能。 资源经理还可以通过右键单击预订并选择 **替代资源**，来替换分配给特定预订的现有资源。 资源经理还可以通过右键单击预订并选择 **编辑** 来编辑现有预订的信息。
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -2,9 +2,11 @@
 title: 创建项目团队
 description: 本主题提供有关如何创建和管理项目团队的信息。
 author: Yowelle
+manager: AnnBe
 ms.date: 09/01/2020
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: ProjProjectsListPage
 audience: Application User
@@ -16,12 +18,12 @@ ms.search.region: Global
 ms.author: andchoi
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 1ab8ae045852a75a7a39a4eccfa86a114a34273581c98631975bcbfac5a7a343
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 121a007d91c2da4f3b9951901781757b8bcca8fe
+ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "7005785"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5270847"
 ---
 # <a name="create-a-project-team"></a>创建项目团队
 
@@ -33,7 +35,7 @@ ms.locfileid: "7005785"
 
 项目经理可在页面上选择角色，然后，如果存在满足该需求的一个可用资源，选择预留符合角色的资源。 请注意，资源不必在计划阶段的此时间点预留。 在您创建 WBS 时，可以使用项目的雇用资源替换角色。 如果角色替换为 WBS 中的雇用资源，资源设置将自动更新项目团队列表和计划。
 
-[![包括角色和实际资源的项目团队列表。](./media/projectresourcing03-1024x368.jpg)](./media/projectresourcing03.jpg) 
+[![包括角色和实际资源的项目团队列表](./media/projectresourcing03-1024x368.jpg)](./media/projectresourcing03.jpg) 
 
 项目经理具有预订项目资源的不同选项，例如 **剩余产能**、**全部产能**、**产能百分比** 和 **指定工时**。 如果资源分配更改，这些预订选项可以在任何时间取消。 支持以下两种预订类型：
 

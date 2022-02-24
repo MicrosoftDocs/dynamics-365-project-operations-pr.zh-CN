@@ -2,9 +2,11 @@
 title: 设置销售价目表
 description: 此主题提供用于项目定价的销售价目表的信息。
 author: rumant
+manager: AnnBe
 ms.date: 09/18/2020
 ms.topic: article
 ms.prod: ''
+ms.service: project-operations
 audience: Application User
 ms.reviewer: kfend
 ms.search.scope: ''
@@ -15,12 +17,12 @@ ms.search.industry: Service industries
 ms.author: suvaidya
 ms.dyn365.ops.version: ''
 ms.search.validFrom: 2020-10-01
-ms.openlocfilehash: 952d518fb58b5be46c4b1cf4ed57b2494fdfdad85e7fe6fb0d622367bc071b5f
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: eb8dfa61a2d17ba644daf1552889cbcde0f1e47a
+ms.sourcegitcommit: 625878bf48ea530f3381843be0e778cebbbf1922
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6997595"
+ms.lasthandoff: 10/30/2020
+ms.locfileid: "4176240"
 ---
 # <a name="set-up-a-sales-price-list"></a>设置销售价目表
 
@@ -57,6 +59,3 @@ _**适用于：** 基于资源/非库存场景的 Project Operations，精简部
 默认输入项目价目表时，系统将验证货币是否匹配客户的货币，以及已输入的默认价目表是否有 **销售** 上下文。
 
 可以将多个项目价目表与客户、商机、报价单和项目合同实体关联。 此功能支持为长期开展的项目合同设置特定于日期的默认价格，在此情况下，可能需要多个价目表来纳入通货膨胀导致的价格更新。 但是，如果与客户、商机、报价单或项目合同实体关联的价目表存在重合时效，默认价格可能不正确。 因此，应确保不将具有重合时效的项目价目表与这些实体关联。
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

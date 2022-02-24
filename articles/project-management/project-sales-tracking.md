@@ -2,16 +2,18 @@
 title: 项目销售跟踪
 description: 本主题提供有关 Project Operations 如何根据项目人工收入跟踪进度的信息。
 author: rumant
+manager: AnnBe
 ms.date: 03/24/2021
 ms.topic: article
+ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: 78d7bdaf9f5ca1757273cb81a1303befb0357ba547eb354097786fc3c38962b9
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 438c44dcfaf9677075eb07688c1e65c6e7053755
+ms.sourcegitcommit: a1f9f92546ab5d8d8e5a4710ce4c96414ea55d14
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6995570"
+ms.lasthandoff: 03/24/2021
+ms.locfileid: "5711027"
 ---
 # <a name="project-sales-tracking"></a>项目销售跟踪
 

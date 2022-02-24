@@ -2,16 +2,18 @@
 title: 预订与分配
 description: 此主题提供有关资源预订和资源分配之间的区别的信息。
 author: ruhercul
+manager: Annbe
 ms.date: 01/08/2021
 ms.topic: article
+ms.service: project-operations
 ms.reviewer: kfend
 ms.author: ruhercul
-ms.openlocfilehash: 1906ebd76f5fc66215aa5963242de13206a81668cb4973cccaf5b153514672d5
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 9e346766e6ccbb3dff59ef12072a1cd63f1e4231
+ms.sourcegitcommit: 260ce052fed760bb44c514517806049ca13a5459
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "7008439"
+ms.lasthandoff: 01/08/2021
+ms.locfileid: "4841161"
 ---
 # <a name="bookings-vs-assignments"></a>预订与分配
 
@@ -24,6 +26,3 @@ _**适用于：** 基于资源/非库存场景的 Project Operations，精简部
 通常，资源的预订总和等于一项或多项任务中资源分配的总和。 但是，Project Operations 不强制执行此共识。 **协调** 视图为项目经理显示资源的预订和分配不一致的位置。
 
 
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

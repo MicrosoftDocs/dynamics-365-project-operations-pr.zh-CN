@@ -2,9 +2,11 @@
 title: 在工作分解结构模板中设置角色
 description: 本主题介绍如何在工作分解结构模板中设置角色信息。
 author: Yowelle
+manager: AnnBe
 ms.date: 09/01/2020
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: ProjProjectsListPage
 audience: Application User
@@ -16,12 +18,12 @@ ms.search.region: Global
 ms.author: andchoi
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: c84015c46f0a8c9d3d48be1b995d4bdd7fd8ee25b240f455bbe2031f42adc0f5
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 143f1094c653fb7ac0e026b7875aa162a3eb83f7
+ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "7008890"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "4072584"
 ---
 # <a name="set-up-roles-on-work-breakdown-structure-templates"></a>在工作分解结构模板中设置角色
 
@@ -89,7 +91,7 @@ ms.locfileid: "7008890"
 
 4. 设置日期和工作量（工时），如以下插图所示。
 
-    [![设置日期和工作量。](./media/projectresourcing10.jpg)](./media/projectresourcing10.jpg)
+    [![设置日期和工作量](./media/projectresourcing10.jpg)](./media/projectresourcing10.jpg)
 
 5. 选择 **启动** 任务行，然后在 **角色** 字段中，选择 **高级项目经理**。
 6. 选择 **发布**。
@@ -105,6 +107,3 @@ ms.locfileid: "7008890"
     > 您不会收到指定资源现在是 2 的警告，因为资源数量仍为 1。
 
 14. 在 **工作分解结构** 页上，在 WBS 中验证资源分配，然后选择 **保存**。
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

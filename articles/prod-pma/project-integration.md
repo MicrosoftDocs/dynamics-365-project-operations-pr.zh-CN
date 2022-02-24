@@ -2,9 +2,11 @@
 title: Microsoft Project Client 集成
 description: 规划和维护项目计划可能非常复杂，因此项目经理需要使用工具来帮助管理此任务。 与 Microsoft Project Client 的集成提供了对打开和管理项目工作分解结构的支持。
 author: Yowelle
-ms.date: 06/16/2021
+manager: AnnBe
+ms.date: 12/11/2017
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: ProjWbsTemplate
 audience: Application User
@@ -16,12 +18,12 @@ ms.search.region: Global
 ms.author: andchoi
 ms.search.validFrom: 2017-12-04
 ms.dyn365.ops.version: 7.2999999999999998
-ms.openlocfilehash: 8ef34bc984510f23ab77cc1710c06abbcf80f721703685d696fea28eeaddd732
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 732b72d9819fc149c4b2c783b3dc7f7eec3f0393
+ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6988010"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "4072665"
 ---
 # <a name="microsoft-project-client-integration"></a>Microsoft Project Client 集成
 
@@ -125,13 +127,3 @@ ms.locfileid: "6988010"
 8.  选择要用于安排资源的 **日历**。
 
 11. 单击 **确定**。
-
-> [!NOTE]
-> 项目客户端加载项在项目 ID 格式中不支持以下字符：
-> 
->   - 下划线
->   - 句号键
->   - 空格键
->   - 斜线
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -2,10 +2,12 @@
 title: 将可预订资源用作定价维度
 description: 此主题介绍如何将可预订资源用作定价维度。
 author: Rumant
+manager: kfend
 ms.custom:
 - dyn365-projectservice
 ms.date: 10/01/2020
 ms.topic: article
+ms.service: business-applications
 ms.author: rumant
 audience: Admin
 search.audienceType:
@@ -15,12 +17,12 @@ search.audienceType:
 search.app:
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: c551673708ae2d965979136e92326be98252304a601964c1fbc52a329c592712
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: d9b25a768f892d83c09d37ce76291d6c8e75b1be
+ms.sourcegitcommit: 418fa1fe9d605b8faccc2d5dee1b04b4e753f194
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6988955"
+ms.lasthandoff: 02/10/2021
+ms.locfileid: "5144987"
 ---
 # <a name="use-bookable-resource-as-a-pricing-dimension"></a>将可预订资源用作定价维度
 
@@ -62,18 +64,15 @@ ms.locfileid: "6988955"
 1. 为此，请在 **定价维度** 网格中单击行以打开 **msdyn_bookableresource** 的维度页。
 2. 在维度页的 **相关** 选项卡上，单击 **定价维度字段名称**。
 
- ![“定价维度字段名称”选项卡。](media/PD-fieldname.png)
+ ![“定价维度字段名称”选项卡](media/PD-fieldname.png)
 
 4. 在打开的关联视图中，单击 **添加新定价维度字段名称**。
 
- ![添加新定价维度字段名称。](media/Add-NewPD-fieldname.png)
+ ![添加新定价维度字段名称](media/Add-NewPD-fieldname.png)
 
 
 此选项用于打开 **msdyn_bookableresource** 的 **新定价维度字段名称** 页。 
 
 5. 将 **msdyn_projectteam** 添加到 **实体逻辑名称** 字段，将 **msdyn_bookableresourceid** 添加到 **字段名称** 字段。 保存记录。
 
- ![“新定价维度字段名称”窗体。](media/PD-fieldname-Added.png)
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]
+ ![“新定价维度字段名称”窗体](media/PD-fieldname-Added.png)

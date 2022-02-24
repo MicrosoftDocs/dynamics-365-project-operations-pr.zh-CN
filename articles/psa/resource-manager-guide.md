@@ -2,6 +2,8 @@
 title: 资源经理指南
 description: Project Service 的资源管理指南
 author: JohnPBurrows
+manager: kfend
+ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 8/03/2018
@@ -16,12 +18,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 0ad7d792450303c25fdac9f1191c809006d41541763b4f565b55abfa6da58a0a
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 543be23d95b1b821fcdca628612d03c343fd5b06
+ms.sourcegitcommit: 418fa1fe9d605b8faccc2d5dee1b04b4e753f194
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6984962"
+ms.lasthandoff: 02/10/2021
+ms.locfileid: "5147327"
 ---
 # <a name="resource-manager-guide-project-service"></a>资源经理指南 (Project Service)
 
@@ -71,6 +73,3 @@ ms.locfileid: "6984962"
  [客户经理指南](../psa/account-manager-guide.md)   
  [项目经理指南](../psa/project-manager-guide.md)   
  [时间、费用和协作指南](../psa/time-expense-collaboration-guide.md)
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

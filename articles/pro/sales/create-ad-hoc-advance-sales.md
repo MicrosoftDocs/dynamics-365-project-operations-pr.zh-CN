@@ -2,16 +2,18 @@
 title: 在合同中创建临时预付款
 description: 此主题提供有关如何根据需要在合同中创建预付款的信息。
 author: rumant
+manager: Annbe
 ms.date: 10/26/2020
 ms.topic: article
+ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: bceed1372dbaf523426a4c34da7152d77fe108240c8c3e4e1390c43b1cf536a4
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 790a0281f72eff5f241d11da025b5b4af643a567
+ms.sourcegitcommit: 250270409412ba4cad95fbd4c345a80d3d2b3e53
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6999125"
+ms.lasthandoff: 11/21/2020
+ms.locfileid: "4595931"
 ---
 # <a name="creating-an-ad-hoc-advance-on-a-contract"></a>在合同中创建临时预付款
 
@@ -37,6 +39,3 @@ Microsoft Dynamics 365 Project Operations 支持涉及预付款的开票场景�
     | **账单状态** | 这是一个选项设置，指示此预付款是否已添加到此客户的草稿发票中。 值可以为：</br>- **未准备好开具账单**</br>- **已准备好开具账单** | 在将预付款标记为 **可开票** 时，它将在草稿发票上添加为明细时间。 只有完全开票的预付款才能用于与下一个发票期间的项目成本对帐。 |
 
 4. 在快速创建对话中选择 **保存并关闭** 记录预付款。
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

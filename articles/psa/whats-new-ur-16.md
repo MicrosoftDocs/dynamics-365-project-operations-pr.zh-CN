@@ -2,6 +2,8 @@
 title: Project Service Automation V3 更新版本 16 中的新增功能或更改
 description: 本主题列出了 Project Service Automation V3 更新版本 16 中可用的功能和修复。
 author: ruhercul
+manager: kfend
+ms.service: project-operations
 ms.custom: dyn365-projectservice
 ms.date: 02/18/2020
 ms.topic: article
@@ -15,18 +17,18 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: f577cd8407b0f12607c56891eeadb1071f659cff67bd9f086a6b3bbec6376e9d
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 882ee6c25e5d88db22e051254c7fd82dc787ab73
+ms.sourcegitcommit: 418fa1fe9d605b8faccc2d5dee1b04b4e753f194
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "7004390"
+ms.lasthandoff: 02/10/2021
+ms.locfileid: "5143622"
 ---
 # <a name="project-service-automation-update-release-16-v3"></a>Project Service Automation V3 更新版本 16
 
 [!include [banner](../includes/psa-now-project-operations.md)]
 
-我们很高兴地宣布适用于 Dynamics 365 的 Project Service Automation 应用程序的最新更新已推出。 此版本包括对质量、性能和可用性的一些重要改进。  此版本与 Dynamics 365 9.x 兼容。 若要更新到此版本，请访问 Dynamics 365 Online 的管理中心解决方案页面以安装更新。 有关详细信息，请参阅[安装、更新首选解决方案](/dynamics365/project-service/upgrade-psa-home-page)。
+我们很高兴地宣布适用于 Dynamics 365 的 Project Service Automation 应用程序的最新更新已推出。 此版本包括对质量、性能和可用性的一些重要改进。  此版本与 Dynamics 365 9.x 兼容。 若要更新到此版本，请访问 Dynamics 365 Online 的管理中心解决方案页面以安装更新。 有关详细信息，请参阅[安装、更新首选解决方案](https://docs.microsoft.com/dynamics365/project-service/upgrade-psa-home-page)。
 本主题列出了 PSA V3 更新版本 16 中新增或更改的功能和修复。 该版本的内部版本号为 V3.10.6.34，并且在 2020 年 1 月通过自行更新公开发布。
 
 
@@ -62,6 +64,3 @@ ms.locfileid: "7004390"
 
     -   已修复：当用户从 2.X 升级到 3.X 时，将允许项目名称为 NULL 值的项目。
 
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -2,16 +2,18 @@
 title: 编辑资源要求
 description: 此主题提供有关更新资源要求信息的信息。
 author: ruhercul
+manager: Annbe
 ms.date: 10/01/2020
 ms.topic: article
+ms.service: project-operations
 ms.reviewer: kfend
 ms.author: ruhercul
-ms.openlocfilehash: 8c80c7148df972e542ea1952ef333b3c7c2709b4409ffaf0508f8f617d5f9894
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 988d3338f19443f1d8bcb7cf77e69aa3c1cff155
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6999755"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4128767"
 ---
 # <a name="edit-a-resource-requirement"></a>编辑资源要求
 
@@ -35,5 +37,3 @@ _**适用于：** 基于资源/非库存场景的 Project Operations，精简部
 ## <a name="edit-resource-assignment-contours"></a>编辑资源分配信息
 
 除了编辑资源要求的详细信息之外，项目经理还可以使用 **指定模式** 功能更新资源要求的各项信息。 选择 **指定模式** 时，将打开一个页面，您可以按日、周或月时间刻度查看信息。 可以针对给定时间段的开始时间、结束时间和总工作量来调整每项信息。
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

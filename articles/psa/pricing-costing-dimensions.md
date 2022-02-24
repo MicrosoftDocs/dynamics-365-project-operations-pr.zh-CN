@@ -2,11 +2,12 @@
 title: 定价和定成本维度主页
 description: 此主题概述定价维度。
 author: rumant
+manager: kfend
 ms.custom:
 - dyn365-projectservice
-- intro-internal
 ms.date: 10/01/2020
 ms.topic: article
+ms.service: business-applications
 ms.author: rumant
 audience: Admin
 search.audienceType:
@@ -16,12 +17,12 @@ search.audienceType:
 search.app:
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: d17939777a6670bafc41b372adc922f8bdcc0411f3fdb399e7c9ab01eca87dd0
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 65516784c6787fa5f3c08297f4d161d52c2ea4a9
+ms.sourcegitcommit: 418fa1fe9d605b8faccc2d5dee1b04b4e753f194
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6998450"
+ms.lasthandoff: 02/10/2021
+ms.locfileid: "5151287"
 ---
 # <a name="pricing-and-costing-dimensions-home-page"></a>定价和定成本维度主页
 
@@ -41,7 +42,7 @@ ms.locfileid: "6998450"
 
 PSA 随附了一组默认定价维度。 可通过转到 **Project Service** > **参数** 查看。 在参数记录中 **基于金额的定价维度** 选项卡上，验证角色 **msdyn_resourcecategory** 和资源部门 **msdyn_organizationalunit** 的字段 **适用于销售** 和 **适用于成本** 是否设置为 **是**。 这样就可以为每个角色与部门的组合设置价格和成本。
 
-![“适用于销售”已突出显示的 Project Service 参数的屏幕截图。](media/PS-OOB-parameters.png)
+![“适用于销售”已突出显示的 Project Service 参数的屏幕截图](media/PS-OOB-parameters.png)
 
 > [!IMPORTANT]
 > 如果在 PSA 版本 3 之前已将角色和部门的自带字段用作定价维度，则不存在任何显而易见的更改。 可以继续正常使用 Project Service。 
@@ -64,18 +65,15 @@ PSA 随附了一组默认定价维度。 可通过转到 **Project Service** > *
 
 **示例记帐费率**
 
-| 角色        | 部门    |计价单位      |单价      |货币  |
+| 角色        | 部门    |单位      |价格      |货币  |
 | ------------|-------------|----------|----------:|----------|
-| 开发人员   | Contoso US  |小时 | 200|USD     |
-| 开发人员   | Contoso 印度 |小时|   112|USD     |
+| 开发人员   | Contoso US  |Hour | 200|USD     |
+| 开发人员   | Contoso 印度 |Hour|   112|USD     |
 
 
 **示例成本费率**
 
-| 工资级别     | 部门    |计价单位      |单价      |货币  |
+| 工资级别     | 部门    |单位      |价格      |货币  |
 | ----------------|-------------|----------|----------:|----------|
-| My company_Band1 | Contoso US  |小时 | 145|USD     |
-| My company_Band2 | Contoso 印度 |小时|   67|USD     |
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]
+| My company_Band1 | Contoso US  |Hour | 145|USD     |
+| My company_Band2 | Contoso 印度 |Hour|   67|USD     |

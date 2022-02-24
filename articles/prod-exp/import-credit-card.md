@@ -2,9 +2,11 @@
 title: 导入和维护信用卡交易记录
 description: 此主题介绍如何导入和维护与支出相关的信用卡交易记录。 这些交易记录可以设置为对重复执行的计划自动导入或根据需要手动导入。
 author: KimANelson
+manager: AnnBe
 ms.date: 01/12/2018
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: TrvPbsMainDataLines
 audience: Application User
@@ -16,18 +18,18 @@ ms.search.region: Global
 ms.author: suvaidya
 ms.dyn365.ops.version: Version 1611
 ms.search.validFrom: 2016-11-30
-ms.openlocfilehash: c3a53d2ae4eae411364aaf68ac806b55335c75d4870a24715954ccae327f4358
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: df5c6bce8a534f4f8b1872e2bd5cc8a58ef11189
+ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6995840"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5271567"
 ---
 # <a name="import-and-maintain-credit-card-transactions"></a>导入和维护信用卡交易记录
 
 可以设置与支出相关的信用卡交易记录，以将其自动导入到定期计划中。 或者，可以根据需要手动导入交易记录。 信用卡交易记录通过信用卡交易记录数据实体导入。
 
-有关数据实体的详细信息，请参阅[数据实体](/dynamics365/fin-ops-core/dev-itpro/data-entities/data-entities)。
+有关数据实体的详细信息，请参阅[数据实体](https://docs.microsoft.com/dynamics365/fin-ops-core/dev-itpro/data-entities/data-entities)。
 
 ## <a name="import-credit-card-transactions"></a>导入信用卡交易记录
 

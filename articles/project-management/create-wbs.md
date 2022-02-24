@@ -2,16 +2,18 @@
 title: 创建工作分解结构
 description: 本主题说明如何在新计划界面中创建包括基本控件的工作分解结构 (WBS)。
 author: ruhercul
-ms.date: 12/16/2021
+manager: tfehr
+ms.date: 01/07/2021
 ms.topic: article
+ms.service: project-operations
 ms.reviewer: kfend
 ms.author: ruhercul
-ms.openlocfilehash: 3b8162d256aa145301fc64bee9682caa8737496f
-ms.sourcegitcommit: d3f66dfb5978c5c6b7fd51363c7f9278737c49c1
+ms.openlocfilehash: d7fa645e78d2206e333d9f85fcec0f7a9c213c23
+ms.sourcegitcommit: 260ce052fed760bb44c514517806049ca13a5459
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 12/17/2021
-ms.locfileid: "7928604"
+ms.lasthandoff: 01/08/2021
+ms.locfileid: "4841310"
 ---
 # <a name="create-a-work-breakdown-structure-wbs"></a>创建工作分解结构 (WBS)
 
@@ -91,11 +93,9 @@ ms.locfileid: "7928604"
 | 客户 | 任务的名称。 |
 | ID | 工作分解结构中的任务的编号。 |
 
-作为管理员，您可以对任务实体定义自定义字段。 但是，字段不能显示在计划网格上。 要查看自定义字段，可将其添加到 **项目任务** 详细信息页。
-
 ## <a name="staffing-attributes"></a>人员配备属性
 
-人员配备属性通过计划中的 **资源** 字段访问。 可搜索现有资源，或选择 **创建**，然后在 **快速创建** 窗格中把项目团队成员作为新资源添加。  当您使用任务网格、板块视图或甘特图中的资源选择器搜索资源时，搜索会返回现有项目团队成员或可用的可预订资源。
+人员配备属性通过计划中的 **资源** 字段访问。 可搜索现有资源，或选择 **创建**，然后在 **快速创建** 窗格中把项目团队成员作为新资源添加。
 
 **角色**、**资源单位** 和 **位置名称** 字段用于描述任务的人员配备要求。 这些人员配备属性与任务计划一起用于查找可用于完成此任务的资源。
 
@@ -116,28 +116,3 @@ ms.locfileid: "7928604"
 ## <a name="accessibility-and-keyboard-shortcuts"></a>辅助功能和键盘快捷方式
 
 **计划** 网格拥有完善的辅助功能，可以与讲述人、JAWS 或 NVDA 之类屏幕阅读器配合使用。 可使用箭头键在网格区域中移动（和在 Microsoft Excel 中一样），可以使用 Tab 键在交互式用户界面元素中前进，还可以使用向下键、Enter 将或空格键选择和打开下拉菜单。
-
-## <a name="project-limitations"></a>项目限制 
-如果您要在 Project Operations 中使用工作分解结构，则应该了解以下限制。 这些限制适用于项目和任务。 有关详细信息，请参阅 [Project for the Web 限制和边界](/project-for-the-web/project-for-the-web-limits-and-boundaries)。
-
-| **字段**                                          |  **限制**           |
-|----------------------------------------------------|----------------------|
-| 项目的最大总任务数                  | 500                  |
-| 项目的最长总持续时间               | 3650 天（10 年） |
-| 项目的最大总资源数              | 150                  |
-| 项目的最大总链接数（仅后续项） | 600                  |
-| 项目的最大总自定义字段数          | 10                   |
-| 每个任务的最大清单项数                   | 20                   |
-
-**任务限制**
-
-| **字段**                               |   **限制**           |
-|-----------------------------------------|-----------------------|
-| 最大层次结构级别                 | 10 个级别             |
-| 最大链接数（后续项 + 前置项） | 20                    |
-| 叶节点任务的最长持续时间           | 1250 天             |
-| 摘要任务的最长持续时间      | 3650 天（10 年）  |
-| 分配给任务的最大资源数    | 20 个资源          |
-| 任务支持的日期范围         | 1/1/2000 - 12/31/2149 |
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

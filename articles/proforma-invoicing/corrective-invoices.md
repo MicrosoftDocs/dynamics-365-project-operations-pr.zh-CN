@@ -1,258 +1,38 @@
 ---
-title: 更正基于项目的发票
-description: 本主题提供关于如何在 Project Operations 中创建并确认基于项目的更正发票的信息。
+title: 更正发票
+description: 本主题提供有关更正发票的信息。
 author: rumant
-ms.date: 03/29/2021
+manager: AnnBe
+ms.date: 09/18/2020
 ms.topic: article
+ms.prod: ''
+ms.service: project-operations
+audience: Application User
 ms.reviewer: kfend
-ms.author: rumant
-ms.openlocfilehash: aaa61c8473da0aab369bbb25acb10e9a3661379997737acbcc0b3d4ab33e0ce9
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.search.scope: ''
+ms.custom: ''
+ms.assetid: ''
+ms.search.region: Global
+ms.search.industry: Service industries
+ms.author: suvaidya
+ms.dyn365.ops.version: ''
+ms.search.validFrom: 2020-10-01
+ms.openlocfilehash: 1ebfec053a59bbadd261d4333f6737cf16292e81
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6997145"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4122377"
 ---
-# <a name="corrective-project-based-invoices"></a>更正基于项目的发票
+# <a name="corrected-invoices"></a>更正发票
 
 _**适用于：** 面向资源/非库存场景的 Project Operations_
 
-确认的项目发票可以更正以处理与客户和项目经理协商的变更或贷记。
+可以编辑已确认的发票。 编辑已确认的发票时，将创建更正发票的草稿。 因为假设您希望冲销原始发票中的所有交易和数量，所以此更正发票中包含原始发票中的所有交易，并且其中的所有数量均为零 (0)。
 
-若要对已确认的发票进行编辑，请打开已确认的发票，选择 **更正此发票**。 
+当交易不需要更正时，可以将其从草稿纠正发票中删除。 若要仅冲销或返回部分数量，可以编辑明细详细信息中的“数量”字段。 如果打开发票明细详细信息，可以看到原始发票数量。 然后可以编辑当前发票数量，使其比原始发票数量少或多。
 
-> [!NOTE]
-> 除非已确认项目发票，或者基于项目的发票具有预付款或保留款，或具有预付款或保留款的对帐信息，否则将无法进行此选择。
+确认纠正发票时，将撤消原始已记帐实际销售额，并创建新的已记帐实际销售额。 如果减少了数量，差额将导致也创建一项新的未记帐实际销售额。 例如，如果原始已记帐销售额是八小时的，并且更正发票明细详细信息的减少后数量为六小时，将冲销原始已记帐销售明细，并创建两项新的实际值：
 
-将从已确认的发票创建新的草稿发票。 之前已确认发票中的所有发票明细详细信息将被复制到新的草稿发票。 以下是用于了解新的更正发票上的明细详细信息的一些要点：
-
-- 所有数量都更新为零。 Dynamics 365 Project Operations 假定已开发票的所有项目已全部贷记。 如果需要，您可以手动更新这些数量以反映要开票的数量，而不是要贷记的数量。 根据您输入的数量，应用程序将计算贷记的数量。 在确认更正发票时，此金额会反映在创建的实际值中。 如果您要更改税额，必须输入正确的税额，而不是要贷记的税额。
-- 里程碑更正始终处理为完全贷记。
-
-
-> [!IMPORTANT]
-> 对于用于更正其他已开票费用的发票明细详细信息，**更正** 字段设置为 **是**。 对于具有更正的发票明细详细信息的发票，**具有更正** 字段设置为 **是**。
-
-## <a name="actuals-created-when-a-corrective-invoice-is-confirmed"></a>确认更正发票后创建的实际值
-
-下表列出了确认纠正发票后创建的实际值。
-
-<table border="0" cellspacing="0" cellpadding="0">
-    <tbody>
-        <tr>
-            <td width="216" valign="top">
-                <p>
-                    <strong>方案</strong>
-                </p>
-            </td>
-            <td width="808" valign="top">
-                <p>
-                    <strong>确认时创建的实际值</strong>
-                </p>
-            </td>
-        </tr>
-        <tr>
-            <td width="216" rowspan="2" valign="top">
-                <p>
-为之前开票的时间交易的完全贷记开票。
-                </p>
-            </td>
-            <td width="408" valign="top">
-                <p>
-原始时间发票明细详细信息中时数和金额的已记帐销售额冲销。
-                </p>
-            </td>
-        </tr>
-        <tr>
-            <td width="408" valign="top">
-                <p>
-原始时间发票明细详细信息中时数和金额的新的未记帐实际销售额。
-                </p>
-            </td>
-        </tr>
-        <tr>
-            <td width="216" rowspan="3" valign="top">
-                <p>
-为时间交易中的部分贷记开票。
-                </p>
-            </td>
-            <td width="408" valign="top">
-                <p>
-原始时间发票明细详细信息中已开票时数和金额的已记帐销售额冲销。
-                </p>
-            </td>
-        </tr>
-        <tr>
-            <td width="408" valign="top">
-                <p>
-编辑的发票明细详细信息中的时数和金额应计费的新未记帐实际销售额，此实际销售额的冲销和相等的已记帐实际销售额。
-                </p>
-            </td>
-        </tr>
-        <tr>
-            <td width="408" valign="top">
-                <p>
-扣除发票明细详细信息中的更正数字后，剩余时数和金额应计费的新的未记帐实际销售额。
-                </p>
-            </td>
-        </tr>
-        <tr>
-            <td width="216" rowspan="2" valign="top">
-                <p>
-为之前开票的支出交易的完全贷记开票。
-                </p>
-            </td>
-            <td width="408" valign="top">
-                <p>
-原始支出发票明细详细信息中数量和金额的已记帐销售额冲销。
-                </p>
-            </td>
-        </tr>
-        <tr>
-            <td width="408" valign="top">
-                <p>
-原始支出发票明细详细信息中数量和金额的新的未记帐实际销售额。
-                </p>
-            </td>
-        </tr>
-        <tr>
-            <td width="216" rowspan="3" valign="top">
-                <p>
-为之前开票的支出交易的部分贷记开票。
-                </p>
-            </td>
-            <td width="408" valign="top">
-                <p>
-原始支出发票明细详细信息中已开票数量和金额的已记帐销售额冲销。
-                </p>
-            </td>
-        </tr>
-        <tr>
-            <td width="408" valign="top">
-                <p>
-更正后的发票明细详细信息中的数量和金额应计费的新未记帐实际销售额，此实际销售额的冲销和相等的已记帐实际销售额。
-                </p>
-            </td>
-        </tr>
-        <tr>
-            <td width="408" valign="top">
-                <p>
-扣除发票明细详细信息中的更正数字后，剩余数量和金额应计费的新的未记帐实际销售额。
-                </p>
-            </td>
-        </tr>
-                <tr>
-            <td width="216" rowspan="2" valign="top">
-                <p>
-对先前已开票材料交易的全部贷记开具发票。
-                </p>
-            </td>
-            <td width="408" valign="top">
-                <p>
-原始材料发票明细详细信息中数量和金额的记帐销售冲销。
-                </p>
-            </td>
-        </tr>
-        <tr>
-            <td width="408" valign="top">
-                <p>
-原始材料发票明细详细信息中数量和金额的新未记帐销售实际值。
-                </p>
-            </td>
-        </tr>
-        <tr>
-            <td width="216" rowspan="3" valign="top">
-                <p>
-对材料交易上的部分贷记开具发票。
-                </p>
-            </td>
-            <td width="408" valign="top">
-                <p>
-原始材料发票明细详细信息中开票的数量和金额的记帐销售冲销。
-                </p>
-            </td>
-        </tr>
-        <tr>
-            <td width="408" valign="top">
-                <p>
-一个新的未记帐销售实际值，对于编辑的发票明行明细上的数量和金额、其冲销和等值的已记帐销售实际值，该未记帐销售实际值为非应计费。
-                </p>
-            </td>
-        </tr>
-        <tr>
-            <td width="408" valign="top">
-                <p>
-扣除发票明细详细信息中的更正数字后，剩余数量和金额应计费的新的未记帐实际销售额。
-                </p>
-            </td>
-        </tr>
-        <tr>
-            <td width="216" rowspan="2" valign="top">
-                <p>
-为之前开票的费用交易的完全贷记开票。
-                </p>
-            </td>
-            <td width="408" valign="top">
-                <p>
-原始费用发票明细详细信息中数量和金额的已记帐销售额冲销。
-                </p>
-            </td>
-        </tr>
-        <tr>
-            <td width="408" valign="top">
-                <p>
-原始费用发票明细详细信息中数量和金额的新的未记帐实际销售额。
-                </p>
-            </td>
-        </tr>
-        <tr>
-            <td width="216" rowspan="2" valign="top">
-                <p>
-为之前开票的费用交易的部分贷记开票。
-                </p>
-            </td>
-            <td width="408" valign="top">
-                <p>
-原始费用发票明细详细信息中已开票数量和金额的已记帐销售额冲销。
-                </p>
-            </td>
-        </tr>
-        <tr>
-            <td width="408" valign="top">
-                <p>
-编辑后的纠正发票明细详细信息中的数量和金额应计费的新未记帐实际销售额，此实际销售额的冲销和相等的已记帐实际销售额。
-                </p>
-            </td>
-        </tr>
-        <tr>
-            <td width="216" valign="top">
-                <p>
-为之前开票的里程碑的完全贷记开票。
-                </p>
-            </td>
-            <td width="408" valign="top">
-                <p>
-原始里程碑发票明细详细信息中金额的已记帐销售额冲销。
-                </p>
-                <p>
-里程碑的发票状态从<b>客户发票已过帐</b>更新为<b>已准备好开单</b>。
-                </p>
-            </td>
-        </tr>
-        <tr>
-            <td width="216" valign="top">
-                <p>
-为之前开票的里程碑的部分贷记开票。
-                </p>
-            </td>
-            <td width="408" valign="top">
-                <p>
-不支持这种情况。
-                </p>
-            </td>
-        </tr>       
-    </tbody>
-</table>
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]
+- 六小时的已记帐实际销售额。
+- 其余两小时的未记帐实际销售额。 以后可为此交易记帐或标记为非应计费，具体取决于与客户的协商结果。

@@ -2,16 +2,18 @@
 title: 定义资源要求
 description: 此主题提供有关定义资源要求信息的信息。
 author: ruhercul
+manager: Annbe
 ms.date: 10/01/2020
 ms.topic: article
+ms.service: dynamics-365-customerservice
 ms.reviewer: kfend
 ms.author: ruhercul
-ms.openlocfilehash: 0fe030610424e84c823ae454542f2609a0b206033ab549619865e2c649cce113
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: db3446c360c2d9278774d49ca3d5950cf2ce85ad
+ms.sourcegitcommit: 11a61db54119503e82faec5f99c4273e8d1247e5
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6990260"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "4072499"
 ---
 # <a name="define-resource-requirements"></a>定义资源要求
 
@@ -24,5 +26,3 @@ _**适用于：** 基于资源/非库存场景的 Project Operations，精简部
 3.  在 **团队成员** 选项卡上，选择团队成员，然后选择 **生成要求**。
 
 有关如何修改资源要求的信息，请参阅[更新资源要求详细信息](define-resource-requirements.md)来修改资源要求。
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -2,9 +2,11 @@
 title: 在 Finance and Operations 和 Project Service Automation 之间同步项目支出类别
 description: 此主题介绍用于将项目费用类别直接从 Microsoft Dynamics 365 Finance 同步到 Dynamics 365 Project Service Automation 的模板和基础任务。
 author: Yowelle
+manager: AnnBe
 ms.date: 07/20/2018
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 audience: Application User
 ms.reviewer: josaw
@@ -15,12 +17,12 @@ ms.search.region: Global
 ms.author: andchoi
 ms.search.validFrom: 2016-11-28
 ms.dyn365.ops.version: AX 8.0.0
-ms.openlocfilehash: 52c79f8b641d4b2df3b30964331633f2487402f8f8d229b540f9544c0f848557
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: ed7ca3c85d3f99b7eefe10f4ddec822b9aeb1684
+ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "7001105"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "4072743"
 ---
 # <a name="synchronize-project-expense-categories-between-finance-and-operations-and-project-service-automation"></a>在 Finance and Operations 和 Project Service Automation 之间同步项目支出类别
 
@@ -56,7 +58,7 @@ Project Service Automation 与 Finance 集成解决方案使用数据集成功�
 
 下图显示 Project Service Automation 与 Finance 之间中如何同步数据。
 
-[![Project Service Automation 与 Finance 集成的数据传输。](./media/ProjectExpenseCategoriesFlow.png)](./media/ProjectExpenseCategoriesFlow.png)
+[![Project Service Automation 与 Finance 集成的数据传输](./media/ProjectExpenseCategoriesFlow.png)](./media/ProjectExpenseCategoriesFlow.png)
 
 ## <a name="project-expense-category-synchronization-from-finance-to-project-service-automation"></a>从 Finance 到 Project Service Automation 的项目支出类别同步
 
@@ -93,7 +95,7 @@ Project Service Automation 与 Finance 集成解决方案使用数据集成功�
 
 下图显示了数据集成中的模板任务映射的一个示例。 此映射显示将从 Finance 同步到 Project Service Automation 的字段信息。
 
-[![项目支出类别到 Project Service Automation 的模板映射。](./media/ProjectExpenseCategoriesToPSAMapping.jpg)](./media/ProjectExpenseCategoriesToPSAMapping.jpg)
+[![项目支出类别到 Project Service Automation 的模板映射](./media/ProjectExpenseCategoriesToPSAMapping.jpg)](./media/ProjectExpenseCategoriesToPSAMapping.jpg)
 
 ## <a name="project-expense-category-synchronization-from-project-service-automation-to-finance"></a>从 Project Service Automation 到 Finance 的项目支出类别同步
 
@@ -121,7 +123,4 @@ Project Service Automation 与 Finance 集成解决方案使用数据集成功�
 > [!NOTE]
 > 此映射显示将从 Project Service Automation 同步到 Finance 的字段信息。
 
-[![Project Service Automation 到 Finance 的模板映射。](./media/ProjectExpenseCategoriesToFinOpsMapping.jpg)](./media/ProjectExpenseCategoriesToFinOpsMapping.jpg)
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]
+[![Project Service Automation 到 Finance 的模板映射](./media/ProjectExpenseCategoriesToFinOpsMapping.jpg)](./media/ProjectExpenseCategoriesToFinOpsMapping.jpg)

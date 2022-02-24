@@ -2,6 +2,8 @@
 title: 项目模板
 description: 此主题介绍如何使用项目模板快速设置项目。
 author: ruhercul
+manager: kfend
+ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 03/01/2019
@@ -16,12 +18,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 34df8ed9a8baff949097af1b95da56bfe9a4240c213896fafd5c7dcfcf580b6c
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: db42c9ea7280274cdc9cc90f1487f27e08f892e5
+ms.sourcegitcommit: 418fa1fe9d605b8faccc2d5dee1b04b4e753f194
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "7002500"
+ms.lasthandoff: 02/10/2021
+ms.locfileid: "5148047"
 ---
 # <a name="project-templates"></a>项目模板 
 
@@ -47,7 +49,7 @@ ms.locfileid: "7002500"
 
 - 在根据报价单创建项目时，您可以在 **快速创建: 项目** 窗体中选择项目模板。
 
-> ![“快速创建: 项目”对话框。](media/project-11.png)
+> ![“快速创建: 项目”对话框](media/project-11.png)
 
 - 通过选择 **新建项目** 创建项目时，保存记录之前将显示 **项目** 页。 在 **选取模板** 字段中，选择组织中的一个预定义项目模板。
 - 使用 **模板实体** 页上的 **从模板创建项目**。
@@ -67,6 +69,3 @@ ms.locfileid: "7002500"
 ### <a name="copying-a-project-team"></a>复制项目团队
 
 在将项目团队从项目模板复制到项目时，通用资源与模板中定义的技能和专长一起复制。 通用资源分派也与项目模板中一样进行维护。 项目模板中不支持指定资源。
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

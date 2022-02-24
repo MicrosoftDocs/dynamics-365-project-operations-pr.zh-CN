@@ -2,9 +2,11 @@
 title: 定义支出策略
 description: 您可以定义您的工作人员在输入和提交支出报表和出差申请时必须遵守的支出策略。
 author: suvaidya
+manager: AnnBe
 ms.date: 09/23/2020
 ms.topic: article
 ms.prod: ''
+ms.service: project-operations
 ms.search.form: ''
 audience: Application User
 ms.reviewer: kfend
@@ -13,12 +15,12 @@ ms.search.region: Global
 ms.author: suvaidya
 ms.search.validFrom: ''
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: d29b1a9c1a935b933f403f78279b74577d11089007ce1d1090c361075822263a
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: c55cec132649daf9ee08ea4d8db3668860247934
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6986345"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4128407"
 ---
 # <a name="define-expense-policies"></a>定义支出策略
 
@@ -51,6 +53,3 @@ _**适用于：** 基于资源/非库存场景的 Project Operations，精简部
 ## <a name="when-to-evaluate-policies"></a>评估策略的时间
 
 在支出管理参数中，您可以选择在保存明细或提交支出报表时评估支出管理策略。 如果您选择在保存明细时进行评估，用户将提前了解到一次完成支出报表所需执行的操作。 或者，您可以在提交到工作流期间通过在最后进行验证来延后策略评估，从而节省时间。
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

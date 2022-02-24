@@ -2,16 +2,18 @@
 title: Project Operations 中的集成日记帐
 description: 此主题提供有关在 Project Operations 中使用集成日记帐的信息。
 author: sigitac
+manager: Annbe
 ms.date: 10/27/2020
 ms.topic: article
+ms.service: project-operations
 ms.reviewer: kfend
 ms.author: sigitac
-ms.openlocfilehash: c5cc3254c52750b35be2c66137b6c57bbd9acbfbc89dedc6559059a89c8e2393
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 4a5f4d524530594bd3118f9b320acf4033c5d503
+ms.sourcegitcommit: 3d78338773929121d17ec3386f6cb67bfb2272cc
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6987920"
+ms.lasthandoff: 04/27/2021
+ms.locfileid: "5948319"
 ---
 # <a name="integration-journal-in-project-operations"></a>Project Operations 中的集成日记帐
 
@@ -19,7 +21,7 @@ _**适用于：** 面向资源/非库存场景的 Project Operations_
 
 时间和支出条目创建表示按照项目完成的工作的运作视图的 **实际** 交易。 Dynamics 365 Project Operations 为会计人员提供了一个审查交易并根据需要调整会计属性的工具。 审查和调整完成后，交易将过帐到项目子分类帐和总帐。 会计人员可以使用 **Project Operations 集成** 日记帐（**Dynamics 365 Finance** > **项目管理和会计** > **日记帐** > **Project Operations 集成** 日记帐）执行这些活动。
 
-![集成日记帐流。](./media/IntegrationJournal.png)
+![集成日记帐流](./media/IntegrationJournal.png)
 
 ### <a name="create-records-in-the-project-operations-integration-journal"></a>在 Project Operations 集成日记帐中创建记录
 

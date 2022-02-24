@@ -2,16 +2,18 @@
 title: 默认价目表
 description: 此主题提供有关 Project Operations 中的默认销售和成本价目表的信息。
 author: rumant
+manager: Annbe
 ms.date: 10/13/2020
 ms.topic: article
+ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: a5e38e2f0b553b789956c6d73d481ab0ed2ce3a77815e7cf8c058a0b4666c558
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: fd29a3fc9c873d46dd66a05ad100c7515177d6cd
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6989855"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4130927"
 ---
 # <a name="default-price-lists"></a>默认价目表
 
@@ -19,7 +21,7 @@ _**适用于：** 基于资源/非库存场景的 Project Operations，精简部
 
 ## <a name="sales-price-lists"></a>销售价目表
 
-Dynamics 365 Project Operations 中的每个项目报价单和合同都包含一个默认销售价目表。 
+Dynamics 365 Project Operations 中的每个项目报价单和合同都包含一个默认的销售价目表。 
 
 ### <a name="price-list-default-on-project-quotes"></a>项目报价单上的默认价目表
 系统将完成以下过程来确定项目报价单上默认使用哪个价目表：
@@ -55,6 +57,3 @@ Dynamics 365 Project Operations 中的每个项目报价单和合同都包含一
 5. 接下来，系统查看与传入的估计值或实际值明细匹配的价目表的时效。 
 6. 如果有多个价目表对于传入估计值或实际值中的日期有效，将选择最近创建的价目表。
 7. 如果没有附加到项目参数与货币和生效日期匹配的成本价目表，系统会在传入的估计值或实际值明细中将成本费率默认为零 (0)。
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

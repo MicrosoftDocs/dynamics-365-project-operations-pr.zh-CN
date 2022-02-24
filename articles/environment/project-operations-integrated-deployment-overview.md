@@ -2,17 +2,18 @@
 title: 面向资源/非库存场景的 Project Operations 部署概述
 description: 此主题提供有关面向资源/非库存场景的 Project Operations 部署类型的信息。
 author: rumant
+manager: Annbe
 ms.date: 11/02/2020
 ms.topic: article
+ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.custom: intro-internal
-ms.openlocfilehash: a66877471e584bc76ddfe508a5d4cb47e38dd7aeb5f2bebe795b41a1de462ef9
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 035ad22d2b51182c11e5c29d35f74f499fc903d5
+ms.sourcegitcommit: d33ef0ae39f90fe3b0f6b4524f483e8052057361
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "7009700"
+ms.lasthandoff: 11/03/2020
+ms.locfileid: "4365405"
 ---
 # <a name="project-operations-for-resourcenon-stocked-based-scenarios-deployment-overview"></a>面向资源/非库存场景的 Project Operations 部署概述
 
@@ -42,6 +43,3 @@ _**适用于：** 面向资源/非库存场景的 Project Operations_
 - 需要一个功能丰富的企业级销售税和汇率引擎，用于为项目生成面向客户的发票。
 - 符合国际财务报告标准 (IFRS) 的项目会计和收入确认系统。
 - Finance 或 Supply Chain Management 应用程序，以及集成基于项目的交易。
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

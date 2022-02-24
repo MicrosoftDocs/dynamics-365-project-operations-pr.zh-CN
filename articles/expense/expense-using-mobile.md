@@ -2,9 +2,11 @@
 title: 移动设备支出应用
 description: 此主题提供有关支出管理移动工作区的信息。
 author: suvaidya
-ms.date: 11/15/2021
+manager: AnnBe
+ms.date: 09/23/2020
 ms.topic: article
 ms.prod: ''
+ms.service: project-operations
 ms.search.form: ''
 audience: Application User
 ms.reviewer: kfend
@@ -13,12 +15,12 @@ ms.search.region: ''
 ms.author: shylaw
 ms.search.validFrom: ''
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: 5ab5959fa5c9c5463826a9a792112a93e469de5f
-ms.sourcegitcommit: 2e4483d5b88213a9f33109f7adb989108521327d
+ms.openlocfilehash: 01df30bf48fa9118771b87363d0418eb6b49ecea
+ms.sourcegitcommit: f78087174a8512199a1bcbd7e8610bbc80e64801
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/17/2021
-ms.locfileid: "7818172"
+ms.lasthandoff: 03/04/2021
+ms.locfileid: "5499885"
 ---
 # <a name="mobile-expense-app"></a>移动设备支出应用
 
@@ -47,9 +49,42 @@ _**适用于：** 基于资源/非库存场景的 Project Operations，精简部
 - 提交支出报表进行审批和还款。
 - 批准或拒绝您被分配作为审批者的支出报表。
 
-## <a name="prerequisites-if-you-use-dynamics-365-finance"></a>使用 Dynamics 365 Finance 的先决条件
+## <a name="prerequisites"></a>先决条件
+先决条件根据为您的组织部署的版本有所不同。
 
+### <a name="prerequisites-if-you-use-dynamics-365-finance"></a>使用 Dynamics 365 Finance 的先决条件 
 如果已经为您的组织部署 Finance，系统管理员必须发布 **支出管理** 移动工作区。 
+
+### <a name="prerequisites-if-you-use-version-1611-with-platform-update-3-or-later"></a>使用带平台更新 3 或更高版本的版本 1611 时的先决条件
+如果已经为您的组织部署带平台更新 3 或更高版本的版本 1611，系统管理员必须完成以下先决条件。 
+
+<table>
+<thead>
+<tr class="header">
+<th>先决条件</th>
+<th>角色</th>
+<th>描述</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>实现 KB 4019015。</td>
+<td>系统管理员</td>
+<td>KB 4019015 是包含<strong>支出管理</strong>移动工作区的 X++ 更新或元数据修补程序。 若要实施 KB 4019015，系统管理员必须遵循这些步骤。
+<ol>
+<li><a href="https://docs.microsoft.com/dynamics365/fin-ops-core/dev-itpro/migration-upgrade/download-hotfix-lcs">从 Lifecycle Services 下载更新</a>。</li>
+<li><a href="https://docs.microsoft.com/dynamics365/fin-ops-core/dev-itpro/migration-upgrade/install-metadata-hotfix-package">安装元数据修补程序</a>。</li>
+<li><a href="https://docs.microsoft.com/dynamics365/fin-ops-core/dev-itpro/deployment/create-apply-deployable-package">创建</a>包含 <strong>ApplicationSuite</strong> 和 <strong>ExpenseMobile</strong> 模型的可部署包，然后将可部署包上载到 LCS。</li>
+<li><a href="https://docs.microsoft.com/dynamics365/fin-ops-core/dev-itpro/deployment/apply-deployable-package-system">应用可部署包</a>。</li>
+</ol></td>
+</tr>
+<tr class="even">
+<td>发布<strong>支出管理</strong>移动工作区。</td>
+<td>系统管理员</td>
+<td>请查阅<a href="https://docs.microsoft.com/dynamics365/fin-ops-core/dev-itpro/mobile-apps/publish-mobile-workspace">发布移动工作区</a>。</td>
+</tr>
+</tbody>
+</table>
 
 ## <a name="download-and-install-the-dynamics-365-unified-ops-mobile-app"></a>下载并安装 Dynamics 365 Unified Ops 移动应用
 下载并安装 Dynamics 365 Unified Ops 移动应用：
@@ -70,11 +105,11 @@ _**适用于：** 基于资源/非库存场景的 Project Operations，精简部
 3. 选择 **拍照** 或 **选择图像**。
 4. 请执行以下步骤之一：
 
-    - 如果选择了 **拍照**，请执行以下步骤：
+   - 如果选择了 **拍照**，请执行以下步骤：
 
-        1. 您将进入移动设备上的相机，让您可以对收据进行拍照。 
-        2. 拍照完毕后，请选择 **确定** 接受照片。
-        3. 可选：为照片输入名称，然后输入注释。
+      1. 您将进入移动设备上的相机，让您可以对收据进行拍照。 
+      2. 拍照完毕后，请选择 **确定** 接受照片。
+      3. 可选：为照片输入名称，然后输入注释。
 
     - 如果选择了 **选择图像**，请执行以下步骤：
 
@@ -87,11 +122,11 @@ _**适用于：** 基于资源/非库存场景的 Project Operations，精简部
 
 1. 在您的移动设备上，打开 **支出管理** 工作区。
 2. 选择 **快速输入支出**。
-3. 选择支出类别。 您将看到加载到应用中以供脱机使用的支出类别列表。 默认情况下，加载 50 项，但是开发人员可以更改此数字。 有关详细信息，开发人员应该查看[移动平台](/dynamics365/fin-ops-core/dev-itpro/mobile-apps/platform/mobile-platform-getting-started)。 如果您的类别不在该列表中，请选择 **搜索** 进行在线搜索。 按支出类别搜索，或切换到按支出类型搜索。
+3. 选择支出类别。 您将看到加载到应用中以供脱机使用的支出类别列表。 默认情况下，加载 50 项，但是开发人员可以更改此数字。 有关详细信息，开发人员应该查看[移动平台](https://docs.microsoft.com/dynamics365/fin-ops-core/dev-itpro/mobile-apps/platform/mobile-platform-getting-started)。 如果您的类别不在该列表中，请选择 **搜索** 进行在线搜索。 按支出类别搜索，或切换到按支出类型搜索。
 4. 输入支出的交易日期。
 5. 可选：输入支出的商家。
 6. 输入支出金额。
-7. 选择支出的货币。 您将看到加载到应用中以供脱机使用的货币代码列表。 默认情况下，加载 400 个货币，但是开发人员可以更改此数字。 有关详细信息，开发人员应该查看[移动平台](/dynamics365/fin-ops-core/dev-itpro/mobile-apps/platform/mobile-platform-getting-started)。 如果您的货币不在该列表中，请选择 **搜索** 进行在线搜索。 按货币搜索，或切换到按名称搜索。
+7. 选择支出的货币。 您将看到加载到应用中以供脱机使用的货币代码列表。 默认情况下，加载 400 个货币，但是开发人员可以更改此数字。 有关详细信息，开发人员应该查看[移动平台](https://docs.microsoft.com/dynamics365/fin-ops-core/dev-itpro/mobile-apps/platform/mobile-platform-getting-started)。 如果您的货币不在该列表中，请选择 **搜索** 进行在线搜索。 按货币搜索，或切换到按名称搜索。
 8. 选择 **拍照** 或 **选择图像**。
 9. 请执行以下步骤之一：
 
@@ -100,20 +135,20 @@ _**适用于：** 基于资源/非库存场景的 Project Operations，精简部
 
 10. 选择 **完成**。
 
-## <a name="approve-an-expense-report-by-using-the-expense-management-mobile-workspace"></a>使用支出管理移动工作区审批支出报表
+## <a name="approve-an-expense-report-by-using-the-expense-management-mobile-workspace-if-you-use-the-july-2017-update"></a>使用支出管理移动工作区审批支出报表（如果使用 2017 年 7 月版更新）
 
 1. 在您的移动设备上，打开 **支出管理** 工作区。
 2. **支出审批** 显示分配给您进行审批的支出报表的数量。 此数字大约每 30 分钟更新一次。 选择 **支出审批**。
 
     将显示分配给您进行审批的支出报表列表。
-
+    
 3. 选择支出报表可查看其支出详细信息。
 4. 选择支出可查看其详细信息。 显示的支出信息包括所有收据、来宾和明细详细信息。
 5. 返回到 **支出报表** 页，选择批准或拒绝支出报表。
 6. 为审批操作输入注释。
 7. 选择 **完成**。
 
-## <a name="create-a-new-expense-report-and-submit-it-for-approval-by-using-the-expense-management-mobile-workspace"></a>使用支出管理移动工作区创建新的支出报表并提交审批
+## <a name="create-a-new-expense-report-and-submit-it-for-approval-by-using-the-expense-management-mobile-workspace-if-you-use-the-july-2017-update"></a>使用支出管理移动工作区创建新支出报表并提交进行审批（如果使用 2017 年 7 月版更新）
 
 1. 在您的移动设备上，打开 **支出管理** 工作区。
 2. 选择 **输入支出**。
@@ -124,11 +159,11 @@ _**适用于：** 基于资源/非库存场景的 Project Operations，精简部
 7. 在列表中选择一项或多项支出。
 8. 选择 **完成**。
 9. 若要向支出报表添加新支出，请选择 **新建支出**。
-10. 选择支出的类别。 您将看到加载到应用中以供脱机使用的支出类别列表。 默认情况下，加载 50 项，但是开发人员可以更改此数字。 有关详细信息，开发人员应该查看[移动平台](/dynamics365/fin-ops-core/dev-itpro/mobile-apps/platform/mobile-platform-getting-started)。 如果您的类别不在该列表中，请选择 **搜索** 进行在线搜索。 按支出类别搜索，或切换到按支出类型搜索。
+10. 选择支出的类别。 您将看到加载到应用中以供脱机使用的支出类别列表。 默认情况下，加载 50 项，但是开发人员可以更改此数字。 有关详细信息，开发人员应该查看[移动平台](https://docs.microsoft.com/dynamics365/fin-ops-core/dev-itpro/mobile-apps/platform/mobile-platform-getting-started)。 如果您的类别不在该列表中，请选择 **搜索** 进行在线搜索。 按支出类别搜索，或切换到按支出类型搜索。
 11. 可选：输入支出的商家。
 12. 输入支出的交易日期。
 13. 输入支出金额。
-14. 选择支出的货币。 您将看到加载到应用中以供脱机使用的货币代码列表。 默认情况下，加载 400 个货币，但是开发人员可以更改此数字。 有关详细信息，开发人员应该查看[移动平台](/dynamics365/fin-ops-core/dev-itpro/mobile-apps/platform/mobile-platform-getting-started)。 如果您的货币不在该列表中，请选择 **搜索** 进行在线搜索。 按货币搜索，或切换到按名称搜索。
+14. 选择支出的货币。 您将看到加载到应用中以供脱机使用的货币代码列表。 默认情况下，加载 400 个货币，但是开发人员可以更改此数字。 有关详细信息，开发人员应该查看[移动平台](https://docs.microsoft.com/dynamics365/fin-ops-core/dev-itpro/mobile-apps/platform/mobile-platform-getting-started)。 如果您的货币不在该列表中，请选择 **搜索** 进行在线搜索。 按货币搜索，或切换到按名称搜索。
 15. 选择 **完成**。
 16. 若要向支出添加更多详细信息，请选择 **添加更多详细信息**。 可用字段取决于您的公司的支出管理配置。
 17. 如果公司政策要求提供支出收据，请选择 **收据**，然后执行以下步骤：
@@ -151,12 +186,12 @@ _**适用于：** 基于资源/非库存场景的 Project Operations，精简部
                     1. 在列表中选择一个图像。
                     2. 可选：为图像输入名称，然后输入注释。
 
-            3. 选择 **完成**。
+            3.  选择 **完成**。
 
         - 如果选择了 **附加收据**，请执行以下步骤：
 
-            1. 在列表中选择一个或多个图像。
-            2. 选择 **完成**。
+            1.  在列表中选择一个或多个图像。
+            2.  选择 **完成**。
 
     3. 选择 **返回** 按钮返回支出详细信息。
 
@@ -174,12 +209,12 @@ _**适用于：** 基于资源/非库存场景的 Project Operations，精简部
 
         - 如果选择了 **以前来宾**，请执行以下步骤：
 
-            1. 在列表中选择一个或多个以前的来宾。 您将看到已添加到以前的支出报表并加载到您的应用中以供脱机使用的以前来宾列表。 默认情况下，加载 50 项，但是开发人员可以更改此数字。 有关详细信息，开发人员应该查看[移动平台](/dynamics365/fin-ops-core/dev-itpro/mobile-apps/platform/mobile-platform-getting-started)。 如果以前来宾不在该列表中，请选择 **搜索** 进行在线搜索。 按名称搜索，或切换到按组织、国家/地区或职务搜索。
+            1. 在列表中选择一个或多个以前的来宾。 您将看到已添加到以前的支出报表并加载到您的应用中以供脱机使用的以前来宾列表。 默认情况下，加载 50 项，但是开发人员可以更改此数字。 有关详细信息，开发人员应该查看[移动平台](https://docs.microsoft.com/dynamics365/fin-ops-core/dev-itpro/mobile-apps/platform/mobile-platform-getting-started)。 如果以前来宾不在该列表中，请选择 **搜索** 进行在线搜索。 按名称搜索，或切换到按组织、国家/地区或职务搜索。
             2. 选择 **完成**。
 
         - 如果选择了 **同事**，请执行以下步骤：
 
-            1. 在列表中选择一个或多个同事。 您将看到加载到应用中以供脱机使用的同事列表。 默认情况下，加载 50 项，但是开发人员可以更改此数字。 有关详细信息，开发人员应该查看[移动平台](/dynamics365/fin-ops-core/dev-itpro/mobile-apps/platform/mobile-platform-getting-started)。 如果您的同事不在该列表中，请选择 **搜索** 进行在线搜索。 按名称搜索，或切换到按公司或职务搜索。
+            1. 在列表中选择一个或多个同事。 您将看到加载到应用中以供脱机使用的同事列表。 默认情况下，加载 50 项，但是开发人员可以更改此数字。 有关详细信息，开发人员应该查看[移动平台](https://docs.microsoft.com/dynamics365/fin-ops-core/dev-itpro/mobile-apps/platform/mobile-platform-getting-started)。 如果您的同事不在该列表中，请选择 **搜索** 进行在线搜索。 按名称搜索，或切换到按公司或职务搜索。
             2. 选择 **完成**。
 
     3. 选择 **返回** 按钮返回支出详细信息。
@@ -188,7 +223,7 @@ _**适用于：** 基于资源/非库存场景的 Project Operations，精简部
 
     1. 选择要细化的第一个日期。
     2. 选择 **添加明细**。
-    3. 选择支出明细的子类别。 您将看到加载到应用中以供脱机使用的支出子类别列表。 默认情况下，加载 50 项，但是开发人员可以更改此数字。 有关详细信息，开发人员应该查看[移动平台](/dynamics365/fin-ops-core/dev-itpro/mobile-apps/platform/mobile-platform-getting-started)。 如果您的子类别不在该列表中，请选择 **搜索** 进行在线搜索。 按支出子类别名称搜索。
+    3. 选择支出明细的子类别。 您将看到加载到应用中以供脱机使用的支出子类别列表。 默认情况下，加载 50 项，但是开发人员可以更改此数字。 有关详细信息，开发人员应该查看[移动平台](https://docs.microsoft.com/dynamics365/fin-ops-core/dev-itpro/mobile-apps/platform/mobile-platform-getting-started)。 如果您的子类别不在该列表中，请选择 **搜索** 进行在线搜索。 按支出子类别名称搜索。
     4. 输入明细的交易金额。
     5. 如果需要，编辑交易日期。
     6. 选择 **完成**。
@@ -202,30 +237,5 @@ _**适用于：** 基于资源/非库存场景的 Project Operations，精简部
 23. 为审批者输入注释。
 24. 选择 **完成**。
 
-## <a name="frequently-asked-questions"></a>常见问题解答
-
-### <a name="why-doesnt-the-expense-mobile-app-enter-the-payment-method-by-default"></a>为什么支出移动应用默认情况下不输入付款方式？
-
-组织可以在创建每个支出类别时为其自定义 **默认付款方式** 设置。 此外，在设置付款方式时，您可以将 **默认付款方式** 字段设置为 **仅导入**。
-
-如果对付款方式启用了 **仅导入**，则默认情况下不会输入付款方式。 在设置了此付款方式的支出类别中，它将为空白。 此行为在 Web 体验和移动体验中都是一致的。
-    
-如果未对付款方式启用 **仅导入**，则默认情况下会为设置了此付款方式的支出类别输入设置值。 但是，存在一个已知问题，即支出移动应用中未输入默认值。 若要解决此问题，请在保存支出报表之前手动选择付款方式。 
-
-### <a name="why-cant-i-add-or-edit-financial-dimensions-in-the-expense-mobile-app"></a>为什么无法在支出移动应用中添加或编辑财务维度？
-
-不支持输入维度和分配。 若要解决此限制，可以通过设置每个项目或员工的默认财务维度，在移动应用中默认设置这些字段。
-
-### <a name="why-do-i-sometimes-see-a-synchronization-error-in-the-expense-mobile-app"></a>为什么有时会在支出移动应用中显示同步错误？
-
-如果支出行不符合政策要求，并且用户提交支出报表时未解决政策警告，则移动数据不会同步到服务器，并且会发生同步失败。 发生同步失败后提交的所有支出报表都将保持失败状态，并且导致更多的同步失败。 解决此问题的唯一方法就是手动删除同步通知。 通过在未解决政策警告时停止提交支出报表，此问题已解决，从而避免了同步错误。
-
-### <a name="why-isnt-project-and-category-validation-correctly-reflected-in-the-expense-mobile-app"></a>为什么项目和类别验证没有正确反映到支出移动应用中？
-
-当前不支持此验证。 但是，将来可能会添加支持。 
-
-### <a name="what-document-types-are-supported-in-the-expense-mobile-app"></a>支出移动应用支持哪些文档类型？
-
-支出移动应用仅支持图像。 它当前不支持 PDF 或其他文档。
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

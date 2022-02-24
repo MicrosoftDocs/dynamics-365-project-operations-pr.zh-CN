@@ -2,16 +2,18 @@
 title: 配置支出管理参数
 description: 此主题介绍控制支出管理中的常规行为的参数。
 author: suvaidya
+manager: Annbe
 ms.date: 10/01/2020
 ms.topic: article
+ms.service: project-operations
 ms.reviewer: kfend
 ms.author: suvaidya
-ms.openlocfilehash: 1cabb0be624f7f6c12761e4fb6d5a095396a5940a37616bb3a304798e1f97808
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 09da0f4e0c6aec97c93c10eb686513e782189f77
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "7007765"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4121027"
 ---
 # <a name="configure-expense-management-parameters"></a>配置支出管理参数
 
@@ -81,6 +83,3 @@ _**适用于：** 面向资源/非库存场景的 Project Operations_
 | 显示反腐败证明   | 选择此选项可在创建支出报表时显示反腐败文本。 然后可以启用将需要在支出报表上选择反腐败证明的特定支出类别。 例如，与政府官员支出有关的礼品类别可能要求员工确认支出符合与政府官员有关的公司政策。 |
 | 向提交者显示的反腐败消息 | 输入要为创建支出报表的员工显示的文本。 要输入将根据用户语言显示的语言特定文本，请选择 **翻译**。 |
 | 向审批者显示的反腐败消息  | 输入创建支出报表时应显示给审批者的文本。 要输入将根据用户语言显示的语言特定文本，请选择 **翻译**。 |
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

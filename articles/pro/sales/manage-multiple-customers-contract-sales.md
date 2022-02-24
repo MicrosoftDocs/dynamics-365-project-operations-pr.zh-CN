@@ -2,16 +2,18 @@
 title: 管理项目合同上的多个客户 - 精简
 description: 此主题提供有关管理项目合同上的多个客户的信息。
 author: rumant
+manager: Annbe
 ms.date: 10/27/2020
 ms.topic: article
+ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: b7010ef75cd71ecdf832abb889db4703baa18fce0adadf3893621c42002fcab9
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: b248dabdbd5239b140da7c99d3f38609facfe75e
+ms.sourcegitcommit: f6f86e80dfef15a7b5f9174b55dddf410522f7c8
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "7001735"
+ms.lasthandoff: 10/31/2020
+ms.locfileid: "4181306"
 ---
 # <a name="manage-multiple-customers-on-project-contracts---lite"></a>管理项目合同上的多个客户 - 精简
 
@@ -50,6 +52,3 @@ Dynamics 365 Project Operations 中的项目合同支持合同涉及多个为交
 计费拆分百分比可以使用内嵌网格编辑体验进行编辑。 如果计费拆分百分比总计不是 100%，您将收到错误。 编辑计费拆分百分比后，刷新页面消除错误。
 
 您还可以选择 **合同客户** 子网格上的 **平均分配** 将计费拆分平均分配给所有合同客户。 如果存在舍入系数，会将其添加到舍入客户。 其中一个合同客户将始终标记为 **舍入** 客户，这表明合同客户记录的舍入标志设置为 **是**。 通常，这是合同的主要客户，不过可以更改。
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

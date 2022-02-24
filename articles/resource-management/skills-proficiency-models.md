@@ -2,16 +2,18 @@
 title: 技能和认证
 description: 此主题提供有关向资源添加技能和认证特征的信息。
 author: ruhercul
+manager: Annbe
 ms.date: 10/01/2020
 ms.topic: article
+ms.service: project-operations
 ms.reviewer: kfend
 ms.author: ruhercul
-ms.openlocfilehash: bf892d791b192005cc72d7fed08f2f22a12c002eb270a0faef6ae476fafafc20
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 1d04148f2e0953744da5ca32aa9062e3ae9530e7
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6990170"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4128857"
 ---
 # <a name="skills-and-certifications"></a>技能和认证
 _**适用于：** 基于资源/非库存场景的 Project Operations，精简部署 - 估价开票交易_
@@ -41,5 +43,3 @@ _**适用于：** 基于资源/非库存场景的 Project Operations，精简部
 3. 在 **技能** 子网格中，选择 **+添加新要求特征**。
 4. 在快速创建窗格中，查找并选择所需的特征，然后添加 **评分值**。
 5. 选择 **保存并关闭**。
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

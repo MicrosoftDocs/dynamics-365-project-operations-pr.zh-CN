@@ -2,23 +2,24 @@
 title: 销售流程概述
 description: 此主题介绍基本销售流程。
 author: rumant
+manager: Annbe
 ms.date: 10/29/2020
 ms.topic: article
+ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.custom: intro-internal
-ms.openlocfilehash: 3bda8a11d0cb6fe97a3daa640bf95717ef9913000e6b1a28a0a27a35527dbf6f
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 5da29d2959a6e49defa185630f45d280dba283c4
+ms.sourcegitcommit: 625878bf48ea530f3381843be0e778cebbbf1922
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6991835"
+ms.lasthandoff: 10/30/2020
+ms.locfileid: "4177590"
 ---
 # <a name="sales-process-overview"></a>销售流程概述
 
 _**适用于：** 基于资源/非库存场景的 Project Operations，精简部署 - 估价开票交易_
 
-基于项目的组织中使用的销售流程与基于产品的组织中使用的销售流程不同。 这是因为基于项目的组织的销售周期更长，需要自定义的估算技术来为每笔交易进行分析和创建报价单。 Dynamics 365 Project Operations 使用销售流程中使用的以下某些功能：
+基于项目的组织中使用的销售流程与基于产品的组织中使用的销售流程不同。 这是因为基于项目的组织的销售周期更长，需要自定义的估算技术来为每笔交易进行分析和创建报价单。 Dynamics 365 Project Operations 使用销售流程中使用的以下功能中的部分功能：
 
 - 使用潜在顾客记录跟踪销售流程。
 - 将符合资格的潜在顾客作为商机跟踪。
@@ -62,6 +63,3 @@ _**适用于：** 基于资源/非库存场景的 Project Operations，精简部
 
 ## <a name="track-comments-and-approvals-of-quotes-and-project-contracts"></a>跟踪报价单和项目合同的注释和审批
 可使用记录墙和公告管理报价单和项目合同的审核和审批。 组织可创建自定义工作流和插件以分派、重定向、升级和管理审核和审批工作项的通知。
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

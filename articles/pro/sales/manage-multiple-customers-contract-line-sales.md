@@ -2,16 +2,18 @@
 title: 管理基于项目的合同子项上的多个客户 - 精简
 description: 此主题提供有关管理基于项目的合同子项上的多个客户的信息。
 author: rumant
+manager: Annbe
 ms.date: 10/27/2020
 ms.topic: article
+ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: a7e29b1a92a5fefcf4812931383d03e5f81a27001f0e6525bb4eeb8dc93b18b9
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: f28e7d1363647621f7bd23504aa6d4ea3fc95fc9
+ms.sourcegitcommit: f6f86e80dfef15a7b5f9174b55dddf410522f7c8
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "7001780"
+ms.lasthandoff: 10/31/2020
+ms.locfileid: "4181589"
 ---
 # <a name="manage-multiple-customers-on-project-based-contract-lines---lite"></a>管理基于项目的合同子项上的多个客户 - 精简
 
@@ -41,6 +43,3 @@ _**适用于：** 精简部署 - 估价交易开票_
 计费拆分百分比可以在网格中编辑。 如果计费拆分百分比总计不是 100%，将出现错误。 编辑计费拆分百分比后，刷新页面去除错误。
 
 您还可以选择合同子项客户子网格上的 **平均分配**。 此操作将向所有合同子项客户平均分配计费拆分。 如果存在任何舍入系数，会将其添加到舍入客户。 一个合同子项客户会始终标记为 **舍入** 客户，**舍入** 标志设置为 **是**。
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

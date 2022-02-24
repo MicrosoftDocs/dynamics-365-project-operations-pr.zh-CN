@@ -2,16 +2,18 @@
 title: 使用“复制项目”开发项目模板
 description: 此主题提供有关如何使用“复制项目”自定义操作创建项目模板的信息。
 author: stsporen
+manager: Annbe
 ms.date: 01/21/2021
 ms.topic: article
+ms.service: project-operations
 ms.reviewer: kfend
 ms.author: stsporen
-ms.openlocfilehash: d12301b4e7baabeb0f045f9a11d4695fc026339af3fa7650db7177c495c71e90
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 87696b41db20e9ec70270c850d9acfe05df8cd84
+ms.sourcegitcommit: d5004acb6f1c257b30063c873896fdea92191e3b
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6989231"
+ms.lasthandoff: 01/22/2021
+ms.locfileid: "5044998"
 ---
 # <a name="develop-project-templates-with-copy-project"></a>使用“复制项目”开发项目模板
 
@@ -42,7 +44,7 @@ Dynamics 365 Project Operations 支持复制项目并将所有工作重新分配
 - **{"clearTeamsAndAssignments":true}**：Web 版本的 Project 的默认行为，将删除所有工作和团队成员。
 - **{"removeNamedResources":true}** Project Operations 的默认行为，将工作还原为通用资源。
 
-有关操作的更多默认行为，请参阅[使用 Web API 操作](/powerapps/developer/common-data-service/webapi/use-web-api-actions)
+有关操作的更多默认行为，请参阅[使用 Web API 操作](https://docs.microsoft.com/powerapps/developer/common-data-service/webapi/use-web-api-actions)
 
 ## <a name="specify-fields-to-copy"></a>指定要复制的字段 
 当调用操作时，**复制项目** 将查看项目视图 **复制项目列**，以确定在复制项目时要复制哪些字段。
@@ -110,6 +112,3 @@ Dynamics 365 Project Operations 支持复制项目并将所有工作重新分配
     }
 }
 ```
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -2,10 +2,12 @@
 title: 将交易类别用作定价维度
 description: 此主题介绍如何将交易类别用作定价维度。
 author: Rumant
+manager: kfend
 ms.custom:
 - dyn365-projectservice
 ms.date: 10/01/2020
 ms.topic: article
+ms.service: business-applications
 ms.author: rumant
 audience: Admin
 search.audienceType:
@@ -15,12 +17,12 @@ search.audienceType:
 search.app:
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 776327ddca9b5013ca05eb4058145f4196e4143509098c82d0f452bc9709b673
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 00214aa2b514da71b331073cd0eeb5320c03e7d7
+ms.sourcegitcommit: 418fa1fe9d605b8faccc2d5dee1b04b4e753f194
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6988836"
+ms.lasthandoff: 02/10/2021
+ms.locfileid: "5150747"
 ---
 # <a name="use-transaction-category-as-a-pricing-dimension"></a>将交易类别用作定价维度
 
@@ -51,6 +53,3 @@ ms.locfileid: "6988836"
 2. 请注意，**参数** 页 **基于金额的定价维度** 选项卡上的网格显示 **定价维度** 实体中的记录。
 3. 向此列表添加 **交易类别**，然后将 **适用于成本** 和 **适用于销售** 字段设置为 **是**。
 4. 在 **维度类型** 字段中，选择 **基于金额**，然后选择与成本和销售有关的 **交易类别** 的优先级。
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -2,16 +2,18 @@
 title: 配置内部项目会计
 description: 此主题提供有关如何在 Project Operations 中为内部项目设置会计实践的信息。
 author: sigitac
+manager: Annbe
 ms.date: 10/09/2020
 ms.topic: article
+ms.service: project-operations
 ms.reviewer: kfend
 ms.author: sigitac
-ms.openlocfilehash: be1dcd1b6b18591c99c904e0013d9870c7cafe1077fa6e9634f2e9f495190848
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 65d05e3a6321dc32aee55c28b3eaa4bd0bae2f86
+ms.sourcegitcommit: 5fd529f2308edfe9322082313e6d50146df56aca
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "7005515"
+ms.lasthandoff: 04/06/2021
+ms.locfileid: "5857967"
 ---
 # <a name="configure-accounting-for-internal-projects"></a>配置内部项目会计
 

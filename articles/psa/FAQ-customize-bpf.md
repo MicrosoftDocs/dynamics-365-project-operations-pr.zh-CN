@@ -16,12 +16,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 15540f524fb8fca8f69a2249f783289ba683cad7dabbf58ecbf620d147e5d491
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 2e6c60fe67aea908013077bde40c2faeabc2f39e
+ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "7002950"
+ms.lasthandoff: 05/10/2021
+ms.locfileid: "5993135"
 ---
 # <a name="how-do-i-customize-the-project-stages-business-process-flow"></a>如何自定义项目阶段业务流程？
 
@@ -60,11 +60,11 @@ ms.locfileid: "7002950"
 1. 向默认配置添加更多阶段，同时保留 **报价单**、**计划** 和 **关闭** 的英文阶段名称。
 
 
-![向默认配置添加阶段的屏幕截图。](media/FAQ-Customize-BPF-1.png)
+![向默认配置添加阶段的屏幕截图](media/FAQ-Customize-BPF-1.png)
  
 2. 创建您自己的业务流程并将其作为项目实体的主要业务流程，这样您可以有所希望的任何阶段名称。 但是，如果要使用相同的标准项目阶段 **报价单**、**计划** 和 **关闭**，您需要进行一些自定义来取消您的自定义阶段名称。 更复杂的逻辑位于项目的关闭阶段，您仍然可以通过停用项目记录触发它。
 
-![BPF 自定义。](media/FAQ-Customize-BPF-2.png)
+![BPF 自定义](media/FAQ-Customize-BPF-2.png)
 
 ### <a name="additional-considerations-for-project-service-app-version-24430-or-earlier-on-platform-90"></a>平台 9.0 上的 Project Service 应用程序版本 2.4.4.30 或更早版本的其他注意事项
 
@@ -80,11 +80,11 @@ ms.locfileid: "7002950"
 
 1. 转到 **设置** > **流程中心**。 不要复制项目阶段业务流程，因为这同时会复制项目服务业务逻辑。
 
-  ![创建流程。](media/FAQ-Customize-BPF-3.png)
+  ![创建流程](media/FAQ-Customize-BPF-3.png)
 
 2. 使用流程设计器创建所需的阶段名称。 如果您需要与默认的 **报价单**、**计划** 和 **关闭** 阶段相同的功能，则必须根据自定义业务流程的阶段名称进行创建。
 
-   ![用于自定义 BPF 的流程设计器的屏幕截图。](media/FAQ-Customize-BPF-4.png) 
+   ![用于自定义 BPF 的流程设计器的屏幕截图](media/FAQ-Customize-BPF-4.png) 
 
 3. 在流程设计器中，单击 **流程排序** 将自定义业务流程设置为项目实体的主要业务流程，方法是将其移到列表顶部的项目阶段业务流程的上方。
 
@@ -95,15 +95,15 @@ ms.locfileid: "7002950"
 
 4. 向项目实体添加新的自定义字段来获取自定义业务流程中的自定义阶段。 您将需要添加业务逻辑（插件/工作流）来在更新自定义业务流程中的阶段时更新此字段。
 
-   ![自定义项目实体的屏幕截图。](media/FAQ-Customize-BPF-6-720.png)
+   ![自定义项目实体的屏幕截图](media/FAQ-Customize-BPF-6-720.png)
 
 5. 修改 **按阶段列出的项目** 图表以为阶段使用新的自定义字段。
 
-   ![使用“按阶段列出的项目”图表的屏幕截图。](media/FAQ-Customize-BPF-7-720.png)
+   ![使用“按阶段列出的项目”图表的屏幕截图](media/FAQ-Customize-BPF-7-720.png)
 
 6. 修改项目实体的所有视图以为阶段包含新的自定义字段。
 
-   ![修改项目实体上的视图的屏幕截图。](media/FAQ-Customize-BPF-8-720.png)
+   ![修改项目实体上的视图的屏幕截图](media/FAQ-Customize-BPF-8-720.png)
 
 
 

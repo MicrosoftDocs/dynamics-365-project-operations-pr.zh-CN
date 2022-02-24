@@ -2,9 +2,11 @@
 title: 项目赠予
 description: 本主题介绍如何创建或修改赠予。
 author: RadhikaRS
+manager: AnnBe
 ms.date: 04/22/2020
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 audience: Application User
 ms.reviewer: kfend
@@ -16,12 +18,12 @@ ms.search.industry: Service industries
 ms.author: andchoi
 ms.dyn365.ops.version: 7
 ms.search.validFrom: 2019-01-15
-ms.openlocfilehash: c58a051b8129cadbde491751a946b75a75cb85118c7f0c7d25a06d322ffea596
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 89801696d6a2924d78c85f6e9b4281409222dbb0
+ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6995750"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "4072785"
 ---
 # <a name="project-grants"></a>项目赠予
 
@@ -77,6 +79,3 @@ ms.locfileid: "6995750"
 2. 选择要修改的赠予。
 3. 在“操作窗格”的 **赠予** 选项卡上，在 **维护** 组中，选择 **编辑**。
 4. 查看赠予详细信息，并进行所需的更改。
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

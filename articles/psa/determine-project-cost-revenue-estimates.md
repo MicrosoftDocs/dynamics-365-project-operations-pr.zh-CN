@@ -2,7 +2,9 @@
 title: 确定项目成本和收入预计
 description: 如何在 Project Service 中确定项目成本和收入估算
 author: ruhercul
+manager: kfend
 ms.prod: ''
+ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 8/03/2018
@@ -17,12 +19,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 38de99680f4ba67b8eb593ec575c2a796fcfb59436fea5323dd1d86d7cf3d797
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: a91e988632d2b2cdebfe7fd17516c5d6886728fc
+ms.sourcegitcommit: 418fa1fe9d605b8faccc2d5dee1b04b4e753f194
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "7002590"
+ms.lasthandoff: 02/10/2021
+ms.locfileid: "5148812"
 ---
 # <a name="determine-project-cost-and-revenue-estimates"></a>确定项目成本和收入预计 
 
@@ -79,6 +81,3 @@ ms.locfileid: "7002590"
   
 ### <a name="see-also"></a>另请参阅  
  [项目经理指南](../psa/project-manager-guide.md)
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -2,6 +2,8 @@
 title: Project Service Automation V3 更新版本 19 中的新增功能或更改
 description: 本主题列出了 Project Service Automation V3 更新版本 19 中可用的功能和修复。
 author: ruhercul
+manager: kfend
+ms.service: project-operations
 ms.custom: dyn365-projectservice
 ms.date: 05/05/2020
 ms.topic: article
@@ -15,18 +17,18 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: ad61589125e42e8dceb462290f65ddc05e171bd828d26d34ebd548ca285e9aa4
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 8a73a6acd4ce4c9559cdf4591ede735a613f4d52
+ms.sourcegitcommit: 418fa1fe9d605b8faccc2d5dee1b04b4e753f194
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6993635"
+ms.lasthandoff: 02/10/2021
+ms.locfileid: "5143595"
 ---
 # <a name="project-service-automation-update-release-19-v3"></a>Project Service Automation V3 更新版本 19
 
 [!include [banner](../includes/psa-now-project-operations.md)]
 
-我们很高兴地宣布适用于 Dynamics 365 的 Project Service Automation 应用程序的最新更新已推出。 此版本包括对质量、性能和可用性的一些重要改进。 此版本与 Dynamics 365 9.x 兼容。 若要更新到此版本，请访问 Dynamics 365 Online 的管理中心解决方案页面以安装更新。 有关详细信息，请参阅[安装、更新或移除首选解决方案](/power-platform/admin/install-remove-preferred-solution)。
+我们很高兴地宣布适用于 Dynamics 365 的 Project Service Automation 应用程序的最新更新已推出。 此版本包括对质量、性能和可用性的一些重要改进。 此版本与 Dynamics 365 9.x 兼容。 若要更新到此版本，请访问 Dynamics 365 Online 的管理中心解决方案页面以安装更新。 有关详细信息，请参阅[安装、更新或移除首选解决方案](https://docs.microsoft.com/power-platform/admin/install-remove-preferred-solution)。
 
 本主题列出了 PSA V3 更新版本 19 中新增或更改的功能和修复。 该版本的内部版本号为 V3.10.30.41，并且在 2020 年 5 月通过自行更新公开发布。
 
@@ -64,6 +66,3 @@ ms.locfileid: "6993635"
 - 客户在创建项目时可能遇到性能下降，因为 **GetBookableResourceIdFromUser** 检索所有可预订资源列，而不是仅检索主 ID。
 - **TransactionType** 实体缺少用于防止输入对交易类型无效的 **计价单位** 和 **计价单位组** 的前期验证更新插件。
 - **删除** 步骤在导入时间条目时无效。
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

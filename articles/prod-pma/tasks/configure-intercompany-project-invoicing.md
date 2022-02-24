@@ -2,9 +2,11 @@
 title: 配置内部公司项目开票
 description: 此主题显示如何设置贵组织内部两个公司之间的项目开票。
 author: Yowelle
+manager: AnnBe
 ms.date: 07/29/2019
 ms.topic: business-process
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: VendTable, InterCompanyTradingRelationSetupVendor, SysDataAreaSelectLookup, ProjParameters, ProjPosting, ProjTransferPrice
 audience: Application User
@@ -15,12 +17,12 @@ ms.search.industry: Service industries
 ms.author: andchoi
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: dfb804945d15476fad29ce93d3f21adfbf2d950ace7b58f30911b36e494ff0c1
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 1cb53cb63ee11082146455ec9f13790501dc3d1d
+ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6989404"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "4072663"
 ---
 # <a name="configure-intercompany-project-invoicing"></a>配置内部公司项目开票
 
@@ -62,6 +64,3 @@ ms.locfileid: "6989404"
 32. 在 **定价** 字段中输入数字。
 33. 选择 **保存**。
 
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

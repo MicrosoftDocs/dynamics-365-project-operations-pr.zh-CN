@@ -2,22 +2,24 @@
 title: 确认项目合同
 description: 此主题提供如何在 Project Operations 中确认合同的信息。
 author: rumant
+manager: Annbe
 ms.date: 10/13/2020
 ms.topic: article
+ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: e0ca43eb6005948f440fca16e98a6d05db3493c82e518441bb50f9413da91ead
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 24da0887c0266d51bddcbbf8efd6f2644b6d0f4f
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6989810"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4128272"
 ---
 # <a name="confirm-a-project-contract"></a>确认项目合同
 
 _**适用于：** 基于资源/非库存场景的 Project Operations，精简部署 - 估价开票交易_
 
-Dynamics 365 Project Operations 中的项目合同可以由于 **已确认** 的原因而处于活动状态，或者由于 **丢失** 的原因而处于关闭状态。 在确认项目合同时，状态将从 **草稿** 更新为 **有效**，状态描述为 **已确认**。 有效或关闭的合同无法编辑或重新打开。 
+Dynamics 365 Project Operations 中的项目合同可以处于有效状态，状态描述为 **已确认**，或者是关闭状态，状态描述为 **丢单**。 在确认项目合同时，状态将从 **草稿** 更新为 **有效**，状态描述为 **已确认**。 有效或关闭的合同无法编辑或重新打开。 
 
 ### <a name="financial-impact-of-confirming-a-project-contract"></a>确认项目合同的财务影响
 
@@ -32,7 +34,4 @@ Dynamics 365 Project Operations 中的项目合同可以由于 **已确认** 的
 如果作为丢单关闭的项目合同在其子项上引用了项目，该项目也会标记为关闭。 从当一天之后的任何资源预订都会被取消。 发票上尚未包含的项目合同上的任何未记帐实际销售额都将被冲销。
 
 > [!NOTE]
-> 在 Dynamics 365 Project Operations中，以丢单形式结束项目合同不会影响相关商机的状态。 商机仍保持开启状态，必须手动结束。
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]
+> 在 Dynamics 365 Project Operations 中，作为丢单关闭项目合同不会影响关联商机的状态。 商机仍保持开启状态，必须手动结束。

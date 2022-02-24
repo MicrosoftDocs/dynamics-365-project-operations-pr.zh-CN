@@ -2,6 +2,8 @@
 title: 取消以前批准的时间和支出条目
 description: 此主题介绍如何取消已批准的项目时间和支出交易。
 author: rumant
+manager: kfend
+ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 03/07/2019
@@ -16,12 +18,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 09b85ea302ac46171afbd531a551aa5fbf5492a3644cba3448be03009840228c
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: ea42c6755b4b48d986e385879607d659c57f483d
+ms.sourcegitcommit: 418fa1fe9d605b8faccc2d5dee1b04b4e753f194
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6987425"
+ms.lasthandoff: 02/10/2021
+ms.locfileid: "5150567"
 ---
 # <a name="cancel-previously-approved-time-or-expense-entries"></a>取消以前批准的时间或支出条目
 
@@ -60,6 +62,3 @@ ms.locfileid: "6987425"
 接下来，在实际值表中创建冲销条目。 为了创建冲销条目，系统将复制并覆盖原始实际值的字段值。 唯一不复制覆盖的值为数量值。 而是冲销这些值。 将为实际 **成本** 和 **未记帐销售额** 创建冲销实际值。 已冲销实际值的 **调整状态** 字段设置为 **不可调整**，而记帐状态设置为 **已取消**。
 
 进行这些更改之后，记录为已对项目使用的金额和项目的收入积压不再计入这些实际值表示的金额。
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -2,6 +2,8 @@
 title: 为项目创建Office 365 组
 description: 如何在 Project Service 中创建Office 365 组
 author: JohnPBurrows
+manager: kfend
+ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 8/03/2018
@@ -16,12 +18,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 88ae5eb298e802fdcff24bae378e406d1bc478a63ea37e5bc5d477d137826877
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 8fc01ffc48d185055fd9a70da12dbb4333b90b96
+ms.sourcegitcommit: 418fa1fe9d605b8faccc2d5dee1b04b4e753f194
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "7004975"
+ms.lasthandoff: 02/10/2021
+ms.locfileid: "5144762"
 ---
 # <a name="create-an-office-365-group-for-a-project-project-service"></a>为项目创建Office 365 组 (Project Service)
 
@@ -41,6 +43,3 @@ ms.locfileid: "7004975"
   
 ### <a name="see-also"></a>另请参阅  
  [项目经理指南](../psa/project-manager-guide.md)
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

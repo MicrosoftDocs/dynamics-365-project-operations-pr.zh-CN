@@ -2,6 +2,8 @@
 title: 客户经理指南
 description: 引导您为基于项目的帐户完成销售和合同流程的 Project Service 客户经理指南
 author: JohnPBurrows
+manager: kfend
+ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 7/30/2018
@@ -16,12 +18,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 4792d3438216a850b0b4afdb38f26b85adb81960c5984217c76c9954ca36b884
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: b1908fdf012b470a2954191d4428a58241b33752
+ms.sourcegitcommit: 418fa1fe9d605b8faccc2d5dee1b04b4e753f194
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6985805"
+ms.lasthandoff: 02/10/2021
+ms.locfileid: "5146068"
 ---
 # <a name="account-manager-guide-project-service"></a>客户经理指南 (Project Service)
 
@@ -46,6 +48,3 @@ ms.locfileid: "6985805"
  [项目经理指南](../psa/project-manager-guide.md)   
  [资源经理指南](../psa/resource-manager-guide.md)   
  [时间、费用和协作指南](../psa/time-expense-collaboration-guide.md)
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

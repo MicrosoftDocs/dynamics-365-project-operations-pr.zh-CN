@@ -1,7 +1,9 @@
 ---
-title: 升级注意事项 - 从 Microsoft Dynamics 365 Project Service Automation 版本 2.x 或 1.x 升级到版本 3
+title: 升级注意事项 - Microsoft Dynamics 365 Project Service Automation 版本 2.x 或 1.x 到版本 3
 description: 此主题介绍从 Project Service Automation 版本 2.x 或 1.x 升级到版本 3 时必须考虑的注意事项。
+manager: kfend
 ms.prod: ''
+ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 11/13/2018
@@ -16,12 +18,12 @@ search.audienceType:
 search.app:
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: b29ef5d6d2c1c97658d79bbbe82e5893adeafe4d20354e90058dde79b67cb716
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: c0c1e07bacb4867254a12436cf3bff58989e117f
+ms.sourcegitcommit: 418fa1fe9d605b8faccc2d5dee1b04b4e753f194
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "7000070"
+ms.lasthandoff: 02/10/2021
+ms.locfileid: "5144140"
 ---
 # <a name="upgrade-considerations---psa-version-2x-or-1x-to-version-3"></a>升级注意事项 - PSA 版本 2.x 或 1.x 到版本 3.x
 
@@ -35,7 +37,7 @@ Dynamics 365 Project Service Automation 和 Dynamics 365 Field Service 都使用
 ## <a name="resource-assignments"></a>资源分派
 在 Project Service Automation 版本 2 和版本 1 中，任务分派作为子任务（也称为明细任务）存储在 **任务实体** 中，并直接与 **资源分派** 实体关联。 明细任务在工作分解结构 (WBS) 中的任务分派弹出窗口中显示。
 
-![Project Service Automation 版本 2 和版本 1 中 WBS 上的明细任务。](media/upgrade-line-task-01.png)
+![Project Service Automation 版本 2 和版本 1 中 WBS 上的明细任务](media/upgrade-line-task-01.png)
 
 在 Project Service Automation 版本 3 中，已更改了将可预订资源分派给任务时采用的基础架构。 明细任务已弃用，**任务实体** 中的任务与 **资源分派** 视图中的团队成员之间存在直接的 1:1 关系。 分派给项目团队成员的任务现在直接存储在资源分派实体中。  
 
@@ -46,26 +48,26 @@ Dynamics 365 Project Service Automation 和 Dynamics 365 Field Service 都使用
 
 如果已经在版本 2 和版本 1 中将资源分派给了需要非其默认角色的任务，在您升级时，将为该指定资源分派所有任务分派的默认角色，无论版本 2 中的角色分派是怎样的。 此分配会导致计算出的估算在版本 2 或版本 1 与版本 3 之间存在差异，因为计算估算时基于资源的角色，而不是基于明细任务分派。 例如，在版本 2 中，为候婵分派了两个任务。 任务 1 的明细任务的角色为开发人员，任务 2 的角色为项目经理。 候婵的默认角色为项目经理。
 
-![为一项资源分派了多个角色。](media/upgrade-multiple-roles-02.png)
+![为一项资源分派了多个角色](media/upgrade-multiple-roles-02.png)
 
 因为开发人员角色和项目经理角色不同，所以成本和销售额估算计算方法如下：
 
-![资源角色的成本估算。](media/upggrade-cost-estimates-03.png)
+![资源角色的成本估算](media/upggrade-cost-estimates-03.png)
 
-![资源角色的销售额估算。](media/upgrade-sales-estimates-04.png)
+![资源角色的销售额估算](media/upgrade-sales-estimates-04.png)
 
 升级到版本 3 时，明细任务替换为可预订资源团队成员的任务资源分派。 此分派使用可预订资源的默认角色。 下图中，资源是角色为项目经理的候婵。
 
-![资源分派。](media/resource-assignment-v2-05.png)
+![资源分派](media/resource-assignment-v2-05.png)
 
 因为估算基于资源的默认角色，所以销售额和成本估算可能改变。 下图中不再能看到 **开发人员** 角色，因为该角色现在取自可预订资源的默认角色。
 
-![默认角色的成本估算。](media/resource-assignment-cost-estimate-06.png)
-![默认数据的销售额估算。](media/resource-assignment-sales-estimate-07.png)
+![默认角色的成本估算](media/resource-assignment-cost-estimate-06.png)
+![默认数据的销售额估算](media/resource-assignment-sales-estimate-07.png)
 
 升级完成后，可以将团队成员的角色编辑为非默认分派的角色。 但是，如果更改某个团队成员角色，为其分配的所有任务的角色也会改变，因为版本 3 中无法为团队成员分配多个角色。
 
-![更新资源角色。](media/resource-role-assignment-08.png)
+![更新资源角色](media/resource-role-assignment-08.png)
 
 将资源的部门从默认部门更改为另一个部门时，这一条对分派给指定资源的明细任务也成立。 版本 3 升级完成后，分派将使用资源的默认部门，而不是明细任务中设置的部门。
 
@@ -83,31 +85,28 @@ Dynamics 365 Project Service Automation 和 Dynamics 365 Field Service 都使用
 
 例如，在 Project Z 项目中，合同签订部门为 Contoso 美国。 在项目计划中，已经为实施阶段的测试任务分派了技术顾问角色，而分派的部门则为 Contoso 印度。
 
-![实施阶段部门分派。](media/org-unit-assignment-09.png)
+![实施阶段部门分派](media/org-unit-assignment-09.png)
 
 实施阶段后，为技术顾问角色分派了集成测试任务，但是部门设置为 Contoso 美国。  
 
-![集成测试任务部门分派。](media/org-unit-generate-team-10.png)
+![集成测试任务部门分派](media/org-unit-generate-team-10.png)
 
 为项目生成团队时，由于任务的部门不同，所以将创建两个通用团队成员。 将为技术顾问 1 分派 Contoso 印度任务，为技术顾问 2 分派 Contoso 美国任务。  
 
-![生成的通用团队成员。](media/org-unit-assignments-multiple-resources-11.png)
+![生成的通用团队成员](media/org-unit-assignments-multiple-resources-11.png)
 
 > [!NOTE]
 > 在 Project Service Automation 版本 2 和版本 1 中，团队成员不存储部门，部门在明细任务中维护。
 
-![Project Service Automation 中的版本 2 和版本 1 明细任务。](media/line-tasks-12.png)
+![Project Service Automation 中的版本 2 和版本 1 明细任务](media/line-tasks-12.png)
 
 可以在估算视图中查看部门。 
 
-![部门估算。](media/org-unit-estimates-view-13.png)
+![部门估算](media/org-unit-estimates-view-13.png)
  
 升级完成后时，将把与通用团队成员对应的明细任务中的部门添加到通用团队成员，并删除明细任务。 因此，建议您在升级前为包含通用资源的每个项目生成团队。
 
-对于分派给部门与合同签订项目部门不同的角色，并且尚未生成团队的任务，升级将为该角色创建一个通用团队成员，但是对该团队成员的部门使用项目的合同签订部门。 回去参考 Project Z 的示例时，发现已经为合同签订部门 Contoso 美国和实施阶段内的项目计划测试任务分派了技术顾问角色，并且采用了分派给 Contoso 印度的部门。 已经为实施阶段后完成的集成测试任务分派了技术顾问角色。 部门为 Contoso 美国，未生成团队。 升级将创建一个通用团队成员（这是分派有所有三个任务的工时的技术顾问），以及部门 Contoso 美国（这是项目的合同签订部门）。   
+对于分派给部门与合同签订项目部门不同的角色，并且尚未生成团队的任务，升级将为该角色创建一个通用团队成员，但是对该团队成员的部门使用项目的合同签订部门。 请回去参考 Project Z 的示例，已经为合同签订部门 Contoso 美国和实施阶段内的项目计划测试任务分配了技术顾问角色，并且采用了分配给 Contoso 印度的部门。 已经为实施阶段后完成的集成测试任务分派了技术顾问角色。 部门为 Contoso 美国，未生成团队。 升级将创建一个通用团队成员（这是分派有所有三个任务的工时的技术顾问），以及部门 Contoso 美国（这是项目的合同签订部门）。   
  
 更改不生成的团队成员中不同资源部门的默认设置是我们之所以建议您在升级之前为包含通用资源的每个项目生成或重新生成团队，以便不丢失部门分配的原因。
 
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

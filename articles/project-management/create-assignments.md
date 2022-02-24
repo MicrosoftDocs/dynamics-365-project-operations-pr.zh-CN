@@ -2,16 +2,18 @@
 title: 创建资源分配
 description: 此主题提供有关创建通用资源和指定资源分配的信息。
 author: ruhercul
+manager: Annbe
 ms.date: 10/01/2020
 ms.topic: article
+ms.service: project-operations
 ms.reviewer: kfend
 ms.author: ruhercul
-ms.openlocfilehash: d2e7c9a340a482a62afc0c9f0aa46c24fda27ca6ef56fdc0160f06af846c0b53
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 829c1d1de7270e7cafbb98ef80235ae6404f77f7
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6987875"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4131737"
 ---
 # <a name="create-resource-assignments"></a>创建资源分配
 
@@ -40,6 +42,3 @@ _**适用于：** 基于资源/非库存场景的 Project Operations，精简部
 1. 从任务网格、板或时间线，导航到 **分配到** 单元格。
 2. 在搜索框中，开始键入名称。 名称的搜索结果显示在 **资源选择器** 中 **其他资源** 下。
 3. 选择要分配给任务的资源，或在 **其他团队资源** 下选择资源的名称。
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

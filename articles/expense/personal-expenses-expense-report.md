@@ -2,17 +2,19 @@
 title: 处理支出报表上的个人支出
 description: 本主题提供有关如何处理因公出差所产生的员工个人支出的信息。
 author: suvaidya
-ms.date: 05/11/2021
+manager: tfehr
+ms.date: 11/18/2020
 ms.topic: article
 ms.prod: ''
+ms.service: project-operations
 ms.reviewer: kfend
 ms.author: suvaidya
-ms.openlocfilehash: 5e1162133eec5a85675bf686855d420c50de0eaf045d81c4b417b6fe66ee19fe
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 68dc91db331c5214b5d0ad1109fa4e9bd9d0918e
+ms.sourcegitcommit: 04c446746aad97fc3f4c3d441983c586b918a3a6
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6993140"
+ms.lasthandoff: 12/11/2020
+ms.locfileid: "4727928"
 ---
 # <a name="work-with-personal-expenses-on-an-expense-report"></a>处理支出报表上的个人支出
 
@@ -26,15 +28,3 @@ _**适用于：** 基于资源/非库存场景的 Project Operations，精简部
   - **由公司支付**：您的组织将全额支付公司信用卡的账单，然后从工作人员的账户中扣除个人支出。
 
 您可以在 **支出管理参数** 页面中选择组织使用的方法。
-
-
-## <a name="enable-split-expense-function-when-personal-amount-field-has-value-defined"></a>为个人金额字段定义值后启用拆分支出功能
-
-功能 **为个人金额字段定义值后启用拆分支出功能** 仅适用于使用行级工作流审批的费用报表 通过转到 **处理支出报表** > **分配给我的支出报表** > **打开支出报表** 来批准报表。 
-
-若要启用此功能，请转到 **工作区** > **功能管理**，选择 **为个人金额字段定义值后启用拆分支出功能**，然后选择 **立即启用**。 
-
-启用该功能后，在提交报表时，使用此功能的支出行会生成两行。 将生成两行，以便审批者可以分别审批每一行。
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

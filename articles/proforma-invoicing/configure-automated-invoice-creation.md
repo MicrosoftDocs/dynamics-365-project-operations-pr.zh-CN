@@ -2,16 +2,18 @@
 title: 配置发票自动创建
 description: 此主题提供有关如何将系统配置为自动生成发票的信息。
 author: rumant
+manager: Annbe
 ms.date: 10/13/2020
 ms.topic: article
+ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: 894e8f6e4ffbb5f003cdd1f69594e2a1e043b514923de5673d7ba9afaa6894e8
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 295c3b099c9670c930fb2ba2fd208be63a77217f
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6992645"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4122422"
 ---
 # <a name="configure-automatic-invoice-creation"></a>配置发票自动创建
 
@@ -43,6 +45,3 @@ _**适用于：** 面向资源/非库存场景的 Project Operations_
 
 > [!NOTE]
 > 仅为按发票计划配置的项目合同子项运行批处理开票。 必须为采用固定价格记帐方法的合同子项配置里程碑。 将需要为采用时间和材料记帐方法的项目合同子项设置基于日期的发票计划。 这同样适用于基于项目的合同子项。     
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

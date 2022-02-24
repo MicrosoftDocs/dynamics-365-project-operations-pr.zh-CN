@@ -2,16 +2,18 @@
 title: 管理收入估算
 description: 本主题提供有关如何使用项目收入估算的信息。
 author: sigitac
+manager: Annbe
 ms.date: 11/04/2020
 ms.topic: article
+ms.service: project-operations
 ms.reviewer: kfend
 ms.author: sigitac
-ms.openlocfilehash: 8d118826f8c63b9540435e320924d4562ab191ba126088560f5def1c1ff0b908
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 98df0301eaa8e9f8e9cd51fc5714254ae3bbc83d
+ms.sourcegitcommit: 2d399bc9d07807626f0d6b2d0cf304240c47591c
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6996515"
+ms.lasthandoff: 11/17/2020
+ms.locfileid: "4531369"
 ---
 # <a name="manage-revenue-estimates"></a>管理收入估算
 
@@ -88,6 +90,3 @@ _**适用于：** 面向资源/非库存场景的 Project Operations_
 使用此页面可以冲销具有指定估算日期且估算状态为 **已消除** 的所有消除。 选择相应的字段后，交易状态将更改。
 
 如果项目阶段设置为已完成，这也会自动将项目状态更改为 **正在处理**。 项目期间的估算状态将重新更改为 **已过帐**。
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -2,16 +2,18 @@
 title: 项目预订
 description: 本主题提供有关为项目预订资源的信息。
 author: ruhercul
+manager: Annbe
 ms.date: 10/01/2020
 ms.topic: article
+ms.service: project-operations
 ms.reviewer: kfend
 ms.author: ruhercul
-ms.openlocfilehash: 719892a37f381fc0ad6c3ccaca5c4d87c9947a4d7a39dca96aef464d04a71af0
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: c87b0c32ef081f601ed79c11687f008bb454dd45
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6994895"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4131062"
 ---
 # <a name="book-to-a-project"></a>项目预订
 
@@ -64,6 +66,3 @@ _**适用于：** 基于资源/非库存场景的 Project Operations，精简部
 
 > [!NOTE]
 > 此方法不会为资源创建任何预订。 而是将资源添加到团队。 在将团队成员添加到项目之后，项目经理可以使用维护预订或扩展预订将所需预订添加到资源。
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

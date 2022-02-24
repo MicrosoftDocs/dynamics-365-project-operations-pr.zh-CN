@@ -1,18 +1,19 @@
 ---
 title: 项目管理概述
-description: 此主题介绍 Dynamics 365 Project Operations 中的项目管理。
+description: 本主题提供有关 Dynamics 365 Project Operations 中的项目管理的信息。
 author: ruhercul
+manager: AnnBe
 ms.date: 10/06/2020
 ms.topic: article
+ms.service: project-operations
 ms.reviewer: kfend
 ms.author: ruhercul
-ms.custom: intro-internal
-ms.openlocfilehash: f728b3665770e65357f85a5c6da3fb8aecd7923d57baddb4e4c720fcc920ee01
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: c2bca0c7dfc957753f0d05f9a3b5cc45bc13b920
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6990980"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4127552"
 ---
 # <a name="project-management-overview"></a>项目管理概述
 
@@ -25,6 +26,3 @@ Dynamics 365 Project Operations 中的项目管理工具可帮助您轻松运行
 - 销售流程中使用项目估算。
 - 预测管道中的项目的资源要求。
 - 通过跟踪进度和成本消耗成功交付项目。
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

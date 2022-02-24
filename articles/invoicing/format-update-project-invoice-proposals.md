@@ -2,16 +2,18 @@
 title: 管理项目发票方案
 description: 本主题提供有关使用面向资源/非库存场景的 Project Operations 处理面向客户的发票的详细信息。
 author: sigitac
-ms.date: 04/12/2021
+manager: Annbe
+ms.date: 01/29/2021
 ms.topic: article
+ms.service: project-operations
 ms.reviewer: kfend
 ms.author: sigitac
-ms.openlocfilehash: 61b43e05eb179e2b00189076290433dd72f89a6bc7ef72140fc1efd752149d43
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 83e5af60d0a3baf0b59da2a97c6b156ef5b2b7ed
+ms.sourcegitcommit: b4298ca4729643c1040ef35dde8c67f829461ce7
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6989900"
+ms.lasthandoff: 01/29/2021
+ms.locfileid: "5089212"
 ---
 # <a name="manage-project-invoice-proposals"></a>管理项目发票方案
 
@@ -78,8 +80,7 @@ Dataverse 中的未记帐交易货币在 Finance 中用作交易货币，将使�
     - **客户** 将始终根据客户设置默认记帐销售税组。
     - **搜索** 将搜索此列表中的所有实体，然后选择第一个可用值。 搜索从 **项目** 实体开始，然后是 **项目合同** 实体，再然后是 **客户** 实体。
 
-- **固定价格里程碑物料销售税组** 用作记帐里程碑的 **物料销售税组** 字段中的默认值。 会计可以在 **帐户内交易** 页查看和修改此值。 创建项目发票方案明细时，系统将使用帐户内交易中的值。
- 
+- **固定价格里程碑物料销售税组** 用于将默认值设置为 **物料销售税组** 字段。
 
 ### <a name="financial-dimensions"></a>财务维度
 
@@ -131,7 +132,7 @@ Dataverse 中的未记帐交易货币在 Finance 中用作交易货币，将使�
 
 打印管理使用不同的报表文件来打印、指定目标和自定义发票的页脚文本。 打印管理可以在模块级别设置，但是对于特定客户、合同或发票方案，可以替代这些设置。 要在 **项目发票方案** 页上访问此功能，请选择 **打印** > **打印管理**。
 
-打印管理设置显示为树视图，其中的每个节点级别显示要调整的可用文档。 您可以在模块、客户、合同或发票方案文档级别分配自定义打印输出。 要修改原始文档的打印输出，请展开所需节点，然后选择 **原始项**。 在 **报表格式** 字段中，选择要用于打印的报表格式。 您可以通过使用[业务文档管理框架](/dynamics365/fin-ops-core/dev-itpro/analytics/er-business-document-management)来使用自定义报表格式。
+打印管理设置显示为树视图，其中的每个节点级别显示要调整的可用文档。 您可以在模块、客户、合同或发票方案文档级别分配自定义打印输出。 要修改原始文档的打印输出，请展开所需节点，然后选择 **原始项**。 在 **报表格式** 字段中，选择要用于打印的报表格式。 您可以通过使用[业务文档管理框架](https://docs.microsoft.com/dynamics365/fin-ops-core/dev-itpro/analytics/er-business-document-management)来使用自定义报表格式。
 
 ## <a name="post-invoice-proposals"></a>发布发票方案
 
@@ -142,6 +143,3 @@ Dataverse 中的未记帐交易货币在 Finance 中用作交易货币，将使�
 除了 **发票方案** 页之外，还可以通过运行定期作业 **发布发票方案** 来发布发票方案。 要查找此作业，请转到 **项目管理和会计** > **定期** > **项目发票** > **发布发票方案**。
 
 此页面显示所有准备好发布的发票方案。 您可以通过选择 **批处理** 来计划发票方案的发布。 将 **批处理参数** 设置为 **是**，然后通过选择 **定期** 设置批处理的定期模式。
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

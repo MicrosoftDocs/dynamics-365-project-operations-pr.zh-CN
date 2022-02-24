@@ -2,6 +2,8 @@
 title: 销售额估算和项目
 description: 此主题介绍如何在销售流程中利用计划和估算。
 author: ruhercul
+manager: kfend
+ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 03/01/2019
@@ -16,12 +18,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 1dac342ead487c50d14f3b2fa39e60314d13b0047b77fe6df8f32dee29b09422
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 76e21f80e51e6f3092880dc629ba90b400805486
+ms.sourcegitcommit: 418fa1fe9d605b8faccc2d5dee1b04b4e753f194
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6995165"
+ms.lasthandoff: 02/10/2021
+ms.locfileid: "5148362"
 ---
 # <a name="sales-estimates-and-projects"></a>销售额估算和项目
 
@@ -35,11 +37,11 @@ ms.locfileid: "6995165"
 
 创建基于项目的报价单明细时，可在 **报价单明细** 页中创建新项目或关联现有项目。 
 
-> ![“报价单明细”窗体。](media/project-8.png)
+> ![“报价单明细”窗体](media/project-8.png)
  
 基于报价单明细详细信息创建新项目时，可利用项目模板。 项目模板是用于表示组织中的典型标准项目计划和财务估算的模型项目。 也可以表示来自过去项目的项目计划和估算的副本。
 
-> ![报价单明细详细信息。](media/project-9.png)
+> ![报价单明细详细信息](media/project-9.png)
   
 基于报价单创建项目时，项目将自动与报价单明细关联。
 
@@ -52,6 +54,3 @@ ms.locfileid: "6995165"
 ## <a name="importing-estimates-from-a-project-into-a-quote"></a>将估计从项目导入到报价单
 
 定义项目估算之后，可将其导入报价单明细中。 在 **报价单明细详细信息** 页中，选择功能区中的 **从估算导入** 以按交易类型、角色或任务级别汇总项目估算。
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

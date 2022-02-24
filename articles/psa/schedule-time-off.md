@@ -2,6 +2,8 @@
 title: 计划休息时间
 description: 如何在 Project Service 中安排请假
 author: revathimuthiah
+manager: kfend
+ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 8/03/2018
@@ -16,12 +18,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 76589470b1391226ea2a35143daf0b18b16286dfcd2829e748b0984397cb25ee
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 5c3f5dfe846c4accb485de5213e1635e65e77fc5
+ms.sourcegitcommit: 418fa1fe9d605b8faccc2d5dee1b04b4e753f194
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6984577"
+ms.lasthandoff: 02/10/2021
+ms.locfileid: "5144312"
 ---
 # <a name="schedule-time-off-project-service"></a>安排请假 (Project Service)
 
@@ -55,6 +57,3 @@ ms.locfileid: "6984577"
   
 ### <a name="see-also"></a>另请参阅  
  [时间、费用和协作指南](../psa/time-expense-collaboration-guide.md)
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

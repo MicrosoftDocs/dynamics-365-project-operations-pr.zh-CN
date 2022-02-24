@@ -2,22 +2,24 @@
 title: 配置每个法律实体的 Project Operations 集成
 description: 此主题提供有关在 Project Operations 中按法人设置集成的信息。
 author: sigitac
+manager: Annbe
 ms.date: 10/21/2020
 ms.topic: article
+ms.service: project-operations
 ms.reviewer: kfend
 ms.author: sigitac
-ms.openlocfilehash: fc3f5be1318d482ece9a6e9e4fadc3cf628ff79577776e679f32cef7c0b2fc8f
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 5d2bb415362a088e01253fbe54f9f06569b4a921
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6999395"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4122872"
 ---
 # <a name="configure-project-operations-integration-per-legal-entity"></a>配置每个法律实体的 Project Operations 集成 
 
 _**适用于：** 面向资源/非库存场景的 Project Operations_
 
-本主题指导您完成为每个法律实体配置 Dynamics 365 Project Operations 所需执行的步骤。
+此主题将指导您完成按法人配置 Dynamics 365 Project Operations 所需的步骤。
 
 ## <a name="enable-feature-keys-in-dynamics-365-finance"></a>在 Dynamics 365 Finance 中启用功能键
 
@@ -49,6 +51,3 @@ _**适用于：** 面向资源/非库存场景的 Project Operations_
   - **记帐类型默认值**：Project Operations 使用一组固定的记帐类型默认值，这些值必须映射到明细属性“财务”。 为每个记帐类型创建一条记录：**未指定**、**应计费**、**非应计费**、**免费** 和 **不可用**。
   - **项目类别默认值**：选择每个交易类型要使用的默认项目类别。 这些默认值将在 **Project Operations 集成日记帐** 以及未为项目实际值指定交易类别的估算中使用。
   - **预测**：选择要用于时间和支出估计的预测模型。
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

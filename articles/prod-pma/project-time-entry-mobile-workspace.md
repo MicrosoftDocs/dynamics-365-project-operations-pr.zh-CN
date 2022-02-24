@@ -2,9 +2,11 @@
 title: 项目时间条目移动工作区
 description: 此主题提供有关项目时间条目移动工作区的信息。 此工作区让用户可以使用其移动设备根据项目输入和保存时间。
 author: Yowelle
+manager: AnnBe
 ms.date: 12/01/2017
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 audience: Application User
 ms.reviewer: josaw
@@ -16,12 +18,12 @@ ms.search.industry: Service industries
 ms.author: andchoi
 ms.dyn365.ops.version: Version 1611
 ms.search.validFrom: 2016-11-30
-ms.openlocfilehash: 04024cc005b67b8f4e5821b22be65cfd1822b2414c85e1fbb75c3b2ac4339dc4
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 23a5a9f25cfdd6df74257b3500c7a035d711b5f6
+ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6989540"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "4072585"
 ---
 # <a name="project-time-entry-mobile-workspace"></a>项目时间条目移动工作区
 
@@ -46,7 +48,7 @@ ms.locfileid: "6989540"
 先决条件根据为您的组织部署的 Microsoft Dynamics 365 版本不同。
 
 ### <a name="prerequisites-if-you-use-dynamics-365-finance"></a>使用 Dynamics 365 Finance 的先决条件
-如果已经为您的组织部署 Finance，系统管理员必须发布 **项目时间条目** 移动工作区。 有关说明，请查阅 [发布移动工作区](/dynamics365/fin-ops-core/dev-itpro/mobile-apps/publish-mobile-workspace)。
+如果已经为您的组织部署 Finance，系统管理员必须发布 **项目时间条目** 移动工作区。 有关说明，请查阅 [发布移动工作区](https://docs.microsoft.com/dynamics365/fin-ops-core/dev-itpro/mobile-apps/publish-mobile-workspace)。
 
 ### <a name="prerequisites-if-you-use-version-1611-with-platform-update-3-or-later"></a>使用带平台更新 3 或更高版本的版本 1611 时的先决条件
 如果已经为您的组织部署带平台更新 3 或更高版本的版本 1611，系统管理员必须完成以下先决条件。 
@@ -66,17 +68,17 @@ ms.locfileid: "6989540"
 <td>系统管理员</td>
 <td>KB 4018050 是包含<strong>项目时间条目</strong>移动工作区的 X++ 更新或元数据修补程序。 若要实施 KB 4018050，系统管理员必须遵循这些步骤。
 <ol>
-<li><a href="/dynamics365/fin-ops-core/dev-itpro/migration-upgrade/download-hotfix-lcs">从 Microsoft Dynamics Lifecycle Services (LCS) 下载元数据修补程序</a>。</li>
-<li><a href="/dynamics365/fin-ops-core/dev-itpro/migration-upgrade/install-metadata-hotfix-package">安装元数据修补程序</a>。</li>
-<li><a href="/dynamics365/fin-ops-core/dev-itpro/deployment/create-apply-deployable-package">创建</a>包含 <strong>ApplicationSuite</strong> 和 <strong>ProjectMobile</strong> 模型的可部署包，然后将可部署包上载到 LCS。</li>
-<li><a href="/dynamics365/fin-ops-core/dev-itpro/deployment/apply-deployable-package-system">应用可部署包</a>。</li>
+<li><a href="https://docs.microsoft.com/dynamics365/fin-ops-core/dev-itpro/migration-upgrade/download-hotfix-lcs">从 Microsoft Dynamics Lifecycle Services (LCS) 下载元数据修补程序</a>。</li>
+<li><a href="https://docs.microsoft.com/dynamics365/fin-ops-core/dev-itpro/migration-upgrade/install-metadata-hotfix-package">安装元数据修补程序</a>。</li>
+<li><a href="https://docs.microsoft.com/dynamics365/fin-ops-core/dev-itpro/deployment/create-apply-deployable-package">创建</a>包含 <strong>ApplicationSuite</strong> 和 <strong>ProjectMobile</strong> 模型的可部署包，然后将可部署包上载到 LCS。</li>
+<li><a href="https://docs.microsoft.com/dynamics365/fin-ops-core/dev-itpro/deployment/apply-deployable-package-system">应用可部署包</a>。</li>
 
 </ol></td>
 </tr>
 <tr class="even">
 <td>发布<strong>项目时间条目</strong>移动工作区。</td>
 <td>系统管理员</td>
-<td>请查阅<a href="/dynamics365/fin-ops-core/dev-itpro/mobile-apps/publish-mobile-workspace">发布移动工作区</a>。</td>
+<td>请查阅<a href="https://docs.microsoft.com/dynamics365/fin-ops-core/dev-itpro/mobile-apps/publish-mobile-workspace">发布移动工作区</a>。</td>
 </tr>
 </tbody>
 </table>
@@ -94,23 +96,20 @@ ms.locfileid: "6989540"
 3.  首次登录时，将提示您输入您的用户名和密码。 输入凭据。
 4.  登录后，将显示您的公司的可用工作区。 请注意，如果您的系统管理员以后发布新工作区，您必须刷新移动工作区列表。
 
-[![下拉以刷新。](./media/pull-to-refresh-list-of-workspaces-183x300.png)](./media/pull-to-refresh-list-of-workspaces.png)
+[![下拉以刷新](./media/pull-to-refresh-list-of-workspaces-183x300.png)](./media/pull-to-refresh-list-of-workspaces.png)
 
 ## <a name="enter-time-by-using-the-project-time-entry-mobile-workspace"></a>通过使用项目时间条目移动工作区输入时间
 1.  在移动设备上，选择 **项目时间条目** 工作区。
 2.  选择 **时间条目**。 此时将显示当前周的日历日期。
 3.  对于所选日期，选择 **操作**&gt;**新条目**。
 4.  输入要记录的小时数。
-5.  为时间条目选择项目。 列表显示加载到您的应用程序中供脱机使用的项目。 默认情况下，加载 50 项，但是开发人员可以更改此数字。 有关详细信息，请参阅 [移动平台](/dynamics365/fin-ops-core/dev-itpro/mobile-apps/mobile-app-home-page)。
+5.  为时间条目选择项目。 列表显示加载到您的应用程序中供脱机使用的项目。 默认情况下，加载 50 项，但是开发人员可以更改此数字。 有关详细信息，请参阅 [移动平台](https://docs.microsoft.com/dynamics365/fin-ops-core/dev-itpro/mobile-apps/mobile-app-home-page)。
 6.  如果您的项目不在该列表中，请选择 **搜索**。 按名称搜索，或切换到按项目名称或客户搜索。
-7.  选择类别。 列表显示加载到您的应用程序中供脱机使用的类别。 默认情况下，加载 50 项，但是开发人员可以更改此数字。 有关详细信息，请参阅 [移动平台](/dynamics365/fin-ops-core/dev-itpro/mobile-apps/mobile-app-home-page)。
+7.  选择类别。 列表显示加载到您的应用程序中供脱机使用的类别。 默认情况下，加载 50 项，但是开发人员可以更改此数字。 有关详细信息，请参阅 [移动平台](https://docs.microsoft.com/dynamics365/fin-ops-core/dev-itpro/mobile-apps/mobile-app-home-page)。
 8.  如果您的类别不在该列表中，请选择 **搜索**。 按类别搜索，或切换到按类别名称搜索。
-9.  选择活动。 列表显示加载到您的应用程序中供脱机使用的活动。 默认情况下，加载 50 项，但是开发人员可以更改此数字。 有关详细信息，请参阅 [移动平台](/dynamics365/fin-ops-core/dev-itpro/mobile-apps/mobile-app-home-page)。
+9.  选择活动。 列表显示加载到您的应用程序中供脱机使用的活动。 默认情况下，加载 50 项，但是开发人员可以更改此数字。 有关详细信息，请参阅 [移动平台](https://docs.microsoft.com/dynamics365/fin-ops-core/dev-itpro/mobile-apps/mobile-app-home-page)。
 10. 如果您的活动不在该列表中，请选择 **搜索**。 按活动编号搜索，或切换到按用途搜索。
 
 11. 选择行属性。
 12. 可选：输入任何外部和内部注释。
 13. 选择 **完成**。
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

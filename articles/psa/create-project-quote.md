@@ -2,6 +2,8 @@
 title: 创建项目报价单
 description: 如何在 Project Service 中创建项目报价单
 author: ruhercul
+manager: kfend
+ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 8/03/2018
@@ -16,12 +18,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 8a7907ee4c85c2993e86abec11fc11d2fe82a3e0ca435b25c7a213bbce931e73
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: cdf3a9cbc1df0b2c4630f142fb1643b35919b21e
+ms.sourcegitcommit: 418fa1fe9d605b8faccc2d5dee1b04b4e753f194
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "7000340"
+ms.lasthandoff: 02/10/2021
+ms.locfileid: "5149397"
 ---
 # <a name="create-a-project-quote-project-service"></a>创建项目报价单 (Project Service)
 
@@ -53,6 +55,3 @@ ms.locfileid: "7000340"
   
 ### <a name="see-also"></a>另请参阅  
  [客户经理指南](../psa/account-manager-guide.md)
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

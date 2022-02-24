@@ -2,9 +2,11 @@
 title: 重命名或修改项目阶段
 description: 此任务显示如何重命名或修改项目阶段。
 author: Yowelle
+manager: AnnBe
 ms.date: 11/07/2017
 ms.topic: business-process
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 audience: Application User
 ms.reviewer: josaw
@@ -14,12 +16,12 @@ ms.search.industry: Service industries
 ms.author: andchoi
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 664c1044c1ff23e892d7f90d255517b22cfa1a5656670efa1bf15339c5ae2112
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: ac9f18a62b21af930005b1c4a60428696ea470e3
+ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6998900"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "4072783"
 ---
 # <a name="rename-or-modify-a-project-stage"></a>重命名或修改项目阶段
 
@@ -33,6 +35,3 @@ ms.locfileid: "6998900"
 4. 在列表中，选择您要修改的预定义或用户定义的阶段。 
 5. 在“项目阶段”字段中输入新名称。
 6. 单击保存。
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

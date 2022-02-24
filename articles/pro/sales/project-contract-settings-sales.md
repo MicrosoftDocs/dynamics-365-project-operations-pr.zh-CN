@@ -2,16 +2,18 @@
 title: 项目合同设置 - 精简
 description: 此主题提供有关影响合同子项的字段的信息，以及有关跨所有明细项目汇总的合同的信息。
 author: rumant
+manager: Annbe
 ms.date: 10/20/2020
 ms.topic: article
+ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: 7ade6c122827274f926803140f5db32442114c7aefd18d410da65270f345fde4
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 1eedd912bedc43b1d5e847c574b5f1d5233cd038
+ms.sourcegitcommit: df30839484ef278675c5c712af0f7ba66ed9cdd3
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6995930"
+ms.lasthandoff: 03/17/2021
+ms.locfileid: "5663898"
 ---
 # <a name="header-details-for-project-contracts"></a>项目合同的标题详细信息
 

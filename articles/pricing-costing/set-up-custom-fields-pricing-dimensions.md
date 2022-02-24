@@ -2,9 +2,11 @@
 title: 将自定义字段设置为定价维度
 description: 此主题提供有关如何使用自定义字段设置定价维度的信息。
 author: rumant
+manager: AnnBe
 ms.date: 09/18/2020
 ms.topic: article
 ms.prod: ''
+ms.service: project-operations
 audience: Application User
 ms.reviewer: kfend
 ms.search.scope: ''
@@ -15,12 +17,12 @@ ms.search.industry: Service industries
 ms.author: rumant
 ms.dyn365.ops.version: ''
 ms.search.validFrom: 2020-10-01
-ms.openlocfilehash: e40f0336d98cd8452642eb582c4d9daf2304ceb2532ef75ce9d03a0fa4bd8e8b
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 744c561d023d7ef5ed79947e69f2de8a3902fb41
+ms.sourcegitcommit: 13a4e58eddbb0f81aca07c1ff452c420dbd8a68f
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "7003580"
+ms.lasthandoff: 11/30/2020
+ms.locfileid: "4650188"
 ---
 # <a name="set-up-custom-fields-as-pricing-dimensions"></a>将自定义字段设置为定价维度
 
@@ -42,11 +44,11 @@ _**适用于：** 基于资源/非库存场景的 Project Operations，精简部
 
 - 创建为 **定价维度** 表中的行。 例如，添加定价维度行，如下图中所示。 
 
-![基于金额的定价维度行。](media/Amt-based-PD.png)
+![基于金额的定价维度行](media/Amt-based-PD.png)
 
 资源工作时间 (**msdyn_resourceworkhours**) 已作为基于加价的维度添加，并已添加到 **基于加价的定价维度** 选项卡上的网格中。
 
-![基于加价的定价维度行。](media/Markup-based-PD.png)
+![基于加价的定价维度行](media/Markup-based-PD.png)
 
 
 > [!IMPORTANT]
@@ -74,8 +76,8 @@ _**适用于：** 基于资源/非库存场景的 Project Operations，精简部
 | 角色        | 部门    |工作位置      |标准标题      |资源工作时间      |  加价|
 | ------------|-------------|-------------------|--------------------|-------------------------|--------:|
 |             | Contoso 印度|现场            |                    |加班                 |15     |
-|             | Contoso 印度|局部             |                    |加班                 |10     |
-|             | Contoso US   |局部             |                    |加班                 |20     |
+|             | Contoso 印度|本地             |                    |加班                 |10     |
+|             | Contoso US   |本地             |                    |加班                 |20     |
 
 
 如果 Contoso 印度中一位基础费率为 100 美元的资源在现场工作，并且在时间条目中记录了 8 小时的正常工时和 2 小时的加班，定价引擎将对 8 小时使用基础费率 100，从而记录 800 美元。 至于 2 小时的加班，则为基础费率 100 应用 15% 的加价，因此单价为 115 美元，记录的总成本为 230 美元。
@@ -94,6 +96,3 @@ _**适用于：** 基于资源/非库存场景的 Project Operations，精简部
 
 - **成本优先级**：维度的成本优先级值指示与成本价格设置进行匹配时，该维度的权重。 **成本优先级** 的值在 **适用于成本** 的维度之间必须唯一。
 - **销售优先级**：维度的销售优先级值指示与销售价格设置进行匹配时，该维度的权重。 **销售优先级** 的值在 **适用于销售** 的维度之间必须唯一。
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

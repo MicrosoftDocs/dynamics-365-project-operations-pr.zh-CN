@@ -2,6 +2,8 @@
 title: 通过 Office 365 组与项目团队成员协作
 description: 如何通过 Office 365 组与 Project Service 团队成员协作
 author: JohnPBurrows
+manager: kfend
+ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 8/03/2018
@@ -16,12 +18,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 94e781e527dcc8077c5123b68d9695bbf707f86444f2a5e119c7594ee54e0da7
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 68816b00b752249023f053836994a083bba5362d
+ms.sourcegitcommit: 418fa1fe9d605b8faccc2d5dee1b04b4e753f194
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "7007045"
+ms.lasthandoff: 02/10/2021
+ms.locfileid: "5150882"
 ---
 # <a name="collaborate-with-your-project-team-members-with-office-365-groups-project-service"></a>通过 Office 365 组与项目团队成员协作 (Project Service)
 
@@ -41,6 +43,3 @@ ms.locfileid: "7007045"
   
 ### <a name="see-also"></a>另请参阅  
  [时间、费用和协作指南](../psa/time-expense-collaboration-guide.md)
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -2,6 +2,8 @@
 title: 使用 Project Finder Mobile 应用程序查找您的下一个项目
 description: 如何使用 Project Service 的 Project Finder Mobile 应用程序查找您的下一个项目
 author: ruhercul
+manager: kfend
+ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 8/03/2018
@@ -16,12 +18,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: b5b6c4d608ae083d01be24258af35ed8f64e67a897690f1a2678f76b8befdcb1
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 58e6970dbe902deeef144e563bcfcd09046c70ce
+ms.sourcegitcommit: 418fa1fe9d605b8faccc2d5dee1b04b4e753f194
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6990755"
+ms.lasthandoff: 02/10/2021
+ms.locfileid: "5149262"
 ---
 # <a name="find-your-next-project-with-the-project-finder-mobile-app-project-service"></a>使用 Project Finder Mobile 应用程序查找您的下一个项目 (Project Service)
 
@@ -38,15 +40,12 @@ ms.locfileid: "6990755"
   
  点击您感兴趣的项目右侧的箭头可以查看更多详细信息和注册项目。  
   
- ![匹配 Project Finder Mobile 应用中的技能的项目列表。](../psa/media/project-service-project-finder-list.png "匹配 Project Finder Mobile 应用程序中的技能的项目列表")  
+ ![匹配 Project Finder Mobile 应用程序中的技能的项目列表](../psa/media/project-service-project-finder-list.png "匹配 Project Finder Mobile 应用程序中的技能的项目列表")  
   
 ## <a name="update-your-skills"></a>更新您的技能  
  点击屏幕右侧底部的“个人资料”按钮可以更新您的技能和专长水平。  
   
- ![Project Finder Mobile 应用中的“配置文件”按钮。](../psa/media/project-service-project-finder-profile.png "Project Finder Mobile 应用程序中的“配置文件”按钮")  
+ ![Project Finder Mobile 应用程序中的“配置文件”按钮](../psa/media/project-service-project-finder-profile.png "Project Finder Mobile 应用程序中的“配置文件”按钮")  
   
 ### <a name="see-also"></a>另请参阅  
  [时间、费用和协作指南](../psa/time-expense-collaboration-guide.md)
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

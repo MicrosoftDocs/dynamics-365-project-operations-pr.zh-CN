@@ -2,6 +2,8 @@
 title: 使用演示数据实验
 description: 如何下载并用 Project Service Automation 的演示数据实验。
 author: JohnPBurrows
+manager: kfend
+ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 8/03/2018
@@ -16,12 +18,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 49b5f0fe9c35e6975fa05c592920f38203a888d49a341c8c54005c4bdb3a0786
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: e1f3ebf8d0cd6c8e25fcab6775cd92d544867af8
+ms.sourcegitcommit: 418fa1fe9d605b8faccc2d5dee1b04b4e753f194
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6998090"
+ms.lasthandoff: 02/10/2021
+ms.locfileid: "5151107"
 ---
 # <a name="experiment-with-demo-data-project-service"></a>用演示数据实验 (Project Service)
 
@@ -53,6 +55,3 @@ ms.locfileid: "6998090"
  [项目经理指南](../psa/project-manager-guide.md)   
  [资源经理指南](../psa/resource-manager-guide.md)   
  [时间、费用和协作指南](../psa/time-expense-collaboration-guide.md)
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

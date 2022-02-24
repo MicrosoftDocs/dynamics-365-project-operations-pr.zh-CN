@@ -2,18 +2,19 @@
 title: 定价维度概述
 description: 本主题提供有关 Dynamics 365 Project Operations 中定价维度的信息。
 author: rumant
+manager: AnnBe
 ms.date: 11/30/2020
 ms.topic: article
 ms.prod: ''
+ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.custom: intro-internal
-ms.openlocfilehash: 4b3b71c0b64a24f6914c70c4383eee654e7d4947ececaf9b4e6394f45a081a4c
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 33f55976eafedd046fba952ab6381c297ab4e271
+ms.sourcegitcommit: 13a4e58eddbb0f81aca07c1ff452c420dbd8a68f
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "7001960"
+ms.lasthandoff: 11/30/2020
+ms.locfileid: "4650174"
 ---
 # <a name="pricing-dimensions-overview"></a>定价维度概述
 
@@ -33,7 +34,7 @@ _**适用于：** 基于资源/非库存场景的 Project Operations，精简部
 
 Dynamics 365 Project Operations 随附了一组默认定价维度。 可通过转到 **Project Operations** > **参数** 查看这些定价维度。 在参数记录中 **基于金额的定价维度** 选项卡上，验证角色 **msdyn_resourcecategory** 和资源部门 **msdyn_organizationalunit** 的字段 **适用于销售** 和 **适用于成本** 是否设置为 **是**。 启用这些字段后，您可以为每个角色与部门的组合设置价格和成本。
 
-![“适用于销售”已突出显示的 Project Service 参数的屏幕截图。](media/PS-OOB-parameters.png)
+![“适用于销售”已突出显示的 Project Service 参数的屏幕截图](media/PS-OOB-parameters.png)
 
 如果需要使用更多属性制订资源的价格或成本，可以创建自定义的字段、实体和维度。 有关详细信息，请参阅以下文主题。 
   
@@ -58,18 +59,15 @@ Dynamics 365 Project Operations 随附了一组默认定价维度。 可通过�
 
 **示例记帐费率**
 
-| 角色        | 部门    |计价单位      |单价      |货币  |
+| 角色        | 部门    |单位      |价格      |货币  |
 | ------------|-------------|----------|----------:|----------|
-| 开发人员   | Contoso US  |小时 | 200|USD     |
-| 开发人员   | Contoso 印度 |小时|   112|USD     |
+| 开发人员   | Contoso US  |Hour | 200|USD     |
+| 开发人员   | Contoso 印度 |Hour|   112|USD     |
 
 
 **示例成本费率**
 
-| 工资级别     | 部门    |计价单位      |单价      |货币  |
+| 工资级别     | 部门    |单位      |价格      |货币  |
 | ----------------|-------------|----------|----------:|----------|
-| My company_Band1 | Contoso US  |小时 | 145|USD     |
-| My company_Band2 | Contoso 印度 |小时|   67|USD     |
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]
+| My company_Band1 | Contoso US  |Hour | 145|USD     |
+| My company_Band2 | Contoso 印度 |Hour|   67|USD     |

@@ -2,10 +2,12 @@
 title: 当可预订资源为项目担任多个角色时，估计项目销售和成本
 description: 本主题提供有关定价维度如何用来支持为项目中担任多个角色的资源进行定价和成本核算的信息。
 author: rumant
+manager: kfend
 ms.custom:
 - dyn365-projectservice
 ms.date: 10/01/2020
 ms.topic: article
+ms.service: business-applications
 ms.author: rumant
 audience: Admin
 search.audienceType:
@@ -15,12 +17,12 @@ search.audienceType:
 search.app:
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: be24bb3bdf2f3c8351fc396ae67457b5213e1cd800e9d2ad23d59d0d038f22b9
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 67e24156e960b9b09cf92f7f0cd77f6c74a982b8
+ms.sourcegitcommit: 418fa1fe9d605b8faccc2d5dee1b04b4e753f194
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6987470"
+ms.lasthandoff: 02/10/2021
+ms.locfileid: "5145032"
 ---
 # <a name="estimate-project-sales-and-costs-when-a-bookable-resource-fills-multiple-roles-for-a-project"></a>当可预订资源为项目担任多个角色时，估计项目销售和成本 
 
@@ -72,6 +74,3 @@ ms.locfileid: "6987470"
 当您导航到 **估算** 网格时，您会注意到同一资源的两项工作的定价不同。
 任务 A 中的资源的工作使用 **咨询负责人** 的 **角色** 属性值定价。 任务 B 中的同一个资源的工作使用 **网络技术人员** 的 **角色** 属性值定价。
 
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

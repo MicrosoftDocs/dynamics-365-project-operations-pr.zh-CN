@@ -2,16 +2,18 @@
 title: 设置成本模板
 description: 此主题提供有关如何在 Project Operations 中创建和使用成本模板的信息。
 author: sigitac
+manager: tfehr
 ms.date: 11/18/2020
 ms.topic: article
+ms.service: project-operations
 ms.reviewer: kfend
 ms.author: sigitac
-ms.openlocfilehash: b3a9f1e4f5ea0abe34dc860db87ef349daa46c487b03d271bfe207868c521f39
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 786b2b9b140f82d406044c2ed05761d7f46ee9e0
+ms.sourcegitcommit: 573be7e36604ace82b35e439cfa748aa7c587415
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6993545"
+ms.lasthandoff: 11/25/2020
+ms.locfileid: "4642712"
 ---
 # <a name="set-up-cost-templates"></a>设置成本模板
 
@@ -77,6 +79,3 @@ _**适用于：** 面向资源/非库存场景的 Project Operations_
 7. 在 **类别** 选项卡上，选择要包括在成本模板行中的项目类别。
 8. 在 **常规** 选项卡上，选择此行是否将包括在完成百分比计算中。
 9. 选择在计算完成百分比时要使用的完成成本计算方法。
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

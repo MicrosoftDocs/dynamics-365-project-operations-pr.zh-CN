@@ -2,16 +2,18 @@
 title: 将 Azure 订阅添加到 LCS 项目
 description: 此主题提供有关如何将您的 Azure 订阅连接到 LCS 项目的信息。
 author: sigitac
+manager: Annbe
 ms.date: 04/12/2021
 ms.topic: article
+ms.service: project-operations
 ms.reviewer: kfend
 ms.author: sigitac
-ms.openlocfilehash: e4502c1dec3bfeed083186b2d053549fefc9339609946c8da919b46e0e56cc79
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: a80c926ba67a1620e39d8c7677a05678454e6340
+ms.sourcegitcommit: 7468d668c48c1d87934aab9a034decd51e56dec6
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6986660"
+ms.lasthandoff: 04/13/2021
+ms.locfileid: "5880527"
 ---
 # <a name="add-an-azure-subscription-to-an-lcs-project"></a>将 Azure 订阅添加到 LCS 项目
 
@@ -23,35 +25,35 @@ _**适用于：** 面向资源/非库存场景的 Project Operations_
 
 1. 在 LCS 项目的 **环境** 部分，选择 **Microsoft Azure 设置**。
 
-![Microsoft Azure 设置。](./media/1MicrosoftAzureSettings.png)
+![Microsoft Azure 设置](./media/1MicrosoftAzureSettings.png)
 
 2. 在 **项目设置** 页上的 **Azure 连接器** 选项卡上，选择 **授权**。 这样即可以将环境部署到此项目。
 
-![Azure 连接器。](./media/2AzureConnectors.png)
+![Azure 连接器](./media/2AzureConnectors.png)
 
 3. 再次选择 **授权** 提供管理员同意。
 
-![授权管理员同意。](./media/3GrantAdminConsent.png)
+![授权管理员同意](./media/3GrantAdminConsent.png)
 
 4. 接受权限请求。
 
-![接受权限请求。](./media/4AcceptPermissionRequest.png)
+![接受权限请求](./media/4AcceptPermissionRequest.png)
 
 授权现已完成。 
 
-![授权成功。](./media/5AuthorizationComplete.png)
+![授权成功](./media/5AuthorizationComplete.png)
 
 ## <a name="provide-dynamics-deployment-services-access-to-your-azure-subscription"></a><a name="provide"></a>提供对您的 Azure 订阅的 Dynamics 部署服务访问权限
 
 1. 转到 [Microsoft Azure 记帐](https://portal.azure.com/#blade/Microsoft\_Azure\_Billing/SubscriptionsBlade)，选择您的订阅。 Dynamics 部署服务需要访问此订阅才能够部署环境。
 
-![Azure 订阅详细信息。](./media/6AzureSubscription.png)
+![Azure 订阅详细信息](./media/6AzureSubscription.png)
 
 2. 在导航窗格中选择 **访问控制 (IAM)**，然后选择 **添加角色分配**。
 3. 在右侧的滑块中，选择 **参与者角色**，在提供的列表中找到并选择 **Dynamics 部署服务**。 
 4. 选择 **保存**。
 
-![订阅访问。](./media/7SubscriptionAccess.png)
+![订阅访问](./media/7SubscriptionAccess.png)
 
 ### <a name="add-a-subscription-connector-to-an-lcs-project"></a>将订阅连接器添加到 LCS 项目
 

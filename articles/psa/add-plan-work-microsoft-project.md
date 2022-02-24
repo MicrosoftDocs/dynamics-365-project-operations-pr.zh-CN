@@ -2,6 +2,8 @@
 title: 在 Microsoft Project 中使用 Project Service 加载项规划工作 | MicrosoftDocs
 description: 此主题介绍如何在 Microsoft Project Service 中添加、配置和使用 Microsoft Project 加载项。
 author: ruhercul
+manager: kfend
+ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 04/06/2019
@@ -16,12 +18,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: ccebf1439f49092b23da5b4fc2ebb4fc484de4dd17c870eea9fe37b00fbb3689
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 9556feac5481e20bde1c9624c0eccc05385eaa94
+ms.sourcegitcommit: 418fa1fe9d605b8faccc2d5dee1b04b4e753f194
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "7005290"
+ms.lasthandoff: 02/10/2021
+ms.locfileid: "5145977"
 ---
 # <a name="use-the-project-service-automation-add-in-to-plan-your-work-in-microsoft-project"></a>在 Microsoft Project 中使用 Project Service Automation 加载项规划工作
 
@@ -229,6 +231,3 @@ ms.locfileid: "7005290"
 
 ### <a name="see-also"></a>另请参阅  
  [项目经理指南](../psa/project-manager-guide.md)
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

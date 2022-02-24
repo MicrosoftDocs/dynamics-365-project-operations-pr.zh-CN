@@ -2,9 +2,11 @@
 title: 更新插件属性以包括新定价维度
 description: 此主题介绍如何更新定价维度的插件属性。
 author: Rumant
+manager: kfend
 ms.custom: ''
 ms.date: 11/19/2018
 ms.topic: article
+ms.service: project-operations
 ms.author: rumant
 audience: Admin
 search.audienceType:
@@ -14,12 +16,12 @@ search.audienceType:
 search.app:
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: d04561fb6bcbc64f6ad3ea922bff1912824be64c6bb2b18cddd95e9b1b5c7850
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 603b0e9a10dc2fe23c9fa0fa7065bc3f500dc540
+ms.sourcegitcommit: 418fa1fe9d605b8faccc2d5dee1b04b4e753f194
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6988775"
+ms.lasthandoff: 02/10/2021
+ms.locfileid: "5147057"
 ---
 # <a name="update-plug-in-attributes-to-include-new-pricing-dimensions"></a>更新插件属性以包括新定价维度
 
@@ -42,30 +44,27 @@ ms.locfileid: "6988775"
 1. 打开 **PluginRegistrationTool**，然后连接到您的在线实例。
 2. 单击 **搜索**，然后搜索要更新的插件。
 
- ![搜索树的屏幕截图。](media/PRT-1.png)
+ ![搜索树的屏幕截图](media/PRT-1.png)
 
 3. 找到插件后，将其选中，然后单击 **在主窗体中选择**。
 
 4. 选择要更新的插件的步骤，然后选择 **更新**。
 
- ![要更新的插件的屏幕截图。](media/PRT-2.png)
+ ![要更新的插件的屏幕截图](media/PRT-2.png)
  
 5. 在更新窗口中，单击筛选属性中的省略号 (**...**)。
 
- ![更新现有步骤配置信息的屏幕截图。](media/PRT-3.png)
+ ![更新现有步骤配置信息的屏幕截图](media/PRT-3.png)
  
 6. 选中定价属性复选框。
 
- ![显示定价属性的复选框选择情况的屏幕截图。](media/PRT-4.png)
+ ![显示定价属性的复选框选择情况的屏幕截图](media/PRT-4.png)
 
 7. 单击 **确定** 关闭页面，然后选择 **更新步骤**。
 
- ![显示“更新步骤”按钮的屏幕截图。](media/PRT-5.png)
+ ![显示“更新步骤”按钮的屏幕截图](media/PRT-5.png)
  
 8. 对第二个插件 (**PreOperationQuoteLineDetail - Update of msdyn_quotelinetransaction**) 重复此流程。
 
 9. 关闭插件注册工具。
 
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

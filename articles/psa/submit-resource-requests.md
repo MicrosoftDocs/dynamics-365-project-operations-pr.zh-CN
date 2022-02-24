@@ -2,6 +2,8 @@
 title: 提交资源请求
 description: 如何在 Project Service 中提交资源请求
 author: JohnPBurrows
+manager: kfend
+ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 8/03/2018
@@ -16,12 +18,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: dae9bcddb87324e6614e8663fbfc693c8e994cd3f33839680531cd17269d764b
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 5b8b136e8d1b8c7acbb8616789ad274c89438e7d
+ms.sourcegitcommit: 418fa1fe9d605b8faccc2d5dee1b04b4e753f194
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "7000115"
+ms.lasthandoff: 02/10/2021
+ms.locfileid: "5150207"
 ---
 # <a name="submit-resource-requests-project-service"></a>提交资源请求 (Project Service)
 
@@ -53,6 +55,3 @@ ms.locfileid: "7000115"
   
 ### <a name="see-also"></a>另请参阅  
  [项目经理指南](../psa/project-manager-guide.md)
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

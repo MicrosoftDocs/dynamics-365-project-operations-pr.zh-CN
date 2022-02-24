@@ -2,16 +2,18 @@
 title: 定义资源日历
 description: 此主题提供有关如何为 Project Operations 中的资源定义工作时间日历的信息。
 author: ruhercul
+manager: Annbe
 ms.date: 10/05/2020
 ms.topic: article
+ms.service: project-operations
 ms.reviewer: kfend
 ms.author: ruhercul
-ms.openlocfilehash: ff10da57fd0767b00282537b241d5d16d95feca8741a620a277306bd8aa53ce5
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: daa49cf8ba9ba005a16777f590c4c06d024de529
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6990305"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4123907"
 ---
 # <a name="define-resource-calendars"></a>定义资源日历
 
@@ -41,6 +43,3 @@ _**适用于：** 基于资源/非库存场景的 Project Operations，精简部
 2. 在网格视图中，最多选择 25 个要更新的 **可预订资源**。
 3. 选择 **设置日历**，一个对话框将显示可用工作小时模板的列表，向您发出提示。
 4. 选择您要使用的模板，然后选择 **应用**。
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]
