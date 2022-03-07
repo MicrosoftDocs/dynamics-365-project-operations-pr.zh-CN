@@ -2,8 +2,6 @@
 title: 协调预订和分派
 description: 本主题提供有关实际值的信息。
 author: ruhercul
-manager: kfend
-ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 11/27/2019
@@ -18,12 +16,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 9528bd983e6e18197138f0720abccdc6d6fa1ed5
-ms.sourcegitcommit: 418fa1fe9d605b8faccc2d5dee1b04b4e753f194
+ms.openlocfilehash: 264271a5be63cb2e51f175595a48bef5fbff0a42a37795c85dd5b4725deec35e
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/10/2021
-ms.locfileid: "5147912"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6995120"
 ---
 # <a name="reconcile-bookings-and-assignments"></a>协调预订和分派
 
@@ -53,11 +51,11 @@ ms.locfileid: "5147912"
 
 查看更高级别时，**协调** 选项卡显示一个单元格指示器，用于通知您较低时间级别存在差额。 例如，在下图中，名称为龚莲的资源的 2018 年 10 月的单元格中显示了一个单元格指示器。 因此您可以看到，即使该资源的预订和分派在 **月** 级别聚合时相等，在更低级别则不匹配。
 
-![每月级别的预订和分配不匹配](media/reconcile-assignments-01.JPG)
+![每月级别的预订和分配不匹配。](media/reconcile-assignments-01.JPG)
 
 双击单元格放大到下一个更低级别并查看差额。 例如，如果双击龚莲的 2018 年 10 月差额，将向下钻取到 **周** 级别。 然后可以看到 10 月前两周该资源的预订为 16 个工时，但是没有任何分派，10 月第三周有 16 个工时的分派，但是没有任何预订。
 
-![每周级别的预订和分配不匹配](media/reconcile-assignments-02.JPG)
+![每周级别的预订和分配不匹配。](media/reconcile-assignments-02.JPG)
 
 可以右键单击单元格缩小到下一个更高级别。 也可以通过选择 **设置** 按钮关闭单元格指示器。 
 
@@ -70,13 +68,13 @@ ms.locfileid: "5147912"
 
 - 用户必须配置其设备时区，以与您的“系统个性化设置”中定义的时区匹配。
  
-  ![Windows 10 中的时区设置](media/reconcile-assignments-03.png)
+  ![Windows 10 中的时区设置。](media/reconcile-assignments-03.png)
 
-  ![个性化设置中的时区设置](media/reconcile-assignments-04.png)
+  ![个性化设置中的时区设置。](media/reconcile-assignments-04.png)
  
 - 可预订资源必须至少有一分钟的工作时间与用于定义所请求扩展的分布重叠。 例如，以下示例显示了工作时间介于上午 9:00 和下午 7:00 之间的审阅资源。 
 
-  ![资源分布比较](media/reconcile-assignments-05.png)
+  ![资源分布比较。](media/reconcile-assignments-05.png)
 
 下表显示了：
 
@@ -85,19 +83,22 @@ ms.locfileid: "5147912"
 - 资源 B：此资源与项目位于不同的时区中，因此开始时间为其时区中的上午 7:00。 但是，预订将在上午 9:00 开始，因为这是工作分布的最早开始时间。
 - 资源 C 和 D：资源也位于不同的时区中，两个相互不同并且与项目也不同，且其预订开始时间不早于各自的可用开始时间。
 
-|实体  |日历  |
+|Entity  |日历  |
 |-|-|
-|项目日历模板   | ![项目日历](media/reconcile-assignments-06.png) |
-|资源 A  | ![资源 A 日历](media/reconcile-assignments-06.png) |
-|资源 B  |  ![资源 B 日历](media/reconcile-assignments-07.png) |
-|资源 C  |  ![资源 C 日历](media/reconcile-assignments-08.png) |
-|资源 D  | ![资源 D 日历](media/reconcile-assignments-09.png)  |
+|项目日历模板   | ![项目日历。](media/reconcile-assignments-06.png) |
+|资源 A  | ![资源 A 日历。](media/reconcile-assignments-06.png) |
+|资源 B  |  ![资源 B 日历。](media/reconcile-assignments-07.png) |
+|资源 C  |  ![资源 C 日历。](media/reconcile-assignments-08.png) |
+|资源 D  | ![资源 D 日历。](media/reconcile-assignments-09.png)  |
  
 当您导航到协调视图时，将显示资源分配和关联的预订不足。
- ![扩展前的协调视图](media/reconcile-assignments-10.png)
+ ![扩展前的协调视图。](media/reconcile-assignments-10.png)
 
 对每个资源执行完扩展预订功能之后，每个资源的预订都将被成功扩展。 这是因为每个资源的工作时间都与不足的分布重叠。
- ![预订扩展后的协调视图](media/reconcile-assignments-11.png) 
+ ![预订扩展后的协调视图。](media/reconcile-assignments-11.png) 
 
 但是，仔细查看预订的详细信息会发现预订开始时间有所不同。 预订的开始时间将不早于工作分布的开始时间，也不会早于资源的可用开始时间。
- ![日程安排板中的新资源预订](media/reconcile-assignments-12.png)
+ ![日程安排板中的新资源预订。](media/reconcile-assignments-12.png)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

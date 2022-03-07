@@ -2,18 +2,16 @@
 title: 配置基于项目的报价单明细的应计费组件
 description: 本主题提供了有关基于项目的报价单明细上所含、应计费和非应计费组件的信息。
 author: rumant
-manager: Annbe
 ms.date: 11/18/2020
 ms.topic: article
-ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: 36765ab3687a8aaf3ae4a631516a1d61c14e981e
-ms.sourcegitcommit: 573be7e36604ace82b35e439cfa748aa7c587415
+ms.openlocfilehash: 251d0013b445d2f7d17fbe1908f0db2e05cfc2670ac667deb363c98f608a2aef
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/25/2020
-ms.locfileid: "4642532"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "7003985"
 ---
 # <a name="configure-the-chargeable-components-of-a-project-based-quote-line"></a>配置基于项目的报价单明细的应计费组件
 
@@ -53,3 +51,6 @@ _**适用于：** 面向资源/非库存场景的 Project Operations_
 | No | 是 | 无法设置 | 非应计费 | 时间实际值的计费：不可用 </br>支出实际值的计费：非应计费 |
 | 是 | No | 应计费 | 无法设置 | 时间实际值的计费：应计费 </br>支出实际值的计费：不可用 |
 | 是 | No | 非应计费 | 无法设置 | 时间实际值的计费：非应计费 </br> 支出实际值的计费：不可用 |
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

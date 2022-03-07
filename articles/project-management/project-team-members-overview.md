@@ -2,18 +2,16 @@
 title: 项目团队成员
 description: 此主题提供有关如何使用项目团队成员信息、属性和计划的信息。
 author: ruhercul
-manager: Annbe
 ms.date: 10/01/2020
 ms.topic: article
-ms.service: project-operations
 ms.reviewer: kfend
 ms.author: ruhercul
-ms.openlocfilehash: 3985febf62a520619e05bbb9a307195009e4b100
-ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
+ms.openlocfilehash: 273736219aff9c2ed4ffa8cf616d6ea656bd7294
+ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/28/2020
-ms.locfileid: "4127417"
+ms.lasthandoff: 05/10/2021
+ms.locfileid: "6010910"
 ---
 # <a name="project-team-members"></a>项目团队成员
 
@@ -60,3 +58,6 @@ _**适用于：** 基于资源/非库存场景的 Project Operations，精简部
 
 - **新建**：除了可以直接从计划添加资源之外，项目经理还可以从团队成员网格添加新的指定或通用团队成员。
 - **删除**：通过选择一个或多个团队成员，项目经理可以删除不再参与项目的资源。 删除团队成员还会删除所有关联的资源分配并取消所有现有预订。
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

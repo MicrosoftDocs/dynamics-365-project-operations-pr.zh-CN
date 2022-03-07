@@ -2,18 +2,16 @@
 title: 时间条目 UI 行为
 description: 此主题提供有关时间条目 UI 的行为的信息。
 author: stsporen
-manager: AnnBe
 ms.date: 03/03/2021
 ms.topic: article
-ms.service: project-operations
 ms.reviewer: kfend
 ms.author: stsporen
-ms.openlocfilehash: b552266eddc4efc1b41fc500d157239388ad219b
-ms.sourcegitcommit: f78087174a8512199a1bcbd7e8610bbc80e64801
+ms.openlocfilehash: ef99f220e9ff207a7620a900aa0630e2803f4f7261eccfbf73ed79717648bf92
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/04/2021
-ms.locfileid: "5499603"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6999440"
 ---
 # <a name="time-entry-ui-behavior"></a>时间条目 UI 行为
 
@@ -27,7 +25,7 @@ _**适用于：** 基于资源/非库存场景的 Project Operations，精简部
 |------------   |------------------------   |
 | 新建​​           | Alt + Shift + n           |
 | 复制行      | Alt + Shift + c           |
-| 编辑条目    | Alt + Shift + e           |
+| 编辑实体    | Alt + Shift + e           |
 | 编辑行      | Alt + Shift + Ctrl + e    |
 | 打开条目    | Alt + Shift + o           |
 | 提交​​        | Alt + Shift + s           |

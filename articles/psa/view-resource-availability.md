@@ -2,8 +2,6 @@
 title: 查看资源可用性
 description: 如何在 Project Service 中查看资源可用性
 author: JohnPBurrows
-manager: kfend
-ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 8/03/2018
@@ -18,12 +16,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: af05506481d96193c01c063c00e044242f786f5e
-ms.sourcegitcommit: 418fa1fe9d605b8faccc2d5dee1b04b4e753f194
+ms.openlocfilehash: 9c61523bbda814d14e4cb4999a710f652eb77cc77848d9b0246bd6ebde258dd7
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/10/2021
-ms.locfileid: "5143862"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "7000025"
 ---
 # <a name="view-resource-availability-project-service"></a>查看资源可用性 (Project Service)
 
@@ -48,3 +46,6 @@ ms.locfileid: "5143862"
 
 ### <a name="see-also"></a>另请参阅  
  [资源经理指南](../psa/resource-manager-guide.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -2,11 +2,9 @@
 title: 项目资源计划性能
 description: 此主题介绍如何提高大量项目的资源计划性能。
 author: Yowelle
-manager: AnnBe
 ms.date: 08/31/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 audience: Application User
 ms.reviewer: kfend
@@ -18,12 +16,12 @@ ms.search.industry: Service industries
 ms.author: andchoi
 ms.dyn365.ops.version: 10.0.14
 ms.search.validFrom: 2020-09-01
-ms.openlocfilehash: c3f219ce0635545976a6a4639233f166e18468af
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: 9dc638a7b2d8e0db45b5acfa5cc9512f356f8b2635028748a1e2c3230605c154
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4072587"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "7007270"
 ---
 # <a name="project-resource-scheduling-performance"></a>项目资源计划性能
 
@@ -69,3 +67,6 @@ ms.locfileid: "4072587"
 
 > [!NOTE]
 > 这将在您的环境中所有公司内把常规数据分发给 **ResRollup** 表，以便只需在一个法人中运行批处理作业。 所有 **资源可用性** 视图都需要此批处理作业。 如果未运行此批处理作业，将即时生成 **ResRollup** 数据，这可能需要一些时间。
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

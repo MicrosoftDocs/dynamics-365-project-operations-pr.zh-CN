@@ -1,12 +1,10 @@
 ---
 title: 计价单位和计价单位组
-description: 此主题提供有关如何在 Dynamics 365 Project Operations 中创建计价单位和计价单位组的信息。
+description: 本主题提供了有关如何在 Dynamics 365 Project Operations 中创建计价单位和计价单位组的信息。
 author: rumant
-manager: AnnBe
 ms.date: 09/18/2020
 ms.topic: article
 ms.prod: ''
-ms.service: project-operations
 audience: Application User
 ms.reviewer: kfend
 ms.search.scope: ''
@@ -17,12 +15,12 @@ ms.search.industry: Service industries
 ms.author: suvaidya
 ms.dyn365.ops.version: ''
 ms.search.validFrom: 2020-10-01
-ms.openlocfilehash: 3f588e41d001befeac87bb6a4e28a83cf5cfa865
-ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
+ms.openlocfilehash: 6a0aec1cc32ebdea9d2dbc7cc891f82da07e044f5c5655e008068f72dd198587
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/28/2020
-ms.locfileid: "4131017"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6999530"
 ---
 # <a name="units-and-unit-groups"></a>计价单位和计价单位组
 
@@ -46,3 +44,6 @@ _**适用于：** 基于资源/非库存场景的 Project Operations，精简部
 3. 在 **数量** 字段中，输入计价单位将所含的数量。 例如，如果一盒包含两件，则输入“2”。 
 4. 在 **基础单位** 字段中，选择一个基础单位来建立计价单位的最小度量单位。 例如，您可以选择“件”。
 5. 选择 **保存**：
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

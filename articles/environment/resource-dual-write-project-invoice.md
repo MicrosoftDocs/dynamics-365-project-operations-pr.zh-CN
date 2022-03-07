@@ -7,12 +7,12 @@ ms.topic: article
 ms.prod: ''
 ms.reviewer: kfend
 ms.author: sigitac
-ms.openlocfilehash: 37549080d76e3bffd7cb002aee8e3c46b9eeb18e3cec915cd971881b69747534
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 7407c98aad79806dcbaf25e81ff3e08397b41ffe
+ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6993230"
+ms.lasthandoff: 05/10/2021
+ms.locfileid: "5996555"
 ---
 # <a name="project-invoice-integration"></a>项目发票集成
 
@@ -20,7 +20,7 @@ ms.locfileid: "6993230"
 
 在 Project Operations 中，项目经理管理项目记帐积压，并在 Microsoft Dataverse 中为客户创建估价发票。 根据此估价发票，应收帐款职员或项目会计创建面向客户的发票。 双重写入集成可确保估价发票详细信息同步到 Finance and Operations 应用。 过帐面向客户的发票后，系统会使用会计详细信息更新 Dataverse 中的相关项目实际值。 下图提供了此集成的高级概念概述图。
 
-   ![项目发票集成。](./media/DW5Invoicing.png)
+   ![项目发票集成](./media/DW5Invoicing.png)
 
 项目经理在 Dataverse 中确认估价发票后，估价发票标头信息将使用双重写入表映射 **项目发票方案 V2 (发票)** 同步到 Finance and Operations 应用。 这是从 Dataverse 到 Finance and Operations 应用的单向集成。 不支持直接在 Finance and Operations 应用中创建或删除项目发票方案。
 

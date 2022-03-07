@@ -16,16 +16,14 @@ search.audienceType:
 search.app:
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 31986efed81892cc5722cb8f5e292cde14d8843d
-ms.sourcegitcommit: 418fa1fe9d605b8faccc2d5dee1b04b4e753f194
+ms.openlocfilehash: 57d4b9aad433af6d3e73369c76f2793f349c6965
+ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/10/2021
-ms.locfileid: "5144582"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "4072798"
 ---
 # <a name="add-new-custom-entity-forms-project-service-automation-2x"></a>添加新的自定义实体窗体 (Project Service Automation 2.x)
-
-[!include [banner](../../includes/psa-now-project-operations.md)]
 
 ## <a name="type-field"></a>“类型”字段 
 

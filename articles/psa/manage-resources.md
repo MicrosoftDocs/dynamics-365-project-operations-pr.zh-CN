@@ -2,8 +2,6 @@
 title: 管理资源
 description: 此主题介绍如何管理资源。
 author: ruhercul
-manager: kfend
-ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 05/13/2019
@@ -18,12 +16,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 37377367751592fc533447748b80b124cb6548ad
-ms.sourcegitcommit: 418fa1fe9d605b8faccc2d5dee1b04b4e753f194
+ms.openlocfilehash: 548ee7db1c8ca14f1b88d76a534d2922549eba138659e67a84cd89e6f7ee2170
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/10/2021
-ms.locfileid: "5151332"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6998495"
 ---
 # <a name="manage-resources"></a>管理资源
 
@@ -60,34 +58,34 @@ Dynamics 365 Project Service Automation 有一个资源管理器仪表板，其�
 
 1. 在 **项目** 页的 **团队** 选项卡上，选择 **新建** 以预订一个通用资源。
 
-    ![团队中预订的通用资源](media/Resource-Management-image9.png)
+    ![团队中预订的通用资源。](media/Resource-Management-image9.png)
 
 2. 在 **所有团队成员** 视图的 **资源要求** 列中，选择用于添加通用资源所需技能的链接。
 
-    ![“要求”链接](media/Resource-Management-image10.png)
+    ![“要求”链接。](media/Resource-Management-image10.png)
 
 3. 在显示的 **资源要求** 页的 **技能** 网格中，选择省略号 (**...**)，然后选择 **添加新要求特征** 以添加您的开发人员所需技能。
 
-    ![“添加新要求特征”命令](media/Resource-Management-image11.png)
+    ![“添加新要求特征”命令。](media/Resource-Management-image11.png)
 
 4. 在显示的 **快速创建: 要求特征** 对话框的 **特征** 字段中，选择所需技能。 然后在 **等级值** 字段中，选择该技能的熟练级别。 最后，在 **资源要求** 字段中，设置对部门来源资源或指定资源的要求。 在您完成时，选择 **保存**。
 
-    ![“快速创建: 要求特征”对话框](media/Resource-Management-image12.png)
+    ![“快速创建: 要求特征”对话框。](media/Resource-Management-image12.png)
 
 5. 在 **资源要求** 页中，选择 **预订** 以满足资源要求。
 
-    ![“资源要求”页上的“预订”按钮](media/Resource-Management-image13.png)
+    ![“资源要求”页上的“预订”按钮。](media/Resource-Management-image13.png)
 
     也可以在 **所有团队成员** 网格中选择通用资源，然后选择 **预订**。
 
-    ![“所有团队成员”网格上方的“预订”按钮](media/Resource-Management-image14.png)
+    ![“所有团队成员”网格上方的“预订”按钮。](media/Resource-Management-image14.png)
 
     > [!NOTE]
     > 在此示例中，需要 40 个工时，但是没有实际预订工时，因为通用资源不能有预订。 此外，也没有分派工时，因为通用资源是直接添加到团队的。 不是通过使用任务分派添加的。
 
     在 **日程安排助理** 页中，可按为资源要求指定的要求筛选可用资源。 将根据日程安排板中指定的排序参数为资源排序。
 
-    ![“日程安排助理”页](media/Resource-Management-image15.png)
+    ![“日程安排助理”页。](media/Resource-Management-image15.png)
 
     下面是一些常用筛选器：
 
@@ -97,23 +95,23 @@ Dynamics 365 Project Service Automation 有一个资源管理器仪表板，其�
 
 6. 如果对要求的原始搜索结果不满意，可以更改筛选条件。 展开左侧 **筛选器视图** 窗格，然后选择 **搜索** 以查找更多资源。
 
-    ![“筛选器视图”窗格](media/Resource-Management-image16.png)
+    ![“筛选器视图”窗格。](media/Resource-Management-image16.png)
 
 7. 若要更改结果的排序方法，请选择 **排序**。
 
-    ![“排序”命令](media/Resource-Management-image17.png)
+    ![“排序”命令。](media/Resource-Management-image17.png)
 
 8. 按照网格顶部的指示，根据为要求指定的需求选择资源。 可以取消选择网格中选择的单元格，以释放资源产能。 一次只能选择预订一项资源。
 
 9. 选择 **预订** 以预订所选资源，并且不关闭日程安排板，以便选择更多资源。 也可以选择 **预订并退出** 以预订所选资源并关闭日程安排板。
 
-    ![要预订的资源](media/Resource-Management-image19.png)
+    ![要预订的资源。](media/Resource-Management-image19.png)
 
     您将收到有关所预订工时的通知。 需求指示器显示满足了多少预订要求，还有多少未满足。 还可以查看占用了所选资源的多少产能。 选择 **展开** 查看有关资源预订的更多详细信息。
 
 9. 回到 **所有团队成员** 视图。 请注意，此网格中的通用资源已替换为指定资源，并且列出了向该资源预订的 40 个工时。
 
-    ![更新后的“所有团队成员”网格](media/Resource-Management-image20.png)
+    ![更新后的“所有团队成员”网格。](media/Resource-Management-image20.png)
 
     > [!NOTE]
     > 不显示分派的工时数，因为它们是直接为团队预订的。 不是使用任务分派预订的。
@@ -124,72 +122,72 @@ Dynamics 365 Project Service Automation 有一个资源管理器仪表板，其�
 
 1. 在 **项目** 页的 **计划** 选项卡上，选择 **添加** 以创建任务。
 
-    ![已创建新任务](media/Resource-Management-image21.png)
+    ![已创建新任务。](media/Resource-Management-image21.png)
 
 2. 在 **资源** 字段中，选择 **资源选取器** 符号。 将显示资源选取器，其中显示项目的现有团队成员。
 
-    ![资源选取器](media/Resource-Management-image22.png)
+    ![资源选取器。](media/Resource-Management-image22.png)
 
 3. 输入新通用资源的名称，然后选择 **创建**。
 
-    ![输入了新通用资源名称](media/Resource-Management-image23.png)
+    ![输入了新通用资源名称。](media/Resource-Management-image23.png)
 
 4. 在显示的 **快速创建: 项目团队成员** 对话框的 **角色** 字段中，选择通用资源的角色。 在 **资源部门** 字段中，选择通用资源的部门。 然后选择 **保存**。
 
-    ![“快速创建: 项目团队成员”对话框](media/Resource-Management-image24.png)
+    ![“快速创建: 项目团队成员”对话框。](media/Resource-Management-image24.png)
 
     现在已为任务分派了通用团队成员。
 
-    ![为任务分派了通用团队成员](media/Resource-Management-image25.png)
+    ![为任务分派了通用团队成员。](media/Resource-Management-image25.png)
 
     在 **团队** 选项卡上，您将看到新的团队成员。 请注意，其只有分派的工时数。 这些工时数是分派给通用团队成员的所有任务的工时数之和。 通用团队成员还没有所需工时数或资源要求。
 
-    ![“团队”选项卡上的通用团队成员](media/Resource-Management-image26.png)
+    ![“团队”选项卡上的通用团队成员。](media/Resource-Management-image26.png)
 
 5. 现在可以使用资源选取器将通用团队成员分派给其他任务。
 
-    ![资源选取器中的通用团队成员](media/Resource-Management-image27.png)
+    ![资源选取器中的通用团队成员。](media/Resource-Management-image27.png)
 
     将通用资源分派给任务后，可以为通用资源生成资源要求。
 
 5. 在 **团队** 选项卡上，选择通用资源，然后选择 **生成要求**。
 
-    ![“生成要求”命令](media/Resource-Management-image28.png)
+    ![“生成要求”命令。](media/Resource-Management-image28.png)
 
     生成要求后，通用团队成员将有所需工时数，以及资源要求的链接。
 
-    ![“资源要求”链接](media/Resource-Management-image29.png)
+    ![“资源要求”链接。](media/Resource-Management-image29.png)
 
     预订指定资源之后，将从团队中删除通用资源，并替换为该指定资源。
 
-    ![通用资源被替换为指定资源](media/Resource-Management-image30.png)
+    ![通用资源被替换为指定资源。](media/Resource-Management-image30.png)
 
     在 **计划** 选项卡上，将删除通用资源分派并替换为指定资源。
 
-    ![“计划”选项卡上的通用资源分派被替换为指定资源](media/Resource-Management-image31.png)
+    ![“计划”选项卡上的通用资源分派被替换为指定资源。](media/Resource-Management-image31.png)
 
     > [!NOTE]
     > 仅当为通用资源要求预订满了某项指定资源时，才发生此行为。 当一项指定资源部分取代通用资源要求或多项指定资源取代通用资源要求时，通用资源仍然分派给任务。
 
     下图中，为一个 80 个工时的任务规划了五天的持续时间（五天内每天 16 小时），并将该任务分派给了名称为 **职能** 的通用资源。
 
-    ![为“职能”通用资源分派了为期五天的八十个工时任务](media/Resource-Management-image32.png)
+    ![为“职能”通用资源分派了为期五天的八十个工时任务。](media/Resource-Management-image32.png)
 
     生成要求时，要求为五天内 80 个工时。
 
-    ![为五天内 80 个工时生成的要求](media/Resource-Management-image33.png)
+    ![为五天内 80 个工时生成的要求。](media/Resource-Management-image33.png)
 
     因为可用资源每天仅工作八小时，所以需要两项资源才能满足要求。
 
-    ![第二个资源](media/Resource-Management-image35.png)
+    ![第二个资源。](media/Resource-Management-image35.png)
 
     在 **团队** 选项卡上，现在可以看到通用资源没有所需工时数，但是仍然显示分派的工时数和构成用于满足要求的两项指定资源。
 
-    ![“团队”选项卡上的两项指定资源](media/Resource-Management-image36.png)
+    ![“团队”选项卡上的两项指定资源。](media/Resource-Management-image36.png)
 
     在 **计划** 选项卡上，通用资源仍然分派给任务。
 
-    ![“计划”选项卡上的通用资源](media/Resource-Management-image37.png)
+    ![“计划”选项卡上的通用资源。](media/Resource-Management-image37.png)
 
 PSA 不能同时为任务分派两项资源，因为此行为将产生不太容易预测的计划。 在这个简单的示例中，可以将工时数轻松地平分给两项资源。 但是，在涉及多个任务和多项资源的更复杂方案中，PSA 必须假设应该如何将多项资源收到的预订分配给多项任务。
 
@@ -221,13 +219,13 @@ PSA 不能同时为任务分派两项资源，因为此行为将产生不太容�
 
 1. 在 **项目** 页的 **团队** 选项卡上，选择一个团队成员，然后选择 **维护预订**。
 
-    ![为所选团队成员打开了日程安排板](media/Resource-Management-image40.png)
+    ![为所选团队成员打开了日程安排板。](media/Resource-Management-image40.png)
 
     将显示日程安排板，其中显示项目团队成员的预订。 展开该团队成员的记录以查看已经为此项目和占用该团队成员产能的其他项目预订的工时数。
 
 2. 选择预订并拖动以延长或缩短该预订。 将显示 **创建资源预订** 对话框，供您调整预订。
 
-    ![“创建资源预订”对话框](media/Resource-Management-image41.png)
+    ![“创建资源预订”对话框。](media/Resource-Management-image41.png)
 
 3. 右键单击预订。 然后可以使用快捷方式菜单完成以下操作：
 
@@ -239,7 +237,7 @@ PSA 不能同时为任务分派两项资源，因为此行为将产生不太容�
 
 可以更改任何默认或自定义预订状态。
 
-![“更改状态”命令](media/Resource-Management-image42.png)
+![“更改状态”命令。](media/Resource-Management-image42.png)
 
 PSA 中有以下状态：
 
@@ -259,25 +257,25 @@ PSA 中有以下状态：
 
 生成资源要求时，项目经理可提交对通用资源的资源请求，方法是选择资源，然后选择 **提交请求**。
 
-![“提交请求”按钮](media/Resource-Management-image45.png)
+![“提交请求”按钮。](media/Resource-Management-image45.png)
 
 可以向要满足请求的资源经理提供有关资源的注释。 提交请求之后，团队成员的 **状态** 字段将变为 **已提交**。
 
-![输入可选注释](media/Resource-Management-image46.png)
+![输入可选注释。](media/Resource-Management-image46.png)
 
 当资源经理满足请求时，**所有团队成员** 网格中将把通用团队成员替换为指定资源。
 
-![“所有团队成员”网格中通用团队成员已替换为指定资源](media/Resource-Management-image47.png)
+![“所有团队成员”网格中通用团队成员已替换为指定资源。](media/Resource-Management-image47.png)
 
 #### <a name="use-a-resource-proposal-for-resource-requests"></a>对资源请求使用资源建议
 
 资源经理可以直接向项目经理建议资源，而不是直接为资源请求预订资源。 如果没有要求的精确匹配项，资源经理可以使用此选项。 当资源经理建议资源时，项目经理将发现通用团队成员的 **状态** 字段已更改为 **需要审阅**。
 
-![通用团队成员的状态已更改为“需要审阅”](media/Resource-Management-image48.png)
+![通用团队成员的状态已更改为“需要审阅”。](media/Resource-Management-image48.png)
 
 若要查看建议的资源和资源的预订影响可视性表示，请双击状态为 **需要审阅** 的团队成员。 然后选择 **建议资源** 选项卡。
 
-![“建议资源”选项卡](media/Resource-Management-image49.png)
+![“建议资源”选项卡。](media/Resource-Management-image49.png)
 
 选择 **接受所有建议** 以接受所有建议资源，或选择 **拒绝所有建议** 以拒绝这些资源。 如果接受建议资源，将在把这些资源硬预订为项目的团队成员，并替换通用资源。
 
@@ -291,30 +289,30 @@ PSA 中有以下状态：
 1. 在 **项目** 页的 **团队** 选项卡上，选择需要替代的资源，然后选择 **维护预订**。
 2. 展开该资源以查看将其分派给的项目。
 
-    ![资源已展开并显示分配给的项目](media/Resource-Management-image50.png)
+    ![资源已展开并显示分配给的项目。](media/Resource-Management-image50.png)
 
 3. 右键单击该项目，然后选择 **替代资源**。
 4. 如果知道要用于替代当前资源的资源，请选择或键入名称，然后选择 **重新分派**。
 
-    ![指定替代资源](media/Resource-Management-image51.png)
+    ![指定替代资源。](media/Resource-Management-image51.png)
 
     也可以执行以下步骤搜索资源：
 
     1. 选择 **查找替代项**。
 
-        ![搜索替代资源](media/Resource-Management-image52.png)
+        ![搜索替代资源。](media/Resource-Management-image52.png)
 
         日程安排助理将返回可用替代项列表。 在日程安排助理中，可以进一步筛选可用资源以查找适合的替代项。
 
-        ![可用替代项列表](media/Resource-Management-image53.png)
+        ![可用替代项列表。](media/Resource-Management-image53.png)
 
     2. 若要替代资源，请选择所需资源，然后选择 **替代**。
 
-        ![已选择替代资源](media/Resource-Management-image54.png)
+        ![已选择替代资源。](media/Resource-Management-image54.png)
 
     将把预订和分派替代为新资源。
 
-    ![预订和分派已替代为新资源](media/Resource-Management-image55.png)
+    ![预订和分派已替代为新资源。](media/Resource-Management-image55.png)
 
 ## <a name="reconcile-team-member-bookings-and-assignments"></a>协调团队成员预订和分派
 
@@ -322,7 +320,7 @@ PSA 中有以下状态：
 
 PSA 中有一个 **协调** 选项卡，可供项目经理在项目团队中协调项目成员的预订及其分派。
 
-![“协调”选项卡](media/Resource-Management-image56.png)
+![“协调”选项卡。](media/Resource-Management-image56.png)
 
 **协调** 选项卡显示深入到每个成员的单个任务分派级别的预订和分派。 它通过单元格显示可表示时间段（从数月到数天）的工时。
 
@@ -337,10 +335,13 @@ PSA 中有一个 **协调** 选项卡，可供项目经理在项目团队中协�
 
 在更高级别查看时间时，**协调** 选项卡中的单元格有一个指示器，用于说明较低级别存在差额。 可通过在单元格中双击进行放大来查看差额。 然后可以右键单击进行缩小。通过选择资源，然后使用网格工具栏上的 **下一个差异** 控件，可以转到该资源的订阅与分派之间的下一个差额。 然后可以使用 **上一个差异** 控件后退。 也可以在 **设置** 下关闭差额指示器和导航行为。
 
-![差额指示器](media/Resource-Management-image57.png)
+![差额指示器。](media/Resource-Management-image57.png)
 
 如果某个资源有任务分派，但是无预订，请在 **项目** 页的 **协调** 选项卡上选择预订不足，然后选择 **扩展预订**。 将显示 **扩展预订** 对话框，其中显示需要来解决资源不足的预订。 还显示该资源在所有项目或其他可计划实体中的现有预订。 如果选择 **确定** 为资源创建预订，无论该资源是否可用，都可能导致超额预订。
 
-![“扩展预订”对话框](media/Resource-Management-image58.png)
+![“扩展预订”对话框。](media/Resource-Management-image58.png)
 
 然后，项目经理或资源经理可使用日程安排板管理资源超额预订超过其产能的任何情况。
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

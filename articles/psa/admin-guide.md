@@ -2,6 +2,8 @@
 title: 管理员指南
 description: Project Service 管理的分步说明
 author: JohnPBurrows
+manager: kfend
+ms.service: dynamics-365-customerservice
 ms.custom:
 - dyn365-projectservice
 ms.date: 7/31/2018
@@ -16,16 +18,14 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 8954964ee5503d338620221c24867d136dd8f217
-ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
+ms.openlocfilehash: 7462a57ad750f255cfb48dbbeda7f899f51ecfa7
+ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/10/2021
-ms.locfileid: "5992697"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "4072641"
 ---
 # <a name="administrator-guide-project-service"></a>管理员指南 (Project Service)
-
-[!include [banner](../includes/psa-now-project-operations.md)]
 
 [!INCLUDE[cc-applies-to-psa-app-1x-2x](../includes/cc-applies-to-psa-app-1x-2x.md)]
 
@@ -50,6 +50,3 @@ ms.locfileid: "5992697"
  [客户经理指南](../psa/account-manager-guide.md) [项目经理指南](../psa/project-manager-guide.md)   
  [资源经理指南](../psa/resource-manager-guide.md)   
  [时间、费用和协作指南](../psa/time-expense-collaboration-guide.md)
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

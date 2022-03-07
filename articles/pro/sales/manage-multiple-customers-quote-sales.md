@@ -2,18 +2,16 @@
 title: 管理项目报价单上的多个客户 - 精简
 description: 本主题提供处理具有多个将为项目提供资金的客户的报价单的信息。  (Sales)
 author: rumant
-manager: Annbe
 ms.date: 10/01/2020
 ms.topic: article
-ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: bdda1a940e733270399d092e543c3982c47174d0
-ms.sourcegitcommit: f6f86e80dfef15a7b5f9174b55dddf410522f7c8
+ms.openlocfilehash: c9b3c1a1b958de0fc5d58199b8229ea5b3b221d01efe6602eecffdd100f13cae
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/31/2020
-ms.locfileid: "4181577"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "7001645"
 ---
 # <a name="manage-multiple-customers-on-project-quotes---lite"></a>管理项目报价单上的多个客户 - 精简
 
@@ -52,3 +50,6 @@ _**适用于：** 精简部署 - 估价交易开票_
 您可以使用内嵌网格编辑体验来编辑计费拆分百分比。 如果计费拆分百分比总计不是 100%，将出现错误。 更新计费拆分百分比后，刷新页面以清除错误。
 
 您还可以尝试选择报价单客户的子网格上的 **平均分配**。 此操作会将计费拆分分配给所有报价单客户。 如果有任何舍入系数，将添加到舍入客户。 其中一个报价单客户始终标记为舍入客户。 这意味着报价单客户记录的 **舍入** 标志设置为 **是**。 这通常是报价单的主要客户，但可以更改。
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -2,11 +2,9 @@
 title: 在会计年度末转移项目预算
 description: 本文提供有关如何将剩余预算金额转移到未来年份以及创建预算登记详细信息的信息。
 author: Yowelle
-manager: AnnBe
 ms.date: 03/23/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 audience: Application User
 ms.reviewer: kfend
@@ -18,12 +16,12 @@ ms.search.industry: Service industries
 ms.author: andchoi
 ms.dyn365.ops.version: 7
 ms.search.validFrom: 2019-01-15
-ms.openlocfilehash: 26e013ab99e9a0aeafe25916715ce0ee024df3f7
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: be3dc039b92e88cac6f6b3b7f72bc32ecf587539
+ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4072737"
+ms.lasthandoff: 05/10/2021
+ms.locfileid: "6008030"
 ---
 # <a name="transfer-project-budgets-at-fiscal-year-end"></a>在会计年度末转移项目预算
 
@@ -98,3 +96,6 @@ ms.locfileid: "4072737"
 5. 对于每个您想处理的项目，选择该项目的行开头处的选项。 
 6. 选择 **处理** 将所选项目的剩余预算金额转移到所选会计年度。
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

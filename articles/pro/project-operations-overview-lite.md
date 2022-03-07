@@ -2,18 +2,17 @@
 title: 精简部署概述
 description: 此主题提供有关 Dynamics 365 Project Operations 的精简部署的信息。
 author: rumant
-manager: Annbe
 ms.date: 11/02/2020
 ms.topic: article
-ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: b66b3656d1ef5266ede1f62657dbe9b8a63c863a
-ms.sourcegitcommit: d33ef0ae39f90fe3b0f6b4524f483e8052057361
+ms.custom: intro-internal
+ms.openlocfilehash: 9bd20d0bccb51e3afc0ad2d4a5409723c6fdcd92
+ms.sourcegitcommit: 0fafe022731f0e1e8693382ff906e3f8541d34ca
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/03/2020
-ms.locfileid: "4365411"
+ms.lasthandoff: 07/07/2021
+ms.locfileid: "6369950"
 ---
 # <a name="lite-deployment-overview"></a>精简部署概述
 
@@ -37,3 +36,6 @@ Dynamics 365 Project Operations 的精简部署类型具有以下适用于基于
 - 一个集成系统，管理从项目销售到开票的用于计划和财务的内部收费项目。
 - 要与 Project Operations 成的第三方企业资源规划（ERP/财务会计系统）。
 - 用于处理销售税、汇率、支出偿还和非项目支出的第三方系统。
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

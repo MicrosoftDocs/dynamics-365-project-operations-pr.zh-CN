@@ -2,18 +2,17 @@
 title: 资源利用率概述
 description: 此主题介绍 Project Operations 中的资源利用率。
 author: ruhercul
-manager: Annbe
 ms.date: 11/05/2020
 ms.topic: article
-ms.service: project-operations
 ms.reviewer: kfend
 ms.author: ruhercul
-ms.openlocfilehash: 8b85464dbb68523b122116225a604f67e7236f3e
-ms.sourcegitcommit: 14aa380759214713d9bf560f5a7f619b7f4bd5b8
+ms.custom: intro-internal
+ms.openlocfilehash: 152f85669b56d128a7bb2317ee2cf0857c90ade1273d47ad1f0f387e00a6bbd8
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/05/2020
-ms.locfileid: "4401365"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "7002050"
 ---
 # <a name="resource-utilization-overview"></a>资源利用率概述
 
@@ -45,3 +44,6 @@ _**适用于：** 基于资源/非库存场景的 Project Operations，精简部
 在 **Project Service** 选项卡上，也可以为资源设置单个目标利用率。 然后，利用率的计算使用该目标利用率评估资源的目标，而不是资源默认角色的目标。
 
 仅当资源批准了网格中显示的期间内的应计费时间时才显示资源的利用率。
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

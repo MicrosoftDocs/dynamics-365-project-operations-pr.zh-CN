@@ -7,13 +7,12 @@ ms.topic: article
 ms.prod: ''
 ms.reviewer: kfend
 ms.author: sigitac
-ms.custom: intro-internal
-ms.openlocfilehash: b65c40e8aaa9524c1c634738dadd23f21e86e2ec095c47bc849467c8806addbc
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: ce4f7bf8185e6f3f942df14d30d7b8d0a3e4444a
+ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "7007900"
+ms.lasthandoff: 05/10/2021
+ms.locfileid: "5998670"
 ---
 # <a name="project-operations-dual-write-integration-overview"></a>Project Operations 双重写入集成概述
 
@@ -23,7 +22,7 @@ Project Operations 使用[双重写入功能](/dynamics365/fin-ops-core/dev-itpr
 
 下图显示了如何作为 Dataverse 和 Finance 之间集成的一部分同步数据。
 
-![Project Operations 数据流概述。](./media/ProjectOperationsFlows.jpg)
+![Project Operations 数据流概述](./media/ProjectOperationsFlows.jpg)
 
 Dataverse 上的 Project Operations 提供现代的用户界面 (UI)，并使用 Power Platform 功能提供简便的无代码/低代码可扩展性。 项目经理、资源经理、项目团队成员和其他行政人员在 Dataverse 上的 Project Operations 中执行活动。
 

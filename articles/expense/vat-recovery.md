@@ -2,18 +2,16 @@
 title: 支出管理中的增值税退回
 description: 本主题说明如何在符合条件的增值税 (VAT) 交易中接收退款。
 author: suvaidya
-manager: AnnBe
 ms.date: 10/10/2020
 ms.topic: article
-ms.service: dynamics-365-customerservice
 ms.reviewer: kfend
 ms.author: suvaidya
-ms.openlocfilehash: 2c20e4a7fa9748e03bf1729fc2f7bdbfc2f292d1
-ms.sourcegitcommit: 11a61db54119503e82faec5f99c4273e8d1247e5
+ms.openlocfilehash: 64e9f4091fdf40cc702e83a165fe0a5be5043359348210bbe4afcd8a18055133
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4072472"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6999350"
 ---
 # <a name="vat-recovery-in-expense-management"></a>支出管理中的增值税退回
 
@@ -35,25 +33,25 @@ _**适用于：** 面向资源/非库存场景的 Project Operations_
 4. 将增值税退回数据发送给第三方供应商，以提交国际退回申报表。
 5. 处理国内增值税退回的支出。
 
-以下各节提供了一些示例，显示了 Contoso 员工如何完成每个步骤。
+以下部分提供的示例介绍了 Contoso 员工如何完成每个步骤。
 
 ## <a name="enter-tax-information-about-credit-card-transactions-to-identify-eligible-vat-refunds"></a>输入有关信用卡交易的税务信息以识别符合条件的增值税退款
 
-位于美国的 Contoso 销售代表 Nancy 最近结束了一次前往英国的商务出差，返回美国。 出差期间，Nancy 在用餐时产生了一些个人信用卡支出。 现在，Nancy 必须创建一个支出报表来核对支出。
+Nancy 是一位常驻美国的 Contoso 销售代表，最近从英国销售之旅中回来。 出差期间，Nancy 在用餐时产生了一些个人信用卡支出。 现在，Nancy 必须创建一个支出报表来核对支出。
 
 当 Nancy 在支出报表中输入信息时，她在 **编辑支出报表** 页的 **国家/地区** 字段中选择 **英国**。 然后，系统对销售税组列表进行筛选，以仅显示适用于英国的组。 Nancy 选择 **英国 001** 销售税组，然后选择 **餐饮** 项目销售税组。 接下来，Nancy 为住宿添加新交易。 由于在英国只有一个销售税组和一个项目销售税组，因此此信息在 Nancy 的支出报表中自动填充。
 
-根据 Contoso 政策，所有支出必须有匹配的收据。 因此，当 Nancy 保存支出报表时，她收到一条消息，指出她必须为她在支出报表中列出的每笔交易附加收据。 Nancy 验证她是否已将每张交易收据的数字图像附加到支出报表中，然后提交报表以供审批。 然后，她将纸质收据发送给后端办公系统处理团队。 此团队将把增值税退回数据发送给第三方供应商，后者为 Contoso 提交国际增值税退回申报表。
+根据 Contoso 的政策，所有支出都必须具有匹配的收据。 因此，当 Nancy 保存支出报表时，她收到一条消息，指出她必须为她在支出报表中列出的每笔交易附加收据。 Nancy 验证她是否已将每张交易收据的数字图像附加到支出报表中，然后提交报表以供审批。 然后，她将纸质收据发送给后端办公系统处理团队。 该团队会将增值税退税数据发送给为 Contoso 提交国际增值税退税申报表的第三方供应商。
 
 ## <a name="verify-tax-information-and-post-an-expense-report"></a>验证税务信息并过帐支出报表
 
-在 Contoso 的应付帐款协调员 April 可以过帐支出报表前，她必须输入该报表中缺少的任何税务信息。 她打开 **支出报表详细信息** 页，看到 Nancy 被批准的支出报表。 然后，April 打开支出报表查看交易详细信息。 她发现 Nancy 没有为其中一项交易输入项目销售税组。 由于未提供此信息，April 无法过帐此支出报表。 因此，她在“支出管理”中的 **税务配置** 页上查找，找到了适当的国家/地区和交易类型的项目销售税组。 April 现在可以将支出报表过帐到总帐了。
+在 4 月之前，Contoso 的应付帐款协调员可以过帐费用报表，她必须输入其中缺少的任何税务信息。 她打开 **支出报表详细信息** 页，看到 Nancy 被批准的支出报表。 然后，April 打开支出报表查看交易详细信息。 她发现 Nancy 没有为其中一项交易输入项目销售税组。 由于未提供此信息，April 无法过帐此支出报表。 因此，她在“支出管理”中的 **税务配置** 页上查找，找到了适当的国家/地区和交易类型的项目销售税组。 April 现在可以将支出报表过帐到总帐了。
 
 在 April 过帐支出报表时，将创建一个可退回工作项。 此工作项被分配给后端办公系统处理团队的成员。 April 收到一条消息，确认过帐已成功完成。 此消息还列出了已确定要退回的增值税交易的数量。
 
 ## <a name="process-expenses-that-are-eligible-for-international-vat-recovery"></a>处理符合国际增值税退回条件的支出
 
-Contoso 的后端办公系统处理团队成员 Arnie 负责验证支出报表中是否包括了增值税退回所需的所有信息。 他打开 **支出退税** 页，选择 Nancy 提交的支出报表。 然后，Arnie 验证是否已附上所有必需的收据，以及是否输入了正确的销售税组和项目销售税码。
+Arnie 是 Contoso 后端办公系统处理团队的一位成员，负责验证增值税退回所需的所有信息是否已包含在费用报表中。 他打开 **支出退税** 页，选择 Nancy 提交的支出报表。 然后，Arnie 验证是否已附上所有必需的收据，以及是否输入了正确的销售税组和项目销售税码。
 
 当 Arnie 从 Nancy 那里收到纸质收据时，他对照数字收据进行验证，然后将支出报表的状态更改为 **准备退回**。
 
@@ -66,3 +64,6 @@ Contoso 的后端办公系统处理团队成员 Arnie 负责验证支出报表�
 Arnie 必须验证支出报表交易是否符合增值税退回的条件，以及数字收据是否已附加到报表中。 要开始处理符合国内退税条件的支出，Arnie 打开 **支出退税** 页，然后选择需要验证的支出报表。 他验证收据是以公司的名义而不是员工的名义开具的。 （增值税退回需要收据必须以公司的名义开具。）然后，Arnie 验证是否输入了正确的销售税组和项目销售税码。
 
 当 Arnie 收到纸质收据时，他将支出报表的状态更改为 **准备退回**。 然后，他可以向相应的税务机构提交申报表。 在此例中，相应的美国税务机构是国内税务署 (IRS)。
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

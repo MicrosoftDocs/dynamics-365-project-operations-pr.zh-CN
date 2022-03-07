@@ -2,8 +2,6 @@
 title: Project Service Automation V3 更新版本 22 中的新增功能或更改
 description: 本主题列出了 Project Service Automation V3 更新版本 22 中可用的功能和修复。
 author: ruhercul
-manager: kfend
-ms.service: project-operations
 ms.custom: dyn365-projectservice
 ms.date: 07/28/2020
 ms.topic: article
@@ -17,18 +15,18 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: db4cbb9f9daadcb1911325f8bee987d5e480e1cf
-ms.sourcegitcommit: 418fa1fe9d605b8faccc2d5dee1b04b4e753f194
+ms.openlocfilehash: 6a5109b1ffedfce99fc50c035bcbe5810abcf3b71f88679b47561d69daa9f3ab
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/10/2021
-ms.locfileid: "5150972"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "7004300"
 ---
 # <a name="project-service-automation-update-release-22-v3"></a>Project Service Automation V3 更新版本 22
 
 [!include [banner](../includes/psa-now-project-operations.md)]
 
-我们很高兴地宣布适用于 Dynamics 365 的 Project Service Automation 应用程序的最新更新已推出。 此版本包括对质量、性能和可用性的一些重要改进。 此版本与 Dynamics 365 9.x 兼容。 若要更新到此版本，请访问 Dynamics 365 Online 的管理中心解决方案页面以安装更新。 有关详细信息，请参阅[安装、更新或移除首选解决方案](https://docs.microsoft.com/power-platform/admin/install-remove-preferred-solution)。
+我们很高兴地宣布适用于 Dynamics 365 的 Project Service Automation 应用程序的最新更新已推出。 此版本包括对质量、性能和可用性的一些重要改进。 此版本与 Dynamics 365 9.x 兼容。 若要更新到此版本，请访问 Dynamics 365 Online 的管理中心解决方案页面以安装更新。 有关详细信息，请参阅[安装、更新或移除首选解决方案](/power-platform/admin/install-remove-preferred-solution)。
 
 本主题列出了 Project Service Automation V3 更新版本 22 中新增或更改的功能和修复。 该版本的内部版本号为 V 3.10.33.48，并且在 2020 年 6 月通过自行更新公开发布。
 
@@ -72,3 +70,6 @@ ms.locfileid: "5150972"
 - 如果附加到报价单的 BPF 处于最后阶段，则以“赢单”形式结束报价单时，不会导航到创建的合同。
 - 在撤回时间条目后，用于冲销的 **未记帐销售额** 会链接到原始成本。
 - 选择 **确认** 按钮后，除非刷新发票，否则发票状态不会更改为 **已确认**。
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

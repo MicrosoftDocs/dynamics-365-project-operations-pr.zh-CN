@@ -17,16 +17,14 @@ search.audienceType:
 search.app:
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 65516784c6787fa5f3c08297f4d161d52c2ea4a9
-ms.sourcegitcommit: 418fa1fe9d605b8faccc2d5dee1b04b4e753f194
+ms.openlocfilehash: 515a2e2e518614884b414ca43702e8bfea2c6919
+ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/10/2021
-ms.locfileid: "5151287"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "4072645"
 ---
 # <a name="pricing-and-costing-dimensions-home-page"></a>定价和定成本维度主页
-
-[!include [banner](../includes/psa-now-project-operations.md)]
 
 在基于项目的组织中，用于设置人工定价和成本核算的维度受以下属性影响：
 

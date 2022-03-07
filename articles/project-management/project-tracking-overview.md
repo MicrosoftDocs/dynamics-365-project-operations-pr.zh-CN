@@ -2,18 +2,17 @@
 title: 项目工作量跟踪
 description: 此主题提供关于如何跟踪项目工作和工作进度的信息。
 author: ruhercul
-manager: AnnBe
 ms.date: 03/22/2021
 ms.topic: article
-ms.service: project-operations
 ms.reviewer: kfend
 ms.author: ruhercul
-ms.openlocfilehash: ead8821c8861ded1e7afd5c192af414f758edef9
-ms.sourcegitcommit: a1f9f92546ab5d8d8e5a4710ce4c96414ea55d14
+ms.custom: intro-internal
+ms.openlocfilehash: 6fe381470326fc4000a9ed096b91fde56c045c38
+ms.sourcegitcommit: 0fafe022731f0e1e8693382ff906e3f8541d34ca
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/24/2021
-ms.locfileid: "5710929"
+ms.lasthandoff: 07/07/2021
+ms.locfileid: "6369185"
 ---
 # <a name="project-effort-tracking"></a>项目工作量跟踪
 

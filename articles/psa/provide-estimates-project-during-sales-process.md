@@ -2,8 +2,6 @@
 title: 在销售流程中提供项目的工作估计
 description: 如何在 Project Service 中的销售流程中提供项目的工作估计
 author: ruhercul
-manager: kfend
-ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 8/03/2018
@@ -18,12 +16,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: e9382127b2ce0b157d681fc77d67200ba9c5e59d
-ms.sourcegitcommit: 418fa1fe9d605b8faccc2d5dee1b04b4e753f194
+ms.openlocfilehash: acb1e5f598e3e057be78a70bc4f5c66c510053a08f4efb0a1595cf4853171662
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/10/2021
-ms.locfileid: "5147957"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "7002455"
 ---
 # <a name="provide-work-estimates-for-a-project-during-the-sales-process-project-service"></a>在销售流程中提供项目的工作估计 (Project Service)
 
@@ -54,3 +52,6 @@ ms.locfileid: "5147957"
   
 ### <a name="see-also"></a>另请参阅  
  [项目经理指南](../psa/project-manager-guide.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

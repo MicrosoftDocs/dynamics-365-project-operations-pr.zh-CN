@@ -2,6 +2,8 @@
 title: 查看资源的应计费利用率
 description: 此主题介绍资源利用率视图。
 author: ruhercul
+manager: kfend
+ms.service: dynamics-365-customerservice
 ms.custom:
 - dyn365-projectservice
 ms.date: 9/26/2019
@@ -16,16 +18,14 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: e1c123854209b3cb5c310e3bbcb242c9219279a8
-ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
+ms.openlocfilehash: 6daa6cfa1c6a237d8a1685123f7c1a6926418bfe
+ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/10/2021
-ms.locfileid: "5992823"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "4072626"
 ---
 # <a name="view-chargeable-utilization-for-resources"></a>查看资源的应计费利用率
-
-[!include [banner](../includes/psa-now-project-operations.md)]
  
 **Project Service 资源利用率** 页上的 **利用率视图** 显示每项可预订资源的应计费利用率。 因为此视图基于日程安排板，因此您将发现很多相同的功能。
 
@@ -99,6 +99,3 @@ ms.locfileid: "5992823"
   - 支持项目的项目合同子项中的角色是否已设置为非应收费。
   - 项目是否没有关联的合同子项。
 
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

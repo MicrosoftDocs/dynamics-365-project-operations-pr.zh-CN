@@ -2,18 +2,16 @@
 title: 根据基于项目的合同子项创建账单计划
 description: 此主题提供有关如何在合同子项上创建发票计划和里程碑的信息。
 author: rumant
-manager: Annbe
 ms.date: 10/17/2020
 ms.topic: article
-ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: b2fbec567c07d7567f1d133fa3512496039f16a1
-ms.sourcegitcommit: 869bde007805ef255f61b03937e4a44aeef61df9
+ms.openlocfilehash: 51a34e5a62fdadf7a6601f0a635efd484238f3565abcac8a1f7de3d49cebf23e
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/12/2020
-ms.locfileid: "4513913"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6999665"
 ---
 # <a name="create-an-invoice-schedule-on-a-project-based-contract-line"></a>根据基于项目的合同子项创建账单计划 
 
@@ -74,3 +72,6 @@ _**适用于：** 面向资源/非库存场景的 Project Operations_
 | 税款 | 快速创建 | 里程碑上应用的税额。 | 此字段将转到项目合同子项里程碑和发票。 |
 
 3. 选择 **保存并关闭**。
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

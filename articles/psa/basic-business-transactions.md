@@ -2,8 +2,6 @@
 title: 业务交易
 description: 此主题提供有关业务交易的信息。
 author: rumant
-manager: kfend
-ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 03/01/2019
@@ -18,12 +16,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 3a8506effc453280177d74f94dcf9310e310c098
-ms.sourcegitcommit: 418fa1fe9d605b8faccc2d5dee1b04b4e753f194
+ms.openlocfilehash: 28555f29e65c11255c8966f3d4b900512aa01c30fef0a9cef3a3794edaf92a0b
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/10/2021
-ms.locfileid: "5149892"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6987515"
 ---
 # <a name="business-transactions"></a>业务交易
 
@@ -90,7 +88,7 @@ PSA 将这五种实体中的记录视为业务交易。 唯一区别是实体中
 
 以下示例显示对 PSA 项目生命周期中的时间条目的典型处理。
 
-> ![处理 Project Service 生命周期中的时间条目](media/basic-guide-17.png)
+> ![处理 Project Service 生命周期中的时间条目。](media/basic-guide-17.png)
  
 1. 提交时间条目将导致创建两个日记帐行：一个针对成本，一个针对未记帐销售额。
 2. 最终批准时间条目将导致创建两个实际值：一个针对成本，一个针对未记帐销售额。
@@ -149,3 +147,6 @@ PSA 将这五种实体中的记录视为业务交易。 唯一区别是实体中
 | 草稿发票更正       | 发票明细交易 GUID | 替换          | msdyn_invoicelinetransaction | 已记帐销售额 GUID            | 原始           | msdyn_actual       |
 | 确认发票更正     | 已记帐销售额冲销 GUID    | 冲销          | msdyn_actual                 | 已记帐销售额 GUID            | 原始           | msdyn_actual       |
 | 新的未记帐实际销售额 GUID | 替换                     | msdyn_actual       | 已记帐销售额 GUID            | 原始                     | msdyn_actual       |                    |
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

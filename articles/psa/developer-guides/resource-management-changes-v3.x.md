@@ -2,12 +2,10 @@
 title: 资源管理更改 (Project Service Automation 3.x)
 description: 此主题介绍对资源管理区域的更改。
 author: makk
-manager: kfend
 ms.custom:
 - dyn365-projectservice
 ms.date: 03/18/2019
 ms.topic: article
-ms.service: business-applications
 ms.author: makk
 audience: admin
 search.audienceType:
@@ -16,12 +14,12 @@ search.audienceType:
 search.app:
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 94f9adc67163254486387a1ce59d5d3e8e93c335
-ms.sourcegitcommit: 418fa1fe9d605b8faccc2d5dee1b04b4e753f194
+ms.openlocfilehash: bc293e7686b7fd7d50d232cb8b26bfc03eb29c8911b52536d2b0a3a4929730c9
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/10/2021
-ms.locfileid: "5148632"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "7000295"
 ---
 # <a name="resource-management-changes-project-service-automation-3x"></a>资源管理更改 (Project Service Automation 3.x)
 
@@ -170,3 +168,6 @@ PSA 3.x 中已弃用分派单位。 现在按天为所有分派的资源平均�
 * msdyn\_actualsales
 * msdyn\_remainingcost
 * msdyn\_remainingsales
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

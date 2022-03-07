@@ -2,28 +2,26 @@
 title: Project 移动应用程序概览
 description: 本主题提供有关移动设备上支持，且适用于 Microsoft Dynamics 365 Project Timesheet、项目时间录入和我的工时表/工时表的，与项目时间有关的应用程序的一般信息。
 author: Yowelle
-manager: AnnBe
 ms.date: 05/28/2019
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 audience: Application User
 ms.reviewer: josaw
 ms.search.scope: Core, Operations
-ms.custom: ''
+ms.custom: intro-internal
 ms.assetid: ''
 ms.search.region: Global
 ms.search.industry: Service industries
 ms.author: andchoi
 ms.dyn365.ops.version: 10
 ms.search.validFrom: 2019-02-28
-ms.openlocfilehash: 69f44aa73b33bf55df324a71b67e0a743208b4e4
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: b6c14fdc043b2a95f1e548c160620a3b06c79bf5
+ms.sourcegitcommit: 0fafe022731f0e1e8693382ff906e3f8541d34ca
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4072593"
+ms.lasthandoff: 07/07/2021
+ms.locfileid: "6369545"
 ---
 # <a name="project-mobile-applications-overview"></a>Project 移动应用程序概览
 
@@ -49,3 +47,6 @@ ms.locfileid: "4072593"
 - [项目时间条目]( project-time-entry-mobile-workspace.md)
 - [移动设备上的项目工时单](Mobile-timesheets.md)
 - [为 iOS 和 Android 上的 Microsoft Dynamics 365 Project Timesheet 移动应用实施自定义字段](custom-fields-mobile.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

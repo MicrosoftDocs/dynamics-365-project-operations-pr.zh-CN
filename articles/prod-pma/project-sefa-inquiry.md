@@ -2,11 +2,9 @@
 title: 联邦奖励支出计划查询
 description: 此主题提供有关联邦奖励支出计划查询的信息。
 author: velofog
-manager: Ann Beebe
 ms.date: 04/2/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: PSNProjSEFAinquiry
 audience: Application User
@@ -20,12 +18,12 @@ ms.search.industry: public sector
 ms.author: andchoi
 ms.search.validFrom: 2020-4-01
 ms.dyn365.ops.version: 10.0.11
-ms.openlocfilehash: eaf523ab147cbe974fed6e7eab21967404583fe6
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: d0cc3db3fd05fa809f707b15a50380753ac8f9f779f45c13f707321d2b0e0841
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4072588"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "7007225"
 ---
 # <a name="schedule-of-expenditures-of-federal-awards-inquiry"></a>联邦奖励支出计划查询
 
@@ -62,7 +60,7 @@ ms.locfileid: "4072588"
 ## <a name="set-up-grants-to-report-for-the-schedule-of-expenditures-of-federal-awards-inquiry"></a>设置赠予以针对联邦奖励支出计划查询进行报告
 
 1. 转到 **项目管理和会计 \> 赠予 \> 赠予**，选择现有赠予。
-2. 在 **设置** 快速选项卡上的 **联邦国家补助目录** 字段中，分配 CFDA 编号。 赠予上的 CFDA 编号确定用于报告的 CFDA 群集。
+2. 在 **设置** 快速选项卡上的 **联邦国家补助目录** 字段中，分配 CFDA 编号。 赠予上的 CFDA 编号确定用于报告的 CFDA 群集。
 3. 在 **联系信息** 快速选项卡上，按照以下步骤输入赠予方信息：
 
     1. 在 **赠予客户** 字段中，输入负责赠予的客户。 对于现有赠予，可能已经输入了此信息。
@@ -79,8 +77,8 @@ ms.locfileid: "4072588"
 
 ## <a name="exclude-grants-from-sefa-reporting-based-on-the-grant-type"></a>基于赠予类型从 SEFA 报告中排除赠予
 
-1. 转到 **项目管理和会计 \> 设置 \> 赠予 \> 赠予类型**。
-2. 在 **默认信息** 快速选项卡上，选择 **从联邦奖励支出计划中排除** 复选框。
+1. 转到 **项目管理和会计 \> 设置 \> 赠予 \> 赠予类型**。
+2. 在 **默认信息** 快速选项卡上，选择 **从联邦奖励支出计划中排除** 复选框。
 3. 选择 **保存** 以保存您所做的更改。
 
 ## <a name="run-the-schedule-of-expenditures-of-federal-awards-inquiry"></a>运行联邦奖励支出计划查询
@@ -104,3 +102,6 @@ ms.locfileid: "4072588"
 - 联邦国家补助目录
 - 收据
 - 支出
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

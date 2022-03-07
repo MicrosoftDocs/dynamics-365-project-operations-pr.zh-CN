@@ -3,7 +3,7 @@ title: 什么是 Dynamics 365 Project Service Automation？
 description: Project Service 简介和概述
 author: stsporen
 manager: kfend
-ms.service: project-operations
+ms.service: dynamics-365-customerservice
 ms.custom:
 - dyn365-projectservice
 ms.date: 9/23/2019
@@ -18,16 +18,14 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: a78d8a2085821d6ba44750cfdba909c2c38b42ff
-ms.sourcegitcommit: 418fa1fe9d605b8faccc2d5dee1b04b4e753f194
+ms.openlocfilehash: a9e2a09177e944bd8dcb9dafdfed51d6613534d5
+ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/10/2021
-ms.locfileid: "5150522"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "4072788"
 ---
 # <a name="what-is-dynamics-365-project-service-automation"></a>什么是 Dynamics 365 Project Service Automation？
-
-[!include [banner](../includes/psa-now-project-operations.md)]
 
 [!INCLUDE[cc-applies-to-psa-apps-all](../includes/cc-applies-to-psa-apps-all.md)]
 

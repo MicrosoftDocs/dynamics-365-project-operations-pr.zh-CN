@@ -2,11 +2,9 @@
 title: 设置项目资源
 description: 本主题提供有关设置或请求项目资源的信息。
 author: Yowelle
-manager: AnnBe
 ms.date: 09/01/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: ProjProjectsListPage
 audience: Application User
@@ -18,12 +16,12 @@ ms.search.region: Global
 ms.author: andchoi
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 7eec8ad5d78019219b2e04ca75eeaa5a3c8a748f
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: 49e0ca6254518079d2e01d92ac2e31d119468c4b
+ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4072776"
+ms.lasthandoff: 05/10/2021
+ms.locfileid: "5997680"
 ---
 # <a name="set-up-project-resources"></a>设置项目资源
 
@@ -75,3 +73,6 @@ ms.locfileid: "4072776"
 - 实施资源请求。
 - 从 WBS 请求雇用资源。
 - 在不请求雇用资源的情况下为项目预订资源。
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

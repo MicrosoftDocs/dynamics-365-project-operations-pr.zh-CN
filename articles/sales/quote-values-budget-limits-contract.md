@@ -2,18 +2,16 @@
 title: 项目报价单设置
 description: 此主题提供有关应用于和影响项目报价单的信息和设置的信息。
 author: rumant
-manager: Annbe
 ms.date: 10/01/2020
 ms.topic: article
-ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: 5b1b88596ddac48ab8adce00c25c3ccd83cdd727
-ms.sourcegitcommit: df30839484ef278675c5c712af0f7ba66ed9cdd3
+ms.openlocfilehash: 3f11188a47c6f0c7de9fb591fd3be3e22f8f7d842fb6d075c1f43d9baea4d225
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/17/2021
-ms.locfileid: "5663628"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6993455"
 ---
 # <a name="header-details-for-project-based-quotes"></a>针对基于项目的报价单的标题详细信息
 

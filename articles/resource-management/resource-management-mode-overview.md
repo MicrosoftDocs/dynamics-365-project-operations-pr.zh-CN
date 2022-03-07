@@ -1,6 +1,6 @@
 ---
 title: 资源管理模式概述
-description: 本主题提供有关 Dynamics 365 Project Operations 中的资源管理功能的信息。
+description: 此主题介绍 Dynamics 365 Project Operations 中的资源管理功能。
 author: ruhercul
 manager: Annbe
 ms.date: 10/01/2020
@@ -8,12 +8,12 @@ ms.topic: article
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: ruhercul
-ms.openlocfilehash: 73ba6190e2e366f22372102d14d26f6d71ba0bc1
-ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
+ms.openlocfilehash: 4d132bcbef5421202d2f4899091f0dc75166dd66
+ms.sourcegitcommit: 3d78338773929121d17ec3386f6cb67bfb2272cc
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/28/2020
-ms.locfileid: "4118507"
+ms.lasthandoff: 04/27/2021
+ms.locfileid: "5949938"
 ---
 # <a name="resource-management-modes-overview"></a>资源管理模式概述
 
@@ -29,11 +29,11 @@ Dynamics 365 Project Operations 支持两种模式，以便您执行整个预订
 
 若要使用集中模式管理资源，请参阅：
 
-- [为任务分配通用可预订资源，并生成资源要求](https://docs.microsoft.com/dynamics365/project-service/assign-generic-bookable-resource)
-- [根据资源要求预订指定资源](https://docs.microsoft.com/dynamics365/project-service/book-named-resource)
-- [提交资源请求](https://docs.microsoft.com/dynamics365/project-service/submit-resource-request)
-- [实施资源请求](https://docs.microsoft.com/dynamics365/project-service/resource-management-fulfill-requests)
-- [接受或拒绝资源请求的建议项目资源](https://docs.microsoft.com/dynamics365/project-service/accept-reject-proposed-resource)
+- [为任务分配通用可预订资源，并生成资源要求](/dynamics365/project-service/assign-generic-bookable-resource)
+- [根据资源要求预订指定资源](/dynamics365/project-service/book-named-resource)
+- [提交资源请求](/dynamics365/project-service/submit-resource-request)
+- [实施资源请求](/dynamics365/project-service/resource-management-fulfill-requests)
+- [接受或拒绝资源请求的建议项目资源](/dynamics365/project-service/accept-reject-proposed-resource)
 
 ## <a name="hybrid-mode"></a>混合模式
 对于需要灵活分配资源的组织，混合模式让项目经理和资源经理都可以预订资源。
@@ -43,8 +43,11 @@ Dynamics 365 Project Operations 支持两种模式，以便您执行整个预订
 除了受支持的集中模式流程之外，另请参阅以下主题来在混合模式下管理所有其他支持的预订流：
 
 将资源直接预订到项目：
-- [为项目团队预订指定的可预订资源和分派任务](https://docs.microsoft.com/dynamics365/project-service/assign-named-bookable-resource)
+- [为项目团队预订指定的可预订资源和分派任务](/dynamics365/project-service/assign-named-bookable-resource)
 
 从资源要求预订资源：
-- [为任务分配通用可预订资源，并生成资源要求](https://docs.microsoft.com/dynamics365/project-service/assign-generic-bookable-resource)
-- [根据资源要求预订指定资源](https://docs.microsoft.com/dynamics365/project-service/book-named-resource)
+- [为任务分配通用可预订资源，并生成资源要求](/dynamics365/project-service/assign-generic-bookable-resource)
+- [根据资源要求预订指定资源](/dynamics365/project-service/book-named-resource)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

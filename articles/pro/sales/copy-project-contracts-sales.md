@@ -2,18 +2,16 @@
 title: 复制项目合同 - 精简
 description: 此主题提供有关如何在 Project Operations 中复制项目合同的信息。
 author: rumant
-manager: Annbe
 ms.date: 10/07/2020
 ms.topic: article
-ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: 4137fc400c7fdd8fecd9d8349bf7f57f3470b51f
-ms.sourcegitcommit: f6f86e80dfef15a7b5f9174b55dddf410522f7c8
+ms.openlocfilehash: d5c45c6f1631d9e20bd0416410c7fe24a11623da425c8e2a633b085fbfabdd79
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/31/2020
-ms.locfileid: "4181396"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "7006010"
 ---
 # <a name="copy-project-contracts---lite"></a>复制项目合同 - 精简
 
@@ -45,3 +43,6 @@ _**适用于：** 精简部署 - 估价交易开票_
   - 客户预算信息
 
 由于此信息对于每个合同是特定的，因此不会复制这些字段和记录。 项目和产品的合同子项、合同子项详细信息中的估算值以及合同级别的上限值将被复制。 价格和成本率默认设置取决于 **复制参数** 对话页面上 **复制定价** 字段中的选择。
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

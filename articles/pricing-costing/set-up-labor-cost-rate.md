@@ -5,15 +5,15 @@ author: rumant
 manager: Annbe
 ms.date: 10/12/2020
 ms.topic: article
-ms.service: project-operations
+ms.service: dynamics-365-customerservice
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: 697129b65f53359615ea537fe135d657748dd909
-ms.sourcegitcommit: f6f86e80dfef15a7b5f9174b55dddf410522f7c8
+ms.openlocfilehash: d17f266b6e34fc2a2743fe19fd18b15fb992ceef
+ms.sourcegitcommit: 11a61db54119503e82faec5f99c4273e8d1247e5
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/31/2020
-ms.locfileid: "4180586"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "4072501"
 ---
 # <a name="set-up-labor-cost-rates"></a>设置人工成本率
 
@@ -28,7 +28,7 @@ _**适用于：** 面向资源/非库存场景的 Project Operations_
 
 下表包括一些在成本价目表上创建人工费率时很重要的字段。
 
-| 字段 | 地点 | 描述 | 下游影响 |
+| 字段 | 地点 | 关联性、用途和指导 | 下游影响 |
 | --- | --- | --- | --- |
 | 角色 | **常规** 选项卡和 **快速创建** 页面 | 选择成本费率将应用的角色。 | 传入估计值或实际值中的角色将与此明细进行匹配，以设定角色的默认成本。 |
 | 资源供给公司 | **常规** 选项卡和 **快速创建** 页面 | 选择要向其分配角色的法人。 例如，Fabrikam 印度公司的开发人员或 Fabrikam 美国公司的开发人员。 | 传入估计值或实际值中的资源供给公司将与此明细进行匹配，以设定角色的默认成本费率。 |

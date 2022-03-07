@@ -2,8 +2,6 @@
 title: 将技能与资源关联
 description: 如何将技能与 Project Service 中的特定资源关联
 author: JohnPBurrows
-manager: kfend
-ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 8/03/2018
@@ -18,12 +16,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: c824a5cdbcf6c7654fc96155cd4fdfb232308738
-ms.sourcegitcommit: 418fa1fe9d605b8faccc2d5dee1b04b4e753f194
+ms.openlocfilehash: 0488773deea6c23dbab6c579a07ab7cbcc17534eb83a8888121160865cfd2706
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/10/2021
-ms.locfileid: "5145257"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "7000610"
 ---
 # <a name="associate-skills-with-resources-project-service"></a>将技能与资源关联 (Project Service)
 
@@ -45,3 +43,6 @@ ms.locfileid: "5145257"
   
 ### <a name="see-also"></a>另请参阅  
  [设置资源](../psa/set-up-resources.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

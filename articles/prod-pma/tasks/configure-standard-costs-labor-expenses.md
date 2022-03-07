@@ -2,11 +2,9 @@
 title: 配置人工和支出的标准成本
 description: 本主题介绍如何为项目的人工和费用设置标准价。
 author: Yowelle
-manager: AnnBe
 ms.date: 08/02/2019
 ms.topic: business-process
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: ProjCostPriceHour, ProjSalesPriceHour, ProjCostPriceExpense, ProjSalesPriceCost
 audience: Application User
@@ -17,12 +15,12 @@ ms.search.industry: Service industries
 ms.author: andchoi
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: b3eb6b1d4d75b095383689dd53a59a15fe9e884a
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: b8f65709433ed6f9ff9d23ed6d99624ee1d4aaef6927ee689c9f7651807340c5
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4072661"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6987965"
 ---
 # <a name="configure-standard-costs-for-labor-and-expenses"></a>配置人工和支出的标准成本
 
@@ -54,3 +52,6 @@ ms.locfileid: "4072661"
 22. 在 **定价** 字段中输入数字。 工作人员在费用日记帐凭证中输入交易记录时使用的实际销售价是最详细的销售价。 例如，如果同时设置了日记帐和工作人员特定的销售价，将使用工作人员特定的销售价。  
 23. 选择 **保存**。
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

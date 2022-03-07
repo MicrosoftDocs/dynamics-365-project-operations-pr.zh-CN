@@ -2,8 +2,6 @@
 title: 项目设置
 description: 此主题介绍项目管理设置。
 author: ruhercul
-manager: kfend
-ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 03/01/2019
@@ -18,12 +16,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: ca5fc63d56ddd84871949e38f421bcdfe38d478e
-ms.sourcegitcommit: 418fa1fe9d605b8faccc2d5dee1b04b4e753f194
+ms.openlocfilehash: 5f6fec091c50f35589e333fce4b3a296dd736d10dd2f56b6c11209a55b493836
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/10/2021
-ms.locfileid: "5148137"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6996920"
 ---
 # <a name="project-settings"></a>项目设置
 
@@ -47,9 +45,9 @@ ms.locfileid: "5148137"
 
   - 新建周计划
   - 一天的工作计划
-  - 休息时间
+  - 休假
 
-> ![设置选项](media/project-13.png)
+> ![设置选项。](media/project-13.png)
 
 4. 选择 **新建周计划**，然后为此资源计划设置选项。 可设置定期周计划、日工时参数、节假日等。
 5. 设置日期范围，选择 **保存**，然后单击 **关闭**。 
@@ -68,3 +66,6 @@ ms.locfileid: "5148137"
 ## <a name="price-lists"></a>价目表
 
 可通过价目表设置资源角色、支出类别、产品和组织中的其他元素的成本和销售价。 在为项目设置必须交付的工作的财务估算之前，应创建基础成本和销售价目表。 还应在参数部分中设置应用于组织中创建的每个项目的默认成本和销售价目表。 在 **可用的项目参数** 页中，务必设置默认成本和销售价目表。
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

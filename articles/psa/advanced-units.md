@@ -2,8 +2,6 @@
 title: 计价单位组和计价单位
 description: 此主题介绍计价单位组和计价单位。
 author: rumant
-manager: kfend
-ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 03/05/2019
@@ -18,12 +16,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 6620c99563394d1f3881d6bfdb72d01c1c4e8d6f
-ms.sourcegitcommit: 418fa1fe9d605b8faccc2d5dee1b04b4e753f194
+ms.openlocfilehash: 55696b32b7b37048ba4c292b33d93b7b12614f2186fb972a2c3f3732e5512c82
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/10/2021
-ms.locfileid: "5145572"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6987560"
 ---
 # <a name="unit-groups-and-units"></a>计价单位组和计价单位
 
@@ -46,7 +44,7 @@ ms.locfileid: "5145572"
 
 下图显示 **天** 计价单位的示例设置，其中，**数量** 字段显示一天中的小时数，以及 **周** 计价单位的示例设置，其中，**数量** 字段显示一周中的天数。
 
-> ![计价单位组：“信息”页](media/advanced-2.png)
+> ![计价单位组：“信息”页。](media/advanced-2.png)
 
 ## <a name="using-units-and-unit-groups"></a>使用计价单位和计价单位组
 
@@ -86,9 +84,9 @@ Dynamics 365 Project Service Automation 使用计价单位和计价单位组处�
     - **默认时间单位**：天 
     - **货币**：GBP
 
-| 角色      | 计价单位组 | 单位 | 部门 | 价格   |
+| 角色      | 计价单位组 | 计价单位 | 部门 | 单价   |
 |-----------|------------|------|---------------------|---------|
-| 开发人员 | Time       | Day  | Contoso 英国          | 800 GBP |
+| 开发人员 | 时间       | 日  | Contoso 英国          | 800 GBP |
 
 ### <a name="time-entry"></a>时间条目
 
@@ -112,3 +110,6 @@ Dynamics 365 Project Service Automation 使用计价单位和计价单位组处�
 
 ### <a name="can-units-and-unit-groups-be-edited-deleted-and-added"></a>是否可编辑、删除和添加计价单位和计价单位组？
 可以。 除了 **时间** 计价单位组和 **小时** 计价单位，可以删除或编辑所有计价单位，还可以添加新的计价单位。 在 PSA 中，不能删除 **时间** 计价单位组和 **小时** 计价单位。 但是，可以使用 **名称** 字段的译文更新它们。
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

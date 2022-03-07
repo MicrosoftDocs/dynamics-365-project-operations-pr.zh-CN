@@ -2,8 +2,6 @@
 title: 配置资源角色
 description: 如何在 Project Service 中配置资源角色
 author: JohnPBurrows
-manager: kfend
-ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 8/03/2018
@@ -18,12 +16,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: deaff0977ebb50382a28494fba2a1c34ed5cc9b4
-ms.sourcegitcommit: 418fa1fe9d605b8faccc2d5dee1b04b4e753f194
+ms.openlocfilehash: d57f843b681760c214d1f66fb4e3c748d0c8b659ab844189f24c682f42d309f0
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/10/2021
-ms.locfileid: "5144897"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "7002770"
 ---
 # <a name="configure-resource-roles-project-service"></a>配置资源角色 (Project Service)
 
@@ -59,3 +57,6 @@ ms.locfileid: "5144897"
   
 ### <a name="see-also"></a>另请参阅  
  [设置资源](../psa/set-up-resources.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

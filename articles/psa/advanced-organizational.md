@@ -2,8 +2,6 @@
 title: 部门
 description: 此主题介绍 Dynamics 365 Project Service Automation 中的部门。
 author: rumant
-manager: kfend
-ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 03/04/2019
@@ -18,12 +16,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: c1c86ce98213fba54fd2b477d4df6f8dc5409d55
-ms.sourcegitcommit: 418fa1fe9d605b8faccc2d5dee1b04b4e753f194
+ms.openlocfilehash: dccb01e5d1c032039cac980061d93b443ef0f9e1296cdd2d8efd7b1bf7338ce0
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/10/2021
-ms.locfileid: "5145618"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "7005065"
 ---
 # <a name="organizational-units"></a>部门 
 
@@ -55,7 +53,7 @@ PSA 中的部门具有专门的货币和专门的成本价目表。
 - **合同签订部门** – 代表主要负责赢得销售和管理对客户的工作和服务交付的公司组或部门的部门。 合同签订部门通过 **商机**、**报价单**、**项目合同** 和 **项目** 页标题部门中的 **合同签订部门** 字段识别。
 - **资源单位** – 资源所属部门或将资源分派给的部门。 这种部门可以将自己的资源提供给工作说明书 (SOW) 中和合同签订部门负责的项目中的某些角色。
 
-> ![合同签订部门和资源部门](media/advanced-1.png)
+> ![合同签订部门和资源部门。](media/advanced-1.png)
 
 ## <a name="organizational-unit-faqs"></a>部门常见问题
 
@@ -124,7 +122,7 @@ Contoso 在大量国际市场（如拉丁美洲、北美、亚太、西欧和中
 如果采用复杂的成本中心、部门、记帐办公室层次结构，请将该层次结构的叶节点设置为不同的部门。
 以下示例显示典型的层次结构：
 
-**Contoso 印度**
+**Contoso印度**
 
   - SAP 业务 
 
@@ -136,7 +134,7 @@ Contoso 在大量国际市场（如拉丁美洲、北美、亚太、西欧和中
     - 技术顾问
     - 职能顾问 
     
-**Contoso US**
+**Contoso 美国**
 
  - SAP 业务 
 
@@ -167,3 +165,6 @@ Contoso 在大量国际市场（如拉丁美洲、北美、亚太、西欧和中
 当磁盘时，项目的项目需要创建收缩根据默认的计价创建该活动的用户。 该用户也是默认项目经理。 如果项目映射到报价单或项目合同之类销售实体，则项目的合同签订部门改为基于销售实体。 在此情况下，可能会重新计算项目估算，因为如果更改合同签订部门，则使用成本价目表计算成本估算变化。 销售价目表用于计算将更改的销售估算，因此将与报价单中的项目价目表同步。
 
 项目的 **合同签订部门** 和 **货币** 字段已锁定，不能编辑，因为这些字段必须与项目映射到的销售实体（报价单或项目合同）中的值同步。
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

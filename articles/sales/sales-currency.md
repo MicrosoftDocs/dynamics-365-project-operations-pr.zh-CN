@@ -17,12 +17,12 @@ ms.search.industry: Service industries
 ms.author: suvaidya
 ms.dyn365.ops.version: ''
 ms.search.validFrom: 2020-10-01
-ms.openlocfilehash: 093eaa78b5f88aee364a753374a56c33e20a5ce3
-ms.sourcegitcommit: 573be7e36604ace82b35e439cfa748aa7c587415
+ms.openlocfilehash: 7368dc5d4901e8083f15b0174b7cc58a6b6dbd91
+ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/25/2020
-ms.locfileid: "4642262"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5277462"
 ---
 # <a name="currency"></a>货币
 
@@ -71,3 +71,6 @@ _**适用于：** 基于资源/非库存场景的 Project Operations，精简部
 
 > [!IMPORTANT]
 >  不能删除其他记录正在使用的货币；只能停用这些货币。 停用货币记录并不会移除现有记录（如商机或订单）中存储的币种信息。 但是，您不能为新交易选择已停用的货币。  
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

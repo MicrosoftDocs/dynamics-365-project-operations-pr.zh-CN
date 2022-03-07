@@ -1,42 +1,27 @@
 ---
-title: 创建手动估价发票
-description: 本主题提供有关创建估价发票的信息。
+title: 估价发票
+description: 此主题提供有关 Project Operations 的估价发票的信息。
 author: rumant
 manager: AnnBe
-ms.date: 09/18/2020
+ms.date: 04/05/2021
 ms.topic: article
 ms.prod: ''
 ms.service: project-operations
-audience: Application User
 ms.reviewer: kfend
-ms.search.scope: ''
-ms.custom: ''
-ms.assetid: ''
-ms.search.region: Global
-ms.search.industry: Service industries
-ms.author: suvaidya
-ms.dyn365.ops.version: ''
-ms.search.validFrom: 2020-10-01
-ms.openlocfilehash: 9d3c84664f1b0701db17f0c05654e0c99bb6c640
-ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
+ms.author: rumant
+ms.openlocfilehash: b143ba286f25ecb23fea09a85bca06543f7f55ff
+ms.sourcegitcommit: ca0fc078d1a12484eca193fe051b8442c0559db8
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/28/2020
-ms.locfileid: "4128046"
+ms.lasthandoff: 04/07/2021
+ms.locfileid: "5866850"
 ---
-# <a name="create-a-manual-proforma-invoice"></a>创建手动估价发票
+# <a name="proforma-invoices"></a>估价发票
 
 _**适用于：** 面向资源/非库存场景的 Project Operations_
 
-开票可以在项目经理为客户创建发票之前为项目经理增加一级审批。 批准了项目团队成员提交的时间和支出条目时，即完成了第一级审批。
+估价开票可以在项目经理为客户创建发票之前为项目经理增加一级审批。 批准了项目团队成员提交的时间、支出和材料条目时，即完成了第一级审批。 已确认估价发票在 Project Operations 的项目会计模块中可用。 项目会计人员可以执行其他更新，例如销售税款、会计和发票布局。
 
-Dynamics 365 Project Operations 不应生成面向客户的发票，原因如下：
-
-- 其中不包含税务信息。
-- 不能使用当前配置的汇率将其他货币转换为开票货币。
-- 不能正确设置发票格式以打印发票。
-
-但是，您可以使用财务或会计系统创建面向客户的发票以使用生成的发票方案的信息。
 
 ## <a name="creating-project-invoices"></a>创建项目发票
 
@@ -50,7 +35,7 @@ Dynamics 365 Project Operations 不应生成面向客户的发票，原因如下
 
 - 在 **项目合同** 列表页中，打开一个项目合同，然后选择 **创建发票**。
 
-    将为所选项目合同的所有状态为 **已准备好开具发票** 的交易生成发票。 这些交易包括时间、支出、里程碑和基于产品的合同子项。
+    将为所选项目合同的所有状态为 **已准备好开具发票** 的交易生成发票。 这些交易包括时间、支出、材料、里程碑和其他未记帐的销售日记帐行。
 
 执行以下步骤批量创建发票。
 
@@ -60,7 +45,7 @@ Dynamics 365 Project Operations 不应生成面向客户的发票，原因如下
 
 2. 选择 **确定** 关闭消息框。
 
-    将为合同子项中所有状态为 **已准备好开具发票** 的交易生成发票。 这些交易包括时间、支出、里程碑和基于产品的合同子项。
+    将为合同子项中所有状态为 **已准备好开具发票** 的交易生成发票。 这些交易包括时间、支出、材料、里程碑和其他未记帐的销售日记帐行。
 
 3. 若要查看生成的发票，请转到 **Sales** \> **记帐** \> **发票**。 您将看到每个项目合同的一张发票。
 
@@ -93,11 +78,10 @@ Dynamics 365 Project Operations 不应生成面向客户的发票，原因如下
  
 ### <a name="edit-a-draft-invoice"></a>编辑草稿发票
 
-创建项目草稿发票时，将把批准时间和支出条目时创建的所有未记帐销售交易提取到该发票中。 可以在发票仍然处于草稿阶段时进行以下调整：
+创建项目草稿发票时，将把批准时间、支出和材料使用条目时创建的所有未记帐销售交易提取到该发票中。 可以在发票仍然处于草稿阶段时进行以下调整：
 
 - 删除或编辑发票明细详细信息。
 - 编辑和调整数量和记帐类型。
-- 直接将时间、支出和费用作为交易添加到发票中。 如果发票明细映射到允许这些交易分类的合同明细，则可使用此功能。
 
 选择 **确认** 以确认发票。 “确认”操作是单向操作。 选择 **确认** 时，系统将把发票设置为只读，并根据每项发票明细的每项发票明细详细信息创建已记帐实际销售额。 如果发票明细详细信息引用未记帐实际销售额，系统还将冲销这个未记帐实际销售额。 （所有基于时间或支出条目创建的发票明细详细信息都将引用未记帐实际销售额。）总帐集成系统可以使用此项冲销来冲销项目的在制品 (WIP) 以达成会计目的。
 
@@ -111,3 +95,6 @@ Dynamics 365 Project Operations 不应生成面向客户的发票，原因如下
 
 - 六小时的已记帐实际销售额。
 - 其余两小时的未记帐实际销售额。 以后可为此交易记帐或标记为非应计费，具体取决于与客户的协商结果。
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

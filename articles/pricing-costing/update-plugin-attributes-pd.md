@@ -8,12 +8,12 @@ ms.topic: article
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: 9b0cf48318d0b9e94c4be0d3775b54e83832c1b7
-ms.sourcegitcommit: 573be7e36604ace82b35e439cfa748aa7c587415
+ms.openlocfilehash: 7999c003a0cf670d586ebf4445901e106fbee39f
+ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/25/2020
-ms.locfileid: "4643207"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5274672"
 ---
 # <a name="update-plug-in-attributes-with-new-pricing-dimensions"></a>使用新的定价维度更新插件属性
 
@@ -52,3 +52,6 @@ ms.locfileid: "4643207"
 7. 选择 **确定** 关闭页面，然后选择 **更新步骤**。
 8. 对第二个插件 **PreOperationQuoteLineDetail** 重复步骤 2 到 7。 对于此插件，您需要更新 **msdyn_quotelinetransaction 更新** 步骤。
 9. 关闭 **PluginRegistrationTool**。
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

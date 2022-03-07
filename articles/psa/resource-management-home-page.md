@@ -2,10 +2,9 @@
 title: 资源管理主页
 description: 本主题提供有关如何管理资源的信息。
 author: ruhercul
-manager: kfend
-ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
+- intro-internal
 ms.date: 03/28/2019
 ms.topic: article
 ms.author: ruhercul
@@ -18,12 +17,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 47d8fcc8b648921df43b9c03999ed27d85823a98
-ms.sourcegitcommit: 418fa1fe9d605b8faccc2d5dee1b04b4e753f194
+ms.openlocfilehash: a55b0f7c8190fd88017851a8e7c9b44cefacb483cd563f6f94110a7421de5d1d
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/10/2021
-ms.locfileid: "5147552"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6998180"
 ---
 # <a name="resource-management-home-page"></a>资源管理主页
 
@@ -41,3 +40,6 @@ ms.locfileid: "5147552"
 - [软预订要求](resource-management-softbook-requirements.md)
 - [技能和熟练度模型](resource-management-skills-proficiency.md)
 - [资源管理常见问题](resource-management-faq.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

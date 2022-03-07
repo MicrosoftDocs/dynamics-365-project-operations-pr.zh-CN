@@ -2,11 +2,9 @@
 title: 出差津贴规则
 description: 此主题提供有关出差津贴规则的信息。
 author: saraschi2
-manager: AnnBe
 ms.date: 02/23/2018
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: TrvPerDiems
 audience: Application User
@@ -16,12 +14,12 @@ ms.search.region: Global
 ms.author: saraschi
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 32ea14941344660ae0d384c8b046a50ba98d46bd
-ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
+ms.openlocfilehash: 4a33fa7ddc57bb5a39f46ba28fe1ca036d42fa323217d30c102b723439f121ff
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5271432"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6992870"
 ---
 # <a name="per-diem-rules"></a>出差津贴规则
 

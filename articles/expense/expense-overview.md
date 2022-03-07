@@ -2,19 +2,18 @@
 title: 支出概述
 description: 本主题提供有关 Project Operations 中的支出功能的信息。
 author: stsporen
-manager: AnnBe
 ms.date: 10/06/2020
 ms.topic: article
 ms.prod: ''
-ms.service: project-operations
 ms.reviewer: kfend
 ms.author: stsporen
-ms.openlocfilehash: d946a8dcbf3b2369631d83e80788eed4904be95d
-ms.sourcegitcommit: 2b74edd31f38410024a01124c9202a4d94464d04
+ms.custom: intro-internal
+ms.openlocfilehash: 7ba4d090e15bffa687d69d3d8e5733d2519668e2879249e1d6dc6aba26f7fbf6
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 12/17/2020
-ms.locfileid: "4764898"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6988460"
 ---
 # <a name="expense-home-page"></a>支出主页
 
@@ -44,3 +43,6 @@ Dynamics 365 Project Operations 支持处理支出功能。 通过使用可自�
 
 ## <a name="determine-your-expense-deployment"></a>确定支出部署
 要确定您运行的是否是基本支出管理部署，请验证地址 URL 是否以 **.crm.dynamics.com** 结尾。 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

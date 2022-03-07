@@ -2,11 +2,9 @@
 title: 时间和材料项目的项目销售订单
 description: 本主题介绍如何为时间和材料项目创建基于项目的销售订单。
 author: Yowelle
-manager: AnnBe
 ms.date: 04/05/2019
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 audience: Application User
 ms.reviewer: josaw
@@ -17,12 +15,12 @@ ms.search.region: Global
 ms.author: andchoi
 ms.search.validFrom: 2019-04-05
 ms.dyn365.ops.version: AX 10.0.2
-ms.openlocfilehash: 3653a6869dab323be88f1fd0f9fd0f2cb35c456f
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: bec39790b0a41e72b4cc9798d37a01e87029e18335f77d895680aafbb74fac3b
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4072589"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6992825"
 ---
 # <a name="project-sales-orders-for-time-and-material-projects"></a>时间和材料项目的项目销售订单
 
@@ -41,3 +39,6 @@ ms.locfileid: "4072589"
 - 转到项目本身。 在操作窗格上，选择 **管理 > 物料任务 > 销售订单**。 项目信息默认为项目的销售订单。 如果项目合同有多个融资来源，您将需要选择融资来源才能为销售订单设置客户。 如果项目只有一个融资来源，将自动设置客户。
 - 转到 **所有销售订单** 列表页并创建一个新的销售订单。 您将需要为销售订单选择项目。 选择项目之后，将从融资来源设置客户，而如果项目合同有多个融资来源，则您将需要选择此融资来源。
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -2,8 +2,6 @@
 title: Project Service Automation V3 更新版本 15 中的新增功能或更改
 description: 本主题介绍 Project Service Automation V3 更新版本 15 中的新增功能。
 author: ruhercul
-manager: kfend
-ms.service: project-operations
 ms.custom: dyn365-projectservice
 ms.date: 01/27/2020
 ms.topic: article
@@ -17,18 +15,18 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 0ec6746c0d3a1a03ee56440c73d044df844046f8
-ms.sourcegitcommit: 418fa1fe9d605b8faccc2d5dee1b04b4e753f194
+ms.openlocfilehash: d052dd670ac31fae57a71cb71682da86a237b3487482a9548f3fb9e52516c407
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/10/2021
-ms.locfileid: "5143952"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "7004435"
 ---
 # <a name="project-service-automation-update-release-15-v3"></a>Project Service Automation V3 更新版本 15
 
 [!include [banner](../includes/psa-now-project-operations.md)]
 
-我们很高兴宣布 Dynamics 365 Project Service Automation (PSA) 应用程序的最新更新。 此版本包括对质量、性能和可用性的一些重要改进。 此版本与 Dynamics 365 9.x 兼容。 若要更新到此版本，请访问 Dynamics 365 Online 的管理中心，然后转到解决方案页面以安装更新。 有关详细信息，请参阅[安装、更新或移除首选解决方案](https://docs.microsoft.com/power-platform/admin/install-remove-preferred-solution)。
+我们很高兴宣布 Dynamics 365 Project Service Automation (PSA) 应用程序的最新更新。 此版本包括对质量、性能和可用性的一些重要改进。 此版本与 Dynamics 365 9.x 兼容。 若要更新到此版本，请访问 Dynamics 365 Online 的管理中心，然后转到解决方案页面以安装更新。 有关详细信息，请参阅[安装、更新或移除首选解决方案](/power-platform/admin/install-remove-preferred-solution)。
 
 本主题列出了 PSA V3 更新版本 15 中新增或更改的功能和修复。 该版本的内部版本号为 V3.10.5.28，并且在 2020 年 1 月通过自行更新公开发布。
 
@@ -63,3 +61,6 @@ ms.locfileid: "5143952"
   - 已修复：当有 1000 个以上的项目时，不再在 **报价单明细** 窗体内的 **项目查找** 中获取错误消息。
   - 已修复：人工估算和支出估算的 **估计** 网格现在显示正确的货币符号。
   - 已修复：组织将 PSA 从更新版本 14 更新为更新版本 15 之后，**计划** 选项卡在 **项目** 窗体上不再显示为空白。
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

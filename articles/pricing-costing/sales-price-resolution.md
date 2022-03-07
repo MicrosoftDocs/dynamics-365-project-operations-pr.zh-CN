@@ -3,23 +3,23 @@ title: 处理估算和实际值的售价
 description: 此主题提供有关如何解析估计值和实际值的销售费率的信息。
 author: rumant
 manager: Annbe
-ms.date: 04/07/2021
+ms.date: 10/19/2020
 ms.topic: article
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: f9ce095723e8ac300caf7d11ae37b5c721b57795
-ms.sourcegitcommit: ac90be6106592f883a0de39a75836fb40255d65a
+ms.openlocfilehash: 8c18dd734312b2dd147381169f5c3dc38a68a601
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/09/2021
-ms.locfileid: "5877434"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4119542"
 ---
 # <a name="resolve-sales-prices-for-estimates-and-actuals"></a>处理估算和实际值的售价
 
 _**适用于：** 面向资源/非库存场景的 Project Operations_
 
-在 Dynamics 365 Project Operations 中解析估计和实际销售价格时，系统首先使用相关项目报价单或合同的日期和货币来解析销售价目表。 解析销售价目表后，系统将解析销售或记帐费率。
+当在 Dynamics 365 Project Operations 中解析估计值和实际值中的售价时，系统首先使用相关项目报价单或合同的日期和货币来解析销售价目表。 解析销售价目表后，系统将解析销售或记帐费率。
 
 ## <a name="resolve-sales-rates-on-actual-and-estimate-lines-for-time"></a>解析时间的实际值和估计值明细中的销售费率
 
@@ -54,17 +54,3 @@ _**适用于：** 面向资源/非库存场景的 Project Operations_
     | &nbsp; | 成本加价 | 在相关成本实际值的单位成本费率中应用类别价格明细定义的加价 |
 
 4. 如果系统无法匹配 **类别** 和 **单位** 字段值，销售费率将默认为零 (0)。
-
-## <a name="resolve-sales-rates-on-actual-and-estimate-lines-for-material"></a>解析材料的实际明细和估算明细中中的销售费率
-
-在 Project Operations 中，材料估算明细用于表示项目上材料和材料估算明细的报价单明细和合同子项详细信息。
-
-解析销售价目表后，系统将完成以下步骤来设定默认销售单价。
-
-1. 系统使用材料估算明细中的 **产品** 和 **单位** 字段组合，以根据解析的价目表中的价目表项进行匹配。
-2. 如果系统发现价目表项具有适用于 **产品** 和 **单位** 字段组合的销售费率，并且定价方式为 **货币金额**，则使用价目表明细中指定的销售价格。
-3. 如果 **产品** 和 **单位** 字段值不匹配，则销售费率将默认为零。
-
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -2,8 +2,6 @@
 title: 分析项目报价单
 description: 此主题介绍如何分析项目报价单。
 author: rumant
-manager: kfend
-ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 03/05/2019
@@ -18,12 +16,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 361a940261811467c46222c3d58c9504434ec882
-ms.sourcegitcommit: 418fa1fe9d605b8faccc2d5dee1b04b4e753f194
+ms.openlocfilehash: b50f419d2c13cff4914f4b589c8d7ad9099c8734834d75f8d17104d2db40049b
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/10/2021
-ms.locfileid: "5145212"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "7002815"
 ---
 # <a name="analysis-of-project-quotes"></a>分析项目报价单
 
@@ -60,3 +58,6 @@ Project Service Automation 使用毛利和调整后的毛利分析利润率。
 客户的预期计划的分析方法是，将报价单明细详细信息的最新结束日期与报价单中所有报价单明细的请求交付日期进行比较。
 
 客户的预期预算的分析方法是，将客户总预算之和与所有报价单明细中的报价金额进行比较。
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

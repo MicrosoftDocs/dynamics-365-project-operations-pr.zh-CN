@@ -2,24 +2,22 @@
 title: 资源管理的关键概念
 description: 本主题提供有关 Microsoft Dynamics Project Operations 中的资源管理功能的信息。
 author: ruhercul
-manager: Annbe
 ms.date: 10/01/2020
 ms.topic: article
-ms.service: project-operations
 ms.reviewer: kfend
 ms.author: ruhercul
-ms.openlocfilehash: a14f0ec328049d1b199201955c384df9fac61e39
-ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
+ms.openlocfilehash: c76fb297fc1832284d488f28e552ded2c1c27cf88d3a9352f2a31e667aac746e
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/28/2020
-ms.locfileid: "4123862"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6994805"
 ---
 # <a name="resource-management-key-concepts"></a>资源管理的关键概念
 
 _**适用于：** 基于资源/非库存场景的 Project Operations，精简部署 - 估价开票交易_
 
-资源是基于服务的组织的最重要资产。 在正确的时间找到适合的资源，为项目预订这些资源，以及保持利用资源的能力可帮助组织达成收入目标和客户满意度目标。 可使用 Dynamics 365 Project Operations 中的项目资源安排功能执行以下任务：
+资源是基于服务的组织的最重要资产。 在正确的时间找到适合的资源，为项目预订这些资源，以及保持利用资源的能力可帮助组织达成收入目标和客户满意度目标。 您可使用 Dynamics 365 Project Operations 中的项目资源安排功能执行以下任务：
 
 - 通过预订可用合格资源组建项目团队。
 - 创建通用团队成员记录和定义其角色与资源部门。
@@ -35,3 +33,6 @@ _**适用于：** 基于资源/非库存场景的 Project Operations，精简部
 
 
 可在 Project Operations 中为项目安排通用资源或指定资源团队。 可使用各种方法添加和分派团队成员和管理其预订和分派。 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

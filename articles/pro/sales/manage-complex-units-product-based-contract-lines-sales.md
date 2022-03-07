@@ -2,18 +2,16 @@
 title: 管理基于产品的合同子项的复杂单位 - 精简
 description: 此主题提供有关支持基于订阅的产品的销售的信息。
 author: rumant
-manager: Annbe
 ms.date: 10/28/2020
 ms.topic: article
-ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: a58a13c8186f36e6031fe3c6f3c3a57ea920ac9e
-ms.sourcegitcommit: 625878bf48ea530f3381843be0e778cebbbf1922
+ms.openlocfilehash: 6bd4e11bf96d9f7d77c77fe081fde02b421c3139915150480a8d1a4d812887f6
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/30/2020
-ms.locfileid: "4177365"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "7003355"
 ---
 # <a name="manage-complex-units-for-product-based-contract-lines---lite"></a>管理基于产品的合同子项的复杂单位 - 精简
 
@@ -46,3 +44,6 @@ Project Operations 将验证是否只有数值属性或具有数值数据类型�
 7. 对将共同构成基于产品的合同子项的数量的所有属性重复步骤 2-6。
 
 数量因子设置后，当用户为此产品创建合同子项时，合同子项的数量将锁定。 然后，会将此数量作为该合同子项的属性值的产品进行计算。
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

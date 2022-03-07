@@ -1,11 +1,10 @@
 ---
 title: “升级”主页
 description: 此主题介绍何处可以找到有关 Dynamics 365 Project Service Automation 中的新功能和更新功能和用于升级到最新版本的流程的重要信息。
-manager: kfend
 ms.prod: ''
-ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
+- intro-internal
 ms.date: 05/30/2019
 ms.topic: article
 author: rumant
@@ -19,12 +18,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: e30da3a5ade6d8bafcdc45801b830196841997bf
-ms.sourcegitcommit: 418fa1fe9d605b8faccc2d5dee1b04b4e753f194
+ms.openlocfilehash: 2b9b14d72157ae0046e1ca6abdc604b8dbc30377b5b24f5d79617a7201b1bf10
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/10/2021
-ms.locfileid: "5150072"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "7006730"
 ---
 # <a name="upgrade-home-page"></a>“升级”主页
 
@@ -65,3 +64,6 @@ ms.locfileid: "5150072"
 
 > [!NOTE]
 > 若要在使用 Field Service 和 PSA 应用程序的旧版本时获得最佳体验，请转到 **系统设置** 页，为 **仅使用新的统一接口(推荐)** 字段选择 **否**，因为这些版本未设计为可在 UCI 中正确加载。 关闭 UCI 之后，可使用旧 Web 客户端打开和运行这些 Field Service 和 PSA 版本。 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -8,12 +8,12 @@ ms.topic: article
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: sigitac
-ms.openlocfilehash: 83e5af60d0a3baf0b59da2a97c6b156ef5b2b7ed
-ms.sourcegitcommit: b4298ca4729643c1040ef35dde8c67f829461ce7
+ms.openlocfilehash: 4e663a9a0ca5b197e556d8c36233ab25affda876
+ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/29/2021
-ms.locfileid: "5089212"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5275842"
 ---
 # <a name="manage-project-invoice-proposals"></a>管理项目发票方案
 
@@ -143,3 +143,6 @@ Dataverse 中的未记帐交易货币在 Finance 中用作交易货币，将使�
 除了 **发票方案** 页之外，还可以通过运行定期作业 **发布发票方案** 来发布发票方案。 要查找此作业，请转到 **项目管理和会计** > **定期** > **项目发票** > **发布发票方案**。
 
 此页面显示所有准备好发布的发票方案。 您可以通过选择 **批处理** 来计划发票方案的发布。 将 **批处理参数** 设置为 **是**，然后通过选择 **定期** 设置批处理的定期模式。
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

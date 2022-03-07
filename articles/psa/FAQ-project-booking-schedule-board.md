@@ -16,12 +16,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: d33786a5d0a2485a06d174eb7afcbaaa2f337cf6
-ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
+ms.openlocfilehash: 513f7fe75cfb7b1658b4be71ed0a17da7b64a1023992e1dada9adca8f0dbf21e
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/10/2021
-ms.locfileid: "5992955"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6987605"
 ---
 # <a name="create-a-project-booking-from-the-schedule-board"></a>从日程安排板创建项目预订
 
@@ -43,7 +43,7 @@ ms.locfileid: "5992955"
 
 1.  在日程安排板上，此资源将显示在 **未解决的要求** 选项卡上。如果您有很多未解决的要求，您可能需要在网格上使用列筛选器。 
 
-    ![日程安排板上的“未解决的要求”选项卡](media/FAQ-Project-Booking-Schedule-Board-1.png "预订和分派表的屏幕截图")
+    ![日程安排板上的“未解决的要求”选项卡。](media/FAQ-Project-Booking-Schedule-Board-1.png "预订和分派表的屏幕截图")
 
 2. 选择此要求。 **查找可用性** 选项卡将显示在所选行的顶部。
  
@@ -53,7 +53,7 @@ ms.locfileid: "5992955"
 
     选择 **预订** 将资源预订到项目团队中。
 
-![“创建资源预订”面板](media/FAQ-Project-Booking-Schedule-Board-6.png "")
+![“创建资源预订”面板。](media/FAQ-Project-Booking-Schedule-Board-6.png "")
  
 
 ## <a name="book-from-the-primary-requirement"></a>从主要要求预订
@@ -62,7 +62,7 @@ ms.locfileid: "5992955"
 
 1. 若要使用“主要要求”预订资源，在日程安排板上选择 **项目** 选项卡。如果您有很多项目，您可能需要使用 **项目** 列的列筛选器。
 
-   ![日程安排板上的列筛选器](media/FAQ-Project-Booking-Schedule-Board-2.png "预订和分派表的屏幕截图")
+   ![日程安排板上的列筛选器。](media/FAQ-Project-Booking-Schedule-Board-2.png "预订和分派表的屏幕截图")
 
 2. 选择仅将项目名称作为其名称且持续时间为零 (0) 的要求。
 

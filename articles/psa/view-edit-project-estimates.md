@@ -2,8 +2,6 @@
 title: 查看和编辑项目预计
 description: 如何在 Project Service 中查看和编辑项目估算
 author: rumant
-manager: kfend
-ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 8/03/2018
@@ -18,12 +16,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: f31327df6be375dd82c615b2a9e8194145fcd19c
-ms.sourcegitcommit: 418fa1fe9d605b8faccc2d5dee1b04b4e753f194
+ms.openlocfilehash: 96eec162ecbc3e40a923d00cb6377feebc02b3c7
+ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/10/2021
-ms.locfileid: "5144042"
+ms.lasthandoff: 05/10/2021
+ms.locfileid: "6015500"
 ---
 # <a name="view-and-edit-project-estimates-project-service"></a>查看和编辑项目估算 (Project Service)
 
@@ -45,3 +43,6 @@ ms.locfileid: "5144042"
   
 ### <a name="see-also"></a>另请参阅  
  [项目经理指南](../psa/project-manager-guide.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

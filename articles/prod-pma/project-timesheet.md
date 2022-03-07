@@ -2,11 +2,9 @@
 title: Project Timesheet 移动应用程序
 description: 本主题提供有关 Microsoft Dynamics 365 Project Timesheet 移动应用程序的信息。 用户可使用 Project Timesheet 移动应用在自己的移动设备上提交和审核项目的工时单。
 author: abruer
-manager: AnnBe
 ms.date: 04/08/2019
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 audience: Application User
 ms.reviewer: josaw
@@ -18,12 +16,12 @@ ms.search.industry: Service industries
 ms.author: andchoi
 ms.dyn365.ops.version: 10
 ms.search.validFrom: 2019-01-15
-ms.openlocfilehash: b9cbd84ecb0d71a99982e158d7e0ea1e236fb369
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: df6d286b6d5716fb0ea908ed71c2257b4db21ecfd35148fea65dfd96e058ac9a
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4072777"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6997190"
 ---
 # <a name="project-timesheet-mobile-application"></a>Project Timesheet 移动应用程序
 
@@ -96,3 +94,6 @@ ms.locfileid: "4072777"
 ## <a name="review-timesheets"></a>复查工时单
 
 菜单中将提供需要复查的工时单列表。 仅当已将您指定为工作流审批人，此选项才可用。 同时支持审核标题和行。 可通过行级别审核将一个或多个行设置为要审核。 复查工时单信息之后，单击 **审核**、**委托** 或 **退回** 以继续执行工作流。
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -2,16 +2,18 @@
 title: 更新项目
 description: 此主题提供有关在 Project Operations 中更新项目的信息。
 author: ruhercul
+manager: Annbe
 ms.date: 10/01/2020
 ms.topic: article
+ms.service: dynamics-365-customerservice
 ms.reviewer: kfend
 ms.author: ruhercul
-ms.openlocfilehash: c07542444b970430d8143a60aad6970305769b22
-ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
+ms.openlocfilehash: 5c9cd0c7c6886bd454c5f2ef2ae7f20d1707293f
+ms.sourcegitcommit: 11a61db54119503e82faec5f99c4273e8d1247e5
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/10/2021
-ms.locfileid: "5993360"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "4072459"
 ---
 # <a name="update-a-project"></a>更新项目
 
@@ -46,6 +48,3 @@ _**适用于：** 基于资源/非库存场景的 Project Operations，精简部
 - **总体项目状态**：项目经理提供的总体项目运行状况。
 - **注释**：项目经理提供的有关当前项目运行状况的叙述。
 
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

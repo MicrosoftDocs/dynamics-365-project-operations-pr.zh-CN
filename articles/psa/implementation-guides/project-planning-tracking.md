@@ -2,8 +2,6 @@
 title: 项目规划和跟踪
 description: 本主题提供有关 Project Service Automation 中的规划和跟踪的信息的链接。
 author: kfend
-manager: kfend
-ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 2/04/2019
@@ -18,12 +16,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 363483d7a63ce028b3378e021a210b4c8d8e4623
-ms.sourcegitcommit: 418fa1fe9d605b8faccc2d5dee1b04b4e753f194
+ms.openlocfilehash: 4dafe76864ac873c596381324ab6865b1b3adc24a495d828b552e7ac459954b9
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/10/2021
-ms.locfileid: "5149082"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6985378"
 ---
 # <a name="project-planning-and-tracking"></a>项目规划和跟踪
 
@@ -45,3 +43,6 @@ Project Service 应用程序可帮助服务组织确定商机，提交出价，�
 
 > [!NOTE]
 > 此主题会在未来的文档更新中删除。 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

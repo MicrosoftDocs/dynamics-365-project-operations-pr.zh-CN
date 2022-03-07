@@ -7,12 +7,12 @@ ms.topic: article
 ms.prod: ''
 ms.reviewer: kfend
 ms.author: sigitac
-ms.openlocfilehash: 868d6daf8ac3ad9ef4245cef3c74a735137d3903
-ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
+ms.openlocfilehash: 8c85e0230840753bc1d28a46b065bce002446f5d8c62da9666d58bc9d2a68af8
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/10/2021
-ms.locfileid: "5994080"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "7009385"
 ---
 # <a name="whats-new-april-2021---project-operations-lite-deployment"></a>2021 年 4 月新增功能 - Project Operations 精简部署
 

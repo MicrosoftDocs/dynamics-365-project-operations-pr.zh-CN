@@ -2,18 +2,16 @@
 title: 基于项目的商机明细
 description: 此主题提供有关使用基于项目的商机明细的信息。
 author: rumant
-manager: Annbe
 ms.date: 10/01/2020
 ms.topic: article
-ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: 0ede474e3d8830b420dc5b183f14327206c10288
-ms.sourcegitcommit: f6f86e80dfef15a7b5f9174b55dddf410522f7c8
+ms.openlocfilehash: 04e091a58f72a99fb17f37b95f9cac2b4476757b79965177854423361f416d51
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/31/2020
-ms.locfileid: "4181936"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6996335"
 ---
 # <a name="project-based-opportunity-lines"></a>基于项目的商机明细
 
@@ -33,3 +31,6 @@ _**适用于：** 面向资源/非库存场景的 Project Operations_
 | 客户 | “常规”选项卡 | 这是一个可编辑文本字段，可用于向此明细项目提供短标识 | 当您从此商机创建报价单时，此值将转移到报价单明细 |
 | 客户预算 | “常规”选项卡 | 此可编辑的货币字段可用于跟踪客户愿意为此明细项目花费的金额。 | 当您从此商机创建报价单时，此值将转移到报价单明细上的相应字段 |
 | 记帐方法 | “常规”选项卡 | 此可编辑字段具有以下值：</br>- 时间和材料</br>- 固定价格 | 当您从此商机创建报价单时，此值将转移到报价单明细上的相应字段。 在创建报价单明细后，此字段将被锁定，无法更改。 请尽可能准确地分配此字段值。 如果您需要更改报价单明细上此字段的值，请删除并重新创建报价单明细。 |
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

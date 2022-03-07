@@ -2,8 +2,6 @@
 title: 建议项目资源
 description: 此主题介绍如何推荐项目资源。
 author: ruhercul
-manager: kfend
-ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 03/28/2019
@@ -18,12 +16,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 0a3eaa9929770c91523831d92744d5084aa28cb8
-ms.sourcegitcommit: 418fa1fe9d605b8faccc2d5dee1b04b4e753f194
+ms.openlocfilehash: 9fe63f424735f22dc6b525631287e7ff36db17f37aad8e14e926f5cc9be39136
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/10/2021
-ms.locfileid: "5147507"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6995030"
 ---
 # <a name="propose-project-resources"></a>建议项目资源
 
@@ -34,21 +32,21 @@ ms.locfileid: "5147507"
 1. 从请求网格或请求本身选择 **查找资源**。
 2. 在 **日程安排助理** 页中，选择资源，然后在 **创建资源预订** 窗格的 **预订状态** 字段中，选择 **预订**。
 
-    ![已选择建议的资源](media/Resource-Management-image62.png)
+    ![已选择建议的资源。](media/Resource-Management-image62.png)
 
 将进行以下状态更新：
 
 - 在 **日程安排助理** 页中，将更新状态指示器，以便指示预订是建议的，而不是硬预订的。
 
-    ![”日程安排助理“页中建议的预订的状态指示器](media/Resource-Management-image63.png)
+    ![“日程安排助理”页中建议的预订的状态指示器。](media/Resource-Management-image63.png)
 
 - 在资源请求中，状态更改为 **需要审阅**。
 
-    ![资源请求状态已更改为”需要审阅“](media/Resource-Management-image64.png)
+    ![资源请求状态已更改为“需要审阅”。](media/Resource-Management-image64.png)
 
 - 在项目的 **团队** 选项卡上，通用团队成员的 **请求状态** 值更改为 **需要审阅**。
 
-    ![”团队“选项卡上通用团队成员的请求状态更改为”需要审阅“](media/Resource-Management-image48.png)
+    ![“团队”选项卡上通用团队成员的请求状态更改为“需要审阅”。](media/Resource-Management-image48.png)
 
 项目经理可接受或拒绝建议。
 
@@ -72,7 +70,7 @@ ms.locfileid: "5147507"
 
 可以在 **资源** 窗格中找到 **资源利用率** 视图。
 
-![“资源利用率”视图](media/Resource-Management-image65.png)
+![资源利用率视图。](media/Resource-Management-image65.png)
 
 此网格中的每个单元格代表一段时间（如天、周或月）的资源可记帐利用率百分比。 以下公式用于为单元格设置颜色：
 
@@ -86,7 +84,7 @@ ms.locfileid: "5147507"
 
 此外，还必须为每项可预订资源分派默认角色。 转到 **资源**\>**资源**。 在 **Project Service** 选项卡上，验证是否定义了资源角色，以及角色的 **为默认** 字段是否设置为 **是**。 可以添加更多 **为默认 = 否** 的角色。 **为默认 = 是** 的角色用于评估针对该角色的目标的资源利用率。
 
-![默认角色集](media/Resource-Management-image67.png)
+![默认角色集。](media/Resource-Management-image67.png)
 
 在 **Project Service** 选项卡上，也可以为资源设置单个目标利用率。 然后，利用率的计算使用该目标利用率评估资源的目标，而不是资源默认角色的目标。
 
@@ -98,18 +96,21 @@ ms.locfileid: "5147507"
 
 资源工作时间是计算资源可用性的基础。 资源预订会占用资源的产能。
 
-![日程安排板](media/Resource-Management-image68.png)
+![日程安排板。](media/Resource-Management-image68.png)
 
 日程安排板使用颜色和阴影显示预订、可用性、超额预订和预订状态。 可使用日程安排板设置中的一项设置来显示图例。
 
 如果日程安排板中单项可预订资源旁边显示向右箭头，说明可以展开该资源以显示为预订该资源的工作的详细信息。
 
-![日程安排板中已展开可预订资源](media/Resource-Management-image69.png)
+![日程安排板中已展开可预订资源。](media/Resource-Management-image69.png)
 
 因为 Dynamics 365 Project Service Automation 使用 Universal Resource Scheduling 引擎，所以如果也安装了 Dynamics 365 Field Service，则可查看项目、工作订单和您已将计划扩展到的其他任何实体的资源预订。
 
-![项目和工作订单的资源预订详细信息](media/Resource-Management-image70.png)
+![项目和工作订单的资源预订详细信息。](media/Resource-Management-image70.png)
 
 若要查看单项资源的更多详细信息，请右键单击该资源打开资源卡。
 
-![资源卡](media/Resource-Management-image71.png)
+![资源卡。](media/Resource-Management-image71.png)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

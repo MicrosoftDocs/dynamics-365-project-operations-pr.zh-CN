@@ -2,19 +2,17 @@
 title: 根据项目估计值和实际值处理成本费
 description: 该主题提供了有关如何解析项目估计值和实际值的成本价格的信息。
 author: rumant
-manager: Annbe
 ms.date: 04/07/2021
 ms.topic: article
 ms.prod: ''
-ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: 9f20631f41c560f1a4047aaaa624fa4e8651c687
-ms.sourcegitcommit: ac90be6106592f883a0de39a75836fb40255d65a
+ms.openlocfilehash: a2a2df7672118a4a4d7748795174e8e8238dd7618a48437185879e06a253a381
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/09/2021
-ms.locfileid: "5877254"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6997550"
 ---
 # <a name="resolve-cost-prices-on-project-estimates-and-actuals"></a>根据项目估计值和实际值处理成本费 
 

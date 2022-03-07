@@ -2,18 +2,16 @@
 title: 复制基于项目的报价单
 description: 此主题提供有关如何在 Project Operations 中复制基于项目的报价单的信息。
 author: rumant
-manager: Annbe
 ms.date: 10/01/2020
 ms.topic: article
-ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: e4e70ed1451c1076f72ef5d7200b918c626ab23c
-ms.sourcegitcommit: f6f86e80dfef15a7b5f9174b55dddf410522f7c8
+ms.openlocfilehash: 247f9d33bc2e7b0bcbeae8114bb436ed237efce660d0840e58d536d2a290639e
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/31/2020
-ms.locfileid: "4181801"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6992150"
 ---
 # <a name="copy-project-based-quotes"></a>复制基于项目的报价单
 
@@ -45,3 +43,6 @@ _**适用于：** 基于资源/非库存场景的 Project Operations，精简部
 > - 基于项目的报价单明细上的项目引用 – 客户预算信息
 >
 >由于此信息对于每个报价单都非常特定，因此不会复制这些字段和记录。 项目和产品的报价单明细、报价单明细详细信息中的估算值以及报价单级别的上限值将被复制。 价格和成本率默认值取决于在 **复制参数** 对话页面上选择的 **复制定价** 选项。
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

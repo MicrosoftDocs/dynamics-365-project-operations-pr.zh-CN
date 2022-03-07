@@ -2,8 +2,6 @@
 title: 产品目录定价
 description: 此主题介绍 Dynamics 365 Project Service Automation (PSA) 中的产品目录定价工作原理。
 author: rumant
-manager: kfend
-ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 03/07/2019
@@ -18,12 +16,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 3fb9b51d58cbe3b0db6dad902461b90ac04cc42f
-ms.sourcegitcommit: 418fa1fe9d605b8faccc2d5dee1b04b4e753f194
+ms.openlocfilehash: 59e05a55d41573b96785a2f41a7d5d822f6b515fb55edddea5ef1862b7694a1b
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/10/2021
-ms.locfileid: "5151197"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "7000160"
 ---
 # <a name="product-catalog-pricing"></a>产品目录定价 
 
@@ -46,7 +44,7 @@ ms.locfileid: "5151197"
 
 PSA 支持在将价格配置为定价、标准成本或当前成本时使用各种舍入选项。 除了利用多种定价方法和舍入选项，还可以将折扣表与价目表项关联。 
 
-> ![将目录中的产品添加到不同价目表中](media/basic-guide-16.png)
+> ![将目录中的产品添加到不同价目表中。](media/basic-guide-16.png)
 
 通过选择 **项目报价单** 页中的 **创建自定义报价** 为报价单创建新的自定义价目表时，PSA 将创建该价目表的备份，并将新价目表标头中的 **实体** 字段设置为 **销售实体**。 将为新价目表的名称追加报价单名称和时间戳。 也可以在自定义工作流中使用新价目表的名称和报价单的名称对使用自定义定价的报价单触发额外审阅和审批。
 
@@ -64,3 +62,6 @@ PSA 支持在将价格配置为定价、标准成本或当前成本时使用各�
 默认情况下，报价单明细中的 **产品** 字段列出报价单的产品价目表中的所有可用产品。 如果已停用某个产品，或者该产品是草稿产品，则不列出该产品，即使价目表中有此产品。 
 
 产品目录明细作为发票明细添加到为项目合同创建的第一份发票中。 在草稿发票中，可以删除这些发票明细。 在此情况下想，这些发票将在后续发票中出现，直到为其开票或将发票发给客户。 在 PSA 中，不能为产品发票明细的部分数量开票。 为项目合同中的产品明细开票时，将创建实际值。 但是，不将这些实际值链接到相关项目实体。 换句话说，基于产品的项目合同明细独立于任何基于项目的使用。 PSA 不跟踪项目的材料消耗。
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -2,11 +2,9 @@
 title: 资源协调概述
 description: 本主题提供的信息将帮助您确保项目的资源预订和分配一致。
 author: ruhercul
-manager: AnnBe
 ms.date: 01/08/2021
 ms.topic: article
 ms.prod: ''
-ms.service: project-operations
 audience: Application User
 ms.reviewer: kfend
 ms.search.scope: ''
@@ -17,12 +15,12 @@ ms.search.industry: Service industries
 ms.author: ruhercul
 ms.dyn365.ops.version: ''
 ms.search.validFrom: 2020-10-01
-ms.openlocfilehash: 8723cfad1e7cd07774e37023c5427b0a5833a554
-ms.sourcegitcommit: cffc84187007b34211c90babef8af5152d4d92ea
+ms.openlocfilehash: be171063c21318f517a37f3088e3f577fd4b6715
+ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "4849613"
+ms.lasthandoff: 05/10/2021
+ms.locfileid: "6000830"
 ---
 # <a name="resource-reconciliation-overview"></a>资源协调概述
 
@@ -48,3 +46,6 @@ _**适用于：** 基于资源/非库存场景的 Project Operations，精简部
 通过 **延长预订** 操作创建的预订与主要项目要求相关联。 发起延长时，无法确定必须延长的特定要求，因为资源可能与项目的多个要求相关联。
 
 然后，项目经理或资源经理可使用日程安排板管理资源超额预订超过其产能的任何情况。
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

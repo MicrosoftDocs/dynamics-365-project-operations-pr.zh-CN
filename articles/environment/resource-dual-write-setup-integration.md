@@ -2,19 +2,17 @@
 title: Project Operations 设置和配置数据集成
 description: 本主题提供有关设置和配置 Project Operations 双重写入映射的信息。
 author: sigitac
-manager: Annbe
 ms.date: 4/23/2021
 ms.topic: article
 ms.prod: ''
-ms.service: project-operations
 ms.reviewer: kfend
 ms.author: sigitac
-ms.openlocfilehash: d5fe81dca30039f99d5d7b9bb459214e540db945
-ms.sourcegitcommit: bc51629df94c164325cf2afee387d0e7cda66da7
+ms.openlocfilehash: 1e9ca9407404274648f359be42d350137775ae55
+ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/23/2021
-ms.locfileid: "5938955"
+ms.lasthandoff: 05/10/2021
+ms.locfileid: "6001055"
 ---
 # <a name="project-operations-setup-and-configuration-data-integration"></a>Project Operations 设置和配置数据集成
 

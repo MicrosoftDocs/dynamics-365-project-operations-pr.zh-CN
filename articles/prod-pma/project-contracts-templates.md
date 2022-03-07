@@ -1,12 +1,10 @@
 ---
 title: 将项目合同和项目直接从 Project Service Automation 同步到 Finance
-description: 此主题介绍用于将项目合同和项目直接从 Microsoft  Dynamics 365 Project Service Automation 同步到 Dynamics 365 Finance 的模板和基础任务。
+description: 此主题介绍用于直接同步 Microsoft Dynamics 365 Project Service Automation 与 Dynamics 365 Finance 的项目合同和项目的模板和基础任务。
 author: Yowelle
-manager: AnnBe
 ms.date: 12/17/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 audience: Application User
 ms.reviewer: josaw
@@ -17,12 +15,12 @@ ms.search.region: Global
 ms.author: andchoi
 ms.search.validFrom: 2017-12-13
 ms.dyn365.ops.version: AX 7.3.0
-ms.openlocfilehash: 1a470fd86ceccd7b6058da6972399a6d6be2a991
-ms.sourcegitcommit: 2b74edd31f38410024a01124c9202a4d94464d04
+ms.openlocfilehash: acb87be977cc009f89ceac5b01c9028d6741b552a441ef49e024b6b078a188d4
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 12/17/2020
-ms.locfileid: "4764808"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "7001060"
 ---
 # <a name="synchronize-project-contracts-and-projects-directly-from-project-service-automation-to-finance"></a>将项目合同和项目直接从 Project Service Automation 同步到 Finance 
 
@@ -44,7 +42,7 @@ Project Service Automation 到 Finance 集成解决方案使用数据集成功�
 
 下图显示 Project Service Automation 与 Finance 之间中如何同步数据。
 
-[![Project Service Automation 与 Finance 集成的数据传输](./media/ProjectsAndContractsFlow_upd.JPG)](./media/ProjectsAndContractsFlow.JPG)
+[![Project Service Automation 与 Finance 集成的数据传输。](./media/ProjectsAndContractsFlow_upd.JPG)](./media/ProjectsAndContractsFlow.JPG)
 
 ## <a name="templates-and-tasks"></a>模板和任务
 
@@ -109,14 +107,14 @@ Project Service Automation 中有一项会影响项目合同行里程碑模板�
 ## <a name="prerequisites-and-mapping-setup"></a>先决条件和映射设置
 
 - 必须先同步科目，才能同步项目合同和项目。
-- 在连接集中，向 **msdyn\_name \[Name\]** 添加 **msdyn\_organizationalunits** 的集成密钥字段映射。 可能首先需要向连接集添加一个项目。 有关详细信息，请参阅[将数据集成到 Common Data Service for Apps](https://docs.microsoft.com/powerapps/administrator/data-integrator)。
-- 在连接集中，向 **msdynce\_projectnumber \[Project Number\]** 添加 **msdyn\_projects** 的集成密钥字段映射。 可能首先需要向连接集添加一个项目。 有关详细信息，请参阅[将数据集成到 Common Data Service for Apps](https://docs.microsoft.com/powerapps/administrator/data-integrator)。
+- 在连接集中，向 **msdyn\_name \[Name\]** 添加 **msdyn\_organizationalunits** 的集成密钥字段映射。 可能首先需要向连接集添加一个项目。 有关详细信息，请参阅[将数据集成到 Common Data Service for Apps](/powerapps/administrator/data-integrator)。
+- 在连接集中，向 **msdynce\_projectnumber \[Project Number\]** 添加 **msdyn\_projects** 的集成密钥字段映射。 可能首先需要向连接集添加一个项目。 有关详细信息，请参阅[将数据集成到 Common Data Service for Apps](/powerapps/administrator/data-integrator)。
 - 可将项目合同和项目的 **SourceDataID** 更新为其他值，也可以将其从映射中移除。 默认模板值为 **Project Service Automation**。
 - 必须更新 **PaymentTerms** 映射，才能在 Finance 中体现有效的付款期限。 也可以从项目任务中移除映射。 默认值映射具有演示数据的默认值。 下表显示 Project Service Automation 中的值。
 
     | Value | 描述   |
     |-------|---------------|
-    | 7     | N30        |
+    | 1     | N30        |
     | 2     | 2/10 N30 |
     | 3     | N45        |
     | 4     | N60        |
@@ -131,7 +129,7 @@ Project Service Automation 中有一项会影响项目合同行里程碑模板�
 如果必须使用 Power Query，请遵守以下准则：
 
 - 项目和合同（PSA 到 Fin and Ops）模板有一个默认筛选器，其中仅包含类型为 **工作项 (msdyn\_ordertype = 192350001)** 的销售订单。 此筛选器有助于确保不在 Finance 中为销售订单创建项目合同。 如果创建自己的模板，则必须添加这个筛选器。
-- 创建一个 Power Query 筛选器，让它仅包含应同步到集成连接集的法人的合同组织。 例如，应将您的包含合同组织单位 Contoso US 的项目合同同步到 USSI 法人，但您的包含合同组织单位 Contoso Global 的项目合同则应同步到 USMF 法人。 如果不向任务映射添加此筛选器，则将把所有项目合同同步到为连接集定义的法人，而不考虑合同组织单位。
+- 创建一个 Power Query 筛选器，让它仅包含应同步到集成连接集的法人的合同组织。 例如，您与 Contoso US 的合同部门之间的项目合同应同步到 USSI 法人，但是与 Contoso Global 的合同部门之间的项目合同应同步到 USMF 法人。 如果不向任务映射添加此筛选器，则将把所有项目合同同步到为连接集定义的法人，而不考虑合同组织单位。
 
 ## <a name="template-mapping-in-data-integration"></a>数据集成中的模板映射
 
@@ -142,14 +140,17 @@ Project Service Automation 中有一项会影响项目合同行里程碑模板�
 
 下图显示了数据集成中的模板任务映射的示例。 此映射显示将从 Project Service Automation 同步到 Finance 的字段信息。
 
-[![项目合同模板映射](./media/ProjectContractTemplateMapping.JPG)](./media/ProjectContractTemplateMapping.JPG)
+[![项目合同模板映射。](./media/ProjectContractTemplateMapping.JPG)](./media/ProjectContractTemplateMapping.JPG)
 
-[![项目模板映射](./media/ProjectTemplateMapping.JPG)](./media/ProjectTemplateMapping.JPG)
+[![项目模板映射。](./media/ProjectTemplateMapping.JPG)](./media/ProjectTemplateMapping.JPG)
 
-[![项目合同子项模板映射](./media/ProjectContractLinesMapping.JPG)](./media/ProjectContractLinesMapping.JPG)
+[![项目合同子项模板映射。](./media/ProjectContractLinesMapping.JPG)](./media/ProjectContractLinesMapping.JPG)
 
-[![项目合同子项里程碑模板映射](./media/ProjectContractLineMilestonesMapping.JPG)](./media/ProjectContractLineMilestonesMapping.JPG)
+[![项目合同子项里程碑模板映射。](./media/ProjectContractLineMilestonesMapping.JPG)](./media/ProjectContractLineMilestonesMapping.JPG)
 
 #### <a name="project-contract-line-milestone-mapping-in-the-projects-and-contracts-psa-3x-to-dynamics---v2-template"></a>项目和合同中的项目合同行里程碑映射（PSA 3.x 到 Dynamics）- v2 模板：
 
-[![使用第二版模板的项目合同子项里程碑映射](./media/ProjectContractLineMilestoneMapping_v2.jpg)](./media/ProjectContractLineMilestoneMapping_v2.jpg)
+[![使用第二版模板的项目合同子项里程碑映射。](./media/ProjectContractLineMilestoneMapping_v2.jpg)](./media/ProjectContractLineMilestoneMapping_v2.jpg)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -2,18 +2,16 @@
 title: 管理项目合同
 description: 此主题提供有关查看基于项目的合同的信息。
 author: rumant
-manager: Annbe
 ms.date: 10/26/2020
 ms.topic: article
-ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: 441fbc378a423334f45bc65658811ef238515393
-ms.sourcegitcommit: 625878bf48ea530f3381843be0e778cebbbf1922
+ms.openlocfilehash: 5e2f182f66bd1f4fe57d19e4bf82525ac8b84c29
+ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/30/2020
-ms.locfileid: "4177320"
+ms.lasthandoff: 05/10/2021
+ms.locfileid: "6003080"
 ---
 # <a name="manage-project-contracts"></a>管理项目合同
 
@@ -33,3 +31,6 @@ Dynamics 365 Project Operations 中的项目合同捕获和管理通过合同协
 2. 选择 **视图切换器**（视图名称旁边的下拉箭头）可以选择其他筛选视图。 您可以创建自己的具有自定义筛选条件的视图。
 
 可以从此列表页或详细信息页面创建或删除合同。
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

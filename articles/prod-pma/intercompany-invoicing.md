@@ -2,11 +2,9 @@
 title: 内部公司开票
 description: 本文提供项目的公司内部开票的信息和示例。
 author: Yowelle
-manager: AnnBe
 ms.date: 09/14/2017
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: LedgerInterCompany
 audience: Application User
@@ -18,12 +16,12 @@ ms.search.region: Global
 ms.author: andchoi
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 76eba87e7cc78dcc14510a8fb53677d626bf204f
-ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
+ms.openlocfilehash: 7c201ccec2069869707409ff6a9236e81e125f06b391c67202927f5c038787d8
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5270757"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6995795"
 ---
 # <a name="intercompany-invoicing"></a>内部公司开票
 
@@ -35,7 +33,7 @@ ms.locfileid: "5270757"
 
 下图显示典型的情况：两个法人，SI FR（借入法人）和 SI USA（借出法人）共享资源以为客户 A 交付项目。这种情况下，SI FR 被签约提供工作给客户 A。 
 
-[![内部公司开票示例](./media/interco.invoicing-01.jpg)](./media/interco.invoicing-01.jpg) 
+[![内部公司开票示例。](./media/interco.invoicing-01.jpg)](./media/interco.invoicing-01.jpg) 
 
 目标是进行更灵活更强大的成本控制、收入确认、纳税和转让内部公司项目交易的价格。 此外，还提供了以下功能︰
 

@@ -2,18 +2,16 @@
 title: 为自定义定价维度创建解决方案
 description: 本主题提供了有关如何为自定义定价维度创建解决方案的信息。
 author: Rumant
-manager: tfehr
 ms.date: 11/09/2020
 ms.topic: article
-ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: 441501dff23d16960381b3f9fb4b2cceba2b3ba5
-ms.sourcegitcommit: 869bde007805ef255f61b03937e4a44aeef61df9
+ms.openlocfilehash: 753f0c4496bafd43d7e4a399cedeb355c2163c7ce56d932b2c786d5f2e672b6b
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/12/2020
-ms.locfileid: "4513963"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6992195"
 ---
 # <a name="create-a-solution-for-custom-pricing-dimensions"></a>为自定义定价维度创建解决方案
 
@@ -28,7 +26,7 @@ ms.locfileid: "4513963"
 2.  将此解决方案命名为 *<your organization name> 定价维度*。
 3. 输入其余所需信息，然后选择 **保存**。
 
-  ![创建自定义定价维度解决方案](./media/Creation-of-custom-pricing-dimension-solution.png)
+  ![创建自定义定价维度解决方案。](./media/Creation-of-custom-pricing-dimension-solution.png)
  
 ## <a name="add-all-required-entities-and-related-components-to-the-pricing-dimension-solution"></a>向定价维度解决方案添加所有必需实体和相关组件
 
@@ -51,16 +49,19 @@ ms.locfileid: "4513963"
    - **角色价格**
    - **时间条目**
  
-   ![添加现有实体的自定义定价维度解决方案](./media/Existing-entities-to-PD-solution.png)
+   ![添加现有实体的自定义定价维度解决方案。](./media/Existing-entities-to-PD-solution.png)
  
  4. 对于每个实体，查看要添加的组件以及每个实体的实体资产最终列表。 
 
    >[!NOTE]
    > 包括所选每个实体的所有窗体和视图。
 
-  ![已添加实体](./media/solution-component-selection.png)
+  ![已添加实体。](./media/solution-component-selection.png)
 
 
 5.  当提示包括所选实体的任何相关实体时，选择 **否，不包含必需组件。**
 
-    ![包括相关实体](./media/Do-not-include-required.png)
+    ![包括相关实体。](./media/Do-not-include-required.png)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -2,18 +2,16 @@
 title: 设置人工帐单费率
 description: 此主题提供有关如何在 Project Operations 中设置人工记帐费率的信息。
 author: rumant
-manager: Annbe
 ms.date: 04/07/2021
 ms.topic: article
-ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: f0267fce673bbd0080022a8abf2dd0020cc8b662
-ms.sourcegitcommit: ac90be6106592f883a0de39a75836fb40255d65a
+ms.openlocfilehash: 0fee2c98713f4d1f8da85a0b60fb3fc2a873e5f82a64cf350ebeb68fe65fab35
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/09/2021
-ms.locfileid: "5877389"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "7003535"
 ---
 # <a name="set-up-labor-bill-rates"></a>设置人工帐单费率
 

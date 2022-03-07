@@ -2,18 +2,16 @@
 title: 维护团队成员
 description: 本主题介绍如何为项目团队预订指定资源和将其分派给任务。
 author: ruhercul
-manager: AnnBe
 ms.date: 10/05/2020
 ms.topic: article
-ms.service: project-operations
 ms.reviewer: kfend
 ms.author: ruhercul
-ms.openlocfilehash: abab21ff98481166517be0c74a2c14c36d5e9d1d
-ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
+ms.openlocfilehash: 851d63510a2e8e7917fa432988a7c4d74597adacbb64ebea646f23f958e3e131
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/28/2020
-ms.locfileid: "4131512"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6997055"
 ---
 # <a name="maintain-team-members"></a>维护团队成员
 
@@ -42,3 +40,6 @@ _**适用于：** 基于资源/非库存场景的 Project Operations，精简部
 可使用 **协调** 选项卡的扩展预订功能或 **日程安排板** 为项目预订资源产能。
 
 为项目预订团队成员之后，您可以使用 **维护预订** 或直接使用 **日程安排板** 来管理其预订。
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

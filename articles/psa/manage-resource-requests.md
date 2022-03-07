@@ -2,8 +2,6 @@
 title: 管理资源请求
 description: 如何在 Project Service 中管理资源请求
 author: JohnPBurrows
-manager: kfend
-ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 8/03/2018
@@ -18,12 +16,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 4fa7db6ab96cd4e93ba973b3c9466fe12ed57c7f
-ms.sourcegitcommit: 418fa1fe9d605b8faccc2d5dee1b04b4e753f194
+ms.openlocfilehash: 518edcb210e33a7922e8920f896479a79d264ab62742641cc66b7c3a33b6c6e8
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/10/2021
-ms.locfileid: "5149847"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6985130"
 ---
 # <a name="manage-resource-requests-project-service"></a>管理资源请求 (Project Service)
 
@@ -45,9 +43,12 @@ ms.locfileid: "5149847"
   
    -   单击 **筛选器** 显示 **筛选器** 窗格，在其中按部门、角色、技能或其他属性筛选结果。  
   
-       ![Project Service 资源请求屏幕](../psa/media/project-service-resource-request-screen.png "Project Service 资源请求屏幕")  
+       ![Project Service 资源请求屏幕。](../psa/media/project-service-resource-request-screen.png "Project Service 资源请求屏幕")  
   
 3. 在您要预订的资源的日历中，选择预订资源的时间段，然后单击 **预订** 以预订资源或 **建议预订** 以建议预订并让请求人进行批准。 预订资源时，可以软预订，也可以硬预订。  
   
 ### <a name="see-also"></a>另请参阅  
  [资源经理指南](../psa/resource-manager-guide.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

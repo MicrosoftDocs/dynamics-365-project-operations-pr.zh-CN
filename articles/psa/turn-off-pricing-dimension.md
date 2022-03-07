@@ -17,16 +17,14 @@ search.audienceType:
 search.app:
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: da0ac942579ba8d9b2258a011b8eeef8e64ba9c9
-ms.sourcegitcommit: 418fa1fe9d605b8faccc2d5dee1b04b4e753f194
+ms.openlocfilehash: 1ae95430c368370145c7081a5d94d6161a7700b4
+ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/10/2021
-ms.locfileid: "5147282"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "4072689"
 ---
 # <a name="turn-off-a-pricing-dimension"></a>关闭定价维度
-
-[!include [banner](../includes/psa-now-project-operations.md)]
 
 您可能需要每隔数年检查和更新自己的定价策略。 您进行的任何更新都可能会要求您关闭现有定价维度并创建一个新的。 例如，您可能以前按 **角色** 定价，但现在决定按 **工作经验** 定价。 这可能需要您关闭充当定价维度的 **角色**，并创建 **工作经验** 充当新定价维度。 
 

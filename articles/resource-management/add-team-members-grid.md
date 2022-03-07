@@ -2,18 +2,16 @@
 title: 从团队成员网格添加团队成员
 description: 此主题介绍如何管理团队成员资源。
 author: ruhercul
-manager: AnnBe
 ms.date: 10/01/2020
 ms.topic: article
-ms.service: project-operations
 ms.reviewer: kfend
 ms.author: ruhercul
-ms.openlocfilehash: de73dac28046ec98ed201e129be6511f894223fd
-ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
+ms.openlocfilehash: 95f9e1d836e49672cfb51ace59aa77ea9da65b35
+ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/28/2020
-ms.locfileid: "4121522"
+ms.lasthandoff: 05/10/2021
+ms.locfileid: "5998850"
 ---
 # <a name="add-team-members-from-the-team-member-grid"></a>从团队成员网格添加团队成员
 
@@ -200,3 +198,6 @@ Project Operations 中有一个 **协调** 选项卡，可供项目经理在项�
 如果某个资源有任务分派，但是无预订，请在 **项目** 窗体的 **协调** 选项卡上选择预订不足，然后选择 **扩展预订**。 将显示 **扩展预订** 对话框，其中显示需要来解决资源不足的预订。 此对话框还显示该资源在所有项目或其他可计划实体中的现有预订。 如果选择 **确定** 为资源创建预订，无论该资源是否可用，都可能导致超额预订。
 
 然后，项目经理或资源经理可使用日程安排板管理资源超额预订超过其产能的任何情况。
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

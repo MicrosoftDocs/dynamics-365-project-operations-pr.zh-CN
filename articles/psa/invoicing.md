@@ -17,12 +17,12 @@ search.audienceType:
 search.app:
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 0855e85c1f09d29d3ecb49ba517fd3043ae11140
-ms.sourcegitcommit: 418fa1fe9d605b8faccc2d5dee1b04b4e753f194
+ms.openlocfilehash: 5d9fff2d3b26da73e5a236cd8607576439fc1a08
+ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/10/2021
-ms.locfileid: "5151377"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5284257"
 ---
 # <a name="invoicing-in-project-service-automation"></a>Project Service Automation 中的开票
 
@@ -117,3 +117,6 @@ PSA 不应生成面向客户的发票，原因如下：
 
 - 六小时的已记帐实际销售额。
 - 其余两小时的未记帐实际销售额。 以后可为此交易记帐或标记为非应计费，具体取决于与客户的协商结果。
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

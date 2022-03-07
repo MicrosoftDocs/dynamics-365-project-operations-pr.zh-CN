@@ -2,8 +2,6 @@
 title: 报价单和报价单明细
 description: 本主题提供有关报价单和报价单明细的信息。
 author: rumant
-manager: kfend
-ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 3/01/2019
@@ -18,12 +16,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 024a7cdb81340a077e839d92c4321c8b0051404b
-ms.sourcegitcommit: 418fa1fe9d605b8faccc2d5dee1b04b4e753f194
+ms.openlocfilehash: c98708cf91f9c5d078f3a1d3d619c9ca93cffa3e6bbca34511947b602a1c678a
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/10/2021
-ms.locfileid: "5145101"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6995435"
 ---
 # <a name="quotes-and-quote-lines"></a>报价单和报价单明细
 
@@ -86,7 +84,7 @@ PSA 中基于项目的报价单明细采用以下记帐方法：
 
 可以为每项报价单明细关联这些交易分类中的一种或多种。 报价单赢单后，将把交易分类与报价单明细之间关联转给合同明细。
  
-> ![将交易类型映射到报价单和合同明细的屏幕截图](media/basic-guide-5.png)
+> ![将交易类型映射到报价单和合同明细的屏幕截图。](media/basic-guide-5.png)
   
 例如，报价单中可能包含以下两项报价单明细： 
 - 使用了其中适用时间和费用交易分类的时间和材料记帐方法的咨询工作。 例如，根据所用时间和材料向客户开 **Dynamics AX 实施** 示例项目所有时间和费用交易的发票。 
@@ -131,3 +129,6 @@ PSA 使用这些属性值生成一组要开票的暂定日期。
 - 若要创建等分记帐里程碑，请选择一个发票频率，输入报价单明细的记帐开始日期，然后在报价单标头的 **摘要** 部分中输入报价单的 **请求的完成日期**。 然后选择 **生成定期里程碑** 基于所选发票频率创建等分里程碑。 
 - 若要创建包干记帐里程碑，请创建一个里程碑，然后输入报价单明细值作为里程碑金额。
 - 若要创建基于项目计划中的特定任务的记帐里程碑，请创建一个里程碑，然后将其映射到项目在记帐里程碑 UI 中的计划元素。
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -2,18 +2,16 @@
 title: 满足通用资源要求
 description: 此主题介绍如何为通用资源要求预订指定资源。
 author: ruhercul
-manager: AnnBe
 ms.date: 09/23/2020
 ms.topic: article
-ms.service: project-operations
 ms.reviewer: kfend
 ms.author: ruhercul
-ms.openlocfilehash: 3c4d02fd589d4a5d39380688852377f57fceb05b
-ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
+ms.openlocfilehash: 4ff8f74fdaeac9757af8df4803e58a006ebb9fe21a460cf0ffcb35f1a4d6308f
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/28/2020
-ms.locfileid: "4130296"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "7008260"
 ---
 # <a name="generic-resource-requirement-fulfillment"></a>满足通用资源要求
 
@@ -39,3 +37,6 @@ _**适用于：** 基于资源/非库存场景的 Project Operations，精简部
 此方案的主要区别是，分派给任务的团队中仍然保留通用资源，并且此位置中不分派预订的指定资源团队成员。 项目经理可以根据需要将工作分派给指定资源。 **协调** 视图可帮助项目经理将多项资源的预订分解为任务分派。 不会自动执行此操作，因为在比上面的简单示例更复杂的方案中（如您有大量任务构成要求或项目经理希望如何分配的意图）需要系统假设。 因为系统无法理解意图，所以假设可能与意图不同，并且可能会出现错误结果或不可预料的结果。 可预测结果是项目经理在 **协调** 视图的协助下特意创建资源之前，一直使用分派的通用资源。
 
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

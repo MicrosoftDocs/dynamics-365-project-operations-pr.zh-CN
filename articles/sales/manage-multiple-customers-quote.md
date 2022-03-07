@@ -2,18 +2,16 @@
 title: 管理项目报价单上的多个客户
 description: 本主题提供处理涉及多个将为项目提供资金的客户的报价单的信息。
 author: rumant
-manager: Annbe
 ms.date: 10/01/2020
 ms.topic: article
-ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: 67e927962feb248aa7f07a69463b433e1ec89761
-ms.sourcegitcommit: f6f86e80dfef15a7b5f9174b55dddf410522f7c8
+ms.openlocfilehash: eef3e8754cdfdb810ffd5283976445edbb126b51e20d5b51d603d2ba9e2c02c9
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/31/2020
-ms.locfileid: "4181981"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6991970"
 ---
 # <a name="manage-multiple-customers-on-a-project-quote"></a>管理项目报价单上的多个客户
 
@@ -23,7 +21,7 @@ _**适用于：** 基于资源/非库存场景的 Project Operations，精简部
 
 项目报价单的 **客户** 选项卡上的所有报价单客户默认为为报价单创建的任何 **新** 的基于项目的报价单明细上的报价单明细客户。 任何现有的基于项目的报价单明细都不会继承在它们之后创建的新报价单客户记录。
 
-在报价单赢单之前，报价单客户和报价单明细客户可以随时添加、更新或删除。 报价单上的有效客户必须在 **客户** 页上设置为业主公司或法人中的客户。 法人在 Dynamics 365 Project Operations 的 **项目管理和会计** 模块中设置，在 Project Operations 的 **项目销售和交付** 模块中作为公司出现。
+在报价单赢单之前，报价单客户和报价单明细客户可以随时添加、更新或删除。 报价单上的有效客户必须在 **客户** 页上设置为业主公司或法人中的客户。 法律实体在 Dynamics 365 Project Operations 的 **项目管理和会计** 模块中设置，并且可以在 Project Operations 的 **项目销售和交付** 模块中用作公司。
 
 ## <a name="concept-of-a-primary-customer"></a>主要客户概念
 
@@ -51,3 +49,6 @@ _**适用于：** 基于资源/非库存场景的 Project Operations，精简部
 您可以使用内嵌网格编辑体验来编辑计费拆分百分比。 如果计费拆分百分比总计不是 100%，将出现错误。 更新计费拆分百分比后，刷新页面以清除错误。
 
 您还可以尝试选择报价单客户的子网格上的 **平均分配**。 此操作会将计费拆分分配给所有报价单客户。 如果有任何舍入系数，将添加到舍入客户。 其中一个报价单客户始终标记为舍入客户。 这意味着报价单客户记录的 **舍入** 标志设置为 **是**。 这通常是报价单的主要客户，但可以更改。
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

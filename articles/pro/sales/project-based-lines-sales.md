@@ -2,18 +2,16 @@
 title: 基于项目的商机明细 - 精简
 description: 此主题提供有关基于项目的商机明细的信息。 (Pro)
 author: rumant
-manager: Annbe
 ms.date: 10/01/2020
 ms.topic: article
-ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: cac6125abc7269ee95667ae589d5a748b3d4190c
-ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
+ms.openlocfilehash: 1978b452b84486cabd5b6b4e550261e2c8f76cd89a140709b137ac184c8967c1
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5272512"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6998990"
 ---
 # <a name="project-based-opportunity-lines---lite"></a>基于项目的商机明细 - 精简
 

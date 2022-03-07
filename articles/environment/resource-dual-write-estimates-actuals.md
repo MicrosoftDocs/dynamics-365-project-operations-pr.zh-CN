@@ -7,12 +7,12 @@ ms.topic: article
 ms.prod: ''
 ms.reviewer: kfend
 ms.author: sigitac
-ms.openlocfilehash: c558ab1eb5070f6d1a2db06b630e8807cc67819f9bdd57c15ec346f484e04fe9
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: d8aa1541a3560db175acead1d000895312b299db
+ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "7006280"
+ms.lasthandoff: 05/10/2021
+ms.locfileid: "6000020"
 ---
 # <a name="project-estimates-and-actuals-integration"></a>项目估计值和实际值集成
 
@@ -30,7 +30,7 @@ _**适用于：** 面向资源/非库存场景的 Project Operations_
 
 人力估算由项目经理或资源经理创建，他们同时负责为项目任务分配通用或指定资源。 可以在 Dataverse 中 **项目详细信息** 页上的 **资源分配** 选项卡上查看资源分配记录。 Dataverse 中的资源分配记录使用 **用于工时估算的 Project Operations 集成实体 (msdyn\_resourceassignments)** 在 Finance and Operations 应用中创建工时预测记录。
 
-   ![人力估算集成。](./Media/DW4LaborEstimates.png)
+   ![人力估算集成](./Media/DW4LaborEstimates.png)
 
 双重写入将资源分配记录同步到暂存表 (**ProjCDSEstimateHoursImport**)，然后使用业务逻辑创建和更新工时预测记录 (**ProjForecastEmpl**)。
 
@@ -40,7 +40,7 @@ _**适用于：** 面向资源/非库存场景的 Project Operations_
 
 支出估算由项目经理在 Dataverse 中 **项目详细信息** 页上的 **支出估算** 选项卡上创建。 支出估算记录存储在 Dataverse 中的 **估算明细** 实体中。 这些估算记录的交易类为 **支出**，记录将使用 **支出估算的 Project Operations 集成实体 (msdyn\_estimatelines)** 同步到 Finance and Operations 应用中的支出预测记录。
 
-   ![支出估算集成。](./Media/DW4ExpenseEstimates.png)
+   ![支出估算集成](./Media/DW4ExpenseEstimates.png)
 
 双重写入将支出估算记录同步到暂存表 **(ProjCDSEstimateExpenseImport)**，然后使用业务逻辑创建和更新支出预测记录 (**ProjForecastCost**)。 估算明细分别存储销售估算和成本估算记录。 Finance and Operations 应用中的业务逻辑使用暂存表中的这一详细信息填充单个支出预测记录。
 
@@ -50,7 +50,7 @@ _**适用于：** 面向资源/非库存场景的 Project Operations_
 
 材料估算由项目经理在 Dataverse 中 **项目详细信息** 页上的 **材料估算** 选项卡上创建。 材料估算记录存储在 Dataverse 中的 **估算明细** 实体中。 这些估算记录的交易类为 **材料**，记录将使用 **材料估算的 Project Operations 集成表 (msdyn\_estimatelines)** 同步到 Finance and Operations 应用中的物料预测记录。
 
-   ![材料估算集成。](./Media/DW4MaterialEstimates.png)
+   ![材料估算集成](./Media/DW4MaterialEstimates.png)
 
 双重写入将材料估算记录同步到暂存表 **ProjForecastSalesImpor**，然后使用业务逻辑创建和更新物料预测记录 (**ForecastSales**)。 估算明细分别存储销售估算和成本估算记录。 Finance and Operations 应用中的业务逻辑使用暂存表中的这一详细信息填充单个物料预测记录。
 
@@ -60,7 +60,7 @@ _**适用于：** 面向资源/非库存场景的 Project Operations_
 
 项目实际值在 Dataverse 中根据时间、支出、材料和记帐活动创建。 这些交易的所有操作属性（包括数量、成本费、售价和项目）都在此 Dataverse 实体中捕获。 有关详细信息，请参阅[实际值](../actuals/actuals-overview.md)。 实际值记录将使用双重写入表映射 **Project Operations 集成实际值 (msdyn\_actuals)** 同步到 Finance and Operations 应用，以进行下游会计工作。
 
-   ![实际值集成。](./Media/DW4Actuals.png)
+   ![实际值集成](./Media/DW4Actuals.png)
 
 **Project Operations 集成实际值** 表映射将同步 Dataverse 中 **实际值** 实体中的所有记录，属性 **跳过同步(仅供内部使用)** 设置为 **False**。 此属性值在创建记录时在 Dataverse 中自动设置。 将此属性设置为 **True** 的示例有：
 

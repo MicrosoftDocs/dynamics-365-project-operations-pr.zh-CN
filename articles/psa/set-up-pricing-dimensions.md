@@ -17,16 +17,14 @@ search.audienceType:
 search.app:
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 7576f73240a7366175d7be39815583a5c9cf7187
-ms.sourcegitcommit: 418fa1fe9d605b8faccc2d5dee1b04b4e753f194
+ms.openlocfilehash: fed8d1d478dfcceb7a1e848b6432563e3b94dcf8
+ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/10/2021
-ms.locfileid: "5150342"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "4072819"
 ---
 # <a name="setting-up-custom-fields-as-pricing-dimensions"></a>将自定义字段设置为定价维度 
-
-[!include [banner](../includes/psa-now-project-operations.md)]
 
 首先，此主题假设您已完成了主题[创建自定义字段和实体](create-custom-fields-entities.md)和[向价格设置和交易实体添加自定义字段](field-references.md)中的过程。 如果尚未完成这些过程，请回去完成，然后回到此主题。 
 

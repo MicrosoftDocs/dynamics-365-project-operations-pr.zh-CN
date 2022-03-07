@@ -2,18 +2,16 @@
 title: 为保留款或预付款开票
 description: 此主题提供有关如何在 Project Operations 中为保留款或预付款开票的信息。
 author: rumant
-manager: Annbe
 ms.date: 10/20/2020
 ms.topic: article
-ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: 12bf3822227badcf8c83d84d6aef6c0fdc7a972a
-ms.sourcegitcommit: 250270409412ba4cad95fbd4c345a80d3d2b3e53
+ms.openlocfilehash: 25c0c979056d89d44a1bd67dbfdcb180d897de65eaf3374cec0a2dc73c4e3568
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/21/2020
-ms.locfileid: "4596181"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6997460"
 ---
 # <a name="invoice-a-retainer-or-an-advance"></a>对保留款或预付款开票
 
@@ -51,3 +49,6 @@ Dynamics 365 Project Operations 支持基于保留款的合同和一次性预付
 | 已用金额 | **项目发票** 页上的 **已应用的预付款和保留款** 网格  | 此只读字段提供汇总已使用的保留款或预付款金额的计算值。 | 此字段可以在打印的发票上向客户显示，以指示此保留款或预付款中已使用的金额。 |
 | 应收净额 | **项目发票** 页上的 **已应用的预付款和保留款** 网格  | 此可编辑字段提供此项目发票上正在使用的保留款或预付款的金额。 此金额不能超过预付款的可用金额。 系统会自动将其计算为网格上 **金额** 和 **已用金额** 字段之间的差值。 您可以减少此金额以使用低于可用金额的额度，但不能增加来使用超过可用金额的额度。 | 此字段可以在打印的发票上向客户显示，以指示发票上正在使用的此保留款或预付款的金额。 |
 | 余额保留款金额。 | **项目发票** 页上的 **已应用的预付款和保留款** 网格  | 此只读字段提供在确认发票后将剩余的保留款或预付款金额的值。 | 此字段可以在打印的发票上向客户显示，以指示确认并支付发票后，此保留款或预付款将剩余的金额。 |
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

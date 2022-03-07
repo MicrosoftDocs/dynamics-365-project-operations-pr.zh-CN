@@ -8,18 +8,18 @@ ms.topic: article
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: bec6afe04a705d4f55ac3a7de93a64b47021fbb4
-ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
+ms.openlocfilehash: c3752abd26e760d27320d2b86079d84a967d53cf
+ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/28/2020
-ms.locfileid: "4122332"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5287722"
 ---
 # <a name="manage-the-billing-backlog"></a>管理记帐积压
 
 _**适用于：** 基于资源/非库存场景的 Project Operations，精简部署 - 估价开票交易_
 
-Dynamics 365 Project Operations 有两个专用视图，帮助您处理和管理记帐积压。 它们是 **固定价格里程碑** 和 **时间和材料记帐积压** 要选择视图，在 Project Operations 的 **销售** 区域，在左侧导航页上，选择 **记帐**。 记帐积压链接存储在那里。
+Dynamics 365 Project Operations 有两个专用视图来帮助处理和管理计费积压。 它们是 **固定价格里程碑** 和 **时间和材料记帐积压** 要选择视图，在 Project Operations 的 **销售** 区域，在左侧导航页上，选择 **记帐**。 记帐积压链接存储在那里。
 
 ## <a name="fixed-price-milestones"></a>固定价格里程碑
 
@@ -38,3 +38,6 @@ Dynamics 365 Project Operations 有两个专用视图，帮助您处理和管理
 对于使用时间和材料记帐方法的多客户合同子项，当时间和支出被批准后，将根据为合同子项上每个客户定义的记帐百分比拆分，在合同子项上为每个客户创建未记帐实际销售额。 在 **时间和材料记帐积压** 视图中，您将看到这些特定于客户的单个的未记帐实际销售额。 可以从此视图将这些未记帐实际销售额记录中的各个记录单独标记为 **可开票**。
 
 草稿发票上的未记帐实际销售额将在此视图中显示，其 **记帐状态** 为 **客户发票已创建**。 确认草稿发票后，此记录上的记帐状态将更新为 **客户发票已过帐**。 当此状态值处于此状态是，不建议您使用自定义代码更新此状态值。 使用自定义代码更新这些状态值后，Project Operations 将无法正常工作。
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

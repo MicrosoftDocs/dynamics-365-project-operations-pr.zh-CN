@@ -2,8 +2,6 @@
 title: 项目资源中心的用户指南
 description: Project Service 的项目资源中心最终用户指南
 author: ruhercul
-manager: kfend
-ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 8/03/2018
@@ -18,12 +16,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 2450c00bae9eeb31d3b4bb14e6255e0681997672
-ms.sourcegitcommit: 3d78338773929121d17ec3386f6cb67bfb2272cc
+ms.openlocfilehash: ac815eb82114c00af712a7ae76e43f28841ac5023be81f97718dc7ce529e1d34
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/27/2021
-ms.locfileid: "5948121"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6987245"
 ---
 # <a name="user-guide-for-project-resource-hub"></a>项目资源中心的用户指南
 
@@ -51,31 +49,31 @@ ms.locfileid: "5948121"
 [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [安装适用于手机和平板电脑的 Dynamics 365](/dynamics365/mobile-app/install-dynamics-365-for-phones-and-tablets)。
 
 ## <a name="basic-navigation"></a>基本导航栏
-1.  登录移动设备应用程序时，将显示“我的应用程序”页面，其中包含一列您可以访问的应用程序。 
+1.  登录移动设备应用程序时，将显示 MyApps 页面，其中包含一列您可以访问的应用程序。 
 2.  选择 **项目资源中心**。
 
-![选择应用](media/chooseApp_1.png "选择应用")
+![选择一个应用程序。](media/chooseApp_1.png "选择应用")
 
 **使用导航栏**
 
-可使用导航栏访问工作区域，创建记录，进行搜索或执行其他任务。 若要访问更多命令，请点按 ![“更多”按钮](media/MoreButton.png "“更多”按钮")
+可使用导航栏访问工作区域，创建记录，进行搜索或执行其他任务。 若要访问更多命令，请点击 ![“更多”按钮。](media/MoreButton.png "“更多”按钮")
 
-![导航栏](media/NavBar_2.png "导航栏")
+![导航栏。](media/NavBar_2.png "导航栏")
 
 **收藏夹和最近使用的记录**
 
 可通过“收藏夹”和“最近使用”部分快速访问您的记录、视图和仪表板。 
 
-- 若要访问这些部分，请点按导航栏上的 **菜单** ![菜单按钮](media/MenuButton.png "菜单按钮") 按钮，然后点按 **收藏夹和最近** ![“收藏夹”按钮](media/FavButton.png "收藏夹按钮") 按钮。
+- 要访问这些部分，请点击导航栏上的 **菜单** ![菜单按钮。](media/MenuButton.png "菜单按钮") 按钮，然后点击 **收藏夹和最近记录** ![收藏夹按钮](media/FavButton.png "收藏夹按钮") 按钮。
 
 - 若要将某项固定为收藏项，请在 **最近使用** 项列表中点按图钉。 这将为该项添加图钉并移动到收藏夹。
 
-  ![收藏夹和最近项](media/Favs_3.png "收藏夹和最近项")
+  ![收藏夹和最近项。](media/Favs_3.png "收藏夹和最近项")
  
 ## <a name="enter-time"></a>输入时间
 至少每周或以您经理要求的频率输入您的时间，以确保您的客户端开具发票，并且您已被正确记入。
 
-1. 点按菜单 ![菜单按钮](media/MenuButton.png "菜单按钮") 按钮，然后点按 **时间条目**。 这将调出您的日历。
+1. 点击菜单 ![菜单按钮。](media/MenuButton.png "菜单按钮") 按钮，然后点击 **时间条目**。 这将调出您的日历。
 
 2. 要查看日历的上一周或下一周，请点按 **上一周** 或 **下一周** 按钮。 点按 **今天** 将回到本周。
 

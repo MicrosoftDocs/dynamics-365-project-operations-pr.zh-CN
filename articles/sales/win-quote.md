@@ -2,24 +2,22 @@
 title: 结束报价单
 description: 此主题提供有关在 Project Operations 中结束报价单的信息。
 author: rumant
-manager: Annbe
 ms.date: 10/01/2020
 ms.topic: article
-ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: 47804db0144c2b0f9dee2c60518e8aba6fb27473
-ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
+ms.openlocfilehash: 3f46bf61bc3e492a648d65e86750a25609d5ab7a
+ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/28/2020
-ms.locfileid: "4124672"
+ms.lasthandoff: 05/10/2021
+ms.locfileid: "5995925"
 ---
 # <a name="close-a-quote"></a>结束报价单
 
 _**适用于：** 面向资源/非库存场景的 Project Operations_
 
-项目报价单可作为赢单或丢单结束。 由于 Microsoft Dynamics 365 Project Operations 中的报价单不支持“激活”和“修订”功能，因此您可以结束草稿报价单。
+项目报价单可作为赢单或丢单结束。 因为 Microsoft Dynamics 365 Project Operations 中不支持对报价单执行激活和修订功能，所以您可以结束草稿报价单。
 
 ## <a name="close-a-quote-as-won"></a>作为赢单结束报价单
 
@@ -43,3 +41,6 @@ _**适用于：** 面向资源/非库存场景的 Project Operations_
 
 > [!NOTE]
 > 在 Project Operations 中，将报价单作为赢单或丢单结束不会影响商机的状态，在手动结束前商机会一直处于开启状态。
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

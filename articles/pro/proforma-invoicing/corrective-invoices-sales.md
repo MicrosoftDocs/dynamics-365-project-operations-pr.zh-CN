@@ -1,21 +1,21 @@
 ---
-title: 更正项目发票
-description: 本主题提供关于如何在 Project Operations 中创建并确认更正发票的信息。
+title: 贷记和更正发票
+description: 此主题提供有关 Project Operations 中的更正发票的信息
 author: rumant
 manager: Annbe
-ms.date: 04/05/2021
+ms.date: 10/15/2020
 ms.topic: article
-ms.service: project-operations
+ms.service: dynamics-365-customerservice
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: ae6d881e4e68b9f467478afe9735fc3186e6b0a8
-ms.sourcegitcommit: ca0fc078d1a12484eca193fe051b8442c0559db8
+ms.openlocfilehash: d2187627439d42b37222dce0a491c62dafc358d5
+ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/07/2021
-ms.locfileid: "5866580"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "4072715"
 ---
-# <a name="corrective-project-invoices"></a>更正项目发票
+# <a name="credits-and-corrected-invoices"></a>贷记和更正发票
 
 _**适用于：** 精简部署 - 估价交易开票_
 
@@ -37,9 +37,9 @@ _**适用于：** 精简部署 - 估价交易开票_
 > [!IMPORTANT]
 > 作为其他已开票费用的更正内容的发票明细详细信息，会将字段 **更正** 设置为 **是**。 包含更正发票明细详细信息的发票具有名为 **具有更正** 的字段，此字段也会设置为 **是**。
 
-## <a name="actuals-created-when-a-corrective-invoice-is-confirmed"></a>确认更正发票后创建的实际值
+## <a name="actuals-created-on-confirmation-of-a-corrective-invoice"></a>确认纠正发票时创建的实际值：
 
-下表列出了确认纠正发票后创建的实际值。
+以下是应用程序在确认之前，基于对草稿纠正发票执行的操作确认纠正时创建的实际值。
 
 <table border="0" cellspacing="0" cellpadding="0">
     <tbody>
@@ -214,51 +214,6 @@ _**适用于：** 精简部署 - 估价交易开票_
         <tr>
             <td width="216" rowspan="2" valign="top">
                 <p>
-对先前已开票材料交易的全部贷记开具发票。
-                </p>
-            </td>
-            <td width="408" valign="top">
-                <p>
-原始材料发票明细详细信息中数量和金额的记帐销售冲销。
-                </p>
-            </td>
-        </tr>
-        <tr>
-            <td width="408" valign="top">
-                <p>
-原始材料发票明细详细信息中数量和金额的新未记帐销售实际值。
-                </p>
-            </td>
-        </tr>
-        <tr>
-            <td width="216" rowspan="3" valign="top">
-                <p>
-对材料交易上的部分贷记开具发票。
-                </p>
-            </td>
-            <td width="408" valign="top">
-                <p>
-原始材料发票明细详细信息中开票的数量和金额的记帐销售冲销。
-                </p>
-            </td>
-        </tr>
-        <tr>
-            <td width="408" valign="top">
-                <p>
-一个新的未记帐销售实际值，对于编辑的发票明行明细上的数量和金额、其冲销和等值的已记帐销售实际值，该未记帐销售实际值为非应计费。
-                </p>
-            </td>
-        </tr>
-        <tr>
-            <td width="408" valign="top">
-                <p>
-扣除发票明细详细信息中的更正数字后，剩余数量和金额应计费的新的未记帐实际销售额。
-                </p>
-            </td>
-        </tr>
-        <tr>
-            <td width="216" rowspan="2" valign="top">
-                <p>
 为之前开票的费用交易的完全贷记开票。
                 </p>
             </td>
@@ -305,7 +260,7 @@ _**适用于：** 精简部署 - 估价交易开票_
 原始里程碑发票明细详细信息中金额的已记帐销售额冲销。
                 </p>
                 <p>
-里程碑的发票状态从<b>客户发票已过帐</b>更新为<b>已准备好开单</b>。
+项目合同子项上的里程碑发票或记帐状态将更新为 **可开票**。
                 </p>
             </td>
         </tr>
@@ -333,6 +288,3 @@ _**适用于：** 精简部署 - 估价交易开票_
         </tr>
     </tbody>
 </table>
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

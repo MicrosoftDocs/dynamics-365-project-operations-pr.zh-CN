@@ -1,21 +1,19 @@
 ---
-title: 管理计费积压 - 精简
-description: 此主题提供有关在管理计费积压时可使用的各种视图的信息。
+title: 管理项目记帐积压
+description: 本主题提供了有关管理项目记帐积压时可以使用的各种视图的信息。
 author: rumant
-manager: Annbe
 ms.date: 10/26/2020
 ms.topic: article
-ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: 0e3ca167fa53a6923727eff3e7c34c8706dc7455
-ms.sourcegitcommit: 625878bf48ea530f3381843be0e778cebbbf1922
+ms.openlocfilehash: 27ef2ae90778394d15b979a13215c8f5af483cda0312682e9fc7256b8282b999
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/30/2020
-ms.locfileid: "4176959"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6988280"
 ---
-# <a name="manage-the-billing-backlog---lite"></a>管理计费积压 - 精简
+# <a name="manage-project-billing-backlog"></a>管理项目记帐积压 
 
 _**适用于：** 精简部署 - 估价交易开票_
 
@@ -60,3 +58,6 @@ Dynamics 365 Project Operations 有专用视图来帮助管理计费积压。 �
 如果多客户合同子项具有时间和材料计费方法，在时间和支出被批准时，将根据为每个客户定义的计费百分比拆分，为合同子项上的每个客户创建未记帐实际销售额。 在 **时间和材料计费积压** 视图中，您将看到各个特定于客户的未记帐实际销售额。 可以从此视图将这些未记帐实际销售额记录中的各个记录单独标记为 **可开票**。
 
 在草稿发票上的未记帐实际销售额将显示在此视图中，计费状态为 **客户发票已创建**。 确认草稿发票后，此记录上的记帐状态将更新为 **客户发票已过帐**。 不要使用自定义代码更新此状态值。 使用自定义代码更新这些状态值时，Project Operations 将无法正常运行。
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

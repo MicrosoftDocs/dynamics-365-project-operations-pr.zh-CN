@@ -2,18 +2,16 @@
 title: 管理基于项目的报价单明细上的多个客户
 description: 此主题提供有关如何在基于项目的报价单明细中管理多个客户的信息。
 author: rumant
-manager: Annbe
 ms.date: 10/06/2020
 ms.topic: article
-ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: 48336af0ad522e9d6aa68fa82ffa7921f09662d4
-ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
+ms.openlocfilehash: bf3d10cc4a742f7247586d09f5b209cbfdbbd790bdf97e09da06d9db583e61a5
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/28/2020
-ms.locfileid: "4118552"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6992015"
 ---
 # <a name="manage-multiple-customers-on-project-based-quote-lines"></a>管理基于项目的报价单明细上的多个客户
 
@@ -44,3 +42,6 @@ _**适用于：** 面向资源/非库存场景的 Project Operations_
 您可以内联编辑计费拆分百分比。 如果计费拆分百分比总计不是 100%，将出现错误。 编辑计费拆分百分比后，刷新报价单明细页面以清除错误。
 
 在报价单明细客户子网格上使用平均分配操作，将计费拆分分配给所有报价单明细客户。 如果有舍入系数，将添加到舍入客户。 其中一个报价单明细客户会始终标记为舍入客户，这意味着报价单明细客户记录将舍入标志设置为 **是**。 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

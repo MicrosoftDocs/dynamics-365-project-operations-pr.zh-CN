@@ -1,21 +1,21 @@
 ---
-title: 启动新 LCS 项目
+title: 在 LCS 中启动新项目
 description: 此主题提供有关在 LCS 中为 Project Operations 环境创建新项目的信息。
 author: stsporen
 manager: Annbe
 ms.date: 10/01/2020
 ms.topic: article
-ms.service: project-operations
+ms.service: dynamics-365-customerservice
 ms.reviewer: kfend
 ms.author: stsporen
-ms.openlocfilehash: 595fda369fe19a69604fc4ab694cb844f45076b5
-ms.sourcegitcommit: 625878bf48ea530f3381843be0e778cebbbf1922
+ms.openlocfilehash: c0b756068f7eec5e3abd326957ee07cb0d00331f
+ms.sourcegitcommit: 11a61db54119503e82faec5f99c4273e8d1247e5
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/30/2020
-ms.locfileid: "4175610"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "4072461"
 ---
-# <a name="start-a-new-lcs-project"></a>启动新 LCS 项目
+# <a name="start-a-new-project-in-lcs"></a>在 LCS 中启动新项目
 
 _**适用于：** 面向资源/非库存场景的 Project Operations_
 

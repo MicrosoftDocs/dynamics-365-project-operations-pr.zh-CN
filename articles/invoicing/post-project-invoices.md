@@ -2,18 +2,17 @@
 title: 开票流程概述
 description: 本主题提供在面向资源/非库存场景的 Project Operations 中开票的流程概述。
 author: sigitac
-manager: Annbe
 ms.date: 01/29/2021
 ms.topic: article
-ms.service: project-operations
 ms.reviewer: kfend
 ms.author: sigitac
-ms.openlocfilehash: fbc1519b6cbcf231cfa89df8b7843d11a8904e49
-ms.sourcegitcommit: b4298ca4729643c1040ef35dde8c67f829461ce7
+ms.custom: intro-internal
+ms.openlocfilehash: 0eab33c8640f665555cf5ec5b0f188e5af65a493
+ms.sourcegitcommit: 0fafe022731f0e1e8693382ff906e3f8541d34ca
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/29/2021
-ms.locfileid: "5089211"
+ms.lasthandoff: 07/07/2021
+ms.locfileid: "6369005"
 ---
 # <a name="invoicing-process-overview"></a>开票流程概述
 
@@ -30,3 +29,6 @@ _**适用于：** 面向资源/非库存场景的 Project Operations_
 您可以[手动创建估价发票](../proforma-invoicing/create-manual-proforma-invoice.md)或使用[定期流程](../proforma-invoicing/configure-automated-invoice-creation.md)。 项目经理可以根据需要[调整草稿估价发票](../proforma-invoicing/manage-proforma-invoice.md)，然后确认。
 
 确认的估价发票将发送到 Finance 中的 **项目管理和会计** 模块。 项目会计将设置项目发票方案的格式并更新，然后发布和打印文档。 发布后的项目发票记录在总帐以及客户和项目分类帐中。
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

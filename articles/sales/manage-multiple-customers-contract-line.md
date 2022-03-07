@@ -2,18 +2,16 @@
 title: 管理基于项目的合同子项上的多个客户
 description: 此主题提供有关处理包含多个客户的合同子项和合同的信息。
 author: rumant
-manager: Annbe
 ms.date: 10/22/2020
 ms.topic: article
-ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: 71081775ab45167bc1bff1979f7856a2a2a91385
-ms.sourcegitcommit: f6f86e80dfef15a7b5f9174b55dddf410522f7c8
+ms.openlocfilehash: 25ce50251380d1ca136a81268c74a0675928011dc2eefaee21df83cdd62845a9
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/31/2020
-ms.locfileid: "4181891"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6992105"
 ---
 # <a name="manage-multiple-customers-on-project-based-contract-lines"></a>管理基于项目的合同子项上的多个客户
 
@@ -44,3 +42,6 @@ _**适用于：** 基于资源/非库存场景的 Project Operations，精简部
 计费拆分百分比可以在网格中编辑。 如果计费拆分百分比总计不是 100%，将出现错误。 编辑计费拆分百分比后，刷新页面去除错误。
 
 您还可以尝试选择合同子项客户子网格上的 **平均分配**。 此操作将向所有合同子项客户平均分配计费拆分。 如果存在任何舍入系数，会将其添加到舍入客户。 一个合同子项客户会始终标记为 **舍入** 客户，**舍入** 标志设置为 **是**。
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]
