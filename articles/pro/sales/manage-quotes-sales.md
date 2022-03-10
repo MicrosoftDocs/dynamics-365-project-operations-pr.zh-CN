@@ -2,18 +2,16 @@
 title: 管理项目报价单
 description: 此主题提供有关项目报价单的信息。
 author: rumant
-manager: Annbe
 ms.date: 10/26/2020
 ms.topic: article
-ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: 3c33adabbd03cca19ae5e7f401f08a716e9242b2
-ms.sourcegitcommit: 625878bf48ea530f3381843be0e778cebbbf1922
+ms.openlocfilehash: 0ccf669fb47585e13e24921f2aeee383b33dd9c5f882e82220a906f9b73bfcc4
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/30/2020
-ms.locfileid: "4177815"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "7001510"
 ---
 # <a name="manage-project-quotes"></a>管理项目报价单
 
@@ -33,3 +31,6 @@ _**适用于：** 基于资源/非库存场景的 Project Operations，精简部
 2. 使用 **视图切换器** 选择报价单的其他筛选视图。 使用自定义筛选条件，您可以配置自己的视图和导航选项。
 
 可以从此列表页或详细信息页面创建或删除报价单。
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

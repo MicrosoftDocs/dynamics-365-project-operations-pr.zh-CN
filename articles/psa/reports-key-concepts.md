@@ -2,8 +2,6 @@
 title: 关键概念
 description: 此主题介绍 Project Service Automation 中的关键资源管理概念。
 author: ruhercul
-manager: kfend
-ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 03/28/2019
@@ -18,12 +16,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 75b2d2c520cc48eb59c266289ca2bdc1288f2920
-ms.sourcegitcommit: 418fa1fe9d605b8faccc2d5dee1b04b4e753f194
+ms.openlocfilehash: 8e56523a9a2fbe8bc07e6d46062f4e1c20e6d2fa2244b32ff53e96d898b0086c
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/10/2021
-ms.locfileid: "5147732"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6995075"
 ---
 # <a name="key-concepts"></a>关键概念
 
@@ -48,3 +46,6 @@ ms.locfileid: "5147732"
 | 分布                    | 按天分解的任务、要求或分派工时数。 例如，可以将一个为期五天的 40 小时任务分布在五天，每天八小时。 |
 | 协调视图        | 一个视图，其中显示每个项目团队成员的预订和分派。 项目经理可使用此视图查找预订与分派之间的不匹配，并在出现了任何不匹配时采取纠正措施。 |
 | 工作时间                 | 一种实体，用于识别资源产能、工作时间和非工作时间。 此实体也称为资源日历。 |
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

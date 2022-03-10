@@ -2,18 +2,16 @@
 title: 配置内部公司开票
 description: 本主题提供了有关配置内部公司项目开票的信息和示例。
 author: sigitac
-manager: tfehr
 ms.date: 04/12/2021
 ms.topic: article
-ms.service: project-operations
 ms.reviewer: kfend
 ms.author: sigitac
-ms.openlocfilehash: bb39e212d00f8874254d4255f310217cdf46eb5a
-ms.sourcegitcommit: 3d78338773929121d17ec3386f6cb67bfb2272cc
+ms.openlocfilehash: 09bbd1bf640cc86b16afb8c2b824329b92f833df836e9313491d57a2f1646440
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/27/2021
-ms.locfileid: "5949668"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6994040"
 ---
 # <a name="configure-intercompany-invoicing"></a>配置内部公司开票
 

@@ -2,8 +2,6 @@
 title: 自定义周时间条目
 description: 此主题介绍如何实施为组织的业务提供支持的自定义业务规则。
 author: stsporen
-manager: kfend
-ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 07/09/2019
@@ -18,12 +16,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: f1c8e150500334e87b25a1c8d04cf28c7b7beaeb
-ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
+ms.openlocfilehash: fa2ef927e0234919ee4777f24c60569fb33a8570f6d48be6aef356df4f08a6e7
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5282052"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "7002275"
 ---
 # <a name="customize-weekly-time-entry"></a>自定义每周时间条目 
 

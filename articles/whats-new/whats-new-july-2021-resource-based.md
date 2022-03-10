@@ -7,12 +7,12 @@ ms.topic: article
 ms.prod: ''
 ms.reviewer: kfend
 ms.author: sigitac
-ms.openlocfilehash: 5dbf9c7158ce7d9e568e270791e7e7aaf8ce731d
-ms.sourcegitcommit: 3abf1e67938d91bd826b025ae3187cd313f556b9
+ms.openlocfilehash: 69507427521466335df9cbbaba79db1cfc7be91386b8b2ded5b1c384555946ee
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 07/07/2021
-ms.locfileid: "6433507"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "7008035"
 ---
 # <a name="whats-new-july-2021---project-operations-for-resourcenon-stocked-based-scenarios"></a>2021 年 7 月新增功能 - 适用于基于资源/非库存场景的 Project Operations
 
@@ -20,7 +20,7 @@ ms.locfileid: "6433507"
 
 此主题适用于以下 Dynamics 365 Project Operations 组件和版本：
 
-   - Microsoft Dataverse 环境中的 Project Operations 版本 4.12.0.148。
+   - Microsoft Dataverse 环境中的 Project Operations 版本 4.12.0.148 或 4.12.0.152。
    - Dynamics 365 Finance 环境中的项目管理和会计版本 10.0.20。
 
 ## <a name="features-included-in-this-release"></a>此版本中包括的功能
@@ -79,7 +79,7 @@ ms.locfileid: "6433507"
 | 常规                       | 2296857              | 长时间运行的作业的进度跟踪。                                                                                                                                                                        |
 | 常规                       | 2253682              | 当在没有双重写入业务流程解决方案的环境中安装双重写入核心时，不应安装 Project Operations 双重写入解决方案。                                                |
 | 常规                       | 2316420              | 如果更改应用程序用户的业务部门，Project Service 核心预配将失败。                                                                                                                     |
-
+| 常规                       | 2376405              | 修复了发布者驱动的更新问题（质量更新在 4.12.0.152 版本中可用）                                                                                                                     |
 ### <a name="project-management-and-accounting-on-dynamics-365-finance"></a>Dynamics 365 Finance 中的项目管理和会计
 
 | 功能区域                      | 参考编号 | 质量更新                                                                                                                                                                                                                                                                                                                |

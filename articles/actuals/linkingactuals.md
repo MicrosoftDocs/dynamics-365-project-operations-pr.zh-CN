@@ -2,19 +2,17 @@
 title: 将实际值链接到原始记录
 description: 本主题说明如何将实际值链接到原始记录，例如时间条目、支出条目或材料使用日志。
 author: rumant
-manager: tfehr
 ms.date: 03/25/2021
 ms.topic: article
 ms.prod: ''
-ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: 545775c4eae6c3dc689f264e7f662471c17b2340
-ms.sourcegitcommit: b4a05c7d5512d60abdb0d05bedd390e288e8adc9
+ms.openlocfilehash: b5a70d2c2b3f98028b4e4998ed25ab73a275c66e4b8137eb573b943658a1a41e
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/02/2021
-ms.locfileid: "5852578"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6991745"
 ---
 # <a name="link-actuals-to-original-records"></a>将实际值链接到原始记录
 
@@ -79,7 +77,7 @@ Project Operations 将这五种实体中的记录视为业务交易。 唯一区
 
 以下示例显示对 Project Operations 项目生命周期中的时间条目的典型处理。
 
-> ![处理 Project Service 生命周期中的时间条目](media/basic-guide-17.png)
+> ![处理 Project Service 生命周期中的时间条目。](media/basic-guide-17.png)
  
 1. 时间条目提交操作将创建两个日记帐行：一个成本行，一个未记帐销售额行。
 2. 最终批准时间条目将创建两个实际值：一个成本实际值，一个未记帐销售额实际值。

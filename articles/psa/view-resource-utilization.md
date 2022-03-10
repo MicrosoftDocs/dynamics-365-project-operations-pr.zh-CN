@@ -2,8 +2,6 @@
 title: 查看资源利用率
 description: 如何在 Project Service 中查看资源利用率
 author: JohnPBurrows
-manager: kfend
-ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 8/03/2018
@@ -18,12 +16,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 8024d99441136e4ca28caf5bf4c81743e3a4dc71
-ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
+ms.openlocfilehash: ae03b5e800add32286fe2226878621fe7286ec00efa131aba32957a63c9783cc
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5281287"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6999890"
 ---
 # <a name="view-resource-utilization-project-service"></a>查看资源利用率 (Project Service)
 

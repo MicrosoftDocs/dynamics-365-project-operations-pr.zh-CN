@@ -2,19 +2,17 @@
 title: 2021 年 1 月面向库存/生产订单场景的 Project Operations 的新增或更改功能
 description: 此主题提供有关 2021 年 1 月版本的面向库存/生产订单场景的 Project Operations 中推出的质量更新的信息。
 author: andchoi
-manager: tfehr
 ms.date: 1/08/2021
 ms.topic: article
 ms.prod: ''
-ms.service: project-operations
 ms.reviewer: kfend
 ms.author: andchoi
-ms.openlocfilehash: ce1c83e1e238d7919c38d2babea622ca59de86d3
-ms.sourcegitcommit: ef7d498bf80b0bcc1245dc42f30c410c31f891bb
+ms.openlocfilehash: f7ad339872f18bf5aaae6f472436fc318d4cd919fcae58cc1b6e4d5ab19bd68c
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/13/2021
-ms.locfileid: "4958637"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6992735"
 ---
 # <a name="whats-new-or-changed-in-project-operations-january-2021-for-stockedproduction-based-scenarios"></a>2021 年 1 月面向库存/生产订单场景的 Project Operations 的新增或更改功能
 
@@ -144,4 +142,7 @@ _**适用范围：** 面向库存/生产订单场景的 Project Operations_
 | 出差和支出                  | [525106](https://fix.lcs.dynamics.com/Issue/Details/?bugId=525106) | 在 Project Operations 中，无法创建或审批 Dataverse 中内部公司任务的时间。                                                                                                                                                                                             |
 
 ### <a name="regulatory-updates"></a>法规更新
-有关 Finance and Operations 应用的法规更新的信息，请参阅[法规更新](https://docs.microsoft.com/dynamics365/finance/localizations/regulatory-updates)。 您还可以登录到 LCS，使用问题搜索工具查看计划的法规更新。 通过问题搜索，您可以按国家/地区、功能类型和发布进行搜索。
+有关 Finance and Operations 应用的法规更新的信息，请参阅[法规更新](/dynamics365/finance/localizations/regulatory-updates)。 您还可以登录到 LCS，使用问题搜索工具查看计划的法规更新。 通过问题搜索，您可以按国家/地区、功能类型和发布进行搜索。
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

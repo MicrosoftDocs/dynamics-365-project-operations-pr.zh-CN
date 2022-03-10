@@ -2,8 +2,6 @@
 title: 项目成本和收入
 description: 此主题介绍如何估算项目成本和收入。
 author: ruhercul
-manager: kfend
-ms.service: dynamics-365-customerservice
 ms.custom:
 - dyn365-projectservice
 ms.date: 03/01/2019
@@ -18,20 +16,22 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 9862b6c69596f5b998cf40691f8478bb87251583
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: fe51af8adb7c3831a57494b8359def2a0176b552efe16feb53a2a265f5ffcb0c
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4072634"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "7002545"
 ---
 # <a name="project-costs-and-revenue"></a>项目成本和收入
+
+[!include [banner](../includes/psa-now-project-operations.md)]
 
 [!INCLUDE[cc-applies-to-psa-app-3.x](../includes/cc-applies-to-psa-app-3x.md)]
 
 项目估算提供项目计划中估算和计划工作的财务视图。 **项目** 页的 **估算** 选项卡显示您计划的工作的成本和收入影响。 还提供有关大量预定义维度的信息。 
 
-> ![“估算”选项卡](media/project-5.png)
+> ![“估算”选项卡。](media/project-5.png)
 
 ## <a name="cost-and-sales-values-of-the-project"></a>项目的成本和销售值
 
@@ -66,13 +66,13 @@ ms.locfileid: "4072634"
 
 **估算** 选项卡有一个网格视图，其中显示估算明细。 网格中包含单位、总成本费和总销售价的列，如下图中所示。 
 
-> ![“估算”选项卡中的网格视图](media/project-6.png)
+> ![“估算”选项卡中的网格视图。](media/project-6.png)
 
 ## <a name="time-phased-view-of-project-estimates"></a>项目估算的分时段视图
 
 项目估算的分时段视图按照您选择的时间刻度显示时间线内网格视图的估算数据。 默认情况下，按 **角色** 维度透视估算数据。
 
-> ![项目估算的分时段视图](media/project-7.png)
+> ![项目估算的分时段视图。](media/project-7.png)
 
 ## <a name="allocating-estimated-effort-based-on-the-task-mode"></a>基于任务模式分配估算的工作量
 
@@ -95,3 +95,6 @@ ms.locfileid: "4072634"
 ## <a name="expense-estimates"></a>费用估算
 
 网格视图中的 **添加新的支出估算** 按钮用于记录项目中发生，但是与人工没有直接关系的任何支出。 可记录特定任务或整个项目的支出估算。 选择支出类别和预计要产生支出的暂定日期。 如果相关成本价目表和销售价目表具有默认价格（或为支出类别定义了加价百分比），则在关联时在估算明细中自动输入这些默认值。
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

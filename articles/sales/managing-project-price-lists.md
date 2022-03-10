@@ -2,11 +2,9 @@
 title: 管理报价单上的项目价目表
 description: 此主题提供有关项目价目表实体的信息。
 author: rumant
-manager: AnnBe
 ms.date: 09/18/2020
 ms.topic: article
 ms.prod: ''
-ms.service: project-operations
 audience: Application User
 ms.reviewer: kfend
 ms.search.scope: ''
@@ -17,18 +15,18 @@ ms.search.industry: Service industries
 ms.author: suvaidya
 ms.dyn365.ops.version: ''
 ms.search.validFrom: 2020-10-01
-ms.openlocfilehash: 5fc8691984e22b2fa35e26b1a7d94cc56c25c26d
-ms.sourcegitcommit: 625878bf48ea530f3381843be0e778cebbbf1922
+ms.openlocfilehash: 8cfabf98f1a38823c777b6e388fbbb65d02877e3cd433069dd3845c292f2b277
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/30/2020
-ms.locfileid: "4177185"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "7003895"
 ---
 # <a name="manage-project-price-lists-on-a-quote"></a>管理报价单上的项目价目表
 
 _**适用于：** 基于资源/非库存场景的 Project Operations，精简部署 - 估价开票交易_
 
-Dynamics 365 Project Operations 扩展 Dynamics 365 Sales 中的价目表实体。 
+Dynamics 365 Project Operations 扩展了 Dynamics 365 Sales 中的价目表实体。 
 
 ## <a name="key-entities"></a>关键实体
 
@@ -120,3 +118,6 @@ Project Operations 可以跟踪在项目中使用人力资源时间产生的成�
     1. 附加到部门的成本价目表。
     2. 附加到 Project Operations 参数的成本价目表。 因为可以将大量不同货币的成本价目表附加到参数，所以会在项目、合同或报价单的合同签订部门的货币与成本价目表的货币之间完成货币匹配。
     3. 对于支出，按成本定价方法和成本加价定价方法不适用于成本价目表。 即使在成本价目表明细中使用这些定价方法设置交易类别成本，系统也会忽略这些定价方法，并且不输入任何默认成本费。
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

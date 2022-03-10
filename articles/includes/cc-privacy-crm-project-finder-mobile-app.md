@@ -1,10 +1,10 @@
 ---
-ms.openlocfilehash: dc45bfd6fefaa51a4a540d694cb4ba07c5058a2a
-ms.sourcegitcommit: 11a61db54119503e82faec5f99c4273e8d1247e5
+ms.openlocfilehash: 205a4fbe41637be12970041ff309c0a8d206db513987c4f64610e842183ed781
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4069300"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "7004800"
 ---
 通过启用 Project Finder Mobile 应用程序，将使组织中的用户可以查看项目工作并且可以注册工作。 用户也可以使用 Project Finder 应用程序查看和更新其技能。 Project Finder Mobile 应用程序通过 Project Service 参数设置启用，方法是将“资源要求对资源可见”和“允许由资源进行技能更新”属性的值设置为“是”。 将这些属性的值更改为“否”可禁用此功能。  
   

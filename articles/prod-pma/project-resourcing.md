@@ -2,28 +2,26 @@
 title: 项目资源主页
 description: 本主题提供有关项目资源的信息。
 author: Yowelle
-manager: AnnBe
 ms.date: 09/01/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: ProjProjectsListPage
 audience: Application User
 ms.reviewer: josaw
 ms.search.scope: Core, Operations
-ms.custom: 82022
+ms.custom: intro-internal
 ms.assetid: bd2fb375-84c6-428a-8e54-f0f719045898
 ms.search.region: Global
 ms.author: andchoi
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 3ecf8ee588de9ec41e0b4f384110f912759ed53f
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: ea2a34ed9e0bf5b28649a53db88976ec56aaf10d1c80af99cb0856250873a2ab
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4072590"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "7007315"
 ---
 # <a name="project-resourcing-home-page"></a>项目资源主页
 
@@ -40,7 +38,7 @@ ms.locfileid: "4072590"
 - 估计项目的整个生命周期所需的资源的数量。
 - 通过使用初始资源分配设计工作分解结构 (WBS)。
 
-[![项目生命周期](./media/projectresourcing02-1024x812.jpg)](./media/projectresourcing02.jpg)
+[![项目生命周期。](./media/projectresourcing02-1024x812.jpg)](./media/projectresourcing02.jpg)
 
 随着项目计划的继续，计划的资源可以替换为雇用的资源。 项目经理还可以在任何项目阶段返回和更新资源预留。
 
@@ -52,6 +50,9 @@ ms.locfileid: "4072590"
 - [设置基于角色的定价](set-up-role-based-pricing.md)
 - [创建项目团队](create-project-team.md)
 - [同步资源产能](synchronize-resource-capacity.md)
-- [项目资源计划编制性能](project-scheduling-performance.md)
+- [项目资源计划性能](project-scheduling-performance.md)
 - [在工作分解结构模板中设置角色](set-up-roles-wbs-template.md)
 - [计划资源的资源完成](resource-fulfillment-planned-resources.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

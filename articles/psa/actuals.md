@@ -2,10 +2,9 @@
 title: 实际值概述
 description: 本主题提供有关项目实际值的信息。
 author: rumant
-manager: kfend
-ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
+- intro-internal
 ms.date: 08/03/2020
 ms.topic: article
 ms.author: rumant
@@ -18,20 +17,22 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: cf9e36c99790b77f0ed6490f49b4ebeb043bcdf6
-ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
+ms.openlocfilehash: 15c8d26fcf4eb9fda8a4fe4ce085ea3becdc2c76f11525357b75f59e18fd6017
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/28/2020
-ms.locfileid: "4129757"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6992465"
 ---
 # <a name="actuals-overview"></a>实际值概述
+
+[!include [banner](../includes/psa-now-project-operations.md)]
 
 [!INCLUDE[cc-applies-to-psa-app-3.x](../includes/cc-applies-to-psa-app-3x.md)]
 
 实际值是已完成的项目工作量。 可将项目实际值回溯到其源文档。 这些源文档包括时间、支出和日记帐条目，以及发票。
 
-![如何将项目实际值跟踪到源文档](media/basic-guide-18.png)
+![如何将项目实际值跟踪到源文档。](media/basic-guide-18.png)
 
 ## <a name="submitting-a-time-entry"></a>提交时间条目
 
@@ -328,3 +329,6 @@ PSA 记录项目期间发生的财务交易。 这些交易记录为 **实际值
 </tr>
 </tbody>
 </table>
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

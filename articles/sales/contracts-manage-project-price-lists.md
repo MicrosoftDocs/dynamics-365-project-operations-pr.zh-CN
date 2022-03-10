@@ -2,18 +2,16 @@
 title: 管理项目合同上的项目价目表
 description: 此主题提供有关管理项目合同中的项目价格表的信息。
 author: rumant
-manager: Annbe
-ms.date: 10/27/2020
+ms.date: 03/30/2021
 ms.topic: article
-ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: 030684576e1f53d27921907b07c9e5e0c5efe612
-ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
+ms.openlocfilehash: 824026d0620de809c0366c86c2d4d13fe83d4d1ddd4c0dc1cc2645ff712705d5
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/28/2020
-ms.locfileid: "4133290"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6996470"
 ---
 # <a name="manage-project-price-lists-on-project-contracts"></a>管理项目合同上的项目价目表
 
@@ -21,13 +19,13 @@ _**适用于：** 基于资源/非库存场景的 Project Operations，精简部
 
 Dynamics 365 Project Operations 中的项目合同设计为支持合同上的多个有时效的销售价目表。 在 Project Operations 中，有一个名为 **项目价目表** 的新的关联实体。 此实体与项目合同之间具有一对多关系。
 
-项目价目表用于对项目的时间和支出交易进行定价。 当合同有一个或多个项目价目表时，这些价目表用于为通过合同子项与合同关联的项目中的时间和支出估计值和实际值定价。
+项目价目表用于为项目的时间、材料和支出交易定价。 当合同具有一个或多个项目价目表时，这些价目表用于通过合同子项对与该合同关联的项目的时间、材料、支出估计和实际值进行定价。
 
-如果项目合同中没有项目价目表，您将看到一条警告消息，指示没有项目价目表，您的估计值、实际项目工作和支出不会定价。 销售值不会有价格。
+如果项目合同上没有项目价目表，将显示一条警告消息，指出不存在项目价目表，并且将不会对您的估计值、实际项目工作、材料和记录的支出进行定价。 销售值不会有价格。
 
 ## <a name="associate-or-unassociate-a-project-price-list-on-a-project-contract"></a>关联或取消关联项目合同中的项目价目表
 
-### <a name="create-or-associate-a-specific-price-list-for-estimating-project-based-work-and-expenses"></a>创建或关联特定价目表以估算基于项目的工作和支出
+### <a name="create-or-associate-a-specific-price-list-for-estimating-project-based-work-material-and-expenses"></a>为基于项目的工作、材料和支出创建或关联特定的价目表
 
 1. 在项目合同上，选择 **项目价目表** 选项卡。
 2. 在子网格中，选择 **+ 添加新项目价目表**。
@@ -52,7 +50,7 @@ Dynamics 365 Project Operations 中的项目合同设计为支持合同上的多
 
 ## <a name="set-up-automatic-defaulting-of-project-price-lists-on-a-contract"></a>设置合同上的项目价格表的自动默认设置
 
-项目价目表可以设置为项目合同上的默认列表。 此设置可以帮助确保您的组织中的所有合同始终以该价格期间的标准价目表开始。
+可以将项目价目表设置为默认项目价目表。 此安装程序可确保贵组织的所有合同始终从该价格期间的标准项目价目表开始。
 
 ### <a name="set-up-the-organizational-default-for-project-price-lists"></a>设置项目价目表的组织默认值
 
@@ -72,3 +70,6 @@ Dynamics 365 Project Operations 中的项目合同设计为支持合同上的多
 ## <a name="custom-pricing-on-a-project-contract"></a>项目合同上的自定义定价
 
 在您有了组织的特定于客户的默认项目价目表之后，您的项目合同将自动创建，并具有这些项目价目表关联。 但是，项目合同上的项目价目表复制时始终带有向其追加的日期和合同名称。 客户和项目经理随后可以开始对这些副本上的价格进行编辑。 这些更改的价格仅适用于此项目合同。
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

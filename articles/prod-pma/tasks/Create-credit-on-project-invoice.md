@@ -2,11 +2,9 @@
 title: 创建项目发票上的贷方通知单
 description: 此流程显示如何创建已过帐的项目发票的贷方通知单。
 author: Yowelle
-manager: AnnBe
 ms.date: 11/01/2017
 ms.topic: business-process
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 audience: Application User
 ms.reviewer: josaw
@@ -16,12 +14,12 @@ ms.search.industry: Service industries
 ms.author: andchoi
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 8b14cfacc9d333911fba69fa10f6b02406071ea7
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: fe67b24f579ec9fd1a91be5272698f69c7295fb2298fbc2cd872f24a5858ce99
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4072581"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6989450"
 ---
 # <a name="create-a-credit-note-on-project-invoices"></a>创建项目发票上的贷方通知单
 
@@ -39,3 +37,6 @@ ms.locfileid: "4072581"
 10. 单击“确定”。 
 
 在此步骤之后，贷方通知单将可用于发票方案。
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

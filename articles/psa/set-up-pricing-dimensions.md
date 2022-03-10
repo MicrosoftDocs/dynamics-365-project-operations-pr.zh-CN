@@ -2,12 +2,10 @@
 title: 将自定义字段设置为定价维度
 description: 此主题介绍如何设置自定义定价维度。
 author: Rumant
-manager: kfend
 ms.custom:
 - dyn365-projectservice
 ms.date: 11/20/2018
 ms.topic: article
-ms.service: business-applications
 ms.author: rumant
 audience: Admin
 search.audienceType:
@@ -17,14 +15,16 @@ search.audienceType:
 search.app:
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: fed8d1d478dfcceb7a1e848b6432563e3b94dcf8
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: 9503b6528f91f86cc1ebe1c7ed6111171e74c4a3cbf83b3f68810c3ee5efdd28
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4072819"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "7002320"
 ---
 # <a name="setting-up-custom-fields-as-pricing-dimensions"></a>将自定义字段设置为定价维度 
+
+[!include [banner](../includes/psa-now-project-operations.md)]
 
 首先，此主题假设您已完成了主题[创建自定义字段和实体](create-custom-fields-entities.md)和[向价格设置和交易实体添加自定义字段](field-references.md)中的过程。 如果尚未完成这些过程，请回去完成，然后回到此主题。 
 
@@ -41,11 +41,11 @@ ms.locfileid: "4072819"
 - 创建为 **角色价格** 和 **角色价格加价** 实体中的字段。 有关如何执行此操作的详细信息，请参阅[向价格设置和交易实体添加自定义字段](field-references.md)。
 - 创建为 **定价维度** 表中的行。 例如，添加定价维度行，如下图中所示。 
 
-![基于金额的定价维度行](media/Amt-based-PD.png)
+![基于金额的定价维度行。](media/Amt-based-PD.png)
 
 请注意，资源工作时间 (**msdyn_resourceworkhours**) 已作为基于加价的维度添加，并已添加到 **基于加价的定价维度** 选项卡上的网格中。
 
-![基于加价的定价维度行](media/Markup-based-PD.png)
+![基于加价的定价维度行。](media/Markup-based-PD.png)
 
 > [!IMPORTANT]
 > 仅当刷新了缓存，才会把对此表中定价维度数据进行的任何更改传播到 Project Service 定价逻辑。 缓存刷新时间最多可能需要 10 分钟。 留出这样长的时间，以便查看一定会导致定价维度数据更改的价格默认设置逻辑更改。
@@ -72,8 +72,8 @@ ms.locfileid: "4072819"
 | 角色        | 部门    |工作位置      |标准标题      |资源工作时间      |  加价|
 | ------------|-------------|-------------------|--------------------|-------------------------|--------:|
 |             | Contoso 印度|现场            |                    |加班                 |15     |
-|             | Contoso 印度|本地             |                    |加班                 |10     |
-|             | Contoso US   |本地             |                    |加班                 |20     |
+|             | Contoso 印度|局部             |                    |加班                 |10     |
+|             | Contoso US   |局部             |                    |加班                 |20     |
 
 
 如果 Contoso 印度中一位基础费率为 100 美元的资源在现场工作，并且在时间条目中记录了 8 小时的正常工时和 2 小时的加班，Project Service 定价引擎将对 8 小时使用基础费率 100，从而记录 800 美元。 至于 2 小时的加班，则为基础费率 100 应用 15% 的加价，因此单价为 115 美元，记录的总成本为 230 美元。
@@ -92,3 +92,6 @@ ms.locfileid: "4072819"
 
 - **成本优先级**：维度的成本优先级值指示与成本价格设置进行匹配时，该维度的权重。 **成本优先级** 的值在 **适用于成本** 的维度之间必须唯一。
 - **销售优先级**：维度的销售优先级值指示与销售价格设置进行匹配时，该维度的权重。 **销售优先级** 的值在 **适用于销售** 的维度之间必须唯一。
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

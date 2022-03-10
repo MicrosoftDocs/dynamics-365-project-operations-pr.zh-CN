@@ -2,8 +2,6 @@
 title: 添加资源角色
 description: 如何向 Project Service 资源分派角色
 author: rumant
-manager: kfend
-ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 7/31/2018
@@ -18,12 +16,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 737c36cc7a31b5fa10524e13709ae99751aa1771
-ms.sourcegitcommit: 418fa1fe9d605b8faccc2d5dee1b04b4e753f194
+ms.openlocfilehash: caced5b5acc06d33d7345a73789cf8a768a1f89200eb1c8185909acece47b38f
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/10/2021
-ms.locfileid: "5145887"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "7005200"
 ---
 # <a name="add-resource-roles-project-service"></a>添加资源角色 (Project Service)
 
@@ -47,3 +45,6 @@ ms.locfileid: "5145887"
   
 ### <a name="see-also"></a>另请参阅  
  [设置资源](../psa/set-up-resources.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

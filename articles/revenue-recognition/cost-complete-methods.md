@@ -2,18 +2,16 @@
 title: 完成成本计算方法
 description: 本主题提供了有关用于计算项目完成成本的方法的信息。
 author: sigitac
-manager: Annbe
 ms.date: 11/16/2020
 ms.topic: article
-ms.service: project-operations
 ms.reviewer: kfend
 ms.author: sigitac
-ms.openlocfilehash: 790b5c98182acdc0a37e3741a40baf7152f0bf66
-ms.sourcegitcommit: 2d399bc9d07807626f0d6b2d0cf304240c47591c
+ms.openlocfilehash: fe42ea0e1a5c562ec648fbf2a2924648af80381b9db8ffe0c209cb5247bb2ba2
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/17/2020
-ms.locfileid: "4531370"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6997955"
 ---
 # <a name="cost-to-complete-methods"></a>完成成本计算方法
 
@@ -30,3 +28,6 @@ _**适用于：** 面向资源/非库存场景的 Project Operations_
 | 同于上一个评估         | 此处使用了上一期间中所使用的相同估算方法。 如果以前期间所需的预测模型，此方法要求预测模型。                                                                                                                                                                                                                                                                                                                           |
 | 将完工尚需成本设置为零 | 此方法将总估算与已过帐实际交易进行匹配，并清除 **完成成本** 列，通常在消除估算项目之前使用。 完成后，结果始终为 100%。 对于您创建的每个成本行，将清除 **预测** 复选框，并且会从以前的成本估算中复制总估算值。 从成本中完成项目中减去评估期间的实际消耗额。              |
 | 从成本模板           | 在与所选估算项目关联的成本模板中设置的完成成本计算方法。                                                                                                                                                                                                                                                                                                                                                                          |
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

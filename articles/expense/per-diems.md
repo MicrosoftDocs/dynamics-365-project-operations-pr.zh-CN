@@ -2,18 +2,16 @@
 title: 出差津贴
 description: 此主题提供有关在支出管理中使用的出差津贴规则的信息。
 author: suvaidya
-manager: Annbe
 ms.date: 10/01/2020
 ms.topic: article
-ms.service: project-operations
 ms.reviewer: kfend
 ms.author: suvaidya
-ms.openlocfilehash: 8d723b49e9556401c364b323cf58eaaf44906275
-ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
+ms.openlocfilehash: 192164094231fa2da47806cd9c2ccaba8321c83a1464fc8724fa0d0a7618660f
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/28/2020
-ms.locfileid: "4128497"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6986390"
 ---
 # <a name="per-diems"></a>出差津贴
 
@@ -31,3 +29,6 @@ _**适用于：** 面向资源/非库存场景的 Project Operations_
     
 ## <a name="submit-expenses-using-per-diem"></a>使用出差津贴提交支出
 若要使用出差津贴提交支出，请在创建支出报表时使用 **出差津贴** 支出类别。 输入 **出差津贴起始日期**、**出差津贴截止日期** 和 **出差津贴地点**。 将根据所选地点的出差津贴费率计算金额，根据出差津贴费率层来计算餐费扣减。
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

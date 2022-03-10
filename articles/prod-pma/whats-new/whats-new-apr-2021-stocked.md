@@ -7,12 +7,12 @@ ms.topic: article
 ms.prod: ''
 ms.reviewer: kfend
 ms.author: andchoi
-ms.openlocfilehash: ac157f276badfad031f587fa0ec70c17383133f4
-ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
+ms.openlocfilehash: 0b214678a17e5b1cdacb89ae00e4acb83b8292d02ff937f30e307751d39f152d
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/10/2021
-ms.locfileid: "6011945"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "7005560"
 ---
 # <a name="whats-new-or-changed-in-project-operations-april-2021-for-stockedproduction-based-scenarios"></a>2021 年 4 月 Project Operations 中的新增功能或变更功能 - 适用于库存/生产订单场景
 

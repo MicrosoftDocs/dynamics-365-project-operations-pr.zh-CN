@@ -1,21 +1,20 @@
 ---
-title: 基于项目的报价单明细
-description: 此主题提供为项目工作使用基于项目的报价单明细的信息。
+title: 项目报价单明细概述
+description: 本主题提供有关使用项目报价单明细进行项目工作的信息。
 author: rumant
-manager: Annbe
 ms.date: 10/01/2020
 ms.topic: article
-ms.service: dynamics-365-customerservice
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: 06a47c45dc3b3b174658e2fba14d3d2050aabf85
-ms.sourcegitcommit: 11a61db54119503e82faec5f99c4273e8d1247e5
+ms.custom: intro-internal
+ms.openlocfilehash: c0a4d2d4b9e958ba14badda5a945e0522abba336c82128bfe7539663e0b90f1e
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4072471"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6997910"
 ---
-# <a name="project-based-quote-lines"></a>基于项目的报价单明细
+# <a name="project-quote-lines-overview"></a>项目报价单明细概述
 
 _**适用于：** 面向资源/非库存场景的 Project Operations_
 
@@ -31,10 +30,10 @@ _**适用于：** 面向资源/非库存场景的 Project Operations_
 
 下表提供了有关基于项目的报价单明细的 **常规** 选项卡上字段的信息。 这些字段帮助为项目工作的详细、全面的预估建立基础。
 
-| **字段** | **关联性、用途和指导** | **下游影响** |
+| **字段** | **说明** | **下游影响** |
 | --- | --- | --- |
 | 客户 | 应会帮助您识别正在预估的报价单的分散部分的报价单明细的名称。 | 将复制到此报价单赢单时从报价单明细创建的项目合同子项。 |
-| 记帐方法 | 在从商机创建的报价单中，此值从商机明细中的相应字段复制。 此字段包括 Dynamics 365 Project Operations 支持的两个主要合同签订模型：</br>- 固定价格</br>- 时间和材料。| 此字段值将复制到此报价单赢单时从报价单明细创建的项目合同子项。 |
+| 记帐方法 | 在从商机创建的报价单中，此值从商机明细中的相应字段复制。 此字段包括 Dynamics 365 Project Operations 支持的两个主要合同模型：</br>- 固定价格</br>- 时间和材料。| 此字段值将复制到此报价单赢单时从报价单明细创建的项目合同子项。 |
 | Project | 使用此可选字段可以识别将用于交付此协定中的工作的项目。 将项目映射到报价单明细时，它将帮助设置应计费任务，还可以帮助将基于项目的预估作为报价单明细详细信息引入报价单明细。 当项目未映射到基于项目的报价单明细时，应通过创建每个报价单明细详细信息来手动创建预估。 | 此字段值将复制到此报价单赢单时从报价单明细创建的项目合同子项。 |
 | 包括时间 | **是**/**否** 标志指示此报价单明细的预估中是否包括所选项目的时间交易或人工成本。 **否** 值指示此报价单明细的预估中将不包括时间交易或人工成本。 **是** 值指示此报价单明细的预估中将包括时间交易或人工成本。 | 此字段值将复制到此报价单赢单时从报价单明细创建的项目合同子项。 |
 | 包括支出 | **是**/**否** 标志指示此报价单明细的预估中是否包括所选项目的支出成本。 **否** 值指示此报价单明细的预估中将不包括支出成本。 **是** 值指示此报价单明细的预估中将包括支出成本。 | 此字段值将复制到此报价单赢单时从报价单明细创建的项目合同子项。 |
@@ -635,3 +634,6 @@ P1 </p>
     </tbody>
 </table>
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

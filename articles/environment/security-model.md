@@ -1,25 +1,25 @@
 ---
 title: 安全模型
-description: 本主题提供有关 Dynamics 365 Project Operations 中的安全模型的信息。
+description: 本主题提供有关 Dynamics 365 Project Operations 中安全模型的信息。
 author: stsporen
-manager: Annbe
 ms.date: 10/01/2020
 ms.topic: article
-ms.service: project-operations
 ms.reviewer: kfend
 ms.author: stsporen
-ms.openlocfilehash: 3fc4101d0ea4b8e2a4ba8f1d43540d57239cf402
-ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
+ms.openlocfilehash: 2f283771921504dc29ddcc26ca659d4e151598840339bd8c1a857e8bf5dde9ed
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/28/2020
-ms.locfileid: "4124357"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6991475"
 ---
 # <a name="security-model"></a>安全模型
 
 _**适用于：** 基于资源/非库存场景的 Project Operations，精简部署 - 估价开票交易_
 
-Microsoft Dynamics 365 Project Operations 包含一个独特的安全模型，该模型允许使用与 Microsoft Office 组协作的基于角色的业务安全模型。 
+[!include [rename-banner](~/includes/cc-data-platform-banner.md)]
+
+Microsoft Dynamics 365 Project Operations 包含一个唯一的安全模型，此模型允许使用与 Microsoft Office 组协作的基于角色的业务安全模型。 
 
 
 ## <a name="security-roles"></a>安全角色
@@ -56,9 +56,9 @@ Web 项目会在分配后自动将用户添加到组中。
 
 Project Operations 不会通过隐式操作创建组，只会通过推进组建立的显式操作来创建组。
 
-**组管理** 对话中的组成员搜索仅限于那些被设置为环境安全组一部分的用户。 有关详细信息，请参阅[控制用户对环境的访问权限：安全组和许可证](https://docs.microsoft.com/power-platform/admin/control-user-access)。
+**组管理** 对话中的组成员搜索仅限于那些被设置为环境安全组一部分的用户。 有关详细信息，请参阅[控制用户对环境的访问权限：安全组和许可证](/power-platform/admin/control-user-access)。
 
-![组模式](./media/groupsmode.png)
+![组模式。](./media/groupsmode.png)
 
 1. 项目由创建用户创建和负责。
 2. 项目负责人将更新到团队。
@@ -68,7 +68,7 @@ Project Operations 不会通过隐式操作创建组，只会通过推进组建�
 ## <a name="deployment-recommendation"></a>部署建议
 随着 Office 组协作模型的发展，以后会添加功能来提供更详细的控制。 鼓励今天部署 Project Operations 的客户专注于传统的 Microsoft Dynamics 365 安全模型。
 
-有关详细信息，请参阅 [Common Data Service 中的安全性](https://docs.microsoft.com/power-platform/admin/wp-security)。
+有关详细信息，请参阅 [Common Data Service 中的安全性](/power-platform/admin/wp-security)。
 
 ## <a name="project-operations-and-microsoft-dynamics-365-finance-security"></a>Project Operations 和 Microsoft Dynamics 365 Finance 的安全性
 Project Operations 包括以下角色：：
@@ -76,6 +76,9 @@ Project Operations 包括以下角色：：
 - 项目经理
 - 项目会计
 
-有关 Finance 中的安全性的详细信息，请参阅[基于角色的安全性](https://docs.microsoft.com/dynamics365/fin-ops-core/dev-itpro/sysadmin/role-based-security)。
+有关 Finance 中的安全性的详细信息，请参阅[基于角色的安全性](/dynamics365/fin-ops-core/dev-itpro/sysadmin/role-based-security)。
 
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

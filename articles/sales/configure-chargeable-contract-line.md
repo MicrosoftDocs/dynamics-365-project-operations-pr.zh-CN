@@ -2,18 +2,16 @@
 title: 配置项目合同子项的应计费组件
 description: 此主题提供有关在合同子项上的包含、应计费和非应计费组件的信息。
 author: rumant
-manager: Annbe
 ms.date: 10/12/2020
 ms.topic: article
-ms.service: project-operations
 ms.reviewer: kfend
 ms.author: stsporen
-ms.openlocfilehash: 60a2792f7783053a288303e1dcc01a986e948300
-ms.sourcegitcommit: 5fd529f2308edfe9322082313e6d50146df56aca
+ms.openlocfilehash: 51151089df67e2d164fc6315c1291f880917f43f1fba189304cb305ea973cecb
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/06/2021
-ms.locfileid: "5858327"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "7004030"
 ---
 # <a name="configure-chargeable-components-of-a-project-contract-line"></a>配置项目合同子项的应计费组件
 

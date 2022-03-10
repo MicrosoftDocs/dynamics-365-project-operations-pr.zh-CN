@@ -2,8 +2,6 @@
 title: 审阅项目和项目合同的开票积压
 description: 此主题介绍如何审阅时间、支出和产品积压，以及如何将其标记为可开票。
 author: rumant
-manager: kfend
-ms.service: project-operations
 ms.custom: ''
 ms.author: rumant
 ms.date: 03/11/2019
@@ -16,12 +14,12 @@ search.audienceType:
 search.app:
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: bdeeb100614cda78d0ba536310bb6b411c863b71
-ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
+ms.openlocfilehash: fb2f267c626126302a6afb6adba6070dedce4b030abc761e32b23df174d49ecb
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5282772"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "7006954"
 ---
 # <a name="review-the-invoicing-backlog-on-projects-and-project-contracts"></a>审阅项目和项目合同的开票积压
 
@@ -42,7 +40,7 @@ ms.locfileid: "5282772"
 
 若要审阅时间和材料的记帐积压，请转到 **Sales** \> **记帐** \> **时间和材料记帐积压**。 选择可开票的所有未记帐实际销售额，然后选择 **可开票**。 这些实际值的记帐状态将更改为 **可开票**。
 
-![时间和材料记帐积压](media/TMBacklog.png)
+![时间和材料记帐积压。](media/TMBacklog.png)
 
 ## <a name="review-the-product-billing-backlog"></a>审阅产品记帐积压
 
@@ -50,7 +48,7 @@ ms.locfileid: "5282772"
 
 若要审阅产品的记帐积压，请转到 **Sales** \> **记帐** \> **产品记帐积压**。 选择可开票的所有基于产品的合同子项，然后选择 **可开票**。 这些明细的记帐状态将更改为 **可开票**。
 
-![产品记帐积压](media/ProductBacklog.png)
+![产品记帐积压。](media/ProductBacklog.png)
 
 ## <a name="review-billing-milestones-on-fixed-price-contracts"></a>审阅固定价格合同的记帐里程碑
 
@@ -58,7 +56,7 @@ ms.locfileid: "5282772"
 
 若要审阅记帐里程碑，请转到 **Sales** \> **记帐** \> **固定价格里程碑**。 选择可开票的里程碑，然后选择 **可开票**。 这些里程碑的记帐状态将更改为 **可开票**。
 
-![固定价格里程碑](media/FPBacklog.png)
+![固定价格里程碑。](media/FPBacklog.png)
 
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

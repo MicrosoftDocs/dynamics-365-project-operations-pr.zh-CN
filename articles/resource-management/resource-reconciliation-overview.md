@@ -8,19 +8,19 @@ ms.prod: ''
 audience: Application User
 ms.reviewer: kfend
 ms.search.scope: ''
-ms.custom: ''
+ms.custom: intro-internal
 ms.assetid: ''
 ms.search.region: Global
 ms.search.industry: Service industries
 ms.author: ruhercul
 ms.dyn365.ops.version: ''
 ms.search.validFrom: 2020-10-01
-ms.openlocfilehash: be171063c21318f517a37f3088e3f577fd4b6715
-ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
+ms.openlocfilehash: 1542e97955902486d22ca637514e4e121fae70e2b227cafc7020c031061b5f98
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/10/2021
-ms.locfileid: "6000830"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6994760"
 ---
 # <a name="resource-reconciliation-overview"></a>资源协调概述
 

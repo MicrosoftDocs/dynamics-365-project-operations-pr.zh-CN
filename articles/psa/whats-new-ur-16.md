@@ -2,8 +2,6 @@
 title: Project Service Automation V3 更新版本 16 中的新增功能或更改
 description: 本主题列出了 Project Service Automation V3 更新版本 16 中可用的功能和修复。
 author: ruhercul
-manager: kfend
-ms.service: project-operations
 ms.custom: dyn365-projectservice
 ms.date: 02/18/2020
 ms.topic: article
@@ -17,12 +15,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 33a711816e8cca34c4595aa0929de9a808a48b0f
-ms.sourcegitcommit: 3d78338773929121d17ec3386f6cb67bfb2272cc
+ms.openlocfilehash: f577cd8407b0f12607c56891eeadb1071f659cff67bd9f086a6b3bbec6376e9d
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/27/2021
-ms.locfileid: "5949360"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "7004390"
 ---
 # <a name="project-service-automation-update-release-16-v3"></a>Project Service Automation V3 更新版本 16
 

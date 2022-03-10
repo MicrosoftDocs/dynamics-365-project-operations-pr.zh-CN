@@ -2,24 +2,22 @@
 title: 扩展时间条目
 description: 此主题提供有关开发人员如何扩展时间条目控件的信息。
 author: stsporen
-manager: Annbe
 ms.date: 10/08/2020
 ms.topic: article
-ms.service: dynamics-365-customerservice
 ms.reviewer: kfend
 ms.author: stsporen
-ms.openlocfilehash: 190ad9e1f9ced690aee953ed992bf7aa2844c3b3
-ms.sourcegitcommit: 11a61db54119503e82faec5f99c4273e8d1247e5
+ms.openlocfilehash: c36a47b09e6012925a047f81318e89167d5c506facaae8d72b0bb6e8e267a7d5
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4072503"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6993320"
 ---
 # <a name="extending-time-entries"></a>扩展时间条目
 
 _**适用于：** 基于资源/非库存场景的 Project Operations，精简部署 - 估价开票交易_
 
-Dynamics 365 Project Operations 包含可扩展的时间条目自定义控件。 此控件包括以下功能：
+Dynamics 365 Project Operations 包括可扩展的时间条目自定义控件。 此控件包括以下功能：
 
 - 在一周内横向输入时间
 - 按日、行或周汇总
@@ -144,3 +142,6 @@ Dynamics 365 Project Operations 包含可扩展的时间条目自定义控件。
 
 ### <a name="copying-time-entries"></a>复制时间条目
 使用视图 **复制时间条目列** 定义时间输入期间要复制的字段列表。 **日期** 和 **持续时间** 是必填字段，不应从视图中删除。
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

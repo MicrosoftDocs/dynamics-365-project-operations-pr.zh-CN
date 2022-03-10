@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: andchoi
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 21721a9b0af820df10c4fa965d000e85098e0dea
-ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
+ms.openlocfilehash: f93fbda0ad6435c627eb7e580f92fd90481034cae2236b9a636195883470ca5c
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/10/2021
-ms.locfileid: "5999030"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "7007405"
 ---
 # <a name="manage-resource-competencies"></a>管理资源能力
 
@@ -29,7 +29,7 @@ ms.locfileid: "5999030"
 
 资源能力是资源管理必不可少的部分。 能力可用作确定具有正确的技能、教育、证书和项目经验比重的资源的基准。 您应该为每个资源设置此信息并定期更新它。 这样，您可以在项目资源分配期间匹配特定资源能力时让能力实现最大化。
 
-[![例如技能、证书、教育和项目经验](./media/projectresourcing06-1024x383.jpg)](./media/projectresourcing06.jpg)
+[![例如技能、证书、教育和项目经验。](./media/projectresourcing06-1024x383.jpg)](./media/projectresourcing06.jpg)
 
 以下过程说明如何设置资源的某些能力。
 

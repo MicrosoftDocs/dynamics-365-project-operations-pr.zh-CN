@@ -2,18 +2,16 @@
 title: 基于产品的报价单明细成本核算
 description: 此主题提供有关将成本费应用于基于产品的报价单明细的信息。
 author: ruhercul
-manager: Annbe
 ms.date: 10/01/2020
 ms.topic: article
-ms.service: project-operations
 ms.reviewer: kfend
 ms.author: ruhercul
-ms.openlocfilehash: c08ac3b0f24dda19489bad6e667a50b67b8ce3ec
-ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
+ms.openlocfilehash: d9c03fa1a8f43cc110565efbafd7f5aba69f65f96bec7f15f2bd492123f639c7
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5273637"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "7001870"
 ---
 # <a name="costing-product-based-quote-lines"></a>基于产品的报价单明细成本核算
 

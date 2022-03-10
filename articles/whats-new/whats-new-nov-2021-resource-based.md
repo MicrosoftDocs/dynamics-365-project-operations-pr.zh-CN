@@ -7,12 +7,12 @@ ms.topic: article
 ms.prod: ''
 ms.reviewer: kfend
 ms.author: sigitac
-ms.openlocfilehash: 20f277bc9b6f571c0144eaaa867bb97c0cf30ddb
-ms.sourcegitcommit: 04ebe764afa22742b3fbf8f12af31e8eea93682e
+ms.openlocfilehash: fb9dad5b04ef2933ed8a8d8211f888f13df5ba40
+ms.sourcegitcommit: 9d20e7738cce195d344f5925a115741a1ce3ca36
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/23/2021
-ms.locfileid: "7827314"
+ms.lasthandoff: 12/21/2021
+ms.locfileid: "7942874"
 ---
 # <a name="whats-new-november-2021---project-operations-for-resourcenon-stocked-based-scenarios"></a>2021 年 11 月新增功能 - 面向资源/非库存场景的 Project Operations
 
@@ -20,7 +20,7 @@ ms.locfileid: "7827314"
 
 本主题适用于以下 Microsoft Dynamics 365 Project Operations 组件和版本：
 
-- Dataverse 环境中的 Project Operations 版本 4.26.0.145、4.26.0.148 或 4.26.0.150
+- Dataverse 环境中的 Project Operations 版本 4.26.0.145、4.26.0.148、4.26.0.150 或 4.26.0.155
 - Dynamics 365 Finance 环境中的项目管理和会计版本 10.0.22
 
 ## <a name="features-included-in-this-release"></a>此版本中包括的功能

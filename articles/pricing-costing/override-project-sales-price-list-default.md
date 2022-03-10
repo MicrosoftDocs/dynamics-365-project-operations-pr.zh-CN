@@ -2,19 +2,17 @@
 title: 替代项目销售价目表
 description: 此主题提供有关创建自定义销售价目表的信息。
 author: rumant
-manager: Annbe
 ms.date: 10/22/2020
 ms.topic: article
 ms.prod: ''
-ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: af9baca540d89f4e5e616bdfdd6111bef29abe28
-ms.sourcegitcommit: 656a9d03f260c29e988e2ff05b6e07ae0365d6d0
+ms.openlocfilehash: b26947822eb8e87b3b36fcde9c99c6ee69375aa942a5641112b9b1109dcaa26c
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 12/04/2020
-ms.locfileid: "4672220"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "7009565"
 ---
 # <a name="override-project-sales-price-lists"></a>替代项目销售价目表
 
@@ -52,3 +50,6 @@ _**适用于：** 基于资源/非库存场景的 Project Operations，精简部
 在项目合同上，项目定价始终默认为具有合同名称并且创建日期时间戳附加到名称中的自定义价目表。 无论是在报价单赢单时创建合同，还是从头创建合同，都是如此。 如果需要，您可以删除与自定义价目表的这一关联，然后将标准价目表与项目合同关联。
 
 当您将标准价目表与报价单或合同上的项目价目表关联时，对价目表中的价格所作的任何更改都将影响使用该价目表的所有报价单和合同。
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

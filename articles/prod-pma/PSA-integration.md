@@ -2,31 +2,30 @@
 title: Project Service Automation 概览
 description: 本主题提供有关 Dynamics 365 Project Service Automation 到 Dynamics 365 Finance 集成解决方案的信息。
 author: ruhercul
-manager: AnnBe
 ms.date: 07/25/2019
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 audience: Application User
 ms.reviewer: ruhercul
 ms.search.scope: Core, Operations
-ms.custom: 87983
+ms.custom: intro-internal
 ms.assetid: b454ad57-2fd6-46c9-a77e-646de4153067
 ms.search.region: Global
 ms.author: ruhercul
 ms.search.validFrom: 2016-11-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 1e1a963bccefd1552aab6e42d3b2d1dc63a82e8f
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: 551d511fda83857459a0488cfb48a9c7829171d2e4bd526ab27b4ee74b21910d
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4072745"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "7005875"
 ---
 # <a name="project-service-automation-overview"></a>Project Service Automation 概览
 
 [!include[banner](../includes/banner.md)]
+[!include [rename-banner](~/includes/cc-data-platform-banner.md)]
 
 Project Service Automation 到 Finance 集成解决方案使用数据集成功能，通过 Common Data Service 跨 Dynamics 365 Finance 和 Dynamics 365 Project Service Automation 的实例同步数据。 可通过数据集成功能提供的集成模板将项目、项目合同、项目合同行、项目合同行里程碑、项目任务、费用交易记录类别、工时估计值和费用估计值从 Project Service Automation 传输到 Finance。
 
@@ -57,7 +56,7 @@ Project Service Automation 到 Finance 集成解决方案使用数据集成功�
 > [!NOTE]
 > 并非所有模板当前都可用。 模板将在准备好后发布。
 
-[![Project Service Automation 与 Finance 集成](./media/PSA-integration.png)](./media/PSA-integration.png)
+[![Project Service Automation 与 Finance 集成。](./media/PSA-integration.png)](./media/PSA-integration.png)
 
 ## <a name="system-requirements-for-finance"></a>Finance 的系统要求
 
@@ -74,3 +73,6 @@ Project Service Automation 到 Finance 集成解决方案使用数据集成功�
 ## <a name="install-the-project-service-automation-to-finance-integration-solution-in-your-project-service-automation-instance"></a>在 Project Service Automation 中安装 Project Service Automation 到 Finance 集成解决方案
 
 从 [Microsoft 下载中心](https://www.microsoft.com/download/details.aspx?id=57016)下载 Project Service Automation 到 Finance 集成解决方案，然后按照该解决方案随附的说明操作。
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

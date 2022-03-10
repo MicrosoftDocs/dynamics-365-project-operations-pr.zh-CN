@@ -2,8 +2,6 @@
 title: 使用 Project Service Automation 数据模型
 description: 此主题介绍如何使用该数据模型。
 author: ruhercul
-manager: kfend
-ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 03/01/2019
@@ -18,16 +16,19 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 8d63a1b36abe0a154c43e99738340f32f28c2f5e
-ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
+ms.openlocfilehash: 375850b893b7afead8371824606b422d3f36c36de4da908fdf76666bd1b415ee
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/28/2020
-ms.locfileid: "4120262"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "7002410"
 ---
 # <a name="working-with-the-project-service-automation-data-model"></a>使用 Project Service Automation 数据模型
 
+[!include [banner](../includes/psa-now-project-operations.md)]
+
 [!INCLUDE[cc-applies-to-psa-app-3.x](../includes/cc-applies-to-psa-app-3x.md)]
+[!include [rename-banner](~/includes/cc-data-platform-banner.md)]
 
 Dynamics 365 Project Service Automation 在 Common Data Service 数据模型中扩展了其他应用程序实体，并引入了自己的实体。 此主题介绍您将在典型 PSA 报告方案中遇到的一些实体。
 
@@ -52,7 +53,7 @@ PSA 还为 Dynamics 365 数据模型新增了基于报价单的实体。 以下�
 
 PSA 为报价单增加的其他实体是 **报价单明细项目价目表**、**报价单明细资源类别** 和 **报价单明细交易类别**。
 
-![显示报价单、报价单行和项目关系的关系图](media/PS-Reporting-image2.png "显示报价单、报价单行和项目关系的关系图")
+![显示报价单、报价单行和项目关系的关系图。](media/PS-Reporting-image2.png "显示报价单、报价单行和项目关系的关系图")
 
 ## <a name="reporting-on-project-contracts"></a>项目合同的报告
 
@@ -68,7 +69,7 @@ PSA 还新增了针对项目合同的实体。 以下是一些示例：
 
 PSA 为合同增加的其他实体是 **项目合同明细项目价目表**、**项目合同明细资源类别** 和 **项目合同明细交易类别**。
 
-![显示订单、订单行和项目关系的关系图](media/PS-Reporting-image3.png "显示订单、订单行和项目关系的关系图")
+![显示订单、订单行和项目关系的关系图。](media/PS-Reporting-image3.png "显示订单、订单行和项目关系的关系图")
 
 ## <a name="reporting-on-projects"></a>项目的报告
 
@@ -80,18 +81,18 @@ PSA 为合同增加的其他实体是 **项目合同明细项目价目表**、**
 - **资源要求** – 此实体中包含针对任何通用资源团队成员的要求。
 - **估算** 和 **估算明细** – 这些资源之间存在标头/明细关系，其中包含项目的支出估算。 任务估算存储在 **资源估算** 视图中。
 
-![显示资源要求和项目关系的关系图](media/PS-Reporting-image4.png "显示资源要求和项目关系的关系图")
+![显示资源要求和项目关系的关系图。](media/PS-Reporting-image4.png "显示资源要求和项目关系的关系图")
 
 ## <a name="reporting-on-resources"></a>资源的报告
 
-项目资源使用 Universal Resource Scheduling (URS) 中与其他应用程序（如 Microsoft Dynamics 365 Field Service）共享的 **可预订资源** 实体。 下面是报告项目资源时可能必须使用的实体的列表。
+项目资源使用 Universal Resource Scheduling (URS) 中与其他应用（如 Microsoft Dynamics 365 Field Service）共享的 **可预订资源** 实体。 下面是报告项目资源时可能必须使用的实体的列表。
 
 - **可预订资源** – 此实体表示项目团队使用的用户、联系人、通用资源、帐户、组或设备。
 - **可预订资源特征** – 此实体包括资源的技能、认证或教育情况。 这些特征可能有由分级模型定义的等级值。
 - **可预订资源类别** – 此实体表示可预订资源的角色。
 - **可预订资源预订** – 此实体表示为项目预订的资源时间。 每项预订都有标头实体和明细实体，而每项明细都有用于表示预订状态的状态。
 
-![显示可预订资源特征关系的关系图](media/PS-Reporting-image5.png "显示可预订资源特征关系的关系图")
+![显示可预订资源特征关系的关系图。](media/PS-Reporting-image5.png "显示可预订资源特征关系的关系图")
 
 ## <a name="reporting-on-actual-transactions"></a>实际交易的报告
 
@@ -119,4 +120,7 @@ PSA 为合同增加的其他实体是 **项目合同明细项目价目表**、**
 
 **交易起源** 实体记录 **实际值** 记录的来源，而 **交易连接** 实体则记录 **实际值** 记录的相关记录。 此外，**实际值** 记录中包含对项目、项目合同（订单）、可预订资源和客户的引用。
 
-![显示事务连接、原始和实际关系的关系图](media/PS-Reporting-image6.png "显示事务连接、原始和实际关系的关系图")
+![显示事务连接、原始和实际关系的关系图。](media/PS-Reporting-image6.png "显示事务连接、原始和实际关系的关系图")
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

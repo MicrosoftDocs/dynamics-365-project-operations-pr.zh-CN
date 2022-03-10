@@ -2,17 +2,17 @@
 title: 配置非库存材料以及待定供应商发票
 description: 本主题说明如何启用非库存材料以及待定供应商发票。
 author: sigitac
-ms.date: 04/12/2021
+ms.date: 06/22/2021
 ms.topic: article
 ms.prod: ''
 ms.reviewer: kfend
 ms.author: sigitac
-ms.openlocfilehash: 24418f3aad8356bd209eef7487a47a3870bce10f
-ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
+ms.openlocfilehash: 9b55d959228062fc3577cf7f12d8926f51e9791f98c73fdc4b78251312a8a77a
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/10/2021
-ms.locfileid: "5993900"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "7003220"
 ---
 # <a name="configure-non-stocked-materials-and-pending-vendor-invoices"></a>配置非库存材料以及待定供应商发票
 
@@ -59,11 +59,11 @@ Dynamics 365 Finance：
 
 ### <a name="activate-workflow-to-create-accounts-based-on-vendor-entity"></a>激活工作流以基于供应商实体创建客户
 
-双重写入业务流程解决方案提供[供应商主集成](/dynamics365/fin-ops-core/dev-itpro/data-entities/dual-write/vendor-mapping.md)。 作为此功能的先决条件，必须在 **客户** 实体中创建供应商数据。 激活模板工作流流程，在 **客户** 表中创建供应商，如[在供应商设计之间切换](/dynamics365/fin-ops-core/dev-itpro/data-entities/dual-write/vendor-switch.md#use-the-extended-vendor-design-for-vendors-of-the-organization-type)中所述。
+双重写入业务流程解决方案提供[供应商主集成](/dynamics365/fin-ops-core/dev-itpro/data-entities/dual-write/vendor-mapping)。 作为此功能的先决条件，必须在 **客户** 实体中创建供应商数据。 激活模板工作流流程，在 **客户** 表中创建供应商，如[在供应商设计之间切换](/dynamics365/fin-ops-core/dev-itpro/data-entities/dual-write/vendor-switch)中所述。
 
 ### <a name="set-products-to-be-created-as-active"></a>将产品设置为以活动状态创建
 
-非库存材料必须在 Finance 中配置为 **已发布产品**。 双重写入业务流程解决方案提供现成的[已发布产品与 Dataverse 产品集成目录](/dynamics365/fin-ops-core/dev-itpro/data-entities/dual-write/product-mapping.md)。 默认情况下，Finance 中的产品在草稿状态下同步到 Dataverse。 要将产品同步到活动状态，以可以将其直接用于材料使用文档或待定供应商发票，转到 **系统** > **管理** > **系统管理** > **系统设置**，在 **销售** 选项卡上，将 **创建处于活动状态的产品** 设置为 **是**。
+非库存材料必须在 Finance 中配置为 **已发布产品**。 双重写入业务流程解决方案提供现成的[已发布产品与 Dataverse 产品集成目录](/dynamics365/fin-ops-core/dev-itpro/data-entities/dual-write/product-mapping)。 默认情况下，Finance 中的产品在草稿状态下同步到 Dataverse。 要将产品同步到活动状态，以可以将其直接用于材料使用文档或待定供应商发票，转到 **系统** > **管理** > **系统管理** > **系统设置**，在 **销售** 选项卡上，将 **创建处于活动状态的产品** 设置为 **是**。
 
 ## <a name="configure-prerequisites-in-finance"></a>在 Finance 中配置先决条件
 
@@ -88,7 +88,7 @@ Dynamics 365 Finance：
 2. 在 **产品类型** 字段中，选择 **物料**，在 **产品子类型** 字段中，选择 **产品**。
 3. 输入产品编号 (WRITEIN) 和产品名称（目录外产品）。
 4. 选择物料模型组。 确保您选择的物料模型组将 **库存策略库存产品** 字段设置为 **False**。
-5. 在 **物料组**、**存储维度组** 和 **跟踪维度组** 字段中选择值。 仅将 **存储维度** 用于 **站点**，不设置任何跟踪维度。
+5. 在 **物料组**、**存储维度组** 和 **跟踪维度组** 字段中选择值。 仅将 **存储维度** 用于 **站点**，然后在 **跟踪维度** 字段中，选择 **无**。
 6. 在 **库存单位**、**采购单位** 和 **销售单位** 字段中选择值，然后保存更改。
 7. 在 **计划** 选项卡中，设置默认订单设置，在 **库存** 选项卡上，设置默认的站点和仓库。
 8. 转到 **项目管理和会计** > **设置** > **项目管理和会计参数**，打开 **Dynamics 365 Dataverse 上的 Project Operations**。 

@@ -6,12 +6,13 @@ ms.date: 11/19/2020
 ms.topic: article
 ms.reviewer: kfend
 ms.author: sigitac
-ms.openlocfilehash: 42af89105f8325f1c94df6d2133d2c329facf2b3
-ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
+ms.custom: intro-internal
+ms.openlocfilehash: c343c5bf525574e496036793cd4e131394e8b1b471153147a66cfebe1acf3fce
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/10/2021
-ms.locfileid: "6002630"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "7005380"
 ---
 # <a name="intercompany-invoicing-overview"></a>内部公司开票概述
 
@@ -21,7 +22,7 @@ _**适用于：** 面向资源/非库存场景的 Project Operations_
 
 下图显示了一个典型方案，其中，两个法人实体 Contoso Robotics USA（借款法人实体）和 Contoso  Robotics UK（贷款法人实体）共享资源以为客户 Adventure works 交付项目。 对于此情形，Contoso Robotics USA 签订合同以向 Adventure Works 交付工作。
 
-![内部公司开票](./media/IntercompanyScenario.png) 
+![内部公司开票。](./media/IntercompanyScenario.png) 
 
 Dynamics 365 Project Operations 使用以下流来处理内部公司交易：
 
@@ -34,7 +35,7 @@ Dynamics 365 Project Operations 使用以下流来处理内部公司交易：
 
 下图说明了内部公司开票，因为它与会计事件和预期过帐到总帐有关。
 
-![内部公司流](./media/IntercompanyFlow.png)
+![内部公司流。](./media/IntercompanyFlow.png)
 
 ## <a name="additional-resources"></a>其他资源
 

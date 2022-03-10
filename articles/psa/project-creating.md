@@ -2,8 +2,6 @@
 title: 项目计划
 description: 此主题介绍如何创建计划。
 author: ruhercul
-manager: kfend
-ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 3/01/2019
@@ -18,14 +16,16 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: bad7a8712057b60d202c37cc75ea68bf04fd4cc9
-ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
+ms.openlocfilehash: 192fbe7f26a2bd060ffe9bc0b1eea50b9431bca4696e3da1d94bf53158e026a6
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/28/2020
-ms.locfileid: "4123213"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6998405"
 ---
 # <a name="project-schedules"></a>项目计划 
+
+[!include [banner](../includes/psa-now-project-operations.md)]
 
 [!INCLUDE[cc-applies-to-psa-app-3.x](../includes/cc-applies-to-psa-app-3x.md)]
 
@@ -94,7 +94,7 @@ ms.locfileid: "4123213"
 
 任务的名称描述必须完成的工作。 在 PSA 中，与任务关联的属性描述任务的计划及其人员配备要求。
 
-> ![任务属性](media/project-2.png)
+> ![任务属性。](media/project-2.png)
  
 ### <a name="schedule-attributes"></a>计划属性
 
@@ -147,3 +147,6 @@ ms.locfileid: "4123213"
 ### <a name="manual-scheduling"></a>手动计划
 
 如果自动计划规则无法满足您的要求，您可以将任务的任务模式设置为 **手动计划**。 此设置会阻止计划引擎计算其他计划属性的值。 无论采用哪种任务模式，如果为任务设置前置任务，始终会影响依赖任务的开始日期。
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

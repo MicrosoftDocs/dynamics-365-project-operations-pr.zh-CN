@@ -2,8 +2,6 @@
 title: 添加资源技能
 description: 如何将技能与 Project Service 中的资源关联
 author: JohnPBurrows
-manager: kfend
-ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 7/31/2018
@@ -18,12 +16,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 72ea9420be5541388bf0b154a0be13bd0025cf67
-ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
+ms.openlocfilehash: 597a2b3ddffae4815092704faa2e17c2e3b6ba0be59bfe73a59a89a4fe506ede
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5285382"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6995525"
 ---
 # <a name="add-resource-skills-project-service"></a>添加资源技能 (Project Service)
 

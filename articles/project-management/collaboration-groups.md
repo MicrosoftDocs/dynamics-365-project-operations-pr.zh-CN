@@ -2,18 +2,16 @@
 title: 与 Office 组协作
 description: Office 组可让您与 Common Data Service 中的其他团队成员共享项目。
 author: ruhercul
-manager: Annbe
 ms.date: 10/01/2020
 ms.topic: article
-ms.service: project-operations
 ms.reviewer: kfend
 ms.author: ruhercul
-ms.openlocfilehash: 6cf481c3c68ecc76000ef23fd0d1eef0da49dce9
-ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
+ms.openlocfilehash: 2ad284bb3eb461e254292fcf78ea135c9b978deeded30927c3c442afc2ec0b7e
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5287138"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "7003130"
 ---
 # <a name="collaboration-with-office-groups"></a>与 Office 组协作
 

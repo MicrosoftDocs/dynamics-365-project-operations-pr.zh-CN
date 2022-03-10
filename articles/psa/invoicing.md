@@ -2,12 +2,10 @@
 title: Project Service Automation 中的开票
 description: 本主题介绍开票。
 author: rumant
-manager: kfend
 ms.custom:
 - dyn365-projectservice
 ms.date: 08/03/2020
 ms.topic: article
-ms.service: business-applications
 ms.author: rumant
 audience: Admin
 search.audienceType:
@@ -17,12 +15,12 @@ search.audienceType:
 search.app:
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 5d9fff2d3b26da73e5a236cd8607576439fc1a08
-ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
+ms.openlocfilehash: 58259c05939cfe870ce5e36b4a0221cd93b8e8d2b4be582efc9167e82579699e
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5284257"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6985490"
 ---
 # <a name="invoicing-in-project-service-automation"></a>Project Service Automation 中的开票
 
@@ -52,7 +50,7 @@ PSA 不应生成面向客户的发票，原因如下：
 
 - 在 **项目合同** 列表页中，打开一个项目合同，然后选择 **创建发票**。
 
-    ![为特定项目合同创建项目发票](media/CreateProjectInvoicesOneByOne.png)
+    ![为特定项目合同创建项目发票。](media/CreateProjectInvoicesOneByOne.png)
 
     将为所选项目合同的所有状态为 **已准备好开具发票** 的交易生成发票。 这些交易包括时间、支出、里程碑和基于产品的合同子项。
 
@@ -60,7 +58,7 @@ PSA 不应生成面向客户的发票，原因如下：
 
 1. 在 **项目合同** 列表页，选择必须为其创建发票的一个或多个项目合同，然后选择 **创建项目合同**。
 
-    ![批量创建项目发票](media/CreateProjectInvoicesBulk.png)
+    ![批量创建项目发票。](media/CreateProjectInvoicesBulk.png)
 
     将显示警告消息，说明可能会经过一段延迟才会创建发票。 还将显示进度。
 

@@ -6,12 +6,13 @@ ms.date: 11/02/2020
 ms.topic: article
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: ca8c0894dff1a74b532f8262278fb20400f097c5
-ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
+ms.custom: intro-internal
+ms.openlocfilehash: a66877471e584bc76ddfe508a5d4cb47e38dd7aeb5f2bebe795b41a1de462ef9
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/10/2021
-ms.locfileid: "6001235"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "7009700"
 ---
 # <a name="project-operations-for-resourcenon-stocked-based-scenarios-deployment-overview"></a>面向资源/非库存场景的 Project Operations 部署概述
 

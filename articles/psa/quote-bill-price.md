@@ -3,10 +3,9 @@ title: 报价、定价和记帐主页
 description: 本主题提供有关报价、定价和记帐的信息。
 author: rumant
 ms.author: rumant
-manager: kfend
-ms.service: dynamics-365-customerservice
 ms.custom:
 - dyn365-projectservice
+- intro-internal
 ms.date: 03/01/2019
 ms.topic: article
 audience: Admin
@@ -18,14 +17,16 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: d6dfb2838275095e84eda03869ba9b644e99f091
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: 0b3d40158534f039160156087d6edab0d21dd5f3eaf71d5b665eff794793a9b3
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4072652"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "7004750"
 ---
 # <a name="quoting-pricing-and-billing-home-page"></a>报价、定价和记帐主页
+
+[!include [banner](../includes/psa-now-project-operations.md)]
 
 [!INCLUDE[cc-applies-to-psa-app-3.x](../includes/cc-applies-to-psa-app-3x.md)]
 
@@ -42,3 +43,6 @@ ms.locfileid: "4072652"
 - [计价单位组和计价单位](advanced-units.md)
 - [多单位币种](advanced-currency.md)
 - [记录实际值](advanced-actuals.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

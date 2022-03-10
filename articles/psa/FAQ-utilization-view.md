@@ -2,8 +2,6 @@
 title: 查看资源的应计费利用率
 description: 此主题介绍资源利用率视图。
 author: ruhercul
-manager: kfend
-ms.service: dynamics-365-customerservice
 ms.custom:
 - dyn365-projectservice
 ms.date: 9/26/2019
@@ -18,18 +16,20 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 6daa6cfa1c6a237d8a1685123f7c1a6926418bfe
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: 32dba5acd95c1d192556153240ebd51343112be53aa3db93e5e6f127c2d960e9
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4072626"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "7007135"
 ---
 # <a name="view-chargeable-utilization-for-resources"></a>查看资源的应计费利用率
+
+[!include [banner](../includes/psa-now-project-operations.md)]
  
 **Project Service 资源利用率** 页上的 **利用率视图** 显示每项可预订资源的应计费利用率。 因为此视图基于日程安排板，因此您将发现很多相同的功能。
 
-> ![利用率视图的屏幕截图](media/FAQ-utilization-1.png)
+> ![利用率视图的屏幕截图。](media/FAQ-utilization-1.png)
  
 
 应收费利用率计算如下：
@@ -48,7 +48,7 @@ ms.locfileid: "4072626"
 2. 选择一项资源以打开记录。 
 3. 在 **Project Service** 选项卡上，可以设置资源的目标利用率。
 
-> ![使用 Project Service 选项卡设置目标利用率的屏幕截图](media/FAQ-utilization-2.png)
+> ![使用 Project Service 选项卡设置目标利用率的屏幕截图。](media/FAQ-utilization-2.png)
  
 ## <a name="set-target-utilization-on-a-role"></a>设置角色的目标利用率
 
@@ -56,7 +56,7 @@ ms.locfileid: "4072626"
 2. 选择一个角色，然后打开记录。 
 3. 设置角色的目标利用率。
 
-> ![使用“资源角色”设置目标利用率的屏幕截图](media/FAQ-utilization-3.png)
+> ![使用“资源角色”设置目标利用率的屏幕截图。](media/FAQ-utilization-3.png)
  
 ## <a name="calculate-chargeable-utilization-for-a-resource"></a>计算资源的应收费利用率
 
@@ -99,3 +99,6 @@ ms.locfileid: "4072626"
   - 支持项目的项目合同子项中的角色是否已设置为非应收费。
   - 项目是否没有关联的合同子项。
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

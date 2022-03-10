@@ -2,11 +2,9 @@
 title: 将项目实际值直接从 Project Service Automation 同步到 Finance and Operations 中的项目集成日记帐进行过帐
 description: 此主题介绍用于直接同步 Microsoft Dynamics 365 Project Service Automation 与 Finance and Operations 的项目实际值的模板和基础任务。
 author: Yowelle
-manager: AnnBe
 ms.date: 07/20/2018
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 audience: Application User
 ms.reviewer: kfend
@@ -17,12 +15,12 @@ ms.search.region: Global
 ms.author: andchoi
 ms.search.validFrom: 2016-11-28
 ms.dyn365.ops.version: AX 7.3.0
-ms.openlocfilehash: cff62e739e88dc45e7c3d1ea044875f0600f2bc1
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: 85b6c07464e919e363f28d8bc62115e8fb4c72ea6631269b98fd00f324a01cba
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4072736"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6988100"
 ---
 # <a name="synchronize-project-actuals-directly-from-project-service-automation-to-the-project-integration-journal-for-posting-in-finance-and-operations"></a>将项目实际值直接从 Project Service Automation 同步到 Finance and Operations 中的项目集成日记帐进行过帐
 
@@ -44,7 +42,7 @@ Project Service Automation 到 Finance 集成解决方案使用数据集成功�
 
 下图显示 Project Service Automation 与 Finance 之间中如何同步数据。
 
-[![Project Service Automation 与 Finance and Operations 集成的数据传输](./media/ProjectActualsFlow.jpg)](./media/ProjectActualsFlow.jpg)
+[![Project Service Automation 与 Finance and Operations 集成的数据流。](./media/ProjectActualsFlow.jpg)](./media/ProjectActualsFlow.jpg)
 
 ## <a name="project-actuals-from-project-service-automation"></a>来自 Project Service Automation 的项目实际值
 
@@ -95,9 +93,9 @@ Project Service Automation 到 Finance 集成解决方案使用数据集成功�
 
 下图显示了数据集成中的模板任务映射的一个示例。 此映射显示将从 Project Service Automation 同步到 Finance 的字段信息。
 
-[![模板映射 - 实际值](./media/ActualsMapping.jpg)](./media/ActualsMapping.jpg)
+[![模板映射 - 实际值。](./media/ActualsMapping.jpg)](./media/ActualsMapping.jpg)
 
-[![模板映射 - 交易连接](./media/TransactionConnections.jpg)](./media/TransactionConnections.jpg)
+[![模板映射 - 交易连接。](./media/TransactionConnections.jpg)](./media/TransactionConnections.jpg)
 
 ## <a name="import-from-staging-table-after-integration-from-project-service-automation"></a>从 Project Service Automation 集成后从暂存表导入
 
@@ -137,6 +135,9 @@ Project Service Automation 到 Finance 集成解决方案使用数据集成功�
 
 下图显示了数据集成中的模板任务映射的示例。 此映射显示将从 Finance 同步到 Project Service Automation 的字段信息。
 
-[![模板映射 - 实际值更新](./media/ActualsUpdateMapping.jpg)](./media/ActualsUpdateMapping.jpg)
+[![模板映射 - 实际值更新。](./media/ActualsUpdateMapping.jpg)](./media/ActualsUpdateMapping.jpg)
 
-[![模板映射 - 交易更新](./media/TransactionConnectionsUpdate.jpg)](./media/TransactionConnectionsUpdate.jpg)
+[![模板映射 - 交易更新。](./media/TransactionConnectionsUpdate.jpg)](./media/TransactionConnectionsUpdate.jpg)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

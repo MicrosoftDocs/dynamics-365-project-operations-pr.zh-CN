@@ -2,18 +2,16 @@
 title: 处理基于项目的合同子项
 description: 此主题提供有关基于项目的合同子项的信息。
 author: rumant
-manager: Annbe
 ms.date: 10/28/2020
 ms.topic: article
-ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: 14d880eccd5547c122ebe37b63022e64fa2fb6fe
-ms.sourcegitcommit: f6f86e80dfef15a7b5f9174b55dddf410522f7c8
+ms.openlocfilehash: c1c935a998cba8bd42ba2f11c8310d41e72de94adac7c2cb83f4c7224127b10b
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/31/2020
-ms.locfileid: "4181697"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6990035"
 ---
 # <a name="work-with-projectbased-contract-lines"></a>处理基于项目的合同子项
 
@@ -57,3 +55,6 @@ Dynamics 365 Project Operations 中的基于项目的合同子项用于保留参
 | C1       | CL2           | P1      | No           | 是             | No          | 有效           | 项目 P1 上的时间和费用包含在 CL1 中。 项目 P1 上的支出包含在 CL2 中。 </br>   每个合同子项中包含的内容没有重叠，因此是有效的。  |
 | C1       | CL1           | P1      | 是          | 是             | 是         | 无效       | 违反规则。 项目 P1 上的时间、支出和费用可包含在两个合同的子项中。                                                                                               |
 | CL2      | CL2           | P1      | 是          | 是             | 是         | 无效       | 违反规则。 项目 P1 上的时间、支出和费用可包含在两个合同的子项中。                                                                                               |
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

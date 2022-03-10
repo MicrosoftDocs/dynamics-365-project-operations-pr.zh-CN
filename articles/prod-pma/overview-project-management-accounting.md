@@ -2,28 +2,26 @@
 title: 项目管理和会计概述
 description: 项目管理和会计功能可用于多个行业，来提供服务、生产产品或取得成果。
 author: Yowelle
-manager: AnnBe
 ms.date: 07/25/2019
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: ProjTable; ProjProjectManagementWorkspace
 audience: Application User
 ms.reviewer: kfend
 ms.search.scope: Core, Operations
-ms.custom: 87983
+ms.custom: intro-internal
 ms.assetid: b454ad57-2fd6-46c9-a77e-646de4153067
 ms.search.region: Global
 ms.author: andchoi
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 634e35f7bd399d3d97659b4bd6f2f3a6dbd5839f
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: 1465e68fb119927f474bf4d5b26cb0cd1d60824340a7d46e59d23036d99503f3
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4072747"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "7007495"
 ---
 # <a name="project-management-and-accounting-overview"></a>项目管理和会计概述
 
@@ -36,14 +34,14 @@ ms.locfileid: "4072747"
 ## <a name="projects-across-industries"></a>跨行业的项目
 项目管理和会计功能可以在多个行业中使用，如下图所示。
 
-[![跨行业的项目](./media/projects-accross-industries.jpg)](./media/projects-accross-industries.jpg) 
+[![跨行业的项目。](./media/projects-accross-industries.jpg)](./media/projects-accross-industries.jpg) 
 
 在呼叫中心，票证可用于描述解决呼叫所需的一组操作。 咨询公司，如管理或技术咨询组织或广告代理商，将其活动称为项目。 在市场营销中，市场活动表示一组必须交付的工作。 在基于项目的制造中，生产订单涉及生产某些成品所必须完成的各项工作。 无论使用什么名称，这些项目都涉及资源、计划和成本，而项目管理和会计功能可以帮助规划、执行和分析这些项目。
 
 ## <a name="project-phases"></a>项目阶段
 尽管以下流程针对外部项目或针对一个或多个客户完成的项目，但此功能也适用于内部的纯成本项目。 
 
-![项目的 3 个阶段](./media/3-stages-of-a-project.png) 
+![项目的 3 个阶段。](./media/3-stages-of-a-project.png) 
 
 如上图所示，项目管理和会计可以分为三个阶段：
 
@@ -52,7 +50,7 @@ ms.locfileid: "4072747"
 3.  分析
 
 ## <a name="initiate-the-project"></a>启动项目
-在项目启动期间，会执行几个关键流程。 您可以使用项目报价单将估计的人工、支出和材料传达给客户。 您可以在项目合同中记录账单条款、限制和协议。 您可以使用工作分解结构 (WBS) 来计划和估计工作。 您可以设置预测和预算来引导项目执行。 下图显示了一个项目的结构。[![项目结构](./media/project-structure1.jpg)](./media/project-structure1.jpg)  
+在项目启动期间，会执行几个关键流程。 您可以使用项目报价单将估计的人工、支出和材料传达给客户。 您可以在项目合同中记录账单条款、限制和协议。 您可以使用工作分解结构 (WBS) 来计划和估计工作。 您可以设置预测和预算来引导项目执行。 下图显示了一个项目的结构。[![项目结构。](./media/project-structure1.jpg)](./media/project-structure1.jpg)  
 
 ### <a name="create-project-quotations"></a>创建项目报价单
 
@@ -205,7 +203,7 @@ WBS 是对项目所完成的工作的说明。 WBS 是一个任务层次结构�
 
 您订购物料的方式取决于您从何处订购它们：
 
--   要从公司库存订购物料，您必须将订单作为物料要求输入。 如果您使用 **物料要求** 页面，则可以设置要求，以便将物料作为部分交货接收。因此，您可以延迟一定数量的物料的消耗，直到需要这些物料。
+-   要从公司库存订购物料，您必须将订单作为物料要求输入。 如果您使用 **物料要求** 页面，则可以设置要求，以便将物料作为部分交货接收。 因此，您可以延迟一定数量的物料的消耗，直到需要这些物料。
 -   要从外部供应商订购物料，您必须在 **采购订单** 页上将此订单作为采购订单创建。
 
 > [!NOTE] 
@@ -227,7 +225,7 @@ WBS 是对项目所完成的工作的说明。 WBS 是一个任务层次结构�
 在为项目创建客户发票前，可以创建预备发票，或创建 发票方案。 在发票方案中，您可以选择要在项目发票中包括的项目交易记录。 然后您可以在过帐项目发票并将其发送给客户或其他融资来源之前，查看发票详细信息。 
 
 
-有关如何处理项目发票的详细信息，请参阅[项目开票](https://docs.microsoft.com/dynamics365/finance/accounts-payable/project-invoicing)。
+有关如何处理项目发票的详细信息，请参阅[项目开票](/dynamics365/finance/accounts-payable/project-invoicing)。
 
 
 ### <a name="calculate-the-cost-to-complete-a-project"></a>计算完成项目的成本
@@ -300,7 +298,7 @@ Finance 不会自动减小预测的估计值。 因此，最好在固定价格�
 -   **项目日期：** 2012 年 3 月 5 日。
 -   **发票日期：** 2012 年 3 月 31 日。 此日期根据开票频率确定。 在本例中，您将开票频率设置为当前月。 因此，在三月份过帐的所有交易记录都将在该月的最后一天开票。
 -   **到期日期：** 2012 年 4 月 14 日。 此日期根据为此项目设置的付款条款确定。 在本例中，您选择了 14 天的付款期限。 因此，发票日期加上 14 天就是到期日期 2012 年 4 月 14 日。
--   **预期销售付款日期：** 2012 年 4 月 27 日。 此日期通过以下方式计算得出：将 **项目管理与核算参数** 页上的 **一般缓冲天数** 字段中的天数与 **项目合同** 页上的 **个别缓冲天数** 字段中的天数相加，再将两者之和加上 **到期日期** 字段中的天数。 在本例中，您在 **一般缓冲天数** 字段中输入了 **3**，并在 **个别缓冲天数** 字段中输入了 **10**。 因此，到期日期加上 13 天就是预期销售付款日期 2012 年 4 月 27 日。
+-   **预期销售付款日期：** 2012 年 4 月 27 日。 此日期通过以下方式计算得出：**将项目管理与核算参数** 页上的 **一般缓冲天数** 字段中的天数与 **项目合同** 页上的 **个别缓冲天数** 字段中的天数相加，再将两者之和加上 **到期日期** 字段中的天数。 在本例中，您在 **一般缓冲天数** 字段中输入了 **3**，并在 **个别缓冲天数** 字段中输入了 **10**。 因此，到期日期加上 13 天就是预期销售付款日期 2012 年 4 月 27 日。
 
 一般缓冲天数可以替换个别缓冲天数或与个别缓冲天数相加：
 
@@ -440,3 +438,6 @@ Finance 不会自动减小预测的估计值。 因此，最好在固定价格�
 -   **消耗** - 有关工时、物料、支出和工资单交易记录的消耗量的信息。
 -   **发票** - 有关发票和分期付款开票的信息。
 -   **每小时费用** - 过帐到收入和成本科目的工时的每小时费用。
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

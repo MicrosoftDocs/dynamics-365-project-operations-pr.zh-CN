@@ -2,8 +2,6 @@
 title: 为任务分派资源
 description: 此主题介绍如何为任务分派资源。
 author: ruhercul
-manager: kfend
-ms.service: dynamics-365-customerservice
 ms.custom:
 - dyn365-projectservice
 ms.date: 9/27/2019
@@ -18,14 +16,16 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 77f13d1e96b76dfea241fbf7a67d5676582f0235
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: 3f96344b917f088f1d5782c5cee1d84f1aff47bc1bad7c8f6b33307d1df340fa
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4072793"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6987650"
 ---
-# <a name="assign-a-resource-to-a-task"></a>为任务分派资源
+# <a name="assign-a-resource-to-a-task"></a>为任务分配资源
+
+[!include [banner](../includes/psa-now-project-operations.md)]
 
 在 Microsoft Dynamics 365 Project Service Automation 中可通过三种方法为任务分派资源。
 
@@ -80,3 +80,6 @@ ms.locfileid: "4072793"
 
 3. 选择要分派给任务的资源。
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]
