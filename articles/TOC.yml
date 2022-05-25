@@ -62,6 +62,14 @@
           href: environment/uninstall-project-operations.md
     - name: 新增功能
       items:
+        - name: 2022 年 5 月 - 适用于资源/非库存材料场景的 Project Operations
+          href: whats-new/whats-new-may-2022-resource-based.md
+        - name: 2022 年 4 月 - 适用于资源/非库存材料场景的 Project Operations
+          href: whats-new/whats-new-apr-2022-resource-based.md
+        - name: 2022 年 3 月 - 适用于资源/非库存材料场景的 Project Operations
+          href: whats-new/whats-new-mar-2022-resource-based.md
+        - name: 2022 年 2 月 - 适用于资源/非库存材料场景的 Project Operations
+          href: whats-new/whats-new-feb-2022-resource-based.md
         - name: 2021 年 12 月 - 适用于资源/非库存材料场景的 Project Operations
           href: whats-new/whats-new-dec-2021-resource-based.md
         - name: 2021 年 11 月 - 适用于资源/非库存材料场景的 Project Operations
@@ -102,6 +110,8 @@
               href: sales/sales-units-unit-groups.md
             - name: 货币
               href: sales/sales-currency.md
+            - name: 部门
+              href: sales/OrgUnits.md
         - name: 管理项目潜在顾客
           href: sales/manage-leads.md
         - name: 管理项目商机
@@ -288,8 +298,6 @@
               href: project-management/project-cost-tracking.md
             - name: 项目人工收入跟踪
               href: project-management/project-sales-tracking.md
-            - name: 更新完工估算
-              href: project-management/update-completed-estimate.md
         - name: 项目团队成员
           items:
             - name: 项目团队成员概述
@@ -306,11 +314,13 @@
           items:
             - name: 使用复制项目开发项目模板
               href: project-management/dev-copy-project.md
-            - name: 使用项目日程安排 API
+            - name: 使用项目计划 API
               href: project-management/schedule-api-preview.md
-            - name: 项目日程安排 API 性能
+            - name: 将项目计划 API 与 Power Automate 结合使用
+              href: project-management/scheduling-apis-powerautomate.md
+            - name: 项目计划 API 性能
               href: project-management/project-schedule-api-performance.md
-            - name: 项目日程安排日志
+            - name: 项目计划日志
               href: project-management/schedule-api-logs.md
     - name: 资源管理
       items:
@@ -426,13 +436,13 @@
           href: expense/travel-requisition.md
         - name: 预付现金
           href: expense/cash-advance.md
-        - name: 出差津贴
-          href: expense/per-diems.md
+        - name: 出差津贴支出
+          href: expense/per-diem-expenses.md
         - name: 移动支出应用
           href: expense/expense-using-mobile.md
         - name: 财务管理
           items:
-            - name: 增值税返回
+            - name: 增值税退回
               href: expense/vat-recovery.md
     - name: 材料使用情况
       items:
@@ -444,27 +454,39 @@
           href: approvals/approvals-overview.md
         - name: 审批集
           href: approvals/approval-sets.md
+        - name: 取消以前批准的条目的审批
+          href: approvals/cancelapproval.md
+        - name: 撤消以前批准的条目
+          href: approvals/recall-cancel.md
         - name: 开发人员注释
           items:
             - name: 待审批的开发人员注释
               href: approvals/dev-notes-approvals.md
     - name: 实际值
       items:
+        - name: Project Operations 中的业务交易
+          href: actuals/businesstransactions.md
         - name: 实际值概述
           href: actuals/actuals-overview.md
-        - name: 将实际值链接到原始记录
+        - name: 交易起源 - 将实际值链接到来源
           href: actuals/linkingactuals.md
-        - name: 更正日记帐
+        - name: 交易连接 - 链接不同交易类型的实际值
+          href: actuals/connectingactuals.md
+        - name: 日记帐
           items:
+            - name: 创建并确认条目日记帐
+              href: actuals/create-confirm-entry-journals.md
             - name: 创建并确认更正日记帐
               href: actuals/create-confirm-correction-journals.md
     - name: 采购
       items:
         - name: 配置非库存材料以及待定供应商发票
           href: procurement/configure-materials-nonstocked.md
-        - name: 使用待定供应商发票为项目采购非库存材料
+        - name: 配置项目的采购类别
+          href: procurement/configure-procurement-categories.md
+        - name: 使用待定供应商发票为项目采购商品和服务
           href: procurement/pending-vendor-invoices.md
-        - name: 使用项目采购订单为项目采购非库存材料
+        - name: 使用项目采购订单为项目订购商品和服务
           href: procurement/non-stocked-materials-project-purchase-orders.md
         - name: 供应商保留
           items:
@@ -538,7 +560,19 @@
           href: revenue-recognition/cost-complete-methods.md
         - name: 管理收入估计
           href: revenue-recognition/rev-rec-completed-contract-method.md
-    - name: 疑难解答
+    - name: 高级配置
+      items:
+        - name: 直接转换期间迁移完全开票的记帐里程碑
+          href: advanced-configuration/migrating-invoiced-milestones.md
+    - name: 升级
+      items:
+        - name: 新式审批的升级注意事项
+          href: upgrade/upgrade-considerations-modern-approvals.md
+    - name: Project Operations 应用
+      items:
+        - name: Project Operations 团队成员应用
+          href: team-member/project-operations-team-member.md
+    - name: 故障排除
       items:
         - name: 项目销售流程
           items:
@@ -562,6 +596,14 @@
       items:
         - name: 2021 年第 2 波抢先体验新增功能 - 精简部署
           href: pro/whats-new/whats-new-2021-early-access-lite.md
+        - name: 2022 年 5 月新增功能 - 精简部署
+          href: pro/whats-new/whats-new-may-2022-lite.md
+        - name: 2022 年 4 月新增功能 - 精简部署
+          href: pro/whats-new/whats-new-apr-2022-lite.md
+        - name: 2022 年 3 月新增功能 - 精简部署
+          href: pro/whats-new/whats-new-mar-2022-lite.md
+        - name: 2022 年 2 月新增功能 - 精简部署
+          href: pro/whats-new/whats-new-feb-2022-lite.md
         - name: 2021 年 12 月新增功能 - 精简部署
           href: pro/whats-new/whats-new-dec-2021-lite.md
         - name: 2021 年 11 月新增功能 - 精简部署
@@ -602,6 +644,8 @@
               href: sales/sales-units-unit-groups.md
             - name: 货币
               href: sales/sales-currency.md
+            - name: 部门
+              href: sales/OrgUnits.md
         - name: 管理项目潜在顾客
           href: pro/sales/managing-leads-sales.md
         - name: 管理项目商机
@@ -808,8 +852,6 @@
               href: project-management/project-cost-tracking.md
             - name: 项目人工收入跟踪
               href: project-management/project-sales-tracking.md
-            - name: 更新完工估算
-              href: project-management/update-completed-estimate.md
         - name: 项目团队成员
           items:
             - name: 项目团队成员概述
@@ -826,9 +868,11 @@
           items:
             - name: 使用复制项目开发项目模板
               href: project-management/dev-copy-project.md
-            - name: 使用项目日程安排 API
+            - name: 使用项目计划 API
               href: project-management/schedule-api-preview.md
-            - name: 项目日程安排 API 性能
+            - name: 将项目计划 API 与 Power Automate 结合使用
+              href: project-management/scheduling-apis-powerautomate.md
+            - name: 项目计划 API 性能
               href: project-management/project-schedule-api-performance.md
     - name: 资源管理
       items:
@@ -886,12 +930,10 @@
           items:
             - name: 资源利用率概述
               href: resource-management/resource-utilization-overview.md
-    - name: Project Operations 中的分包合同管理
+    - name: 分包合同管理
       items:
         - name: Project Operations 中的分包合同管理
           href: pro/subcontracting/managing-subcontracts-overview.md
-        - name: 2021 年 10 月抢先体验中的合同分包
-          href: pro/subcontracting/Subcontracting_EA_scope.md
         - name: 合同分包中的关键概念
           href: pro/subcontracting/key-concepts-subcontracting.md
         - name: 管理供应商和项目价目表
@@ -924,6 +966,28 @@
           href: pro/subcontracting/recording-subcon-actuals.md
         - name: 分包合同的状态转换
           href: pro/subcontracting/subcon-states.md
+    - name: 项目供应商发票
+      items:
+        - name: 供应商开票 - 概念和创建
+          href: pro/subcontracting/vendor-invoice-overview.md
+        - name: 供应商发票的标题详细信息
+          href: pro/subcontracting/vendor-invoice-header.md
+        - name: 供应商发票时间行
+          href: pro/subcontracting/vendor-invoice-line-time.md
+        - name: 供应商发票产品行
+          href: pro/subcontracting/vi-line-material.md
+        - name: 供应商发票里程碑行
+          href: pro/subcontracting/vi-line-milestone.md
+        - name: 供应商发票支出类别行
+          href: pro/subcontracting/vi-line-expense.md
+        - name: 验证具有批准的实际值的供应商发票
+          href: pro/subcontracting/VI-Verification.md
+        - name: 取消项目供应商发票
+          href: pro/subcontracting/cancel-vi.md
+        - name: 确认项目供应商发票
+          href: pro/subcontracting/confirm-vi.md
+        - name: 供应商发票的状态转换
+          href: pro/subcontracting/vi-state-model.md
     - name: 时间
       items:
         - name: 时间概述
@@ -952,18 +1016,28 @@
           href: approvals/approvals-overview.md
         - name: 审批集
           href: approvals/approval-sets.md
+        - name: 取消以前批准的条目的审批
+          href: approvals/cancelapproval.md
+        - name: 撤消以前批准的条目
+          href: approvals/recall-cancel.md
         - name: 开发人员注释
           items:
             - name: 待审批的开发人员注释
               href: approvals/dev-notes-approvals.md
     - name: 实际值
       items:
+        - name: Project Operations 中的业务交易
+          href: actuals/businesstransactions.md
         - name: 实际值概述
           href: actuals/actuals-overview.md
-        - name: 将实际值链接到原始记录
+        - name: 交易起源 - 将实际值链接到来源
           href: actuals/linkingactuals.md
-        - name: 更正日记帐
+        - name: 交易连接 - 链接不同交易类型的实际值
+          href: actuals/connectingactuals.md
+        - name: 日记帐
           items:
+            - name: 创建并确认条目日记帐
+              href: actuals/create-confirm-entry-journals.md
             - name: 创建并确认更正日记帐
               href: actuals/create-confirm-correction-journals.md
     - name: 估价开票
@@ -984,6 +1058,14 @@
           href: pro/proforma-invoicing/corrective-invoices-sales.md
         - name: 配置 Project Invoice Automation
           href: pro/proforma-invoicing/configure-automated-invoice-creation-sales.md
+    - name: 升级
+      items:
+        - name: 新式审批的升级注意事项
+          href: upgrade/upgrade-considerations-modern-approvals.md
+    - name: Project Operations 应用
+      items:
+        - name: Project Operations 团队成员应用
+          href: team-member/project-operations-team-member.md
 - name: 适用于库存/生产订单场景的 Project Operations
   items:
     - name: 新增功能
@@ -1008,45 +1090,41 @@
           href: prod-pma/whats-new/whats-new-nov-2020-production-based.md
     - name: 适用于库存/生产订单场景的 Project Operations 部署概述
       href: prod-pma/project-operations-prod-order-deployment-overview.md
-    - name: 项目管理和会计概述
+    - name: 项目管理与核算概述
       href: prod-pma/overview-project-management-accounting.md
-    - name: 内部公司开票
-      href: prod-pma/intercompany-invoicing.md
-    - name: 配置内部公司项目开票
-      href: prod-pma/tasks/configure-intercompany-project-invoicing.md
-    - name: 配置人工和支出的标准成本
-      href: prod-pma/tasks/configure-standard-costs-labor-expenses.md
-    - name: 创建和应用供应商付款保留条款
-      href: prod-pma/create-and-apply-vendor-payment-retention-terms.md
-    - name: 设置和使用附条件支付供应商付款
-      href: prod-pma/setup-manage-vendor-payments.md
-    - name: 根据采购收据进行成本应计
-      href: /dynamics365/finance/accounts-payable/project-cost-accrual-purchase-receipts
-    - name: 项目开票
-      href: /dynamics365/finance/accounts-payable/project-invoicing
-    - name: 项目发票方案性能
-      href: prod-pma/project-invoice-proposal-performance.md
-    - name: 项目合同
-      href: prod-pma/project-contracts.md
-    - name: 根据进度创建高级记帐合同
-      href: prod-pma/project-create-advanced-contracts-for-billing-based-progress.md
-    - name: 项目预测和预算
-      href: prod-pma/project-forecasts-budgets.md
-    - name: 创建项目预算的预测模型
-      href: prod-pma/create-forecast-models-project-budgets.md
-    - name: 在会计年度结束时转移项目预算
-      href: prod-pma/process-project-budgets-for-fiscal-year-end.md
-    - name: 项目销售订单
-      href: prod-pma/project-sales-orders.md
-    - name: 项目的采购订单
-      href: prod-pma/project-purchase-orders.md
-    - name: 项目报价单
-      href: prod-pma/project-quotations.md
-    - name: 确认、更新和发送项目报价单
-      href: prod-pma/confirm-update-send-project-quotation.md
-    - name: 将报价单转移到项目
-      href: prod-pma/transfer-quote-new-existing-project.md
-    - name: 项目资源分配
+    - name: 项目销售流程
+      items:
+        - name: 项目报价单
+          href: prod-pma/project-quotations.md
+        - name: 确认、更新和发送项目报价单
+          href: prod-pma/confirm-update-send-project-quotation.md
+        - name: 将报价单转移到项目
+          href: prod-pma/transfer-quote-new-existing-project.md
+        - name: 项目合同
+          href: prod-pma/project-contracts.md
+        - name: 项目授权
+          href: prod-pma/project-grants.md
+    - name: 定价和成本核算
+      items:
+        - name: 配置人工和支出的标准成本
+          href: prod-pma/tasks/configure-standard-costs-labor-expenses.md
+    - name: 项目管理
+      items:
+        - name: 工作分解结构概述
+          href: prod-pma/work-breakdown-structures.md
+        - name: Microsoft Project Client 集成
+          href: prod-pma/project-integration.md
+        - name: Project 移动应用程序概述
+          href: prod-pma/project-mobile-application-overview.md
+        - name: 项目时间条目移动工作区
+          href: prod-pma/project-time-entry-mobile-workspace.md
+        - name: Project 工时单移动应用
+          href: prod-pma/project-timesheet.md
+        - name: 移动设备上的项目工时单
+          href: prod-pma/mobile-timesheets.md
+        - name: 为 Project Timesheet 移动应用实施自定义字段
+          href: prod-pma/custom-fields-mobile.md
+    - name: 资源管理
       items:
         - name: 项目资源分配概述
           href: prod-pma/project-resourcing.md
@@ -1068,28 +1146,106 @@
           href: prod-pma/set-up-roles-wbs-template.md
         - name: 计划资源的资源完成
           href: prod-pma/resource-fulfillment-planned-resources.md
-    - name: 根据物料需求接收采购订单上的物料
-      href: prod-pma/tasks/receive-items-purchase-order-item-requirement.md
-    - name: 工作分解结构
+    - name: 项目预算和预测
       items:
-        - name: 工作分解结构概述
-          href: prod-pma/work-breakdown-structures.md
-        - name: Microsoft Project Client 集成
-          href: prod-pma/project-integration.md
-        - name: Project 移动应用程序概述
-          href: prod-pma/project-mobile-application-overview.md
-        - name: 项目时间条目移动工作区
-          href: prod-pma/project-time-entry-mobile-workspace.md
-        - name: Project 工时单移动应用
-          href: prod-pma/project-timesheet.md
-        - name: 移动设备上的项目工时单
-          href: prod-pma/mobile-timesheets.md
-        - name: 为项目工时单移动应用实施自定义字段
-          href: prod-pma/custom-fields-mobile.md
-    - name: 项目授予
-      href: prod-pma/project-grants.md
-    - name: 清除项目估算
-      href: prod-pma/eliminate-project-estimate.md
+        - name: 项目预测和预算
+          href: prod-pma/project-forecasts-budgets.md
+        - name: 创建项目预算的预测模型
+          href: prod-pma/create-forecast-models-project-budgets.md
+        - name: 在会计年度结束时转移项目预算
+          href: prod-pma/process-project-budgets-for-fiscal-year-end.md
+    - name: 时间
+      items:
+        - name: 项目时间条目的默认财务维度
+          href: prod-pma/time-entry-dimension-defaults.md
+    - name: 支出
+      items:
+        - name: 支出概述
+          href: expense/expense-overview.md
+        - name: 新的支出体验
+          items:
+            - name: 重新打造支出报表
+              href: expense/expense-reports-reimagined.md
+            - name: 使用 OCR 捕获收据
+              href: expense/match-receipt-expense-ocr.md
+        - name: 配置和设置
+          items:
+            - name: 设置策略
+              href: expense/set-up-policies.md
+            - name: 设置工作流
+              href: expense/set-up-workflows.md
+            - name: 管理委派
+              href: expense/manage-delegation.md
+            - name: 配置支出管理参数
+              href: expense/configure-expense-management-parameters.md
+            - name: 设置信用卡集成
+              href: expense/set-up-credit-card-integration.md
+            - name: 设置支出类别
+              href: expense/set-up-expense-categories.md
+            - name: 使用里程运价率层设置里程
+              href: expense/set-up-mileage.md
+        - name: 支出项设置
+          href: prod-exp/expense-itemization.md
+        - name: 个人支出
+          href: expense/personal-expenses-expense-report.md
+        - name: 内部公司支出
+          href: prod-exp/intercompany-expense.md
+        - name: 创建支出报表
+          items:
+            - name: 支出报表上的分布
+              href: expense/distributions-expense-report.md
+        - name: 审批支出报表
+          items:
+            - name: 支出报表和多人审批
+              href: expense/expense-reports-multiple-approvers.md
+        - name: 发布支出报表
+          href: expense/posting-expense-reports.md
+        - name: 出差申请
+          href: expense/travel-requisition.md
+        - name: 预付现金
+          href: expense/cash-advance.md
+        - name: 出差津贴支出
+          href: expense/per-diem-expenses.md
+        - name: 移动支出应用
+          href: expense/expense-using-mobile.md
+        - name: 财务管理
+          items:
+            - name: 增值税退回
+              href: expense/vat-recovery.md
+    - name: 采购
+      items:
+        - name: 项目的采购订单
+          href: prod-pma/project-purchase-orders.md
+        - name: 采购收据中的应计项目成本
+          href: /dynamics365/finance/accounts-payable/project-cost-accrual-purchase-receipts
+        - name: 根据物料需求接收采购订单上的物料
+          href: prod-pma/tasks/receive-items-purchase-order-item-requirement.md
+        - name: 设置和使用即收即付供应商付款
+          href: prod-pma/setup-manage-vendor-payments.md
+        - name: 创建和应用供应商付款保留条款
+          href: prod-pma/create-and-apply-vendor-payment-retention-terms.md
+    - name: 项目开票
+      items:
+        - name: 项目开票
+          href: /dynamics365/finance/accounts-payable/project-invoicing
+        - name: 项目发票方案性能
+          href: prod-pma/project-invoice-proposal-performance.md
+        - name: 根据进度创建高级记帐合同
+          href: prod-pma/project-create-advanced-contracts-for-billing-based-progress.md
+        - name: 项目销售订单
+          href: prod-pma/project-sales-orders.md
+        - name: 具有多个资金来源的项目合同的物料需求
+          href: prod-pma/multiple-funding-sources-item-req.md
+    - name: 内部公司开票
+      items:
+        - name: 内部公司开票
+          href: prod-pma/intercompany-invoicing.md
+        - name: 配置内部公司项目开票
+          href: prod-pma/tasks/configure-intercompany-project-invoicing.md
+    - name: 收入确认
+      items:
+        - name: 清除项目估算
+          href: prod-pma/eliminate-project-estimate.md
 - name: 支出管理
   items:
     - name: 支出管理概述
@@ -1138,7 +1294,7 @@
       href: expense/expense-using-mobile.md
     - name: 财务管理
       items:
-        - name: 增值税返回
+        - name: 增值税退回
           href: expense/vat-recovery.md
 - name: Dynamics 365 Project Service Automation
   items:
@@ -1148,6 +1304,16 @@
       items:
         - name: Project Service 3.x 的更新版计划
           href: psa/version-history-ps.md
+        - name: V3 更新版 43 的新增或变更功能
+          href: psa/whats-new-ur43.md
+        - name: V3 更新版 42 的新增或变更功能
+          href: psa/whats-new-ur-42.md
+        - name: V3 更新版 41 的新增或变更功能
+          href: psa/whats-new-ur-41.md
+        - name: V3 更新版 40 的新增或变更功能
+          href: psa/whats-new-ur-40.md
+        - name: V3 更新版 39 的新增或变更功能
+          href: psa/whats-new-ur-39.md
         - name: V3 更新版 38 的新增或变更功能
           href: psa/whats-new-ur-38.md
         - name: V3 更新版 37.5 的新增或变更功能
@@ -1238,6 +1404,8 @@
           href: psa/implementation-guides/reporting-guide.md
     - name: 从 Project Service Automation 升级到 Project Operations - 精简
       href: psa/upgrade-project-operations-non-stocked.md
+    - name: 从 Project Service Automation 升级到 Project Operations 发生的功能变更
+      href: psa/psa-project-operations-changes.md
     - name: Project Service Automation 升级（应用版本 3.x）
       items:
         - name: Project Service Automation 升级
