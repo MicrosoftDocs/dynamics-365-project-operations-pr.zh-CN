@@ -4,14 +4,14 @@ description: 此主题介绍如何更新定价维度的插件属性。
 author: rumant
 ms.date: 11/18/2020
 ms.topic: article
-ms.reviewer: kfend
+ms.reviewer: johnmichalak
 ms.author: rumant
-ms.openlocfilehash: d57ec617d2c7b10a01a75e7eaa9ca2d646af3f6ee1d06d4e6fb228fc0533da27
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: b3b441b9ea0418e10db80a86613b2c41ea2c4673
+ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6988325"
+ms.lasthandoff: 04/14/2022
+ms.locfileid: "8575017"
 ---
 # <a name="update-plug-in-attributes-with-new-pricing-dimensions"></a>使用新的定价维度更新插件属性
 

@@ -4,14 +4,14 @@ description: 此主题提供有关如何在精简部署中使用支出条目的�
 author: stsporen
 ms.date: 11/19/2020
 ms.topic: article
-ms.reviewer: kfend
+ms.reviewer: johnmichalak
 ms.author: stsporen
-ms.openlocfilehash: 48bf86a5cee475708f93462dc154e21b36240023f0a94cf31c49e9a096951736
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 774bf2f8f54d2e314740fbad40ea15ce83d38297
+ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "7007810"
+ms.lasthandoff: 04/14/2022
+ms.locfileid: "8578329"
 ---
 # <a name="expense-entry-lite"></a>支出条目（精简）
 

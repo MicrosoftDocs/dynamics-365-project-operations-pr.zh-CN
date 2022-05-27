@@ -4,14 +4,14 @@ description: 该主题提供了分配给 Dynamics 365 Project Operations 中的�
 author: ruhercul
 ms.date: 10/01/2020
 ms.topic: article
-ms.reviewer: kfend
+ms.reviewer: johnmichalak
 ms.author: ruhercul
-ms.openlocfilehash: 47d71b945a2d5e7aa41d2ac3731ac4a5d3051ce279229794e31c9673f688130e
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 9efa6135bbaa98f8968e09fcf38c9dd4fde84fe4
+ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6997010"
+ms.lasthandoff: 04/14/2022
+ms.locfileid: "8578881"
 ---
 # <a name="understand-project-status"></a>了解项目状态
 

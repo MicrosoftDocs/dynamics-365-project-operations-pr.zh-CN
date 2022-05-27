@@ -4,14 +4,14 @@ description: 此主题提供有关应用于和影响项目报价单的信息和�
 author: rumant
 ms.date: 10/01/2020
 ms.topic: article
-ms.reviewer: kfend
+ms.reviewer: johnmichalak
 ms.author: rumant
-ms.openlocfilehash: ddc85d8c475dc7cdbe910fad31b5a6d8b617512c8a19cbae9543cb7a3e1d409e
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 267978da59ba1c916272ec0c9ff9044ed0d81f50
+ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6989630"
+ms.lasthandoff: 04/14/2022
+ms.locfileid: "8574879"
 ---
 # <a name="header-details-for-project-quotes"></a>项目报价单的标题详细信息
 

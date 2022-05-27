@@ -6,7 +6,7 @@ ms.custom:
 - dyn365-projectservice
 - intro-internal
 ms.date: 9/23/2019
-ms.topic: article
+ms.topic: overview
 ms.author: ruhercul
 audience: Admin
 search.audienceType:
@@ -17,12 +17,13 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 06894a64e4d96ec14799b528ff17b92fbb0d36ba8fdbc9b58abb892563e822b5
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.reviewer: johnmichalak
+ms.openlocfilehash: 4479f8b1d7cce5d3008ffa285c66da2669532576
+ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "7000250"
+ms.lasthandoff: 04/14/2022
+ms.locfileid: "8580169"
 ---
 # <a name="what-is-dynamics-365-project-service-automation"></a>什么是 Dynamics 365 Project Service Automation？
 
@@ -42,14 +43,6 @@ Project Service Automation (PSA) 应用程序帮助组织有效跟踪、管理�
 - ...等等
 
 此外，为帮助您监视并控制您基于项目的工作的成本，各个顾问可轻松输入和跟踪项目时间和费用，可以在移动设备上或使用 Web 浏览器。
-
-## <a name="whats-new-in-psa"></a>PSA 中的新增功能
-团队激动地发布我们的最新更新！ 其中包含用户界面改进、bug 修复并且添加了重要的新特性和功能。 您问；我们听。
-
-浏览 [2019 年 10 月发行说明](/dynamics365-release-plan/2019wave2/index)以查看最新增强功能和新增功能。
-
-### <a name="in-development"></a>正在开发
-若要查看我们计划在不久的将来推出的功能，请转到 [Dynamics 365：2020 年发行版本第 1 波计划](/dynamics365-release-plan/2020wave1/index)。
 
 ## <a name="get-help-with-psa-version-3x"></a>获取 PSA 版本 3.x 的帮助
 正在寻求帮助规划实施的资源？ 请查看这些可下载的指南。
@@ -80,10 +73,6 @@ Project Service Automation (PSA) 应用程序帮助组织有效跟踪、管理�
  [白皮书（应用程序版本 2.x 或 1.x）](../psa/white-papers.md)
 
  [开发人员注意事项（应用版本 2.x）](../psa/developer-guides/add-custom-qoi-forms-v2.x.md)
-
- ## <a name="watch-a-2-minute-overview-video"></a>观看 2 分钟的概述视频
- <a name="heroArea"></a> [![ProjectService_IntroVideo](../psa/media/project-service-intro-video.png "ProjectService_IntroVideo."](https://go.microsoft.com/fwlink/p/?LinkId=799457)
-
 
 
 

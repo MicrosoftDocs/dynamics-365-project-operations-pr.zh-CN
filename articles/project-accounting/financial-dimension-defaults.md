@@ -4,22 +4,22 @@ description: 此主题提供有关如何设置财务维度默认值的信息。
 author: sigitac
 ms.date: 12/14/2021
 ms.topic: article
-ms.reviewer: kfend
+ms.reviewer: johnmichalak
 ms.author: sigitac
-ms.openlocfilehash: 8c1eb71d13ca7fc59118d15fef7ac914577b3b0e
-ms.sourcegitcommit: fe5610464fdb5be756aa6a6a5b3c9a991dea0ed8
+ms.openlocfilehash: 9f43fed57a1411a55dcd7929f34e87aed136a6b5
+ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 12/15/2021
-ms.locfileid: "7922927"
+ms.lasthandoff: 04/14/2022
+ms.locfileid: "8579479"
 ---
 # <a name="financial-dimension-defaults"></a>财务维度默认值
 
 _**适用于：** 面向资源/非库存场景的 Project Operations_
 
-[!include [rename-banner](~/includes/cc-data-platform-banner.md)]
 
-Dynamics 365 Project Operations 使用 Dynamics 365 Finance 中的[财务维度](/dynamics365/finance/general-ledger/financial-dimensions)框架提供有关项目子分类帐和总帐交易的其他见解。
+
+Dynamics 365 Project Operations 使用 Dynamics 365 Finance 中的[财务维度](/dynamics365/finance/general-ledger/financial-dimensions)框架来提供有关项目分类帐和总帐交易的其他见解。
 
 默认财务维度可以在客户、项目资金来源、里程碑、项目合同子项或项目上设置。
 
@@ -60,15 +60,5 @@ Dynamics 365 Project Operations 使用 Dynamics 365 Finance 中的[财务维度]
 4. 设置财务维度默认值。 请注意，财务维度默认来自客户帐户。 如果项目与具有多个项目合同客户的合同子项关联，主要客户将用于确定默认财务维度。
 
 项目默认财务维度用于设置 **Project Operations 集成日记帐** 和相关项目发票明细上的时间、支出和费用交易的日记帐行默认值。
-
-## <a name="apply-financial-dimensions-for-project-time-entries"></a>为项目时间条目应用财务维度
-若要为项目时间条目应用财务维度，请注意默认维度值基于以下顺序：
-
-1. 资源
-2. Project
-3. 融资来源
-
-例如，如果对资源指定了默认维度，则此默认维度将应用于在项目上指定的默认项。 同样，将会对融资来源中指定的默认项应用默认项目维度。
-
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -3,17 +3,16 @@ title: 定价维度概述
 description: 本主题提供有关 Dynamics 365 Project Operations 中定价维度的信息。
 author: rumant
 ms.date: 11/30/2020
-ms.topic: article
+ms.topic: overview
 ms.prod: ''
-ms.reviewer: kfend
+ms.reviewer: johnmichalak
 ms.author: rumant
-ms.custom: intro-internal
-ms.openlocfilehash: 4b3b71c0b64a24f6914c70c4383eee654e7d4947ececaf9b4e6394f45a081a4c
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 5f1fa83b52c3812f26e3ab75a8b08ebd40d82aa8
+ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "7001960"
+ms.lasthandoff: 04/14/2022
+ms.locfileid: "8579204"
 ---
 # <a name="pricing-dimensions-overview"></a>定价维度概述
 
@@ -58,18 +57,18 @@ Dynamics 365 Project Operations 随附了一组默认定价维度。 可通过�
 
 **示例记帐费率**
 
-| 角色        | 部门    |计价单位      |单价      |货币  |
+| 角色        | 部门    |单位      |价格      |货币  |
 | ------------|-------------|----------|----------:|----------|
-| 开发人员   | Contoso US  |小时 | 200|USD     |
-| 开发人员   | Contoso 印度 |小时|   112|USD     |
+| 开发人员   | Contoso US  |Hour | 200|USD     |
+| 开发人员   | Contoso 印度 |Hour|   112|USD     |
 
 
 **示例成本费率**
 
-| 工资级别     | 部门    |计价单位      |单价      |货币  |
+| 工资级别     | 部门    |单位      |价格      |货币  |
 | ----------------|-------------|----------|----------:|----------|
-| My company_Band1 | Contoso US  |小时 | 145|USD     |
-| My company_Band2 | Contoso 印度 |小时|   67|USD     |
+| My company_Band1 | Contoso US  |Hour | 145|USD     |
+| My company_Band2 | Contoso 印度 |Hour|   67|USD     |
 
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

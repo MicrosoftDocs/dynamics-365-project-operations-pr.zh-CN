@@ -4,14 +4,14 @@ description: 此主题提供有关项目报价单的信息。
 author: rumant
 ms.date: 10/26/2020
 ms.topic: article
-ms.reviewer: kfend
+ms.reviewer: johnmichalak
 ms.author: rumant
-ms.openlocfilehash: 0ccf669fb47585e13e24921f2aeee383b33dd9c5f882e82220a906f9b73bfcc4
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: eab780241953bbabab199e146c94a15e272e35c9
+ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "7001510"
+ms.lasthandoff: 04/14/2022
+ms.locfileid: "8579571"
 ---
 # <a name="manage-project-quotes"></a>管理项目报价单
 
@@ -31,6 +31,9 @@ _**适用于：** 基于资源/非库存场景的 Project Operations，精简部
 2. 使用 **视图切换器** 选择报价单的其他筛选视图。 使用自定义筛选条件，您可以配置自己的视图和导航选项。
 
 可以从此列表页或详细信息页面创建或删除报价单。
+
+ > [!NOTE]
+ > 不能删除具有关联的项目、任务、估算、日记帐和/或实际值的报价单。 而且，当报价单以赢单或丢单结束时，它不能再被删除或修改。 
 
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

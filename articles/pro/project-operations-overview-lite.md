@@ -3,16 +3,15 @@ title: 精简部署概述
 description: 此主题提供有关 Dynamics 365 Project Operations 的精简部署的信息。
 author: rumant
 ms.date: 11/02/2020
-ms.topic: article
-ms.reviewer: kfend
+ms.topic: overview
+ms.reviewer: johnmichalak
 ms.author: rumant
-ms.custom: intro-internal
-ms.openlocfilehash: bc6385ea53091ac396daee37d8b5174092406cfc42d34c356a112f665cd63456
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 7e7f5de70b1a050039509c40d1378302392f2ec9
+ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6997370"
+ms.lasthandoff: 04/14/2022
+ms.locfileid: "8574952"
 ---
 # <a name="lite-deployment-overview"></a>精简部署概述
 

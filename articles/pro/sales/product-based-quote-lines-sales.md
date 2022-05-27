@@ -3,16 +3,15 @@ title: 基于产品的报价单明细概述 - 精简
 description: 此主题提供有关处理基于产品的报价单明细的信息。
 author: rumant
 ms.date: 10/30/2020
-ms.topic: article
-ms.reviewer: kfend
+ms.topic: overview
+ms.reviewer: johnmichalak
 ms.author: rumant
-ms.custom: intro-internal
-ms.openlocfilehash: 871597b38d72d2b670c375d2a1711a6022e3446ba3955a3d2a233a6486d85f5c
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 6d86bf3ed81dbb69912d0694909aa5448a958666
+ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "7003310"
+ms.lasthandoff: 04/14/2022
+ms.locfileid: "8574925"
 ---
 # <a name="product-based-quote-lines-overview---lite"></a>基于产品的报价单明细概述 - 精简
 

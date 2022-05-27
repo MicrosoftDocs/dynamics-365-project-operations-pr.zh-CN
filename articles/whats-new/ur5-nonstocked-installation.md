@@ -5,14 +5,14 @@ author: ruhercul
 ms.date: 12/11/2020
 ms.topic: article
 ms.prod: ''
-ms.reviewer: kfend
+ms.reviewer: johnmichalak
 ms.author: ruhercul
-ms.openlocfilehash: 3665bccfa25c759c0f2351c691d24901867c178f7c339f4a524856842666aec5
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 9cd562ac3360298796fbe34dbe2ac8708b00150f
+ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6986750"
+ms.lasthandoff: 04/14/2022
+ms.locfileid: "8579912"
 ---
 # <a name="update-project-operations-in-your-finance-environment"></a>在 Finance 环境中更新 Project Operations
 
@@ -119,7 +119,7 @@ _**适用于：** 面向资源/非库存场景的 Project Operations_
 4. 在 **表映射版本** 页上，对这三个实体的每个实体应用新版本的映射。
 5. 在 **双重写入** 页上，选择运行重新启动映射。
 6. 从映射列表中，选择具有所有先决条件的 **分类帐(msdyn_ledgers)** 映射，然后选中 **初始同步** 复选框。 
-7. 在 **用于初始同步的主应用** 中，选择 **Finance and Operations 应用**，然后选择 **运行**。
+7. 在 **初始同步的主控方** 字段中，选择 **财务和运营应用**，然后选择 **运行**。
  
  ![分类帐映射同步。](media/DW6.png)
  

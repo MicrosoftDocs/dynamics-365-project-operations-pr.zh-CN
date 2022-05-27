@@ -5,14 +5,14 @@ author: andchoi
 ms.date: 11/17/2021
 ms.topic: article
 ms.prod: ''
-ms.reviewer: kfend
+ms.reviewer: johnmichalak
 ms.author: andchoi
-ms.openlocfilehash: 449cab5880c29cf110c9c5a266cbb4b102b5fc83
-ms.sourcegitcommit: 2e4483d5b88213a9f33109f7adb989108521327d
+ms.openlocfilehash: 03491ccab855e48819fccf4c9d2b584fd87cb4ba
+ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/17/2021
-ms.locfileid: "7818463"
+ms.lasthandoff: 04/14/2022
+ms.locfileid: "8576029"
 ---
 # <a name="whats-new-or-changed-in-project-operations-october-2021-for-stockedproduction-based-scenarios"></a>2021 年 10 月适用于库存/生产订单场景的 Project Operations 新增功能或变更功能
 
@@ -80,6 +80,6 @@ _**适用范围：** 适用于基于库存/生产场景的 Project Operations_
 
 ### <a name="regulatory-updates"></a>法规更新
 
-有关 Finance and Operations 应用的法规更新的信息，请参阅[法规更新](/dynamics365/finance/localizations/regulatory-updates)。 您还可以登录 Microsoft Dynamics Lifecycle Services (LCS) 并使用问题搜索工具查看计划的监管更新。 利用问题搜索功能，您可以按国家/地区、功能类型和版本进行搜索。
+有关财务和运营应用的监管更新的信息，请参阅[监管更新](/dynamics365/finance/localizations/regulatory-updates)。 您还可以登录 Microsoft Dynamics Lifecycle Services (LCS) 并使用问题搜索工具查看计划的监管更新。 利用问题搜索功能，您可以按国家/地区、功能类型和版本进行搜索。
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

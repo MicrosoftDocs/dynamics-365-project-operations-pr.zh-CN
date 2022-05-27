@@ -2,16 +2,16 @@
 title: 设置材料的成本和销售费率
 description: 本主题提供有关如何为项目中使用的材料设置成本和销售费率的信息。
 author: rumant
-ms.date: 04/07/2021
+ms.date: 03/21/2022
 ms.topic: article
-ms.reviewer: kfend
+ms.reviewer: johnmichalak
 ms.author: rumant
-ms.openlocfilehash: c80317ac56c4e1ed465273ea6d0a7c65f1f5830c349a9b8d5b6f7f8d92424c7b
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 1b1b679f15662d922804deefb6372adcdf4d4839
+ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6999170"
+ms.lasthandoff: 04/14/2022
+ms.locfileid: "8576857"
 ---
 # <a name="set-up-cost-and-sales-rates-for-materials"></a>设置材料的成本和销售费率
 
@@ -25,6 +25,9 @@ _**适用于：** 基于资源/非库存场景的 Project Operations，精简部
 2. 在子网格菜单上的 **价目表项** 中，选择 **新建价目表项**。 
 3. 在 **快速创建** 页上，输入创建新价格所针对的产品和单位。
 
-有关如何定义目录项的价格的详细信息，请参阅[设置产品的定价](/dynamics365/sales-enterprise/create-price-lists-price-list-items-define-pricing-products.md)以及[货币和定价中的小数精度](/dynamics365/sales-enterprise/decimal-precision-currency-pricing.md)。
+有关如何为目录项定义价格的详细信息，请参阅[使用价目表和价目表项定义产品定价](/dynamics365/sales/create-price-lists-price-list-items-define-pricing-products)和[货币和定价的小数精度](/dynamics365/sales/decimal-precision-currency-pricing)。
+> [!NOTE]
+> Dynamics 365 Project Operations 不能为 Dynamics 365 Sales 这样的产品支持所有定价方式。 为项目中使用的产品支持的唯一定价方式是 *货币金额*。
+
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

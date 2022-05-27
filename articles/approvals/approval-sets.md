@@ -2,18 +2,16 @@
 title: 审批集
 description: 本主题介绍如何处理审批集、请求和这些操作的子集。
 author: stsporen
-manager: tfehr
-ms.date: 08/10/2021
+ms.date: 02/01/2022
 ms.topic: article
-ms.service: project-operations
-ms.reviewer: kfend
+ms.reviewer: johnmichalak
 ms.author: stsporen
-ms.openlocfilehash: 1d9333033eb2b03966c6531d0fd6ad5b878acd93
-ms.sourcegitcommit: 80aa1e8070f0cb4992ac408fc05bdffe47cee931
+ms.openlocfilehash: 6809e01d8c3c93841125d0100d898dc208577019
+ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/13/2021
-ms.locfileid: "7323225"
+ms.lasthandoff: 04/14/2022
+ms.locfileid: "8576213"
 ---
 # <a name="approval-sets"></a>审批集
 
@@ -27,6 +25,18 @@ _**适用于：** 基于资源/非库存场景的 Project Operations，精简部
 排队等待处理的审批在 **处理审批** 视图中可见。 系统以异步方式多次处理所有条目，包括之前尝试失败后重试审批。
 
 **审批集生存期** 字段记录了在将集标记为失败之前剩余的集处理尝试次数。
+
+审批集通过基于名为 **Project Service - 定期安排项目审批集** 的 **云端流** 的定期激活进行处理。 它可以在名为 **Project Operations** 的 **解决方案** 中找到。 
+
+确保通过完成以下步骤激活流。
+
+1. 作为管理员，登录到 [flow.microsoft.com](https://powerautomate.microsoft.com)。
+2. 在右上角，切换到您用于 Dynamics 365 Project Operations 的环境。
+3. 选择 **解决方案** 列出安装在环境中的解决方案。
+4. 在解决方案列表中，选择 **Project Operations**。
+5. 将筛选器从 **所有** 更改为 **云端流**。
+6. 验证 **Project Service – 定期安排项目审批集** 流是否设置为 **开**。 如果没有，选择流，然后选择 **打开**。
+7. 查看 Project Operations Dataverse 环境中 **设置** 区域中的 **系统作业** 列表，验证处理是否每五分钟进行一次。
 
 ## <a name="failed-approvals-and-approval-sets"></a>失败的审批和审批集
 **未通过的审批** 视图列出了需要用户干预的所有审批。 打开关联的审批集日志以确定失败的原因。

@@ -4,14 +4,14 @@ description: 此主题介绍控制支出管理中的常规行为的参数。
 author: suvaidya
 ms.date: 10/01/2020
 ms.topic: article
-ms.reviewer: kfend
+ms.reviewer: johnmichalak
 ms.author: suvaidya
-ms.openlocfilehash: 1cabb0be624f7f6c12761e4fb6d5a095396a5940a37616bb3a304798e1f97808
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: bbaabd34d8f4af5dbcaff507fbb9f8de79355aa4
+ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "7007765"
+ms.lasthandoff: 04/14/2022
+ms.locfileid: "8577133"
 ---
 # <a name="configure-expense-management-parameters"></a>配置支出管理参数
 

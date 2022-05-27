@@ -4,20 +4,20 @@ description: 此主题提供有关如何订阅和部署面向资源/非库存场
 author: sigitac
 ms.date: 07/02/2021
 ms.topic: article
-ms.reviewer: kfend
+ms.reviewer: johnmichalak
 ms.author: sigitac
-ms.openlocfilehash: f47d5a29c0e40a49aed7b3e52c5d52a9c27b8dbc
-ms.sourcegitcommit: 80aa1e8070f0cb4992ac408fc05bdffe47cee931
+ms.openlocfilehash: 9094b6928c5c276a40166ef5d8cb0facb539685b
+ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/13/2021
-ms.locfileid: "7323405"
+ms.lasthandoff: 04/14/2022
+ms.locfileid: "8575799"
 ---
 # <a name="sign-up-for-project-operations-preview-subscriptions-for-resource-non-stocked-scenarios"></a>注册获取面向资源/非库存场景的 Project Operations 的预览订阅
 
 _**适用于：** 面向资源/非库存场景的 Project Operations_
 
-[!include [rename-banner](~/includes/cc-data-platform-banner.md)]
+
 
 本主题说明了如何订阅试用产品/服务和为基于资源/非库存场景部署 Project Operations 环境。
 
@@ -40,7 +40,7 @@ _**适用于：** 面向资源/非库存场景的 Project Operations_
 
   您将看到服务已成功兑换的确认。
 
-### <a name="dynamics-365-finance-preview-trial"></a>Dynamics 365 Finance 预览试用
+### <a name="dynamics-365-finance-preview-trial"></a>Dynamics 365 Finance 预览版试用
 
 转到 [Dynamics 365 for Finance 预览试用](https://aka.ms/trypoche)，对产品/服务重复上一部分中的步骤，注册云托管环境。  
 
@@ -49,7 +49,7 @@ _**适用于：** 面向资源/非库存场景的 Project Operations_
 > [!IMPORTANT]
 > 您需要组织的 Microsoft 365 门户的管理访问权限才能完成以下步骤。
 
-1. 转到 [Microsoft 365 管理中心](https://portal.office.com/)，向您的用户分配许可证。
+1. 转到 [Microsoft 365 管理中心](https://portal.office.com/)，将许可证分配给您的用户。
 
 2. 在 **活动用户** 页上，选择要为其分配许可证的用户。
 

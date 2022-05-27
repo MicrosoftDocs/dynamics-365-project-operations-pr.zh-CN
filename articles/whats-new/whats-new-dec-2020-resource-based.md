@@ -5,14 +5,14 @@ author: sigitac
 ms.date: 12/04/2020
 ms.topic: article
 ms.prod: ''
-ms.reviewer: kfend
+ms.reviewer: johnmichalak
 ms.author: sigitac
-ms.openlocfilehash: dd4047c2f1ed89d668882e4a1e162f3df8e452cf1ed6b85e34e6290b33e53814
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 766e2815d2a07708ace91a0ff5308e0195ff0edc
+ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6984860"
+ms.lasthandoff: 04/14/2022
+ms.locfileid: "8579847"
 ---
 # <a name="whats-new-december-2020---project-operations-for-resourcenon-stocked-based-scenarios"></a>2020 年 12 月新增功能 - 面向资源/非库存场景的 Project Operations
 
@@ -61,7 +61,7 @@ _**适用于：** 面向资源/非库存场景的 Project Operations_
 | 项目规划和跟踪 | 2057197          | 不支持随任务引用一起复制估算行                                                                                                     |
 | 项目规划和跟踪 | 2060687          | 现在，时区警告在特定持续时间之后会消失                                                                                                      |
 | 资源管理           | 1832887          | 默认资源类别 ID 必须为静态，才能确保为 Dataverse 和 Finance 环境加载可重复使用的数据                                                 |
-| 时间和支出              | 2081793          | **支出类别名称** 必须映射到 Finance and Operations 应用中的 **支出类别描述** 字段                                                  |
+| 时间和支出              | 2081793          | **支出类别名称** 必须映射到财务和运营应用中的 **支出类别说明** 字段                                                  |
 | 时间和支出              | 2034882          | 安装了 Dynamics 365 Field Service 后，会针对时间条目在命令栏上显示两次 **新建** 按钮                                          |
 | 时间和支出              | 2056028          | 更新 **编辑时间** 页以包含时间行                                                                                                              |
 | 时间和支出              | 1983747          | 时间条目图表显示其他数据                                                                                                                   |
@@ -106,7 +106,7 @@ _**适用于：** 面向资源/非库存场景的 Project Operations_
 | 旅行和支出                | [513845](https://fix.lcs.dynamics.com/Issue/Details/?bugId=513845)            | 已完成支出报表自动过帐工作流，但未过帐发票                                                                                                                                                                                          |
 
 ### <a name="regulatory-updates"></a>法规更新
-有关 Finance and Operations 应用的法规更新的信息，请参阅[法规更新](/dynamics365/finance/localizations/regulatory-updates)。 您还可以登录到 LCS，使用问题搜索工具查看计划的法规更新。 通过问题搜索，您可以按国家/地区、功能类型和发布进行搜索。
+有关财务和运营应用的监管更新的信息，请参阅[监管更新](/dynamics365/finance/localizations/regulatory-updates)。 您还可以登录到 LCS，使用问题搜索工具查看计划的法规更新。 通过问题搜索，您可以按国家/地区、功能类型和发布进行搜索。
 
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

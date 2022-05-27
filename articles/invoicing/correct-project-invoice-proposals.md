@@ -2,16 +2,16 @@
 title: 在草稿项目发票方案上更正会计
 description: 本主题说明了如何在草稿发票方案上调整与会计相关的信息。
 author: sigitac
-ms.date: 06/07/2021
+ms.date: 01/05/2022
 ms.topic: article
-ms.reviewer: kfend
+ms.reviewer: johnmichalak
 ms.author: sigitac
-ms.openlocfilehash: 153a239d4b88906909ee0bfae8a18cabebc3766399290d83bb79f5d6375a942c
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: bf0a3d6b97880920b133cb3b30389adf0c83111c
+ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6999305"
+ms.lasthandoff: 04/14/2022
+ms.locfileid: "8575063"
 ---
 # <a name="correct-the-accounting-on-draft-project-invoice-proposals"></a>在草稿项目发票方案上更正会计
 
@@ -27,12 +27,21 @@ _**适用于：** 面向资源/非库存场景的 Project Operations_
 
 ## <a name="adjust-financial-dimensions"></a>调整财务维度
 
+### <a name="header-dimensions"></a>标题维度
+
+默认情况下，发票财务维度派生自正在开票的未记帐项目交易记录。 但是，系统设置允许您使用项目发票方案标题上的财务维度来过帐客户余额。 要启用此功能，在 **项目管理与核算参数** 页面的 **财务** 选项卡上选择 **允许更新应收帐款的项目维度**。
+
+可以在过帐发票之前编辑发票标题上的财务维度。 在 **项目发票方案** 页面上，切换到 **标题** 视图，然后在 **财务维度** 选项卡上编辑值。
+
+**标题** 视图只有在系统管理员在 **功能管理** 工作区启用 **使用带有标题和行视图的项目发票方案和发票日记帐窗体** 功能后才可用。 此功能需要 Finance 更新 10.0.25 或更高版本。
+
+### <a name="line-dimensions"></a>行维度
+
 不能直接在项目发票方案行上编辑财务维度。 而是按照以下步骤在项目发票方案上调整财务维度。
 
 1. 在项目发票方案上，选择 **全部删除** 以删除项目发票方案行。
 
-    > [!NOTE]
-    > **全部删除** 按钮仅在系统管理员在 **功能管理** 工作区中启用 **在针对基于资源/非库存的方案使用 Project Operations 时删除发票方案行** 功能后才可用。
+    **全部删除** 按钮仅在系统管理员在 **功能管理** 工作区中启用 **在针对基于资源/非库存的方案使用 Project Operations 时删除发票方案行** 功能后才可用。
 
 2. 调整财务维度：
 
