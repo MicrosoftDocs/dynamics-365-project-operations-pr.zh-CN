@@ -15,12 +15,13 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 7b1ebe4652a3c0e80e9ffdba4d3ec5552e7ab521c8d672e8c43dbbcf461a92d6
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.reviewer: johnmichalak
+ms.openlocfilehash: 347f0516550b4b144a579f26602141c898884424
+ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "7004210"
+ms.lasthandoff: 04/14/2022
+ms.locfileid: "8588173"
 ---
 # <a name="whats-new-or-changed-in-project-service-automation-update-release-275-v3"></a>Project Service Automation V3 更新版本 27.5 中的新增功能或更改
 

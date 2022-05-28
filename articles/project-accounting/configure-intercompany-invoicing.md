@@ -4,14 +4,14 @@ description: 本主题提供了有关配置内部公司项目开票的信息和�
 author: sigitac
 ms.date: 04/12/2021
 ms.topic: article
-ms.reviewer: kfend
+ms.reviewer: johnmichalak
 ms.author: sigitac
-ms.openlocfilehash: 09bbd1bf640cc86b16afb8c2b824329b92f833df836e9313491d57a2f1646440
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: ad6022670048e5aa3635998852b78c49af461d4e
+ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6994040"
+ms.lasthandoff: 04/14/2022
+ms.locfileid: "8591577"
 ---
 # <a name="configure-intercompany-invoicing"></a>配置内部公司开票
 
@@ -21,7 +21,7 @@ _**适用于：** 面向资源/非库存场景的 Project Operations_
 
 ## <a name="example-configure-intercompany-invoicing"></a>示例：配置内部公司开票
 
-在下列示例中，Contoso Robotics USA (USPM) 是借款法人，Contoso Robotics UK (GBPM) 是贷款法人。 
+在下面的示例中，Contoso Robotics USA (USPM) 是借款法律实体，Contoso Robotics UK (GBPM) 是贷款法律实体。 
 
 1. **配置法律实体之间的内部公司会计**。 必须在总帐[内部公司会计](/dynamics365/finance/general-ledger/intercompany-accounting-setup)页上配置每对借款和贷款法律实体。
     
@@ -80,19 +80,19 @@ _**适用于：** 面向资源/非库存场景的 Project Operations_
 
 5. **设置人工转帐定价**。 在 Dataverse 上的 Project Operations 中配置了内部公司转帐定价。 为内部公司开票配置[人工成本费率](../pricing-costing/set-up-labor-cost-rate.md#transfer-pricing-and-costs-for-resources-outside-of-your-division-or-legal-entity)和[人工帐单费率](../pricing-costing/set-up-labor-bill-rate.md#transfer-pricing-or-set-up-bill-rates-for-resources-from-other-organizational-units-or-divisions)。 对于内部公司支出交易，不支持转帐定价。 组织间单位销售价格始终会设置为与资源单位成本费相同的值。
 
-      Contoso Robotics UK 的开发人员资源成本为每小时 88 英镑。 对于此资源在美国项目中的工作，Contoso Robotics UK 每小时向 Contoso Robotics USA 收取 120 美元。 对于 Contoso Robotics UK 开发人员资源所做的工作，Contoso Robotics USA 向客户 Adventure Works 收取 200 美元。
+      Contoso Robotics UK 中的开发人员资源成本为每小时 88 GBP。 该资源在美国项目上每工作一小时，Contoso Robotics UK 就会向 Contoso Robotics USA 收取 120 美元。 对于 Contoso Robotics UK 开发人员资源所做的工作，Contoso Robotics USA 将向客户 Adventure Works 收取 200 美元。
 
-      1. 在 Dataverse 上的 Project Operations 中，转到 **销售** > **价目表**。 创建一个新的成本价目表，称为 **Contoso Robotics UK 成本费率**。 
+      1. 在 Dataverse 上的 Project Operations 中，转到 **销售** > **价目表**。 创建一个名为 **Contoso Robotics UK 成本费率** 的新成本价目表。 
       2. 在此成本价目表中，使用以下信息创建记录：
          - **角色** = **开发人员**
          - **成本** = **88 GBP**
-      3. 转到 **设置** > **组织单位**，将此成本价目表附加到 **Contoso Robotics UK** 组织单位。
-      4. 转到 **销售** > **价目表**。 创建一个成本价目表，称为 **Contoso Robotics USA 成本费率**。 
+      3. 转到 **设置** > **部门**，并将此成本价目表附加到 **Contoso Robotics UK** 部门。
+      4. 转到 **销售** > **价目表**。 创建一个名为 **Contoso Robotics USA 成本费率** 的成本价目表。 
       5. 在此成本价目表中，使用以下信息创建记录：
           - **角色** = **开发人员**
           - **资源供给公司** = **Contoso Robotics UK**
           - **成本** = **120 美元**
-      6. 转到 **设置** > **组织单位**，将 **Contoso Robotics USA 成本费率** 成本价目表附加到 **Contoso Robotics USA** 组织单位。
+      6. 转到 **设置** > **部门**，并将此 **Contoso Robotics USA 成本费率** 成本价目表附加到 **Contoso Robotics USA** 部门。
       7. 转到 **销售** > **价目表**。 创建一个名为 **Adventure Works 帐单费率** 的销售价目表。 
       8. 在此销售价目表中，使用以下信息创建记录：
           - **角色** = **开发人员**

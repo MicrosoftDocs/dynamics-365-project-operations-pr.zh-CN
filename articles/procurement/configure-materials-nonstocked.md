@@ -5,14 +5,14 @@ author: sigitac
 ms.date: 06/22/2021
 ms.topic: article
 ms.prod: ''
-ms.reviewer: kfend
+ms.reviewer: johnmichalak
 ms.author: sigitac
-ms.openlocfilehash: 9b55d959228062fc3577cf7f12d8926f51e9791f98c73fdc4b78251312a8a77a
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 1b14ab17a317e7082bc9c24709590745a5c48ea8
+ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "7003220"
+ms.lasthandoff: 04/14/2022
+ms.locfileid: "8592957"
 ---
 # <a name="configure-non-stocked-materials-and-pending-vendor-invoices"></a>配置非库存材料以及待定供应商发票
 

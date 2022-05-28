@@ -15,12 +15,13 @@ search.audienceType:
 search.app:
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 9503b6528f91f86cc1ebe1c7ed6111171e74c4a3cbf83b3f68810c3ee5efdd28
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.reviewer: johnmichalak
+ms.openlocfilehash: 91ec6d502a44771e7e03b67cc2be40c527fff355
+ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "7002320"
+ms.lasthandoff: 04/14/2022
+ms.locfileid: "8591899"
 ---
 # <a name="setting-up-custom-fields-as-pricing-dimensions"></a>将自定义字段设置为定价维度 
 
@@ -72,8 +73,8 @@ ms.locfileid: "7002320"
 | 角色        | 部门    |工作位置      |标准标题      |资源工作时间      |  加价|
 | ------------|-------------|-------------------|--------------------|-------------------------|--------:|
 |             | Contoso 印度|现场            |                    |加班                 |15     |
-|             | Contoso 印度|局部             |                    |加班                 |10     |
-|             | Contoso US   |局部             |                    |加班                 |20     |
+|             | Contoso 印度|本地             |                    |加班                 |10     |
+|             | Contoso US   |本地             |                    |加班                 |20     |
 
 
 如果 Contoso 印度中一位基础费率为 100 美元的资源在现场工作，并且在时间条目中记录了 8 小时的正常工时和 2 小时的加班，Project Service 定价引擎将对 8 小时使用基础费率 100，从而记录 800 美元。 至于 2 小时的加班，则为基础费率 100 应用 15% 的加价，因此单价为 115 美元，记录的总成本为 230 美元。

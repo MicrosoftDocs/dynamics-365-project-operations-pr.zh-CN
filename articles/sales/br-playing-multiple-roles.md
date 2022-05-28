@@ -4,14 +4,14 @@ description: 本主题说明如何使用定价维度来支持在项目中担任�
 author: rumant
 ms.date: 11/16/2020
 ms.topic: article
-ms.reviewer: kfend
+ms.reviewer: johnmichalak
 ms.author: rumant
-ms.openlocfilehash: 28a67e79b03dfbc38e9786350c931838ef27891a3d26787fc0334e0572528228
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 2cc632d43bfcbdd23c1d06ff5203385bccf9926d
+ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6990125"
+ms.lasthandoff: 04/14/2022
+ms.locfileid: "8589139"
 ---
 # <a name="estimate-project-sales-and-costs-when-a-bookable-resource-fills-multiple-roles-on-a-project"></a>当可预订资源在项目中担任多个角色时，估计项目销售和成本 
 

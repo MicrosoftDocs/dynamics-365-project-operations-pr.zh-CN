@@ -4,25 +4,25 @@ description: 此主题提供有关如何从 Lifecycle Services 访问 Project Op
 author: sigitac
 ms.date: 10/28/2020
 ms.topic: article
-ms.reviewer: kfend
+ms.reviewer: johnmichalak
 ms.author: sigitac
-ms.openlocfilehash: 15533febe12f970bb35ccb4cdceedce251d1f837bfb59ffcd10e633eec1a3a92
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 50afe2c0e247cb9d9c5f970810fa917d002ae1d0
+ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6994580"
+ms.lasthandoff: 04/14/2022
+ms.locfileid: "8591853"
 ---
 # <a name="navigate-project-operations"></a>Project Operations 导航
 
 _**适用于：** 面向资源/非库存场景的 Project Operations_
 
-[!include [rename-banner](~/includes/cc-data-platform-banner.md)]
+
 
 面向资源/非库存场景的 Dynamics 365 Project Operations 包括两个组件： 
 
  - **Common Data Service (CDS) 环境中的 Project Operations**：此组件包含从商机到估价开票的各项功能和流程。 
- - **Dynamics 365 Finance 环境中的项目管理和会计**：此组件包含支出管理功能、项目会计和收入确认。 
+ - **Dynamics 365 Finance 环境中的项目管理和会计**：此组件包括支出管理功能、项目会计和收入确认。 
 
 按照本主题中所述预配 Project Operations 后，Lifecycle Services (LCS) **环境详细信息** 页可让您轻松访问 Project Operations 的两个组件。  
 

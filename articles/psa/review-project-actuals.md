@@ -16,12 +16,13 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 3fe2bf52aeef0214ef3f54f7cfcce4032ba79114a6c36e453e7412a85af52a49
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.reviewer: johnmichalak
+ms.openlocfilehash: 6a05a27dad2243055f9b0f250f1c39d593de1f31
+ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "7006910"
+ms.lasthandoff: 04/14/2022
+ms.locfileid: "8587391"
 ---
 # <a name="review-project-actuals-project-service"></a>查看实际项目 (Project Service)
 

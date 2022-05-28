@@ -1,5 +1,5 @@
 ---
-title: 部门
+title: 高级部门
 description: 此主题介绍 Dynamics 365 Project Service Automation 中的部门。
 author: rumant
 ms.custom:
@@ -16,14 +16,15 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: dccb01e5d1c032039cac980061d93b443ef0f9e1296cdd2d8efd7b1bf7338ce0
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.reviewer: johnmichalak
+ms.openlocfilehash: 80208be7be56d0b09354c45cd2afd96958daf985
+ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "7005065"
+ms.lasthandoff: 04/14/2022
+ms.locfileid: "8589415"
 ---
-# <a name="organizational-units"></a>部门 
+# <a name="about-organizational-units"></a>关于部门 
 
 [!include [banner](../includes/psa-now-project-operations.md)]
 
@@ -122,7 +123,7 @@ Contoso 在大量国际市场（如拉丁美洲、北美、亚太、西欧和中
 如果采用复杂的成本中心、部门、记帐办公室层次结构，请将该层次结构的叶节点设置为不同的部门。
 以下示例显示典型的层次结构：
 
-**Contoso印度**
+**Contoso 印度**
 
   - SAP 业务 
 
@@ -134,7 +135,7 @@ Contoso 在大量国际市场（如拉丁美洲、北美、亚太、西欧和中
     - 技术顾问
     - 职能顾问 
     
-**Contoso 美国**
+**Contoso US**
 
  - SAP 业务 
 

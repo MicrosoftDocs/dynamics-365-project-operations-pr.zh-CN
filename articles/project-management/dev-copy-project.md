@@ -2,76 +2,80 @@
 title: 使用“复制项目”开发项目模板
 description: 此主题提供有关如何使用“复制项目”自定义操作创建项目模板的信息。
 author: stsporen
-ms.date: 01/21/2021
+ms.date: 03/10/2022
 ms.topic: article
-ms.reviewer: kfend
+ms.reviewer: johnmichalak
 ms.author: stsporen
-ms.openlocfilehash: d12301b4e7baabeb0f045f9a11d4695fc026339af3fa7650db7177c495c71e90
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 72aa2db7c717eeab85ada448c673bf702087baeb
+ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6989231"
+ms.lasthandoff: 04/14/2022
+ms.locfileid: "8590887"
 ---
 # <a name="develop-project-templates-with-copy-project"></a>使用“复制项目”开发项目模板
 
 _**适用于：** 基于资源/非库存场景的 Project Operations，精简部署 - 估价开票交易_
 
-[!include [rename-banner](~/includes/cc-data-platform-banner.md)]
-
 Dynamics 365 Project Operations 支持复制项目并将所有工作重新分配给代表该角色的一般资源的功能。 客户可以使用此功能来构建基本项目模板。
 
 选择 **复制项目** 时，目标项目的状态将更新。 使用 **状态描述** 可以确定复制操作完成的时间。 如果未在目标项目实体中检测到目标日期，选择 **复制项目** 还会将项目的开始日期更新为当前的开始日期。
 
-## <a name="copy-project-custom-action"></a>“复制项目”自定义操作 
+## <a name="copy-project-custom-action"></a>“复制项目”自定义操作
 
-### <a name="name"></a>客户 
+### <a name="name"></a>Name 
 
-**msdyn_CopyProjectV2**
+msdyn\_CopyProjectV3
 
 ### <a name="input-parameters"></a>输入参数
+
 有三个输入参数：
 
-| 参数          | Type   | 值                                                   | 
-|--------------------|--------|----------------------------------------------------------|
-| ProjectCopyOption  | String | **{"removeNamedResources":true}** or **{"clearTeamsAndAssignments":true}** |
-| SourceProject      | 实体引用 | 源项目 |
-| 目标             | 实体引用 | 目标项目 |
+- **ReplaceNamedResources** 或 **ClearTeamsAndAssignments** – 仅设置其中一个选项。 不要同时设置。
 
+    - **\{"ReplaceNamedResources":true\}** – Project Operations 的默认行为。 任何指定资源都将替换为通用资源。
+    - **\{"ClearTeamsAndAssignments":true\}** – Project for the Web 的默认行为。 所有分配和团队成员都将被删除。
 
-- **{"clearTeamsAndAssignments":true}**：Web 版本的 Project 的默认行为，将删除所有工作和团队成员。
-- **{"removeNamedResources":true}** Project Operations 的默认行为，将工作还原为通用资源。
+- **SourceProject** – 要从中复制的源项目的实体引用。 此参数不能为 null。
+- **Target** – 要复制到的目标项目的实体引用。 此参数不能为 null。
 
-有关操作的更多默认行为，请参阅[使用 Web API 操作](/powerapps/developer/common-data-service/webapi/use-web-api-actions)
+下表提供了三个参数的摘要。
 
-## <a name="specify-fields-to-copy"></a>指定要复制的字段 
+| 参数                | 类型​​             | 价值                 |
+|--------------------------|------------------|-----------------------|
+| ReplaceNamedResources    | 布尔型          | **True** 或 **False** |
+| ClearTeamsAndAssignments | 布尔型          | **True** 或 **False** |
+| SourceProject            | 实体引用 | 源项目    |
+| Target                   | 实体引用 | 目标项目    |
+
+有关操作的更多默认行为，请参阅[使用 Web API 操作](/powerapps/developer/common-data-service/webapi/use-web-api-actions)。
+
+### <a name="validations"></a>验证
+
+已完成以下验证。
+
+1. Null 检查并检索源项目和目标项目，以确认组织中这两个项目是否存在。
+2. 系统通过验证以下条件来验证目标项目是否可以复制：
+
+    - 项目上没有以前的活动（包括选择 **任务** 选项卡），项目是新创建的。
+    - 项目没有以前的副本，没有请求导入，并且项目没有 **失败** 状态。
+
+3. 操作不使用 HTTP 调用。
+
+## <a name="specify-fields-to-copy"></a>指定要复制的字段
+
 当调用操作时，**复制项目** 将查看项目视图 **复制项目列**，以确定在复制项目时要复制哪些字段。
 
-
 ### <a name="example"></a>示例
-以下示例显示了如何使用 **removeNamedResources** 参数集调用 **CopyProject** 自定义操作。
+
+以下示例显示如何使用 **removeNamedResources** 参数集调用 **CopyProjectV3** 自定义操作。
+
 ```C#
 {
     using System;
     using System.Runtime.Serialization;
     using Microsoft.Xrm.Sdk;
     using Newtonsoft.Json;
-
-    [DataContract]
-    public class ProjectCopyOption
-    {
-        /// <summary>
-        /// Clear teams and assignments.
-        /// </summary>
-        [DataMember(Name = "clearTeamsAndAssignments")]
-        public bool ClearTeamsAndAssignments { get; set; }
-
-        /// <summary>
-        /// Replace named resource with generic resource.
-        /// </summary>
-        [DataMember(Name = "removeNamedResources")]
-        public bool ReplaceNamedResources { get; set; }
-    }
 
     public class CopyProjectSample
     {
@@ -89,27 +93,32 @@ Dynamics 365 Project Operations 支持复制项目并将所有工作重新分配
             var sourceProject = new Entity("msdyn_project", sourceProjectId);
 
             Entity targetProject = new Entity("msdyn_project");
-            targetProject["msdyn_subject"] = "Example Project";
+            targetProject["msdyn_subject"] = "Example Project - Copy";
             targetProject.Id = organizationService.Create(targetProject);
 
-            ProjectCopyOption copyOption = new ProjectCopyOption();
-            copyOption.ReplaceNamedResources = true;
-
-            CallCopyProjectAPI(sourceProject.ToEntityReference(), targetProject.ToEntityReference(), copyOption);
+            CallCopyProjectAPI(sourceProject.ToEntityReference(), targetProject.ToEntityReference(), copyOption, true, false);
             Console.WriteLine("Done ...");
         }
 
-        private void CallCopyProjectAPI(EntityReference sourceProject, EntityReference TargetProject, ProjectCopyOption projectCopyOption)
+        private void CallCopyProjectAPI(EntityReference sourceProject, EntityReference TargetProject, bool replaceNamedResources = true, bool clearTeamsAndAssignments = false)
         {
-            OrganizationRequest req = new OrganizationRequest("msdyn_CopyProjectV2");
+            OrganizationRequest req = new OrganizationRequest("msdyn_CopyProjectV3");
             req["SourceProject"] = sourceProject;
             req["Target"] = TargetProject;
-            req["ProjectCopyOption"] = JsonConvert.SerializeObject(projectCopyOption);
+
+            if (replaceNamedResources)
+            {
+                req["ReplaceNamedResources"] = true;
+            }
+            else
+            {
+                req["ClearTeamsAndAssignments"] = true;
+            }
+
             OrganizationResponse response = organizationService.Execute(req);
         }
     }
 }
 ```
-
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

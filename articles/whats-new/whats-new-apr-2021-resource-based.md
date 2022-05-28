@@ -5,14 +5,14 @@ author: sigitac
 ms.date: 04/22/2021
 ms.topic: article
 ms.prod: ''
-ms.reviewer: kfend
+ms.reviewer: johnmichalak
 ms.author: sigitac
-ms.openlocfilehash: dbce86e88f8315ac4a4957c1128b5619d5328bdbbe27793e161f8f2691899481
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 07622ed798fd8d70e0ce5cc42297bd5056402474
+ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "7008125"
+ms.lasthandoff: 04/14/2022
+ms.locfileid: "8589093"
 ---
 # <a name="whats-new-april-2021---project-operations-for-resourcenon-stocked-based-scenarios"></a>2021 年 4 月新增功能 - 基于资源/非库存场景的 Project Operations
 
@@ -42,13 +42,13 @@ _**适用于：** 面向资源/非库存场景的 Project Operations_
 | **实体映射** | **更新版本** | **注释** |
 | --- | --- | --- |
 | Project Operations 集成实际值 (msdyn\_actuals) | 1.0.0.14 | 修改了映射以同步材料项目实际值。 |
-| 用于支出估算的 Project Operations 集成实体 (msdyn\_estimateslines) | 1.0.0.2 | 将项目合同子项同步添加到 Finance and Operations 应用，以提供基于任务的帐单支持。 |
-| 用于工时估算的 Project Operations 集成实体 (msdyn\_resourceassignments) | 1.0.0.5 | 将项目合同子项同步添加到 Finance and Operations 应用，以提供基于任务的帐单支持。 |
-| 用于材料估算的 Project Operations 集成表 (msdyn\_estimatelines) | 1.0.0.0 | 新增表映射，将 Dataverse 的材料估算同步到Finance and Operations 应用。 |
-| Project Operations 集成项目供应商发票导出实体 (msdyn\_projectvendorinvoices) | 1.0.0.0 | 新增表映射，将 Finance and Operations 应用中的供应商发票标头同步到 Dataverse。 |
-| Project Operations 集成项目供应商发票明细导出实体 (msdyn\_projectvendorinvoicelines) | 1.0.0.0 | 新增表映射，将 Finance and Operations 应用中的供应商发票明细同步到 Dataverse。 |
+| 用于支出估算的 Project Operations 集成实体 (msdyn\_estimateslines) | 1.0.0.2 | 向财务和运营应用添加了项目合同子项同步，以提供基于任务的记帐支持。 |
+| 用于工时估算的 Project Operations 集成实体 (msdyn\_resourceassignments) | 1.0.0.5 | 向财务和运营应用添加了项目合同子项同步，以提供基于任务的记帐支持。 |
+| 用于材料估算的 Project Operations 集成表 (msdyn\_estimatelines) | 1.0.0.0 | 新表映射可将材料估算从 Dataverse 同步到财务和运营应用。 |
+| Project Operations 集成项目供应商发票导出实体 (msdyn\_projectvendorinvoices) | 1.0.0.0 | 新表映射可将供应商发票标题从财务和运营应用同步到 Dataverse。 |
+| Project Operations 集成项目供应商发票明细导出实体 (msdyn\_projectvendorinvoicelines) | 1.0.0.0 | 新表映射可将供应商发票明细从财务和运营应用同步到 Dataverse。 |
 
-您应该始终在您的环境中运行最新版本的映射，并在更新 Project Operations Dataverse 解决方案以及 Finance and Operations 解决方案版本时启用所有相关的表映射。 如果未激活最新版本的映射，某些功能可能无法正常工作。 您可以在 **双重写入** 页的 **版本** 列中看到映射的活动版本。 您可以通过选择 **表映射版本**，选择最新版本，然后保存所选版本来激活映射的新版本。 如果您自定义了现成的表映射，请重新应用更改。 有关详细信息，请参阅[应用程序生命周期管理](/dynamics365/fin-ops-core/dev-itpro/data-entities/dual-write/app-lifecycle-management)。
+当更新 Project Operations Dataverse 解决方案和 Finance and Operations 解决方案版本时，您应该始终运行您环境中的最新映射版本并启用所有相关表映射。 如果未激活最新版本的映射，某些功能可能无法正常工作。 您可以在 **双重写入** 页的 **版本** 列中看到映射的活动版本。 您可以通过选择 **表映射版本**，选择最新版本，然后保存所选版本来激活映射的新版本。 如果您自定义了现成的表映射，请重新应用更改。 有关详细信息，请参阅[应用程序生命周期管理](/dynamics365/fin-ops-core/dev-itpro/data-entities/dual-write/app-lifecycle-management)。
 
 如果您在启动映射时遇到问题，请按照双重写入疑难解答指南中[映射上缺少表列的问题](/dynamics365/fin-ops-core/dev-itpro/data-entities/dual-write/dual-write-troubleshooting-finops-upgrades#missing-table-columns-issue-on-maps)一节中的说明操作。
 

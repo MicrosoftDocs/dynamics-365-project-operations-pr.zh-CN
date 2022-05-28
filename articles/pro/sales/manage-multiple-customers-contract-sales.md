@@ -4,14 +4,14 @@ description: 此主题提供有关管理项目合同上的多个客户的信息�
 author: rumant
 ms.date: 10/27/2020
 ms.topic: article
-ms.reviewer: kfend
+ms.reviewer: johnmichalak
 ms.author: rumant
-ms.openlocfilehash: b7010ef75cd71ecdf832abb889db4703baa18fce0adadf3893621c42002fcab9
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 015e407b1b9e464edec1e57ce6b5132f21f5ae6d
+ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "7001735"
+ms.lasthandoff: 04/14/2022
+ms.locfileid: "8593049"
 ---
 # <a name="manage-multiple-customers-on-project-contracts---lite"></a>管理项目合同上的多个客户 - 精简
 

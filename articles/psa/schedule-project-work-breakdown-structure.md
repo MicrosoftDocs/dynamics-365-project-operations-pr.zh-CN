@@ -16,12 +16,13 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 896f19746bde1ba6cf2acd6d558137f4271a5cd99424043053eefe128d3b4250
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.reviewer: johnmichalak
+ms.openlocfilehash: 24e13642ac1fb9e90daab6d8aa9b16ed9c2defbf
+ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6996785"
+ms.lasthandoff: 04/14/2022
+ms.locfileid: "8587345"
 ---
 # <a name="schedule-a-project-with-a-work-breakdown-structure-project-service"></a>使用工作分解结构计划项目 (Project Service)
 
@@ -63,7 +64,7 @@ ms.locfileid: "6996785"
 ## <a name="task-types"></a>任务类型  
 创建工作分解结构时，您可以使用下列类型的任务：  
 
-| | | 
+| 任务 | 说明  | 
 |---------------------------------------|-----------------------------------------------------------------| 
 | **项目根节点** | 项目的高级摘要任务。 该任务下方创建所有其他项目任务。 根任务的名称是项目名称。 根节点的工作量、日期和持续时间基于其下方的层次结构的值。 您不能编辑根节点属性或删除根节点。 | 
 | **摘要或容器任务** | 摘要任务是其下方具有子任务的任务。 摘要任务没有其自己的任何工作量或成本。 它的工作量和成本是其子任务的汇总。 您可以更改摘要任务的名称，但是无法更改工作量、日期或持续时间，因为这些是自动计算的。 删除摘要任务将删除该任务及其所有子任务。|  

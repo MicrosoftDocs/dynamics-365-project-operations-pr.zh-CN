@@ -2,16 +2,16 @@
 title: 项目预订
 description: 本主题提供有关为项目预订资源的信息。
 author: ruhercul
-ms.date: 10/01/2020
+ms.date: 01/24/2022
 ms.topic: article
-ms.reviewer: kfend
+ms.reviewer: johnmichalak
 ms.author: ruhercul
-ms.openlocfilehash: 719892a37f381fc0ad6c3ccaca5c4d87c9947a4d7a39dca96aef464d04a71af0
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: b47ae8cb38be6d29804aec8b069e6a8aec0ffb70
+ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6994895"
+ms.lasthandoff: 04/14/2022
+ms.locfileid: "8591349"
 ---
 # <a name="book-to-a-project"></a>项目预订
 
@@ -52,7 +52,10 @@ _**适用于：** 基于资源/非库存场景的 Project Operations，精简部
     - 完成日期
     - 预订状态
     - 预订方法
-    - 持续时间
+    - Duration
+   
+   > [!NOTE]
+   > 当前，Dynamics 365 Project Operations 不支持日程安排板。   
 
 ## <a name="book-from-the-project-form"></a>从“项目”窗体预订
 

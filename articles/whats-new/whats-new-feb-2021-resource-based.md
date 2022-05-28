@@ -5,14 +5,14 @@ author: sigitac
 ms.date: 02/08/2021
 ms.topic: article
 ms.prod: ''
-ms.reviewer: kfend
+ms.reviewer: johnmichalak
 ms.author: sigitac
-ms.openlocfilehash: 41d7d7133652069ca3899db7f12e67e9ba531bcd3e36d67c3686a6b637b077d3
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: cb6ab1337652d18a30fba56560ffe50f78dd4eb4
+ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6986795"
+ms.lasthandoff: 04/14/2022
+ms.locfileid: "8589001"
 ---
 # <a name="whats-new-february-2021---project-operations-for-resourcenon-stocked-based-scenarios"></a>2021 年 2 月新增功能 - 面向资源/非库存场景的 Project Operations
 
@@ -46,12 +46,12 @@ _**适用于：** 面向资源/非库存场景的 Project Operations_
 
 ### <a name="project-management-and-accounting-in-dynamics-365-finance"></a>Dynamics 365 Finance 中的项目管理和会计 
 
-有关 Dynamics 365 Finance 中的项目管理和会计的详细信息，请参阅 [2021 年 1 月新增功能 - 面向资源/非库存场景的 Project Operations](whats-new-jan-2021-resource-based.md)。
+有关 Dynamics 365 Finance 中的项目管理和会计的详细信息，请参阅[2021 年 1 月新增功能 - 基于资源/非库存场景的 Project Operations](whats-new-jan-2021-resource-based.md)。
 
 
 ## <a name="regulatory-updates"></a>法规更新
 
-有关 Finance and Operations 应用的法规更新的信息，请参阅[法规更新](/dynamics365/finance/localizations/regulatory-updates)。 了解法规更新的另一种方法是登录 Lifecycle Services(LCS)，然后使用问题搜索工具查看计划的法规更新。 通过问题搜索，您可以按国家/地区、功能类型和发布进行搜索。
+有关财务和运营应用的监管更新的信息，请参阅[监管更新](/dynamics365/finance/localizations/regulatory-updates)。 了解法规更新的另一种方法是登录 Lifecycle Services(LCS)，然后使用问题搜索工具查看计划的法规更新。 通过问题搜索，您可以按国家/地区、功能类型和发布进行搜索。
 
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

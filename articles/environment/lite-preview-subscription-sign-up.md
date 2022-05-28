@@ -4,14 +4,14 @@ description: 此主题提供有关如何订阅和部署“Project Operations 精
 author: sigitac
 ms.date: 07/02/2021
 ms.topic: article
-ms.reviewer: kfend
+ms.reviewer: johnmichalak
 ms.author: sigitac
-ms.openlocfilehash: 5ba43ba9f917da068415fb62067ab73433b701139ee07014b6bd8c02612008ce
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 3b06ac29e8021967490534d3aefc8b5ce733413b
+ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6991520"
+ms.lasthandoff: 04/14/2022
+ms.locfileid: "8587989"
 ---
 # <a name="sign-up-for-a-preview-subscription---lite"></a>注册获取预览订阅 - 精简 
 
@@ -43,7 +43,7 @@ ms.locfileid: "6991520"
 > 您需要组织的 Microsoft 365 门户的管理访问权限才能完成以下步骤。
 
 
-1. 转到 [Microsoft 365 管理中心](https://portal.office.com/)，向您的用户分配许可证。
+1. 转到 [Microsoft 365 管理中心](https://portal.office.com/)，将许可证分配给您的用户。
 2. 在 **活动用户** 页上，选择要为其分配许可证的用户。
 3. 验证是否选择 **Dynamics 365 Project Operations** 许可证。 
 4. 选择 **保存更改**。

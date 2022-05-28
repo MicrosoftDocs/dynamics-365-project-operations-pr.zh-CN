@@ -4,14 +4,14 @@ description: 此主题提供有关管理基于项目的潜在顾客的信息 (Pr
 author: rumant
 ms.date: 10/01/2020
 ms.topic: article
-ms.reviewer: kfend
+ms.reviewer: johnmichalak
 ms.author: rumant
-ms.openlocfilehash: 218461e6b2013b014d59e2846fe19681d785771aa82284db33ff18c8b6b83946
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 16c0ff96aa3acf6411723c2c0badd65e8dca65dc
+ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6991385"
+ms.lasthandoff: 04/14/2022
+ms.locfileid: "8591715"
 ---
 # <a name="manage-leads---lite"></a>管理潜在顾客 - 精简
 

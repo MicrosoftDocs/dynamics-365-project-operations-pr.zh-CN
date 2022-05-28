@@ -3,16 +3,15 @@ title: 基于项目的合同子项概述
 description: 此主题提供有关处理基于项目的合同子项的信息。
 author: rumant
 ms.date: 10/28/2020
-ms.topic: article
-ms.reviewer: kfend
+ms.topic: overview
+ms.reviewer: johnmichalak
 ms.author: rumant
-ms.custom: intro-internal
-ms.openlocfilehash: 7da8a7f898e6f0bb46d4cf6de65812e3aabb7416a2fdf2f9d9c8bad07e77cd85
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 436079a166b102590863c5df6734d21dd83b83fe
+ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6999035"
+ms.lasthandoff: 04/14/2022
+ms.locfileid: "8593141"
 ---
 # <a name="project-based-contract-lines-overview"></a>基于项目的合同子项概述
 

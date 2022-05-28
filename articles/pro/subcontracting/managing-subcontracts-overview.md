@@ -3,15 +3,15 @@ title: Project Operations 中的分包合同管理
 description: 本主题概述了通常在基于项目的组织中的端到端分包合同管理流程。
 author: rumant
 ms.date: 08/02/2021
-ms.topic: article
-ms.reviewer: kfend
+ms.topic: overview
+ms.reviewer: johnmichalak
 ms.author: rumant
-ms.openlocfilehash: 993edfd064279a970d7c42d5fcefd794e949a931
-ms.sourcegitcommit: 80aa1e8070f0cb4992ac408fc05bdffe47cee931
+ms.openlocfilehash: d595e948b7be9a6822827f4841e737d3c0e1476b
+ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/13/2021
-ms.locfileid: "7323585"
+ms.lasthandoff: 04/14/2022
+ms.locfileid: "8593003"
 ---
 # <a name="subcontract-management-in-project-operations"></a>Project Operations 中的分包合同管理
 
@@ -46,7 +46,7 @@ _**适用于：** 精简部署 - 估价交易开票_
 
 如果分包合同子项 **基于数量**，则可以在任何项目中使用分包合同子项中为时间、支出或材料购买的数量。
 
-如果分包合同子项 **基于工作**，则该分包合同子项将映射到项目计划中节点表示的工作主体。 分包合同子项的值是提供工作主体所需全部组成部分之和。 它们建模为分包合同子项明细，可以是时间、支出或材料的集合。 对于基于工作的分包合同子项，此类分包合同子项也专用于一个项目。
+如果分包合同子项 **基于工作**，则该分包合同子项将映射到项目计划中节点表示的工作主体。 分包合同子项的值是提供工作主体所需全部组成部分之和。 它们建模为分包合同子项明细，可以是时间、支出或材料的集合。 对于基于工作的分包合同子项，此类分包合同子项也专用于一个项目。 Project Operations 目前不支持这些类型的分包合同。
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]
 

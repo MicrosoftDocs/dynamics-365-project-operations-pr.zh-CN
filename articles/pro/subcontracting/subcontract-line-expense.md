@@ -4,14 +4,14 @@ description: 本主题介绍如何记录支出的分包合同子项，以及如�
 author: rumant
 ms.date: 08/06/2021
 ms.topic: article
-ms.reviewer: kfend
+ms.reviewer: johnmichalak
 ms.author: rumant
-ms.openlocfilehash: 0c32bf2ac54de98a921d338e436ecd089e68a759
-ms.sourcegitcommit: cd4e81f129681a12f2efe63ec2bb14e611cf88ba
+ms.openlocfilehash: 9eba8b70aeb98389515ee679e4bfb1426736ee2c
+ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 09/20/2021
-ms.locfileid: "7506088"
+ms.lasthandoff: 04/14/2022
+ms.locfileid: "8591669"
 ---
 #  <a name="subcontract-lines-for-expense-categories"></a>分包合同的支出类别子项
 
