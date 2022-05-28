@@ -15,12 +15,13 @@ search.audienceType:
 search.app:
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 9f690dfdb40e962ef329f323716f3f755493805d764dbfaa2d4f9d042231cee7
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.reviewer: johnmichalak
+ms.openlocfilehash: f308104246efe671d2001e660aa8c0ab9ef44c7a
+ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "7006775"
+ms.lasthandoff: 04/14/2022
+ms.locfileid: "8581687"
 ---
 # <a name="turn-off-a-pricing-dimension"></a>关闭定价维度
 
@@ -37,10 +38,10 @@ ms.locfileid: "7006775"
 
 此错误消息说明存在已经为正在关闭的维度设置的定价记录。 必须先删除引用某个维度的所有 **角色价格** 和 **角色价格加价** 记录，才能将该维度的适用性设置为 **否**。 此规则同时适用于自带定价维度和您可能已创建的任何自定义定价维度。 要执行此项验证的原因是，Project Service 的一项约束要求每个 **角色价格** 记录都必须有唯一的维度组合。 例如，在名称为 **2018 年美国成本费率** 的价目表中，有以下 **角色价格** 行。 
 
-| 标准标题         | 部门    |计价单位   |单价  |货币  |
+| 标准标题         | 部门    |单位   |价格  |货币  |
 | -----------------------|-------------|-------|-------|----------|
-| 系统工程师|Contoso US|小时| 100|USD|
-| 高级系统工程师|Contoso US|小时| 150| USD|
+| 系统工程师|Contoso US|Hour| 100|USD|
+| 高级系统工程师|Contoso US|Hour| 150| USD|
 
 
 关闭充当定价维度的 **标准标题**，并且 Project Service 定价引擎搜索价格时，将仅使用输入上下文中的 **部门** 值。 如果输入上下文的 **部门** 为“Contoso US”，结果将不确定，因为两个行都将匹配。 为了避免出现这样的情况，在您创建 **角色价格** 记录时，Project Service 会验证维度组合是否唯一。 如果在创建 **角色价格** 记录后关闭了维度，可能会违反此项约束。 因此，您需要在关闭维度之前删除已填充了维度值的所有 **角色价格** 和 **角色价格加价** 行。

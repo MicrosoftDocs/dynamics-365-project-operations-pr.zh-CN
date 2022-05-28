@@ -4,14 +4,14 @@ description: 此主题提供的信息可帮助您确定您公司的 Project oper
 author: stsporen
 ms.date: 03/15/2021
 ms.topic: article
-ms.reviewer: kfend
+ms.reviewer: johnmichalak
 ms.author: stsporen
-ms.openlocfilehash: 4be8e69c5b6ff1ed65e9484a9b427bb428f7ff3e6dc597c615d5586da52867ef
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 280578b2710a0bccd1973b51b062fef7a2997780
+ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6994625"
+ms.lasthandoff: 04/14/2022
+ms.locfileid: "8584125"
 ---
 # <a name="determine-your-deployment-type"></a>确定部署类型
 
@@ -25,7 +25,7 @@ _**适用于：** 基于资源/非库存场景的 Project Operations，精简部
 ## <a name="existing-customers-of-dynamics-using-dynamics-365-project-service-automation"></a>使用 Dynamics 365 Project Service Automation 的现有 Dynamics 客户
 Project Operations 包含 Project Service Automation 随附的功能。 升级路径将在 2021 年发行版本第 1 波中为这些客户发布。
 
-## <a name="existing-customers-of-dynamics-365-finance-using-project-management-and-accounting"></a>使用“项目管理和会计”的现有 Dynamics 365 Finance 客户 
+## <a name="existing-customers-of-dynamics-365-finance-using-project-management-and-accounting"></a>使用项目管理和会计的 Dynamics 365 Finance 的现有客户 
 
 使用项目管理和会计功能的 Finance 的现有客户可以继续像以往一样使用它。 请参阅[面向库存/生产订单场景的 Project Operations](#pma)。
 
@@ -42,9 +42,9 @@ Project Operations 支持多个部署选项以满足您的要求。 无论您是
 - [面向资源/非库存场景的 Project Operations](#integrated)
 - [面向库存/生产订单场景的 Project Operations](#pma)
 
-Project Operations 通过法人级别的配置在同一环境中支持库存/生产订单场景和非库存/资源场景。 例如，Contoso 可以在其美国制造设施内使用库存/生产订单功能（法人 = Contoso Manufacturing United States）。 Contoso 可以在其为英国的 Contoso Robotics Arms 服务机构中使用非库存/基于资源的功能（法人 = Contoso Robotics United Kingdom）。
+Project Operations 通过法人级别的配置在同一环境中支持库存/生产订单场景和非库存/资源场景。 例如，Contoso 可以在他们的美国生产设施中使用库存/生产订单功能（法人 = Contoso Manufacturing United States）。 Contoso 可以在他们位于英国的 Contoso 机械臂维修设施中使用非库存/资源功能（法人 = Contoso Robotics United Kingdom）。
 
-### <a name="lite-deployment---deal-to-proforma-invoicing"></a><a  name="lite"></a>精简部署 - 估价交易开单
+### <a name="lite-deployment---deal-to-proforma-invoicing"></a><a  name="lite"></a>精简部署 - 估价交易开票
 
 精简部署包括以下功能：
 

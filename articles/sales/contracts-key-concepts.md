@@ -4,26 +4,26 @@ description: 此主题提供有关 Project Operations 中项目合同的关键�
 author: rumant
 ms.date: 10/07/2020
 ms.topic: article
-ms.reviewer: kfend
+ms.reviewer: johnmichalak
 ms.author: rumant
-ms.openlocfilehash: ce84984f873e6336a6d065f0aa7a72f1474404a84d3dbb614c09d58bff66d83d
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: f87a29893ca3d9bec6fbd07dded66a282ff597c3
+ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6986930"
+ms.lasthandoff: 04/14/2022
+ms.locfileid: "8582929"
 ---
 # <a name="concepts-unique-to-project-based-contracts"></a>基于项目的合同所特有的概念
 
 _**适用于：** 面向资源/非库存场景的 Project Operations_
 
-[!include [rename-banner](~/includes/cc-data-platform-banner.md)]
+
 
 本主题提供了在 Dynamics 365 Project Operations 中开始使用项目合同之前要了解的关键概念：
 
 ## <a name="owning-company"></a>业主公司
 
-业主公司是 Dynamics 365 Finance 中 Project Operations 的 **项目管理和会计** 模块中的法人。 业主公司表示将负责交易产生的成本和收入的法人。
+负责公司是 Dynamics 365 Finance 中 Project Operations 的 **项目管理和会计** 模块中的法人。 业主公司表示将负责交易产生的成本和收入的法人。
 
 ## <a name="contracting-unit"></a>合同签订部门
 

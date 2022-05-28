@@ -3,23 +3,22 @@ title: Project Operations 双重写入集成
 description: 本主题概述了 Project Operations 双重写入集成。
 author: sigitac
 ms.date: 04/28/2021
-ms.topic: article
+ms.topic: overview
 ms.prod: ''
-ms.reviewer: kfend
+ms.reviewer: johnmichalak
 ms.author: sigitac
-ms.custom: intro-internal
-ms.openlocfilehash: b65c40e8aaa9524c1c634738dadd23f21e86e2ec095c47bc849467c8806addbc
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 9b57b8bab9a6821e71a16b191804af21ae5d0b5a
+ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "7007900"
+ms.lasthandoff: 04/14/2022
+ms.locfileid: "8582745"
 ---
 # <a name="project-operations-dual-write-integration-overview"></a>Project Operations 双重写入集成概述
 
 _**适用于：** 面向资源/非库存场景的 Project Operations_
 
-Project Operations 使用[双重写入功能](/dynamics365/fin-ops-core/dev-itpro/data-entities/dual-write/dual-write-home-page)在 Microsoft Dataverse 和 Dynamics 365 Finance 之间同步数据 。
+Project Operations 使用[双写入功能](/dynamics365/fin-ops-core/dev-itpro/data-entities/dual-write/dual-write-home-page)跨 Microsoft Dataverse 和 Dynamics 365 Finance 同步数据。
 
 下图显示了如何作为 Dataverse 和 Finance 之间集成的一部分同步数据。
 

@@ -4,14 +4,14 @@ description: 本主题提供关于设置和配置形式发票的自动创建的�
 author: rumant
 ms.date: 04/05/2021
 ms.topic: article
-ms.reviewer: kfend
+ms.reviewer: johnmichalak
 ms.author: rumant
-ms.openlocfilehash: 1cce457fbc04ba9d3890d73439e6e7fd3db44d84a4498d5dc68ed82d362158b5
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 027cc711d53c7dd8512e6ef416b54e320357dd26
+ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6997505"
+ms.lasthandoff: 04/14/2022
+ms.locfileid: "8584079"
 ---
 # <a name="set-up-automatic-invoice-creation"></a>设置发票自动创建 
  

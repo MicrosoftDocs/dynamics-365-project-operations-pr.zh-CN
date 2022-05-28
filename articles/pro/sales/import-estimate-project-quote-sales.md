@@ -4,14 +4,14 @@ description: 此主题提供有关如何将估算从项目导入报价单明细�
 author: rumant
 ms.date: 10/09/2020
 ms.topic: article
-ms.reviewer: kfend
+ms.reviewer: johnmichalak
 ms.author: rumant
-ms.openlocfilehash: a5ac7827f3499aafb63f6bc0b8580ca52e883f272464532bd353170a12b3ae55
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 1c676011660cd06e49996c137f7e9dca0ef2e491
+ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6986120"
+ms.lasthandoff: 04/14/2022
+ms.locfileid: "8584033"
 ---
 # <a name="import-estimates-for-a-project-to-a-project-based-quote-line"></a>将项目估算导入到基于项目的报价单明细 
 

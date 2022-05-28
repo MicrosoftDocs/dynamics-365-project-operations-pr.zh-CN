@@ -3,16 +3,15 @@ title: 开票流程概述
 description: 本主题提供在面向资源/非库存场景的 Project Operations 中开票的流程概述。
 author: sigitac
 ms.date: 01/29/2021
-ms.topic: article
-ms.reviewer: kfend
+ms.topic: overview
+ms.reviewer: johnmichalak
 ms.author: sigitac
-ms.custom: intro-internal
-ms.openlocfilehash: 804d42f7e8bfd103b9143dc0f5c7ddecdee9e66e6072c3e7bf76b2a8c549cf55
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 0328d5321909bcc17754da4e19d7652b77a665d5
+ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "7003760"
+ms.lasthandoff: 04/14/2022
+ms.locfileid: "8582699"
 ---
 # <a name="invoicing-process-overview"></a>开票流程概述
 

@@ -5,14 +5,14 @@ author: andchoi
 ms.date: 07/01/2021
 ms.topic: article
 ms.prod: ''
-ms.reviewer: kfend
+ms.reviewer: johnmichalak
 ms.author: andchoi
-ms.openlocfilehash: c4f58842c33ec5f45a6cd9ea4bd0e73b0aa693b7cecf63bfa8889a5671840d7b
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 701ed791dce2dd0f7d196810de7538c65cb99d93
+ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6991115"
+ms.lasthandoff: 04/14/2022
+ms.locfileid: "8586287"
 ---
 # <a name="whats-new-or-changed-in-project-operations-may-2021-for-stockedproduction-based-scenarios"></a>适用于基于库存/生产场景的 2021 年 5 月 Project Operations 中的新增功能或更改
 
@@ -93,7 +93,7 @@ _ **适用范围：** 适用于基于库存/生产场景的 Project Operations
 | 出差和支出                  | [574900](https://fix.lcs.dynamics.com/Issue/Details/?bugId=574900) | 支出移动应用程序存在同步问题。 
 
 ### <a name="regulatory-updates"></a>法规更新
-有关 Finance and Operations 应用的法规更新的信息，请参阅[法规更新](/dynamics365/finance/localizations/regulatory-updates)。 您也可以使用问题搜索工具登录到 Lifecycle Services (LCS) 并查看计划的法规更新。 通过问题搜索，您可以按国家/地区、功能类型和发布进行搜索。
+有关财务和运营应用的监管更新的信息，请参阅[监管更新](/dynamics365/finance/localizations/regulatory-updates)。 您也可以使用问题搜索工具登录到 Lifecycle Services (LCS) 并查看计划的法规更新。 通过问题搜索，您可以按国家/地区、功能类型和发布进行搜索。
 
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

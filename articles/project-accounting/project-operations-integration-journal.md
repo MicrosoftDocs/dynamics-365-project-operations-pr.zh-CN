@@ -4,20 +4,20 @@ description: 此主题提供有关在 Project Operations 中使用集成日记�
 author: sigitac
 ms.date: 10/27/2020
 ms.topic: article
-ms.reviewer: kfend
+ms.reviewer: johnmichalak
 ms.author: sigitac
-ms.openlocfilehash: c5cc3254c52750b35be2c66137b6c57bbd9acbfbc89dedc6559059a89c8e2393
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 5e1a455d055fe562a1946cc3b90c8274ef1a4b12
+ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6987920"
+ms.lasthandoff: 04/14/2022
+ms.locfileid: "8582423"
 ---
 # <a name="integration-journal-in-project-operations"></a>Project Operations 中的集成日记帐
 
 _**适用于：** 面向资源/非库存场景的 Project Operations_
 
-时间和支出条目创建表示按照项目完成的工作的运作视图的 **实际** 交易。 Dynamics 365 Project Operations 为会计人员提供了一个审查交易并根据需要调整会计属性的工具。 审查和调整完成后，交易将过帐到项目子分类帐和总帐。 会计人员可以使用 **Project Operations 集成** 日记帐（**Dynamics 365 Finance** > **项目管理和会计** > **日记帐** > **Project Operations 集成** 日记帐）执行这些活动。
+时间和支出条目创建表示按照项目完成的工作的运作视图的 **实际** 交易。 Dynamics 365 Project Operations 为会计人员提供了一个审查交易并根据需要调整会计属性的工具。 审查和调整完成后，交易将过帐到项目子分类帐和总帐。 会计可以使用 **Project Operations 集成** 日记帐（**Dynamics 365 Finance** > **项目管理和会计** > **日记帐** > **Project Operations 集成** 日记帐）执行这些活动。
 
 ![集成日记帐流。](./media/IntegrationJournal.png)
 
@@ -26,7 +26,7 @@ _**适用于：** 面向资源/非库存场景的 Project Operations_
 Project Operations 集成日志中的记录使用定期流程 **从暂存表导入** 创建。 您可以转到 **Dynamics 365 Finance** > **项目管理和会计** > **定期** > **Project Operations 集成** > **从暂存表导入** 来运行此流程。 您可以根据需要以交互方式运行此流程，或将其配置为在后台运行。
 
 当定期流程运行时，将找到尚未添加到 Project Operations 集成日记帐中的所有实际值。 将为每个实际交易创建一个日记帐行。
-系统会根据在 **Project Operations 集成日记帐中的期间单位** 字段（**Finance** > **项目管理和会计** > **设置** > **项目管理和会计参数**，**Dynamics 365 Customer Engagement 上的 Project Operations** 选项卡）中选择的值将日记帐行分组为单独的日记帐。 此字段的可能值包括：
+系统根据在 **Project Operations 集成日记帐上的期间单位** 字段中选择的值将日记帐行分组到单独的日记帐（**财务** > **项目管理和会计** > **设置** > **项目管理和会计参数**，**Dynamics 365 Customer Engagement 上的 Project Operations** 选项卡）。 此字段的可能值包括：
 
   - **天**：实际值按交易日期分组。 为每一天创建单独日记帐。
   - **月**：实际值按日历月分组。 为每个月创建单独日记帐。
@@ -40,10 +40,10 @@ Project Operations 集成日志中的记录使用定期流程 **从暂存表导�
   - **凭证** 字段显示每个实际交易的凭证号。 凭证编号规则在 **项目管理和会计参数** 页的 **编号规则** 选项卡上定义。 每一行分配一个新编号。 在过帐凭证后，您可以选择 **凭证交易** 页上的 **相关凭证** 来查看成本和未记帐销售交易的关系。
   - **类别** 字段表示项目交易，基于相关项目实际值的交易类别设定默认值。
     - 如果在项目实际值中设置了 **交易类别**，并且给定法人中存在相关 **项目类别**，类别将默认为此项目类别。
-    - 如果项目实际值中未设置 **交易类别**，系统将使用 **项目管理和会计参数** 页 **Dynamics 365 Customer Engagement 上的 Project Operations** 选项卡上的 **项目类别默认值** 字段中的值。
+    - 如果未在项目实际值中设置 **交易类别**，系统将使用 **项目管理和会计参数** 页面上 **Dynamics 365 Customer Engagement 上的 Project Operations** 选项卡上的 **项目类别默认值** 字段中的值。
   - **资源** 字段表示与此交易相关的项目资源。 资源在项目发票方案中用作对客户的引用。
   - **汇率** 字段默认来自 Dynamics 365 Finance 中设置的 **货币汇率**。 如果缺少汇率设置，**从暂存导入** 定期流程不会将记录添加到日记帐中，一条错误消息将添加到作业执行日志中。
-  - **行属性** 字段表示项目实际值中的计费类型。 行属性和计费类型映射在 **项目管理和会计参数** 页上的 **Dynamics 365 Customer Engagement 上的 Project Operations** 选项卡上定义。
+  - **行属性** 字段表示项目实际值中的计费类型。 行属性和记帐类型映射在 **项目管理和会计参数** 页面上的 **Dynamics 365 Customer Engagement 上的 Project Operations** 选项卡上定义。
 
 只有以下会计属性可以在 Project Operations 集成日记帐行中更新：
 

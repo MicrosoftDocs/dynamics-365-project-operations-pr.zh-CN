@@ -4,14 +4,14 @@ description: 本主题提供有关使用面向资源/非库存场景的 Project 
 author: sigitac
 ms.date: 04/12/2021
 ms.topic: article
-ms.reviewer: kfend
+ms.reviewer: johnmichalak
 ms.author: sigitac
-ms.openlocfilehash: 61b43e05eb179e2b00189076290433dd72f89a6bc7ef72140fc1efd752149d43
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: cb8d470dbcaae48db7ec1b7c0d69d55c0c9e0f17
+ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6989900"
+ms.lasthandoff: 04/14/2022
+ms.locfileid: "8585597"
 ---
 # <a name="manage-project-invoice-proposals"></a>管理项目发票方案
 

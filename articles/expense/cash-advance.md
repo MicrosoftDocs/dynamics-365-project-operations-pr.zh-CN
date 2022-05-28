@@ -4,16 +4,16 @@ description: 本主题提供有关预付现金的信息。
 author: suvaidya
 ms.date: 03/25/2021
 ms.topic: article
-ms.reviewer: kfend
+ms.reviewer: johnmichalak
 ms.author: suvaidya
 ms.dyn365.ops.version: ''
 ms.search.validFrom: 2020-10-01
-ms.openlocfilehash: 6881fc8251a2d3c7d6af0016780a92358ce63397d09b9a0cde201126cd2912cc
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 8151ecfb83f0d6da32451d509364b8f63dffdb4d
+ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6988505"
+ms.lasthandoff: 04/14/2022
+ms.locfileid: "8585689"
 ---
 # <a name="cash-advance"></a>预付现金
 
@@ -66,7 +66,7 @@ _**适用于：** 面向资源/非库存场景的 Project Operations_
  
  启用这些功能时：
  
-  - 您可以为每个支出行设置一个或多个预付现金。
+  - 您可以为每个支出行添加一个或多个预付现金。
   - 在保存支出报表时，可以实时看到预付现金的可用余额。 这使您可以同时处理支出交易和返现交易。
   - 您可以为一个支出交易选择多个预付现金。
   - 使用查询可以获得预付现金对帐数据。 

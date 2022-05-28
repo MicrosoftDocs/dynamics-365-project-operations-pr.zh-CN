@@ -4,14 +4,14 @@ description: 本主题提供有关如何为收入估算设置期间类型的信�
 author: sigitac
 ms.date: 11/16/2020
 ms.topic: article
-ms.reviewer: kfend
+ms.reviewer: johnmichalak
 ms.author: sigitac
-ms.openlocfilehash: 487e3de7895ca0752e6c9033c7bb7007ba89301c01e6205b3bc8a7d750724bc9
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 83cf88bafbc7fc97fba664e278b232c24db53391
+ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6998765"
+ms.lasthandoff: 04/14/2022
+ms.locfileid: "8580445"
 ---
 # <a name="period-types"></a>期间类型
 
@@ -22,7 +22,7 @@ _**适用于：** 面向资源/非库存场景的 Project Operations_
 ## <a name="create-and-work-with-period-types"></a>创建和使用期间类型
 若要创建和使用期间类型，请完成以下步骤：
 
-1. 在您的 Dynamics 365 Finance 环境中，转到 **项目管理和会计** > **设置** > **估计** > **期间类型**。
+1. 在 Dynamics 365 Finance 环境中，转到 **项目管理和会计** > **设置** > **估算** > **期间类型**。
 2. 选择 **新建** 以创建新期间类型。 输入名称和说明。
 3. 在 **频率** 字段中选择值：
 

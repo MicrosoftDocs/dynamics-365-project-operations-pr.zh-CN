@@ -4,20 +4,20 @@ description: 此主题提供有关项目合同的关键概念的信息。
 author: rumant
 ms.date: 10/07/2020
 ms.topic: article
-ms.reviewer: kfend
+ms.reviewer: johnmichalak
 ms.author: rumant
-ms.openlocfilehash: a797a4fef6276f6ed008b0e58eed4c7480ba3492bcc166a362d4ff2816acf777
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 09252e449c11d6602dccba83f26413f380698814
+ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6991430"
+ms.lasthandoff: 04/14/2022
+ms.locfileid: "8580583"
 ---
 # <a name="concepts-unique-to-project-contracts"></a>项目合同所特有的概念
 
 _**适用于：** 精简部署 - 估价交易开票_
 
-[!include [rename-banner](~/includes/cc-data-platform-banner.md)]
+
 
 本主题提供了在 Dynamics 365 Project Operations 中开始使用项目合同之前要了解的关键概念：
 

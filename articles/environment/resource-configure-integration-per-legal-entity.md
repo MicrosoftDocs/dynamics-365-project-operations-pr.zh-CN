@@ -4,14 +4,14 @@ description: 此主题提供有关在 Project Operations 中按法人设置集�
 author: sigitac
 ms.date: 10/21/2020
 ms.topic: article
-ms.reviewer: kfend
+ms.reviewer: johnmichalak
 ms.author: sigitac
-ms.openlocfilehash: fc3f5be1318d482ece9a6e9e4fadc3cf628ff79577776e679f32cef7c0b2fc8f
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 64606a20a49fd8e9602b6ac3c1ab1880796eb128
+ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6999395"
+ms.lasthandoff: 04/14/2022
+ms.locfileid: "8585827"
 ---
 # <a name="configure-project-operations-integration-per-legal-entity"></a>配置每个法律实体的 Project Operations 集成 
 
@@ -34,7 +34,7 @@ _**适用于：** 面向资源/非库存场景的 Project Operations_
 
 ## <a name="define-the-project-operations-deployment-scenario-for-a-legal-entity"></a>定义法人的 Project Operations 部署方案
 
-您可以在法人级别启用 Dynamics 365 Customer Engagement 上的 Project Operations。 您可以让一个法人使用 Dynamics 365 Customer Engagement 上的面向资源/非库存场景的 Project Operations。 在同一个环境中，您可以让另一个法人使用面向库存/生产订单场景的 Project Operations。
+您可以在法人级别启用 Dynamics 365 Customer Engagement 上的 Project Operations。 对于基于资源/非库存场景，您可以有一个使用 Dynamics 365 Customer Engagement 上的 Project Operations 的法人。 在同一个环境中，您可以让另一个法人使用面向库存/生产订单场景的 Project Operations。
 
 1. 在 Dynamics 365 Finance 中，转到 **项目管理和会计** > **设置** > **全局项目管理和会计参数**。
 2. 在可用法人列表中，选择将启用多个合同子项和 Dynamics 365 Customer Engagement 上的 Project Operations 功能的实体。 不选择将使用面向库存/生产订单场景的 Project Operations 的法人。

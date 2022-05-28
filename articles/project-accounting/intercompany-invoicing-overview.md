@@ -3,16 +3,15 @@ title: 内部公司开票概述
 description: 本主题提供了有关内部公司项目开票的信息和示例。
 author: sigitac
 ms.date: 11/19/2020
-ms.topic: article
-ms.reviewer: kfend
+ms.topic: overview
+ms.reviewer: johnmichalak
 ms.author: sigitac
-ms.custom: intro-internal
-ms.openlocfilehash: c343c5bf525574e496036793cd4e131394e8b1b471153147a66cfebe1acf3fce
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: b7bb4384657c71552390bbc3d60f3c5d0e4136b4
+ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "7005380"
+ms.lasthandoff: 04/14/2022
+ms.locfileid: "8586241"
 ---
 # <a name="intercompany-invoicing-overview"></a>内部公司开票概述
 
@@ -20,7 +19,7 @@ _**适用于：** 面向资源/非库存场景的 Project Operations_
 
 您的组织可能具有多个为项目彼此转移产品和服务的分公司、附属机构和其他法人。 提供服务或产品的法律实体称为 *贷款法律实体*。 接收服务或产品的法律实体称为 *借款法律实体*。
 
-下图显示了一个典型方案，其中，两个法人实体 Contoso Robotics USA（借款法人实体）和 Contoso  Robotics UK（贷款法人实体）共享资源以为客户 Adventure works 交付项目。 对于此情形，Contoso Robotics USA 签订合同以向 Adventure Works 交付工作。
+下图显示了一个典型情形，其中有 Contoso Robotics USA（借款法律实体）和Contoso Robotics UK（贷款法律实体）这两个法律实体，它们共享资源来为 Adventure works 客户交付项目。 对于此情形，Contoso Robotics USA 已签约将工作交付给 Adventure Works。
 
 ![内部公司开票。](./media/IntercompanyScenario.png) 
 

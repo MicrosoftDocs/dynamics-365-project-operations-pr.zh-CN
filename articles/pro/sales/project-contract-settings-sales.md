@@ -2,16 +2,16 @@
 title: 项目合同设置 - 精简
 description: 此主题提供有关影响合同子项的字段的信息，以及有关跨所有明细项目汇总的合同的信息。
 author: rumant
-ms.date: 10/20/2020
+ms.date: 03/08/2022
 ms.topic: article
-ms.reviewer: kfend
+ms.reviewer: johnmichalak
 ms.author: rumant
-ms.openlocfilehash: 7ade6c122827274f926803140f5db32442114c7aefd18d410da65270f345fde4
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 638bd11926c2b470c0da92d67350e8da56cb1997
+ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6995930"
+ms.lasthandoff: 04/14/2022
+ms.locfileid: "8586379"
 ---
 # <a name="header-details-for-project-contracts"></a>项目合同的标题详细信息
 
@@ -32,12 +32,15 @@ _**适用于：** 精简部署 - 估价交易开票_
 | 上限 | **摘要** 选项卡 | 此字段指示客户对于此交易已经同意的最终值的商定上限。 | 上限在执行期间进行评估，适用于与此交易关联的所有明细项目和项目。 |
 | 要求交货日期 | **摘要** 选项卡 | 从项目报价单创建合同时，将从项目报价单上的相应字段复制此字段。 | 此日期用作生成发票计划的结束日期。 |
 
-以下 KPI 在项目合同的 **合同绩效** 选项卡上可用。
+以下 KPI 在项目合同的 **合同绩效** 选项卡上可用。 
 
-| 字段 | 地点 | 描述 |
+>[!NOTE]
+>**合同绩效** 选项卡上的所有金额均以环境的默认货币表示。
+
+| 字段 | 地点 | 说明  |
 | --- | --- | --- |
-| 合同值 | 整个合同 | 项目合同的总值。 |
-| 已记帐金额 | 整个合同 | 此合同中所有发票上的金额之和。 |
+| 合同值 | 整个合同 | 项目合同的总值。|
+| 已记帐金额 | 整个合同 | 此合同中所有发票上的金额之和。|
 | 已发生的成本 | 整个合同 | 在映射到合同的所有项目上记录的所有成本实际值的总和。 |
 | 毛利 | 整个合同 | 已记帐金额 - 迄今为止产生的成本/已记帐金额 |
 | 预期利润 | 整个合同 | （合同值 - 估计成本）/合同值 估计成本 = 映射到合同的所有项目上的所有估计成本之和。|

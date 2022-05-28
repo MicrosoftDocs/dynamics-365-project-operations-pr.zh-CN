@@ -3,16 +3,15 @@ title: 时间概述
 description: 本主题提供有关 Dynamics 365 Project Operations 中时间功能的信息。
 author: stsporen
 ms.date: 10/02/2020
-ms.topic: article
-ms.reviewer: kfend
+ms.topic: overview
+ms.reviewer: johnmichalak
 ms.author: stsporen
-ms.custom: intro-internal
-ms.openlocfilehash: 23697d7fedbf3edfef5099f615056162d2f8d6ce094884e20229123c17006311
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 138c339cff7b68ad5dd0d54d5f9be3418cb29fa6
+ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6999485"
+ms.lasthandoff: 04/14/2022
+ms.locfileid: "8582838"
 ---
 # <a name="time-overview"></a>时间概述
 

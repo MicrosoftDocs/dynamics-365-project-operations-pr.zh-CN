@@ -2,44 +2,44 @@
 title: 部署 Project Operations - 精简
 description: 此主题提供有关如何安装“Project Operations 精简部署 - 估价交易开票”的信息。
 author: stsporen
-ms.date: 10/02/2020
+ms.date: 02/28/2022
 ms.topic: article
-ms.reviewer: kfend
+ms.reviewer: johnmichalak
 ms.author: stsporen
-ms.openlocfilehash: 14912c612bbf04e232ce712e52330c7bb43eab9f3f8ffa9223a2d2f9ce95eb72
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: e33506504665f2e7ef7ad48469082f9f64a2a44b
+ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6991565"
+ms.lasthandoff: 04/14/2022
+ms.locfileid: "8580721"
 ---
 # <a name="deploy-project-operations---lite"></a>部署 Project Operations - 精简
 
 _**适用于：** 精简部署 - 估价交易开票_
 
-[!include [rename-banner](~/includes/cc-data-platform-banner.md)]
+
 
 Project Operations 支持多个部署模型。 若要确定最佳部署模型，请参阅[部署类型](determine-deployment-type.md)。
 
 
 > [!IMPORTANT]
-> 此部署（精简部署 – 估价交易开票）引发 **Common Data Service - 仅 Project Operations 部署**。
+> 此部署（精简部署 – 估价交易开票）引发 **Dataverse - 仅 Project Operations 部署**。
 
-- [将 Project Operations 安装到新的 CDS 环境中](#new)
-- [安装到现有 CD 环境中](#existing)
+- [将 Project Operations 安装到新的 Dataverse 环境中](#new)
+- [安装到现有 Dataverse 环境中](#existing)
 
 
 
-## <a name="install-project-operations-to-a-new-cds-environment"></a><a name="new"></a>将 Project Operations 安装到新的 CDS 环境中
+## <a name="install-project-operations-to-a-new-dataverse-environment"></a><a name="new"></a>将 Project Operations 安装到新的 Dataverse 环境中
 
-1. 作为具有 Project Operations 许可证的[全局或 Power Platform 管理员](/power-platform/admin/global-service-administrators-can-administer-without-license)，在 [PowerPlatform 管理中心](https://admin.powerplatform.com)创建一个新的 CDS 环境。 确保 **CDS 数据库** 和 **Dynamics 365 应用** 已启用。 已启用，请参阅[在 Power Platform 管理中心创建和管理环境](/power-platform/admin/create-environment#create-an-environment-in-the-power-platform-admin-center)。
+1. 作为具有 Project Operations 许可证的[全局或 Power Platform 管理员](/power-platform/admin/global-service-administrators-can-administer-without-license)，在 [PowerPlatform 管理中心](https://admin.powerplatform.com)创建一个新的 Dataverse 环境。 确保 **为此环境创建数据库** 和 **Dynamics 365 应用** 已启用。 已启用，请参阅[在 Power Platform 管理中心创建和管理环境](/power-platform/admin/create-environment#create-an-environment-in-the-power-platform-admin-center)。
 2. 从 Dynamics 365 应用的部署列表中选择 **Microsoft Dynamics 365 Project Operations**。
 
 
-## <a name="install-project-operations-to-an-existing-cds-environment"></a><a name="existing"></a>将 Project Operations 安装到现有 CDS 环境中
-
-1. 作为具有 Project Operations 许可证的[全局或 Power Platform 管理员](/power-platform/admin/global-service-administrators-can-administer-without-license)，在 [PowerPlatform 管理中心](https://admin.powerplatform.com)中找到要安装 Project Operations 的环境。
-2. 安装 Dynamics 365 应用的部署列表中的 **Microsoft Dynamics 365 Project Operations**。 有关详细信息，请参阅[管理 Dynamics 365 应用](/power-platform/admin/manage-apps)。
+## <a name="install-project-operations-to-an-existing-dataverse-environment"></a><a name="existing"></a>将 Project Operations 安装到现有 Dataverse 环境中
+1. 确保环境没有配置[双写入](/dynamics365/fin-ops-core/dev-itpro/data-entities/dual-write/dual-write-overview)，因为安装随后将安装[基于资源/非库存场景的 Project Operations](project-operations-integrated-deployment-overview.md) 功能。
+2. 作为具有 Project Operations 许可证的[全局或 Power Platform 管理员](/power-platform/admin/global-service-administrators-can-administer-without-license)，在 [PowerPlatform 管理中心](https://admin.powerplatform.com)中找到要安装 Project Operations 的环境。
+3. 安装 Dynamics 365 应用的部署列表中的 **Microsoft Dynamics 365 Project Operations**。 有关详细信息，请参阅[管理 Dynamics 365 应用](/power-platform/admin/manage-apps)。
 
 
 

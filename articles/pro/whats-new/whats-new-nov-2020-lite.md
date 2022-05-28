@@ -4,14 +4,14 @@ description: 此主题提供有关 2020 年 11 月版本的 Project Operations �
 author: sigitac
 ms.date: 11/02/2020
 ms.topic: article
-ms.reviewer: kfend
+ms.reviewer: johnmichalak
 ms.author: sigitac
-ms.openlocfilehash: 4a65ab00c7f729b72cc32b4786055feba4aaee452ac4cf413047f81651c92290
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 3a7d63e746edf73873840aee2f095192364cb286
+ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "7003265"
+ms.lasthandoff: 04/14/2022
+ms.locfileid: "8584631"
 ---
 # <a name="whats-new-november-2020---project-operations-lite-deployment---deal-to-proforma-invoicing"></a>2020 年 11 月新增功能 - Project Operations 精简部署 - 估价交易开票
 
