@@ -4,14 +4,14 @@ description: 本主题介绍 Project Operations 中分包合同标题内提供�
 author: rumant
 ms.date: 09/14/2021
 ms.topic: article
-ms.reviewer: kfend
+ms.reviewer: johnmichalak
 ms.author: rumant
-ms.openlocfilehash: ee863d31b45e7de962488fe804202ddfe580eb04
-ms.sourcegitcommit: 083e3d219cd5126eecb74debb1b70b361680b1f6
+ms.openlocfilehash: fade0ff876486ad60ffd9ad618be7864c1b28185
+ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 09/18/2021
-ms.locfileid: "7501315"
+ms.lasthandoff: 04/14/2022
+ms.locfileid: "8598155"
 ---
 # <a name="header-details-for-subcontracts"></a>分包合同的标题详细信息
 

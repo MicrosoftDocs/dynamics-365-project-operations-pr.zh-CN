@@ -4,14 +4,14 @@ description: 本主题说明如何在新计划界面中创建包括基本控件�
 author: ruhercul
 ms.date: 12/16/2021
 ms.topic: article
-ms.reviewer: kfend
+ms.reviewer: johnmichalak
 ms.author: ruhercul
-ms.openlocfilehash: 3b8162d256aa145301fc64bee9682caa8737496f
-ms.sourcegitcommit: d3f66dfb5978c5c6b7fd51363c7f9278737c49c1
+ms.openlocfilehash: cdc1ffdd1f53f65627b511582e52ca27fa53c127
+ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 12/17/2021
-ms.locfileid: "7928604"
+ms.lasthandoff: 04/14/2022
+ms.locfileid: "8597787"
 ---
 # <a name="create-a-work-breakdown-structure-wbs"></a>创建工作分解结构 (WBS)
 
@@ -124,7 +124,7 @@ ms.locfileid: "7928604"
 |----------------------------------------------------|----------------------|
 | 项目的最大总任务数                  | 500                  |
 | 项目的最长总持续时间               | 3650 天（10 年） |
-| 项目的最大总资源数              | 150                  |
+| 项目的最大总资源数              | 300                  |
 | 项目的最大总链接数（仅后续项） | 600                  |
 | 项目的最大总自定义字段数          | 10                   |
 | 每个任务的最大清单项数                   | 20                   |

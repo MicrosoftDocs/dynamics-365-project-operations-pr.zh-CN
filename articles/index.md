@@ -6,7 +6,7 @@ ms.date: 09/16/2020
 ms.topic: article
 ms.prod: ''
 audience: Application User
-ms.reviewer: kfend
+ms.reviewer: johnmichalak
 ms.custom: intro-internal
 ms.assetid: ''
 ms.search.region: ''
@@ -14,12 +14,12 @@ ms.search.industry: ''
 ms.author: kfend
 ms.dyn365.ops.version: ''
 ms.search.validFrom: 2020-10-01
-ms.openlocfilehash: 6646379fb421796a083bc321542daef4f58dcddfc67915d68403c2a370ba90c4
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 7201435677560809474414d771bcb0d9f22c9101
+ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6988370"
+ms.lasthandoff: 04/14/2022
+ms.locfileid: "8595119"
 ---
 # <a name="dynamics-365-project-operations"></a>Dynamics 365 Project Operations
 
@@ -37,8 +37,7 @@ Project Operations 本身具有强大的功能，但可以由需要 Dynamics 365
 有关详细信息，请参阅：
 
 - [Project Operations 概述](https://dynamics.microsoft.com/en-us/project-operations/overview/)
-- [Dynamics 365 Project Operations 2020 年发行版本第 1 波概述](/dynamics365-release-plan/2020wave1/dynamics365-project-operations/)
-
+- [Dynamics 365 Project Operations 2022 年发行版本第 1 波概述](/dynamics365-release-plan/2022wave1/finance-operations/dynamics365-project-operations/)
 
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

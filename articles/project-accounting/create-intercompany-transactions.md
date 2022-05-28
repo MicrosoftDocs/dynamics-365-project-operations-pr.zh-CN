@@ -4,14 +4,14 @@ description: 本主题提供了有关如何创建内部公司交易的信息。
 author: sigitac
 ms.date: 04/12/2021
 ms.topic: article
-ms.reviewer: kfend
+ms.reviewer: johnmichalak
 ms.author: sigitac
-ms.openlocfilehash: 4ce3a45e5a09b7ac5b5663cf9983e3bed7bf7e0d3fedede2e4524c51069a800b
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 88e5658c9087fdb19adce1c23bc5cad0ad0fa434
+ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "7005470"
+ms.lasthandoff: 04/14/2022
+ms.locfileid: "8599950"
 ---
 # <a name="create-intercompany-transactions"></a>创建内部公司交易
 
@@ -30,14 +30,14 @@ _**适用于：** 面向资源/非库存场景的 Project Operations_
 
 成本、资源单位成本以及部门间销售交易定价和货币受 **部门** 影响。 决定如何在实施中构建公司和部门时，请务必记住这一点。
 
-在创建商机、报价单、项目合同和项目记录时，系统会验证该合同签订部门的货币是否与合同签订公司的会计币种相匹配。 如果不相同，则无法创建这些记录。 通过转到 **Dataverse** > **设置** > **部门**，在 Dynamics 365 Project Operations 中定义部门货币。 通过转到 **总帐** > **分类帐设置** > **分类帐**，在 Dynamics 365 Finance 中定义公司的会计币种。 使用分类帐双重写入映射将货币同步到您的 Dataverse 环境。
+在创建商机、报价单、项目合同和项目记录时，系统会验证该合同签订部门的货币是否与合同签订公司的会计币种相匹配。 如果不相同，则无法创建这些记录。 通过转到 **Dataverse** > **设置** > **部门**，在 Dynamics 365 Project Operations 中定义部门货币。 转到 **总帐** > **分类帐设置** > **分类帐** 在 Dynamics 365 Finance 中定义公司的会计币种。 使用分类帐双重写入映射将货币同步到您的 Dataverse 环境。
 
 在下列情况下，系统会创建资源单位成本和部门间销售实际值：
 
   - 当资源提供单位与合同单位不同时
   - 当资源供给公司与承包公司不同时
 
-但是，只有资源供给公司与承包公司不同的交易才会转移到 Dynamics 365 Finance 环境中以进行其他会计核算。
+但是，只有资源公司与承包公司不同的交易会被转移到 Dynamics 365 Finance 环境进行其他会计处理。
 
 项目实际值会计将记录在 Finance 内的 Project Operations 集成日记帐中。 系统将创建以下日记帐行。
 
@@ -60,7 +60,7 @@ _**适用于：** 面向资源/非库存场景的 Project Operations_
     4. 将货币设置为 **美元**。
     5. 保存记录。
 3. 转到 **销售** > **项目合同**，并为 Adventure Works 创建新的项目合同。
-    1. 将负责公司设置为 **USPM**，将合同单位设置为 **Contoso Robotics US**。
+    1. 将负责公司设置为 **USPM**，并将合同单位设置为 **Contoso Robotics US**。
     2. 选择 Adventure Works 作为客户。
     3. 选择某一产品价目表并保存记录。
     4. 在 **合同子项** 选项卡上，创建新合同子项。 设置任意名称，然后选择 **时间和材料** 作为记帐方法。

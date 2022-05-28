@@ -7,18 +7,18 @@ ms.topic: article
 ms.prod: ''
 ms.search.form: ''
 audience: Application User
-ms.reviewer: kfend
+ms.reviewer: johnmichalak
 ms.search.scope: ''
 ms.search.region: ''
 ms.author: shylaw
 ms.search.validFrom: ''
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: 4dc1628a0dde0551aaf3bc10af628ef57881d85e
-ms.sourcegitcommit: a51f40c905874103040708be2188c04ab0716c38
+ms.openlocfilehash: 1d4c2cce88514e7822515fc407fc7cf31cb34924
+ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/11/2021
-ms.locfileid: "7798029"
+ms.lasthandoff: 04/14/2022
+ms.locfileid: "8596269"
 ---
 # <a name="capture-a-receipt-using-ocr"></a>使用 OCR 捕获收据
 
@@ -52,7 +52,7 @@ _**适用于：** 基于资源/非库存场景的 Project Operations，精简部
 
 ## <a name="installation"></a>安装
 
-若要使用这些高级支出功能，请安装适用于 Microsoft Dynamics 365 Finance 的支出管理服务加载项，并启用您的实例中的功能。 您可以从 Microsoft Dynamics Lifecycle Services (LCS) 中的项目访问该加载项。
+要使用这些高级费用功能，请安装 Microsoft Dynamics 365 Finance 支出管理服务加载项，然后在实例中打开这些功能。 您可以从 Microsoft Dynamics Lifecycle Services (LCS) 中的项目访问该加载项。
 
 1. 登录到 LCS，打开所需的环境。
 2. 转到 **完整详细信息**。

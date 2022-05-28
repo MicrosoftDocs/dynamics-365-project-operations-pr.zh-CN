@@ -4,14 +4,14 @@ description: 此主题提供有关如何设置交易和支出类别的成本和�
 author: rumant
 ms.date: 04/07/2021
 ms.topic: article
-ms.reviewer: kfend
+ms.reviewer: johnmichalak
 ms.author: rumant
-ms.openlocfilehash: 0c5e7b1ab03a170ca95a005985a13aaff7494f95ca15cf1ce726674ae9a14222
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: de7f95f9dcb1dff866d165dba9aaaedb480c1ad5
+ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6986210"
+ms.lasthandoff: 04/14/2022
+ms.locfileid: "8598431"
 ---
 # <a name="set-up-cost-and-sales-rates-for-expenses"></a>设置支出的成本和销售费率
 

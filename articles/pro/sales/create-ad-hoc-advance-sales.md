@@ -4,14 +4,14 @@ description: 此主题提供有关如何根据需要在合同中创建预付款�
 author: rumant
 ms.date: 10/26/2020
 ms.topic: article
-ms.reviewer: kfend
+ms.reviewer: johnmichalak
 ms.author: rumant
-ms.openlocfilehash: bceed1372dbaf523426a4c34da7152d77fe108240c8c3e4e1390c43b1cf536a4
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: ee97710a9f0229cef3ff9dbfda6a2f108726df20
+ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6999125"
+ms.lasthandoff: 04/14/2022
+ms.locfileid: "8594015"
 ---
 # <a name="creating-an-ad-hoc-advance-on-a-contract"></a>在合同中创建临时预付款
 

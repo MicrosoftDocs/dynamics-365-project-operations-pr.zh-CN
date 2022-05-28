@@ -4,27 +4,27 @@ description: 此主题提供有关在 Project Operations 中设置和应用配�
 author: sigitac
 ms.date: 05/10/2021
 ms.topic: article
-ms.reviewer: kfend
+ms.reviewer: johnmichalak
 ms.author: sigitac
-ms.openlocfilehash: 26f49ad3b9fb08824071699128f8b907ec98bb54505c6fea3c97288cbaf31633
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 6fb91de30a2414fa7dd8dba47b28cf4824948565
+ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6986615"
+ms.lasthandoff: 04/14/2022
+ms.locfileid: "8594705"
 ---
 # <a name="set-up-and-apply-configuration-data-in-the-common-data-service"></a>在 Common Data Service 中设置和应用配置数据 
 
 _**适用于：** 面向资源/非库存场景的 Project Operations_
 
-[!include [rename-banner](~/includes/cc-data-platform-banner.md)]
+
 
 ## <a name="prerequisites"></a>先决条件
 
 在开始在 Common Data Service (CDS) 中配置数据之前，必须满足以下先决条件：
 
-1.  为Project Operations 预配 CDS 环境和 Dynamics 365 Finance 环境。
-2.  将 Dynamics 365 Finance 中的法人信息共享到 CDS 环境。 这意味着 CDS 中的 **公司** 实体具有以下公司记录：
+1.  为 Project Operations 预配 CDS 环境和 Dynamics 365 Finance 环境。
+2.  Dynamics 365 Finance 中的法人信息将共享到 CDS 环境。 这意味着 CDS 中的 **公司** 实体具有以下公司记录：
   - THPM
   - USPM
   - GBPM

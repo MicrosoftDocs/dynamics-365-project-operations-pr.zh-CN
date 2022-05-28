@@ -5,14 +5,14 @@ author: rumant
 ms.date: 04/05/2021
 ms.topic: article
 ms.prod: ''
-ms.reviewer: kfend
+ms.reviewer: johnmichalak
 ms.author: rumant
-ms.openlocfilehash: 2050a313fe530065341410d60801b13eb958cb32ae24eb4a0a71ab7ea5061881
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: e20ea17691c592493a790fb38451b35db03416be
+ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6995615"
+ms.lasthandoff: 04/14/2022
+ms.locfileid: "8600041"
 ---
 # <a name="proforma-invoices"></a>估价发票
 
@@ -82,6 +82,9 @@ _**适用于：** 面向资源/非库存场景的 Project Operations_
 - 编辑和调整数量和记帐类型。
 
 选择 **确认** 以确认发票。 “确认”操作是单向操作。 选择 **确认** 时，系统将把发票设置为只读，并根据每项发票明细的每项发票明细详细信息创建已记帐实际销售额。 如果发票明细详细信息引用未记帐实际销售额，系统还将冲销这个未记帐实际销售额。 （所有基于时间或支出条目创建的发票明细详细信息都将引用未记帐实际销售额。）总帐集成系统可以使用此项冲销来冲销项目的在制品 (WIP) 以达成会计目的。
+
+> [!NOTE]
+> 已确认的估价发票和相关记录（发票明细和发票明细详细信息）无法编辑或删除。 
 
 ### <a name="correct-a-confirmed-invoice"></a>更正已确认的发票
 

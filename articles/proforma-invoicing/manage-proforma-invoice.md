@@ -4,14 +4,14 @@ description: 此主题提供有关如何管理和处理估价基于项目的发�
 author: rumant
 ms.date: 04/05/2021
 ms.topic: article
-ms.reviewer: kfend
+ms.reviewer: johnmichalak
 ms.author: rumant
-ms.openlocfilehash: cba74c14f6d039dce0650f25ee04cbe35ec8f668b774cdaaa3bbf1aab99cb44d
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: c61b0d887ae35988f1765d40de0447aa5fd7efd4
+ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6989315"
+ms.lasthandoff: 04/14/2022
+ms.locfileid: "8593739"
 ---
 # <a name="manage-a-proforma-project-based-invoice"></a>管理估价基于项目的发票
 

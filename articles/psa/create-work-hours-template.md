@@ -16,12 +16,13 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 90525cf1e7cd487a03b064466ad1b13f8afb7819443fc4bacf9c7d3eee86f0b6
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.reviewer: johnmichalak
+ms.openlocfilehash: 5788378c7e015c4b11182aaf427aca7d1da48b40
+ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6987380"
+ms.lasthandoff: 04/14/2022
+ms.locfileid: "8598937"
 ---
 # <a name="create-a-work-hours-template-project-service"></a>创建工作时间模板 (Project Service)
 
@@ -49,7 +50,7 @@ ms.locfileid: "6987380"
 
 1. 转到 **资源**\>**资源**。
 2. 创建要在日历模板中引用的新资源，或选择一个现有资源。
-3. 选择资源的 **工作时间** 选项卡，完成[为资源设置工作时间](/dynamics365/field-service/set-work-hours-resource.md)中的说明配置日历规则。
+3. 选择资源的 **工作时间** 选项卡，完成[为资源设置工作时间](/dynamics365/field-service/set-work-hours-resource)中的说明配置日历规则。
 
 **创建新的日历模板**
 

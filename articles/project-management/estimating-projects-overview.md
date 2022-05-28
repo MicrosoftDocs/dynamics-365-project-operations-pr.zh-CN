@@ -3,16 +3,15 @@ title: 财务估算概念
 description: 此主题提供有关 Project Operations 中的项目财务估算的信息。
 author: rumant
 ms.date: 03/22/2021
-ms.topic: article
-ms.reviewer: kfend
+ms.topic: overview
+ms.reviewer: johnmichalak
 ms.author: rumant
-ms.custom: intro-internal
-ms.openlocfilehash: 74b2499cc706e03658cadeb088df154100051cbc7cce386b2e4d50dbdb5c197f
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 338d2924f0e2a4a7fb943686eaad421a892dce70
+ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6989180"
+ms.lasthandoff: 04/14/2022
+ms.locfileid: "8597741"
 ---
 # <a name="financial-estimation-concepts"></a>财务估算概念
 

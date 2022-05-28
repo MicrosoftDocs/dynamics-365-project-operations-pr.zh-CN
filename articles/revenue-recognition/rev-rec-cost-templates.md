@@ -4,14 +4,14 @@ description: 此主题提供有关如何在 Project Operations 中创建和使�
 author: sigitac
 ms.date: 11/18/2020
 ms.topic: article
-ms.reviewer: kfend
+ms.reviewer: johnmichalak
 ms.author: sigitac
-ms.openlocfilehash: b3a9f1e4f5ea0abe34dc860db87ef349daa46c487b03d271bfe207868c521f39
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 9e163dc3180d2b35ddf9b15aa0577bf51e3b72ce
+ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6993545"
+ms.lasthandoff: 04/14/2022
+ms.locfileid: "8594199"
 ---
 # <a name="set-up-cost-templates"></a>设置成本模板
 
@@ -56,7 +56,7 @@ _**适用于：** 面向资源/非库存场景的 Project Operations_
 ## <a name="create-cost-templates"></a>创建成本模板
 要创建成本模板，请执行以下步骤：
 
-1. 若要访问成本模板，请在 Dynamics 365 Finance 环境中转到 **项目管理和会计** > **设置** > **估算** > **成本模板**。
+1. 要访问成本模板，在 Dynamics 365 Finance 环境中转到 **项目管理和会计** > **设置** > **估算** > **成本模板**。
 2. 选择 **新建** 以创建新的成本模板。 输入名称和说明。
 3. 提供每种交易类型的成本行 ID。
 4. 选择默认完成方法：

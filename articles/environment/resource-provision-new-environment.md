@@ -5,20 +5,20 @@ author: sigitac
 ms.date: 09/13/2021
 ms.topic: article
 ms.prod: ''
-ms.reviewer: kfend
+ms.reviewer: johnmichalak
 ms.author: sigitac
-ms.openlocfilehash: a00426678d23000dc19386792d346318eab74ed9
-ms.sourcegitcommit: d3f66dfb5978c5c6b7fd51363c7f9278737c49c1
+ms.openlocfilehash: 03626cb1579fad7f8d8eb501905056cd13092754
+ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 12/17/2021
-ms.locfileid: "7928650"
+ms.lasthandoff: 04/14/2022
+ms.locfileid: "8594797"
 ---
 # <a name="provision-a-new-environment"></a>设置新环境
 
 _**适用于：** 面向资源/非库存场景的 Project Operations_
 
-[!include [rename-banner](~/includes/cc-data-platform-banner.md)]
+
 
 此主题提供有关如何为资源/非库存场景预配新 Dynamics 365 Project Operations 环境的信息。
 
@@ -117,7 +117,7 @@ Project Operations 需要应用程序版本为 **10.0.13 (10.0.569.20009)** 或�
 
     ![应用解决方案。](./media/13ApplySolutions.png)
 
-5. 选择 **Dynamics 365 Finance and Operations 双重写入实体映射** 和 **Dynamics 365 Project Operations 双重写入实体映射** 这两个解决方案，然后选择 **应用**。
+5. 同时选择两个解决方案 **Dynamics 365 Finance and Operations 双写入实体映射** 和 **Dynamics 365 Project Operations 双写入实体映射**，然后选择 **应用**。
 
     ![确认解决方案。](./media/14ConfirmSolutions.png)
 

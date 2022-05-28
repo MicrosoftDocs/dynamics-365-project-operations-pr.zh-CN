@@ -16,12 +16,13 @@ search.audienceType:
 search.app:
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: d17939777a6670bafc41b372adc922f8bdcc0411f3fdb399e7c9ab01eca87dd0
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.reviewer: johnmichalak
+ms.openlocfilehash: 7dbee508cea074a8c443506d280a1b52eb698202
+ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6998450"
+ms.lasthandoff: 04/14/2022
+ms.locfileid: "8593601"
 ---
 # <a name="pricing-and-costing-dimensions-home-page"></a>定价和定成本维度主页
 
@@ -64,18 +65,18 @@ PSA 随附了一组默认定价维度。 可通过转到 **Project Service** > *
 
 **示例记帐费率**
 
-| 角色        | 部门    |计价单位      |单价      |货币  |
+| 角色        | 部门    |单位      |价格      |货币  |
 | ------------|-------------|----------|----------:|----------|
-| 开发人员   | Contoso US  |小时 | 200|USD     |
-| 开发人员   | Contoso 印度 |小时|   112|USD     |
+| 开发人员   | Contoso US  |Hour | 200|USD     |
+| 开发人员   | Contoso 印度 |Hour|   112|USD     |
 
 
 **示例成本费率**
 
-| 工资级别     | 部门    |计价单位      |单价      |货币  |
+| 工资级别     | 部门    |单位      |价格      |货币  |
 | ----------------|-------------|----------|----------:|----------|
-| My company_Band1 | Contoso US  |小时 | 145|USD     |
-| My company_Band2 | Contoso 印度 |小时|   67|USD     |
+| My company_Band1 | Contoso US  |Hour | 145|USD     |
+| My company_Band2 | Contoso 印度 |Hour|   67|USD     |
 
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

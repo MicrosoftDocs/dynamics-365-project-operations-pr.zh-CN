@@ -2,17 +2,16 @@
 title: 项目工作量跟踪
 description: 此主题提供关于如何跟踪项目工作和工作进度的信息。
 author: ruhercul
-ms.date: 03/22/2021
-ms.topic: article
-ms.reviewer: kfend
+ms.date: 02/15/2022
+ms.topic: overview
+ms.reviewer: johnmichalak
 ms.author: ruhercul
-ms.custom: intro-internal
-ms.openlocfilehash: 0df357eaf662816107fbc1777ebae030c93bd199756e78a1c3d59155dc64d38f
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 037118714cf01ba2fb91cdd94345495d12ccb645
+ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6993950"
+ms.lasthandoff: 04/14/2022
+ms.locfileid: "8593785"
 ---
 # <a name="project-effort-tracking"></a>项目工作量跟踪
 
@@ -46,7 +45,8 @@ Project Operations 显示任务的工作量偏差预估。 如果 EAC 大于计�
 - 计算向下到叶节点任务的每一个任务的新 EAC。 
 - 基于 EAC 值重新计算向下到叶节点的受影响子任务的剩余工作量和进度百分比。 这会导致重新估算任务工作量偏差。 
 - 重新计算绘制任务直到根节点的 EAC。
-
+- 汇总任务的批准工作量是所有子任务的批准工作量加上汇总任务的批准工作量的总和。
+- 汇总任务的剩余工作量是所有子任务的剩余工作量减去汇总任务的已批准工作量的总和。
 
 ## <a name="project-status-summary"></a>项目状态汇总
 
