@@ -4,14 +4,14 @@ description: 此主题提供有关 2020 年 11 月版本的面向资源/非库�
 author: sigitac
 ms.date: 10/30/2020
 ms.topic: article
-ms.reviewer: kfend
+ms.reviewer: johnmichalak
 ms.author: sigitac
-ms.openlocfilehash: 9eda9d75f5a4d71e6e4b8bd22dce973270639db3f927ac6a76be5b3c4303fc31
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: b76ebbff1cc2720e699334601d425879f2d20770
+ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "7007945"
+ms.lasthandoff: 04/14/2022
+ms.locfileid: "8600363"
 ---
 # <a name="whats-new-november-2020---project-operations-for-resourcenon-stocked-based-scenarios"></a>2020 年 11 月新增功能 - 面向资源/非库存场景的 Project Operations
 
@@ -65,7 +65,7 @@ _**适用于：** 面向资源/非库存场景的 Project Operations_
 | 项目核算  | [510041](https://fix.lcs.dynamics.com/Issue/Details/?bugId=510041)           | 启用此功能后，在不进行 CDS 集成时不能使用多个合同子项。                                                                                   |
 
 ### <a name="regulatory-updates"></a>法规更新
-有关 Finance and Operations 应用的法规更新的信息，请参阅[法规更新](/dynamics365/finance/localizations/regulatory-updates)。 您还可以登录到 LCS，使用问题搜索工具查看计划的法规更新。 通过问题搜索，您可以按国家/地区、功能类型和发布进行搜索。
+有关财务和运营应用的监管更新的信息，请参阅[监管更新](/dynamics365/finance/localizations/regulatory-updates)。 您还可以登录到 LCS，使用问题搜索工具查看计划的法规更新。 通过问题搜索，您可以按国家/地区、功能类型和发布进行搜索。
 
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

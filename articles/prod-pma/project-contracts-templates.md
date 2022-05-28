@@ -1,34 +1,33 @@
 ---
 title: 将项目合同和项目直接从 Project Service Automation 同步到 Finance
-description: 此主题介绍用于直接同步 Microsoft Dynamics 365 Project Service Automation 与 Dynamics 365 Finance 的项目合同和项目的模板和基础任务。
+description: 此主题介绍用于将项目合同和项目直接从 Microsoft Dynamics 365 Project Service Automation 同步到 Dynamics 365 Finance 的模板和基础任务。
 author: Yowelle
 ms.date: 12/17/2020
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
 audience: Application User
-ms.reviewer: josaw
-ms.search.scope: Core, Operations
+ms.reviewer: johnmichalak
 ms.custom: 87983
 ms.assetid: b454ad57-2fd6-46c9-a77e-646de4153067
 ms.search.region: Global
 ms.author: andchoi
 ms.search.validFrom: 2017-12-13
 ms.dyn365.ops.version: AX 7.3.0
-ms.openlocfilehash: acb87be977cc009f89ceac5b01c9028d6741b552a441ef49e024b6b078a188d4
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 92ebdd864c59168d6f4a4540c6915d6b0dc8a1fb
+ms.sourcegitcommit: 2c2a5a11d446adec2f21030ab77a053d7e2da28e
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "7001060"
+ms.lasthandoff: 05/04/2022
+ms.locfileid: "8684631"
 ---
 # <a name="synchronize-project-contracts-and-projects-directly-from-project-service-automation-to-finance"></a>将项目合同和项目直接从 Project Service Automation 同步到 Finance 
 
 [!include[banner](../includes/banner.md)]
 
-[!include [rename-banner](~/includes/cc-data-platform-banner.md)]
 
-此主题介绍用于直接同步 Dynamics 365 Project Service Automation 与 Dynamics 365 Finance 的项目合同和项目的模板和基础任务。
+
+此主题介绍用于将项目合同和项目直接从 Dynamics 365 Project Service Automation 同步到 Dynamics 365 Finance 的模板和基础任务。
 
 > [!NOTE] 
 > 如果在使用 Enterprise edition 7.3.0，则必须安装 KB 4074835。
@@ -112,7 +111,7 @@ Project Service Automation 中有一项会影响项目合同行里程碑模板�
 - 可将项目合同和项目的 **SourceDataID** 更新为其他值，也可以将其从映射中移除。 默认模板值为 **Project Service Automation**。
 - 必须更新 **PaymentTerms** 映射，才能在 Finance 中体现有效的付款期限。 也可以从项目任务中移除映射。 默认值映射具有演示数据的默认值。 下表显示 Project Service Automation 中的值。
 
-    | Value | 描述   |
+    | 价值 | 说明    |
     |-------|---------------|
     | 1     | N30        |
     | 2     | 2/10 N30 |
@@ -121,7 +120,7 @@ Project Service Automation 中有一项会影响项目合同行里程碑模板�
 
 ## <a name="power-query"></a>Power Query
 
-如果满足以下条件，请使用 Microsoft Power Query for Excel 筛选数据。
+如果满足以下条件，则使用 Microsoft Power Query for Excel 筛选数据：
 
 - 您在 Dynamics 365 Sales 中有销售订单。
 - 您在 Project Service Automation 中有多个组织单位，并且这些组织单位将映射到 Finance 中的多个法人。
@@ -129,7 +128,7 @@ Project Service Automation 中有一项会影响项目合同行里程碑模板�
 如果必须使用 Power Query，请遵守以下准则：
 
 - 项目和合同（PSA 到 Fin and Ops）模板有一个默认筛选器，其中仅包含类型为 **工作项 (msdyn\_ordertype = 192350001)** 的销售订单。 此筛选器有助于确保不在 Finance 中为销售订单创建项目合同。 如果创建自己的模板，则必须添加这个筛选器。
-- 创建一个 Power Query 筛选器，让它仅包含应同步到集成连接集的法人的合同组织。 例如，您与 Contoso US 的合同部门之间的项目合同应同步到 USSI 法人，但是与 Contoso Global 的合同部门之间的项目合同应同步到 USMF 法人。 如果不向任务映射添加此筛选器，则将把所有项目合同同步到为连接集定义的法人，而不考虑合同组织单位。
+- 创建的 Power Query 筛选器必须仅包含应同步到集成连接集的法人的合同组织。 例如，应将您的包含合同组织单位 Contoso US 的项目合同同步到 USSI 法人，但您的包含合同组织单位 Contoso Global 的项目合同则应同步到 USMF 法人。 如果不向任务映射添加此筛选器，则将把所有项目合同同步到为连接集定义的法人，而不考虑合同组织单位。
 
 ## <a name="template-mapping-in-data-integration"></a>数据集成中的模板映射
 

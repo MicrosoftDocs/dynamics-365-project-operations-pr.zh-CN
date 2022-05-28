@@ -1,24 +1,23 @@
 ---
 title: 支出收据处理
-description: 此主题提供有关收据的光学字符识别 (OCR) 处理的信息。 此功能适合在 Microsoft Dynamics 365 Finance 中创建支出报表时改善用户体验。
+description: 此主题提供有关收据的光学字符识别 (OCR) 处理的信息。 此功能用于在 Microsoft Dynamics 365 Finance 中创建支出报表时改善用户体验。
 author: stsporen
 ms.date: 05/14/2020
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
 audience: Application User
-ms.reviewer: roschlom
-ms.search.scope: Operations, Core
+ms.reviewer: johnmichalak
 ms.search.region: Global
 ms.author: stsporen
 ms.search.validFrom: 2019-11-20
 ms.dyn365.ops.version: 10.0.8
-ms.openlocfilehash: 0d43c44bf4f2a58e3249d6cc1028353555cfd836580a802ad6e1878dc9b2e263
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 067432106742447d2b8fa215ec05bf05f4b41e70
+ms.sourcegitcommit: 2c2a5a11d446adec2f21030ab77a053d7e2da28e
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "7001375"
+ms.lasthandoff: 05/04/2022
+ms.locfileid: "8684309"
 ---
 # <a name="expense-receipt-processing"></a>支出收据处理
 
@@ -51,7 +50,7 @@ ms.locfileid: "7001375"
 
 此功能与 **已重构的支出报表** 功能联合使用，有助于简化支出体验。 此功能仅可用于二级以上环境，即沙盒和生产。
 
-若要使用这些高级支出功能，请安装适用于 Microsoft Dynamics 365 Finance 的支出管理服务加载项，并启用您的实例中的功能。 您可以从 Microsoft Dynamics Lifecycle Services (LCS) 中的项目访问该加载项。
+要使用这些高级费用功能，请安装 Microsoft Dynamics 365 Finance 支出管理服务加载项，然后在实例中打开这些功能。 您可以从 Microsoft Dynamics Lifecycle Services (LCS) 中的项目访问该加载项。
 
 1. 登录到 LCS，打开所需的环境。
 2. 转到 **完整详细信息**。

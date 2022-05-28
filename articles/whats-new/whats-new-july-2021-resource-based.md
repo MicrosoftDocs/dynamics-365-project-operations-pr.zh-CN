@@ -5,14 +5,14 @@ author: sigitac
 ms.date: 07/07/2021
 ms.topic: article
 ms.prod: ''
-ms.reviewer: kfend
+ms.reviewer: johnmichalak
 ms.author: sigitac
-ms.openlocfilehash: 69507427521466335df9cbbaba79db1cfc7be91386b8b2ded5b1c384555946ee
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 1c88f3b4747005bee0d68d0e8a4314c01ffdaf34
+ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "7008035"
+ms.lasthandoff: 04/14/2022
+ms.locfileid: "8600869"
 ---
 # <a name="whats-new-july-2021---project-operations-for-resourcenon-stocked-based-scenarios"></a>2021 年 7 月新增功能 - 适用于基于资源/非库存场景的 Project Operations
 

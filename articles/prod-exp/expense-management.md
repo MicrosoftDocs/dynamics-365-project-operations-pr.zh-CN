@@ -3,25 +3,23 @@ title: 支出管理概览
 description: 本主题提供了有关支出管理的一般信息以及指向更多资源的链接。 可使用“支出管理”创建集成的工作流，从中您可以存储付款方式信息、导入信用卡交易记录和在员工产生业务支出时跟踪所花的金钱。
 author: ShylaThompson
 ms.date: 07/25/2019
-ms.topic: article
+ms.topic: overview
 ms.prod: ''
 ms.technology: ''
 ms.search.form: TrvExpenseWorkspace
 audience: Application User, IT Pro
-ms.reviewer: roschlom
-ms.search.scope: Core, Operations
-ms.custom: intro-internal
+ms.reviewer: johnmichalak
 ms.assetid: 2d97d69b-9c08-4f0d-9637-68759fd34d34
 ms.search.region: Global
 ms.author: shylaw
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: b069b5101c0b093bea5ddb7c02d4e0f5fedd09b7ae051dca96f620b164c17fd3
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 93a8581db26dfecb9f847740c979e096dc3e227d
+ms.sourcegitcommit: 2c2a5a11d446adec2f21030ab77a053d7e2da28e
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "7001420"
+ms.lasthandoff: 05/04/2022
+ms.locfileid: "8684815"
 ---
 # <a name="expense-management-overview"></a>支出管理概览
 
@@ -45,7 +43,7 @@ ms.locfileid: "7001420"
 
 ### <a name="blogs"></a>博客
 
-您可以在 [Microsoft Dynamics 365 博客](https://community.dynamics.com/b/msftdynamicsblog?c=Enterprise)和 [Microsoft Dynamics 365 Finance and Operations - Financials 博客](https://community.dynamics.com/365/financeandoperations/b/financials)上查找意见、新闻和其他信息。
+您可以在 [Microsoft Dynamics 365 博客](https://community.dynamics.com/b/msftdynamicsblog?c=Enterprise)和 [Microsoft Dynamics 365 Finance and Operations - 财务博客](https://community.dynamics.com/365/financeandoperations/b/financials)上查找相关意见、资讯及其他信息。
 
 [Microsoft Dynamics Operations 合作伙伴社区博客](https://community.dynamics.com/partner/b/operationspartnercommunityblog)可为 Microsoft Dynamics 合作伙伴提供了解 MBS Operations 中的新增功能和趋势的单一资源。
 

@@ -1,32 +1,31 @@
 ---
 title: 将项目实际值直接从 Project Service Automation 同步到 Finance and Operations 中的项目集成日记帐进行过帐
-description: 此主题介绍用于直接同步 Microsoft Dynamics 365 Project Service Automation 与 Finance and Operations 的项目实际值的模板和基础任务。
+description: 此主题介绍用于将项目实际值直接从 Microsoft Dynamics 365 Project Service Automation 同步到 Finance and Operations 的模板和基础任务。
 author: Yowelle
 ms.date: 07/20/2018
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
 audience: Application User
-ms.reviewer: kfend
-ms.search.scope: Core, Operations
+ms.reviewer: johnmichalak
 ms.custom: 87983
 ms.assetid: b454ad57-2fd6-46c9-a77e-646de4153067
 ms.search.region: Global
 ms.author: andchoi
 ms.search.validFrom: 2016-11-28
 ms.dyn365.ops.version: AX 7.3.0
-ms.openlocfilehash: 85b6c07464e919e363f28d8bc62115e8fb4c72ea6631269b98fd00f324a01cba
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 12929c324bb3a7c344edc9be2e3a8f4941ff9ea4
+ms.sourcegitcommit: 2c2a5a11d446adec2f21030ab77a053d7e2da28e
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6988100"
+ms.lasthandoff: 05/04/2022
+ms.locfileid: "8683527"
 ---
 # <a name="synchronize-project-actuals-directly-from-project-service-automation-to-the-project-integration-journal-for-posting-in-finance-and-operations"></a>将项目实际值直接从 Project Service Automation 同步到 Finance and Operations 中的项目集成日记帐进行过帐
 
 [!include[banner](../includes/banner.md)]
 
-此主题介绍用于直接同步 Dynamics 365 Project Service Automation 与 Dynamics 365 Finance 的项目实际值的模板和基础任务。
+此主题介绍用于将项目实际值直接从 Dynamics 365 Project Service Automation 同步到 Dynamics 365 Finance 的模板和基础任务。
 
 此模板将交易记录从 Project Service Automation 同步到 Finance 中的暂存表内。 同步完成后，**必须** 将数据从暂存表导入集成日记帐。
 
@@ -42,7 +41,7 @@ Project Service Automation 到 Finance 集成解决方案使用数据集成功�
 
 下图显示 Project Service Automation 与 Finance 之间中如何同步数据。
 
-[![Project Service Automation 与 Finance and Operations 集成的数据流。](./media/ProjectActualsFlow.jpg)](./media/ProjectActualsFlow.jpg)
+[![Project Service Automation 与 Finance and Operations 集成的数据传输。](./media/ProjectActualsFlow.jpg)](./media/ProjectActualsFlow.jpg)
 
 ## <a name="project-actuals-from-project-service-automation"></a>来自 Project Service Automation 的项目实际值
 
@@ -84,9 +83,9 @@ Project Service Automation 到 Finance 集成解决方案使用数据集成功�
 - 如果不将公司间时间或公司间支出实际值同步到 Finance，则必须从模板中删除最后插入的条件列。 否则可能出现错误或将不正确的交易记录导入 Finance 中。
 
 #### <a name="contract-organizational-unit"></a>合同组织单位
-若要更新模板中插入的条件列，请单击 **映射** 箭头打开映射。 选择 **高级查询和筛选** 链接以打开 Power Query。
+若要更新模板中插入的条件列，请单击 **映射** 箭头打开映射。 选择 **高级查询和筛选** 链接打开 Power Query。
 
-- 如果在使用默认的项目实际值（PSA 到 Fin and Ops）模板，请在 Power Query, 中从 **应用的步骤** 部分选择最后一个 **插入的条件**。 在 **函数** 条目中，将 **USSI** 替换为集成应使用的法人 的名称。 根据需要向 **函数** 条目添加更多条件，然后将 **else** 条件从 **USMF** 更新为正确的法人。
+- 如果在使用默认的项目实际值（PSA 到财务和运营）模板，请在 Power Query 中从 **应用的步骤** 部分选择最后一个 **插入的条件**。 在 **函数** 条目中，将 **USSI** 替换为集成应使用的法人 的名称。 根据需要向 **函数** 条目添加更多条件，然后将 **else** 条件从 **USMF** 更新为正确的法人。
 - 如果要新建模板，必须添加此列来为公司间数据和支出提供支持。 选择 **添加条件列**，然后为列输入名称，如 **LegalEntity**。 输入列的条件：where, if **msdyn\_contractorganizationalunitid.msdyn\_name** is \<organizational unit\>, then \<enter the legal entity\>; else null。
 
 ### <a name="template-mapping-in-data-integration"></a>数据集成中的模板映射

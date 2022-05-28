@@ -4,14 +4,14 @@ description: 本主题提供了有关如何为自定义定价维度创建解决�
 author: Rumant
 ms.date: 11/09/2020
 ms.topic: article
-ms.reviewer: kfend
+ms.reviewer: johnmichalak
 ms.author: rumant
-ms.openlocfilehash: 753f0c4496bafd43d7e4a399cedeb355c2163c7ce56d932b2c786d5f2e672b6b
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 82593d3d00b008c1922d70c508bc77624aeb46b3
+ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6992195"
+ms.lasthandoff: 04/14/2022
+ms.locfileid: "8601099"
 ---
 # <a name="create-a-solution-for-custom-pricing-dimensions"></a>为自定义定价维度创建解决方案
 
@@ -23,7 +23,7 @@ ms.locfileid: "6992195"
 ## <a name="create-a-solution-for-custom-pricing-dimensions"></a>为自定义定价维度创建解决方案
 
 1.  选择 **设置** > **解决方案**，然后选择 **新建**。
-2.  将此解决方案命名为 *<your organization name> 定价维度*。
+2.  将此解决方案命名为 *\<your organization name\> 定价维度*。
 3. 输入其余所需信息，然后选择 **保存**。
 
   ![创建自定义定价维度解决方案。](./media/Creation-of-custom-pricing-dimension-solution.png)

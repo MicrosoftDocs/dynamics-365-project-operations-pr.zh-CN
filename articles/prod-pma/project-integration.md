@@ -8,20 +8,19 @@ ms.prod: ''
 ms.technology: ''
 ms.search.form: ProjWbsTemplate
 audience: Application User
-ms.reviewer: josaw
-ms.search.scope: Core, Operations
+ms.reviewer: johnmichalak
 ms.custom: 87983
 ms.assetid: b454ad57-2fd6-46c9-a77e-646de4153067
 ms.search.region: Global
 ms.author: andchoi
 ms.search.validFrom: 2017-12-04
 ms.dyn365.ops.version: 7.2999999999999998
-ms.openlocfilehash: 8ef34bc984510f23ab77cc1710c06abbcf80f721703685d696fea28eeaddd732
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: d2994195ba916ac7a128e8bdd53bea6acb7bd0ba
+ms.sourcegitcommit: 2c2a5a11d446adec2f21030ab77a053d7e2da28e
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6988010"
+ms.lasthandoff: 05/04/2022
+ms.locfileid: "8684953"
 ---
 # <a name="microsoft-project-client-integration"></a>Microsoft Project Client 集成
 

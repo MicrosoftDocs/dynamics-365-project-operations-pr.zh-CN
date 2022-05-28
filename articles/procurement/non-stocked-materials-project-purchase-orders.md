@@ -5,20 +5,20 @@ author: sigitac
 ms.date: 09/27/2021
 ms.topic: article
 ms.prod: ''
-ms.reviewer: kfend
+ms.reviewer: johnmichalak
 ms.author: sigitac
-ms.openlocfilehash: 6e0307ad6474feef96fc8080877eccbbbc7259db
-ms.sourcegitcommit: 2d96345fb3afc3b174530285f95271b5ccbdea03
+ms.openlocfilehash: 2aa8fb94e2f9cbf91182f3f169339284d3eb9f44
+ms.sourcegitcommit: 9916f536a71b6a0078297402564ac79308ec6890
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 09/29/2021
-ms.locfileid: "7563011"
+ms.lasthandoff: 04/18/2022
+ms.locfileid: "8612692"
 ---
-# <a name="order-non-stocked-materials-for-a-project-using-project-purchase-orders"></a>使用项目采购订单为项目采购非库存材料
+# <a name="order-procurement-categories-or-non-stocked-materials-for-a-project-using-project-purchase-orders"></a>使用项目采购订单为项目订购采购类别或非库存材料
 
 _**适用于：** 面向资源/非库存场景的 Project Operations_
 
-贵组织中的采购部门可以使用[销售订单](/dynamics365/supply-chain/procurement/purchase-order-overview)来跟踪产品和服务订单。 非库存村料的采购订单可属于项目。 如果为这些销售订单开发票，则将记录项目的成本。
+贵组织中的采购部门可以使用[销售订单](/dynamics365/supply-chain/procurement/purchase-order-overview)来跟踪产品和服务订单。 采购类别或非库存村料的采购订单可属于项目。 如果为这些销售订单开发票，则将记录项目的成本。
 
 ## <a name="prerequisites"></a>先决条件
 完成以下步骤以启用项目采购订单功能。
@@ -27,6 +27,7 @@ _**适用于：** 面向资源/非库存场景的 Project Operations_
 2. 在功能列表中，查找并选择以下功能：**对基于资源/非库存场景在 Project Operations 上启用项目采购订单**。
 3. 选择 **启用**。
 4. 配置非库存材料和待定供应商发票，如[配置非库存材料及待定供应商发票](configure-materials-nonstocked.md)中所述。
+5. 如[将采购类别用于项目采购订单和待定供应商发票](configure-procurement-categories.md)中所述配置采购类别。
 
 ## <a name="create-a-project-purchase-order-from-the-project-purchase-order-list"></a>创建项目采购订单列表中的项目采购订单
 
@@ -34,12 +35,12 @@ _**适用于：** 面向资源/非库存场景的 Project Operations_
 2. 在操作窗格上 **管理** 选项卡的 **新建** 组中，选择 **物料任务** > **采购订单**。
 3. 在 **创建采购订单** 页上，选择要向其下达采购订单的供应商，酌情输入其他信息，然后选择 **确定**。
 4. 在 **采购订单** 页上的 **采购订单行** 网格中，选择 **添加行**。
-5. 酌情输入项目编号、数量、单位、单价和其他信息。
+5. 根据需要输入物料编号或采购类别、数量、单位、单价和其他信息。
 
     > [!NOTE]
-    > 项目采购订单中只能使用非库存物料和服务。 不支持库存物料和采购类别。
+    > 项目采购订单中只能使用采购类别、非库存物料和服务。 不支持库存物料。
 
-6. 继续根据需要添加物料并确认采购订单。
+6. 继续根据需要添加物料或采购类别并确认采购订单。
 
     可通过创建并发布产品收据来记录产品和服务收据。
 

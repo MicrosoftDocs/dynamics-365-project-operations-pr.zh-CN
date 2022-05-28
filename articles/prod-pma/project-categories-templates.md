@@ -1,5 +1,5 @@
 ---
-title: 在 Finance and Operations 和 Project Service Automation 之间同步项目支出类别
+title: 在 Finance and Operations 与 Project Service Automation 之间同步项目支出类别
 description: 此主题介绍用于将项目费用类别直接从 Microsoft Dynamics 365 Finance 同步到 Dynamics 365 Project Service Automation 的模板和基础任务。
 author: Yowelle
 ms.date: 07/20/2018
@@ -7,26 +7,25 @@ ms.topic: article
 ms.prod: ''
 ms.technology: ''
 audience: Application User
-ms.reviewer: josaw
-ms.search.scope: Core, Operations
+ms.reviewer: johnmichalak
 ms.custom: 87983
 ms.assetid: b454ad57-2fd6-46c9-a77e-646de4153067
 ms.search.region: Global
 ms.author: andchoi
 ms.search.validFrom: 2016-11-28
 ms.dyn365.ops.version: AX 8.0.0
-ms.openlocfilehash: 52c79f8b641d4b2df3b30964331633f2487402f8f8d229b540f9544c0f848557
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: c5513285c8beb96e2aa8b9c67ebde38b3c938edd
+ms.sourcegitcommit: 2c2a5a11d446adec2f21030ab77a053d7e2da28e
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "7001105"
+ms.lasthandoff: 05/04/2022
+ms.locfileid: "8685459"
 ---
-# <a name="synchronize-project-expense-categories-between-finance-and-operations-and-project-service-automation"></a>在 Finance and Operations 和 Project Service Automation 之间同步项目支出类别
+# <a name="synchronize-project-expense-categories-between-finance-and-operations-and-project-service-automation"></a>在 Finance and Operations 与 Project Service Automation 之间同步项目支出类别
 
 [!include[banner](../includes/banner.md)]
 
-此主题介绍用于直接同步 Dynamics 365 Finance 与 Dynamics 365 Project Service Automation 之间的项目费用类别的模板和基础任务。
+此主题介绍用于将项目费用类别直接从 Dynamics 365 Finance 同步到 Dynamics 365 Project Service Automation 的模板和基础任务。
 
 > [!NOTE]
 > - 版本 8.0 中提供项目任务集成、费用交易记录类别、工时估计值、费用估计值和功能锁定。
@@ -81,10 +80,10 @@ Project Service Automation 与 Finance 集成解决方案使用数据集成功�
 
 ### <a name="power-query"></a>Power Query
 
-同步到 Project Service Automation 时，必须使用 Microsoft Power Query for Excel 为交易记录类别设置计费类型。 项目支出交易记录类别（Fin and Ops 到 PSA）提供默认列和映射。 如果创建自己的模板，则必须在 Power Query 中添加一个条件列。 请按照以下步骤进行操作。
+同步到 Project Service Automation 时，必须使用 Microsoft Power Query for Excel 为交易记录类别设置计费类型。 项目支出交易记录类别（Fin and Ops 到 PSA）提供默认列和映射。 如果创建自己的模板，则必须在 Power Query 中添加条件列。 请按照以下步骤进行操作。
 
 1. 单击箭头在项目支出交易记录类别（Fin and Ops 到 PSA）模板中打开项目支出类别任务的映射。
-2. 单击 **高级查询和筛选** 链接以打开 Power Query。
+2. 单击 **高级查询和筛选** 链接打开 Power Query。
 2. 选择 **添加条件列**。
 3. 为新列输入名称，如 **BillingType**。
 4. 输入以下条件：**if CATEGORYID not equal to null then 19235001, Otherwise null**。

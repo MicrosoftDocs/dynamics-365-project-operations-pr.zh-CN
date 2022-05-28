@@ -16,12 +16,13 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: ccebf1439f49092b23da5b4fc2ebb4fc484de4dd17c870eea9fe37b00fbb3689
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.reviewer: johnmichalak
+ms.openlocfilehash: 460b5bb7baabcb804b9745f5fddae9bcc3fc7541
+ms.sourcegitcommit: 30242d7754bca300b594b0887eb4212d10bea1c4
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "7005290"
+ms.lasthandoff: 05/07/2022
+ms.locfileid: "8727947"
 ---
 # <a name="use-the-project-service-automation-add-in-to-plan-your-work-in-microsoft-project"></a>在 Microsoft Project 中使用 Project Service Automation 加载项规划工作
 
@@ -40,7 +41,7 @@ ms.locfileid: "7005290"
 ## <a name="download-and-install-the-add-in"></a>下载并安装此加载项  
  准备好 [!INCLUDE[pn_project_service_auto](../includes/pn-project-service-auto.md)] 登录信息。 从 [!INCLUDE[pn_microsoft_project](../includes/pn-microsoft-project.md)] 连接到 [!INCLUDE[pn_project_service_auto](../includes/pn-project-service-auto.md)] 时需要此信息。  
 
-1.  从下载中心下载适用于您的 Project Service 支持版本（[V2.X](https://go.microsoft.com/fwlink/?linkid=828268) 或 [V3.4+](https://www.microsoft.com/download/details.aspx?id=57956)）的加载项。  
+1.  从下载中心下载适用于您的 Project Service 支持版本（[V2.X](/dynamics365/project-operations/psa/overview#guidance-for-earlier-versions-app-version-2x-or-1x) 或 [V3.4+](https://www.microsoft.com/download/details.aspx?id=57956)）的加载项。  
 
 2.  单击下载链接。  
 
@@ -87,9 +88,8 @@ ms.locfileid: "7005290"
 
 项目将导入 [!INCLUDE[pn_project_service_auto](../includes/pn-project-service-auto.md)]。 将应用定价和团队生成流程。 在 [!INCLUDE[pn_project_service_auto](../includes/pn-project-service-auto.md)] 中打开项目可以看到已生成了团队项目预计和工作分解结构。 下表介绍结果的位置：
 
-
-|                                                                                          |                                                                                                                                   |
-|------------------------------------------------------------------------------------------|-----------------------------------------------------------------------------------------------------------------------------------|
+| 集成 | Details |
+| ---- | --- |
 |  [!INCLUDE[pn_microsoft_project](../includes/pn-microsoft-project.md)] **甘特图**   | 导入到 [!INCLUDE[pn_project_service_auto](../includes/pn-project-service-auto.md)] **工作分解结构** 屏幕中。 |
 | [!INCLUDE[pn_microsoft_project](../includes/pn-microsoft-project.md)] **资源表** |   导入到 [!INCLUDE[pn_project_service_auto](../includes/pn-project-service-auto.md)] **项目团队成员** 屏幕中。   |
 |   [!INCLUDE[pn_microsoft_project](../includes/pn-microsoft-project.md)] **使用情况**    |    导入到[!INCLUDE[pn_project_service_auto](../includes/pn-project-service-auto.md)]**项目估算** 屏幕中。     |

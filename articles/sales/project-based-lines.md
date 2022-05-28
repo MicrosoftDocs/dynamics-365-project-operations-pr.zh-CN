@@ -4,14 +4,14 @@ description: 此主题提供有关使用基于项目的商机明细的信息。
 author: rumant
 ms.date: 10/01/2020
 ms.topic: article
-ms.reviewer: kfend
+ms.reviewer: johnmichalak
 ms.author: rumant
-ms.openlocfilehash: 04e091a58f72a99fb17f37b95f9cac2b4476757b79965177854423361f416d51
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: cceb175210f7b597d682e9e4e910c79280211293
+ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6996335"
+ms.lasthandoff: 04/14/2022
+ms.locfileid: "8600915"
 ---
 # <a name="project-based-opportunity-lines"></a>基于项目的商机明细
 

@@ -3,25 +3,23 @@ title: Project 移动应用程序概览
 description: 本主题提供有关移动设备上支持，且适用于 Microsoft Dynamics 365 Project Timesheet、项目时间录入和我的工时表/工时表的，与项目时间有关的应用程序的一般信息。
 author: Yowelle
 ms.date: 05/28/2019
-ms.topic: article
+ms.topic: overview
 ms.prod: ''
 ms.technology: ''
 audience: Application User
-ms.reviewer: josaw
-ms.search.scope: Core, Operations
-ms.custom: intro-internal
+ms.reviewer: johnmichalak
 ms.assetid: ''
 ms.search.region: Global
 ms.search.industry: Service industries
 ms.author: andchoi
 ms.dyn365.ops.version: 10
 ms.search.validFrom: 2019-02-28
-ms.openlocfilehash: 742bfc7bbf90feea638d5b5759f5aa7541d14c87ed96c3ad6f074684696e0c73
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 35ac2fa52f488d38be4b647ae8a3babe2b117f79
+ms.sourcegitcommit: 2c2a5a11d446adec2f21030ab77a053d7e2da28e
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "7005650"
+ms.lasthandoff: 05/04/2022
+ms.locfileid: "8685397"
 ---
 # <a name="project-mobile-applications-overview"></a>Project 移动应用程序概览
 
@@ -31,15 +29,15 @@ ms.locfileid: "7005650"
 
 ## <a name="project-timesheet-mobile-app"></a>Project Timesheet 移动应用
 
-用户可使用 Dynamics 365 Project Timesheet 移动应用在自己的移动设备上提交和审核项目的工时单。 这款移动应用提供 Dynamics 365 Finance 的“项目管理与核算”区域中的工时单功能。 它可帮助提高用户的生产力和效率，还有助于及时录入和审核项目工时单。
+用户可使用 Dynamics 365 Project Timesheet 移动应用在自己的移动设备上提交和审核项目的工时单。 这款移动应用提供 Dynamics 365 Finance 的“项目管理和会计”区域中的工时单功能。 它可帮助提高用户的生产力和效率，还有助于及时录入和审核项目工时单。
 
 ## <a name="project-time-entry-workspace"></a>“项目时间录入”工作区
 
-用户可使用“项目时间录入”工作区输入和保存项目的时间。 但是，不能供用户提交或审核项目工时单。 只能用于录入时间。 此移动工作区用于与 Finance and Operations 移动应用程序一起使用。
+用户可使用“项目时间录入”工作区输入和保存项目的时间。 但是，不能供用户提交或审核项目工时单。 只能用于录入时间。 此工作区应该与 Finance and Operations 移动应用程序一起使用。
 
 ## <a name="my-timesheetstimesheets-for-my-review"></a>我的工时单/等待我审核的工时单
 
-“我的工时单(已针对移动优化)”和“等待我审核的工时单(已针对移动优化)”构成一个解决方案，供员工在移动设备上创建、提交耦合审核项目工时单。 工作人员可通过应用程序的 URL 访问 Finance 功能。 此解决方案不需要 Finance and Operations Mobile 应用程序。
+“我的工时单(已针对移动优化)”和“等待我审核的工时单(已针对移动优化)”构成一个解决方案，供员工在移动设备上创建、提交耦合审核项目工时单。 工作人员可通过应用程序的 URL 访问 Finance 功能。 此解决方案不需要 Finance and Operations 移动应用程序。
 
 ## <a name="for-more-information"></a>了解详细信息
 

@@ -5,8 +5,7 @@ author: rumant
 ms.date: 04/02/2020
 ms.topic: article
 audience: Application User
-ms.reviewer: kfend
-ms.search.scope: Core, Operations
+ms.reviewer: johnmichalak
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
@@ -16,12 +15,12 @@ ms.dyn365.ops.version: 7
 ms.search.validFrom: 2019-01-15
 search.app:
 - ProjectOperations
-ms.openlocfilehash: 88706946e5c5c59be996640f4c7b37e958c1cf1d9fd14c72c0c6dc854a77dab4
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 107ba01f2fd5717e1717824631aeee099d8a8205
+ms.sourcegitcommit: 2c2a5a11d446adec2f21030ab77a053d7e2da28e
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6995390"
+ms.lasthandoff: 05/04/2022
+ms.locfileid: "8683349"
 ---
 # <a name="bulk-corrections-of-actuals-created-by-approved-time-and-expense-entries"></a>批量更正通过批准的时间和支出条目创建的实际值
 
@@ -60,10 +59,7 @@ ms.locfileid: "6995390"
 
 10. 在 **实际关联视图** 列表中，您可以看到仍然列出了已冲销的原始时间条目，以及相应的已更正时间条目。 
 
-例如，在下图中，有两个数量为 8.00 的行项，“金额”列中列出了其相应的借项。 此外，还有两个数量为 -8.00 的行项，这些行项在“金额”列中显示了贷项金额。 这些更正会将数量调为零。
 
-![实际关联视图列表。](https://github.com/MicrosoftDocs/dynamics-365-customer-engagement-pr/blob/bulk-corrections-actuals-created-by-approved-time-expense-entries.md/time-actuals.png)
- 
 ## <a name="correct-approved-expense-entries"></a>更正已批准的支出条目
 
 完成以下步骤以更正一个或多个支出条目。 
@@ -86,8 +82,6 @@ ms.locfileid: "6995390"
 7. 在确认了更正日记帐之后，请导航回您更新的一个或一些项目，以查看所做的更改。  
 
 8. 在项目页中的 **实际值** 选项卡上，查看 **实际关联视图**。 系统会列出原始条目和已更正的条目。 下图显示了原始支出条目金额和相应的已更正支出条目金额。 
-
-![Expense_actuals。](https://user-images.githubusercontent.com/60806505/77122219-4cd52900-69fa-11ea-8349-ccd2ffebf640.png)
 
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

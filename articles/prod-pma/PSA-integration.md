@@ -3,29 +3,27 @@ title: Project Service Automation 概览
 description: 本主题提供有关 Dynamics 365 Project Service Automation 到 Dynamics 365 Finance 集成解决方案的信息。
 author: ruhercul
 ms.date: 07/25/2019
-ms.topic: article
+ms.topic: overview
 ms.prod: ''
 ms.technology: ''
 audience: Application User
-ms.reviewer: ruhercul
-ms.search.scope: Core, Operations
-ms.custom: intro-internal
+ms.reviewer: johnmichalak
 ms.assetid: b454ad57-2fd6-46c9-a77e-646de4153067
 ms.search.region: Global
 ms.author: ruhercul
 ms.search.validFrom: 2016-11-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 551d511fda83857459a0488cfb48a9c7829171d2e4bd526ab27b4ee74b21910d
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 1b8588e664f140ca1b0dd740d27fe6a5137da595
+ms.sourcegitcommit: 2c2a5a11d446adec2f21030ab77a053d7e2da28e
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "7005875"
+ms.lasthandoff: 05/04/2022
+ms.locfileid: "8685505"
 ---
 # <a name="project-service-automation-overview"></a>Project Service Automation 概览
 
 [!include[banner](../includes/banner.md)]
-[!include [rename-banner](~/includes/cc-data-platform-banner.md)]
+
 
 Project Service Automation 到 Finance 集成解决方案使用数据集成功能，通过 Common Data Service 跨 Dynamics 365 Finance 和 Dynamics 365 Project Service Automation 的实例同步数据。 可通过数据集成功能提供的集成模板将项目、项目合同、项目合同行、项目合同行里程碑、项目任务、费用交易记录类别、工时估计值和费用估计值从 Project Service Automation 传输到 Finance。
 

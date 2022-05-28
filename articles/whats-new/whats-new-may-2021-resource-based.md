@@ -5,14 +5,14 @@ author: sigitac
 ms.date: 05/11/2021
 ms.topic: article
 ms.prod: ''
-ms.reviewer: kfend
+ms.reviewer: johnmichalak
 ms.author: sigitac
-ms.openlocfilehash: 26d4d9feb386075fec2b5c0854e0762604a74d36c90068e35d351e52d95165d4
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: d0af6d99a24619b3613a3aaa027404556b1b81c4
+ms.sourcegitcommit: 577fa51e0892625f98f17ff39874ed1a09444421
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6994670"
+ms.lasthandoff: 05/06/2022
+ms.locfileid: "8723757"
 ---
 # <a name="whats-new-may-2021---project-operations-for-resourcenon-stocked-based-scenarios"></a>2021 年 5 月新增功能 - 基于资源/非库存场景的 Project Operations
 
@@ -21,7 +21,7 @@ _**适用于：** 面向资源/非库存场景的 Project Operations_
 此主题适用于以下 Dynamics 365 Project Operations 组件和版本：
 
 - Dynamics 365 Dataverse 环境中的 Project Operations 版本 4.10.0.186 
-- Finance and Operations 应用环境中的项目管理和会计版本 10.0.18
+- 财务和运营应用环境中的项目管理和会计版本 10.0.18
 
 ## <a name="features-included-in-this-release"></a>此版本中包括的功能
 
@@ -41,9 +41,9 @@ _**适用于：** 面向资源/非库存场景的 Project Operations_
 | Project Operations 集成项目供应商发票明细导出实体 (msdyn\_projectvendorinvoicelines) | 1.0.0.1 | 质量更新 |
 | 项目 V2 (msdyn\_projects) | 1.0.0.2 | 质量更新 |
 
-始终在您的环境中运行最新版本的映射，并在更新 Project Operations Dataverse 解决方案以及 Finance and Operations 应用解决方案版本时启用所有相关的表映射。 如果未激活最新版本的映射，某些功能可能无法正常工作。 您可以在 **双重写入** 页的 **版本** 列中看到映射的活动版本。 要激活映射的新版本，请选择 **表映射版本**，选择最新版本，然后保存所选版本。 如果您自定义了现成的表映射，请重新应用更改。 有关详细信息，请参阅[应用程序生命周期管理](/dynamics365/fin-ops-core/dev-itpro/data-entities/dual-write/app-lifecycle-management.md)。
+当更新 Project Operations Dataverse 解决方案和财务和运营应用解决方案版本时，应始终运行您环境中的最新映射版本并启用所有相关表映射。 如果未激活最新版本的映射，某些功能可能无法正常工作。 您可以在 **双重写入** 页的 **版本** 列中看到映射的活动版本。 要激活映射的新版本，请选择 **表映射版本**，选择最新版本，然后保存所选版本。 如果您自定义了现成的表映射，请重新应用更改。 有关详细信息，请参阅[应用程序生命周期管理](/dynamics365/fin-ops-core/dev-itpro/data-entities/dual-write/app-lifecycle-management)。
 
-如果您在启动映射时遇到问题，请按照双重写入疑难解答指南中[映射上缺少表列的问题](/dynamics365/fin-ops-core/dev-itpro/data-entities/dual-write/dual-write-troubleshooting-finops-upgrades.md#missing-table-columns-issue-on-maps)一节中的说明操作。
+如果您在启动映射时遇到问题，请按照双重写入疑难解答指南中[映射上缺少表列的问题](/dynamics365/fin-ops-core/dev-itpro/data-entities/dual-write/dual-write-troubleshooting-finops-upgrades#missing-table-columns-issue-on-maps)一节中的说明操作。
 
 ## <a name="quality-updates"></a>质量更新
 

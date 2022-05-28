@@ -5,14 +5,14 @@ author: sigitac
 ms.date: 06/14/2021
 ms.topic: article
 ms.prod: ''
-ms.reviewer: kfend
+ms.reviewer: johnmichalak
 ms.author: sigitac
-ms.openlocfilehash: c6a40335df89cc6b2bb35e54832140aac6eb9ac6
-ms.sourcegitcommit: 03414a74ddf1f2d63043d734ebdee7485f1aadd2
+ms.openlocfilehash: 21a446fdb9526c1a2b110c5368516dafb64b5e01
+ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/25/2021
-ms.locfileid: "7679198"
+ms.lasthandoff: 04/14/2022
+ms.locfileid: "8600777"
 ---
 # <a name="whats-new-june-2021---project-operations-for-resourcenon-stocked-based-scenarios"></a>2021 年 6 月新增功能 - 适用于基于资源/非库存场景的 Project Operations
 
@@ -21,7 +21,7 @@ _**适用于：** 面向资源/非库存场景的 Project Operations_
 此主题适用于以下 Dynamics 365 Project Operations 组件和版本：
 
 - Dynamics 365 Dataverse 环境上的 Project Operations 版本 4.11.0.156 或 4.11.0.164。
-- Finance and Operations 应用环境中的项目管理和会计版本 10.0.19。
+- 财务和运营应用环境中的项目管理和会计版本 10.0.19。
 
 ## <a name="features-included-in-this-release"></a>此版本中包括的功能
 
@@ -38,7 +38,7 @@ _**适用于：** 面向资源/非库存场景的 Project Operations_
 
 有关 Project Operations 双重写入映射的当前列表和版本，请参阅 [Project Operations 双重写入映射版本](../environment/resource-dual-write-maps.md)。
 
-始终在您的环境中运行最新版本的映射，并在更新 Project Operations Dataverse 解决方案以及 Finance and Operations 应用解决方案版本时启用所有相关的表映射。 如果未激活最新版本的映射，某些功能可能无法正常工作。 您可以在 **版本** 列中的 **双重写入** 页面上查看映射的活动版本。 通过选择 **表映射版本**，选择最新版本，然后保存选定版本，激活映射的新版本。 如果您自定义了现成的表映射，请重新应用更改。 有关详细信息，请参阅[应用程序生命周期管理](/dynamics365/fin-ops-core/dev-itpro/data-entities/dual-write/app-lifecycle-management)。
+当更新 Project Operations Dataverse 解决方案和财务和运营应用解决方案版本时，应始终运行您环境中的最新映射版本并启用所有相关表映射。 如果未激活最新版本的映射，某些功能可能无法正常工作。 您可以在 **版本** 列中的 **双重写入** 页面上查看映射的活动版本。 通过选择 **表映射版本**，选择最新版本，然后保存选定版本，激活映射的新版本。 如果您自定义了现成的表映射，请重新应用更改。 有关详细信息，请参阅[应用程序生命周期管理](/dynamics365/fin-ops-core/dev-itpro/data-entities/dual-write/app-lifecycle-management)。
 
 如果在启动映射时遇到问题，请按照双重写入故障排除指南的[映射上缺少表列问题](/dynamics365/fin-ops-core/dev-itpro/data-entities/dual-write/dual-write-troubleshooting-finops-upgrades#missing-table-columns-issue-on-maps)部分中的说明操作。
 

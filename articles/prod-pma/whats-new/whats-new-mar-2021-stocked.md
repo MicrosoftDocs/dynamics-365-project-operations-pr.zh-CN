@@ -5,14 +5,14 @@ author: andchoi
 ms.date: 03/22/2021
 ms.topic: article
 ms.prod: ''
-ms.reviewer: kfend
+ms.reviewer: johnmichalak
 ms.author: andchoi
-ms.openlocfilehash: 2569133200b531197a46da095547fcc3f444cc98bfcc139b77a7db58e1439ca9
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 0f8d57db75f426d87bcdcdde8fb9dfbe1ccc479f
+ms.sourcegitcommit: 577fa51e0892625f98f17ff39874ed1a09444421
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6991160"
+ms.lasthandoff: 05/06/2022
+ms.locfileid: "8723711"
 ---
 # <a name="whats-new-or-changed-in-project-operations-march-2021-for-stockedproduction-based-scenarios"></a>2021 年 3 月 Project Operations 中的新增功能或变更功能 - 适用于库存/生产订单场景
 
@@ -121,7 +121,7 @@ _**适用范围：** 面向库存/生产订单场景的 Project Operations_
 | 项目管理和会计 | [533530](https://fix.lcs.dynamics.com/Issue/Details/?bugId=533530) | 旧的工作分解结构 (WBS) 类方法 **ProjWBSUpdateController::updateOutlineNumbersAndPublishInPreOrder** 已弃用。                                                                                                   |
 
 ### <a name="regulatory-updates"></a>法规更新
-有关 Finance and Operations 应用的法规更新的信息，请参阅[法规更新](/dynamics365/finance/localizations/regulatory-updates.md)。 您还可以登录到 LCS，使用问题搜索工具查看计划的法规更新。 通过问题搜索，您可以按国家/地区、功能类型和发布进行搜索。
+有关财务和运营应用的监管更新的信息，请参阅[监管更新](/dynamics365/finance/localizations/regulatory-updates)。 您还可以登录到 LCS，使用问题搜索工具查看计划的法规更新。 通过问题搜索，您可以按国家/地区、功能类型和发布进行搜索。
 
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

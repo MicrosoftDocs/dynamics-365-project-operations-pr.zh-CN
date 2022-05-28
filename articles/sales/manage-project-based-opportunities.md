@@ -4,14 +4,14 @@ description: 此主题提供有关如何处于与项目相关的商机的信息�
 author: rumant
 ms.date: 10/21/2020
 ms.topic: article
-ms.reviewer: kfend
+ms.reviewer: johnmichalak
 ms.author: rumant
-ms.openlocfilehash: d640bda1f325c283e591eb8d1a100d4e6b09d76ae847833e9664c3631eabd154
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: f39940ac063a8c202f33797ed649518907563e31
+ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6991880"
+ms.lasthandoff: 04/14/2022
+ms.locfileid: "8600409"
 ---
 # <a name="manage-project-based-opportunities"></a>管理基于项目的商机
 

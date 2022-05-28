@@ -5,14 +5,14 @@ author: sigitac
 ms.date: 08/10/2021
 ms.topic: article
 ms.prod: ''
-ms.reviewer: kfend
+ms.reviewer: johnmichalak
 ms.author: sigitac
-ms.openlocfilehash: a201e3e4333b8892eea72387222d64e18b74d71b
-ms.sourcegitcommit: 80aa1e8070f0cb4992ac408fc05bdffe47cee931
+ms.openlocfilehash: 7b5f3528e4b4e615b8e7f24bfd3702746fd584c9
+ms.sourcegitcommit: 577fa51e0892625f98f17ff39874ed1a09444421
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/13/2021
-ms.locfileid: "7323900"
+ms.lasthandoff: 05/06/2022
+ms.locfileid: "8723665"
 ---
 # <a name="whats-new-2021-wave-2-early-access---project-operations-lite-deployment"></a>2021 年第 2 波抢先体验版 - Project Operations 精简部署中的新增功能
 
@@ -26,7 +26,7 @@ _适用范围：精简部署 - 估价交易开票_
 
 ## <a name="features-included-in-this-release"></a>此版本中包括的功能
 
-[分包合同管理](../subcontracting/subcontracting_EA_scope.md) - 此功能为项目工作的所有方面提供更好的可见性和控制。 分包合同管理预览版中包含以下功能：
+[分包合同管理](/dynamics365/project-operations/pro/subcontracting/managing-subcontracts-overview) - 此功能为项目工作的所有方面提供更好的可见性和控制。 分包合同管理预览版中包含以下功能：
 
   - 项目经理可以创建与供应商之间的分包合同。 默认情况下，附加到供应商记录的价目表用于分包合同。 供应商客户具有 **供应商** 或 **提供商** 关系类型。
   - 项目经理可以将所有采购作为分包合同的行项逐项列出。 分包合同子项可以用于时间、支出或产品。 分包合同子项的交易分类决定了子项所用于的内容。
