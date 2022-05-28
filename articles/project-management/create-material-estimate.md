@@ -4,20 +4,20 @@ description: 本主题提供有关定义或估算基于项目的材料的信息�
 author: rumant
 ms.date: 03/30/2021
 ms.topic: article
-ms.reviewer: kfend
+ms.reviewer: johnmichalak
 ms.author: rumant
-ms.openlocfilehash: 1717abb8f37acb7ab5f4e24b9323b3d958b40b13d7da44c0bbfa88eea28b99ef
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 089158666dc8fd09cd5d2b615715ed8aaff5575a
+ms.sourcegitcommit: e6090e1fef5f475a3cd56b78b6abca29f90da8f5
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6992600"
+ms.lasthandoff: 05/10/2022
+ms.locfileid: "8737291"
 ---
 # <a name="financial-estimates-for-materials-on-projects"></a>项目材料的财务估算
 
 _**适用于：** 基于资源/非库存场景的 Project Operations，精简部署 - 估价开票交易_
 
-Dynamics 365 Project Operations 允许项目经理为每个项目或任务定义基于项目的材料成本。 每个材料估算可以与特定的项目任务相关联。 支出按不同的支出类别进行分类，这些类别在组织级别定义。 每个支出类别的定价和成本计算在价目表中定义。 
+Dynamics 365 Project Operations 允许项目经理为每个项目或任务定义基于项目的材料成本。 每个材料估算可以与特定的项目任务相关联。 项目中使用的材料可以是目录外产品或产品目录中的产品。 对于产品和单位的每个组合，可以在项目销售价目表和成本项目价目表中定义价格。  
 
 完成以下步骤以查看、添加或删除项目材料估算。
 
@@ -35,7 +35,7 @@ Dynamics 365 Project Operations 允许项目经理为每个项目或任务定义
 | 目录外产品说明 | 用于写入产品名称的文本字段。 仅当您在 **选择产品** 字段中选择 **目录外** 时，才应启用此字段。| 此字段没有下游影响。 |
 | 开始日期 | 应该使用材料的预计日期。 | 此字段没有下游影响。 |
 | 计价单位组 | 此字段中的默认值来自目录产品的默认计价单位组。 您可以更新此字段以选择其他计价单位组。 | 此字段没有下游影响。 |
-| 计价单位 | 此字段中的值来自所选产品的默认单位。 您可以更新此字段以选择其他单位。 | 更改此单位将会导致不同的默认单价和成本。 |
+| 单位 | 此字段中的值来自所选产品的默认单位。 您可以更新此字段以选择其他单位。 | 更改此单位将会导致不同的默认单价和成本。 |
 | 数量 | 项目中将使用的产品的估计数量。 | 此字段没有下游影响。 |
 | 单位成本 | 在适用的成本价目表中设置的所选产品和单位组合的单位成本。 | 单位成本始终以项目的成本货币显示。 如果没有为在价目表中设置的产品与单位组合设置单位成本，单位成本将默认为 0.00。 |
 | 单价 | 在适用的销售价目表中设置的所选产品和单位组合的价格。 | 单位价格始终以项目的销售货币显示。 如果没有为在价目表中设置的产品与单位组合设置单价，则单位价格将默认为 0.00。|
