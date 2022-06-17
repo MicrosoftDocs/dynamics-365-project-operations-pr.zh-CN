@@ -1,17 +1,17 @@
 ---
 title: 项目报价单设置
-description: 此主题提供有关应用于和影响项目报价单的信息和设置的信息。
+description: 本文提供有关适用于和影响项目报价单的信息和设置的信息。
 author: rumant
 ms.date: 10/01/2020
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: rumant
-ms.openlocfilehash: c5870c75d5337b951a453000369baf9f6e81a1da
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: 661dd40edeea890ad684b801bcc99ce2c242bb9b
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8575155"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8931917"
 ---
 # <a name="header-details-for-project-based-quotes"></a>针对基于项目的报价单的标题详细信息
 

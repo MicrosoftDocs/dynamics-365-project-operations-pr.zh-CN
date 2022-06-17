@@ -1,6 +1,6 @@
 ---
 title: 管理委派
-description: 此主题提供有关支出代理如何创建和管理另一名员工的支出报表的信息。
+description: 本文提供支出代理如何为另一个员工创建和管理支出报表的信息。
 author: suvaidya
 ms.date: 10/01/2020
 ms.topic: article
@@ -13,12 +13,12 @@ ms.search.region: ''
 ms.author: suvaidya
 ms.search.validFrom: ''
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: c2bb7ea9d93d7b60e639f2fe6dd37c466737157b
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: 2796aca572eb0a239b6a23ef735e87a8aa46fbbc
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8575732"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8934585"
 ---
 # <a name="manage-delegation"></a>管理委派
 支出代理可以创建和管理另一名员工的支出报表。

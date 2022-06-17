@@ -1,6 +1,6 @@
 ---
 title: 时间和材料项目的项目销售订单
-description: 本主题介绍如何为时间和材料项目创建基于项目的销售订单。
+description: 本文介绍如何为时间和材料项目创建基于项目的销售订单。
 author: Yowelle
 ms.date: 04/05/2019
 ms.topic: article
@@ -14,18 +14,18 @@ ms.search.region: Global
 ms.author: andchoi
 ms.search.validFrom: 2019-04-05
 ms.dyn365.ops.version: AX 10.0.2
-ms.openlocfilehash: 3e88235b08ca2b8a5ccaab3dfdd7bcff4ab64f5f
-ms.sourcegitcommit: 2c2a5a11d446adec2f21030ab77a053d7e2da28e
+ms.openlocfilehash: 3a040de6d22b626b9e3d462272f43c5763b5b90f
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/04/2022
-ms.locfileid: "8684493"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8933803"
 ---
 # <a name="project-sales-orders-for-time-and-material-projects"></a>时间和材料项目的项目销售订单
 
 [!include[banner](../includes/banner.md)]
 
-此主题描述如何为项目创建销售订单。 只能为类型为 **时间和材料** 的项目创建销售订单。
+本文描述如何为项目创建销售订单。 只能为类型为 **时间和材料** 的项目创建销售订单。
 
 如果时间和材料项目的项目合同中有多个融资来源，则必须启用 **项目管理与核算参数** 页面上的 **允许项目的销售订单具有多个融资来源** 参数。 
 

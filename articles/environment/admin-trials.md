@@ -1,17 +1,17 @@
 ---
 title: 注册 Project Operations 试用版
-description: 此主题介绍如何部署 Dynamics 365 Project Operations 试用版。
+description: 本文提供有关如何部署 Dynamics 365 Project Operations 试用的信息。
 author: ruhercul
 ms.date: 01/10/2022
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: ruhercul
-ms.openlocfilehash: a0c2532370c99cfe75b54da42c329f5b244a47e7
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: 7db7ea6b3cffe6eb43ee0519bbaccfc9092c9311
+ms.sourcegitcommit: 51745acac29dfacba43a4003d86baff4d6ca2fb8
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8584263"
+ms.lasthandoff: 06/14/2022
+ms.locfileid: "8959402"
 ---
 # <a name="sign-up-for-project-operations-trials"></a>注册 Project Operations 试用版 
 
@@ -19,9 +19,9 @@ _**适用范围：** 面向资源/非库存场景的 Project Operations，精简
 
 
 
-本主题介绍如何订阅预览版合作伙伴套餐和部署 Dynamics 365 Project Operations 环境。
+本文介绍如何订阅预览合作伙伴产品/服务和部署 Dynamics 365 Project Operations 环境。
 
-借助新 Project Operations 试用版，可通过完成用于推荐最佳部署方法的问卷，自动部署支持的三种部署方案中的任何一种。 本主题提供有关以下方法的信息：
+借助新 Project Operations 试用版，可通过完成用于推荐最佳部署方法的问卷，自动部署支持的三种部署方案中的任何一种。 本文介绍如何：
 
 - 部署试用版套餐。
 - 开始预配。
@@ -89,7 +89,8 @@ _**适用范围：** 面向资源/非库存场景的 Project Operations，精简
 4.  选择相应的 Microsoft Dataverse URL 和财务和运营应用 URL 以验证部署。
 
 ## <a name="configuring-dual-write"></a>配置双重写入
-- 若要为双重写入配置安全角色，请参阅[在 Dataverse 中更新 Project Operations 上的安全设置](resource-provision-new-environment.md)。
+- 若要为双重写入配置安全角色，请参阅[在 Dataverse 中更新 Project Operations 上的安全设置](resource-provision-new-environment.md#update-security-settings-on-project-operations-on-dataverse)。
+- 要访问双写入配置，导航到 Finance and Operations 实例，然后导航到 **数据管理** > **双写入**。
 - 若要配置双重写入映射，请参阅[运行 Project Operations 双重写入映射](resource-provision-new-environment.md#run-project-operations-dual-write-maps)。
 
 ## <a name="assign-licenses"></a>分配许可证

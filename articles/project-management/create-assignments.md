@@ -1,24 +1,24 @@
 ---
 title: 创建资源分配
-description: 此主题提供有关创建通用资源和指定资源分配的信息。
+description: 本文提供有关创建通用和指定资源分配的信息。
 author: ruhercul
 ms.date: 10/01/2020
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: ruhercul
-ms.openlocfilehash: 2b918392fbcde1071aa52ffa7834938be1acd383
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: 31404fc35d72acb9ad791ef8a755f23108f528ad
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8576535"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8933481"
 ---
 # <a name="create-resource-assignments"></a>创建资源分配
 
 _**适用于：** 基于资源/非库存场景的 Project Operations，精简部署 - 估价开票交易_
 
 
-资源分配是项目团队成员与叶节点任务的直接关联。 此主题提供有关分配资源的不同方法的信息。
+资源分配是项目团队成员与叶节点任务的直接关联。 本文提供有关分配资源的不同方法的信息。
 
 ## <a name="create-a-generic-team-member-through-task-assignment"></a>通过任务分派创建通用团队成员
 

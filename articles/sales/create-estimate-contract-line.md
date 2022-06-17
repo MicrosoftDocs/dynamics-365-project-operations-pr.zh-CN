@@ -1,17 +1,17 @@
 ---
 title: 预估项目合同子项
-description: 该主题提供了关于项目合同子项预估的信息。
+description: 本文提供有关项目合同子项的估算的信息。
 author: rumant
 ms.date: 10/27/2020
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: rumant
-ms.openlocfilehash: 53e3c291043ab102eb2f59221ae879acf766bb98
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: 553f7e4a9e9f57732267a48da2b299c1751b0c0e
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8589051"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8932009"
 ---
 # <a name="estimate-a-project-contract-line"></a>预估项目合同子项
 

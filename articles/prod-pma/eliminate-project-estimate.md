@@ -1,6 +1,6 @@
 ---
 title: 清除项目评估
-description: 本主题提供有关在项目评估完成后清除项目评估的信息。
+description: 本文提供有关在项目评估完成后清除项目评估的信息。
 author: Yowelle
 ms.date: 05/26/2020
 ms.topic: article
@@ -15,12 +15,12 @@ ms.search.industry: Service industries
 ms.author: andchoi
 ms.dyn365.ops.version: 7
 ms.search.validFrom: 2019-01-15
-ms.openlocfilehash: 267b5ffab7ef3a6776c31100deea81fb523752b6
-ms.sourcegitcommit: 2c2a5a11d446adec2f21030ab77a053d7e2da28e
+ms.openlocfilehash: de54659f9e69daf1566f86bec16436c19eeacf49
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/04/2022
-ms.locfileid: "8684079"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8932193"
 ---
 # <a name="eliminate-a-project-estimate"></a>清除项目评估
 

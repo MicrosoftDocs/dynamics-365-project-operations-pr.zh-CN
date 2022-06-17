@@ -1,18 +1,18 @@
 ---
 title: Project Operations 更新
-description: 本主题提供有关 Dynamics 365 Project Operations 的发行版本的信息。
+description: 本文提供有关 Dynamics 365 Project Operations 已发布版本的信息。
 author: sigitac
 ms.date: 03/28/2022
 ms.topic: article
 ms.prod: ''
 ms.reviewer: johnmichalak
 ms.author: sigitac
-ms.openlocfilehash: 0dfcd47e0c8ac2d9edd45049ffefb6e364c8aa4b
-ms.sourcegitcommit: f366fe0ba062e4e500921854563d57ee3bfd1ce5
+ms.openlocfilehash: 4875e742c701b741df06e4225053d28f04781ff3
+ms.sourcegitcommit: 51745acac29dfacba43a4003d86baff4d6ca2fb8
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/09/2022
-ms.locfileid: "8732920"
+ms.lasthandoff: 06/14/2022
+ms.locfileid: "8959403"
 ---
 # <a name="project-operations-updates"></a>Project Operations 更新
 
@@ -36,7 +36,7 @@ Dynamics 365 Project Operations 包括两个组件：
 
 | Dataverse 环境中的 Project Operations | 财务和运营应用环境中的项目管理和会计 | 
 | --- | --- |
-| 4.42.0.70 | 10.0.26 |
+| 4.43.0.77 | 10.0.26 |
 
 对于 Project Operations 资源/非库存方案，建议您使用双写入业务流程版本 2.3.1.15 或更高版本。
 
@@ -47,24 +47,24 @@ Dataverse 环境中的 Project Operations 更新每月推出。
 | 站 | 区域 | 当前版本号 | 精简部署的自动更新 | 资源/非库存部署的自动更新 | 下一个版本号 | 下一个版本公开发布 |
 |-----------|-----------------------|-----------------|--------------------|---------------------|---------------------|---------------------|
 | 第 1 站 |   &nbsp;              |    &nbsp;       | &nbsp;             |      &nbsp;         |      &nbsp;         |      &nbsp;         |
-|   &nbsp;  | 第一版         |  4.42.0.70      | 完成           | 完成            | TBD                 | 2022 年 5 月 27 日        |
+|   &nbsp;  | 第一版         |  4.43.0.77      | 完成           | 完成            | 待定                 | 2022 年 7 月 1 日       |
 | 第 2 站 |   &nbsp;              |    &nbsp;       | &nbsp;             |      &nbsp;         |      &nbsp;         |      &nbsp;         |
-|   &nbsp;  | 南美         |  4.42.0.70      | 完成           | 完成            | TBD                 | 2022 年 5 月 27 日        |
-|   &nbsp;  | 加拿大                |  4.42.0.70      | 完成           | 完成            | TBD                 | 2022 年 5 月 27 日        |
-|   &nbsp;  | 印度                 |  4.42.0.70      | 完成           | 完成            | TBD                 | 2022 年 5 月 27 日        |
-|   &nbsp;  | 法国                |  4.42.0.70      | 完成           | 完成            | TBD                 | 2022 年 5 月 27 日        |
-|   &nbsp;  | 南非          |  4.42.0.70      | 完成           | 完成            | TBD                 | 2022 年 5 月 27 日        |
-|   &nbsp;  | 瑞士           |  4.42.0.70      | 完成           | 完成            | TBD                 | 2022 年 5 月 27 日        |
+|   &nbsp;  | 南美         |  4.43.0.77      | 完成           | 完成            | 待定                 | 2022 年 7 月 1 日       |
+|   &nbsp;  | 加拿大                |  4.43.0.77      | 完成           | 完成            | 待定                 | 2022 年 7 月 1 日       |
+|   &nbsp;  | 印度                 |  4.43.0.77      | 完成           | 完成            | 待定                 | 2022 年 7 月 1 日       |
+|   &nbsp;  | 法国                |  4.43.0.77      | 完成           | 完成            | 待定                 | 2022 年 7 月 1 日       |
+|   &nbsp;  | 南非          |  4.43.0.77      | 完成           | 完成            | 待定                 | 2022 年 7 月 1 日       |
+|   &nbsp;  | 瑞士           |  4.43.0.77      | 完成           | 完成            | 待定                 | 2022 年 7 月 1 日       |
 | 第 3 站 |      &nbsp;           |     &nbsp;      |     &nbsp;         |      &nbsp;         |      &nbsp;         |      &nbsp;         |
-|   &nbsp;  | 日本                 |  4.42.0.70      | 2022 年 5 月 13 日       | 2022 年 5 月 13 日        | TBD                 | 2022 年 6 月 3 日       |
-|   &nbsp;  | 亚太          |  4.42.0.70      | 2022 年 5 月 13 日       | 2022 年 5 月 13 日        | TBD                 | 2022 年 6 月 3 日       |
-|   &nbsp;  | 英国         |  4.42.0.70      | 2022 年 5 月 13 日       | 2022 年 5 月 13 日        | TBD                 | 2022 年 6 月 3 日       |
-|   &nbsp;  | 大洋洲               |  4.42.0.70      | 2022 年 5 月 13 日       | 2022 年 5 月 13 日        | TBD                 | 2022 年 6 月 3 日       |
-|   &nbsp;  | 阿拉伯联合酋长国  |  4.42.0.70      | 2022 年 5 月 13 日       | 2022 年 5 月 13 日        | TBD                 | 2022 年 6 月 3 日       |
+|   &nbsp;  | 日本                 |  4.43.0.77      | 2022 年 6 月 3 日      | 2022 年 6 月 3 日       | 待定                 | 2022 年 7 月 8 日       |
+|   &nbsp;  | 亚太          |  4.43.0.77      | 2022 年 6 月 3 日      | 2022 年 6 月 3 日       | 待定                 | 2022 年 7 月 8 日       |
+|   &nbsp;  | 英国         |  4.43.0.77      | 2022 年 6 月 3 日      | 2022 年 6 月 3 日       | 待定                 | 2022 年 7 月 8 日       |
+|   &nbsp;  | 大洋洲               |  4.43.0.77      | 2022 年 6 月 3 日      | 2022 年 6 月 3 日       | 待定                 | 2022 年 7 月 8 日       |
+|   &nbsp;  | 阿拉伯联合酋长国  |  4.43.0.77      | 2022 年 6 月 3 日      | 2022 年 6 月 3 日       | 待定                 | 2022 年 7 月 8 日       |
 | 第 4 站 |     &nbsp;            |     &nbsp;      |     &nbsp;         |      &nbsp;         |      &nbsp;         |      &nbsp;         |
-|   &nbsp;  | 欧洲                |  4.41.0.45      | 完成           | 完成            | 4.42.0.70           | 2022 年 5 月 13 日        |
+|   &nbsp;  | 欧洲                |  4.42.0.70      | 完成           | 完成            | 4.43.0.77           | 2022 年 6 月 10 日       |
 | 第 5 站 |     &nbsp;            |     &nbsp;      |     &nbsp;         |      &nbsp;         |      &nbsp;         |      &nbsp;         |
-|   &nbsp;  | 北美         |  4.41.0.45      | 完成           | 完成            | 4.42.0.70           | 2022 年 5 月 20 日        |
+|   &nbsp;  | 北美         |  4.42.0.70      | 完成           | 完成            | 4.43.0.77           | 2022 年 6 月 17 日       |
 
 ## <a name="release-schedule-for-project-management-and-accounting-in-the-finance-and-operations-apps-environment"></a>财务和运营应用环境中的项目管理和会计的发行计划
 

@@ -1,17 +1,17 @@
 ---
 title: 项目合同 - 关键概念 - 精简
-description: 此主题提供有关项目合同的关键概念的信息。
+description: 本文提供有关项目合同关键概念的信息。
 author: rumant
 ms.date: 10/07/2020
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: rumant
-ms.openlocfilehash: 09252e449c11d6602dccba83f26413f380698814
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: e92edadc49469ad5f541be8bce7b7a8043b981e2
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8580583"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8932653"
 ---
 # <a name="concepts-unique-to-project-contracts"></a>项目合同所特有的概念
 
@@ -19,7 +19,7 @@ _**适用于：** 精简部署 - 估价交易开票_
 
 
 
-本主题提供了在 Dynamics 365 Project Operations 中开始使用项目合同之前要了解的关键概念：
+本文提供开始在 Dynamics 365 Project Operations 中使用项目合同之前需要了解的关键概念：
 
 ## <a name="contracting-unit"></a>合同签订部门
 

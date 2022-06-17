@@ -1,17 +1,17 @@
 ---
 title: 供应商发票的状态转换
-description: 本主题介绍 Microsoft Dynamics 365 Project Operations 中供应商发票的状态转换。
+description: 本文介绍 Microsoft Dynamics 365 Project Operations 中供应商发票的状态转换。
 author: rumant
 ms.date: 03/30/2022
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: rumant
-ms.openlocfilehash: 7efb52621ee325d5025dfad0b45218d1fe20a063
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: 58b07322fb6480fdeb07eb867a7aabc0eff7b955
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8584677"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8934309"
 ---
 # <a name="state-transitions-on-a-vendor-invoice"></a>供应商发票的状态转换
 
@@ -19,7 +19,7 @@ ms.locfileid: "8584677"
 
 _**适用于：** 精简部署 - 估价交易开票_
 
-本主题介绍 Microsoft Dynamics 365 Project Operations 中供应商发票的状态转换。 使用以下状态：**草稿**、**审阅中**、**已确认**、**暂停** 和 **已取消**。
+本文介绍 Microsoft Dynamics 365 Project Operations 中供应商发票的状态转换。 使用以下状态：**草稿**、**审阅中**、**已确认**、**暂停** 和 **已取消**。
 
 下图显示了状态转换。
 

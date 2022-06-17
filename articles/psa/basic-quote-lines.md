@@ -1,6 +1,6 @@
 ---
 title: 报价单和报价单明细
-description: 本主题提供有关报价单和报价单明细的信息。
+description: 本文提供有关报价单和报价单明细的信息。
 author: rumant
 ms.custom:
 - dyn365-projectservice
@@ -17,12 +17,12 @@ search.app:
 - D365PS
 - ProjectOperations
 ms.reviewer: johnmichalak
-ms.openlocfilehash: 4ff0a221b9d9ee1176f4e6c996613e33a6ca5e84
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: 4c59f018adc7ee439fd77a819e2fb7620941e958
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8599029"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8933343"
 ---
 # <a name="quotes-and-quote-lines"></a>报价单和报价单明细
 
@@ -39,7 +39,7 @@ ms.locfileid: "8599029"
 - 项目报价单中不包含项目报价单中包含的一些字段和概念。 这些字段包括 **合同签订部门**、**客户经理** 和 **帐单邮寄地址联系人姓名**。  
 - 也可以通过一个名称为 **类型** 且基于选项集的字段识别销售报价单和项目报价单。 对于销售报价单，此字段的值为 **基于物料**。 对于项目报价单，其值为 **基于工作**。
 
-此主题主要介绍项目报价单的详细信息。
+本文主要介绍项目报价单的详细信息。
 
 PSA 中的项目报价单可以包含多个明细项或报价单明细。 实际上，项目报价单有两个明细项网格。 一个网格针对基于项目且可用于执行更详细估算的明细。 另一个网格针对基于产品且使用简单单价和基于数量的方法的明细。
 

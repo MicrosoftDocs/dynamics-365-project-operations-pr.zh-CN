@@ -1,6 +1,6 @@
 ---
 title: 内部公司支出
-description: 本主题提供有关如何使用内部公司支出将工作人员的支出分配给为其执行工作的法人的信息。
+description: 本文提供有关如何使用内部公司支出将工作人员的支出分配给为其执行工作的法人的信息。
 author: suvaidya
 ms.date: 07/08/2021
 ms.topic: article
@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: suvaidya
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 6788a590879bd839ebb9dedc45895dc047cc9f15
-ms.sourcegitcommit: 2c2a5a11d446adec2f21030ab77a053d7e2da28e
+ms.openlocfilehash: 1c58fb1510c9ba75bc81a4dc07b91f1b6a60355d
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/04/2022
-ms.locfileid: "8684218"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8932377"
 ---
 # <a name="intercompany-expenses"></a>内部公司支出
 

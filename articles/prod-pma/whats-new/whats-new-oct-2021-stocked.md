@@ -1,24 +1,24 @@
 ---
 title: 2021 年 10 月适用于库存/生产订单场景的 Project Operations 新增功能或变更功能
-description: 本主题提供有关 2021 年 10 月版适用于库存/生产订单场景的 Project Operations 中可用的质量更新的信息。
+description: 本文提供有关 2021 年 10 月版基于库存/生产场景的 Project Operations 中可用的质量更新的信息。
 author: andchoi
 ms.date: 11/17/2021
 ms.topic: article
 ms.prod: ''
 ms.reviewer: johnmichalak
 ms.author: andchoi
-ms.openlocfilehash: 03491ccab855e48819fccf4c9d2b584fd87cb4ba
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: ba88268e74269c774b41396a8b6574e5bab477b9
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8576029"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8933665"
 ---
 # <a name="whats-new-or-changed-in-project-operations-october-2021-for-stockedproduction-based-scenarios"></a>2021 年 10 月适用于库存/生产订单场景的 Project Operations 新增功能或变更功能
 
 _**适用范围：** 适用于基于库存/生产场景的 Project Operations_
 
-本主题适用于以下 Microsoft Dynamics 365 Project Operations 组件和版本：
+本文适用于以下 Microsoft Dynamics 365 Project Operations 组件和版本：
 
 - Dynamics 365 Finance 环境中的项目管理和会计版本 10.0.22
  

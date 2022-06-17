@@ -1,6 +1,6 @@
 ---
 title: 确认、更新和发送项目报价单
-description: 本主题提供有关向客户发送报价单以进行确认、基于反馈进行修改然后重新发送报价单的信息。
+description: 本文提供有关向客户发送报价单以进行确认、基于反馈进行修改然后重新发送报价单的信息。
 author: ruhercul
 ms.date: 05/09/2020
 ms.topic: article
@@ -15,12 +15,12 @@ ms.search.industry: Service industries
 ms.author: ruhercul
 ms.dyn365.ops.version: 7
 ms.search.validFrom: 2019-01-15
-ms.openlocfilehash: ec8a000bea7d80827e2e63b03ed9229b1ecbe1c9
-ms.sourcegitcommit: 2c2a5a11d446adec2f21030ab77a053d7e2da28e
+ms.openlocfilehash: 445362523b7e38e8543cbc89f9dacf4aca048f0c
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/04/2022
-ms.locfileid: "8684125"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8932239"
 ---
 # <a name="confirm-update-and-send-a-project-quotation"></a>确认、更新和发送项目报价单
 

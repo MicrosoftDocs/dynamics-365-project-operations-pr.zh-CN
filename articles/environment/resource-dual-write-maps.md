@@ -1,17 +1,17 @@
 ---
 title: Project Operations 双重写入映射版本
-description: 本主题提供 Dynamics 365 Project Operations 所需的双重写入映射的列表。
+description: 本文提供了 Dynamics 365 Project Operations 所需的双写入映射的列表。
 author: sigitac
 ms.date: 04/22/2021
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: sigitac
-ms.openlocfilehash: 385893e8ecdb29f4dc411c233b9ae19bb2448dfd
-ms.sourcegitcommit: 9916f536a71b6a0078297402564ac79308ec6890
+ms.openlocfilehash: ee0b6a1722405e6a50c42db6bd2a25b872c6118c
+ms.sourcegitcommit: 51745acac29dfacba43a4003d86baff4d6ca2fb8
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/18/2022
-ms.locfileid: "8612739"
+ms.lasthandoff: 06/14/2022
+ms.locfileid: "8959394"
 ---
 # <a name="project-operations-dual-write-map-versions"></a>Project Operations 双重写入映射版本
 
@@ -54,7 +54,7 @@ _**适用于：** 面向资源/非库存场景的 Project Operations_
 | 用于工时估算的 Project Operations 集成实体 (msdyn_resourceassignments) | 1.0.0.5 | 预配时不需要。 ||
 | Project Operations 集成项目支出类别导出实体 (msdyn_expensecategories) | 1.0.0.1 | 预配时不需要。 ||
 | Project Operations 集成项目支出导出实体 (msdyn_expenses) | 1.0.0.3 | 预配时不需要。 ||
-| Project Operations 集成项目供应商发票导出实体 (msdyn_projectvendorinvoices) | 1.0.0.0 | 预配时不需要。 ||
+| Project Operations 集成项目供应商发票导出实体 (msdyn_projectvendorinvoices) | 1.0.0.1 | 预配时不需要。 |10.0.26 或更高版本|
 | Project Operations 集成项目供应商发票明细导出实体 (msdyn_projectvendorinvoicelines) | 1.0.0.4 | 预配时不需要。 | 10.0.26 或更高版本 |
 | 所有公司的项目资源角色 (bookableresourcecategories) | 1.0.0.1 | 需要对表映射进行初始同步，以同步预配期间在 Dynamics 365 Dataverse 环境中填充的项目经理和团队成员资源角色。 Dataverse 是初始同步的主要来源。 ||
 | 项目任务 (msdyn_projecttasks) | 1.0.0.4 | 预配时不需要。 ||

@@ -15,16 +15,16 @@ ms.search.region: Global
 ms.author: suvaidya
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: d919a26000b127dd6fb2fd8a49d79e3087f1c403
-ms.sourcegitcommit: 7e419a5f73f80fa887084e3b212c90586fc397dd
+ms.openlocfilehash: 6c9424b8aaf867254bde085cffaa649c846920cc
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/05/2022
-ms.locfileid: "8709953"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8933987"
 ---
 # <a name="configure-expense-management"></a>配置支出管理
 
-本主题介绍您配置“支出管理”前在计划流程中的考虑事项和必须做的决定。 在支出管理中，您可以存储有关付款方式、出差申请、支出报表和政策等的信息。
+本文介绍您配置“支出管理”前在计划流程中的注意事项和必须做的决定。 在支出管理中，您可以存储有关付款方式、出差申请、支出报表和政策等的信息。
 
 由于您在计划支出管理的配置时所做的许多决策基于您的组织的层次结构和财务结构，因此您必须是引用这些领域的计划文档。
 

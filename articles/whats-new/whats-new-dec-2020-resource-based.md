@@ -1,24 +1,24 @@
 ---
 title: 2020 年 12 月新增功能 - 面向资源/非库存场景的 Project Operations
-description: 此主题提供有关 2020 年 12 月版本的面向资源/非库存场景的 Project Operations 中推出的质量更新的信息。
+description: 本文提供有关 2020 年 12 月版基于资源/非库存场景的 Project Operations 中可用的质量更新的信息。
 author: sigitac
 ms.date: 12/04/2020
 ms.topic: article
 ms.prod: ''
 ms.reviewer: johnmichalak
 ms.author: sigitac
-ms.openlocfilehash: 766e2815d2a07708ace91a0ff5308e0195ff0edc
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: 8eb5d2e31f8d3506fc07332cf78efda979c46206
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8579847"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8933021"
 ---
 # <a name="whats-new-december-2020---project-operations-for-resourcenon-stocked-based-scenarios"></a>2020 年 12 月新增功能 - 面向资源/非库存场景的 Project Operations
 
 _**适用于：** 面向资源/非库存场景的 Project Operations_
 
-此主题适用于以下 Dynamics 365 Project Operations 组件和版本：
+本文适用于以下 Dynamics 365 Project Operations 组件和版本：
 
 - Dataverse 环境中的 Project Operations 版本 4.5.0.134
 - Dynamics 365 Finance 环境中的项目管理和会计版本 10.0.15

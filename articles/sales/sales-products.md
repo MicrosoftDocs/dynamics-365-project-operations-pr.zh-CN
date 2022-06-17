@@ -1,6 +1,6 @@
 ---
 title: 产品
-description: 此主题提供有关产品目录的信息，您可以使用产品目录向客户提供有关您的组织所提供的产品和定价的信息。
+description: 本文介绍您可以用来向客户提供有关您的组织提供的产品和定价的信息的产品目录。
 author: rumant
 ms.date: 09/18/2020
 ms.topic: article
@@ -15,12 +15,12 @@ ms.search.industry: Service industries
 ms.author: suvaidya
 ms.dyn365.ops.version: ''
 ms.search.validFrom: 2020-10-01
-ms.openlocfilehash: 5c57b2596e1d480ff59591618f073ceb8f70a289
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: d45a705c48df84a8f5b3f60121fbcc25e225e6e5
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8574083"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8933067"
 ---
 # <a name="products"></a>产品
 
