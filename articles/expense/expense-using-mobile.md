@@ -1,6 +1,6 @@
 ---
 title: 移动设备支出应用
-description: 此主题提供有关支出管理移动工作区的信息。
+description: 本文提供有关支出管理移动工作区的信息。
 author: suvaidya
 ms.date: 11/15/2021
 ms.topic: article
@@ -13,18 +13,18 @@ ms.search.region: ''
 ms.author: shylaw
 ms.search.validFrom: ''
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: 14bd76df5f058d2af9f77990471a0a173fe8c15d
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: 1ba7ccae04fbb02252e3ceb01f123ce1e85375b7
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8588909"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8930215"
 ---
 # <a name="mobile-expense-app"></a>移动设备支出应用
 
 _**适用于：** 基于资源/非库存场景的 Project Operations，精简部署 - 估价开票交易_
 
-此主题提供有关 **支出管理** 移动工作区的信息。 此工作区允许用户捕获和上载收据，以便日后可以将其附加到支出报表。 用户还可以通过使用已附加的收据快速创建支出行，并创建和管理其支出报表。 此外，审批者可以使用 **支出管理** 移动工作区查看分配给他们的支出报表，并可以批准或拒绝这些支出报表。
+本文提供有关 **支出管理** 移动工作区的信息。 此工作区允许用户捕获和上载收据，以便日后可以将其附加到支出报表。 用户还可以通过使用已附加的收据快速创建支出行，并创建和管理其支出报表。 此外，审批者可以使用 **支出管理** 移动工作区查看分配给他们的支出报表，并可以批准或拒绝这些支出报表。
 
 此移动工作区用于与 Dynamics 365 for Unified Ops 移动应用一起使用。
 

@@ -1,17 +1,17 @@
 ---
 title: 使用已批准的实际值验证供应商发票
-description: 本主题说明 Microsoft Dynamics 365 Project Operations 如何让项目经理使用承包商在执行工作和记录时间时批准的实际值验证供应商发票，以及项目团队成员使用的支出和材料。
+description: 本文说明 Microsoft Dynamics 365 Project Operations 如何让项目经理使用承包商在执行工作和记录时间时批准的实际值验证供应商发票，以及项目团队成员使用的支出和材料。
 author: rumant
 ms.date: 03/30/2022
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: rumant
-ms.openlocfilehash: 3350a51bde2872036b79a789fae23ea6790fb21a
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: 43f47a44260d1a47437846f2764b56f680d4b682
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8585459"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8914207"
 ---
 # <a name="verification-of-vendor-invoices-with-approved-actuals"></a>使用已批准的实际值验证供应商发票
 

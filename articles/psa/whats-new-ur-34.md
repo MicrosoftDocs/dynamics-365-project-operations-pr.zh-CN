@@ -1,6 +1,6 @@
 ---
 title: Project Service Automation V3 更新版本 34 中的新增功能或更改
-description: 本主题列出了 Project Service Automation V3 更新版本 34 中可用的功能和修复。
+description: 本文列出了 Project Service Automation 更新版 34 V3 中提供的功能和修补程序。
 author: ruhercul
 ms.custom: dyn365-projectservice
 ms.date: 08/05/2021
@@ -16,12 +16,12 @@ search.app:
 - D365PS
 - ProjectOperations
 ms.reviewer: johnmichalak
-ms.openlocfilehash: c7a4feaeebf8fa2ef3447dc6dfc3d0903266f3b2
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: e47a5442f285952c165a2d30e337a362a6b065dd
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8588679"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8928651"
 ---
 # <a name="whats-new-or-changed-in-project-service-automation-update-release-34-v3"></a>Project Service Automation V3 更新版本 34 中的新增功能或更改
 
@@ -29,7 +29,7 @@ ms.locfileid: "8588679"
 
 我们很高兴地宣布 Microsoft Dynamics 365 Project Service Automation 应用的最新更新。 此版本包括对质量、性能和可用性的一些重要改进。 它与 Dynamics 365 9.x 兼容。 若要更新到此版本，请访问 Dynamics 365 Online 解决方案管理中心页面，然后安装该更新。 有关详细信息，请参阅[安装、更新或移除首选解决方案](/power-platform/admin/install-remove-preferred-solution)。
 
-本主题列出了 Project Service Automation V3 更新版本 34 中新增或更改的功能和修复。 此版本具有内部版本号 V3.10.55.38，并且于 2021 年 7 月通过自助更新公开发布。
+本文列出了 Project Service Automation V3 更新版 34 的新增和更改的功能和修补程序。 此版本具有内部版本号 V3.10.55.38，并且于 2021 年 7 月通过自助更新公开发布。
 
 ## <a name="update-release-34"></a>更新发布 34
 

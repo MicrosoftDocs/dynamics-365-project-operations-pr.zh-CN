@@ -1,6 +1,6 @@
 ---
 title: Project Service Automation 版本 3 中的新增功能或更改
-description: 本主题介绍 Project Service Automation 版本 3 中的新增功能和更改。
+description: 本文介绍 Project Service Automation 版本 3 中的新增功能和更改功能。
 ms.custom:
 - dyn365-projectservice
 ms.date: 11/28/2018
@@ -17,12 +17,12 @@ search.app:
 - D365PS
 - ProjectOperations
 ms.reviewer: johnmichalak
-ms.openlocfilehash: 15925cb88cc413f9a23a25e89ddd29668e9171de
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: 8d076e270f426131119eab097e7f359c228edb51
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8581641"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8926581"
 ---
 # <a name="whats-new-or-changed-in-project-service-automation-version-3"></a>Project Service Automation 版本 3 中的新增功能或更改
 
@@ -32,7 +32,7 @@ ms.locfileid: "8581641"
 
 
 
-本主题介绍 Project Service Automation 版本 2 或版本 1 与 3 之间用户界面 (UI)、功能和术语的变化。
+本文介绍 Project Service Automation 版本 2 或版本 1 与 3 之间用户界面 (UI)、功能和术语的变化。
 
 ## <a name="project-scheduling"></a>项目计划编制
 项目计划在早期版本中称为工作分解结构 (WBS)，已经重命名为“计划”，可以通过单击 **计划** 选项卡访问。 
@@ -150,7 +150,7 @@ ms.locfileid: "8581641"
 此部分介绍 Project Service Automation 版本 3 中时间、支出和审批方面的改变。 在 Dynamics 365 Project Service Automation 解决方案中，**时间条目** 功能已更新，现在利用统一接口框架。 因此提供了一致、统一的用户界面，该界面采用了响应式设计，非常适合在任何屏幕尺寸或设备上查看。 
 
 ### <a name="landing-page"></a>登陆页
-版本 3 中已弃用了不可扩展的自定义时间条目体验。 而是现在提供可扩展、可访问的本机网格体验。 可使用左侧的站点地图访问时间条目功能。 由于此项更改，您不再可以一次性输入一周的时间。 相反，您需要在网格中为每天创建一个时间条目。 创建一些时间条目之后，用户可以使用本主题后文介绍的 **复制功能** 批量创建时间条目。 
+版本 3 中已弃用了不可扩展的自定义时间条目体验。 而是现在提供可扩展、可访问的本机网格体验。 可使用左侧的站点地图访问时间条目功能。 由于此项更改，您不再可以一次性输入一周的时间。 相反，您需要在网格中为每天创建一个时间条目。 创建一些时间条目之后，用户可以使用本文后面介绍的 **复制** 功能批量创建时间条目。 
 
 ![时间条目登陆页。](media/time-entry-landing-page-07.png)
  

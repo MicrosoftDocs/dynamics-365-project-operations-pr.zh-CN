@@ -1,21 +1,21 @@
 ---
 title: 注册获取预览订阅 - 精简
-description: 此主题提供有关如何订阅和部署“Project Operations 精简部署 - 估价交易开票”的信息。
+description: 本文提供有关如何订阅和部署“Project Operations 精简部署 - 估价交易开票”的信息。
 author: sigitac
 ms.date: 07/02/2021
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: sigitac
-ms.openlocfilehash: 3b06ac29e8021967490534d3aefc8b5ce733413b
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: 6953956c0b3401a6c64ee597f966ba4a4c0d07b5
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8587989"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8921245"
 ---
 # <a name="sign-up-for-a-preview-subscription---lite"></a>注册获取预览订阅 - 精简 
 
-本主题说明了如何订阅试用产品/服务和部署 Dynamics 365 Project Operations 精简部署 - 估价开票交易。
+本文解释了如何订阅试用产品/服务和部署“Dynamics 365 Project Operations 精简部署 - 估价交易开票”。
 
 > [!NOTE]
 > 此流程将在即将发布的 Project Operations 中更改。
@@ -50,7 +50,7 @@ ms.locfileid: "8587989"
 
 ## <a name="create-a-new-dataverse-environment"></a>创建新的 Dataverse 环境
 
-1. 按照主题 [Dataverse 部署模型](lite-deployment.md)中的说明预配新的 Project Operations Dataverse 部署环境。 选择环境类型时，请确保使用 **试用(基于订阅)**。
+1. 按照文章 [Dataverse 部署模型](lite-deployment.md)中的说明预配新的 Project Operations Dataverse 部署环境。 选择环境类型时，请确保使用 **试用(基于订阅)**。
 
   ![新建环境。](./media/19CreateEnvironment.png)
 
@@ -65,7 +65,7 @@ ms.locfileid: "8587989"
 
 ## <a name="install-a-cds-configuration-and-setup-demo-data"></a>安装 CDS 配置和设置演示数据
 
-按照主题[应用演示设置和配置数据](lite-apply-demo-setup-config-data.md)中的说明安装 CDS 配置和设置演示数据。
+按照文章[应用演示设置和配置数据](lite-apply-demo-setup-config-data.md)中的说明安装 CDS 配置和设置演示数据。
 
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

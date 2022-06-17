@@ -1,6 +1,6 @@
 ---
 title: 实体、控件和用户界面更改 (Project Service Automation 3.x)
-description: 此主题介绍 Microsoft Dynamics Project Service Automation 3.x 的解决方案更改。
+description: 本文介绍 Microsoft Dynamics Project Service Automation 3.x 的解决方案更改。
 author: makk
 ms.custom:
 - dyn365-projectservice
@@ -15,19 +15,19 @@ search.app:
 - D365PS
 - ProjectOperations
 ms.reviewer: johnmichalak
-ms.openlocfilehash: da43e0d15e655977c0c1be7348192a0189a56a6c
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: 8f54d263666c4fb999464f98c0138fc008dbbbd2
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8597557"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8926857"
 ---
 # <a name="entity-control-and-user-interface-changes-project-service-automation-3x"></a>实体、控件和用户界面更改 (Project Service Automation 3.x)
 
 [!include [banner](../../includes/psa-now-project-operations.md)]
 
 
-随着 Microsoft Dynamics Project Service Automation (PSA) 3.x 的发布，对实体、控件、视图和用户界面进行了大量更改。 此主题介绍这些重要更改。
+随着 Microsoft Dynamics Project Service Automation (PSA) 3.x 的发布，对实体、控件、视图和用户界面进行了大量更改。 本文介绍这些重要更改。
 
 ## <a name="parent-child-relationships-for-sales-document-sales-document-line-sales-document-line-detail-entities"></a>销售文档、销售文档明细、销售文档明细详细信息实体的父子关系
 在 Dynamics 365 Project Service Automation (PSA) 版本 3.0 之前发布的版本中，销售文档、销售文档明细和销售文档明细详细信息实体之间的某些关系是通过其中存储相关实体的 GUID 字符串表示的字符串字段实施的。 这是因为平台限制导致解决方案的服务器端和客户端中需要大量自定义代码来让这些关系的工作方式类似典型 Dynamics CRM 实体关系的工作方式，并且让字符串字段充当查找字段。

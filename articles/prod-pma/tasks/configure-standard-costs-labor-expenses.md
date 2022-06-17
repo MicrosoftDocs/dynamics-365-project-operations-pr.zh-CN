@@ -1,6 +1,6 @@
 ---
 title: 配置人工和支出的标准成本
-description: 本主题介绍如何为项目的人工和费用设置标准价。
+description: 本文介绍如何为项目的人工和支出设置标准价。
 author: Yowelle
 ms.date: 08/02/2019
 ms.topic: business-process
@@ -14,18 +14,18 @@ ms.search.industry: Service industries
 ms.author: andchoi
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: fd74da69986a73e933f8cfedce40158555c2ac60
-ms.sourcegitcommit: 2c2a5a11d446adec2f21030ab77a053d7e2da28e
+ms.openlocfilehash: a51eee8d2eb960b6f24b6511dab7b7a27303dddb
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/04/2022
-ms.locfileid: "8685321"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8919497"
 ---
 # <a name="configure-standard-costs-for-labor-and-expenses"></a>配置人工和支出的标准成本
 
 [!include [banner](../../includes/banner.md)]
 
-本主题介绍如何为项目的人工和费用设置标准价。 此任务使用 USSI 数据集。
+本文介绍如何为项目的人工和支出设置标准价。 此任务使用 USSI 数据集。
 
 1. 在导航窗格中，转到 **模块 > 项目管理与核算 > 设置 > 价格 > 成本价(工时)**。
 2. 选择 **新建**。

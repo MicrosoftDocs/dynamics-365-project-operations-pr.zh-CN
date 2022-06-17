@@ -1,17 +1,17 @@
 ---
 title: 将日程安排板配置为显示合同工和分包产能
-description: 本主题介绍如何将 Microsoft Dynamics 365 Project Operations 中的日程安排板配置为在为项目资源要求配备人员时显示分包资源产能。
+description: 本文介绍如何将 Microsoft Dynamics 365 Project Operations 中的日程安排板配置为在为项目资源要求配备人员时显示分包资源产能。
 author: rumant
 ms.date: 08/02/2021
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: rumant
-ms.openlocfilehash: 6e382b33fafe91c8b96a91d033fe12b998114bdc
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: b965fd5011a575354f50c47081be198ab43248f9
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8587806"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8919819"
 ---
 # <a name="configure-schedule-board-to-show-contract-workers-and-subcontracted-capacity"></a>将日程安排板配置为显示合同工和分包产能 
 

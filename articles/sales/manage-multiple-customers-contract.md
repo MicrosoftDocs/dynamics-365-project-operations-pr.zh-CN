@@ -1,21 +1,21 @@
 ---
 title: 管理项目合同上的多个客户
-description: 此主题提供有关如何管理项目合同上的多个客户的信息。
+description: 本文提供有关如何在项目合同中管理多个客户的信息。
 author: rumant
 ms.date: 11/18/2020
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: rumant
-ms.openlocfilehash: bf8b0d313b2b07924d730fe8923b05559bbcc244
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: 78ee117c1068e7af4674cc3b21e1055fd05bb43a
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8591301"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8928329"
 ---
 # <a name="manage-multiple-customers-on-project-contracts"></a>管理项目合同上的多个客户
 
-此主题提供有关如何管理项目合同上的多个客户的信息。 当需要多个客户的合同协议来资助交易时，可以使用项目合同。 在 **项目合同** 页上，**摘要** 选项卡包含有关交易的主要客户的信息。 可以将参与交易的其他客户添加到 **客户** 选项卡中。
+本文提供有关如何在项目合同中管理多个客户的信息。 当需要多个客户的合同协议来资助交易时，可以使用项目合同。 在 **项目合同** 页上，**摘要** 选项卡包含有关交易的主要客户的信息。 可以将参与交易的其他客户添加到 **客户** 选项卡中。
 
 项目合同的 **客户** 选项卡上的所有合同客户均默认为为项目合同创建的任何新基于项目的合同子项上的合同子项客户。 任何现有的基于项目的合同子项不会继承以后创建的新合同客户记录。
 

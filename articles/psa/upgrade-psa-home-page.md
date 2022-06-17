@@ -1,6 +1,6 @@
 ---
 title: “升级”主页
-description: 此主题介绍何处可以找到有关 Dynamics 365 Project Service Automation 中的新功能和更新功能和用于升级到最新版本的流程的重要信息。
+description: 本文介绍何处可以找到有关 Dynamics 365 Project Service Automation 中的新功能和更新功能和用于升级到最新版本的流程的重要信息。
 ms.prod: ''
 ms.custom:
 - dyn365-projectservice
@@ -19,12 +19,12 @@ search.app:
 - D365PS
 - ProjectOperations
 ms.reviewer: johnmichalak
-ms.openlocfilehash: 337bb2d13eae7cc971b801a3c9662a7a1769909f
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: 5dcf41af31a60b952ce82c08e3c082490d59d4f6
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8591367"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8926627"
 ---
 # <a name="upgrade-home-page"></a>“升级”主页
 
@@ -48,14 +48,14 @@ ms.locfileid: "8591367"
 建议在开始升级流程之前完成以下任务：
 
 - 验证确定的实例中是否已同时安装了 Dynamics 365 Field Service 和 Project Service Automation。 如果已安装了这两个解决方案，应计划在恢复正常使用此解决方案之前升级这两个解决方案。
-- 请仔细阅读以下主题。 注意和了解版本之间的变化有助于完成升级流程。 这些主题介绍 PSA 中的主要更改，以及计划升级到版本 3.x 之前的注意事项和建议。
+- 请仔细阅读以下文章。 注意和了解版本之间的变化有助于完成升级流程。 这些文章介绍 PSA 中的主要更改，以及计划升级到版本 3.x 之前的注意事项和建议。
 
     - [Project Service Automation 版本 3 中的新增功能或更改](whats-new-changed-v3.md)
     - [升级注意事项 - Project Service Automation 版本 2.x 或 1.x 到版本 3](upgrade-v3.md)
 
 - 升级生产实例之前，升级沙盒实例，以便评估实施中的更改。
 
-阅读前面介绍的主题并准备好升级到 PSA 版本 3.x 或基于 UCI 的版本之后，向 Microsoft 支持提交请求，以便从管理中心获取升级。 在请求中提供实例的详细信息。
+阅读前面介绍的文章并准备好升级到 PSA 版本 3.x 或基于 UCI 的版本之后，向 Microsoft 支持提交请求，以便从管理中心获取升级。 在请求中提供实例的详细信息。
 
 ## <a name="older-versions-of-psa-psa-version-2x-in-a-newly-created-instance"></a>新建实例中的旧 PSA 版本（PSA 版本 2.x）
 

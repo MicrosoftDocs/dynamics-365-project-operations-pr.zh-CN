@@ -1,18 +1,18 @@
 ---
 title: 供应商发票集成
-description: 此主题提供有关 Project Operations 中的供应商发票集成的信息。
+description: 本文提供有关 Project Operations 中的供应商发票集成的信息。
 author: sigitac
 ms.date: 04/27/2021
 ms.topic: article
 ms.prod: ''
 ms.reviewer: johnmichalak
 ms.author: sigitac
-ms.openlocfilehash: 8650eed2230b99b821c1635fdc88252bb65c5583
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: d1e41638b6fe827e9e577860a78a84a9948053e4
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8591164"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8912045"
 ---
 # <a name="vendor-invoice-integration"></a>供应商发票集成
 
@@ -21,7 +21,7 @@ _**适用于：** 面向资源/非库存场景的 Project Operations_
 可以通过以下方法记录 Dynamics 365 Project Operations 中与项目相关的采购：转到 **应付帐款** > **发票** > **待定供应商发票**，使用待定供应商发票文档。 有关详细信息，请参阅[使用待定供应商发票购买非库存材料](../procurement/pending-vendor-invoices.md)。
 
 > [!IMPORTANT]
-> 在使用本主题所述的功能之前，请查看并应用所需的配置。 有关详细信息，请参阅[启用非库存材料和待定供应商发票](../procurement/configure-materials-nonstocked.md)。
+> 在使用本文中描述的功能之前，请查看并应用所需的配置。 有关详细信息，请参阅[启用非库存材料和待定供应商发票](../procurement/configure-materials-nonstocked.md)。
 
 在 Project Operations 中，与项目相关的供应商发票将使用特殊过帐规则过帐：
 

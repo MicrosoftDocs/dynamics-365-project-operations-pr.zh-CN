@@ -1,18 +1,18 @@
 ---
 title: 将采购类别用于项目采购订单和待定供应商发票
-description: 本主题介绍如何配置可用于项目采购订单和待定供应商发票的采购类别。
+description: 本文介绍如何配置可用于项目采购订单和待定供应商发票的采购类别。
 author: sigitac
 ms.date: 04/07/2022
 ms.topic: article
 ms.prod: ''
 ms.reviewer: johnmichalak
 ms.author: sigitac
-ms.openlocfilehash: ee68d7906cb0c887c19a32363ec7fda547cb74bd
-ms.sourcegitcommit: 9916f536a71b6a0078297402564ac79308ec6890
+ms.openlocfilehash: 7d774631a4712de9b29ddedfee2ea3fc4a2d436f
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/18/2022
-ms.locfileid: "8613247"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8927409"
 ---
 # <a name="use-procurement-categories-with-project-purchase-orders-and-pending-vendor-invoices"></a>将采购类别用于项目采购订单和待定供应商发票
 
@@ -47,7 +47,7 @@ _**适用于：** 面向资源/非库存场景的 Project Operations_
 
 1. 转到 **采购 \> 采购目录**。
 1. 选择 **编辑类别层次结构**。
-1. 选择所需的类别层次结构节点，然后在 **分配项目类别** 选项卡上，将该节点与 **时间**、支出**或 **物料项目** 类别（即 **默认时间** 或 **默认支出** 类别）中的项目类别相关联。
+1. 选择所需的类别层次结构节点，然后在 **分配项目类别** 选项卡上，将该节点与 **时间**、**支出** 或 **物料项目** 类别（即 **默认时间** 或 **默认支出** 类别）中的项目类别相关联。
 1. 选择 **保存**。
 1. 关闭该页面。
 

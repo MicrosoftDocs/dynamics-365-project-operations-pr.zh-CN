@@ -1,17 +1,17 @@
 ---
 title: 使用“复制项目”开发项目模板
-description: 此主题提供有关如何使用“复制项目”自定义操作创建项目模板的信息。
+description: 本文提供有关如何使用“复制项目”自定义操作创建项目模板的信息。
 author: stsporen
 ms.date: 03/10/2022
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: stsporen
-ms.openlocfilehash: 72aa2db7c717eeab85ada448c673bf702087baeb
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: 47c1023bbc4c21e3571bffbf3670bf0f7854f81d
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8590887"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8923821"
 ---
 # <a name="develop-project-templates-with-copy-project"></a>使用“复制项目”开发项目模板
 

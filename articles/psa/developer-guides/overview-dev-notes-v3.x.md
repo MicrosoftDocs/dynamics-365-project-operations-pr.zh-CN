@@ -1,6 +1,6 @@
 ---
 title: 开发主页 (Project Service Automation 3.x)
-description: 本主题提供介绍适用于 Dynamics 365 Project Service Automation (PSA) 版本 3.x 的开发信息的主题的链接。
+description: 本文提供介绍适用于 Dynamics 365 Project Service Automation (PSA) 版本 3.x 的开发信息的文章的链接。
 author: makk
 ms.custom:
 - dyn365-projectservice
@@ -16,18 +16,18 @@ search.app:
 - D365PS
 - ProjectOperations
 ms.reviewer: johnmichalak
-ms.openlocfilehash: 86bfe8e5103bfcac89a2966b99f15b7c34a213fb
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: 5cf7d738d5a7f6fb5d79849bdaf54831414de6de
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8582308"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8928973"
 ---
 # <a name="development-home-page-project-service-automation-3x"></a>开发主页 (Project Service Automation 3.x)
 
 [!include [banner](../../includes/psa-now-project-operations.md)]
 
-Dynamics 365 Project Service Automation 3.x 提供新功能，新平台功能的实施和对各个领域现有功能的改进。 以下主题提供有关最新 PSA 版本中进行的更改的详细信息。
+Dynamics 365 Project Service Automation 3.x 提供新功能，新平台功能的实施和对各个领域现有功能的改进。 以下文章提供有关最新 PSA 版本中进行的更改的详细信息。
 
 - [实体、控件和用户界面更改 (Project Service Automation 3.x)](../developer-guides/entity-changes-v3.x.md)
 - [时间和支出更改 (Project Service Automation 3.x)](../developer-guides/time-expense-changes-v3.x.md)

@@ -1,17 +1,17 @@
 ---
 title: 供应商开票 - 概念和创建
-description: 本主题介绍供应商发票的概念、使用场景以及如何在 Microsoft Dynamics 365 Project Operations 中创建供应商发票。
+description: 本文介绍供应商发票的概念、使用场景以及如何在 Microsoft Dynamics 365 Project Operations 中创建供应商发票。
 author: rumant
 ms.date: 03/25/2022
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: rumant
-ms.openlocfilehash: dc9b3954b237294f52aa0bb74f8008a5dfdf78fd
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: 38f0760697522b7a5e561cec7d38dfd5c3eaf9fc
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8580537"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8911447"
 ---
 # <a name="vendor-invoicing---concept-and-creation"></a>供应商开票 - 概念和创建
 

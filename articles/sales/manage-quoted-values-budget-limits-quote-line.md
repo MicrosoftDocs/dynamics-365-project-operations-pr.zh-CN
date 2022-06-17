@@ -1,17 +1,17 @@
 ---
 title: 项目报价单明细概述
-description: 本主题提供有关使用项目报价单明细进行项目工作的信息。
+description: 本文提供有关使用项目报价单明细进行项目工作的信息。
 author: rumant
 ms.date: 10/01/2020
 ms.topic: overview
 ms.reviewer: johnmichalak
 ms.author: rumant
-ms.openlocfilehash: 07ee2e6a7823b25eacb1c7ad6180f8af571348bb
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: c74b14e4ccfc1e47c0a1df62980ab7a3d619617d
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8587023"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8920141"
 ---
 # <a name="project-quote-lines-overview"></a>项目报价单明细概述
 

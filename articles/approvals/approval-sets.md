@@ -1,17 +1,17 @@
 ---
 title: 审批集
-description: 本主题介绍如何处理审批集、请求和这些操作的子集。
+description: 本文介绍如何使用审批集、请求以及这些操作的子集。
 author: stsporen
 ms.date: 02/01/2022
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: stsporen
-ms.openlocfilehash: 6809e01d8c3c93841125d0100d898dc208577019
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: 5e030c1aa4a41b428a0f4541fd204a7a3deaba08
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8576213"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8918071"
 ---
 # <a name="approval-sets"></a>审批集
 

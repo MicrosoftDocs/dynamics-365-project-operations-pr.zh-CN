@@ -1,6 +1,6 @@
 ---
 title: 实际值概述
-description: 本主题提供有关项目实际值的信息。
+description: 本文提供有关项目实际值的信息。
 author: rumant
 ms.custom:
 - dyn365-projectservice
@@ -18,12 +18,12 @@ search.app:
 - D365PS
 - ProjectOperations
 ms.reviewer: johnmichalak
-ms.openlocfilehash: 7ab2638d82eb5ba928d95ca6a524a1566f21e1ba
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: 35282e6c51fff28dbbb0a5a7de760788416ed0e4
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8587575"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8929065"
 ---
 # <a name="actuals-overview"></a>实际值概述
 

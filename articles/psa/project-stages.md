@@ -1,6 +1,6 @@
 ---
 title: 项目阶段类型
-description: 本主题提供有关项目阶段的信息。
+description: 本文提供有关项目阶段的信息。
 author: ruhercul
 ms.custom:
 - dyn365-projectservice
@@ -17,12 +17,12 @@ search.app:
 - D365PS
 - ProjectOperations
 ms.reviewer: johnmichalak
-ms.openlocfilehash: 7f893b5429dd61ae45ad9d536420c96b2f58605b
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: 8d772acce152b08c7986739ac557818e6f97d0fe
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8586839"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8919049"
 ---
 # <a name="project-stage-types"></a>项目阶段类型 
 

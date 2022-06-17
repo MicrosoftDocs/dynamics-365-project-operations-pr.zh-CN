@@ -1,28 +1,28 @@
 ---
 title: 项目日程安排 API 性能
-description: 本主题提供有关项目日程安排 API 性能基准的信息，并确定优化利用的最佳实践。
+description: 本文提供有关项目日程安排 API 性能基准的信息，并确定优化利用的最佳实践。
 author: ruhercul
 ms.date: 11/03/2021
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: sigitac
-ms.openlocfilehash: 3c14d27c561a86cd359cbdcbb448ae764dd3d90e
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: 1ee1bd8e4412ee1d10f445628c5dc87cc9fa91d3
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8593831"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8911171"
 ---
 # <a name="project-schedule-api-performance"></a>项目日程安排 API 性能
 
 _**适用于**：基于资源/非库存场景的 Project Operations、精简部署 - 估价交易开单、Project for the Web_
 
-本主题提供有关项目日程安排应用编程接口 (API) 性能基准的信息，并确定优化利用的最佳实践。
+本文提供有关项目日程安排应用编程接口 (API) 性能基准的信息，并确定优化利用的最佳实践。
 
 ## <a name="project-scheduling-service"></a>项目计划服务
 项目计划服务是一项在 Microsoft Azure 中运行的多租户服务。 它旨在通过在用户处理项目时提供快速流畅的体验来改善交互。 通过接受更改请求、处理这些请求，然后立即返回结果，从而获得此改进。 该服务异步保留到 Dataverse，并且不会阻止用户执行其他操作。
 
-项目日程安排 API 依赖于项目计划服务来运行本主题后面部分中更详细描述的请求。
+项目日程安排 API 依赖于项目计划服务来运行本文后面几节中更详细描述的请求。
 
 项目日程安排 API 旨在处理以下工作分解结构 (WBS) 实体：
 

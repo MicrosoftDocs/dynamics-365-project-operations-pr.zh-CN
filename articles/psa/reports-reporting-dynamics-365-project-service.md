@@ -1,6 +1,6 @@
 ---
-title: 报表主页
-description: 此主题介绍 Dynamics 365 Project Service Automation 中的报表功能。
+title: 报告主页
+description: 本文介绍 Dynamics 365 Project Service Automation 中的报告功能。
 author: ruhercul
 ms.custom:
 - dyn365-projectservice
@@ -18,12 +18,12 @@ search.app:
 - D365PS
 - ProjectOperations
 ms.reviewer: johnmichalak
-ms.openlocfilehash: da9458741563aa918bc09259e35ba9002ff0ba13
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: cf55495cc435d929bd305c9fea270aeb2d62a3da
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8595947"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8921659"
 ---
 # <a name="reporting-home-page"></a>报告主页
 
@@ -47,7 +47,7 @@ Microsoft Power BI 和 Dynamics 365 一起以见解应用的形式让您可以�
 
 
 ## <a name="additional-resources"></a>其他资源
-有关 PSA 中的报表功能的详细信息，请参阅以下主题：
+有关 PSA 中的报告功能的详细信息，请参阅以下文章：
 
 - [使用 Project Service 数据模型](reports-working-project-service-data-model.md)
 - [仪表板](reports-dashboards.md)

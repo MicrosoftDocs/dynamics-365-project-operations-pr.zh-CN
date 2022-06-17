@@ -1,6 +1,6 @@
 ---
 title: 项目资源安排主页
-description: 此主题介绍 Project Service Automation (PSA) for Dynamics 365 中的资源管理功能。
+description: 本文介绍 Project Service Automation (PSA) for Dynamics 365 中的资源管理功能。
 author: JohnPBurrows
 ms.custom:
 - dyn365-projectservice
@@ -18,12 +18,12 @@ search.app:
 - D365PS
 - ProjectOperations
 ms.reviewer: johnmichalak
-ms.openlocfilehash: 4ec114f6dc04b493e30fcaae0d50616108c695f2
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: 14328ba1af46eca3a8996d330180d888987b7966
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8599811"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8925247"
 ---
 # <a name="resourcing-projects-home-page"></a>项目资源安排主页
 
@@ -46,7 +46,7 @@ ms.locfileid: "8599811"
 - 维护技能和熟练度存储库。
 
 
-可在 PSA 中为项目安排通用资源或指定资源团队。 可使用各种方法添加和分派团队成员和管理其预订和分派。 有关更多信息，请参阅以下主题。
+可在 PSA 中为项目安排通用资源或指定资源团队。 可使用各种方法添加和分派团队成员和管理其预订和分派。 有关更多信息，请参阅以下文章。
 
 - [为项目团队预订指定的可预订资源和为其分派任务](assign-named-bookable-resource.md)
 - [为任务分派通用可预订资源和生成资源要求](assign-generic-bookable-resource.md)

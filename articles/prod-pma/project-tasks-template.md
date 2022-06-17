@@ -1,6 +1,6 @@
 ---
 title: 将项目任务从 Project Service Automation 直接同步到 Finance and Operations
-description: 此主题介绍用于将项目任务直接从 Microsoft Dynamics 365 Project Service Automation 同步到 Dynamics 365 Finance 的模板和基础任务。
+description: 本文介绍用于将项目任务直接从 Microsoft Dynamics 365 Project Service Automation 同步到 Dynamics 365 Finance 的模板和基础任务。
 author: Yowelle
 ms.date: 07/20/2018
 ms.topic: article
@@ -14,18 +14,18 @@ ms.search.region: Global
 ms.author: andchoi
 ms.search.validFrom: 2016-11-28
 ms.dyn365.ops.version: AX 7.3.0
-ms.openlocfilehash: 666e0d757969b32f16e08128d9f78a2ffe1e8357
-ms.sourcegitcommit: 2c2a5a11d446adec2f21030ab77a053d7e2da28e
+ms.openlocfilehash: 7b8ba77bbb08052952a8a557bb71300652dca3b2
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/04/2022
-ms.locfileid: "8683139"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8931135"
 ---
 # <a name="synchronize-project-tasks-directly-from-project-service-automation-to-finance-and-operations"></a>将项目任务从 Project Service Automation 直接同步到 Finance and Operations
 
 [!include[banner](../includes/banner.md)]
 
-此主题介绍用于将项目任务直接从 Dynamics 365 Project Service Automation 同步到 Dynamics 365 Finance 的模板和基础任务。
+本文介绍用于将项目任务直接从 Dynamics 365 Project Service Automation 同步到 Dynamics 365 Finance 的模板和基础任务。
 
 > [!NOTE]
 > - 版本 8.0 中提供项目任务集成、费用交易记录类别、工时估计值、费用估计值和功能锁定。

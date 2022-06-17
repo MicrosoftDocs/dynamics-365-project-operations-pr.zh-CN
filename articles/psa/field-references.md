@@ -1,6 +1,6 @@
 ---
 title: 向价格设置和交易实体添加自定义字段
-description: 此主题介绍如何向价格设置和交易实体添加自定义字段。
+description: 本文介绍如何向价格设置和交易实体添加自定义字段。
 author: Rumant
 ms.custom:
 - dyn365-projectservice
@@ -16,20 +16,20 @@ search.app:
 - D365PS
 - ProjectOperations
 ms.reviewer: johnmichalak
-ms.openlocfilehash: cb4a99b10e5d0c79e80bcd46d2f60ccdab4487aa
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: b666d1767306b9833fba36c6ed2c59a633c5fdf0
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8596913"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8920463"
 ---
 # <a name="add-custom-fields-to-price-setup-and-transactional-entities"></a>向价格设置和交易实体添加自定义字段 
 
 [!include [banner](../includes/psa-now-project-operations.md)]
 
-此主题假设您已完成了[创建自定义字段和实体](create-custom-fields-entities.md)主题中的过程。 如果尚未完成这些过程，请回去完成，然后回到此主题。 
+本文假设您已完成了[创建自定义字段和实体](create-custom-fields-entities.md)一文中的过程。 如果尚未完成这些过程，请回去完成，然后回到本文。 
 
-此主题中的过程将显示如何把所需自定义字段引用添加到实体和用户界面 (UI) 元素，如窗体和视图。
+本文中的过程将显示如何把所需自定义字段引用添加到实体和用户界面 (UI) 元素，如窗体和视图。
 
 ## <a name="add-custom-pricing-dimension-fields"></a>添加自定义定价维度字段 
 创建自定义字段和实体之后，下一步是通过创建引用字段让价格设置和交易实体可以识别任何自定义实体或选项集。 根据定价维度列表中包含的是选项集维度和/或实体维度，相应执行 **基于选项集的自定义定价维度** 和/或 **基于实体的自定义定价维度**。

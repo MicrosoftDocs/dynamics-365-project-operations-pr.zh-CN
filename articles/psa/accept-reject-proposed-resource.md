@@ -1,6 +1,6 @@
 ---
 title: 接受或拒绝建议的项目资源
-description: 此主题提供有关如何批准或拒绝建议的项目资源的信息。
+description: 本文提供有关如何批准或拒绝建议的项目资源的信息。
 ms.custom:
 - dyn365-projectservice
 ms.date: 12/07/2018
@@ -17,12 +17,12 @@ search.app:
 - D365PS
 - ProjectOperations
 ms.reviewer: johnmichalak
-ms.openlocfilehash: 8337ed19764e62cf2e095ec2f51d325caf92e6fb
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: 94c3f9f960adc7c348b19e23a11bc05bd60e0b56
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8599121"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8916185"
 ---
 # <a name="accept-or-reject-a-proposed-project-resource"></a>接受或拒绝建议的项目资源
 
@@ -30,7 +30,7 @@ ms.locfileid: "8599121"
 
 [!INCLUDE[cc-applies-to-psa-app-3.x](../includes/cc-applies-to-psa-app-3x.md)]
 
-此主题提供有关如何批准或拒绝建议的项目资源的信息。
+本文提供有关如何批准或拒绝建议的项目资源的信息。
 
 当资源经理建议指定资源以填充项目的通用资源请求时，将把通用团队成员的 **请求状态** 字段更新为 **需要审阅**。 将把请求发给项目经理以便批准或拒绝。
 

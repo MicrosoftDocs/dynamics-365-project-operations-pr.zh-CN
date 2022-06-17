@@ -1,6 +1,6 @@
 ---
 title: 项目资源主页
-description: 本主题提供有关项目资源的信息。
+description: 本文提供有关项目资源分配的信息。
 author: Yowelle
 ms.date: 09/01/2020
 ms.topic: article
@@ -15,18 +15,18 @@ ms.search.region: Global
 ms.author: andchoi
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 38793c4b9fc6cd2c1999661cb2acc587086b0143
-ms.sourcegitcommit: 2c2a5a11d446adec2f21030ab77a053d7e2da28e
+ms.openlocfilehash: 605a6884cb342abf029644dbf8f2d75127df1786
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/04/2022
-ms.locfileid: "8684861"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8924005"
 ---
 # <a name="project-resourcing-home-page"></a>项目资源主页
 
 [!include [banner](../includes/banner.md)]
 
-本主题提供有关项目资源的信息。
+本文提供有关项目资源分配的信息。
 
 项目经理和资源经理在项目计划阶段的一个挑战是资源分配，他们必须在此确定和预留处理项目所需的正确资源。 在 Dynamics 365 Finance 中，项目的资源能力可以定义预留给特定参与或参与的一部分被视为临时资源的角色。 此资源类型允许项目经理和资源经理完成以下任务：
 
@@ -41,7 +41,7 @@ ms.locfileid: "8684861"
 
 随着项目计划的继续，计划的资源可以替换为雇用的资源。 项目经理还可以在任何项目阶段返回和更新资源预留。
 
-以下主题介绍处理资源项目时需要完成的任务。
+以下文章介绍处理资源项目时需要完成的任务。
 
 - [设置项目资源](set-up-project-resources.md)
 - [管理资源能力](manage-resource-competencies.md)

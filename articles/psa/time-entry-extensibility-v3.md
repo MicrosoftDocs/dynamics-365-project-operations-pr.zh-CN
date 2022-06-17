@@ -1,6 +1,6 @@
 ---
-title: 自定义周时间条目
-description: 此主题介绍如何实施为组织的业务提供支持的自定义业务规则。
+title: 自定义每周时间条目
+description: 本文介绍如何实施为组织的业务提供支持的自定义业务规则。
 author: stsporen
 ms.custom:
 - dyn365-projectservice
@@ -17,12 +17,12 @@ search.app:
 - D365PS
 - ProjectOperations
 ms.reviewer: johnmichalak
-ms.openlocfilehash: 1cc32a1d8776f4adaa0031154aba6bd6733b7f7d
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: bdc8df4050d895504fa126e2ee55fcd3b4de123f
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8581043"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8918945"
 ---
 # <a name="customize-weekly-time-entry"></a>自定义每周时间条目 
 
@@ -46,9 +46,9 @@ ms.locfileid: "8581043"
 - 类型 
 - 条目状态
 
-**维度** 部分不允许内联编辑。 此部分受一个视图支持，该视图支持向周时间条目网格添加自定义字段。 有关如何添加自定义字段的信息，请参阅此主题后文的“扩展性”部分。
+**维度** 部分不允许内联编辑。 此部分受一个视图支持，该视图支持向周时间条目网格添加自定义字段。 有关如何添加自定义字段的信息，请参阅本文后面的“扩展性”一节。
 
-### <a name="duration"></a>持续时间
+### <a name="duration"></a>Duration
 “持续时间”部分将星期几显示为列标题。 此部分允许内联编辑。 创建了具有相应维度的时间条目行之后，用户可快速内联输入用在这些维度上的时间量。
 
 ## <a name="create-a-new-time-entry"></a>创建新时间条目

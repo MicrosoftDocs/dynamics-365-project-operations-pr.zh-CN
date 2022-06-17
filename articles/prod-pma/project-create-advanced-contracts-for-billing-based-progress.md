@@ -1,6 +1,6 @@
 ---
 title: 根据进度创建高级计费合同
-description: 本主题说明如何创建项目合同，以便您可以根据已完成工作的百分比为客户生成发票。
+description: 本文说明如何创建项目合同，以便您可以根据已完成工作的百分比为客户生成发票。
 author: RadhikaRS
 ms.date: 03/26/2020
 ms.topic: article
@@ -15,19 +15,19 @@ ms.search.industry: Service industries
 ms.author: andchoi
 ms.dyn365.ops.version: 7
 ms.search.validFrom: 2019-01-15
-ms.openlocfilehash: bdafc2ed2398054d8b0bf42bdd96dfe0eccee93b
-ms.sourcegitcommit: 2c2a5a11d446adec2f21030ab77a053d7e2da28e
+ms.openlocfilehash: 26fe072b8241c7fdc96629f534e33a8fe53d3164
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/04/2022
-ms.locfileid: "8683152"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8913655"
 ---
 # <a name="create-advanced-contracts-for-billing-based-on-progress"></a>根据进度创建高级计费合同
 [!include [banner](../includes/banner.md)]
 
-本主题说明如何创建项目合同，以便您可以根据已完成工作的百分比为客户创建发票。 自动计算为项目设置工作的预算类别的发票金额。 在与客户协商项目合同时设置发票计时。
+本文说明如何创建项目合同，以便您可以根据已完成工作的百分比为客户创建发票。 自动计算为项目设置工作的预算类别的发票金额。 在与客户协商项目合同时设置发票计时。
 
-使用本主题介绍的过程设置合同、关联项目，以及计算为项目设置的工作预算类别的发票金额的开票规则。
+使用本文介绍的过程设置合同、关联项目，以及计算为项目设置的工作预算类别的发票金额的开票规则。
 
 创建了合同和项目后，可以设置项目的详细信息。 例如，您可以定义活动并可以将工作人员分配给项目。
 

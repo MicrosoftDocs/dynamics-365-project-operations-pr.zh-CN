@@ -1,6 +1,6 @@
 ---
 title: 报价、定价和记帐基本指南
-description: 本主题提供有关 Project Service Automation 中的基本报价、记帐和定价的信息的链接。
+description: 本文提供有关 Project Service Automation 中的基本报价、记帐和定价的信息的链接。
 author: kfend
 ms.custom:
 - dyn365-projectservice
@@ -17,12 +17,12 @@ search.app:
 - D365PS
 - ProjectOperations
 ms.reviewer: johnmichalak
-ms.openlocfilehash: 119fa9941a1f06108950e1ea1c08f84988530373
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: 19b149e3cf9ee9c14af591968bc2afeb56a0abd4
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8592221"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8910779"
 ---
 # <a name="basic-guide-to-quoting-pricing-and-billing"></a>报价、定价和记帐的基本指南
 
@@ -32,7 +32,7 @@ ms.locfileid: "8592221"
 
 在正确的时间找到适合的资源，为项目预订这些资源，以及保持利用资源的能力可帮助组织达成收入目标和客户满意度目标。 
 
-已删除了此主题中以前的 PDF 链接，并将内容移到了以下主题：
+已删除了本文中以前的 PDF 链接，并将内容移到了以下文章：
 
 - [报价、定价和记帐](../quote-bill-price.md)
 - [销售流程](../basic-sales-process.md)
@@ -50,7 +50,7 @@ ms.locfileid: "8592221"
 - [记录实际值](../advanced-actuals.md)
 
 > [!NOTE]
-> 此主题会在未来的文档更新中删除。 
+> 本文会在未来的文档更新中删除。 
 
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -1,17 +1,17 @@
 ---
 title: Project Operations 中的分包合同管理
-description: 本主题概述了通常在基于项目的组织中的端到端分包合同管理流程。
+description: 本文概述了通常在基于项目的组织中使用的端到端分包合同管理流程。
 author: rumant
 ms.date: 08/02/2021
 ms.topic: overview
 ms.reviewer: johnmichalak
 ms.author: rumant
-ms.openlocfilehash: d595e948b7be9a6822827f4841e737d3c0e1476b
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: 8f5e025b5f741935494349fb1bdfd3a19bacb5e1
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8593003"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8911493"
 ---
 # <a name="subcontract-management-in-project-operations"></a>Project Operations 中的分包合同管理
 
@@ -19,7 +19,7 @@ ms.locfileid: "8593003"
 
 _**适用于：** 精简部署 - 估价交易开票_
 
-本主题概述了基于项目的组织中的端到端分包合同管理流程。 服务的分包通常采用下图中显示的业务流程。
+本文概述了在基于项目的组织中使用的端到端分包合同管理流程。 服务的分包通常采用下图中显示的业务流程。
 
 ![分包流程](../media/SubcontractingProcessFlow.png)
 

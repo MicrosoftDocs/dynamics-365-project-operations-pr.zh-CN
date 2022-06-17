@@ -1,17 +1,17 @@
 ---
 title: 记录分包组件的时间、支出和材料使用情况
-description: 本主题说明 Microsoft Dynamics 365 Project Operations 如何跟踪分包组件项目中记录的时间、费用和材料使用情况。
+description: 本文说明 Microsoft Dynamics 365 Project Operations 如何跟踪分包组件项目中记录的时间、费用和材料使用情况。
 author: rumant
 ms.date: 12/03/2021
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: rumant
-ms.openlocfilehash: 5a31b4a1092cc4829cbfc789e8b8e30030b2826b
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: 1c05b941fb51c8b56422e3b5d3868c9b69197187
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8599213"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8927639"
 ---
 # <a name="recording-time-expenses-and-material-usage-on-projects-for-subcontracted-components"></a>记录分包组件项目中的时间、支出和材料使用情况
 
@@ -19,7 +19,7 @@ ms.locfileid: "8599213"
 
 _**适用于：** 精简部署 - 估价交易开票_
 
-本主题说明 Microsoft Dynamics 365 Project Operations 如何跟踪分包组件项目中记录的时间、费用和材料使用情况。
+本文说明 Microsoft Dynamics 365 Project Operations 如何跟踪分包组件项目中记录的时间、费用和材料使用情况。
 
 ## <a name="costing-for-subcontractor-time-on-projects"></a>分包商项目时间成本估算
 在 Project Operations 中，合同工可以像员工一样记录项目时间。 当输入项目和/或项目任务的时间时，合同工可以选择特定的分包合同和分包合同子项。

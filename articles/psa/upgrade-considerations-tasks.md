@@ -1,6 +1,6 @@
 ---
 title: 工作分解结构的升级注意事项
-description: 此主题介绍如何将工作分解结构从 Project Service Automation 2.x 升级到 3.x。
+description: 本文介绍如何将工作分解结构从 Project Service Automation 2.x 升级到 3.x。
 ms.custom:
 - dyn365-projectservice
 ms.date: 10/18/2019
@@ -17,18 +17,18 @@ search.app:
 - D365PS
 - ProjectOperations
 ms.reviewer: johnmichalak
-ms.openlocfilehash: 13ad93d5be3c0ab07c81db28d3e13561e9d40017
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: 42bf03b5e3be4b7bdce87148254ce69e381ffdf1
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8599719"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8913103"
 ---
 # <a name="upgrade-considerations-for-the-work-breakdown-structure"></a>工作分解结构的升级注意事项
 
 [!include [banner](../includes/psa-now-project-operations.md)]
 
-此主题介绍如何将工作分解结构从 Project Service Automation 2.x 升级到 3.x。 此主题定义 Project Service Automation (PSA) 中要成功升级需要的项目健康状态。 以及有关将导致升级失败的一般阻碍情况的信息。 有关在项目计划内定义项目任务及其职能的详细信息，请参阅[项目计划](project-creating.md)。
+本文介绍如何将工作分解结构从 Project Service Automation 2.x 升级到 3.x。 本文定义 Project Service Automation (PSA) 中要成功升级需要的项目健康状态。 以及有关将导致升级失败的一般阻碍情况的信息。 有关在项目计划内定义项目任务及其职能的详细信息，请参阅[项目计划](project-creating.md)。
 
 ## <a name="key-entities"></a>关键实体
 对于已经使用资源加载的准确工作分解结构，需要以下实体：

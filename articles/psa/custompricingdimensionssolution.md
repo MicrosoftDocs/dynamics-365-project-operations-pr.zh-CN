@@ -1,6 +1,6 @@
 ---
 title: 为定价维度创建自定义解决方案
-description: 此主题说明如何在创建自定义定价维度时创建自定义解决方案。
+description: 本文介绍如何在创建自定义定价维度时创建自定义解决方案。
 author: Rumant
 ms.custom:
 - dyn365-projectservice
@@ -16,12 +16,12 @@ search.app:
 - D365PS
 - ProjectOperations
 ms.reviewer: johnmichalak
-ms.openlocfilehash: 7a15c5fc45ada4394dcb8e3dc2b477cb2a0bb8c6
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: 0df6728634b169c8a1a128aba1555d79fee5719f
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8592267"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8929019"
 ---
 # <a name="create-custom-solutions-for-pricing-dimensions"></a>为定价维度创建自定义解决方案
 

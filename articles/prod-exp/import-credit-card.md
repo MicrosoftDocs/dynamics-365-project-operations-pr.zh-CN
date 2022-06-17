@@ -1,6 +1,6 @@
 ---
 title: 导入和维护信用卡交易记录
-description: 此主题介绍如何导入和维护与支出相关的信用卡交易记录。 这些交易记录可以设置为对重复执行的计划自动导入或根据需要手动导入。
+description: 本文说明如何导入和维护与费用相关的信用卡交易记录。 这些交易记录可以设置为对重复执行的计划自动导入或根据需要手动导入。
 author: KimANelson
 ms.date: 01/12/2018
 ms.topic: article
@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: suvaidya
 ms.dyn365.ops.version: Version 1611
 ms.search.validFrom: 2016-11-30
-ms.openlocfilehash: bd7ca997e18bf3c11fa188b603c899cc470df035
-ms.sourcegitcommit: 2c2a5a11d446adec2f21030ab77a053d7e2da28e
+ms.openlocfilehash: 44aac1db60ef8f0e3f25612d03b46520dd09ee9e
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/04/2022
-ms.locfileid: "8683757"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8916783"
 ---
 # <a name="import-and-maintain-credit-card-transactions"></a>导入和维护信用卡交易记录
 

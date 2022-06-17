@@ -1,17 +1,17 @@
 ---
 title: 技能和认证
-description: 此主题提供有关向资源添加技能和认证特征的信息。
+description: 本文提供有关向资源添加技能和认证特征的信息。
 author: ruhercul
 ms.date: 10/01/2020
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: ruhercul
-ms.openlocfilehash: 836784bf45ba45da35d685e9372b29bb843a7268
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: 12871964fec536849c55888f0704725b439dd2af
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8594245"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8918348"
 ---
 # <a name="skills-and-certifications"></a>技能和认证
 _**适用于：** 基于资源/非库存场景的 Project Operations，精简部署 - 估价开票交易_

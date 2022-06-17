@@ -1,17 +1,17 @@
 ---
 title: 复制价目表
-description: 此主题提供有关如何在 Project Operations 中复制价目表的信息。
+description: 本文提供有关如何在 Project Operations 中复制价目表的信息。
 author: rumant
 ms.date: 10/13/2020
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: rumant
-ms.openlocfilehash: e5d6e46af2eef47246b677494fd3503c838560d1
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: 3fce3a362fe6326e362c3f77054c10281a9c146c
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8587943"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8921153"
 ---
 # <a name="copy-price-lists"></a>复制价目表
 

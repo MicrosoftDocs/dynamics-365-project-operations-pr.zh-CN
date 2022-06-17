@@ -1,6 +1,6 @@
 ---
 title: 审阅项目和项目合同的开票积压
-description: 此主题介绍如何审阅时间、支出和产品积压，以及如何将其标记为可开票。
+description: 本文介绍如何审阅时间、支出和产品积压，以及如何将其标记为可开票。
 author: rumant
 ms.custom: ''
 ms.author: rumant
@@ -15,12 +15,12 @@ search.app:
 - D365PS
 - ProjectOperations
 ms.reviewer: johnmichalak
-ms.openlocfilehash: 51a7ecfefcc20544f5be378a347e3568285cafb3
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: 833ace7fd6285191f4b023a029286cd36b5de8f4
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8600547"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8928881"
 ---
 # <a name="review-the-invoicing-backlog-on-projects-and-project-contracts"></a>审阅项目和项目合同的开票积压
 
@@ -28,7 +28,7 @@ ms.locfileid: "8600547"
 
 [!INCLUDE[cc-applies-to-psa-app-3.x](../includes/cc-applies-to-psa-app-3x.md)]
 
-当交易准备就绪，可以创建和处理发票时，应该将该交易标记为 **可开票**。 此主题介绍可创建的交易类型。
+当交易准备就绪，可以创建和处理发票时，应该将该交易标记为 **可开票**。 本文介绍可创建的交易类型。
 
 ## <a name="review-the-time-and-material-billing-backlog"></a>审阅时间和材料记帐积压
 

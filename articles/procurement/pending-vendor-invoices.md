@@ -1,18 +1,18 @@
 ---
 title: 使用待定供应商发票采购非库存材料或采购类别
-description: 本主题说明如何记录待定供应商发票。
+description: 本文介绍如何记录待定供应商发票。
 author: sigitac
 ms.date: 09/13/2021
 ms.topic: article
 ms.prod: ''
 ms.reviewer: johnmichalak
 ms.author: sigitac
-ms.openlocfilehash: e81f7a54e304ae6fc9a9f2637124579b6e7b54e9
-ms.sourcegitcommit: 9916f536a71b6a0078297402564ac79308ec6890
+ms.openlocfilehash: b1c05755f6759e90e031a11261f15a2c4b6b716e
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/18/2022
-ms.locfileid: "8612646"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8921981"
 ---
 # <a name="purchase-non-stocked-materials-or-procurement-categories-using-a-pending-vendor-invoice"></a>使用待定供应商发票采购非库存材料或采购类别
 
@@ -23,7 +23,7 @@ _**适用于：** 面向资源/非库存场景的 Project Operations_
 例如，Contoso Robotics US 正在执行设备续订项目，并且需要软件许可证。 这些许可证是从第三方供应商购买的。  使用 Dynamics 365 Finance，应付帐款职员记录待定的供应商发票文档，并将许可证成本直接划归到设备续订项目。 
 
 > [!IMPORTANT]
-> 在使用本主题所述的功能之前，请查看并应用所需的配置。 有关详细信息，请参阅[启用非库存材料以及待定供应商发票](configure-materials-nonstocked.md)和[将采购类别用于项目采购订单和待定供应商发票](configure-procurement-categories.md)
+> 在使用本文中描述的功能之前，请查看并应用所需的配置。 有关详细信息，请参阅[启用非库存材料以及待定供应商发票](configure-materials-nonstocked.md)和[将采购类别用于项目采购订单和待定供应商发票](configure-procurement-categories.md)
 
 ## <a name="post-a-project-related-pending-vendor-invoice"></a>过帐与项目相关的待定供应商发票 
 

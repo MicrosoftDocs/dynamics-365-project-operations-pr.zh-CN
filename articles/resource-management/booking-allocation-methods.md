@@ -1,6 +1,6 @@
 ---
 title: 预订分配方法
-description: 此主题提供预订分配方法在 Project Operations 中如何工作的信息。
+description: 本文提供有关预订分配方法如何在 Project Operations 中工作的信息。
 author: ruhercul
 ms.date: 09/23/2020
 ms.topic: article
@@ -15,18 +15,18 @@ ms.search.industry: Service industries
 ms.author: ruhercul
 ms.dyn365.ops.version: ''
 ms.search.validFrom: 2020-10-01
-ms.openlocfilehash: db3cb98227343465af1cf6a447ec9c5d6bdd13ff
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: 55bf54ada3150bb42d1d47046ddc7e3a1fd8d192
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8583021"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8912689"
 ---
 # <a name="booking-allocation-methods"></a>预订分配方法
 
 _**适用于：** 基于资源/非库存场景的 Project Operations，精简部署 - 估价开票交易_
 
-不论您是在 **团队** 选项卡上将团队成员直接添加到项目，还是从日程安排板为项目或要求预订资源，都有一些不同的预订分配方法可供您使用。 此主题说明每个方法如何工作，以及哪些方法可能导致超额预订资源。
+不论您是在 **团队** 选项卡上将团队成员直接添加到项目，还是从日程安排板为项目或要求预订资源，都有一些不同的预订分配方法可供您使用。 本文说明每个方法如何工作，以及哪些方法可能导致超额预订资源。
 
 ## <a name="booking-allocation-methods"></a>预订分配方法
 

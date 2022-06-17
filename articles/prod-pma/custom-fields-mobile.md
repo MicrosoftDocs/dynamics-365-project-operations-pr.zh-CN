@@ -1,6 +1,6 @@
 ---
 title: 为 iOS 和 Android 上的 Microsoft Dynamics 365 Project Timesheet 移动应用实施自定义字段
-description: 本主题提供有关使用扩展实施自定义字段的常见模式。
+description: 本文提供有关使用扩展实施自定义字段的常见模式。
 author: Yowelle
 ms.date: 05/29/2019
 ms.topic: article
@@ -15,18 +15,18 @@ ms.search.industry: Service industries
 ms.author: andchoi
 ms.dyn365.ops.version: 10.0.3
 ms.search.validFrom: 2019-05-29
-ms.openlocfilehash: 79ef62d6911b393248536e4cc73475f6c35a22e2
-ms.sourcegitcommit: 2c2a5a11d446adec2f21030ab77a053d7e2da28e
+ms.openlocfilehash: 03b79d58d1f91e07034b8c9efb408e6d7a9c29a8
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/04/2022
-ms.locfileid: "8682742"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8913701"
 ---
 # <a name="implement-custom-fields-for-the-microsoft-dynamics-365-project-timesheet-mobile-app-on-ios-and-android"></a>为 iOS 和 Android 上的 Microsoft Dynamics 365 Project Timesheet 移动应用实施自定义字段
 
 [!include [banner](../includes/banner.md)]
 
-本主题提供有关使用扩展实施自定义字段的常见模式。 包括以下主题：
+本文提供有关使用扩展实施自定义字段的常见模式。 包括以下文章：
 
 - 自定义字段框架支持的各种数据类型
 - 如何在工时表条目中显示只读或可编辑字段和如何将用户提供的值保存回数据库
@@ -35,7 +35,7 @@ ms.locfileid: "8682742"
 
 ## <a name="audience"></a>受众
 
-本主题面向要将自定义字段集成到适用于 Apple iOS 和 Google Android 的 Microsoft Dynamics 365 Project Timesheet 移动应用程序的开发人员。 假设读者熟悉 X++ 开发和项目工时单功能。
+本文面向要将自定义字段集成到适用于 Apple iOS 和 Google Android 的 Microsoft Dynamics 365 Project Timesheet 移动应用程序的开发人员。 假设读者熟悉 X++ 开发和项目工时单功能。
 
 ## <a name="data-contract--tstimesheetcustomfield-x-class"></a>数据合同 – TSTimesheetCustomField X++ 类
 
@@ -64,7 +64,7 @@ ms.locfileid: "8682742"
 
 - 如果在 **TSTimesheetCustomField** 对象中提供 **stringOptions** 属性，这些列表元素仅为用户可使用选项按钮（单选按钮）选择的值。
 
-    在这种情况下，字符串字段可以充当供用户输入的枚举值。 若要将值作为枚举保存到数据库，请在保存到数据库之前，通过使用命令链手动将字符串值映射回枚举（有关示例，请参阅本主题后面的“对 TSTimesheetEntryService 使用命令链将工时单条目从应用保存回数据库”部分）。
+    在这种情况下，字符串字段可以充当供用户输入的枚举值。 若要将值作为枚举保存到数据库，请在保存到数据库之前，通过使用命令链手动将字符串值映射回枚举（有关示例，请参阅本文后面的“对 TSTimesheetEntryService 使用命令链将工时单条目从应用保存回数据库”一节）。
 
 ### <a name="fieldextendedtype-tscustomfieldextendedtype"></a>fieldExtendedType (TSCustomFieldExtendedType)
 
@@ -106,7 +106,7 @@ ms.locfileid: "8682742"
 
 ### <a name="stringoptions-list-of-strings"></a>stringOptions（字符串列表）
 
-仅当 **fieldBaseType** 设置为 **字符串** 时，此属性才适用。 如果设置 **stringOptions**，则由列表中的字符串指定可通过选项按钮（单选按钮）选择的字符串值。 如果不提供字符串，则允许字符串字段中的自由文本条目（有关示例，请参阅本主题后面的“对 TSTimesheetEntryService 使用命令链将工时单条目从应用保存回数据库”部分）。
+仅当 **fieldBaseType** 设置为 **字符串** 时，此属性才适用。 如果设置 **stringOptions**，则由列表中的字符串指定可通过选项按钮（单选按钮）选择的字符串值。 如果不提供字符串，则允许字符串字段中的自由文本条目（有关示例，请参阅本文后面的“对 TSTimesheetEntryService 使用命令链将工时单条目从应用保存回数据库”一节）。
 
 ### <a name="stringlength-int"></a>stringLength（整数）
 

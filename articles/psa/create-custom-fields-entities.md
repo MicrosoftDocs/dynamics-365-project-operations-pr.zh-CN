@@ -1,6 +1,6 @@
 ---
 title: 创建自定义字段和实体
-description: 此主题介绍在 Power Apps 平台中如何在自己的解决方案内创建选项集和实体。
+description: 本文介绍在 Power Apps 平台中如何在自己的解决方案内创建选项集和实体。
 author: Rumant
 ms.custom:
 - dyn365-projectservice
@@ -16,19 +16,19 @@ search.app:
 - D365PS
 - ProjectOperations
 ms.reviewer: johnmichalak
-ms.openlocfilehash: d2fbe6a4061a93ac3186bbc8624bf5d16209cdf9
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: 3b6f675d604f3b6a6f2465c413ceff3d16815e12
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8574373"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8926903"
 ---
 # <a name="create-custom-fields-and-entities"></a>创建自定义字段和实体 
 
 [!include [banner](../includes/psa-now-project-operations.md)]
 
 如果要在 Power Apps 平台中创建自定义选项集或实体，随时可完成以下步骤。  
-此主题中的过程应使用 Project Service Automation (PSA) 的 Web 界面完成。
+本文中的过程应使用 Project Service Automation (PSA) 的 Web 界面完成。
 
 > [!IMPORTANT]
 > 建议在单独的解决方案中进行所有自定义定价维度更改。 这项重要的最佳实践让您可以在将来灵活地根据需要更新或删除更改，从而可以帮助您重复利用您的工作，并更轻松地将这些更改移植到其他实例中。 进行了所有必需更改之后，将此解决方案作为 **托管解决方案** 导出，然后导入到其他实例中，以便重复利用您的定价设置。

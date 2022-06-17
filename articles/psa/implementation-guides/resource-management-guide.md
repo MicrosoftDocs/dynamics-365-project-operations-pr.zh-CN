@@ -1,6 +1,6 @@
 ---
 title: 资源管理指南
-description: 本主题提供有关 Project Service Automation 中的资源管理的信息的链接
+description: 本文提供有关 Project Service Automation 中的资源管理的信息的链接
 author: kfend
 ms.custom:
 - dyn365-projectservice
@@ -17,12 +17,12 @@ search.app:
 - D365PS
 - ProjectOperations
 ms.reviewer: johnmichalak
-ms.openlocfilehash: 630f77060caa84d9941c0552c54412d7a235a4f2
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: 6b4506bbc0a7cbdd78b3f9b37f1a7f1b258f6500
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8595441"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8910761"
 ---
 # <a name="resource-management-guide"></a>资源管理指南
 
@@ -30,7 +30,7 @@ ms.locfileid: "8595441"
 
 [!INCLUDE[cc-applies-to-psa-app-3.x](../../includes/cc-applies-to-psa-app-3x.md)]
 
-已删除了此主题中以前的 PDF 链接，并将内容移到了以下主题：
+已删除了本文中以前的 PDF 链接，并将内容移到了以下文章：
 
 - [资源管理主页](../resource-management-home-page.md)
 - [关键概念](../reports-key-concepts.md)
@@ -42,7 +42,7 @@ ms.locfileid: "8595441"
 - [资源管理常见问题](../resource-management-faq.md)
 
 > [!NOTE]
-> 此主题会在未来的文档更新中删除。 
+> 本文会在未来的文档更新中删除。 
 
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

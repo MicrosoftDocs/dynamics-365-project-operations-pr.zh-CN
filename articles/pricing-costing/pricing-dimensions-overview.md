@@ -1,18 +1,18 @@
 ---
 title: 定价维度概述
-description: 本主题提供有关 Dynamics 365 Project Operations 中定价维度的信息。
+description: 本文介绍 Dynamics 365 Project Operations 中的定价维度。
 author: rumant
 ms.date: 11/30/2020
 ms.topic: overview
 ms.prod: ''
 ms.reviewer: johnmichalak
 ms.author: rumant
-ms.openlocfilehash: 5f1fa83b52c3812f26e3ab75a8b08ebd40d82aa8
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: 294dcff8e9717aaa3a0459daf87cb7d608c96106
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8579204"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8918025"
 ---
 # <a name="pricing-dimensions-overview"></a>定价维度概述
 
@@ -34,7 +34,7 @@ Dynamics 365 Project Operations 随附了一组默认定价维度。 可通过�
 
 ![“适用于销售”已突出显示的 Project Service 参数的屏幕截图。](media/PS-OOB-parameters.png)
 
-如果需要使用更多属性制订资源的价格或成本，可以创建自定义的字段、实体和维度。 有关详细信息，请参阅以下文主题。 
+如果需要使用更多属性制订资源的价格或成本，可以创建自定义的字段、实体和维度。 有关详细信息，请参阅以下文章。 
   
   > [!NOTE]
   > 必须按列出的顺序完成这些步骤。

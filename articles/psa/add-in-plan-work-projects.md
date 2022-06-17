@@ -1,6 +1,6 @@
 ---
 title: 在 Microsoft Project 中使用 Project Service 加载项计划工作
-description: 此主题介绍如何在 Microsoft Project Service 中使用 Microsoft Project 加载项。
+description: 本文介绍如何在 Microsoft Project Service 中添加、配置和使用 Microsoft Project 加载项。
 author: ruhercul
 ms.custom:
 - dyn365-projectservice
@@ -17,12 +17,12 @@ search.app:
 - D365PS
 - ProjectOperations
 ms.reviewer: johnmichalak
-ms.openlocfilehash: 1b1c9861f2a3fbb62b29ccad272dab28dc766439
-ms.sourcegitcommit: 30242d7754bca300b594b0887eb4212d10bea1c4
+ms.openlocfilehash: 779d83a896dd7d92c6584e6f1c57b1ea567e9051
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/07/2022
-ms.locfileid: "8727993"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8910987"
 ---
 # <a name="plan-your-work-in-microsoft-project-with-the-project-service-add-in"></a>在 Microsoft Project 中使用 Project Service 加载项计划工作
 

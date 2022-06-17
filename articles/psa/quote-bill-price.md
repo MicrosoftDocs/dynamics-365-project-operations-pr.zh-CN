@@ -1,6 +1,6 @@
 ---
 title: 报价、定价和记帐主页
-description: 本主题提供有关报价、定价和记帐的信息。
+description: 本文提供有关报价、定价和记帐的信息。
 author: rumant
 ms.author: rumant
 ms.custom:
@@ -18,12 +18,12 @@ search.app:
 - D365PS
 - ProjectOperations
 ms.reviewer: johnmichalak
-ms.openlocfilehash: 09be2e3ed2bb17374f5d5151abf4ce7e5e2530a1
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: ef63d48703059bac8cadf3b12ecb025ae103d44d
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8581089"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8926719"
 ---
 # <a name="quoting-pricing-and-billing-home-page"></a>报价、定价和记帐主页
 
@@ -33,7 +33,7 @@ ms.locfileid: "8581089"
 
 报价、定价和记帐是小型和大型组织使用的功能。 了解这些功能在应用程序中的工作方式之后，组织可以更轻松地自定义配置。
 
-以下主题提供有关 PSA 中的报价、定价和记帐功能的详细信息：
+以下文章提供有关 PSA 中的报价、定价和记帐功能的详细信息：
 
 - [销售流程](basic-sales-process.md)
 - [报价单明细](basic-quote-lines.md)

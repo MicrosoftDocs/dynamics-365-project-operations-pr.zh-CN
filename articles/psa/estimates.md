@@ -1,6 +1,6 @@
 ---
-title: 估算
-description: 本主题提供有关 Dynamics 365 Project Service Automation 中的估算的信息。
+title: 估计值
+description: 本文提供有关 Dynamics 365 Project Service Automation 中的估算的信息。
 author: rumant
 ms.custom:
 - dyn365-projectservice
@@ -17,14 +17,14 @@ search.app:
 - D365PS
 - ProjectOperations
 ms.reviewer: johnmichalak
-ms.openlocfilehash: 978af25fb89feb61e3c6fcfeafa212db034ff5cb
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: fdd8fa033131500956249b1bdabc135b5057bbc1
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8590657"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8920509"
 ---
-# <a name="estimates"></a>估算
+# <a name="estimates"></a>估计值
 
 [!include [banner](../includes/psa-now-project-operations.md)]
 

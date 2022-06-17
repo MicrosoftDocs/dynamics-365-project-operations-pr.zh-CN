@@ -1,24 +1,24 @@
 ---
 title: 2022 年 5 月新增功能 - 基于资源/非库存场景的 Project Operations
-description: 本主题提供有关 2022 年 5 月版基于资源/非库存场景的 Microsoft Dynamics 365 Project Operations 中可用的质量更新的信息。
+description: 本文提供有关 2022 年 5 月版基于资源/非库存场景的 Microsoft Dynamics 365 Project Operations 中可用的质量更新的信息。
 author: sigitac
 ms.date: 05/02/2022
 ms.topic: article
 ms.prod: ''
 ms.reviewer: johnmichalak
 ms.author: sigitac
-ms.openlocfilehash: d3ac63f0d33d36cc5b6d4cea3ab8167e5974cfe6
-ms.sourcegitcommit: 7e419a5f73f80fa887084e3b212c90586fc397dd
+ms.openlocfilehash: beb75fc4b721d52cddbdaf2d20194218cefced5e
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/05/2022
-ms.locfileid: "8709957"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8921383"
 ---
 # <a name="whats-new-may-2022---project-operations-for-resourcenon-stocked-based-scenarios"></a>2022 年 5 月新增功能 - 基于资源/非库存场景的 Project Operations
 
 _**适用于：** 面向资源/非库存场景的 Project Operations_
 
-本主题适用于以下 Microsoft Dynamics 365 Project Operations 组件和版本：
+本文适用于以下 Microsoft Dynamics 365 Project Operations 组件和版本：
 
 - Dataverse 环境中的 Project Operations 版本 4.42.0.70
 - Dynamics 365 Finance 环境中的项目管理和会计版本 10.0.26

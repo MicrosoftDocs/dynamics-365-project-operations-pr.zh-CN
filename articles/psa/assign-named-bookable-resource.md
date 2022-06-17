@@ -1,6 +1,6 @@
 ---
 title: 为项目团队预订指定的可预订资源和分派任务
-description: 本主题介绍如何为项目团队预订指定资源和将其分派给任务。
+description: 本文介绍如何为项目团队预订指定资源和将其分派给任务。
 author: JohnPBurrows
 ms.custom:
 - dyn365-projectservice
@@ -17,12 +17,12 @@ search.app:
 - D365PS
 - ProjectOperations
 ms.reviewer: johnmichalak
-ms.openlocfilehash: cdbcd84d2277ba1c8e68270d5b1f8ca45c17f05e
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: 61c9b47088e836c0a9c78477adf891df3d14853b
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8575339"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8919313"
 ---
 # <a name="book-named-bookable-resources-to-a-project-team-and-assign-tasks"></a>为项目团队预订指定的可预订资源和分派任务 
 

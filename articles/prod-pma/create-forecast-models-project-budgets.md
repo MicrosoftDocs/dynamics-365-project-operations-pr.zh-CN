@@ -1,6 +1,6 @@
 ---
 title: 创建项目预算的预测模型
-description: 本主题描述如何为剩余预算创建预测模型。
+description: 本文描述如何为剩余预算创建预测模型。
 author: Yowelle
 ms.date: 04/24/2020
 ms.topic: article
@@ -15,18 +15,18 @@ ms.search.industry: Service industries
 ms.author: andchoi
 ms.dyn365.ops.version: 7
 ms.search.validFrom: 2019-01-15
-ms.openlocfilehash: 992dd74524ae6a7c329612a125d60bebfcbe7dd2
-ms.sourcegitcommit: 2c2a5a11d446adec2f21030ab77a053d7e2da28e
+ms.openlocfilehash: e6b1419c41124d2062595f7346efb7538e50ee33
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/04/2022
-ms.locfileid: "8683619"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8916691"
 ---
 # <a name="create-forecast-models-for-project-budgets"></a>创建项目预算的预测模型 
 
 [!include [banner](../includes/banner.md)]
 
-本主题描述如何为剩余预算创建预测模型。 受预算控制的项目使用两种类型的预算：原始预算和剩余预算。 创建项目预算时，必须指定在 **预测模型** 页面中创建的原始和剩余预算预测模型。 当您提交项目预算时，创建基于指定模型的项目预算。
+本文描述如何为剩余预算创建预测模型。 受预算控制的项目使用两种类型的预算：原始预算和剩余预算。 创建项目预算时，必须指定在 **预测模型** 页面中创建的原始和剩余预算预测模型。 当您提交项目预算时，创建基于指定模型的项目预算。
 
 > [!NOTE]
 > 用于预算控制的预测模型不能具有子模型，也不能用作子模型。

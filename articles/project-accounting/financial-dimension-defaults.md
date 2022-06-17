@@ -1,17 +1,17 @@
 ---
 title: 财务维度默认值
-description: 此主题提供有关如何设置财务维度默认值的信息。
+description: 本文提供有关如何设置财务维度默认值的信息。
 author: sigitac
 ms.date: 12/14/2021
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: sigitac
-ms.openlocfilehash: 9f43fed57a1411a55dcd7929f34e87aed136a6b5
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: 10d9e0d739ac1b7681e2e77ec651daf3da8316ff
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8579479"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8931043"
 ---
 # <a name="financial-dimension-defaults"></a>财务维度默认值
 

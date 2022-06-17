@@ -1,6 +1,6 @@
 ---
 title: 将可预订资源用作定价维度
-description: 此主题介绍如何将可预订资源用作定价维度。
+description: 本文介绍如何将可预订资源用作定价维度。
 author: Rumant
 ms.custom:
 - dyn365-projectservice
@@ -16,18 +16,18 @@ search.app:
 - D365PS
 - ProjectOperations
 ms.reviewer: johnmichalak
-ms.openlocfilehash: 7b07ac8659c9eccf3db41775acf5ca2043016a59
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: becb64bb137079422a765dd7cd61369297e1ffb1
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8576397"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8916093"
 ---
 # <a name="use-bookable-resource-as-a-pricing-dimension"></a>将可预订资源用作定价维度
 
 [!include [banner](../includes/psa-now-project-operations.md)]
 
-此主题介绍如何将可预订资源用作定价维度。 首先，如果尚未创建定价维度解决方案，需要新建一个。 如果已经有了定价维度解决方案，则可在该解决方案中进行更改。 如果尚未为组织新建定价维度解决方案，请完成[创建自定义字段和实体](create-custom-fields-entities.md)主题中的过程。
+本文介绍如何将可预订资源用作定价维度。 首先，如果尚未创建定价维度解决方案，需要新建一个。 如果已经有了定价维度解决方案，则可在该解决方案中进行更改。 如果尚未为组织新建定价维度解决方案，请完成[创建自定义字段和实体](create-custom-fields-entities.md)一文中的过程。
 
 ## <a name="add-bookable-resource-to-forms-and-views"></a>向窗体和视图添加可预订资源
 若要在定价维度解决方案的 UI 中显示这些字段，需要浏览关键 Project Service 实体的所有窗体和视图，并将这些字段添加到这些实体的窗体和视图。

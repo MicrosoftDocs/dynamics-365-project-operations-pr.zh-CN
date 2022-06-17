@@ -1,17 +1,17 @@
 ---
 title: 使用里程费率层级设置里程
-description: 本主题提供有关里程费率和里程费率层级的信息。
+description: 本文提供有关里程费率和里程费率层的信息。
 author: suvaidya
 ms.date: 05/20/2021
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: suvaidya
-ms.openlocfilehash: 04dc6d0f2d8c7439012368ab6f46a1f69cb02804
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: 03ca18c8fef6228f2ba553ebe50447beda5a857c
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8576949"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8930123"
 ---
 # <a name="set-up-mileage-using-mileage-rate-tiers"></a>使用里程费率层级设置里程
 

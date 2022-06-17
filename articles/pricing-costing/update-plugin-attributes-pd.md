@@ -1,33 +1,33 @@
 ---
 title: 使用新的定价维度更新插件属性
-description: 此主题介绍如何更新定价维度的插件属性。
+description: 本文介绍如何更新定价维度的插件属性。
 author: rumant
 ms.date: 11/18/2020
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: rumant
-ms.openlocfilehash: b3b441b9ea0418e10db80a86613b2c41ea2c4673
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: 2ae502fea533d9f199ef5ee1cc85b623f08cbd84
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8575017"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8920003"
 ---
 # <a name="update-plug-in-attributes-with-new-pricing-dimensions"></a>使用新的定价维度更新插件属性
 
-此主题介绍如何更新定价维度的插件属性。
+本文介绍如何更新定价维度的插件属性。
 
 > [!NOTE]
-> 此主题仅适用于 Dynamics 365 Project Operations 中的报价单和合同功能。
+> 本文仅适用于 Dynamics 365 Project Operations 中的报价单和合同功能。
 
 ## <a name="prerequisites"></a>先决条件
-在完成本主题中的步骤之前，您必须已完成下列主题中的过程：
+在完成本文中的步骤之前，您必须已完成以下文章中的过程：
 
   - [创建自定义字段和实体](create-custom-fields-entities-pricing-dimensions.md) 
   - [为价格设置和交易实体添加自定义字段](add-custom-fields-price-setup-transactional-entities.md)
   - [将自定义字段设置为定价维度](set-up-custom-fields-pricing-dimensions.md)。 
   
-如果尚未完成这些过程，请完成，然后回到此主题。
+如果尚未完成这些过程，请先完成，然后回到本文。
 
 ## <a name="register-a-plug-in"></a>注册插件
 在项目报价单明细的 **报价单明细** 页上创建报价单明细详细信息时，系统会创建两个估算行。 一个行用于估算的成本端，另一个行用于销售端。 项目合同子项也是一样。

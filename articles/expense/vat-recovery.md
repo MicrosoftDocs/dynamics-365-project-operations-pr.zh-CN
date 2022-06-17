@@ -1,17 +1,17 @@
 ---
 title: 支出管理中的增值税退回
-description: 本主题说明如何在符合条件的增值税 (VAT) 交易中接收退款。
+description: 本文介绍如何接收符合条件的增值税 (VAT) 交易的退税。
 author: suvaidya
 ms.date: 10/10/2020
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: suvaidya
-ms.openlocfilehash: 7c961763d3d670117c5a576db485ebcfdcf9ec9f
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: 1df921bbef4c11c7e07ed38775644117215a50fb
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8581135"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8927915"
 ---
 # <a name="vat-recovery-in-expense-management"></a>支出管理中的增值税退回
 

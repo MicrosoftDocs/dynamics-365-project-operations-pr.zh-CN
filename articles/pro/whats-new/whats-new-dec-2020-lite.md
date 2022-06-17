@@ -1,24 +1,24 @@
 ---
 title: 2020 年 12 月新增功能 - Project Operations 精简部署 - 估价交易开票
-description: 此主题提供有关 2020 年 12 月版本的 Project Operations 精简部署 - 估价交易开票中推出的质量更新的信息。
+description: 本文提供有关 2020 年 12 月版“Project Operations 精简部署 - 估价交易开票”中可用的质量更新的信息。
 author: sigitac
 ms.date: 12/07/2020
 ms.topic: article
 ms.prod: ''
 ms.reviewer: johnmichalak
 ms.author: sigitac
-ms.openlocfilehash: aaaa8827eaee4df86616ab1399d8ed4a869aba77
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: 3c23e13919540913755223634a24802ff3064f10
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8585413"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8924051"
 ---
 # <a name="whats-new-december-2020---project-operations-lite-deployment---deal-to-proforma-invoicing"></a>2020 年 12 月新增功能 - Project Operations 精简部署 - 估价交易开票
 
 _**适用于：** 精简部署 - 估价交易开票_
 
-此主题适用于以下 Dynamics 365 Project Operations 组件和版本：
+本文适用于以下 Dynamics 365 Project Operations 组件和版本：
 
   - Dataverse 环境中的 Project Operations 版本 4.5.0.134 
 

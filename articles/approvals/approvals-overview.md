@@ -1,17 +1,17 @@
 ---
 title: 审批概述
-description: 本主题提供有关在 Project Operations 中使用审批的信息。
+description: 本文提供有关在 Project Operations 中使用审批的信息。
 author: stsporen
 ms.date: 03/31/2021
 ms.topic: overview
 ms.reviewer: johnmichalak
 ms.author: stsporen
-ms.openlocfilehash: 735cd820011a4badb83dbf6540ffe9c49f960ca1
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: d5b5c93dc948992505054ef7b17579aafcdf8f8d
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8576167"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8924695"
 ---
 # <a name="approvals-overview"></a>审批概述
 

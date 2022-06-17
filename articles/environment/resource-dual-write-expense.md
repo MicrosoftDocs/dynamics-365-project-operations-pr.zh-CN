@@ -1,24 +1,24 @@
 ---
 title: 支出管理集成
-description: 本主题提供有关使用双重写入在 Project Operations 中进行支出报表集成的信息。
+description: 本文提供有关使用双写入在 Project Operations 中集成支出报表的信息。
 author: sigitac
 ms.date: 04/28/2021
 ms.topic: article
 ms.prod: ''
 ms.reviewer: johnmichalak
 ms.author: sigitac
-ms.openlocfilehash: b41be519dbfa89668712bc28ccb1888cd08c38a2
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: c64c318dc1915a9a87b6ae3c6b8a2aa6d3c9cd36
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8585781"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8924603"
 ---
 # <a name="expense-management-integration"></a>支出管理集成
 
 _**适用于：** 面向资源/非库存场景的 Project Operations_
 
-本主题提供有关使用双重写入在 Project Operations [全部支出部署](../expense/expense-overview.md)中进行支出报表集成的信息。
+本文提供有关使用双写入在 Project Operations [完整支出部署](../expense/expense-overview.md)中集成支出报表的信息。
 
 ## <a name="expense-categories"></a>支出类别
 

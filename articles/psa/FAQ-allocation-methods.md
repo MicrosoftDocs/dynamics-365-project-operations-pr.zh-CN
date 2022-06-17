@@ -1,6 +1,6 @@
 ---
 title: Project Service Automation 中的预订分配方法
-description: 此主题介绍分配的不同预订方法。
+description: 本文介绍分配的不同预订方法。
 author: ruhercul
 ms.custom:
 - dyn365-projectservice
@@ -17,18 +17,18 @@ search.app:
 - D365PS
 - ProjectOperations
 ms.reviewer: johnmichalak
-ms.openlocfilehash: f0f4f5c68698fbe88de968e65a65b316b10872d9
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: dff11de0726004653233c6b90e194825c3850e0c
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8590105"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8929157"
 ---
 # <a name="booking-allocation-methods-in-project-service-automation"></a>Project Service Automation 中的预订分配方法
 
 [!include [banner](../includes/psa-now-project-operations.md)]
 
-不论您是在 **团队** 选项卡上将团队成员直接添加到项目，还是从日程安排板为项目或要求预订资源，都有一些不同的预订分配方法可供您使用。 此主题说明每个方法如何工作，以及哪些方法可能导致超额预订资源。
+不论您是在 **团队** 选项卡上将团队成员直接添加到项目，还是从日程安排板为项目或要求预订资源，都有一些不同的预订分配方法可供您使用。 本文说明每个方法如何工作，以及哪些方法可能导致超额预订资源。
 
 ## <a name="full-capacity"></a>全产能 
 完全产能方法为指定的起始日期和截止日期预订资源的完全产能。 例如，如果资源将日历设置为每天八小时，每周五天，设置五个工作日的开始日期和结束日期将预订资源 40 小时。 预订不会考虑资源的剩余产能。 如果资源在其他项目的同一期间被预订，40 小时将预订为额外时间，这有可能导致超额预订。

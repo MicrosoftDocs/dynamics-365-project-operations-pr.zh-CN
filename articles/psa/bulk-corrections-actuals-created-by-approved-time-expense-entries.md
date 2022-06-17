@@ -1,6 +1,6 @@
 ---
 title: 批量更正通过批准的时间和支出条目创建的实际值
-description: 此主题解释在账单未完成时，管理员如何对以前批准的时间或支出条目进行单项或批量更正。
+description: 本文介绍在计费未完成的情况下管理员如何对先前批准的时间或支出条目进行单个或批量更正。
 author: rumant
 ms.date: 04/02/2020
 ms.topic: article
@@ -15,12 +15,12 @@ ms.dyn365.ops.version: 7
 ms.search.validFrom: 2019-01-15
 search.app:
 - ProjectOperations
-ms.openlocfilehash: 107ba01f2fd5717e1717824631aeee099d8a8205
-ms.sourcegitcommit: 2c2a5a11d446adec2f21030ab77a053d7e2da28e
+ms.openlocfilehash: 82c9b38e4c79511fe3b6abfcb973fff8b56f1522
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/04/2022
-ms.locfileid: "8683349"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8916278"
 ---
 # <a name="bulk-corrections-of-actuals-created-by-approved-time-and-expense-entries"></a>批量更正通过批准的时间和支出条目创建的实际值
 
@@ -28,7 +28,7 @@ ms.locfileid: "8683349"
 
 有时，可能未正确输入时间或支出条目。 例如，顾问在创建时间条目时可能会选择错误的日期，也可能会在输入支出时转置这些数字。 如果顾问无法更新提交的条目，则管理员可以直接更正项目的条目。
 
-若要完成本主题中的过程，您将需要管理员权限。
+要完成本文中的过程，您需要具有管理员权限。
 
 ## <a name="correct-approved-time-entries"></a>更正已批准的时间条目     
 

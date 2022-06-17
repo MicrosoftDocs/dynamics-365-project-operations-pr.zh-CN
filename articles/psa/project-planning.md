@@ -1,6 +1,6 @@
 ---
 title: 项目规划主页
-description: 此主题介绍项目规划。
+description: 本文介绍项目规划。
 author: ruhercul
 ms.custom:
 - dyn365-projectservice
@@ -18,12 +18,12 @@ search.app:
 - D365PS
 - ProjectOperations
 ms.reviewer: johnmichalak
-ms.openlocfilehash: 4ef893b78ca3a421e22dbbabdce7a0a18d4b9abd
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: f6309a2eecd0f6c7d38f2d88120300eb342be629
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8588128"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8919037"
 ---
 # <a name="project-planning-home-page"></a>项目规划主页
 
@@ -43,7 +43,7 @@ PSA 中的项目管理工具可帮助您轻松运行项目。 内置模板和计
 - 预测管道中的项目的资源要求。
 - 通过跟踪进度和成本消耗成功交付项目。
 
-以下主题提供的信息可帮助项目经理使用 PSA 中支持的工具估算工作，估算项目成本和预测资源要求：
+以下文章提供的信息可帮助项目经理使用 PSA 中支持的工具估算工作，估算项目成本和预测资源要求：
 
 - [制定计划](project-creating.md)
 - [估算项目成本和收入](project-estimating.md)

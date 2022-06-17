@@ -1,6 +1,6 @@
 ---
 title: 固定价格参与中的实际值影响
-description: 本主题提供有关 Microsoft Dynamics 365 Project Operations 中固定价格参与生命周期中各事件的实际值表的影响的信息。
+description: 本文提供有关 Microsoft Dynamics 365 Project Operations 中固定价格参与生命周期中各事件的实际值表的影响的信息。
 author: rumant
 ms.date: 02/22/2022
 ms.topic: overview
@@ -13,12 +13,12 @@ ms.search.region: ''
 ms.search.industry: ''
 ms.author: rumant
 ms.search.validFrom: 2020-10-01
-ms.openlocfilehash: 222e7c5eefd7c619e4d7389cdaff2f96176ff275
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: 50819d77d56935bfe5438d7d9dae99562bcc0b49
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8579217"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8918117"
 ---
 # <a name="actuals-impact-in-a-fixed-price-engagement"></a>固定价格参与中的实际值影响
 

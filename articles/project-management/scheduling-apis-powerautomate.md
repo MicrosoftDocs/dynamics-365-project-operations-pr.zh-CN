@@ -1,25 +1,25 @@
 ---
 title: 通过 Power Automate 使用项目计划 API
-description: 本主题提供了一个使用项目计划应用程序编程接口 (API) 的示例流。
+description: 本文提供了一个使用项目计划应用程序编程接口 (API) 的示例流。
 author: ruhercul
 ms.date: 01/26/2022
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: ruhercul
-ms.openlocfilehash: 9708226b0955cfa6c405b9616c14765f9ebc21f7
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: 2527375ff3f3d631f3bb3de1458abb3b8838db54
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8597695"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8916323"
 ---
 # <a name="use-project-schedule-apis-with-power-automate"></a>通过 Power Automate 使用项目计划 API
 
 _**适用于：** 基于资源/非库存场景的 Project Operations，精简部署 - 估价开票交易_
 
-本主题描述了一个示例流，展示了如何使用 Microsoft Power Automate 创建完整的项目计划、如何创建操作集以及如何更新实体。 示例演示了如何创建项目、项目团队成员、操作集、项目任务和资源分配。。 本主题还解释了如何更新实体和执行操作集。
+本文描述了一个示例流，展示了如何使用 Microsoft Power Automate 创建完整的项目计划、如何创建操作集以及如何更新实体。 示例演示了如何创建项目、项目团队成员、操作集、项目任务和资源分配。。 本文还解释了如何更新实体和执行操作集。
 
-以下是本主题的示例流中记录的步骤的完整列表：
+以下是本文的示例流中记录的步骤的完整列表：
 
 1. [创建 PowerApps 触发器](#1)
 2. [创建项目](#2)
@@ -40,7 +40,7 @@ _**适用于：** 基于资源/非库存场景的 Project Operations，精简部
 
 ## <a name="assumptions"></a>假设
 
-本主题假设您具备 Dataverse 平台、云端流和项目计划应用程序编程接口 (API) 的基本知识。 有关详细信息，请参阅本主题后面的[参考](#references)一节。
+本文假设您具备 Dataverse 平台、云端流和项目计划应用程序编程接口 (API) 的基本知识。 有关详细信息，请参阅本文后面的[参考](#references)一节。
 
 ## <a name="create-a-flow"></a>创建流
 
@@ -65,7 +65,7 @@ _**适用于：** 基于资源/非库存场景的 Project Operations，精简部
 1. 在 **解决方案** 页面上，选择您创建的解决方案，然后选择 **新建**。
 2. 在左侧窗格中，选择 **云端流** \> **自动化** \> **云端流** \> **即时**。
 3. 在 **流名称** 字段中，输入 **计划 API 演示流**。
-4. 在 **选择如何触发此流** 列表中，选择 **Power Apps**。 创建 Power Apps 触发器时，逻辑由您（作者）决定。 在本主题中，将输入参数留空以进行测试。
+4. 在 **选择如何触发此流** 列表中，选择 **Power Apps**。 创建 Power Apps 触发器时，逻辑由您（作者）决定。 在本文中，将输入参数留空以进行测试。
 5. 选择 **创建**。
 
 ## <a name="step-2-create-a-project"></a><a id="2"></a>步骤 2：创建项目

@@ -1,17 +1,17 @@
 ---
 title: 将交易类别用作定价维度
-description: 本主题提供有关如何使用“交易类别”字段作为定价维度的信息。
+description: 本文提供有关如何将交易类别字段用作定价维度的信息。
 author: rumant
 ms.date: 11/05/2020
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: rumant
-ms.openlocfilehash: a7fe9bfc87db992252f8ef3f0f688e7426cafebb
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: 648933299616a683b19bbe2f1231caac779bd1f8
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8591117"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8911683"
 ---
 # <a name="use-transaction-category-as-a-pricing-dimension"></a>将交易类别用作定价维度
 
@@ -19,10 +19,10 @@ ms.locfileid: "8591117"
 _**适用于：** 基于资源/非库存场景的 Project Operations，精简部署 - 估价开票交易_
 
 
-本主题说明了如何将 **交易类别** 字段用作定价维度。 
+本文介绍如何将 **交易类别** 字段用作定价维度。 
 
 ## <a name="prerequisites"></a>先决条件
-在完成本主题中的步骤之前，您必须为组织提供一个新的定价维度解决方案。 如果尚未创建，请参阅[创建自定义字段和实体作为定价维度](create-custom-fields-entities-pricing-dimensions.md)。
+在完成本文中的过程之前，您必须为您的组织创建新的定价维度解决方案。 如果尚未创建，请参阅[创建自定义字段和实体作为定价维度](create-custom-fields-entities-pricing-dimensions.md)。
 
 ## <a name="add-the-transaction-category-field-to-forms-and-views"></a>向窗体和视图添加“交易类别”字段
 若要使 **交易类别** 字段显示在定价维度解决方案中，您需要将此字段作为实体添加到所有窗体和视图中。

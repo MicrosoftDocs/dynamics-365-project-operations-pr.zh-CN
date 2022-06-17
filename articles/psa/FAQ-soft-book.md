@@ -1,6 +1,6 @@
 ---
 title: 软预订资源
-description: 此主题介绍如何暂时计划或软预订项目团队成员。
+description: 本文介绍如何暂时计划或软预订项目团队成员。
 author: ruhercul
 ms.custom:
 - dyn365-projectservice
@@ -11,12 +11,12 @@ audience: Admin
 search.app:
 - ProjectOperations
 ms.reviewer: johnmichalak
-ms.openlocfilehash: 7940409db69259785268778b6f6b0b67f4b2812d
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: 6c666e5c0a83a3d1b440144a62cbd58a58c5db81
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8577961"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8929111"
 ---
 # <a name="soft-book-a-resource"></a>软预订资源
 

@@ -1,24 +1,24 @@
 ---
 title: Project Operations 设置和配置数据集成
-description: 本主题提供有关设置和配置 Project Operations 双重写入映射的信息。
+description: 本文提供有关设置和配置 Project Operations 双写入映射的信息。
 author: sigitac
 ms.date: 4/23/2021
 ms.topic: article
 ms.prod: ''
 ms.reviewer: johnmichalak
 ms.author: sigitac
-ms.openlocfilehash: 1ffa25ff36c39010d6aee31d928c3eaa0086c3d8
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: 173ff01e938af48d2d6488d5e59cf4e74b3af8e4
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8586885"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8914529"
 ---
 # <a name="project-operations-setup-and-configuration-data-integration"></a>Project Operations 设置和配置数据集成
 
 _**适用于：** 面向资源/非库存场景的 Project Operations_
 
-本主题提供有关用于设置和配置实体的 Project Operations 双重写入集成的信息。
+本文提供有关设置和配置实体的 Project Operations 双写入集成的信息。
 
 ## <a name="project-contracts-contract-lines-and-projects"></a>项目合同、合同子项和项目
 

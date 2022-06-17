@@ -1,25 +1,25 @@
 ---
 title: 在“任务”网格中工作故障排除
-description: 本主题提供在“任务”网格中工作时所需的故障排除信息。
+description: 本文提供在任务网格中工作时需要的故障排除信息。
 author: ruhercul
 ms.date: 04/05/2022
 ms.topic: article
 ms.product: ''
 ms.reviewer: johnmichalak
 ms.author: ruhercul
-ms.openlocfilehash: ee80363cf6f9a65a91be43a84434d37f02511f26
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: e6ab4f34fe3f6732f7bef252f298671e07a3c3ca
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8596407"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8911033"
 ---
 # <a name="troubleshoot-working-in-the-task-grid"></a>在“任务”网格中工作故障排除 
 
 
 _**适用于**：基于资源/非库存场景的 Project Operations、精简部署 - 估价交易开单、Project for the Web_
 
-Dynamics 365 Project Operations 利用的“任务”网格是 Microsoft Dataverse 内的托管 iframe。 由于使用了这一项，因此必须满足特定要求，才能确保身份验证和授权能够正常运行。 本主题概述的常见问题可能会影响用于呈现网格或在工作分解结构 (WBS) 中管理任务的功能。
+Dynamics 365 Project Operations 利用的“任务”网格是 Microsoft Dataverse 内的托管 iframe。 由于使用了这一项，因此必须满足特定要求，才能确保身份验证和授权能够正常运行。 本文概述的常见问题可能会影响用于呈现网格或在工作分解结构 (WBS) 中管理任务的功能。
 
 常见问题包括：
 

@@ -1,17 +1,17 @@
 ---
-title: 为保留款或预付款开票
-description: 此主题提供有关如何在 Project Operations 中为保留款或预付款开票的信息。
+title: 对保留款或预付款开票
+description: 本文提供有关如何在 Project Operations 中为保留款或预付款开票的信息。
 author: rumant
 ms.date: 10/20/2020
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: rumant
-ms.openlocfilehash: aa659ebfa6d848f312caa1d197404d77b1f6ee21
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: 044186d5c7759866dec3883103acec19cb571c11
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8590565"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8914437"
 ---
 # <a name="invoice-a-retainer-or-an-advance"></a>对保留款或预付款开票
 

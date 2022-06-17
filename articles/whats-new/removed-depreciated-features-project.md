@@ -1,24 +1,24 @@
 ---
 title: Dynamics 365 Project Operations 中已删除或弃用的功能
-description: 本主题介绍 Dynamics 365 Project Operations 中已经删除或计划删除的功能。
+description: 本文介绍 Dynamics 365 Project Operations 中已经删除或计划删除的功能。
 author: sigitac
 ms.date: 03/16/2022
 ms.topic: article
 ms.prod: ''
 ms.reviewer: johnmichalak
 ms.author: sigitac
-ms.openlocfilehash: 61bb84b94274762636eb8532f09634db1109e969
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: df9d8a40fa853e72416e64846bf59748815048be
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8601559"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8921475"
 ---
 # <a name="removed-or-deprecated-features-in-dynamics-365-project-operations"></a>Dynamics 365 Project Operations 中已删除或弃用的功能
 
 _**适用范围：** 面向资源/非库存场景的 Project Operations，精简部署 - 估价交易开票，以及面向库存/生产订单场景的 Project Operations_
 
-本主题介绍 Dynamics 365 Project Operations 中已经删除或计划删除的功能。
+本文介绍 Dynamics 365 Project Operations 中已经删除或计划删除的功能。
 
 - *已删除* 的功能在产品中已不再可用。
 - *已弃用* 的功能不在活动开发中，可能会在以后的更新中删除。

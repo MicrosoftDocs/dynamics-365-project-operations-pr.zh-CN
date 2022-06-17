@@ -1,18 +1,18 @@
 ---
 title: 设置新环境
-description: 此主题提供有关如何设置新的 Project Operations 环境的信息。
+description: 本文提供有关如何预配新的 Project Operations 环境的信息。
 author: sigitac
 ms.date: 09/13/2021
 ms.topic: article
 ms.prod: ''
 ms.reviewer: johnmichalak
 ms.author: sigitac
-ms.openlocfilehash: 03626cb1579fad7f8d8eb501905056cd13092754
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: 9cc3dafd6a2b6f92b585643c5d43ab52a3faf59e
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8594797"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8931595"
 ---
 # <a name="provision-a-new-environment"></a>设置新环境
 
@@ -20,7 +20,7 @@ _**适用于：** 面向资源/非库存场景的 Project Operations_
 
 
 
-此主题提供有关如何为资源/非库存场景预配新 Dynamics 365 Project Operations 环境的信息。
+本文提供有关如何预配新的“基于资源/非库存场景的 Dynamics 365 Project Operations 环境”的信息。
 
 ## <a name="enable-project-operations-automated-provisioning-in-an-lcs-project"></a>在 LCS 项目中启用 Project Operations 自动设置
 

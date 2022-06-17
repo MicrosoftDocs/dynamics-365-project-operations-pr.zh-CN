@@ -1,17 +1,17 @@
 ---
 title: 分包合同的标题详细信息
-description: 本主题介绍 Project Operations 中分包合同标题内提供的功能。
+description: 本文解释了 Project Operations 中的分包合同标题提供的功能。
 author: rumant
 ms.date: 09/14/2021
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: rumant
-ms.openlocfilehash: fade0ff876486ad60ffd9ad618be7864c1b28185
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: 85649d08228b16178eb8d6be9af5a6731def74bf
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8598155"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8914161"
 ---
 # <a name="header-details-for-subcontracts"></a>分包合同的标题详细信息
 
@@ -19,7 +19,7 @@ ms.locfileid: "8598155"
 
 _**适用于：** 精简部署 - 估价交易开票_
 
-本主题介绍 Dynamics 365 Project Operations 中分包合同标题内提供的功能。
+本文解释了 Dynamics 365 Project Operations 中的分包合同标题提供的功能。
 
 项目经理负责规划和执行项目，因此可能会雇用分包商和向供应商购买产品和服务。 当项目经理需要购买产品或服务时，可以在 Project Operations 中创建分包合同。
 

@@ -1,6 +1,6 @@
 ---
 title: 实际值
-description: 本主题提供有关如何在 Microsoft Dynamics 365 Project Operations 中使用实际值的信息。
+description: 本文提供有关如何在 Microsoft Dynamics 365 Project Operations 中使用实际值的信息。
 author: rumant
 ms.date: 02/22/2022
 ms.topic: overview
@@ -13,12 +13,12 @@ ms.search.region: ''
 ms.search.industry: ''
 ms.author: rumant
 ms.search.validFrom: 2020-10-01
-ms.openlocfilehash: 3f0cb8c478e2ce6fba589d51d95649f53f62e883
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: 2551b7d6d20df170c913e302e734583135265529
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8581273"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8924787"
 ---
 # <a name="actuals"></a>实际值
 
@@ -33,7 +33,7 @@ _**适用于：** 基于资源/非库存场景的 Project Operations，精简部
 
 Project Operations 会将在项目参与生命周期中发生的财务交易记录为实际值。 生命周期中不同事件的实际值创建情况各不相同，具体取决于项目参与是使用时间和材料记帐模型还是固定价格记帐模型，以及是处于售前阶段还是内部项目。
 
-以下主题解释了不同变体的各个事件的实际值表的影响：
+以下文章解释了不同变体的各个事件的实际值表的影响：
 
 - [时间和材料参与中的实际值影响](ActualsonTM.md)
 - [固定价格参与中的实际值影响](ActualonFP.md)

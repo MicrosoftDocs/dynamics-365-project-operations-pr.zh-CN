@@ -1,6 +1,6 @@
 ---
 title: 将自定义字段设置为定价维度
-description: 此主题介绍如何设置自定义定价维度。
+description: 本文介绍如何设置自定义定价维度。
 author: Rumant
 ms.custom:
 - dyn365-projectservice
@@ -16,20 +16,20 @@ search.app:
 - D365PS
 - ProjectOperations
 ms.reviewer: johnmichalak
-ms.openlocfilehash: 91ec6d502a44771e7e03b67cc2be40c527fff355
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: 14d27b53b42744d47e298bf5a926c1262dbf44d4
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8591899"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8922586"
 ---
 # <a name="setting-up-custom-fields-as-pricing-dimensions"></a>将自定义字段设置为定价维度 
 
 [!include [banner](../includes/psa-now-project-operations.md)]
 
-首先，此主题假设您已完成了主题[创建自定义字段和实体](create-custom-fields-entities.md)和[向价格设置和交易实体添加自定义字段](field-references.md)中的过程。 如果尚未完成这些过程，请回去完成，然后回到此主题。 
+首先，本文假设您已完成了文章[创建自定义字段和实体](create-custom-fields-entities.md)和[向价格设置和交易实体添加自定义字段](field-references.md)中的过程。 如果尚未完成这些过程，请回去完成，然后回到本文。 
 
-此主题介绍如何设置自定义定价维度。 Project Service Web 界面中 **参数** 页 **基于金额的定价维度** 选项卡显示定价维度实体中的记录。 默认情况下，安装 Project Service 将在此选项卡上的网格中创建2 行：
+本文介绍如何设置自定义定价维度。 Project Service Web 界面中 **参数** 页 **基于金额的定价维度** 选项卡显示定价维度实体中的记录。 默认情况下，安装 Project Service 将在此选项卡上的网格中创建2 行：
 
 - **msdyn_resourcecategory**（角色）
 - **msdyn_OrganizationalUnit**（部门）

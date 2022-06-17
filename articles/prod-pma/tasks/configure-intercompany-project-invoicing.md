@@ -1,6 +1,6 @@
 ---
 title: 配置内部公司项目开票
-description: 此主题显示如何设置贵组织内部两个公司之间的项目开票。
+description: 本文演示如何设置贵组织内部两个公司之间的项目开票。
 author: Yowelle
 ms.date: 07/29/2019
 ms.topic: business-process
@@ -14,18 +14,18 @@ ms.search.industry: Service industries
 ms.author: andchoi
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: ab0d1eb2806d2e1650faccf3fbb63c63c0fa9e05
-ms.sourcegitcommit: 2c2a5a11d446adec2f21030ab77a053d7e2da28e
+ms.openlocfilehash: 74548a4c30ceb6826e5280948f6829e567bc02e0
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/04/2022
-ms.locfileid: "8683264"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8916599"
 ---
 # <a name="configure-intercompany-project-invoicing"></a>配置内部公司项目开票
 
 [!include [banner](../../includes/banner.md)]
 
-此主题显示如何设置贵组织内部两个公司之间的项目开票。 此任务使用 USSI 数据集。
+本文演示如何设置贵组织内部两个公司之间的项目开票。 此任务使用 USSI 数据集。
 
 1. 在导航窗格中，转到 **模块 > 应付帐款 > 供应商 > 所有供应商**。
 2. 在 **所有供应商** 列表中，找到并选择所需记录。

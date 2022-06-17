@@ -1,6 +1,6 @@
 ---
 title: 将自定义字段设置为定价维度
-description: 此主题提供有关如何使用自定义字段设置定价维度的信息。
+description: 本文提供有关如何使用自定义字段设置定价维度的信息。
 author: rumant
 ms.date: 09/18/2020
 ms.topic: article
@@ -15,20 +15,20 @@ ms.search.industry: Service industries
 ms.author: rumant
 ms.dyn365.ops.version: ''
 ms.search.validFrom: 2020-10-01
-ms.openlocfilehash: 41c65d6bf64d8a81759239f2a31f3a68953181c8
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: 0c0c43e483ebcb016747e533d685f13fd5dd8700
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8599397"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8917565"
 ---
 # <a name="set-up-custom-fields-as-pricing-dimensions"></a>将自定义字段设置为定价维度
 
 _**适用于：** 基于资源/非库存场景的 Project Operations，精简部署 - 估价开票交易_
 
-首先，此主题假设您已完成了主题[创建自定义字段和实体](create-custom-fields-entities-pricing-dimensions.md)和[向价格设置和交易实体添加所需自定义字段](add-custom-fields-price-setup-transactional-entities.md)中的过程。 如果尚未完成这些过程，请回去完成，然后回到此主题。 
+首先，本文假设您已完成了文章[创建自定义字段和实体](create-custom-fields-entities-pricing-dimensions.md)和[向价格设置和交易实体添加必需的自定义字段](add-custom-fields-price-setup-transactional-entities.md)中的过程。 如果尚未完成这些过程，请回去完成，然后回到本文。 
 
-此主题介绍如何设置自定义定价维度。 在 **参数** 页上，**基于金额的定价维度** 选项卡显示定价维度实体中的记录。 默认情况下，此选项卡上的网格中有两行：
+本文介绍如何设置自定义定价维度。 在 **参数** 页上，**基于金额的定价维度** 选项卡显示定价维度实体中的记录。 默认情况下，此选项卡上的网格中有两行：
 
 - **msdyn_resourcecategory**（角色）
 - **msdyn_OrganizationalUnit**（部门）

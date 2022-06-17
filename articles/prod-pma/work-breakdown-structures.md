@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: andchoi
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: f1e69d7cc97e3a7a59bdba387282fe19d12f5780
-ms.sourcegitcommit: 2c2a5a11d446adec2f21030ab77a053d7e2da28e
+ms.openlocfilehash: 7f1a77c6e4e5f0926ff7afe1066f9a0cf7cdfb51
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/04/2022
-ms.locfileid: "8683350"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8920647"
 ---
 # <a name="work-breakdown-structures-overview"></a>工作分解结构概览
 
@@ -35,7 +35,7 @@ WBS 中详细信息的级别取决于评估中需要的准确性等级和这些�
 
 相反，媒体和广告、软件和 IT 基础结构等行业中的项目趋向于独一无二，且工作效率与执行任务的个体的经验和能力相关。 因此，这些行业使用 WBS 获取项目大小的近似值，而不会详细跟踪项目的进程。 
 
-构建 WBS 是一种密集流程，该流程通常需要较长时间才能完成，且需要各种人员的合作和提供信息。 本主题介绍如何使用 WBS 增强功能满足您估计和跟踪的需要。
+构建 WBS 是一种密集流程，该流程通常需要较长时间才能完成，且需要各种人员的合作和提供信息。 本文介绍如何使用 WBS 增强功能满足您估计和跟踪的需要。
 
 ## <a name="prerequisites-for-creating-a-wbs"></a>创建 WBS 的先决条件
 若要创建 WBS，必须能够创建工作计划和估计工作成本。
@@ -166,7 +166,7 @@ Finance 为每个项目的 WBS 提供三个视图：计划视图、工作量跟�
 
 ### <a name="planning-view"></a>计划视图
 
-计划视图显示计划和成本信息的计划或基线估计。 尽管没有跟踪项目 WBS 的版本和基线的功能，此视图中的值旨在表示基线版本。 本主题的计划估计一节和成本估计一节介绍了此视图以及如何用它来创建 WBS。
+计划视图显示计划和成本信息的计划或基线估计。 尽管没有跟踪项目 WBS 的版本和基线的功能，此视图中的值旨在表示基线版本。 本文的计划估算一节和成本估算一节介绍了此视图以及如何用它来创建 WBS。
 
 ### <a name="effort-tracking-view"></a>精力跟踪视图
 

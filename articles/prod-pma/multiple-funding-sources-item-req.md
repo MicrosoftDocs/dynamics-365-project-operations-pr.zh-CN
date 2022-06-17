@@ -1,23 +1,23 @@
 ---
 title: 具有多个资金来源的项目合同的物料要求
-description: 本主题提供有关如何配置和使用具有多个资金来源的物料要求的信息。
+description: 本文提供有关如何配置和使用具有多个资金来源的物料要求的信息。
 author: sigitac
 ms.date: 05/04/2022
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: sigitac
-ms.openlocfilehash: d4af03e02d3c2eb0d442e6213ff5b9cf583d54b3
-ms.sourcegitcommit: 30242d7754bca300b594b0887eb4212d10bea1c4
+ms.openlocfilehash: a54ca1ec5e78d9d0af7b67914f6a63154c7347d3
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/07/2022
-ms.locfileid: "8728102"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8931181"
 ---
 # <a name="item-requirements-for-project-contracts-with-multiple-funding-sources"></a>具有多个资金来源的项目合同的物料要求
 
 _**适用范围：** 面向库存/生产订单场景的 Project Operations_
 
-一些基于项目的可交付结果的合同协议可能需要多个资金来源。 本主题说明在项目或项目合同需要多个资金来源时如何选择和配置所需的资金来源。
+一些基于项目的可交付结果的合同协议可能需要多个资金来源。 本文说明在项目或项目合同需要多个资金来源时如何选择和配置所需的资金来源。
 
 ## <a name="terminology"></a>术语
 

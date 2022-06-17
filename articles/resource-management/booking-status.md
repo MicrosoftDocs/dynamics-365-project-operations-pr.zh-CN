@@ -1,17 +1,17 @@
 ---
 title: 预订状态
-description: 此主题提供一个指向有关如何在 Project Operations 中设置预订状态的信息的链接。
+description: 本文提供了一个指向如何为 Project Operations 设置预订状态的信息的链接。
 author: ruhercul
 ms.date: 11/05/2020
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: ruhercul
-ms.openlocfilehash: b894c55d7e47031ddf77000c954cd8c1769cb1ca
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: d58bf32d9bff3958dfe2345dcced1f3d54956a8e
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8581457"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8918623"
 ---
 # <a name="booking-statuses"></a>预订状态
 

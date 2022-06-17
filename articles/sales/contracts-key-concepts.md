@@ -1,17 +1,17 @@
 ---
 title: 项目合同 - 关键概念
-description: 此主题提供有关 Project Operations 中项目合同的关键概念的信息。
+description: 本文提供有关 Project Operations 中的项目合同关键概念的信息。
 author: rumant
 ms.date: 10/07/2020
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: rumant
-ms.openlocfilehash: f87a29893ca3d9bec6fbd07dded66a282ff597c3
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: 016a5d1defacdc6ba5828ca26395c9123e9323d0
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8582929"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8926213"
 ---
 # <a name="concepts-unique-to-project-based-contracts"></a>基于项目的合同所特有的概念
 
@@ -19,7 +19,7 @@ _**适用于：** 面向资源/非库存场景的 Project Operations_
 
 
 
-本主题提供了在 Dynamics 365 Project Operations 中开始使用项目合同之前要了解的关键概念：
+本文提供开始在 Dynamics 365 Project Operations 中使用项目合同之前需要了解的关键概念：
 
 ## <a name="owning-company"></a>业主公司
 

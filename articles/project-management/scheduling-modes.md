@@ -1,17 +1,17 @@
 ---
 title: 计划模式
-description: 本主题介绍计划模式。
+description: 本文介绍计划模式。
 author: ruhercul
 ms.date: 05/28/2021
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: ruhercul
-ms.openlocfilehash: cb507528c4815f5149c813bba0a354f7d840a4a5
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: 3cbe14f8d458c5d9631e0595912afa8cbb87b9de
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8588403"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8923637"
 ---
 # <a name="scheduling-modes"></a>计划模式
 
@@ -38,7 +38,7 @@ Project Operations 中有三个计划模式：
 | 固定工作量任务    | 将重新计算持续时间。 | 将重新计算单位。    | 将重新计算持续时间。 |
 | 固定持续时间任务  | 将重新计算工作量。   | 将重新计算工作量。    | 将重新计算单位。   |
 
-有关给定模式的影响的详细信息，请参阅[更改任务类型以进行更准确地计划](https://support.microsoft.com/en-us/office/change-the-task-type-for-more-accurate-scheduling-b0b969ad-45bc-4e9e-8967-435587548a72)。 在该主题中，使用的是 **工作** 一词，而不是 **工作量**。
+有关给定模式的影响的详细信息，请参阅[更改任务类型以进行更准确地计划](https://support.microsoft.com/en-us/office/change-the-task-type-for-more-accurate-scheduling-b0b969ad-45bc-4e9e-8967-435587548a72)。 在本文中，使用术语 **工作** 代替 **工作量**。
 
 ## <a name="change-the-organizations-scheduling-mode"></a>更改组织的计划模式
 

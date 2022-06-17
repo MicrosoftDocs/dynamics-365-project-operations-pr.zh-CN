@@ -1,17 +1,17 @@
 ---
 title: 取消项目供应商发票
-description: 本主题说明如何在 Microsoft Dynamics 365 Project Operations 中取消项目供应商发票以及取消项目供应商发票的财务影响。
+description: 本文说明如何在 Microsoft Dynamics 365 Project Operations 中取消项目供应商发票以及取消项目供应商发票的财务影响。
 author: rumant
 ms.date: 03/30/2022
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: rumant
-ms.openlocfilehash: 87f6bdca30c5779e3d70922e75609ff4cdfca167
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: 7ddaadc0f6e336a8ba67bb4ad8000f7e894f3eb0
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8580629"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8911539"
 ---
 # <a name="cancel-a-project-vendor-invoice"></a>取消项目供应商发票
 

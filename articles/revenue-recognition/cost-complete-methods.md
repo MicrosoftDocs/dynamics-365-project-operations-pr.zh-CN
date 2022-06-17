@@ -1,23 +1,23 @@
 ---
 title: 完成成本计算方法
-description: 本主题提供了有关用于计算项目完成成本的方法的信息。
+description: 本文提供有关用于计算完成项目所需成本的方法的信息。
 author: sigitac
 ms.date: 11/16/2020
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: sigitac
-ms.openlocfilehash: 244afa919e5fbc16be8f905acce2e2354c7da974
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: 39c10673afd04ad7d4a94a01211c2f9d335a02c2
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8601651"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8920279"
 ---
 # <a name="cost-to-complete-methods"></a>完成成本计算方法
 
 _**适用于：** 面向资源/非库存场景的 Project Operations_
 
-本主题提供了有关用于计算项目完成成本的方法的信息。 可以使用多种方法来计算完成项目的成本。 
+本文提供有关用于计算完成项目所需成本的方法的信息。 可以使用多种方法来计算完成项目的成本。 
 
 当您为项目创建估算时，可以在 **创建估算** 页上的 **完成成本计算方法** 字段中选择以下一种完成成本计算方法。
 

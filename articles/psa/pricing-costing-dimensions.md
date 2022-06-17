@@ -1,6 +1,6 @@
 ---
 title: 定价和定成本维度主页
-description: 此主题概述定价维度。
+description: 本文概述定价维度。
 author: rumant
 ms.custom:
 - dyn365-projectservice
@@ -17,12 +17,12 @@ search.app:
 - D365PS
 - ProjectOperations
 ms.reviewer: johnmichalak
-ms.openlocfilehash: 7dbee508cea074a8c443506d280a1b52eb698202
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: 88c77d90bccaa5f10e8f75d60ae121d699bc0976
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8593601"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8925431"
 ---
 # <a name="pricing-and-costing-dimensions-home-page"></a>定价和定成本维度主页
 
@@ -47,7 +47,7 @@ PSA 随附了一组默认定价维度。 可通过转到 **Project Service** > *
 > [!IMPORTANT]
 > 如果在 PSA 版本 3 之前已将角色和部门的自带字段用作定价维度，则不存在任何显而易见的更改。 可以继续正常使用 Project Service。 
 
-如果需要使用更多属性制订资源的价格或成本，可以创建自定义的字段、实体和维度。 有关详细信息，请参阅以下主题，但是请注意，必须按照下列顺序完成过程：
+如果需要使用更多属性制订资源的价格或成本，可以创建自定义的字段、实体和维度。 有关详细信息，请参阅以下文章，但是请注意，必须按照下列顺序完成过程：
 
 - [创建自定义字段和实体](create-custom-fields-entities.md)
 - [向价格设置和交易实体添加自定义字段](field-references.md)

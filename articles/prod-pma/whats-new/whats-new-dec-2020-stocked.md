@@ -1,24 +1,24 @@
 ---
 title: 2020 年 12 月新增功能 - 适用于库存/生产订单场景的 Project Operations
-description: 此主题提供有关 2020 年 12 月版本的面向库存/生产订单场景的 Project Operations 中推出的质量更新的信息。
+description: 本文提供有关 2020 年 12 月版基于库存/生产场景的 Project Operations 中可用的质量更新的信息。
 author: Yowelle
 ms.date: 12/11/2020
 ms.topic: article
 ms.prod: ''
 ms.reviewer: johnmichalak
 ms.author: andchoi
-ms.openlocfilehash: 9550cf8fd594585b70d373ecf9eea1b32285e47f
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: e570bf3e7a808afa5d41db0c073045c91e4931d7
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8594935"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8911355"
 ---
 # <a name="whats-new-or-changed-in-project-operations-december-2020-for-stockedproduction-based-scenarios"></a>2020 年 12 月面向库存/生产订单场景的的 Project Operations 的新增功能
 
 _适用范围：面向库存/生产订单场景的 Project Operations_
 
-此主题适用于以下 Dynamics 365 Project Operations 组件和版本：
+本文适用于以下 Dynamics 365 Project Operations 组件和版本：
 
   - Dynamics 365 Finance 环境中的项目管理和会计版本 10.0.15
 

@@ -1,6 +1,6 @@
 ---
 title: 报价单 - 关键概念
-description: 此主题提供 Project Operations 中提供的项目报价单和销售报价单的相关信息。
+description: 本文提供有关 Project Operations 中可用的项目报价单和销售报价单的信息。
 author: rumant
 ms.date: 09/18/2020
 ms.topic: article
@@ -15,12 +15,12 @@ ms.search.industry: Service industries
 ms.author: rumant
 ms.dyn365.ops.version: ''
 ms.search.validFrom: 2020-10-01
-ms.openlocfilehash: fbaed6a0967ce4ef4eec572de9e2a7da95c3cbd9
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: c0598b9ec276741f1f62e0cfc1717a3fd622cd7c
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8579893"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8912505"
 ---
 # <a name="concepts-unique-to-project-based-quotes"></a>基于项目的报价单所特有的概念
 
@@ -35,7 +35,7 @@ _**适用于：** 基于资源/非库存场景的 Project Operations，精简部
 - **字段和概念**：项目报价单中不包含项目报价单中包含的一些字段和概念。 这些字段包括 **合同签订部门**、**客户经理** 和 **帐单邮寄地址联系人姓名**。  
 - **类型**：还可以通过基于选项集的字段 **类型** 来识别销售报价单和项目报价单。 对于销售报价单，此字段的值为 **基于物料**。 对于项目报价单，其值为 **基于工作**。
 
-此主题主要介绍项目报价单的详细信息。
+本文主要介绍项目报价单的详细信息。
 
 Project Operations 中的项目报价单可以包含多个明细项或报价单明细。 实际上，项目报价单有两个明细项网格。 一个网格针对基于项目且可用于执行更详细估算的明细。 另一个网格针对基于产品且使用简单单价和基于数量的方法的明细。
 

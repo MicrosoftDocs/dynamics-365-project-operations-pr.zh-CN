@@ -1,17 +1,17 @@
 ---
 title: 供应商发票的标题详细信息
-description: 本主题介绍 Microsoft Dynamics 365 Project Operations 中供应商发票标题上提供的功能。
+description: 本文介绍 Microsoft Dynamics 365 Project Operations 中供应商发票标题上提供的功能。
 author: rumant
 ms.date: 03/25/2022
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: rumant
-ms.openlocfilehash: 17be106d5486358ff0bbf011af3da26a4c85a274
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: 95f84f2d2a357abbd8d507705412a0434b44f658
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8575569"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8929847"
 ---
 # <a name="header-details-for-vendor-invoices"></a>供应商发票的标题详细信息
 
@@ -19,7 +19,7 @@ ms.locfileid: "8575569"
 
 _**适用于：** 精简部署 - 估价交易开票_
 
-本主题介绍 Microsoft Dynamics 365 Project Operations 中供应商发票标题上提供的功能。
+本文介绍 Microsoft Dynamics 365 Project Operations 中供应商发票标题上提供的功能。
 
 当项目经理计划和执行项目时，他们可能会雇用分包商并从供应商那里购买产品和服务。 在项目执行期间，成本来自根据与供应商之间的分包合同采购的服务、材料和支出类别。 供应商通过创建供应商发票为项目开具这些成本的发票。
 

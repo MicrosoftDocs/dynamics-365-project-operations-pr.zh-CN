@@ -1,6 +1,6 @@
 ---
 title: 资源协调概述
-description: 本主题提供的信息将帮助您确保项目的资源预订和分配一致。
+description: 本文提供的信息将帮助您确保项目的资源预订和分配保持一致。
 author: ruhercul
 ms.date: 01/08/2021
 ms.topic: overview
@@ -14,12 +14,12 @@ ms.search.industry: Service industries
 ms.author: ruhercul
 ms.dyn365.ops.version: ''
 ms.search.validFrom: 2020-10-01
-ms.openlocfilehash: 0574a0402bc6b34ab82bbc223aeb3a0ffcc9df9c
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: eaad9187f08be810d730f5a8ca6411ecee85bbc4
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8580031"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8926305"
 ---
 # <a name="resource-reconciliation-overview"></a>资源协调概述
 

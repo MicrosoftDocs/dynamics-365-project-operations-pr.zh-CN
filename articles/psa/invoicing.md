@@ -1,6 +1,6 @@
 ---
 title: Project Service Automation 中的开票
-description: 本主题介绍开票。
+description: 本文介绍开票。
 author: rumant
 ms.custom:
 - dyn365-projectservice
@@ -16,12 +16,12 @@ search.app:
 - D365PS
 - ProjectOperations
 ms.reviewer: johnmichalak
-ms.openlocfilehash: 84134778225bfce1126ccf70b32e0c82c4ccc3fc
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: fa036dda6514449b04e1416bde2cd9c21fc558b5
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8579295"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8926811"
 ---
 # <a name="invoicing-in-project-service-automation"></a>Project Service Automation 中的开票
 
@@ -94,7 +94,7 @@ PSA 不应生成面向客户的发票，原因如下：
 用于创建发票的批处理作业是周期性作业。 如果多次运行此批处理流程，将创建多个作业实例，并导致出错。 因此，仅应启动此批处理流程一次，并且仅当其停止运行时才应重新启动它。
 
 > [!NOTE]
-> 系统仅对由发票计划配置的项目合同行运行 Project Service Automation 成批开票。 必须为采用固定价格记帐方法的合同子项配置里程碑。 将需要为采用时间和材料记帐方法的项目合同子项设置基于日期的发票计划。 [报价单和报价单行](basic-quote-lines.md#invoice-schedule)主题中提供了有关在基于报价单行的项目上下文中设置开票频率的信息。 这同样适用于基于项目的合同子项。      
+> 系统仅对由发票计划配置的项目合同行运行 Project Service Automation 成批开票。 必须为采用固定价格记帐方法的合同子项配置里程碑。 将需要为采用时间和材料记帐方法的项目合同子项设置基于日期的发票计划。 文章[报价单和报价单明细](basic-quote-lines.md#invoice-schedule)中提供了有关在基于报价单明细的项目上下文中设置开票频率的信息。 这同样适用于基于项目的合同子项。      
  
 ### <a name="edit-a-draft-psa-invoice"></a>编辑 PSA 草稿发票
 

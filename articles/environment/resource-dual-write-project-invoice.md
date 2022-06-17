@@ -1,22 +1,22 @@
 ---
 title: 项目发票集成
-description: 本主题提供有关客户开票的 Project Operations 双重写入集成的信息。
+description: 本文提供有关客户开票的 Project Operations 双写入集成的信息。
 author: sigitac
 ms.date: 04/26/2021
 ms.topic: article
 ms.prod: ''
 ms.reviewer: johnmichalak
 ms.author: sigitac
-ms.openlocfilehash: 1e7294360f041b030efca225c6754fe3bbc0eadf
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: 5ee2d78f1ca1d78f6909d9995a92ac301f06d6a6
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8581227"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8912091"
 ---
 # <a name="project-invoice-integration"></a>项目发票集成
 
-本主题提供有关客户开票的 Project Operations 双重写入集成的信息。
+本文提供有关客户开票的 Project Operations 双写入集成的信息。
 
 在 Project Operations 中，项目经理管理项目记帐积压，并在 Microsoft Dataverse 中为客户创建估价发票。 根据此估价发票，应收帐款职员或项目会计创建面向客户的发票。 双写入集成确保估价发票详细信息与财务和运营应用同步。 过帐面向客户的发票后，系统会使用会计详细信息更新 Dataverse 中的相关项目实际值。 下图提供了此集成的高级概念概述图。
 

@@ -1,24 +1,24 @@
 ---
 title: 设置供应商保留
-description: 本主题说明如何设置供应商保留。
+description: 本文说明如何设置供应商保留。
 author: sigitac
 ms.date: 09/27/2021
 ms.topic: article
 ms.prod: ''
 ms.reviewer: johnmichalak
 ms.author: sigitac
-ms.openlocfilehash: e0cd7669c7d6b916261e2c85cce0f24ff241a075
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: f30e8829d8d5d99c81fce730cb93cd7ce31913fe
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8583693"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8929755"
 ---
 # <a name="set-up-vendor-retention"></a>设置供应商保留
 
 _**适用于：** 面向资源/非库存场景的 Project Operations_
 
-本主题提供有关如何设置供应商保留的信息。
+本文提供有关如何设置供应商保留的信息。
 
 ## <a name="set-up-a-vendor-retention-account-in-general-ledger"></a>在总帐中设置供应商保留帐户
 

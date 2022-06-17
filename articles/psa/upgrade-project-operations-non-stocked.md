@@ -1,6 +1,6 @@
 ---
 title: 从 Project Service Automation 升级到 Project Operations
-description: 此主题概要介绍从 Microsoft Dynamics 365 Project Service Automation 升级到 Dynamics 365 Project Operations 的过程。
+description: 本文概括介绍从 Microsoft Dynamics 365 Project Service Automation 升级到 Dynamics 365 Project Operations 的过程。
 author: ruhercul
 ms.custom: dyn365-projectservice
 ms.date: 01/13/2022
@@ -16,16 +16,16 @@ search.app:
 - D365PS
 - ProjectOperations
 ms.reviewer: johnmichalak
-ms.openlocfilehash: 3f31173197a3055cdc51567261dd91925fc9f430
-ms.sourcegitcommit: bec7382d1319d59645e8e79fdb20df58617c97c6
+ms.openlocfilehash: 30eb02240de6617d4c550ce59db2a454eee36f5b
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/21/2022
-ms.locfileid: "8626707"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8912965"
 ---
 # <a name="upgrade-from-project-service-automation-to-project-operations"></a>从 Project Service Automation 升级到 Project Operations
 
-我们很高兴宣布从 Microsoft Dynamics 365 Project Service Automation 升级至 Dynamics 365 Project Operations 的前三个阶段。 本主题为即将踏上这一激动人心的旅程的客户提供概述。 以后的主题将包括开发人员注意事项以及有关功能增强的详细信息。 它们不仅会提供指导以帮助您为升级到 Project Operations 做准备，还会解释升级后您可以期待的结果。
+我们很高兴宣布从 Microsoft Dynamics 365 Project Service Automation 升级至 Dynamics 365 Project Operations 的前三个阶段。 本文为即将踏上这一激动人心的旅程的客户提供概述。 以后的文章将包括开发人员注意事项以及有关功能增强的详细信息。 它们不仅会提供指导以帮助您为升级到 Project Operations 做准备，还会解释升级后您可以期待的结果。
 
 升级交付计划将分为三个阶段。
 
@@ -90,7 +90,7 @@ ms.locfileid: "8626707"
     > [!NOTE]
     > 根据环境中的数据量，升级可能需要几个小时的时间。 管理升级的核心团队应该相应地进行计划并在非工作时间运行升级。 在某些情况下，如果数据量很大，应该在周末进行升级。 关于日程安排的决定应该基于较低等环境中的测试结果。
 
-3. 可在适当时升级自定义解决方案。 此时，请部署您在本主题的[测试并重构自定义项](#testing-and-refactoring-customizations)部分中对自定义项所做的任何更改。
+3. 可在适当时升级自定义解决方案。 此时，请部署您在本文的[测试并重构自定义项](#testing-and-refactoring-customizations)一节中对自定义项所做的任何更改。
 4. 转到 **设置** \> **解决方案**，然后选择卸载 **Project Operations 已弃用的组件** 解决方案。
 
     此解决方案是一个临时解决方案，用于保存升级过程中提供的现有数据模型和组件。 通过移除此解决方案，可以删除所有不再使用的字段和组件。 这样，您可以帮助简化界面并使集成和扩展更容易。
@@ -126,7 +126,6 @@ Project Operations 中的项目计划功能不再依赖于客户端逻辑和服�
 | Project Service Automation                             | Project Operations Lite 部署                        | 受支持               |
 | Dynamics 365 Finance 项目管理和会计 | Project Operations Lite 部署                        | 当前不支持 |
 | Finance 项目管理和会计              | 面向资源/非库存场景的 Project Operations     | 当前不支持 |
-| Finance 项目管理和会计              | 面向库存/生产订单场景的 Project Operations | 当前不支持 |
 | Project Service Automation 3.x                         | 面向资源/非库存场景的 Project Operations     | 当前不支持 |
 | Project for the Web（专用环境）            | Project Operations Lite 部署                        | 当前不支持 |
 

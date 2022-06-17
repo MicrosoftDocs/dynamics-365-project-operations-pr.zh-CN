@@ -1,24 +1,24 @@
 ---
 title: 2021 年 2 月新增功能 - 面向资源/非库存场景的 Project Operations
-description: 此主题提供有关 2021 年 2 月版本的面向资源/非库存场景的 Project Operations 中推出的质量更新的信息。
+description: 本文提供有关 2021 年 2 月版基于资源/非库存场景的 Project Operations 中可用的质量更新的信息。
 author: sigitac
 ms.date: 02/08/2021
 ms.topic: article
 ms.prod: ''
 ms.reviewer: johnmichalak
 ms.author: sigitac
-ms.openlocfilehash: cb6ab1337652d18a30fba56560ffe50f78dd4eb4
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: 38fede1746bcb09700c9c9c5e20653e0c39fea2a
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8589001"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8910620"
 ---
 # <a name="whats-new-february-2021---project-operations-for-resourcenon-stocked-based-scenarios"></a>2021 年 2 月新增功能 - 面向资源/非库存场景的 Project Operations
 
 _**适用于：** 面向资源/非库存场景的 Project Operations_
 
-此主题适用于以下 Dynamics 365 Project Operations 组件和版本：
+本文适用于以下 Dynamics 365 Project Operations 组件和版本：
 
 - Dataverse 环境中的 Project Operations 4.7.0.95
 - Dynamics 365 Finance 环境中的项目管理和会计版本 10.0.16 

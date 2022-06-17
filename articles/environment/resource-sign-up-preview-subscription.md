@@ -1,17 +1,17 @@
 ---
 title: 注册获取面向资源/非库存场景的 Project Operations 的预览订阅
-description: 此主题提供有关如何订阅和部署面向资源/非库存场景的 Project Operations。
+description: 本文提供有关如何订阅和部署“基于资源/非库存场景的 Project Operations”的信息。
 author: sigitac
 ms.date: 07/02/2021
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: sigitac
-ms.openlocfilehash: 9094b6928c5c276a40166ef5d8cb0facb539685b
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: fb196a50b4cb9e8533db52414e8536d77a30e425
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8575799"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8920095"
 ---
 # <a name="sign-up-for-project-operations-preview-subscriptions-for-resource-non-stocked-scenarios"></a>注册获取面向资源/非库存场景的 Project Operations 的预览订阅
 
@@ -19,7 +19,7 @@ _**适用于：** 面向资源/非库存场景的 Project Operations_
 
 
 
-本主题说明了如何订阅试用产品/服务和为基于资源/非库存场景部署 Project Operations 环境。
+本文介绍如何订阅试用产品/服务，以及如何部署“基于资源/非库存场景的 Project Operations 环境”。
 
 ## <a name="prerequisites"></a>先决条件
 - 部署预览的用户必须具有 Azure 租户全局管理员权限。 您可以在第一个产品/服务兑换期间创建租户。 
@@ -60,19 +60,19 @@ _**适用于：** 面向资源/非库存场景的 Project Operations_
 
 ## <a name="start-a-new-project-in-lcs"></a>在 LCS 中启动新项目
 
-按照主题[在 LCS 中启动新项目](create-lcs-project.md)中所述创建新的 LCS 项目
+按照文章[在 LCS 中启动新项目](create-lcs-project.md)中所述创建新 LCS 项目
 
 ## <a name="add-an-azure-subscription-to-an-lcs-project"></a>将 Azure 订阅添加到 LCS 项目
 
-若要完成此任务，请按照主题[将 Azure 订阅添加到 LCS 项目](resource-add-azure-subscription-lcs-project.md)中的步骤操作。
+要完成此任务，请按照文章[将 Azure 订阅添加到 LCS 项目](resource-add-azure-subscription-lcs-project.md)中的步骤操作。
 
 ## <a name="deploy-finance-demo-environment-with-project-operations-for-resourcenon-stocked-scenarios"></a>使用面向资源/非库存场景的 Project Operations 部署 Finance 演示环境
 
-按照主题[设置新环境](resource-provision-new-environment.md)中的指导完成部署。 使用[演示环境](/dynamics365/fin-ops-core/dev-itpro/deployment/deploy-demo-environment)部署类型进行预览。 
+按照文章[预配新环境](resource-provision-new-environment.md)中的指导完成部署。 使用[演示环境](/dynamics365/fin-ops-core/dev-itpro/deployment/deploy-demo-environment)部署类型进行预览。 
 
 ## <a name="install-cds-setup-and-configuration-data"></a>安装 CDS 设置和配置数据
 
-按照主题[在 Common Data Service 中设置和应用配置数据](resource-apply-pro-setup-config-data.md)中所述安装 CDS 设置和配置数据。
+按照文章[在 Common Data Service 中设置和应用配置数据](resource-apply-pro-setup-config-data.md)中的说明安装 CDS 设置和配置数据。
 仅在部署了 Finance 演示环境并准备好演示数据后完成此步骤。
 
 

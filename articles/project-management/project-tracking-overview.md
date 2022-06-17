@@ -1,23 +1,23 @@
 ---
 title: 项目工作量跟踪
-description: 此主题提供关于如何跟踪项目工作和工作进度的信息。
+description: 本文提供有关如何跟踪项目工作量和工作进度的信息。
 author: ruhercul
 ms.date: 02/15/2022
 ms.topic: overview
 ms.reviewer: johnmichalak
 ms.author: ruhercul
-ms.openlocfilehash: 037118714cf01ba2fb91cdd94345495d12ccb645
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: c41dbc138f6fc92a9586de173ba5dfc89c7e44e3
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8593785"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8929249"
 ---
 # <a name="project-effort-tracking"></a>项目工作量跟踪
 
 _**适用于：** 基于资源/非库存场景的 Project Operations，精简部署 - 估价开票交易_
 
-对跟踪进度与计划的需要视行业而定。 某些行业以粒度级别跟踪，而其他行业则以较高级别跟踪。 此主题介绍如何进行计划以满足组织的要求。
+对跟踪进度与计划的需要视行业而定。 某些行业以粒度级别跟踪，而其他行业则以较高级别跟踪。 本文介绍如何进行计划以满足组织的要求。
 
 ## <a name="effort-tracking-view"></a>工作量跟踪视图
 

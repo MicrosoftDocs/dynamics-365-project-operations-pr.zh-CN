@@ -1,6 +1,6 @@
 ---
 title: Project Service Automation 2021 年提前访问第 1 波 V3 的新增或变更功能
-description: 本主题列出了 Project Service Automation 2021 年提前访问第 1 波 V3 中推出的功能和修补程序。
+description: 本文列出了 Project Service Automation 提前访问 2021 年第 1 波 V3 中提供的功能和修补程序。
 author: ruhercul
 ms.custom: dyn365-projectservice
 ms.date: 01/29/2021
@@ -16,12 +16,12 @@ search.app:
 - D365PS
 - ProjectOperations
 ms.reviewer: johnmichalak
-ms.openlocfilehash: ed2d497146d711fe7e2af06e7ba37c5045aa63e9
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: 7de0c20ae3ce3087946a2c44632f243a30a6dbe9
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8598799"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8930721"
 ---
 # <a name="whats-new-or-changed-in-project-service-automation-early-access-wave-1-2021-v3"></a>Project Service Automation 2021 年提前访问第 1 波 V3 的新增或变更功能
 
@@ -31,7 +31,7 @@ ms.locfileid: "8598799"
 
 我们很高兴地宣布适用于 Dynamics 365 的 Project Service Automation 应用程序的最新更新已推出。 此版本包括对质量、性能和可用性的一些重要改进。 此版本与 Dynamics 365 9.x 兼容。 若要更新到此版本，请访问 Dynamics 365 Online 的管理中心解决方案页面以安装更新。 有关详细信息，请参阅[安装、更新或移除首选解决方案](/power-platform/admin/install-remove-preferred-solution)。
 
-本主题列出了 Project Service Automation V3 2021 年提前访问第 1 波中新增或变更的功能和修补程序。 此版本的内部版本号为 V3.10.49.3，通过 2021 年 2 月的自动更新公开发布。
+本文列出了 Project Service Automation V3 提前访问 2021 年第 1 波的新增和更改的功能和修补程序。 此版本的内部版本号为 V3.10.49.3，通过 2021 年 2 月的自动更新公开发布。
 
 
 ### <a name="bug-fixes"></a>Bug 修复

@@ -1,6 +1,6 @@
 ---
 title: Project Service Automation V3 更新版本 30 中的新增功能或更改
-description: 本主题列出了 Project Service Automation V3 更新版本 30 中可用的功能和修复。
+description: 本文列出了 Project Service Automation 更新版 30 V3 中提供的功能和修补程序。
 author: ruhercul
 ms.custom: dyn365-projectservice
 ms.date: 04/01/2021
@@ -16,12 +16,12 @@ search.app:
 - D365PS
 - ProjectOperations
 ms.reviewer: johnmichalak
-ms.openlocfilehash: f99d2df3f9f6c0752109c39132c2401e0130d5df
-ms.sourcegitcommit: 577fa51e0892625f98f17ff39874ed1a09444421
+ms.openlocfilehash: ad00b126a13e18a5de47df335aea06b9690efa13
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/06/2022
-ms.locfileid: "8723529"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8925063"
 ---
 # <a name="whats-new-or-changed-in-project-service-automation-update-release-30-v3"></a>Project Service Automation V3 更新版本 30 中的新增功能或更改
 
@@ -29,7 +29,7 @@ ms.locfileid: "8723529"
 
 我们很高兴地宣布适用于 Dynamics 365 的 Project Service Automation 应用程序的最新更新已推出。 此版本包括对质量、性能和可用性的一些重要改进。 此版本与 Dynamics 365 9.x 兼容。 若要更新到此版本，请访问 Dynamics 365 Online 的管理中心解决方案页面以安装更新。 有关详细信息，请参阅[安装、更新或移除首选解决方案](/power-platform/admin/install-remove-preferred-solution)。
 
-本主题列出了 Project Service Automation V3 更新版本 30 中新增或更改的功能和修复。 此版本的内部版本号为 V3.10.51.61，通常可通过 2021 年 4 月的自我更新获得。
+本文列出了 Project Service Automation V3 更新版 30 的新增和更改的功能和修补程序。 此版本的内部版本号为 V3.10.51.61，通常可通过 2021 年 4 月的自我更新获得。
 
 ## <a name="update-release-30"></a>更新发布 30
 

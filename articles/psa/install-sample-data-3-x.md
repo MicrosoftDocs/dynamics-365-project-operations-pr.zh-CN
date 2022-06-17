@@ -1,6 +1,6 @@
 ---
 title: 示例数据安装
-description: 此主题提供有关在 Project Service Automation 中安装示例数据的信息。
+description: 本文提供有关在 Project Service Automation 中安装示例数据的信息。
 ms.custom: dyn365-projectservice
 ms.date: 11/08/2018
 ms.reviewer: johnmichalak
@@ -10,12 +10,12 @@ author: ruhercul
 ms.author: ruhercul
 search.audienceType: IT Pro, Developer
 search.app: ''
-ms.openlocfilehash: 952f3c3c037bb8459bdd1400288c4ea8604ce282
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: 8fb3854c139125abbf499622d048e2ff0791516a
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8581825"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8926765"
 ---
 # <a name="sample-data-installation-for-the-project-service-application"></a>Project Service 应用程序的示例数据安装
 

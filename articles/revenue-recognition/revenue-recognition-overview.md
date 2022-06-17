@@ -1,23 +1,23 @@
 ---
 title: 收入确认概述
-description: 本主题提供有关 Project Operations 中的收入确认的信息。
+description: 本文提供有关 Project Operations 中的收入确认的信息。
 author: sigitac
 ms.date: 11/16/2020
 ms.topic: overview
 ms.reviewer: johnmichalak
 ms.author: sigitac
-ms.openlocfilehash: 51c553ecf45452615cbcadce6386f32be427acaa
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: 22486693226256f765589b272e6df36aceaf9c1c
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8601421"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8926259"
 ---
 # <a name="revenue-recognition-overview"></a>收入确认概述
 
 _**适用于：** 面向资源/非库存场景的 Project Operations_
 
-在 Dynamics 365 Project Operations 中，收入确认原则因项目或部分项目的选定记帐方法而异。 本主题提供有关 Project Operations 中的收入确认的信息。
+在 Dynamics 365 Project Operations 中，收入确认原则因项目或部分项目的选定记帐方法而异。 本文提供有关 Project Operations 中的收入确认的信息。
 
 ## <a name="transactions-accounted-using-time-and-material-billing-method"></a>使用时间和材料记帐方法记帐的交易
 

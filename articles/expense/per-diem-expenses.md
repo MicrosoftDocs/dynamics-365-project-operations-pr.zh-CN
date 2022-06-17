@@ -1,6 +1,6 @@
 ---
 title: 每日津贴支出
-description: 此主题介绍如何使用每日津贴支出。
+description: 本文介绍如何使用每日津贴支出。
 author: suvaidya
 ms.date: 03/18/2022
 ms.topic: article
@@ -13,17 +13,17 @@ ms.search.region: ''
 ms.author: suvaidya
 ms.search.validFrom: ''
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: fe72f066a6819c3b43e3977d5e7afb01ba95338c
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: 0d2f95b677720726049d7d010e9738ad8c513802
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8596039"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8923177"
 ---
 # <a name="per-diem-expenses"></a>每日津贴支出
 
 > [!IMPORTANT] 
-> 本主题中介绍的功能作为预览版的一部分提供给目标用户。
+> 本文中介绍的功能作为预览版的一部分提供给目标用户。
 
 每日付款是公司支付给员工的固定的预先确定的每日津贴，用于支付员工出差期间的住宿（酒店）、餐饮和杂费支出。 公司将此津贴支付给员工，而不是支付实际的差旅费。 员工可以使用他们的 **杂费/其他** 每日津贴来支付重要商务会议的小费、客房服务、洗衣或干洗服务费用。 每日津贴费率可能会有所不同，具体取决于雇主是选择报销住宿和餐饮的组合成本，还是仅报销餐饮和杂费。
 

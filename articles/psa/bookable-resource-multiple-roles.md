@@ -1,6 +1,6 @@
 ---
 title: 当可预订资源为项目担任多个角色时，估计项目销售和成本
-description: 本主题提供有关定价维度如何用来支持为项目中担任多个角色的资源进行定价和成本核算的信息。
+description: 本文提供有关如何使用定价维度来支持在项目中担任多个角色的资源的定价和成本核算的信息。
 author: rumant
 ms.custom:
 - dyn365-projectservice
@@ -16,12 +16,12 @@ search.app:
 - D365PS
 - ProjectOperations
 ms.reviewer: johnmichalak
-ms.openlocfilehash: f8b84de740a3d610e49acea8fa13885b977b440c
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: 5adaa7b83aae69c15aa268e723417172f1b56f42
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8590703"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8916139"
 ---
 # <a name="estimate-project-sales-and-costs-when-a-bookable-resource-fills-multiple-roles-for-a-project"></a>当可预订资源为项目担任多个角色时，估计项目销售和成本 
 

@@ -1,6 +1,6 @@
 ---
 title: 升级注意事项 - 从 Microsoft Dynamics 365 Project Service Automation 版本 2.x 或 1.x 升级到版本 3
-description: 此主题介绍从 Project Service Automation 版本 2.x 或 1.x 升级到版本 3 时必须考虑的注意事项。
+description: 本文介绍从 Project Service Automation 版本 2.x 或 1.x 升级到版本 3 时必须考虑的注意事项。
 ms.prod: ''
 ms.custom:
 - dyn365-projectservice
@@ -17,12 +17,12 @@ search.app:
 - D365PS
 - ProjectOperations
 ms.reviewer: johnmichalak
-ms.openlocfilehash: c37c30b7c694cec8c07b68492d935128881e6317
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: 3f67b2fe39c9d0224207e7c655892318ec7e09b8
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8601743"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8918899"
 ---
 # <a name="upgrade-considerations---psa-version-2x-or-1x-to-version-3"></a>升级注意事项 - PSA 版本 2.x 或 1.x 到版本 3.x
 
@@ -40,7 +40,7 @@ Dynamics 365 Project Service Automation 和 Dynamics 365 Field Service 都使用
 
 在 Project Service Automation 版本 3 中，已更改了将可预订资源分派给任务时采用的基础架构。 明细任务已弃用，**任务实体** 中的任务与 **资源分派** 视图中的团队成员之间存在直接的 1:1 关系。 分派给项目团队成员的任务现在直接存储在资源分派实体中。  
 
-这些更改影响项目团队中具有指定可预订资源和通用资源的资源分派的所有现有项目的升级。 此主题提供升级到版本 3 时需要对项目注意的事项。 
+这些更改影响项目团队中具有指定可预订资源和通用资源的资源分派的所有现有项目的升级。 本文提供升级到版本 3 时需要对项目注意的事项。 
 
 ### <a name="tasks-assigned-to-named-resources"></a>任务分派给指定资源
 如果使用基础任务实体，则版本 2 和版本 1 中的任务允许团队成员扮演非默认为其定义的角色。 例如，为康辉默认分派的角色为项目经理，但可以将她分派给需要开发人员角色的任务。 在版本 3 中，指定团队成员的角色始终为默认角色，所以为康辉分派的所有角色都使用她的默认角色，即项目经理。

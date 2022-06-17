@@ -1,24 +1,24 @@
 ---
 title: 2022 年 3 月新增功能 - 基于资源/非库存场景的 Project Operations
-description: 本主题提供有关 2022 年 3 月版基于资源/非库存场景的 Project Operations 中可用的质量更新的信息。
+description: 本文提供有关 2022 年 3 月版基于资源/非库存场景的 Project Operations 中可用的质量更新的信息。
 author: sigitac
 ms.date: 03/31/2022
 ms.topic: article
 ms.prod: ''
 ms.reviewer: johnmichalak
 ms.author: sigitac
-ms.openlocfilehash: afd5149cda909b5367e7f12382423179d7e19267
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: 986d0652ed502873085259fef5ad40aba99c278d
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8600731"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8910895"
 ---
 # <a name="whats-new-march-2022---project-operations-for-resourcenon-stocked-based-scenarios"></a>2022 年 3 月新增功能 - 基于资源/非库存场景的 Project Operations
 
 *适用范围：适用于基于资源/非库存场景的 Project Operations*
 
-本主题适用于以下 Microsoft Dynamics 365 Project Operations 组件和版本：
+本文适用于以下 Microsoft Dynamics 365 Project Operations 组件和版本：
 
 - Dataverse 环境中的 Project Operations 版本 4.30.0.99
 - Dynamics 365 Finance 环境中的项目管理和会计版本 10.0.25
@@ -91,11 +91,11 @@ ms.locfileid: "8600731"
 
 ## <a name="removed-and-deprecated-features"></a>已删除和弃用的功能
 
-[Project Operations 中已删除或弃用的功能](removed-depreciated-features-project.md)主题描述了 Dynamics 365 Project Operations 已删除或弃用的功能。
+[Project Operations 中已删除或弃用的功能](removed-depreciated-features-project.md)一文描述了 Dynamics 365 Project Operations 已删除或弃用的功能。
 
 - 已删除的功能在产品中已不再可用。
 - 已弃用的功能在活跃的开发中不存在，而且在将来的更新中可能被移除。
 
-在从产品中删除任何功能之前的 12 个月，[Project Operations 中已删除或弃用的功能](removed-depreciated-features-project.md)主题中会显示弃用公告。
+在从产品中删除任何功能之前的 12 个月，[Project Operations 中已删除或弃用的功能](removed-depreciated-features-project.md)一文中会显示弃用公告。
 
 对于仅影响编译时，但是与沙盒和生产环境二进制兼容的突发更改，弃用时间将低于 12 个月。 通常，这些更改是必须对编译器进行的功能更新。

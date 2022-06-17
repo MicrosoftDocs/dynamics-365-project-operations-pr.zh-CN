@@ -1,24 +1,24 @@
 ---
 title: 编辑预订
-description: 本主题提供有关如何更新和更改预订的信息。
+description: 本文提供有关如何更新和更改预订的信息。
 author: ruhercul
 ms.date: 11/12/2020
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: ruhercul
-ms.openlocfilehash: 94ff047e868b29eb75acce43b6e6594533a33bf0
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: 4834d42d3b5d285a5c1b386ddd4ede1e09cf0067
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8594337"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8915219"
 ---
 # <a name="edit-bookings"></a>编辑预订
 
 _**适用于：** 基于资源/非库存场景的 Project Operations，精简部署 - 估价开票交易_
 
 
-当需要您更新现有预订的项目发生更改时，有几种方法可以进行更改。 本主题概括介绍如何更新和更改预订。
+当需要您更新现有预订的项目发生更改时，有几种方法可以进行更改。 本文概括如何更新和更改预订。
 
 ## <a name="resource-reconciliation"></a>资源协调
 

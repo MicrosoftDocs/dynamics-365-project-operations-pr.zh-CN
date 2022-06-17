@@ -1,18 +1,18 @@
 ---
 title: 配置非库存材料以及待定供应商发票
-description: 本主题说明如何启用非库存材料以及待定供应商发票。
+description: 本文介绍如何启用非库存材料和待定供应商发票。
 author: sigitac
 ms.date: 06/22/2021
 ms.topic: article
 ms.prod: ''
 ms.reviewer: johnmichalak
 ms.author: sigitac
-ms.openlocfilehash: 1b14ab17a317e7082bc9c24709590745a5c48ea8
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: 6473ef3510f0d3641a2d61b6a1b1f28980993277
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8592957"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8913747"
 ---
 # <a name="configure-non-stocked-materials-and-pending-vendor-invoices"></a>配置非库存材料以及待定供应商发票
 
@@ -32,7 +32,7 @@ Dynamics 365 Finance：
 
 ## <a name="run-dual-write-maps-for-non-stocked-materials-and-vendor-invoice-integration"></a>运行非库存材料与供应商发票集成的双重写入映射
 
-本节提供有关非库存材料以及供应商发票所需的具体映射的信息。 验证[预配新环境](../environment/resource-provision-new-environment.md#run-project-operations-dual-write-maps)主题中列出的必备映射是否在您的环境中运行。
+本节提供有关非库存材料以及供应商发票所需的具体映射的信息。 验证[预配新环境](../environment/resource-provision-new-environment.md#run-project-operations-dual-write-maps)一文中列出的先决条件映射是否在您的环境中运行。
 
 1. 转到 Lifecycle Services (LCS)，导航到 LCS 项目，然后转到 **环境详细信息** 页。
 2. 在 **Common Data Service 环境信息** 部分，选择 **链接到面向应用程序的 CDS**。 选择链接后，您将被重定向到映射中的实体列表。

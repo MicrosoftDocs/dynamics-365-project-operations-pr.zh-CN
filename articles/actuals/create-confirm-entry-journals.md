@@ -1,6 +1,6 @@
 ---
 title: 创建并确认条目日记帐
-description: 本主题提供有关如何在 Microsoft Dynamics 365 Project Operations 中创建和确认条目日记帐的信息。
+description: 本文提供有关如何在 Microsoft Dynamics 365 Project Operations 中创建和确认条目日记帐的信息。
 author: rumant
 ms.date: 09/18/2020
 ms.topic: article
@@ -13,12 +13,12 @@ ms.assetid: ''
 ms.author: rumant
 ms.dyn365.ops.version: ''
 ms.search.validFrom: 2020-10-01
-ms.openlocfilehash: 8cb768337bc197895a837670f93b99b132c97437
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: 138dccd72607d6515eeeffb066fa485f83eabbec
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8584217"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8912321"
 ---
 # <a name="create-and-confirm-entry-journals"></a>创建并确认条目日记帐
 

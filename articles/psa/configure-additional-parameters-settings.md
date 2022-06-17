@@ -17,12 +17,12 @@ search.app:
 - D365PS
 - ProjectOperations
 ms.reviewer: johnmichalak
-ms.openlocfilehash: 0ceaa3af630df132339895a8497e49daf2e102c3
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: 75fe0aab8ea8bf41fcb98f4318380c93ac52fef8
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8592313"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8919221"
 ---
 # <a name="configure-additional-parameter-settings-project-service"></a>配置其他参数设置 (Project Service)
 
@@ -30,7 +30,7 @@ ms.locfileid: "8592313"
 
 [!INCLUDE[cc-applies-to-psa-app-1x-2x](../includes/cc-applies-to-psa-app-1x-2x.md)]
 
-一旦您在之前主题中配置了项目，您需要设置其他项目参数以使用项目。 首次安装 [!INCLUDE[pn_project_service_auto](../includes/pn-project-service-auto.md)] 时，您创建了参数设置以首先创建运行 [!INCLUDE[pn_project_service_auto](../includes/pn-project-service-auto.md)] 所需的所有记录。 现在是时间返回并为这些设置配置其他字段。  
+一旦您在之前文章中配置了项目，您需要设置其他项目参数以使用项目。 首次安装 [!INCLUDE[pn_project_service_auto](../includes/pn-project-service-auto.md)] 时，您创建了参数设置以首先创建运行 [!INCLUDE[pn_project_service_auto](../includes/pn-project-service-auto.md)] 所需的所有记录。 现在是时间返回并为这些设置配置其他字段。  
   
  您需要已经配置了以下设置：  
   

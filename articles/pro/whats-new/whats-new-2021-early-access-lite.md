@@ -1,24 +1,24 @@
 ---
 title: 2021 年第 2 波抢先体验版 - Project Operations 精简部署中的新增功能
-description: 本主题提供有关 2021 年第 2 波抢先体验发行版的 Project Operations 精简部署中提供的功能的信息。
+description: 本文提供有关 2021 年第 2 波提前访问版 Project Operations 精简部署中提供的功能的信息。
 author: sigitac
 ms.date: 08/10/2021
 ms.topic: article
 ms.prod: ''
 ms.reviewer: johnmichalak
 ms.author: sigitac
-ms.openlocfilehash: 7b5f3528e4b4e615b8e7f24bfd3702746fd584c9
-ms.sourcegitcommit: 577fa51e0892625f98f17ff39874ed1a09444421
+ms.openlocfilehash: d245868c8bd9ff332707a81c074d6c7ae3649378
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/06/2022
-ms.locfileid: "8723665"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8924097"
 ---
 # <a name="whats-new-2021-wave-2-early-access---project-operations-lite-deployment"></a>2021 年第 2 波抢先体验版 - Project Operations 精简部署中的新增功能
 
 _适用范围：精简部署 - 估价交易开票_
 
-此主题适用于以下 Dynamics 365 Project Operations 组件和版本：
+本文适用于以下 Dynamics 365 Project Operations 组件和版本：
 
   - Dataverse 环境中的 Project Operations 版本 4.23.0.4
 

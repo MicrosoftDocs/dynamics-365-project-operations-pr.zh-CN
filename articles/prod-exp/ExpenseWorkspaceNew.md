@@ -1,6 +1,6 @@
 ---
 title: 重新设计的支出报表
-description: 本主题提供有关重新设计和重新打造的支出报表输入体验的信息。
+description: 本文介绍经过重新设计和重构的支出报表录入体验。
 author: ryansandness
 ms.date: 06/14/2019
 ms.topic: article
@@ -12,12 +12,12 @@ ms.search.region: Global
 ms.author: suvaidya
 ms.search.validFrom: 2019-6-30
 ms.dyn365.ops.version: 10.0.3
-ms.openlocfilehash: cad971f3b45faf13dab4cd71ff7439c44b2e7b61
-ms.sourcegitcommit: 2c2a5a11d446adec2f21030ab77a053d7e2da28e
+ms.openlocfilehash: 09322d7a59ae91f64dfa63b00f035178d7ca6444
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/04/2022
-ms.locfileid: "8685643"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8920969"
 ---
 # <a name="redesigned-expense-reports"></a>重新设计的支出报表
 

@@ -1,17 +1,17 @@
 ---
 title: 在草稿项目发票方案上更正会计
-description: 本主题说明了如何在草稿发票方案上调整与会计相关的信息。
+description: 本文介绍如何调整发票方案草稿的会计相关信息。
 author: sigitac
 ms.date: 01/05/2022
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: sigitac
-ms.openlocfilehash: bf0a3d6b97880920b133cb3b30389adf0c83111c
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: 32f566a798d07b698693392f3aa1823f91fe5408
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8575063"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8921199"
 ---
 # <a name="correct-the-accounting-on-draft-project-invoice-proposals"></a>在草稿项目发票方案上更正会计
 
@@ -19,7 +19,7 @@ _**适用于：** 面向资源/非库存场景的 Project Operations_
 
 项目发票的 *操作详细信息* 由项目经理针对估价发票进行维护。 这些详细信息包括有关必须开具发票的小时数、支出、材料或里程碑、汇率以及预付款和保留款应用的决策。 在确认原始估价发票后，您可以通过创建并确认[更正估价发票](../proforma-invoicing/corrective-invoices.md)调整操作详细信息。
 
-项目发票的 *会计详细信息* 在面向客户的发票文档中进行维护。 这些详细信息包括应用于发票的销售税款计算和财务维度。 本主题提供有关如何在草稿项目发票方案上调整这些会计详细信息的详细信息。
+项目发票的 *会计详细信息* 在面向客户的发票文档中进行维护。 这些详细信息包括应用于发票的销售税款计算和财务维度。 本文提供有关如何在项目发票方案草稿中调整这些会计详细信息的详细信息。
 
 ## <a name="adjust-sales-tax"></a>调整销售税
 

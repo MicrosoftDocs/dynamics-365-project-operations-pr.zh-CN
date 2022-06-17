@@ -1,17 +1,17 @@
 ---
 title: 内部公司开票概述
-description: 本主题提供了有关内部公司项目开票的信息和示例。
+description: 本文提供项目的公司内部开票的信息和示例。
 author: sigitac
 ms.date: 11/19/2020
 ms.topic: overview
 ms.reviewer: johnmichalak
 ms.author: sigitac
-ms.openlocfilehash: b7bb4384657c71552390bbc3d60f3c5d0e4136b4
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: fd17f6542558bae9d4b97d0a92aefae52571cfa8
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8586241"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8913563"
 ---
 # <a name="intercompany-invoicing-overview"></a>内部公司开票概述
 

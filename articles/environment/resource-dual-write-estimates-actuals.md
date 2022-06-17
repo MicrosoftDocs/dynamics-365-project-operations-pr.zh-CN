@@ -1,24 +1,24 @@
 ---
 title: 项目估计值和实际值集成
-description: 本主题提供有关项目估计值和实际值的 Project Operations 双重写入集成的信息。
+description: 本文提供有关项目估计值和实际值的 Project Operations 双写入集成的信息。
 author: sigitac
 ms.date: 4/26/2021
 ms.topic: article
 ms.prod: ''
 ms.reviewer: johnmichalak
 ms.author: sigitac
-ms.openlocfilehash: 5aaa59020427438fa6ebab3789fbb70c5b86e272
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: 43c868b051bf141cfc3211669c0a44333b4b2c65
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8577179"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8914575"
 ---
 # <a name="project-estimates-and-actuals-integration"></a>项目估计值和实际值集成
 
 _**适用于：** 面向资源/非库存场景的 Project Operations_
 
-本主题提供有关项目估计值和实际值的 Project Operations 双重写入集成的信息。
+本文提供有关项目估计值和实际值的 Project Operations 双写入集成的信息。
 
 ## <a name="project-estimates"></a>项目估算
 

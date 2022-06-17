@@ -1,6 +1,6 @@
 ---
 title: 2020 年第 1 波 Project Service Automation 版本 3.x 中的新增功能或更改
-description: 本主题介绍 2020 年第 1 波 Project Service Automation 版本 3 中的新增功能和更改。
+description: 本文介绍 Project Service Automation 版本 3 2020 年第 1 波中的新增功能和更改功能。
 ms.custom:
 - dyn365-projectservice
 ms.date: 05/15/2020
@@ -17,18 +17,18 @@ search.app:
 - D365PS
 - ProjectOperations
 ms.reviewer: johnmichalak
-ms.openlocfilehash: 073b70b4ae02d943eb0794b51e888815ee16f438
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: c762f2e7931046d32464cfa8486ef8405aa7d836
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8577869"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8928605"
 ---
 # <a name="whats-new-or-changed-in-project-service-automation-version-3-wave-1-2020"></a>2020 年第 1 波 Project Service Automation 版本 3 中的新增功能或更改
 
 [!include [banner](../includes/psa-now-project-operations.md)]
 
-本主题重点介绍了迁移到 2020 年第 1 波最新发布的 Project Service Automation (PSA) 版本 3.x 时的关键升级注意事项。
+本文重点介绍了迁移到最新版本的 Project Service Automation (PSA) 版本 3.x 2020 年第 1 波时的主要升级注意事项。
 
 ## <a name="time-entry"></a>时间条目
 时间条目体验已得到扩展，以提供用于将时间条目扩展到更多客户方案中的功能。 这包括添加条目类型的功能（显示为 **时间源**），条目类型现在可以根据字段架构名称 **时间条目设置** 来促使特定行为发生。 为了支持此功能，已增加了一个新解决方案，称为“时间、费用、进展状况和审批”(TESA)。

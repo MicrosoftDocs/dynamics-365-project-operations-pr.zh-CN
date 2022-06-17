@@ -1,23 +1,23 @@
 ---
 title: 配置支出管理参数
-description: 此主题介绍控制支出管理中的常规行为的参数。
+description: 本文介绍控制支出管理中一般行为的参数。
 author: suvaidya
 ms.date: 10/01/2020
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: suvaidya
-ms.openlocfilehash: bbaabd34d8f4af5dbcaff507fbb9f8de79355aa4
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: 6432e119f38071b028c013561bab99820778a11d
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8577133"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8931457"
 ---
 # <a name="configure-expense-management-parameters"></a>配置支出管理参数
 
 _**适用于：** 面向资源/非库存场景的 Project Operations_
 
-此主题介绍控制支出管理中的常规行为的参数。
+本文介绍控制支出管理中一般行为的参数。
 
 ## <a name="general"></a>常规
 

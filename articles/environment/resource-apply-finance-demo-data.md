@@ -1,24 +1,24 @@
 ---
 title: 在 Finance 云托管环境中应用演示数据
-description: 本主题说明如何将演示数据从 Project Operations 应用到 Dynamics 365 Finance 云托管环境。
+description: 本文说明如何将演示数据从 Project Operations 应用到 Dynamics 365 Finance 云托管环境。
 author: sigitac
 ms.date: 10/01/2020
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: sigitac
-ms.openlocfilehash: e4ccc7eb02fabdc0476fe454f33bff637ab8b835
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: 4ce53c171929f0610c53025becaebea46d902c90
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8588955"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8924649"
 ---
 # <a name="apply-demo-data-to-a-finance-cloud-hosted-environment"></a>在 Finance 云托管环境中应用演示数据
 
 _**适用于：** 面向资源/非库存场景的 Project Operations_
 
 > [!IMPORTANT]
-> 本主题仅适用于 Microsoft Dynamics 365 Finance 版本 10.0.13，并且只能在云托管环境中执行。 在向环境应用高质量更新 **之前**，请先完成本主题中的步骤。
+> 本文仅适用于 Microsoft Dynamics 365 Finance 版本 10.0.13，并且只能在云托管环境中执行。 请在将质量更新应用到环境 **之前** 完成本文中的步骤。
 
 1. 在您的 LCS 项目中，打开 **环境详细信息** 页。 请注意，此页面包含使用远程桌面协议 (RDP) 连接到环境所需的详细信息。
 

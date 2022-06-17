@@ -1,24 +1,24 @@
 ---
 title: 2021 年 10 月的新增内容 - 基于资源/非库存场景的 Project Operations
-description: 本主题提供有关 2021 年 10 月版 Project Operations 中可用于基于资源/非库存方案的质量更新的信息。
+description: 本文提供有关 2021 年 10 月版基于资源/非库存场景的 Project Operations 中可用的质量更新的信息。
 author: sigitac
 ms.date: 10/06/2021
 ms.topic: article
 ms.prod: ''
 ms.reviewer: johnmichalak
 ms.author: sigitac
-ms.openlocfilehash: c64ef1e2ba9e33b2ca7575a40cc51e0ae987a9f8
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: 4dc5cc9a5842a02338b99c7c8d707bc0b81c74a1
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8598477"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8914626"
 ---
 # <a name="whats-new-october-2021---project-operations-for-resourcenon-stocked-based-scenarios"></a>2021 年 10 月的新增内容 - 基于资源/非库存场景的 Project Operations
 
 *适用范围：适用于基于资源/非库存场景的 Project Operations*
 
-此主题适用于以下 Dynamics 365 Project Operations 组件和版本：
+本文适用于以下 Dynamics 365 Project Operations 组件和版本：
 
    - Microsoft Dataverse 环境中的 Project Operations 版本 4.25.0.91
    - Dynamics 365 Finance 环境中的项目管理和会计版本 10.0.21

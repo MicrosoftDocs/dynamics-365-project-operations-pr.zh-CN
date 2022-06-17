@@ -1,6 +1,6 @@
 ---
 title: 在 Finance and Operations 与 Project Service Automation 之间同步项目支出类别
-description: 此主题介绍用于将项目费用类别直接从 Microsoft Dynamics 365 Finance 同步到 Dynamics 365 Project Service Automation 的模板和基础任务。
+description: 本文介绍用于将项目费用类别直接从 Microsoft Dynamics 365 Finance 同步到 Dynamics 365 Project Service Automation 的模板和基础任务。
 author: Yowelle
 ms.date: 07/20/2018
 ms.topic: article
@@ -14,18 +14,18 @@ ms.search.region: Global
 ms.author: andchoi
 ms.search.validFrom: 2016-11-28
 ms.dyn365.ops.version: AX 8.0.0
-ms.openlocfilehash: c5513285c8beb96e2aa8b9c67ebde38b3c938edd
-ms.sourcegitcommit: 2c2a5a11d446adec2f21030ab77a053d7e2da28e
+ms.openlocfilehash: 630c4fa7a159aa46b46984736080cd007d519a6c
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/04/2022
-ms.locfileid: "8685459"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8927225"
 ---
 # <a name="synchronize-project-expense-categories-between-finance-and-operations-and-project-service-automation"></a>在 Finance and Operations 与 Project Service Automation 之间同步项目支出类别
 
 [!include[banner](../includes/banner.md)]
 
-此主题介绍用于将项目费用类别直接从 Dynamics 365 Finance 同步到 Dynamics 365 Project Service Automation 的模板和基础任务。
+本文介绍用于将项目费用类别直接从 Dynamics 365 Finance 同步到 Dynamics 365 Project Service Automation 的模板和基础任务。
 
 > [!NOTE]
 > - 版本 8.0 中提供项目任务集成、费用交易记录类别、工时估计值、费用估计值和功能锁定。

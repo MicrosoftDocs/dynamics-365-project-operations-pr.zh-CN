@@ -1,6 +1,6 @@
 ---
 title: 技能和熟练度模型
-description: 此主题介绍如何使用技能和熟练度模型。
+description: 本文介绍如何使用技能和熟练度模型。
 author: ruhercul
 ms.custom:
 - dyn365-projectservice
@@ -17,12 +17,12 @@ search.app:
 - D365PS
 - ProjectOperations
 ms.reviewer: johnmichalak
-ms.openlocfilehash: d46382939e22c1ee1d9f5517798aabb3520ae3bd
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: 27a9668c3a0d6a2323fb4797a29f6c7d3d146c57
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8599857"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8925293"
 ---
 # <a name="skills-and-proficiency-models"></a>技能和熟练度模型
 

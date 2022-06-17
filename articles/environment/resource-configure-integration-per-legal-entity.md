@@ -1,23 +1,23 @@
 ---
 title: 配置每个法律实体的 Project Operations 集成
-description: 此主题提供有关在 Project Operations 中按法人设置集成的信息。
+description: 本文提供有关在 Project Operations 中按法人设置集成的信息。
 author: sigitac
 ms.date: 10/21/2020
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: sigitac
-ms.openlocfilehash: 64606a20a49fd8e9602b6ac3c1ab1880796eb128
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: 3f33e641ee0932655282618c99a26e2603660059
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8585827"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8914667"
 ---
 # <a name="configure-project-operations-integration-per-legal-entity"></a>配置每个法律实体的 Project Operations 集成 
 
 _**适用于：** 面向资源/非库存场景的 Project Operations_
 
-本主题指导您完成为每个法律实体配置 Dynamics 365 Project Operations 所需执行的步骤。
+本文将引导您完成按法人配置 Dynamics 365 Project Operations 所需的步骤。
 
 ## <a name="enable-feature-keys-in-dynamics-365-finance"></a>在 Dynamics 365 Finance 中启用功能键
 

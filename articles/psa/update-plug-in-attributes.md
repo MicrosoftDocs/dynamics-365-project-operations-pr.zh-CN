@@ -1,6 +1,6 @@
 ---
 title: 更新插件属性以包括新定价维度
-description: 此主题介绍如何更新定价维度的插件属性。
+description: 本文介绍如何更新定价维度的插件属性。
 author: Rumant
 ms.custom: ''
 ms.date: 11/19/2018
@@ -15,21 +15,21 @@ search.app:
 - D365PS
 - ProjectOperations
 ms.reviewer: johnmichalak
-ms.openlocfilehash: 0c9ac219dd19cf5dd14d54b199329de0c15fe2ae
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: 459aefb510cc9a9ec55a86ca7e362db98ccabb70
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8580860"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8913195"
 ---
 # <a name="update-plug-in-attributes-to-include-new-pricing-dimensions"></a>更新插件属性以包括新定价维度
 
 [!include [banner](../includes/psa-now-project-operations.md)]
 
 > [!NOTE]
-> 如果未在使用 Project Service Automation (PSA) 报价和合同签订功能，可跳过此主题。
+> 如果未在使用 Project Service Automation (PSA) 报价和合同签订功能，可跳过本文。
 
-此主题假设您已完成了主题[创建自定义字段和实体](create-custom-fields-entities.md)、[向价格设置和交易实体添加自定义字段](field-references.md)和[将自定义字段设置为定价维度](set-up-pricing-dimensions.md)中的过程。 如果尚未完成这些过程，请回去完成，然后回到此主题。
+本文假设您已完成了文章[创建自定义字段和实体](create-custom-fields-entities.md)、[向价格设置和交易实体添加自定义字段](field-references.md)和[将自定义字段设置为定价维度](set-up-pricing-dimensions.md)中的过程。 如果尚未完成这些过程，请回去完成，然后回到本文。
 
 如果在 **报价单明细** 页中为项目报价单明细创建报价单明细详细信息，系统将在后台创建两项估算明细 -- 一项明细针对估算的成本端，一项针对销售端。 项目合同子项也是一样。
 

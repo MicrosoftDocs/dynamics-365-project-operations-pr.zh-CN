@@ -1,23 +1,23 @@
 ---
 title: 将 Azure 订阅添加到 LCS 项目
-description: 此主题提供有关如何将您的 Azure 订阅连接到 LCS 项目的信息。
+description: 本文提供有关如何将 Azure 订阅连接到 LCS 项目的信息。
 author: sigitac
 ms.date: 04/12/2021
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: sigitac
-ms.openlocfilehash: 839c510838b0bccb718b8ca8a4f71a1c46e7ea3f
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: 64ee8cfa7394a08c3d588c0e8f4a73185d9496cf
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8595901"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8912137"
 ---
 # <a name="add-an-azure-subscription-to-an-lcs-project"></a>将 Azure 订阅添加到 LCS 项目
 
 _**适用于：** 面向资源/非库存场景的 Project Operations_
 
-必须使用现有 Azure 订阅部署云托管环境。 此主题说明如何将现有的 Azure 订阅连接到 LCS 项目。 
+必须使用现有 Azure 订阅部署云托管环境。 本文介绍如何将现有 Azure 订阅连接到 LCS 项目。 
 
 ## <a name="grant-admin-consent"></a>授权管理员同意
 
@@ -59,7 +59,7 @@ _**适用于：** 面向资源/非库存场景的 Project Operations_
 2. 输入 Azure 订阅 ID。 您可以在 [Azure 门户](https://ms.portal.azure.com/)中，在屏幕左下方的 **设置** 下找到您的 Azure 订阅 ID。
 3. 在 **配置以使用 Azure 资源管理器** 字段中，选择 **是**。
 4. 确保 Azure 的订阅 AAD 租户域与您所使用的域属 Azure 订阅匹配，然后选择 **下一步**。
-5. 在 **Microsoft Azure 设置** 屏幕上，选择 **下一步** 进行确认。 如果在此屏幕上收到错误，请返回本主题中的[提供对 Azure 订阅的 Dynamics 部署服务访问权限](#provide)一节，确保您已完成所有步骤。
+5. 在 **Microsoft Azure 设置** 屏幕上，选择 **下一步** 进行确认。 如果您在此屏幕上收到错误消息，请返回本文的[提供对 Azure 订阅的动态部署服务访问权限](#provide)一节，确保您已完成所有步骤。
 6. 将 Azure 管理证书下载到计算机上的本地文件夹。 请您的 Azure 订阅管理员通过选择订阅，然后转到 **设置** > **管理证书**，将证书上载到 Azure 管理门户。 此证书让 LCS 可以代表您与 Azure 通信。 如果您的用户具有对订阅的访问权限，可以跳过此步骤。
 7. 选择 **下一步**。
 8. 选择要进行部署的 Azure 区域，然后选择一个靠近计划要使用此系统的位置的数据中心。

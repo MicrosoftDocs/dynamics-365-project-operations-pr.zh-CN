@@ -1,25 +1,25 @@
 ---
 title: 通过双重写入支持手动部署 Project Operations Dataverse 应用
-description: 本主题说明了如何手动部署 Project Operations Dataverse 应用，以便它支持双重写入。
+description: 本文介绍如何手动部署 Project Operations Dataverse 应用，使其支持双写入。
 author: stsporen
 ms.date: 06/18/2021
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: stsporen
-ms.openlocfilehash: b82eef7b5f64705f37f224172c14f6734612329e
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: be80ea3956fbf0264c2eeb7a5e30dd50b77e3c78
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8591209"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8911999"
 ---
 # <a name="manually-deploy-the-project-operations-dataverse-app-with-dual-write-support"></a>通过双重写入支持手动部署 Project Operations Dataverse 应用
 
 _**适用于：** 面向资源/非库存场景的 Project Operations_
 
-本主题说明了如何在 Microsoft Dataverse 中手动部署 Microsoft Dynamics 365 Project Operations，以便它支持双重写入。 Project Operations 可检测环境的配置，并在满足先决条件时添加对双重写入的额外支持。
+本文介绍如何在 Microsoft Dataverse 中手动部署 Microsoft Dynamics 365 Project Operations，使其支持双写入。 Project Operations 可检测环境的配置，并在满足先决条件时添加对双重写入的额外支持。
 
-在通过 Microsoft Dynamics Lifecycle Services (LCS) 进行部署期间，如果您已按照本主题中的说明操作，可以跳过 Microsoft Power Platform 集成（以前称为 Common Data Service 环境）的部署。
+在通过 Microsoft Dynamics Lifecycle Services (LCS) 进行部署期间，如果您是按照本文中的说明进行的操作，您可以跳过 Microsoft Power Platform 集成（以前称为 Common Data Service 环境）的部署。
 
 在 Dataverse 中部署 Project Operations 以使其支持双重写入的流程具有四个主要步骤：
 

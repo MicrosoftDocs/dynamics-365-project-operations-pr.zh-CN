@@ -1,6 +1,6 @@
 ---
 title: 计价单位和计价单位组
-description: 本主题提供了有关如何在 Dynamics 365 Project Operations 中创建计价单位和计价单位组的信息。
+description: 本文提供有关如何在 Dynamics 365 Project Operations 中创建计价单位和计价单位组的信息。
 author: rumant
 ms.date: 09/18/2020
 ms.topic: article
@@ -15,12 +15,12 @@ ms.search.industry: Service industries
 ms.author: suvaidya
 ms.dyn365.ops.version: ''
 ms.search.validFrom: 2020-10-01
-ms.openlocfilehash: e0e1339c8fccb52b7471dc49a19be4dfc37be605
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: a46b7d182d3d7fc77c1275c108f5dc569ffebff1
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8578421"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8921429"
 ---
 # <a name="units-and-unit-groups"></a>计价单位和计价单位组
 
@@ -28,7 +28,7 @@ _**适用于：** 基于资源/非库存场景的 Project Operations，精简部
 
 计价单位是您销售产品或服务时使用的数量或测量单位。 例如，如果您销售园艺用品，您可以以包、盒和盘为单位销售种子。 计价单位组是这些不同单位的集合。
 
-若要完成本主题中的步骤，请确保您已被分配了系统管理员或 Sales Professional 管理员角色或具有同等权限。
+要完成本文中的步骤，请确保您已被分配了系统管理员或 Sales Professional 管理员角色或具有同等权限。
 
 ## <a name="create-a-unit-group"></a>创建计价单位组
 

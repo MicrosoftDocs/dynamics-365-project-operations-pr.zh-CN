@@ -1,17 +1,17 @@
 ---
 title: 资源管理模式概述
-description: 此主题介绍 Dynamics 365 Project Operations 中的资源管理功能。
+description: 本文提供有关 Dynamics 365 Project Operations 中的资源管理功能的信息。
 author: ruhercul
 ms.date: 10/01/2020
 ms.topic: overview
 ms.reviewer: johnmichalak
 ms.author: ruhercul
-ms.openlocfilehash: f30bac95b2beb92345cbe25332963c58d2bde4bb
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: dd50d12686a6ad17f6a95ccf0c2f1447cc470bf7
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8585045"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8928421"
 ---
 # <a name="resource-management-modes-overview"></a>资源管理模式概述
 
@@ -38,7 +38,7 @@ Dynamics 365 Project Operations 支持两种模式，以便您执行整个预订
 
 ![混合模式。](./media/resource-management-hybrid.png)
 
-除了受支持的集中模式流程之外，另请参阅以下主题来在混合模式下管理所有其他支持的预订流：
+除了支持的中央模式流程外，请参阅以下文章来管理所有其他在混合模式下受支持的预订流：
 
 将资源直接预订到项目：
 - [为项目团队预订指定的可预订资源和分派任务](/dynamics365/project-service/assign-named-bookable-resource)

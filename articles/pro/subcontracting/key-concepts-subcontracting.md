@@ -1,17 +1,17 @@
 ---
 title: 合同分包中的关键概念
-description: 本主题解释了适用于 Microsoft Dynamics 365 Project Operations 中的合同分包的一些关键概念。
+description: 本文解释了适用于 Microsoft Dynamics 365 Project Operations 中的合同分包的一些关键概念。
 author: rumant
 ms.date: 08/03/2021
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: rumant
-ms.openlocfilehash: 159eeca3aa9ed0c490be5ce3a8f46c7d7206aebe
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: 0ac84d132a2d62528d97ed3776a78062a589a380
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8578100"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8927685"
 ---
 # <a name="key-concepts-in-subcontracting"></a>合同分包中的关键概念
 
@@ -19,7 +19,7 @@ ms.locfileid: "8578100"
 
 _**适用于：** 精简部署 - 估价交易开票_
 
-本主题介绍了在开始使用 Microsoft Dynamics 365 Project Operations 中的合同分包功能之前应了解的一些关键概念。
+本文解释了在开始使用 Microsoft Dynamics 365 Project Operations 中的合同分包功能之前您应该了解的一些关键概念。
 
 ## <a name="contracting-unit-on-the-subcontract"></a>合同分包中的合同单位
 

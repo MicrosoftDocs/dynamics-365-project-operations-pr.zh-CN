@@ -1,24 +1,24 @@
 ---
 title: 2021 年 8 月新增功能 - Project Operations 精简版部署
-description: 本主题提供有关 2021 年 8 月发行版本的 Project Operations 精简部署中提供的质量更新的信息。
+description: 本文提供有关 2021 年 8 月版 Project Operations 精简部署中可用的质量更新的信息。
 author: sigitac
 ms.date: 08/10/2021
 ms.topic: article
 ms.prod: ''
 ms.reviewer: johnmichalak
 ms.author: sigitac
-ms.openlocfilehash: 3cb6f92bfb28dc64f0f689e0070b0506644c2320
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: 84318a26d97355fe56794e1d1532576cde4af661
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8586425"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8922027"
 ---
 # <a name="whats-new-august-2021---project-operations-lite-deployment"></a>2021 年 8 月新增功能 - Project Operations 精简版部署
 
 _适用范围：精简部署 - 估价交易开票_
 
-此主题适用于以下 Dynamics 365 Project Operations 组件和版本：
+本文适用于以下 Dynamics 365 Project Operations 组件和版本：
 
   - Dataverse 环境中的 Project Operations 版本 4.13.0.152
 
