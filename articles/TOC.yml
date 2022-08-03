@@ -50,7 +50,7 @@
               href: environment/resource-dual-write-maps.md
             - name: Project Operations 设置和配置数据集成
               href: environment/resource-dual-write-setup-integration.md
-            - name: 项目估计值和实际值集成
+            - name: 项目预估和实际值集成
               href: environment/resource-dual-write-estimates-actuals.md
             - name: 项目发票集成
               href: environment/resource-dual-write-project-invoice.md
@@ -62,42 +62,48 @@
           href: environment/uninstall-project-operations.md
     - name: 新增功能
       items:
-        - name: 2022 年 5 月 - 适用于资源/非库存材料场景的 Project Operations
-          href: whats-new/whats-new-may-2022-resource-based.md
-        - name: 2022 年 4 月 - 适用于资源/非库存材料场景的 Project Operations
-          href: whats-new/whats-new-apr-2022-resource-based.md
-        - name: 2022 年 3 月 - 适用于资源/非库存材料场景的 Project Operations
-          href: whats-new/whats-new-mar-2022-resource-based.md
-        - name: 2022 年 2 月 - 适用于资源/非库存材料场景的 Project Operations
-          href: whats-new/whats-new-feb-2022-resource-based.md
-        - name: 2021 年 12 月 - 适用于资源/非库存材料场景的 Project Operations
-          href: whats-new/whats-new-dec-2021-resource-based.md
-        - name: 2021 年 11 月 - 适用于资源/非库存材料场景的 Project Operations
-          href: whats-new/whats-new-nov-2021-resource-based.md
-        - name: 2021 年 10 月 - 适用于资源/非库存材料场景的 Project Operations
-          href: whats-new/whats-new-oct-2021-resource-based.md
-        - name: 2021 年 9 月 - 基于资源/非库存场景的 Project Operations
-          href: whats-new/whats-new-sept-2021-resource-based.md
-        - name: 2021 年 8 月 - 基于资源/非库存场景的 Project Operations
-          href: whats-new/whats-new-august-2021-resource-based.md
-        - name: 2021 年 7 月 - 基于资源/非库存场景的 Project Operations
-          href: whats-new/whats-new-july-2021-resource-based.md
-        - name: 2021 年 6 月 - 基于资源/非库存场景的 Project Operations
-          href: whats-new/whats-new-june-2021-resource-based.md
-        - name: 2021 年 5 月 - 基于资源/非库存场景的 Project Operations
-          href: whats-new/whats-new-may-2021-resource-based.md
-        - name: 2021 年 4 月 - 基于资源/非库存场景的 Project Operations
-          href: whats-new/whats-new-apr-2021-resource-based.md
-        - name: 2021 年 3 月 - 基于资源/非库存场景的 Project Operations
-          href: whats-new/whats-new-mar-2021-resource-based.md
-        - name: 2021 年 2 月 - 基于资源/非库存场景的 Project Operations
-          href: whats-new/whats-new-feb-2021-resource-based.md
-        - name: 2021 年 1 月 - 基于资源/非库存场景的 Project Operations
-          href: whats-new/whats-new-jan-2021-resource-based.md
-        - name: 2020 年 12 月 - 基于资源/非库存场景的 Project Operations
-          href: whats-new/whats-new-dec-2020-resource-based.md
-        - name: 2020 年 11 月 - 基于资源/非库存场景的 Project Operations
-          href: whats-new/whats-new-nov-2020-resource-based.md
+        - name: 2022 年 7 月 - 适用于资源/非库存场景的 Project Operations
+          href: whats-new/whats-new-july-2022-resource-based.md
+        - name: 存档
+          items:
+            - name: 2022 年 6 月 - 适用于资源/非库存场景的 Project Operations
+              href: whats-new/whats-new-june-2022-resource-based.md
+            - name: 2022 年 5 月 - 适用于资源/非库存材料场景的 Project Operations
+              href: whats-new/whats-new-may-2022-resource-based.md
+            - name: 2022 年 4 月 - 适用于资源/非库存材料场景的 Project Operations
+              href: whats-new/whats-new-apr-2022-resource-based.md
+            - name: 2022 年 3 月 - 适用于资源/非库存材料场景的 Project Operations
+              href: whats-new/whats-new-mar-2022-resource-based.md
+            - name: 2022 年 2 月 - 适用于资源/非库存材料场景的 Project Operations
+              href: whats-new/whats-new-feb-2022-resource-based.md
+            - name: 2021 年 12 月 - 适用于资源/非库存材料场景的 Project Operations
+              href: whats-new/whats-new-dec-2021-resource-based.md
+            - name: 2021 年 11 月 - 适用于资源/非库存材料场景的 Project Operations
+              href: whats-new/whats-new-nov-2021-resource-based.md
+            - name: 2021 年 10 月 - 适用于资源/非库存材料场景的 Project Operations
+              href: whats-new/whats-new-oct-2021-resource-based.md
+            - name: 2021 年 9 月 - 基于资源/非库存场景的 Project Operations
+              href: whats-new/whats-new-sept-2021-resource-based.md
+            - name: 2021 年 8 月 - 基于资源/非库存场景的 Project Operations
+              href: whats-new/whats-new-august-2021-resource-based.md
+            - name: 2021 年 7 月 - 基于资源/非库存场景的 Project Operations
+              href: whats-new/whats-new-july-2021-resource-based.md
+            - name: 2021 年 6 月 - 基于资源/非库存场景的 Project Operations
+              href: whats-new/whats-new-june-2021-resource-based.md
+            - name: 2021 年 5 月 - 基于资源/非库存场景的 Project Operations
+              href: whats-new/whats-new-may-2021-resource-based.md
+            - name: 2021 年 4 月 - 基于资源/非库存场景的 Project Operations
+              href: whats-new/whats-new-apr-2021-resource-based.md
+            - name: 2021 年 3 月 - 基于资源/非库存场景的 Project Operations
+              href: whats-new/whats-new-mar-2021-resource-based.md
+            - name: 2021 年 2 月 - 基于资源/非库存场景的 Project Operations
+              href: whats-new/whats-new-feb-2021-resource-based.md
+            - name: 2021 年 1 月 - 基于资源/非库存场景的 Project Operations
+              href: whats-new/whats-new-jan-2021-resource-based.md
+            - name: 2020 年 12 月 - 基于资源/非库存场景的 Project Operations
+              href: whats-new/whats-new-dec-2020-resource-based.md
+            - name: 2020 年 11 月 - 基于资源/非库存场景的 Project Operations
+              href: whats-new/whats-new-nov-2020-resource-based.md
     - name: 项目销售流程
       items:
         - name: 项目销售流程概述
@@ -154,7 +160,7 @@
                   href: sales/configure-chargeable-quoteline.md
                 - name: 预估项目报价单明细
                   href: sales/create-estimate-quote-line.md
-                - name: 将项目估算导入到基于项目的报价单明细
+                - name: 将项目预估导入到基于项目的报价单明细
                   href: sales/import-estimate-quote-line.md
                 - name: 基于项目的报价单明细上的发票计划
                   href: sales/invoice-schedule-quote-line.md
@@ -186,7 +192,7 @@
                   href: pro/sales/configure-chargeable-components-contract-line.md
                 - name: 预估项目合同子项
                   href: sales/create-estimate-contract-line.md
-                - name: 将项目估算导入到基于项目的合同子项
+                - name: 将项目预估导入到基于项目的合同子项
                   href: sales/import-estimate-project-contract-line.md
                 - name: 根据基于项目的合同子项创建发票计划
                   href: sales/invoice-schedules-contract-line.md
@@ -220,9 +226,9 @@
               href: pricing-costing/default-project-sales-price-lists.md
             - name: 替代项目销售价目表
               href: pricing-costing/override-project-sales-price-list-default.md
-            - name: 处理成本费估计值和实际值
+            - name: 处理成本费预估和实际值
               href: pricing-costing/cost-price-resolution.md
-            - name: 处理售价估计值和实际值
+            - name: 处理售价预估和实际值
               href: pricing-costing/sales-price-resolution.md
             - name: 复制价目表
               href: pricing-costing/copy-price-lists.md
@@ -280,15 +286,15 @@
               href: project-management/create-wbs.md
             - name: 创建工作
               href: project-management/create-assignments.md
-        - name: 关于项目的财务估算
+        - name: 关于项目的财务预估
           items:
-            - name: 财务估算概念
+            - name: 财务预估概念
               href: project-management/estimating-projects-overview.md
-            - name: 项目资源时间的财务估算
+            - name: 项目资源时间的财务预估
               href: project-management/resource-estimates.md
-            - name: 项目支出的财务估算
+            - name: 项目支出的财务预估
               href: project-management/create-expense-estimates.md
-            - name: 项目材料的财务估算
+            - name: 项目材料的财务预估
               href: project-management/create-material-estimate.md
         - name: 项目跟踪
           items:
@@ -468,6 +474,14 @@
           href: actuals/businesstransactions.md
         - name: 实际值概述
           href: actuals/actuals-overview.md
+        - name: 实际值在时间和材料约定中的影响
+          href: actuals/ActualsonTM.md
+        - name: 实际值在固定价格约定中的影响
+          href: actuals/ActualonFP.md
+        - name: 实际值在某项约定的售前阶段的影响
+          href: actuals/ActualonPreSales.md
+        - name: 实际值对内部项目的影响
+          href: actuals/ActualonInternal.md
         - name: 交易起源 - 将实际值链接到来源
           href: actuals/linkingactuals.md
         - name: 交易连接 - 链接不同交易类型的实际值
@@ -513,9 +527,11 @@
             - name: 确认估价基于项目的发票
               href: proforma-invoicing/confirm-proforma-invoice.md
             - name: 创建基于更正项目的发票
-              href: proforma-invoicing/corrective-invoices.md
+              href: pro/proforma-invoicing/corrective-invoices-sales.md
             - name: 配置基于项目的发票自动化
               href: proforma-invoicing/configure-automated-invoice-creation.md
+            - name: 基于更正项目的发票
+              href: proforma-invoicing/corrective-invoices.md
         - name: 客户开票
           items:
             - name: 管理项目发票方案
@@ -554,11 +570,11 @@
               href: project-accounting/period-types.md
             - name: 设置成本模板
               href: revenue-recognition/rev-rec-cost-templates.md
-        - name: 固定价格收入估计项目
+        - name: 固定价格收入预估项目
           href: revenue-recognition/rev-rec-percentage-completion-method.md
         - name: 完成方法的成本
           href: revenue-recognition/cost-complete-methods.md
-        - name: 管理收入估计
+        - name: 管理收入预估
           href: revenue-recognition/rev-rec-completed-contract-method.md
     - name: 高级配置
       items:
@@ -594,44 +610,50 @@
           href: environment/security-model.md
     - name: 新增功能
       items:
-        - name: 2021 年第 2 波抢先体验新增功能 - 精简部署
-          href: pro/whats-new/whats-new-2021-early-access-lite.md
-        - name: 2022 年 5 月新增功能 - 精简部署
-          href: pro/whats-new/whats-new-may-2022-lite.md
-        - name: 2022 年 4 月新增功能 - 精简部署
-          href: pro/whats-new/whats-new-apr-2022-lite.md
-        - name: 2022 年 3 月新增功能 - 精简部署
-          href: pro/whats-new/whats-new-mar-2022-lite.md
-        - name: 2022 年 2 月新增功能 - 精简部署
-          href: pro/whats-new/whats-new-feb-2022-lite.md
-        - name: 2021 年 12 月新增功能 - 精简部署
-          href: pro/whats-new/whats-new-dec-2021-lite.md
-        - name: 2021 年 11 月新增功能 - 精简部署
-          href: pro/whats-new/whats-new-nov-2021-lite.md
-        - name: 2021 年 10 月新增功能 - 精简部署
-          href: pro/whats-new/whats-new-oct-2021-lite.md
-        - name: 2021 年 9 月新增功能 - 精简部署
-          href: pro/whats-new/whats-new-sept-2021-lite.md
-        - name: 2021 年 8 月新增功能 - 精简部署
-          href: pro/whats-new/whats-new-august-2021-lite.md
-        - name: 2021 年 7 月新增功能 - 精简部署
-          href: pro/whats-new/whats-new-july-2021-lite.md
-        - name: 2021 年 6 月新增功能 - 精简部署
-          href: pro/whats-new/whats-new-june-2021-lite.md
-        - name: 2021 年 5 月新增功能 - 精简部署
-          href: pro/whats-new/whats-new-may-2021-lite.md
-        - name: 2021 年 4 月新增功能 - 精简部署
-          href: pro/whats-new/whats-new-apr-2021-lite.md
-        - name: 2021 年 3 月新增功能 - 精简部署
-          href: pro/whats-new/whats-new-mar-2021-lite.md
-        - name: 2021 年 2 月新增功能 - 精简部署
-          href: pro/whats-new/whats-new-feb-2021-lite.md
-        - name: 2021 年 1 月新增功能 - 精简部署
-          href: pro/whats-new/whats-new-jan-2021-lite.md
-        - name: 2020 年 12 月新增功能 - 精简部署
-          href: pro/whats-new/whats-new-dec-2020-lite.md
-        - name: 2020 年 11 月新增功能 - 精简部署
-          href: pro/whats-new/whats-new-nov-2020-lite.md
+        - name: 2022 年 7 月新增功能 - 精简部署
+          href: pro/whats-new/whats-new-july-2022-lite.md
+        - name: 存档
+          items:
+            - name: 2022 年 6 月新增功能 - 精简部署
+              href: pro/whats-new/whats-new-june-2022-lite.md
+            - name: 2021 年第 2 波抢先体验新增功能 - 精简部署
+              href: pro/whats-new/whats-new-2021-early-access-lite.md
+            - name: 2022 年 5 月新增功能 - 精简部署
+              href: pro/whats-new/whats-new-may-2022-lite.md
+            - name: 2022 年 4 月新增功能 - 精简部署
+              href: pro/whats-new/whats-new-apr-2022-lite.md
+            - name: 2022 年 3 月新增功能 - 精简部署
+              href: pro/whats-new/whats-new-mar-2022-lite.md
+            - name: 2022 年 2 月新增功能 - 精简部署
+              href: pro/whats-new/whats-new-feb-2022-lite.md
+            - name: 2021 年 12 月新增功能 - 精简部署
+              href: pro/whats-new/whats-new-dec-2021-lite.md
+            - name: 2021 年 11 月新增功能 - 精简部署
+              href: pro/whats-new/whats-new-nov-2021-lite.md
+            - name: 2021 年 10 月新增功能 - 精简部署
+              href: pro/whats-new/whats-new-oct-2021-lite.md
+            - name: 2021 年 9 月新增功能 - 精简部署
+              href: pro/whats-new/whats-new-sept-2021-lite.md
+            - name: 2021 年 8 月新增功能 - 精简部署
+              href: pro/whats-new/whats-new-august-2021-lite.md
+            - name: 2021 年 7 月新增功能 - 精简部署
+              href: pro/whats-new/whats-new-july-2021-lite.md
+            - name: 2021 年 6 月新增功能 - 精简部署
+              href: pro/whats-new/whats-new-june-2021-lite.md
+            - name: 2021 年 5 月新增功能 - 精简部署
+              href: pro/whats-new/whats-new-may-2021-lite.md
+            - name: 2021 年 4 月新增功能 - 精简部署
+              href: pro/whats-new/whats-new-apr-2021-lite.md
+            - name: 2021 年 3 月新增功能 - 精简部署
+              href: pro/whats-new/whats-new-mar-2021-lite.md
+            - name: 2021 年 2 月新增功能 - 精简部署
+              href: pro/whats-new/whats-new-feb-2021-lite.md
+            - name: 2021 年 1 月新增功能 - 精简部署
+              href: pro/whats-new/whats-new-jan-2021-lite.md
+            - name: 2020 年 12 月新增功能 - 精简部署
+              href: pro/whats-new/whats-new-dec-2020-lite.md
+            - name: 2020 年 11 月新增功能 - 精简部署
+              href: pro/whats-new/whats-new-nov-2020-lite.md
     - name: 项目销售流程
       items:
         - name: 项目销售流程概述
@@ -696,7 +718,7 @@
                   href: pro/sales/configure-chargeable-components-quote-line-sales.md
                 - name: 预估基于项目的报价单明细
                   href: pro/sales/create-estimate-quote-line-sales.md
-                - name: 导入项目估算
+                - name: 导入项目预估
                   href: pro/sales/import-estimate-project-quote-sales.md
                 - name: 管理发票计划
                   href: sales/invoice-schedule-quote-line.md
@@ -736,7 +758,7 @@
                   href: pro/sales/configure-chargeable-components-contract-line.md
                 - name: 预估基于项目的合同子项
                   href: pro/sales/create-estimate-project-contract-line-sales.md
-                - name: 将项目估算导入项目合同子项
+                - name: 将项目预估导入项目合同子项
                   href: pro/sales/import-estimate-project-contract-line-sales.md
                 - name: 管理项目合同子项上的发票计划
                   href: pro/sales/invoice-schedules-contract-line-sales.md
@@ -774,9 +796,9 @@
               href: pricing-costing/default-project-sales-price-lists.md
             - name: 替代项目销售价目表
               href: pricing-costing/override-project-sales-price-list-default.md
-            - name: 根据项目估计值和实际值处理成本费
+            - name: 根据项目预估和实际值处理成本费
               href: pro/pricing-costing/cost-price-resolution-sales.md
-            - name: 处理项目估计值和实际值的售价
+            - name: 处理项目预估和实际值的售价
               href: pro/pricing-costing/sales-price-resolution-sales.md
             - name: 复制价目表
               href: pricing-costing/copy-price-lists.md
@@ -834,15 +856,15 @@
               href: project-management/create-wbs.md
             - name: 创建工作
               href: project-management/create-assignments.md
-        - name: 关于项目的财务估算
+        - name: 关于项目的财务预估
           items:
-            - name: 财务估算概念
+            - name: 财务预估概念
               href: project-management/estimating-projects-overview.md
-            - name: 项目资源时间的财务估算
+            - name: 项目资源时间的财务预估
               href: project-management/resource-estimates.md
-            - name: 项目支出的财务估算
+            - name: 项目支出的财务预估
               href: project-management/create-expense-estimates.md
-            - name: 项目材料的财务估算
+            - name: 项目材料的财务预估
               href: project-management/create-material-estimate.md
         - name: 项目跟踪
           items:
@@ -956,7 +978,7 @@
           href: pro/subcontracting/subcontracting-project-team-members.md
         - name: 针对项目团队成员的分包选项
           href: pro/subcontracting/subcon-options.md
-        - name: 对已分包资源分配的成本评估
+        - name: 对已分包资源分配的成本预估
           href: pro/subcontracting/costing-subcon-ra.md
         - name: 配置日程安排板以显示合同员工和已分包容量
           href: pro/subcontracting/configure-sb-subcon.md
@@ -1068,26 +1090,54 @@
           href: team-member/project-operations-team-member.md
 - name: 适用于库存/生产订单场景的 Project Operations
   items:
+    - name: 开始
+      items:
+        - name: 配置数据集成
+          items:
+            - name: Project Service Automation 概述
+              href: prod-pma/PSA-integration.md
+            - name: Project Service Automation 集成参数
+              href: prod-pma/PSA-parameters.md
+            - name: 将项目合同和项目直接从 Project Service Automation 同步到 Finance
+              href: prod-pma/project-contracts-templates.md
+            - name: 将项目实际值直接从 Project Service Automation 同步到财务与运营中的项目集成日记帐进行过帐
+              href: prod-pma/project-actuals-templates.md
+            - name: 将项目预估直接从 Project Service Automation 同步到财务与运营
+              href: prod-pma/project-estimates-templates.md
+            - name: 在财务与运营和 Project Service Automation 之间同步项目支出类别
+              href: prod-pma/project-categories-templates.md
+            - name: 将项目任务直接从 Project Service Automation 同步到财务与运营
+              href: prod-pma/project-tasks-template.md
+        - name: 部署环境
+          items:
+            - name: 在 Finance 环境中更新 Project Operations
+              href: whats-new/ur5-nonstocked-installation.md
     - name: 新增功能
       items:
-        - name: 2021 年 10 月新增功能 - 适用于库存/生产订单场景的 Project Operations
-          href: prod-pma/whats-new/whats-new-oct-2021-stocked.md
-        - name: 2021 年 9 月新增功能 - 适用于库存/生产订单场景的 Project Operations
-          href: prod-pma/whats-new/whats-new-sep-2021-stocked.md
-        - name: 2021 年 7 月新增功能 - 适用于库存/生产订单场景的 Project Operations
-          href: prod-pma/whats-new/whats-new-jul-2021-stocked.md
-        - name: 2021 年 5 月新增功能 - 适用于库存/生产订单场景的 Project Operations
-          href: prod-pma/whats-new/whats-new-may-2021-stocked.md
-        - name: 2021 年 4 月新增功能 - 适用于库存/生产订单场景的 Project Operations
-          href: prod-pma/whats-new/whats-new-apr-2021-stocked.md
-        - name: 2021 年 3 月新增功能 - 适用于库存/生产订单场景的 Project Operations
-          href: prod-pma/whats-new/whats-new-mar-2021-stocked.md
-        - name: 2021 年 1 月新增功能 - 适用于库存/生产订单场景的 Project Operations
-          href: prod-pma/whats-new/whats-new-jan-2021-stocked.md
-        - name: 2020 年 12 月新增功能 - 适用于库存/生产订单场景的 Project Operations
-          href: prod-pma/whats-new/whats-new-dec-2020-stocked.md
-        - name: 2020 年 11 月新增功能 - 适用于库存/生产订单场景的 Project Operations
-          href: prod-pma/whats-new/whats-new-nov-2020-production-based.md
+        - name: 2022 年 7 月新增功能 - 适用于库存/生产订单场景的 Project Operations
+          href: prod-pma/whats-new/whats-new-jul-2022-stocked.md
+        - name: 存档
+          items:
+            - name: 2022 年 6 月新增功能 - 适用于库存/生产订单场景的 Project Operations
+              href: prod-pma/whats-new/whats-new-jun-2022-stocked.md
+            - name: 2021 年 10 月新增功能 - 适用于库存/生产订单场景的 Project Operations
+              href: prod-pma/whats-new/whats-new-oct-2021-stocked.md
+            - name: 2021 年 9 月新增功能 - 适用于库存/生产订单场景的 Project Operations
+              href: prod-pma/whats-new/whats-new-sep-2021-stocked.md
+            - name: 2021 年 7 月新增功能 - 适用于库存/生产订单场景的 Project Operations
+              href: prod-pma/whats-new/whats-new-jul-2021-stocked.md
+            - name: 2021 年 5 月新增功能 - 适用于库存/生产订单场景的 Project Operations
+              href: prod-pma/whats-new/whats-new-may-2021-stocked.md
+            - name: 2021 年 4 月新增功能 - 适用于库存/生产订单场景的 Project Operations
+              href: prod-pma/whats-new/whats-new-apr-2021-stocked.md
+            - name: 2021 年 3 月新增功能 - 适用于库存/生产订单场景的 Project Operations
+              href: prod-pma/whats-new/whats-new-mar-2021-stocked.md
+            - name: 2021 年 1 月新增功能 - 适用于库存/生产订单场景的 Project Operations
+              href: prod-pma/whats-new/whats-new-jan-2021-stocked.md
+            - name: 2020 年 12 月新增功能 - 适用于库存/生产订单场景的 Project Operations
+              href: prod-pma/whats-new/whats-new-dec-2020-stocked.md
+            - name: 2020 年 11 月新增功能 - 适用于库存/生产订单场景的 Project Operations
+              href: prod-pma/whats-new/whats-new-nov-2020-production-based.md
     - name: 适用于库存/生产订单场景的 Project Operations 部署概述
       href: prod-pma/project-operations-prod-order-deployment-overview.md
     - name: 项目管理与核算概述
@@ -1118,10 +1168,12 @@
           href: prod-pma/project-mobile-application-overview.md
         - name: 项目时间条目移动工作区
           href: prod-pma/project-time-entry-mobile-workspace.md
-        - name: Project 工时单移动应用
+        - name: Project Timesheet 移动应用
           href: prod-pma/project-timesheet.md
         - name: 移动设备上的项目工时单
           href: prod-pma/mobile-timesheets.md
+        - name: 重命名或修改项目阶段
+          href: prod-pma/tasks/rename-project.md
         - name: 为 Project Timesheet 移动应用实施自定义字段
           href: prod-pma/custom-fields-mobile.md
     - name: 资源管理
@@ -1150,6 +1202,8 @@
       items:
         - name: 项目预测和预算
           href: prod-pma/project-forecasts-budgets.md
+        - name: 跨期间分配一个项目预算或预算修订
+          href: prod-pma/tasks/allocate-project.md
         - name: 创建项目预算的预测模型
           href: prod-pma/create-forecast-models-project-budgets.md
         - name: 在会计年度结束时转移项目预算
@@ -1244,8 +1298,12 @@
           href: prod-pma/tasks/configure-intercompany-project-invoicing.md
     - name: 收入确认
       items:
-        - name: 清除项目估算
+        - name: 清除项目预估
           href: prod-pma/eliminate-project-estimate.md
+    - name: 公共事业部门
+      items:
+        - name: 联邦奖励支出计划查询
+          href: prod-pma/project-sefa-inquiry.md
 - name: 支出管理
   items:
     - name: 支出管理概述
@@ -1264,6 +1322,8 @@
           href: expense/set-up-workflows.md
         - name: 管理委派
           href: expense/manage-delegation.md
+        - name: 配置支出管理
+          href: prod-exp/plan-expense-management.md
         - name: 配置支出管理参数
           href: expense/configure-expense-management-parameters.md
         - name: 设置信用卡集成
@@ -1278,10 +1338,14 @@
       items:
         - name: 支出报表上的分布
           href: expense/distributions-expense-report.md
+        - name: 导入和维护信用卡交易
+          href: prod-exp/import-credit-card.md
     - name: 审批支出报表
       items:
         - name: 支出报表和多人审批
           href: expense/expense-reports-multiple-approvers.md
+        - name: 管理支出委派
+          href: prod-exp/manage-expense-delegation.md
     - name: 发布支出报表
       href: expense/posting-expense-reports.md
     - name: 出差申请
@@ -1296,6 +1360,8 @@
       items:
         - name: 增值税退回
           href: expense/vat-recovery.md
+        - name: 从总帐或采购查看支出报表
+          href: prod-exp/view-expense-report.md
 - name: Dynamics 365 Project Service Automation
   items:
     - name: Project Service Automation
@@ -1304,6 +1370,8 @@
       items:
         - name: Project Service 3.x 的更新版计划
           href: psa/version-history-ps.md
+        - name: V3 更新版 44 的新增或变更功能
+          href: psa/whats-new-ur-44.md
         - name: V3 更新版 43 的新增或变更功能
           href: psa/whats-new-ur43.md
         - name: V3 更新版 42 的新增或变更功能
@@ -1361,6 +1429,8 @@
         - name: V3 更新版 23 的新增或变更功能
           href: psa/whats-new-ur-23.md
         - name: V3 更新版 22 的新增或变更功能
+          href: psa/whats-new-ur-22.md
+        - name: V3 更新版 21 的新增或变更功能
           href: psa/whats-new-ur-21.md
         - name: V3 更新版 20 的新增或变更功能
           href: psa/whats-new-ur-20.md
@@ -1434,7 +1504,7 @@
               href: psa/project-creating.md
             - name: 项目成本和收入
               href: psa/project-estimating.md
-            - name: 销售估计值和项目
+            - name: 销售预估和项目
               href: psa/project-leveraging.md
             - name: 项目进度和成本消耗
               href: psa/project-tracking.md
@@ -1492,7 +1562,7 @@
               href: psa/product-catalog-pricing.md
             - name: 商业交易
               href: psa/basic-business-transactions.md
-            - name: 估计值
+            - name: 预估
               href: psa/estimates.md
             - name: 分析项目报价单
               href: psa/basic-analyzing-quotes.md
@@ -1680,7 +1750,7 @@
               href: psa/create-project.md
             - name: 使用工作分解结构安排项目
               href: psa/schedule-project-work-breakdown-structure.md
-            - name: 确定项目成本和收入估算
+            - name: 确定项目成本和收入预估
               href: psa/determine-project-cost-revenue-estimates.md
             - name: 跟踪项目进度和成本
               href: psa/track-project-progress-cost.md
@@ -1696,7 +1766,7 @@
               href: psa/track-project-status.md
             - name: 查看项目团队成员并管理预订
               href: psa/view-project-team-members-manage-bookings.md
-            - name: 查看和编辑项目评估
+            - name: 查看和编辑项目预估
               href: psa/view-edit-project-estimates.md
             - name: 审批时间和支出
               href: psa/approve-time-expenses.md
