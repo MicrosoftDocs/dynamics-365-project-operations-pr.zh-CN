@@ -6,16 +6,16 @@ ms.date: 03/30/2021
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: rumant
-ms.openlocfilehash: 6902d22c7bd4b422466c924ee6473146b036caa5
-ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
+ms.openlocfilehash: af89996fcaca9823d32e84e10ce6d29ead4f3d6d
+ms.sourcegitcommit: 95dacb0e74fa8970f56fdb1cbaa915d3fbec6e0f
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8929939"
+ms.lasthandoff: 06/17/2022
+ms.locfileid: "9023602"
 ---
 # <a name="manage-project-price-lists-on-project-quotes"></a>管理项目报价单上的项目价目表 
 
-_**适用于：** 精简部署 - 估价交易开票_
+_**适用于：** 精简部署 - 估价交易开单，基于资源/非库存场景的 Project Operations_
 
 项目报价单设计为支持多个有时效的销售价目表。 通过 Dynamics 365 Project Operations，添加了名为 **项目价目表** 的新关联实体。 此实体与项目报价单之间具有一对多关系。
 

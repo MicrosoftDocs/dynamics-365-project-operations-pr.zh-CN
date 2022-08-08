@@ -6,12 +6,12 @@ ms.date: 05/20/2021
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: suvaidya
-ms.openlocfilehash: 03ca18c8fef6228f2ba553ebe50447beda5a857c
-ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
+ms.openlocfilehash: 9689bbaf4c4f88ad9f746c3f98676f97e634ab6c
+ms.sourcegitcommit: 5e1f549a2e55a87351b2979e3aff402ed35487e1
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8930123"
+ms.lasthandoff: 06/29/2022
+ms.locfileid: "9064267"
 ---
 # <a name="set-up-mileage-using-mileage-rate-tiers"></a>使用里程费率层级设置里程
 
@@ -50,5 +50,15 @@ _**适用于：** 面向资源/非库存场景的 Project Operations_
 
 启用该功能后，重置里程层级以正确反映 **数量** 字段的值。 
 
+## <a name="enable-the-mileage-totals-calculation-by-fiscal-year-feature"></a>启用按会计年度计算总里程数功能
+
+**按会计年度计算总里程数** 功能会在“费用管理参数”中启用新设置，该设置按会计年度而不是日历年执行总里程数计算。 完成以下步骤以启用此功能。
+
+1. 转到 **工作区** > **功能管理**。
+1. 在列表中，找到并选择 **按会计年度计算总里程数**，然后选择 **立即启用**。
+1. 转到 **支出管理** > **设置** > **常规** > **支出管理参数**。
+1. 在 **支出管理参数** 页上，查找并启用 **使用会计年度计算总里程数**。
+
+启用 **使用会计年度计算总里程数** 后，将按会计年度计算总里程数。
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

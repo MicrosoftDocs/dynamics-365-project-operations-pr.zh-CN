@@ -1,6 +1,6 @@
 ---
-title: 将项目实际值直接从 Project Service Automation 同步到 Finance and Operations 中的项目集成日记帐进行过帐
-description: 本文介绍用于将项目实际值直接从 Microsoft Dynamics 365 Project Service Automation 同步到 Finance and Operations 的模板和基础任务。
+title: 将项目实际值直接从 Project Service Automation 同步到财务和运营中的项目集成日记帐进行过帐
+description: 本文介绍用于将项目实际值直接从 Microsoft Dynamics 365 Project Service Automation 同步到财务和运营的模板和基础任务。
 author: Yowelle
 ms.date: 07/20/2018
 ms.topic: article
@@ -14,14 +14,14 @@ ms.search.region: Global
 ms.author: andchoi
 ms.search.validFrom: 2016-11-28
 ms.dyn365.ops.version: AX 7.3.0
-ms.openlocfilehash: 7d912a11d9c7bc66ed43911ee32f25092d551cd6
-ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
+ms.openlocfilehash: 34a0a0f7277777895077d221cd95e8d962d2a902
+ms.sourcegitcommit: a798fed5c59e3fefa62cdfa42c852d529b33fd35
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8929479"
+ms.lasthandoff: 06/18/2022
+ms.locfileid: "9028967"
 ---
-# <a name="synchronize-project-actuals-directly-from-project-service-automation-to-the-project-integration-journal-for-posting-in-finance-and-operations"></a>将项目实际值直接从 Project Service Automation 同步到 Finance and Operations 中的项目集成日记帐进行过帐
+# <a name="synchronize-project-actuals-directly-from-project-service-automation-to-the-project-integration-journal-for-posting-in-finance-and-operations"></a>将项目实际值直接从 Project Service Automation 同步到财务和运营中的项目集成日记帐进行过帐
 
 [!include[banner](../includes/banner.md)]
 
@@ -41,7 +41,7 @@ Project Service Automation 到 Finance 集成解决方案使用数据集成功�
 
 下图显示 Project Service Automation 与 Finance 之间中如何同步数据。
 
-[![Project Service Automation 与 Finance and Operations 集成的数据传输。](./media/ProjectActualsFlow.jpg)](./media/ProjectActualsFlow.jpg)
+[![Project Service Automation 与财务和运营集成的数据传输。](./media/ProjectActualsFlow.jpg)](./media/ProjectActualsFlow.jpg)
 
 ## <a name="project-actuals-from-project-service-automation"></a>来自 Project Service Automation 的项目实际值
 

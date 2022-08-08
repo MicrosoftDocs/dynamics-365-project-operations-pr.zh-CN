@@ -2,7 +2,7 @@
 title: Project Timesheet 移动应用程序
 description: 本文提供有关使用 Microsoft Dynamics 365 Project Timesheet 移动应用程序的信息。 用户可使用 Project Timesheet 移动应用在自己的移动设备上提交和审核项目的工时单。
 author: abruer
-ms.date: 04/08/2019
+ms.date: 06/29/2022
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -15,20 +15,20 @@ ms.search.industry: Service industries
 ms.author: andchoi
 ms.dyn365.ops.version: 10
 ms.search.validFrom: 2019-01-15
-ms.openlocfilehash: 6f4be64f595371334e4065b60ca1a81232b333f7
-ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
+ms.openlocfilehash: 730ed36841d07df60e8a8f343126209f0edcc593
+ms.sourcegitcommit: 5c971b15295046b3c92ff6638dd1352129f1c390
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8923959"
+ms.lasthandoff: 07/01/2022
+ms.locfileid: "9110964"
 ---
 # <a name="project-timesheet-mobile-application"></a>Project Timesheet 移动应用程序
 
 [!include [banner](../includes/banner.md)]
 
-## <a name="overview"></a>概述
+## <a name="overview"></a>概览
 
-用户可使用 Microsoft Dynamics 365 Project Timesheet 移动应用在自己的移动设备（iPhone 或 Android）上提交和审核项目的工时单。 这款移动应用提供 Dynamics 365 Finance 的“项目管理和会计”区域中的工时单功能，并可用于及时录入和审核项目工时单。
+用户可使用 Microsoft Dynamics 365 Project Timesheet 移动应用在自己的移动设备（iPhone 或 Android）上提交和审核项目的工时单。 这款移动应用提供位于 Dynamics 365 Finance 的“项目管理和会计”区域中的工时单功能。 它可帮助提高用户的生产力和效率，还有助于及时录入和审核项目工时单。
 
 ## <a name="download-and-install-the-mobile-app"></a>下载并安装移动应用
 
@@ -38,6 +38,19 @@ ms.locfileid: "8923959"
 
 必须在 Finance 中启用 Project Timesheet 移动应用。 若要启用该功能，请转到 **项目管理与核算参数 \> 工时单**，然后选择 **启用 Microsoft Dynamics 365 Project Timesheet** 参数。
 
+### <a name="resolve-sign-in-issues"></a>解决登录问题
+
+**问题**：在登录项目工时单移动应用时，用户收到错误消息，说明他们“无法在该租户中访问应用程序 2bc50526-cdc3-4e36-a970-c284c34cbd6e”。
+
+**问题：** 在登录项目工时单移动应用时，用户收到类似于以下示例之一的错误：
+
+- “AADSTS50020：来自标识提供者 https://sts.windows.net/ [应用 id] 的用户帐户 [用户名称] 在租户 [租户 id] 中不存在，并且无法访问该租户中的应用程序 [应用 id]。”
+- “选定的用户帐户在租户 [租户 id] 中不存在，并且无法访问该租户中的应用程序 [应用 id]。”
+
+**说明：** 这些问题是由 2022 年 5 月对 Azure Active Directory (Azure AD) 所做的更改引起的，此更改与外部用户有关。 由于并未针对财务和运营应用进行此更改，因此它可能会影响任何版本的平台或应用程序上的客户。
+
+**修复：** 必须通过 Azure AD 邀请所有外部用户加入租户。 有关详细信息，请参阅[邀请用户进行 Azure Active Directory B2B 协作](/power-platform/admin/invite-users-azure-active-directory-b2b-collaboration)。
+
 ## <a name="sign-in-to-the-app"></a>登录该应用
 
 1.  在移动设备上启动应用程序。
@@ -46,7 +59,7 @@ ms.locfileid: "8923959"
 
 3.  首次登录时，将提示您输入您的用户名和密码。 输入凭据。
 
-4.  您将登录到自己的默认公司。
+4. 您将登录到自己的默认公司。
 
 ## <a name="submit-a-project-timesheet"></a>提交项目工时单
 

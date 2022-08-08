@@ -6,12 +6,12 @@ ms.date: 01/10/2022
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: ruhercul
-ms.openlocfilehash: 7db7ea6b3cffe6eb43ee0519bbaccfc9092c9311
-ms.sourcegitcommit: 51745acac29dfacba43a4003d86baff4d6ca2fb8
+ms.openlocfilehash: 6a6986cfd6c01d1c22d37a10c8d824730fad2e9e
+ms.sourcegitcommit: a798fed5c59e3fefa62cdfa42c852d529b33fd35
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/14/2022
-ms.locfileid: "8959402"
+ms.lasthandoff: 06/18/2022
+ms.locfileid: "9029289"
 ---
 # <a name="sign-up-for-project-operations-trials"></a>注册 Project Operations 试用版 
 
@@ -90,7 +90,7 @@ _**适用范围：** 面向资源/非库存场景的 Project Operations，精简
 
 ## <a name="configuring-dual-write"></a>配置双重写入
 - 若要为双重写入配置安全角色，请参阅[在 Dataverse 中更新 Project Operations 上的安全设置](resource-provision-new-environment.md#update-security-settings-on-project-operations-on-dataverse)。
-- 要访问双写入配置，导航到 Finance and Operations 实例，然后导航到 **数据管理** > **双写入**。
+- 要访问双写入配置，导航到财务和运营实例，然后导航到 **数据管理** > **双写入**。
 - 若要配置双重写入映射，请参阅[运行 Project Operations 双重写入映射](resource-provision-new-environment.md#run-project-operations-dual-write-maps)。
 
 ## <a name="assign-licenses"></a>分配许可证

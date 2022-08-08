@@ -7,12 +7,12 @@ ms.topic: article
 ms.prod: ''
 ms.reviewer: johnmichalak
 ms.author: sigitac
-ms.openlocfilehash: a060bdc4e4c9f37ec666b1cf4d078986ad1571db
-ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
+ms.openlocfilehash: 490b7aa38bfdfbcdce21a21e582296e4ce15aeeb
+ms.sourcegitcommit: a798fed5c59e3fefa62cdfa42c852d529b33fd35
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8912413"
+ms.lasthandoff: 06/18/2022
+ms.locfileid: "9029243"
 ---
 # <a name="whats-new-april-2021---project-operations-for-resourcenon-stocked-based-scenarios"></a>2021 年 4 月新增功能 - 基于资源/非库存场景的 Project Operations
 
@@ -48,7 +48,7 @@ _**适用于：** 面向资源/非库存场景的 Project Operations_
 | Project Operations 集成项目供应商发票导出实体 (msdyn\_projectvendorinvoices) | 1.0.0.0 | 新表映射可将供应商发票标题从财务和运营应用同步到 Dataverse。 |
 | Project Operations 集成项目供应商发票明细导出实体 (msdyn\_projectvendorinvoicelines) | 1.0.0.0 | 新表映射可将供应商发票明细从财务和运营应用同步到 Dataverse。 |
 
-当更新 Project Operations Dataverse 解决方案和 Finance and Operations 解决方案版本时，您应该始终运行您环境中的最新映射版本并启用所有相关表映射。 如果未激活最新版本的映射，某些功能可能无法正常工作。 您可以在 **双重写入** 页的 **版本** 列中看到映射的活动版本。 您可以通过选择 **表映射版本**，选择最新版本，然后保存所选版本来激活映射的新版本。 如果您自定义了现成的表映射，请重新应用更改。 有关详细信息，请参阅[应用程序生命周期管理](/dynamics365/fin-ops-core/dev-itpro/data-entities/dual-write/app-lifecycle-management)。
+当更新 Project Operations Dataverse 解决方案和财务和运营解决方案版本时，您应该始终运行您环境中的最新映射版本并启用所有相关表映射。 如果未激活最新版本的映射，某些功能可能无法正常工作。 您可以在 **双重写入** 页的 **版本** 列中看到映射的活动版本。 您可以通过选择 **表映射版本**，选择最新版本，然后保存所选版本来激活映射的新版本。 如果您自定义了现成的表映射，请重新应用更改。 有关详细信息，请参阅[应用程序生命周期管理](/dynamics365/fin-ops-core/dev-itpro/data-entities/dual-write/app-lifecycle-management)。
 
 如果您在启动映射时遇到问题，请按照双重写入疑难解答指南中[映射上缺少表列的问题](/dynamics365/fin-ops-core/dev-itpro/data-entities/dual-write/dual-write-troubleshooting-finops-upgrades#missing-table-columns-issue-on-maps)一节中的说明操作。
 

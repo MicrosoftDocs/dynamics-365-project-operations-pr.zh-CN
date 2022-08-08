@@ -6,12 +6,12 @@ ms.date: 05/04/2022
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: sigitac
-ms.openlocfilehash: a54ca1ec5e78d9d0af7b67914f6a63154c7347d3
-ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
+ms.openlocfilehash: 079856e7cf2ffa9b80ab31ebad1c1b5dbe36a4ad
+ms.sourcegitcommit: a798fed5c59e3fefa62cdfa42c852d529b33fd35
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8931181"
+ms.lasthandoff: 06/18/2022
+ms.locfileid: "9028462"
 ---
 # <a name="item-requirements-for-project-contracts-with-multiple-funding-sources"></a>具有多个资金来源的项目合同的物料要求
 
@@ -33,7 +33,7 @@ Contoso 赢得了两个客户的设备续订合同：Adatum US 和 Adatum Corpor
 
 ### <a name="prerequisites"></a>先决条件
 
-- 使用具有多个发票客户的物料要求需要 Microsoft Dynamics 365 Finance and Operations **版本 10.0.27 或更高版本**。
+- 使用具有多个发票客户的物料要求需要 Microsoft Dynamics 365 Finance **版本 10.0.27 或更高版本**。
 - 您的系统管理员必须在 **功能管理** 工作区启用 **允许 Project Operations 库存/基于生产的场景使用具有多个资金来源的物料要求** 功能。
 
 ### <a name="set-up-the-invoice-account-defaulting-rules"></a>设置发票客户默认规则

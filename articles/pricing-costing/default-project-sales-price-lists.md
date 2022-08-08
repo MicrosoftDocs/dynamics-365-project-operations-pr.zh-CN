@@ -6,12 +6,12 @@ ms.date: 10/13/2020
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: rumant
-ms.openlocfilehash: 7a8f99cd03e5c2c15941c17469cc5632765b0fdc
-ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
+ms.openlocfilehash: 99af12577abeb0b77dc5d8a117d1e3b292bf0b80
+ms.sourcegitcommit: 260368e1d0751db713da073a641c63c04876fcdf
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8917703"
+ms.lasthandoff: 06/22/2022
+ms.locfileid: "9036400"
 ---
 # <a name="default-price-lists"></a>默认价目表
 
@@ -25,7 +25,7 @@ Dynamics 365 Project Operations 中的每个项目报价单和合同都包含一
 系统将完成以下过程来确定项目报价单上默认使用哪个价目表：
 
 1. 系统查看附加到客户的项目价目表中的价目表。 
-2. 如果客户记录中附加了项目价目表，系统会查看附加到项目参数与项目报价单的货币相匹配的销售价目表。
+2. 如果客户记录中未附加项目价目表，系统会查看附加到项目参数与项目报价单的货币相匹配的销售价目表。
 3. 接下来，系统检查与项目报价单的日期范围匹配的价目表的时效。 特别是创建报价单的日期。
 4. 如果有多个价目表对项目报价单的日期有效，项目报价单上将默认显示所有价目表。
 5. 如果没有对项目报价单的日期有效的价目表，项目报价单上则没有默认项目价目表。 项目报价单上将出现一条警告消息。 此消息指出，由于没有附加项目价目表，不会对您的项目中的实际值和估计值定价。

@@ -6,12 +6,12 @@ ms.date: 10/01/2020
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: stsporen
-ms.openlocfilehash: 6f5bd20b9d0e8ca1ace1dd6a5a66ae1810bb5b3b
-ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
+ms.openlocfilehash: a3b7db477434c08c5b0b57a71c0ffa32a78aea47
+ms.sourcegitcommit: a798fed5c59e3fefa62cdfa42c852d529b33fd35
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8923223"
+ms.lasthandoff: 06/18/2022
+ms.locfileid: "9028646"
 ---
 # <a name="start-a-new-lcs-project"></a>启动新 LCS 项目
 
@@ -27,7 +27,7 @@ _**适用于：** 面向资源/非库存场景的 Project Operations_
   ![选取 LCS 项目类型。](./media/create-lcs-1.png)
 
 5. 为项目命名。 
-6. 选择 **Finance and Operations** 作为产品名称，然后选择行业和方法。 
+6. 选择 **财务和运营** 作为产品名称，然后选择行业和方法。 
 7. 选择 **创建**。
 
 ![创建 LCS 项目。](./media/create-lcs-2.png)

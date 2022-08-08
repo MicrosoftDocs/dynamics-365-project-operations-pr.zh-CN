@@ -6,12 +6,12 @@ ms.date: 10/04/2020
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: ruhercul
-ms.openlocfilehash: 583524ccf33f2dc42ee6beba7e00cc5fd74819d4
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: 1e09d92de310dbe09e53ae134e5bb195fd64178f
+ms.sourcegitcommit: 341192e1e45eb42d6b18a8370ac2e1100c4a4ca4
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8598661"
+ms.lasthandoff: 07/12/2022
+ms.locfileid: "9137169"
 ---
 # <a name="submit-a-resource-request"></a>提交资源请求
 
@@ -24,7 +24,11 @@ _**适用于：** 基于资源/非库存场景的 Project Operations，精简部
 
 通用团队成员的请求状态将更改为 **已提交**。
 
-处理请求之后，如果资源经理通过预订指定资源处理请求，通用资源将替换为指定资源。 否则，如果资源经理建议指定资源，通用资源将留在团队中，请求状态将更改为 **需要审阅**。
+资源请求的接收者能够使用一个或多个资源部分地满足请求，或者完全满足资源请求。
+
+满足请求后，会将一个或多个命名资源作为项目团队成员添加到项目中。 如果一个资源满足了资源要求，则删除与资源请求关联的通用团队成员。 
+
+在资源请求的接收者推荐了资源并准备好让项目经理审查已推荐的资源后，他们应将资源请求的状态更新为 **需要审核**。
 
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

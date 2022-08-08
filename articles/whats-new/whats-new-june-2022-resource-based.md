@@ -7,12 +7,12 @@ ms.topic: article
 ms.prod: ''
 ms.reviewer: johnmichalak
 ms.author: sigitac
-ms.openlocfilehash: fde1f0be42eecfc5ee809cb9b2191d3aeae57131
-ms.sourcegitcommit: 51745acac29dfacba43a4003d86baff4d6ca2fb8
+ms.openlocfilehash: 32bc7793c5a0ee8c04272d3ffcbd290b39fce4cc
+ms.sourcegitcommit: 7772d72a7c96a44ffb23369f8ffb436813449239
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/14/2022
-ms.locfileid: "8959398"
+ms.lasthandoff: 06/20/2022
+ms.locfileid: "9031320"
 ---
 # <a name="whats-new-june-2022---project-operations-for-resourcenon-stocked-based-scenarios"></a>2022 年 6 月新增功能 - 基于资源/非库存场景的 Project Operations
 
@@ -20,7 +20,7 @@ _**适用于：** 面向资源/非库存场景的 Project Operations_
 
 本文适用于以下 Microsoft Dynamics 365 Project Operations 组件和版本：
 
-- Dataverse 环境中的 Project Operations 版本 4.43.0.77
+- Dataverse 环境中的 Project Operations 版本 4.43.0.77 或 4.43.0.119
 - Dynamics 365 Finance 环境中的项目管理和会计版本 10.0.27
 
 ## <a name="project-operations-dual-write-maps-updates"></a>Project Operations 双重写入映射更新

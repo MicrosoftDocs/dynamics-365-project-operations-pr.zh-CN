@@ -7,12 +7,12 @@ ms.topic: article
 ms.prod: ''
 ms.reviewer: johnmichalak
 ms.author: sigitac
-ms.openlocfilehash: 5ee2d78f1ca1d78f6909d9995a92ac301f06d6a6
-ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
+ms.openlocfilehash: 61f16ebdbabd6545c09d8d7bd82d99b85dc09975
+ms.sourcegitcommit: a798fed5c59e3fefa62cdfa42c852d529b33fd35
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8912091"
+ms.lasthandoff: 06/18/2022
+ms.locfileid: "9029013"
 ---
 # <a name="project-invoice-integration"></a>项目发票集成
 
@@ -24,6 +24,6 @@ ms.locfileid: "8912091"
 
 当项目经理在 Dataverse 中确认估价发票后，估价发票抬头信息将使用双写入表映射 **项目发票方案 V2（发票）** 同步到财务和运营应用。 这是从 Dataverse 到财务和运营应用的单向集成。 不支持直接在财务和运营应用中创建或删除项目发票方案。
 
-Dataverse 中的发票确认还会触发业务逻辑，来在 **实际值** 实体中创建与记帐相关的记录。 这些记录将使用双写入表映射 **Project Operations 集成实际值 (msdyn\_actuals)** 同步到 Finance and Operations。 有关详细信息，请参阅[项目估计值和实际值](resource-dual-write-estimates-actuals.md)。 
+Dataverse 中的发票确认还会触发业务逻辑，来在 **实际值** 实体中创建与记帐相关的记录。 这些记录将使用双写入表映射 **Project Operations 集成实际值 (msdyn\_actuals)** 同步到财务和运营。 有关详细信息，请参阅[项目估计值和实际值](resource-dual-write-estimates-actuals.md)。 
 
 项目发票方案明细通过定期流程 **从暂存导入** 创建。 此流程基于 **实际值暂存** 表中的已记帐实际销售额详细信息。 有关详细信息，请参阅[管理项目发票方案](../invoicing/format-update-project-invoice-proposals.md#create-project-invoice-proposals)。 

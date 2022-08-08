@@ -7,12 +7,12 @@ ms.topic: article
 ms.prod: ''
 ms.reviewer: johnmichalak
 ms.author: sigitac
-ms.openlocfilehash: 7d774631a4712de9b29ddedfee2ea3fc4a2d436f
-ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
+ms.openlocfilehash: f71c6bfcd183613471a4cc10e16a5a54571fac31
+ms.sourcegitcommit: a798fed5c59e3fefa62cdfa42c852d529b33fd35
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8927409"
+ms.lasthandoff: 06/18/2022
+ms.locfileid: "9028599"
 ---
 # <a name="use-procurement-categories-with-project-purchase-orders-and-pending-vendor-invoices"></a>将采购类别用于项目采购订单和待定供应商发票
 
@@ -25,7 +25,7 @@ _**适用于：** 面向资源/非库存场景的 Project Operations_
 需要以下版本来将采购类别用于 Microsoft Dynamics 365 Project Operations 非库存/基于资源场景的项目采购订单：
 
 - Project Operations Dataverse 解决方案版本 4.41.0.45 或更高版本
-- Finance and Operations 环境版本 10.0.26 或更高版本
+- 财务和运营环境版本 10.0.26 或更高版本
 
 ## <a name="run-dual-write-maps-for-procurement-category-support"></a>为采购类别支持运行双写入映射
 

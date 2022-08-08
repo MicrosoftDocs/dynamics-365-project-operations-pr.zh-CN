@@ -15,12 +15,12 @@ ms.search.industry: Service industries
 ms.author: suvaidya
 ms.dyn365.ops.version: ''
 ms.search.validFrom: 2020-10-01
-ms.openlocfilehash: b146174583fdea45481b87375158ebe83ed63418
-ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
+ms.openlocfilehash: a8c8e63a2d8c238f582b67348f88b7285a0b1e12
+ms.sourcegitcommit: 278740b352f1ed9618ee5c79597c8f449984d6f4
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8911125"
+ms.lasthandoff: 07/19/2022
+ms.locfileid: "9177368"
 ---
 # <a name="project-stages"></a>项目阶段
 
@@ -47,7 +47,7 @@ _**适用于：** 基于资源/非库存场景的 Project Operations，精简部
 
 ## <a name="plan"></a>规划
 
-当您获得与项目相关的报价单时，并且当项目转到 **合同** 阶段时，项目阶段将更新为 **规划**。 当项目处于 **规划** 阶段时，**项目实体** 页显示合同的详细信息。
+当您获得与项目相关的报价单时，并且当项目转到 **合同** 阶段时，项目阶段将更新为 **规划**。 当项目处于 **计划** 阶段时，**项目实体** 页的 **销售** 选项卡显示联系人的详细信息。
 
 ## <a name="deliver"></a>交付
 

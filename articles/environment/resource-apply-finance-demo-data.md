@@ -6,12 +6,12 @@ ms.date: 10/01/2020
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: sigitac
-ms.openlocfilehash: 4ce53c171929f0610c53025becaebea46d902c90
-ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
+ms.openlocfilehash: 793b1a01f3bf692bb9f4c2d9abad9a44b110544a
+ms.sourcegitcommit: a798fed5c59e3fefa62cdfa42c852d529b33fd35
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8924649"
+ms.lasthandoff: 06/18/2022
+ms.locfileid: "9029886"
 ---
 # <a name="apply-demo-data-to-a-finance-cloud-hosted-environment"></a>在 Finance 云托管环境中应用演示数据
 
@@ -76,7 +76,7 @@ _**适用于：** 面向资源/非库存场景的 Project Operations_
 
 18. 关闭远程桌面会话，然后使用 LCS **环境详细信息** 页登录到环境，确认它是否按预期工作。
 
-![Finance and Operations。](./media/10FinanceAndOperations.png)
+![财务和运营。](./media/10FinanceAndOperations.png)
 
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

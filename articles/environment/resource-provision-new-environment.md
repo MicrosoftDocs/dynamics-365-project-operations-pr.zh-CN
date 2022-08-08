@@ -7,12 +7,12 @@ ms.topic: article
 ms.prod: ''
 ms.reviewer: johnmichalak
 ms.author: sigitac
-ms.openlocfilehash: 9cc3dafd6a2b6f92b585643c5d43ab52a3faf59e
-ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
+ms.openlocfilehash: 78f40ebe79c038799fbc59902442ad6c23fb94d4
+ms.sourcegitcommit: a798fed5c59e3fefa62cdfa42c852d529b33fd35
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8931595"
+ms.lasthandoff: 06/18/2022
+ms.locfileid: "9028486"
 ---
 # <a name="provision-a-new-environment"></a>设置新环境
 
@@ -117,7 +117,7 @@ Project Operations 需要应用程序版本为 **10.0.13 (10.0.569.20009)** 或�
 
     ![应用解决方案。](./media/13ApplySolutions.png)
 
-5. 同时选择两个解决方案 **Dynamics 365 Finance and Operations 双写入实体映射** 和 **Dynamics 365 Project Operations 双写入实体映射**，然后选择 **应用**。
+5. 同时选择两个解决方案 **Dynamics 365 Finance 双写入实体映射** 和 **Dynamics 365 Project Operations 双写入实体映射**，然后选择 **应用**。
 
     ![确认解决方案。](./media/14ConfirmSolutions.png)
 

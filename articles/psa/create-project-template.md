@@ -4,7 +4,7 @@ description: 如何在 Project Service 中创建项目模板
 author: ruhercul
 ms.custom:
 - dyn365-projectservice
-ms.date: 8/03/2018
+ms.date: 07/19/2022
 ms.topic: article
 ms.author: ruhercul
 audience: Admin
@@ -17,12 +17,12 @@ search.app:
 - D365PS
 - ProjectOperations
 ms.reviewer: johnmichalak
-ms.openlocfilehash: 127b6e43a15f19a42791e78b55865ab11ca50c7a
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: 8159e0390441e5029f9beb0228cffcbc4d683479
+ms.sourcegitcommit: 278740b352f1ed9618ee5c79597c8f449984d6f4
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8598983"
+ms.lasthandoff: 07/19/2022
+ms.locfileid: "9177414"
 ---
 # <a name="create-a-project-template-project-service"></a>创建项目模板 (Project Service)
 
@@ -40,7 +40,14 @@ ms.locfileid: "8598983"
 - **项目估算**：除默认的价目表外，模板中的项目估算方式与项目中的方式相同，成本价和销售价始终是在[!INCLUDE[pn_project_service_auto](../includes/pn-project-service-auto.md)]参数中定义的默认成本和销售价目表。 此功能的其他部分与项目中的功能相同。  
   
 - **项目团队建立**：在为项目模板建立项目团队时，您不能在模板中预订指定的资源。 您在工作分解结构中可以使用 **生成项目团队** 来生成一套通用资源。 您还可以为通用资源指定所需的技能和专长。 您不能在项目模板中使用可预订资源替代通用资源。  
-  
+
+## <a name="create-a-project-template-from-an-existing-project"></a>根据现有项目创建项目模板
+您可以按照以下方法从项目创建项目模板：
+
+- **工作分解结构**：从项目派生的模板中的工作分解结构将复制所有任务和依赖项。 创建的分配将基于创建项目模板时添加到项目团队的通用团队成员。
+- **项目估计值**：从现有项目创建项目模板时，源项目的估算值将复制到项目模板中。
+- **项目团队成员**：从现有项目创建模板时，所有命名的团队成员都将替换为组织的通用资源。 将保留所有职位名称和角色。
+
 ## <a name="create-a-project-from-a-template"></a>从模板创建项目  
  您可以按照以下方法从模板创建项目：  
   

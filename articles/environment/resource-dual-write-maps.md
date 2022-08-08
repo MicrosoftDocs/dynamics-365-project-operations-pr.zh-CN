@@ -2,16 +2,16 @@
 title: Project Operations 双重写入映射版本
 description: 本文提供了 Dynamics 365 Project Operations 所需的双写入映射的列表。
 author: sigitac
-ms.date: 04/22/2021
+ms.date: 07/01/2021
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: sigitac
-ms.openlocfilehash: ee0b6a1722405e6a50c42db6bd2a25b872c6118c
-ms.sourcegitcommit: 51745acac29dfacba43a4003d86baff4d6ca2fb8
+ms.openlocfilehash: e904ad18b6ea94cd6d31d1878b5bc9e7c52be741
+ms.sourcegitcommit: c8b8fef5626790208c5290b1bb92b17a5d90d286
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/14/2022
-ms.locfileid: "8959394"
+ms.lasthandoff: 07/02/2022
+ms.locfileid: "9112418"
 ---
 # <a name="project-operations-dual-write-map-versions"></a>Project Operations 双重写入映射版本
 
@@ -46,7 +46,7 @@ _**适用于：** 面向资源/非库存场景的 Project Operations_
 | 项目合同抬头 (sales orders) | 1.0.0.1 | 预配时不需要。 ||
 | 项目合同子项 (salesorderdetails) | 1.0.0.0 | 预配时不需要。 ||
 | 项目资金来源 (msdyn_projectcontractsplitbillingrules) | 1.0.0.2 | 预配时不需要。 ||
-| 用于材料估算的 Project Operations 集成表 (msdyn\_estimatelines) | 1.0.0.0 | 预配时不需要。 ||
+| 用于材料估算的项目集成表 (msdyn\_estimatelines) | 1.0.0.0 | 预配时不需要。 ||
 | 项目发票方案 V2 (invoices) | 1.0.0.3 | 预配时不需要。 ||
 | Project Operations 集成实际值 (msdyn_actuals) | 1.0.0.14 | 预配时不需要。 ||
 | Project Operations 集成合同子项里程碑 (msdyn_contractlinescheduleofvalues) | 1.0.0.4 | 预配时不需要。 ||

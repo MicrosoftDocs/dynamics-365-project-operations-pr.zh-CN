@@ -2,24 +2,24 @@
 title: 在“任务”网格中工作故障排除
 description: 本文提供在任务网格中工作时需要的故障排除信息。
 author: ruhercul
-ms.date: 04/05/2022
+ms.date: 07/22/2022
 ms.topic: article
 ms.product: ''
 ms.reviewer: johnmichalak
 ms.author: ruhercul
-ms.openlocfilehash: e6ab4f34fe3f6732f7bef252f298671e07a3c3ca
-ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
+ms.openlocfilehash: 208ed55abf4cdf0ad2b035bd923e183ff3cae660
+ms.sourcegitcommit: e91136d3335ee03db660529eccacd48907774453
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8911033"
+ms.lasthandoff: 07/22/2022
+ms.locfileid: "9188220"
 ---
 # <a name="troubleshoot-working-in-the-task-grid"></a>在“任务”网格中工作故障排除 
 
 
 _**适用于**：基于资源/非库存场景的 Project Operations、精简部署 - 估价交易开单、Project for the Web_
 
-Dynamics 365 Project Operations 利用的“任务”网格是 Microsoft Dataverse 内的托管 iframe。 由于使用了这一项，因此必须满足特定要求，才能确保身份验证和授权能够正常运行。 本文概述的常见问题可能会影响用于呈现网格或在工作分解结构 (WBS) 中管理任务的功能。
+Dynamics 365 Project Operations 使用的“任务”网格是 Microsoft Dataverse 内的托管 iframe。 由于使用了这一项，因此必须满足特定要求，才能确保身份验证和授权能够正常运行。 本文概述的常见问题可能会影响用于呈现网格或在工作分解结构 (WBS) 中管理任务的功能。
 
 常见问题包括：
 
@@ -72,7 +72,10 @@ Project Operations 需要项目参数引用 PEX 终结点。 需要使用此终�
 4. 从 **项目参数** 页删除此字段。
 
 ### <a name="mitigation-3-sign-in-to-projectmicrosoftcom"></a>缓解 3：登录到 project.microsoft.com
-在您的 Microsoft Edge 浏览器中，打开一个新选项卡，转到 project.microsoft.com，然后使用您用于访问 Project Operations 的用户角色登录。
+
+在您的浏览器中，打开一个新选项卡，转到 project.microsoft.com，然后使用您用于访问 Project Operations 的用户角色登录。 在浏览器中只能有一个用户登录 Microsoft 产品，这一点很重要。 当多个用户登录时，最常出现“login.microsoftonline.com 拒绝连接”错误消息，如下图所示。
+
+![选择一个显示两个用户已登录的帐户登录页面。](media/MULTIPLE_USERS_LOGGED_IN.png)
 
 ## <a name="issue-the-project-doesnt-load-and-the-ui-is-stuck-on-the-spinner"></a>问题：项目未加载且 UI 停滞在旋转图标上
 

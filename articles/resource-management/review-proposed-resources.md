@@ -15,12 +15,12 @@ ms.search.industry: Service industries
 ms.author: ruhercul
 ms.dyn365.ops.version: ''
 ms.search.validFrom: 2020-10-01
-ms.openlocfilehash: 3f20dda2b7b384608b8f4b548c18ac21d07fee07
-ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
+ms.openlocfilehash: 2a5b5159ceb8aa5b29dffad59517bc11fbf16871
+ms.sourcegitcommit: 66e376675e6df8efc86fa84ec24e9aad6a980304
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8924833"
+ms.lasthandoff: 07/21/2022
+ms.locfileid: "9183963"
 ---
 # <a name="review-proposed-resources"></a>查看建议资源
 
@@ -40,8 +40,8 @@ _**适用于：** 基于资源/非库存场景的 Project Operations，精简部
     将进行以下状态更新：
 
     - 在 **日程安排助理** 页中，将更新状态指示器，以便指示预订是建议的，而不是硬预订的。
-    - 在资源请求中，状态更改为 **需要审阅**。
-    - 在项目的 **团队** 选项卡上，通用团队成员的 **请求状态** 值更改为 **需要审阅**。
+    - 在资源请求上，请求的审阅者应将状态更改为 **需要审阅**。
+    - 在项目的 **团队** 选项卡上，通用团队成员的 **请求状态** 值会自动更改为 **需要审阅**。
 
 项目经理可接受或拒绝建议。
 

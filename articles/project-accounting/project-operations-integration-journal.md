@@ -2,22 +2,22 @@
 title: Project Operations 中的集成日记帐
 description: 本文提供有关在 Project Operations 中处理集成日记帐的信息。
 author: sigitac
-ms.date: 10/27/2020
+ms.date: 06/29/2022
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: sigitac
-ms.openlocfilehash: befb1756ad77708805f3cbb06168b93e44296df0
-ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
+ms.openlocfilehash: d6f1709c4bf44cfd45516d9ac74b30d4817bb653
+ms.sourcegitcommit: a5a1d81d2fe0a6f684e79859fcddf45e913d76bc
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8923867"
+ms.lasthandoff: 07/01/2022
+ms.locfileid: "9106264"
 ---
 # <a name="integration-journal-in-project-operations"></a>Project Operations 中的集成日记帐
 
 _**适用于：** 面向资源/非库存场景的 Project Operations_
 
-时间和支出条目创建表示按照项目完成的工作的运作视图的 **实际** 交易。 Dynamics 365 Project Operations 为会计人员提供了一个审查交易并根据需要调整会计属性的工具。 审查和调整完成后，交易将过帐到项目子分类帐和总帐。 会计可以使用 **Project Operations 集成** 日记帐（**Dynamics 365 Finance** > **项目管理和会计** > **日记帐** > **Project Operations 集成** 日记帐）执行这些活动。
+时间、支出、费用和材料条目创建表示按照项目完成的工作的运作视图的 **实际** 交易。 Dynamics 365 Project Operations 为会计人员提供了一个审查交易并根据需要调整会计属性的工具。 审查和调整完成后，交易将过帐到项目子分类帐和总帐。 会计可以使用 **Project Operations 集成** 日记帐（**Dynamics 365 Finance** > **项目管理和会计** > **日记帐** > **Project Operations 集成** 日记帐）执行这些活动。
 
 ![集成日记帐流。](./media/IntegrationJournal.png)
 
@@ -50,9 +50,21 @@ Project Operations 集成日志中的记录使用定期流程 **从暂存表导�
 - **计费销售税组** 和 **计费物料销售税组**
 - **财务维度**（使用 **分配金额** 操作）
 
-集成日记帐行可以删除，但是在您重新运行 **从暂存导入** 定期流程后，任何未过帐的行将再次插入到日记帐中。
+集成日记帐行可以删除。 但是在您重新运行 **从暂存导入** 定期流程后，任何未过帐的行将再次插入到日记帐中。
+
+### <a name="post-the-project-operations-integration-journal"></a>过帐 Project Operations 集成日记帐
 
 过帐集成日记帐时，将创建项目子分类帐和总帐交易。 这些将在下游的客户开票、收入确认和财务报告中使用。
 
+可以使用 Project Operations 集成日记帐页面上的 **发布** 来发布选定的 Project Operations 集成日记帐。 通过在 **定期** > **Project Operations 集成** > **过帐 Project Operations 集成日记帐** 中运行流程，可以自动发布所有日记帐。
+
+可以以交互方式或批量执行过帐。 请注意，所有超过 100 行的日记帐将自动批量过帐。 为了在批量过帐具有多个行的日记帐时获得更好的性能，请在 **功能管理** 工作区中启用 **使用多个批处理任务过帐 Project Operations 集成日记帐** 功能。 
+
+#### <a name="transfer-all-lines-that-have-posting-errors-to-a-new-journal"></a>将所有具有过帐错误的行转移到新日记帐
+
+> [!NOTE]
+> 要使用该功能，请启用 **功能管理** 工作区中的 **将所有具有过帐错误的行转移到新的 Project Operations 集成日志** 功能。
+
+在过帐到 Project Operations 集成日记帐期间，系统会验证日记帐中的每一行。 系统将过帐所有没有错误的行，并为所有具有过帐错误的行创建一个新日记帐。 要查看有过帐错误行的日记帐，请转到 **项目管理和会计** > **日记帐** > **Project Operations 集成日记帐**，然后使用 **原始日记帐** 字段筛选日记帐。
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]
