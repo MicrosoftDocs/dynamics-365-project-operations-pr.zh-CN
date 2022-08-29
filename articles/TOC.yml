@@ -62,10 +62,12 @@
           href: environment/uninstall-project-operations.md
     - name: 新增功能
       items:
-        - name: 2022 年 7 月 - 适用于资源/非库存场景的 Project Operations
-          href: whats-new/whats-new-july-2022-resource-based.md
+        - name: 2022 年 8 月 - 适用于资源/非库存场景的 Project Operations
+          href: whats-new/whats-new-aug-2022-resource-based.md
         - name: 存档
           items:
+            - name: 2022 年 7 月 - 适用于资源/非库存场景的 Project Operations
+              href: whats-new/whats-new-july-2022-resource-based.md
             - name: 2022 年 6 月 - 适用于资源/非库存场景的 Project Operations
               href: whats-new/whats-new-june-2022-resource-based.md
             - name: 2022 年 5 月 - 适用于资源/非库存材料场景的 Project Operations
@@ -384,6 +386,42 @@
           items:
             - name: 资源利用率概述
               href: resource-management/resource-utilization-overview.md
+    - name: 分包合同管理
+      items:
+        - name: Project Operations 中的分包合同管理
+          href: pro/subcontracting/managing-subcontracts-overview.md
+        - name: 合同分包中的关键概念
+          href: pro/subcontracting/key-concepts-subcontracting.md
+        - name: 管理供应商和项目价目表
+          href: pro/subcontracting/vendors-purchase-price-lists.md
+        - name: 作为可预订资源的分包商
+          href: pro/subcontracting/subcontractors-as-bookable-resources.md
+        - name: 分包合同的标题详细信息
+          href: pro/subcontracting/subcontract-header-details.md
+        - name: 分包合同时间子项
+          href: pro/subcontracting/subcontract-line-time.md
+        - name: 分包合同支出类别子项
+          href: pro/subcontracting/subcontract-line-expense.md
+        - name: 分包合同产品子项
+          href: pro/subcontracting/subcontract-line-products.md
+        - name: 分包商子项资源
+          href: pro/subcontracting/subcontract-line-resources.md
+        - name: 分包合同子项里程碑
+          href: pro/subcontracting/subcontract-line-milestones.md
+        - name: 分包项目团队成员
+          href: pro/subcontracting/subcontracting-project-team-members.md
+        - name: 针对项目团队成员的分包选项
+          href: pro/subcontracting/subcon-options.md
+        - name: 对已分包资源分配的成本预估
+          href: pro/subcontracting/costing-subcon-ra.md
+        - name: 配置日程安排板以显示合同员工和已分包容量
+          href: pro/subcontracting/configure-sb-subcon.md
+        - name: 为项目配备合同工和已分包容量
+          href: pro/subcontracting/staffing-cw.md
+        - name: 记录已分包部分的时间、支出和材料使用情况
+          href: pro/subcontracting/recording-subcon-actuals.md
+        - name: 分包合同的状态转换
+          href: pro/subcontracting/subcon-states.md
     - name: 时间
       items:
         - name: 时间概述
@@ -580,6 +618,8 @@
       items:
         - name: 直接转换期间迁移完全开票的记帐里程碑
           href: advanced-configuration/migrating-invoiced-milestones.md
+        - name: 同步项目状态以防止针对已关闭项目的输入
+          href: advanced-configuration/sync-project-status.md
     - name: 升级
       items:
         - name: 新式审批的升级注意事项
@@ -610,10 +650,12 @@
           href: environment/security-model.md
     - name: 新增功能
       items:
-        - name: 2022 年 7 月新增功能 - 精简部署
-          href: pro/whats-new/whats-new-july-2022-lite.md
+        - name: 2022 年 8 月新增功能 - 精简部署
+          href: pro/whats-new/whats-new-aug-2022-lite.md
         - name: 存档
           items:
+            - name: 2022 年 7 月新增功能 - 精简部署
+              href: pro/whats-new/whats-new-july-2022-lite.md
             - name: 2022 年 6 月新增功能 - 精简部署
               href: pro/whats-new/whats-new-june-2022-lite.md
             - name: 2021 年第 2 波抢先体验新增功能 - 精简部署
