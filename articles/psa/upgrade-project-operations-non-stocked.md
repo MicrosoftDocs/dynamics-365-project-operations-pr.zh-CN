@@ -16,12 +16,12 @@ search.app:
 - D365PS
 - ProjectOperations
 ms.reviewer: johnmichalak
-ms.openlocfilehash: 30eb02240de6617d4c550ce59db2a454eee36f5b
-ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
+ms.openlocfilehash: c7958c1474820361269f19ea8c9279b96f087d7a
+ms.sourcegitcommit: 8edd24201cded2672cec16cd5dc84c6a3516b6c2
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8912965"
+ms.lasthandoff: 08/06/2022
+ms.locfileid: "9230218"
 ---
 # <a name="upgrade-from-project-service-automation-to-project-operations"></a>从 Project Service Automation 升级到 Project Operations
 
@@ -67,7 +67,7 @@ ms.locfileid: "8912965"
 
 ## <a name="testing-and-refactoring-customizations"></a>测试并重构自定义项
 
-首先，将所有自定义项导入干净的 Project Operations (lite) 环境，以确认导入成功，并且业务运营表现正常。
+首先，将所有自定义项导入干净的 Project Operations（精简）环境，以确认导入成功，并且业务运营表现正常。
 
 以下是一些需要关注的事项：
 

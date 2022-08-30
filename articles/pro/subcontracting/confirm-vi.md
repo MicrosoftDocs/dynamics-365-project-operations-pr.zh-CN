@@ -6,16 +6,14 @@ ms.date: 03/30/2022
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: rumant
-ms.openlocfilehash: 092b3cd5981f7d9bb8767c7a2acb2f4952801d06
-ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
+ms.openlocfilehash: 4dafbe64e0727957068d68f510202a12871b62aa
+ms.sourcegitcommit: b2224d1f3c0bd4925d647e6ca3960db81a209521
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8932423"
+ms.lasthandoff: 08/11/2022
+ms.locfileid: "9261500"
 ---
 # <a name="confirm-a-project-vendor-invoice"></a>确认项目供应商发票
-
-[!include [banner](../../includes/dataverse-preview.md)]
 
 _**适用于：** 精简部署 - 估价交易开票_
 

@@ -6,16 +6,14 @@ ms.date: 07/28/2021
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: rumant
-ms.openlocfilehash: f005a05fb874f9e32a0041db5fc8fa1228fc91f1
-ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
+ms.openlocfilehash: 67df514cd1a0bd07d4ff2582e1a7738d913e0ac5
+ms.sourcegitcommit: b2224d1f3c0bd4925d647e6ca3960db81a209521
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8927501"
+ms.lasthandoff: 08/11/2022
+ms.locfileid: "9261312"
 ---
 # <a name="set-up-subcontractors-as-bookable-resources"></a>将分包商设置为可预订资源
-
-[!include [banner](../../includes/dataverse-preview.md)]
 
 _**适用于：** 精简部署 - 估价交易开票_
 

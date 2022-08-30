@@ -6,12 +6,12 @@ ms.date: 01/13/2022
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: sigitac
-ms.openlocfilehash: ada06186121d41edddaa06f747b3e1687c303928
-ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
+ms.openlocfilehash: 3248a057b831d81fdc2bc198b4ed4da5e46462f2
+ms.sourcegitcommit: 8edd24201cded2672cec16cd5dc84c6a3516b6c2
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8929203"
+ms.lasthandoff: 08/06/2022
+ms.locfileid: "9230304"
 ---
 # <a name="use-project-schedule-apis-to-perform-operations-with-scheduling-entities"></a>使用项目计划 API 对计划实体执行操作
 
@@ -45,9 +45,9 @@ OperationSet 是一种工作单位模式，当必须在交易内处理多个计�
 - **msdyn_CreateProjectV1**：此 API 可用于创建项目。 项目和默认项目桶会立即创建。
 - **msdyn_CreateTeamMemberV1**：此 API 可用于创建项目团队成员。 系统会立即创建团队成员记录。
 - **msdyn_CreateOperationSetV1**：此 API 可用于安排必须在交易中执行多个请求。
-- **msdyn_PSSCreateV1**：此 API 可用于创建实体。 该实体可以是支持创建操作的任何项目计划实体。
-- **msdyn_PSSUpdateV1**：此 API 可用于更新实体。 该实体可以是支持更新操作的任何项目计划实体。
-- **msdyn_PSSDeleteV1**：此 API 可用于删除实体。 该实体可以是支持删除操作的任何项目计划实体。
+- **msdyn_PssCreateV1**：此 API 可用于创建实体。 该实体可以是支持创建操作的任何项目计划实体。
+- **msdyn_PssUpdateV1**：此 API 可用于更新实体。 该实体可以是支持更新操作的任何项目计划实体。
+- **msdyn_PssDeleteV1**：此 API 可用于删除实体。 该实体可以是支持删除操作的任何项目计划实体。
 - **msdyn_ExecuteOperationSetV1**：此 API 用于执行给定操作集内的所有操作。
 
 ## <a name="using-project-schedule-apis-with-operationset"></a>将项目计划 API 与 OperationSet 一起使用

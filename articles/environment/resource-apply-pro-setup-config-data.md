@@ -1,17 +1,17 @@
 ---
-title: 在 Common Data Service 中设置和应用配置数据
+title: 在 Microsoft Dataverse 中设置和应用配置数据
 description: 本文提供有关在 Project Operations 中设置和应用配置数据的信息。
 author: sigitac
 ms.date: 05/10/2021
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: sigitac
-ms.openlocfilehash: 2c918425e9a6c5fe8888ed8a4258ca59f0464828
-ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
+ms.openlocfilehash: b09d3ea7348082a0467fd7b47918c9e00d1f1e8c
+ms.sourcegitcommit: 8edd24201cded2672cec16cd5dc84c6a3516b6c2
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8928007"
+ms.lasthandoff: 08/06/2022
+ms.locfileid: "9230214"
 ---
 # <a name="set-up-and-apply-configuration-data-in-the-common-data-service"></a>在 Common Data Service 中设置和应用配置数据 
 
@@ -21,10 +21,10 @@ _**适用于：** 面向资源/非库存场景的 Project Operations_
 
 ## <a name="prerequisites"></a>先决条件
 
-在开始在 Common Data Service (CDS) 中配置数据之前，必须满足以下先决条件：
+在开始在 Microsoft Dataverse 中配置数据之前，必须满足以下先决条件：
 
-1.  为 Project Operations 预配 CDS 环境和 Dynamics 365 Finance 环境。
-2.  Dynamics 365 Finance 中的法人信息将共享到 CDS 环境。 这意味着 CDS 中的 **公司** 实体具有以下公司记录：
+1.  为 Project Operations 预配 Dataverse 环境和 Dynamics 365 Finance 环境。
+2.  Dynamics 365 Finance 中的法人信息将共享到 Dataverse 环境。 这意味着 Dataverse 中的 **公司** 实体具有以下公司记录：
   - THPM
   - USPM
   - GBPM
