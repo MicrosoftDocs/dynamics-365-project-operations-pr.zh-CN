@@ -7,12 +7,12 @@ ms.topic: article
 ms.prod: ''
 ms.reviewer: johnmichalak
 ms.author: ramagadu
-ms.openlocfilehash: cbee9281d2fae485a3ebcd38bb884a2b2322f8d1
-ms.sourcegitcommit: 66e376675e6df8efc86fa84ec24e9aad6a980304
+ms.openlocfilehash: e63b29741dbaa400a2176ff8b4c35c6d64dfeab4
+ms.sourcegitcommit: 7ed8e77a92917f2d242988ca02bd7de9571cce5e
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 07/21/2022
-ms.locfileid: "9183876"
+ms.lasthandoff: 09/02/2022
+ms.locfileid: "9403940"
 ---
 # <a name="whats-new-july-2022---project-operations-for-resourcenon-stocked-based-scenarios"></a>2022 年 7 月新增功能 - 基于资源/非库存场景的 Project Operations
 
@@ -45,6 +45,12 @@ _**适用于：** 面向资源/非库存场景的 Project Operations_
 | 计费和定价 | 2675880 | 防止项目链接到不基于工作的合同子项。 |
 | 计费和定价 | 2664396 | 如果保存的报价单价目表没有报价，则一定会有一个错误指出报价不能为空。 |
 | 计费和定价 | 2184019 | 对于没有支持合同或报价的项目，不应显示 **基于任务的计费** 选项卡。 |
+| 时间和支出 | 2754459 | 当定期的计划云端流处于停用状态时，显示横幅并绕过异步处理。 |
+| 计费和定价 | 2724391 | 当项目合同拆分计费规则缺少客户值时，会引发错误异常。 |
+| 计费和定价 | 2708638 | 在“材料使用”和“材料使用审批”中使用网格搜索进行搜索时未找到记录。|
+| 计费和定价 | 2686977 | 在创建发票期间阻止验证发票行。 |
+| 计费和定价 | 2683032 | 应计费角色和类别的复制不能扩大到 5000 条记录以上。|
+| 计费和定价 | 2673363 | 当项目的工作量和支出估算值和实际值都存在时，项目的成本消耗百分比将出错。 |
 
 ### <a name="project-management-and-accounting-in-finance"></a>Finance 中的项目管理和会计
 
