@@ -168,6 +168,8 @@
                   href: sales/invoice-schedule-quote-line.md
             - name: 复制项目报价单
               href: sales/lose-quote.md
+            - name: 激活和修订项目报价单
+              href: sales/activation-and-revision.md
             - name: 关闭项目报价单
               href: sales/win-quote.md
         - name: 管理项目合同
@@ -198,6 +200,8 @@
                   href: sales/import-estimate-project-contract-line.md
                 - name: 根据基于项目的合同子项创建发票计划
                   href: sales/invoice-schedules-contract-line.md
+            - name: 复制基于项目的合同
+              href: sales/copy-project-based-contracts-sales.md
             - name: 确认项目合同
               href: pro/sales/confirm-contract-sales.md
             - name: 预付款和保留款
@@ -228,9 +232,9 @@
               href: pricing-costing/default-project-sales-price-lists.md
             - name: 替代项目销售价目表
               href: pricing-costing/override-project-sales-price-list-default.md
-            - name: 处理成本费预估和实际值
+            - name: 确定成本费的估算和实际值
               href: pricing-costing/cost-price-resolution.md
-            - name: 处理售价预估和实际值
+            - name: 确定售价的估算和实际值
               href: pricing-costing/sales-price-resolution.md
             - name: 复制价目表
               href: pricing-costing/copy-price-lists.md
@@ -760,12 +764,14 @@
                   href: pro/sales/configure-chargeable-components-quote-line-sales.md
                 - name: 预估基于项目的报价单明细
                   href: pro/sales/create-estimate-quote-line-sales.md
-                - name: 导入项目预估
+                - name: 导入项目估算
                   href: pro/sales/import-estimate-project-quote-sales.md
                 - name: 管理发票计划
                   href: sales/invoice-schedule-quote-line.md
             - name: 复制基于项目的报价单
               href: sales/lose-quote.md
+            - name: 激活和修订项目报价单
+              href: sales/activation-and-revision.md
             - name: 关闭基于项目的报价单
               href: pro/sales/win-quote-sales.md
         - name: 管理基于项目的合同
@@ -838,9 +844,9 @@
               href: pricing-costing/default-project-sales-price-lists.md
             - name: 替代项目销售价目表
               href: pricing-costing/override-project-sales-price-list-default.md
-            - name: 根据项目预估和实际值处理成本费
+            - name: 根据项目估算和实际值确定成本费
               href: pro/pricing-costing/cost-price-resolution-sales.md
-            - name: 处理项目预估和实际值的售价
+            - name: 确定项目的售价估算和实际值
               href: pro/pricing-costing/sales-price-resolution-sales.md
             - name: 复制价目表
               href: pricing-costing/copy-price-lists.md
