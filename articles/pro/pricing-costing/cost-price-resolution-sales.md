@@ -7,18 +7,18 @@ ms.topic: article
 ms.prod: ''
 ms.reviewer: johnmichalak
 ms.author: rumant
-ms.openlocfilehash: c7dd264ebbd1da9b2f42d2284fb38988a09aa03f
-ms.sourcegitcommit: 16c9eded66d60d4c654872ff5a0267cccae9ef0e
+ms.openlocfilehash: c2295174df1ce766c6d1304f4e9c55d32d5c4775
+ms.sourcegitcommit: 60a34a00e2237b377c6f777612cebcd6380b05e1
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 09/07/2022
-ms.locfileid: "9410090"
+ms.lasthandoff: 09/13/2022
+ms.locfileid: "9475219"
 ---
 # <a name="determine-cost-rates-for-project-estimates-and-actuals"></a>确定项目估算和实际值的成本费率
 
 _**适用于：** 精简部署 - 估价交易开票_
 
-为确定估算和实际上下文中的成本价目表和成本费率，系统使用相关项目的 **日期**、**货币** 和 **合同签订部门** 字段中的信息。
+为了在 Microsoft Dynamics 365 Project Operations 中确定估算和实际值的成本费率，系统首先使用传入估算或实际上下文中的日期和货币来确定成本价目表。 具体在实际上下文中，系统使用 **交易日期** 字段来确定适用的价目表。 将传入估计值或实际值的 **交易日期** 值与价目表上的 **生效开始日期(时区无关)** 和 **生效结束日期(时区无关)** 值进行比较 。 成本价目表确定后，系统将确定成本费率。 
 
 ## <a name="determining-cost-rates-in-estimate-and-actual-contexts-for-time"></a>确定“时间”的估算和实际上下文中的成本费率
 

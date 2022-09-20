@@ -16,12 +16,12 @@ search.app:
 - D365PS
 - ProjectOperations
 ms.reviewer: johnmichalak
-ms.openlocfilehash: c7958c1474820361269f19ea8c9279b96f087d7a
-ms.sourcegitcommit: 8edd24201cded2672cec16cd5dc84c6a3516b6c2
+ms.openlocfilehash: 43ea29aeafb62f3ecd69b316f2c0a5b791707da5
+ms.sourcegitcommit: bc21fbe8547534d2644269f873eb05d509840f23
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/06/2022
-ms.locfileid: "9230218"
+ms.lasthandoff: 09/08/2022
+ms.locfileid: "9446024"
 ---
 # <a name="upgrade-from-project-service-automation-to-project-operations"></a>从 Project Service Automation 升级到 Project Operations
 
@@ -29,7 +29,7 @@ ms.locfileid: "9230218"
 
 升级交付计划将分为三个阶段。
 
-| 升级交付 | 第 1 阶段（2022 年 1 月） | 第 2 阶段（2022 年 4 月波次） | 第 3 阶段  |
+| 升级交付 | 第 1 阶段（2022 年 1 月） | 第 2 阶段（2022 年 11 月） | 第 3 阶段（2023 年 4 月波次）  |
 |------------------|------------------------|---------------------------|---------------------------|
 | 项目不依赖工作分解结构 (WBS) | :heavy_check_mark: | :heavy_check_mark: | :heavy_check_mark: |
 | Project Operations 的当前受支持限制内的 WBS | | :heavy_check_mark: | :heavy_check_mark: |
@@ -39,7 +39,7 @@ ms.locfileid: "9230218"
 
 在升级过程中，我们已将升级日志添加到站点地图，以便管理员能够更轻松地诊断故障。 除了新接口，还将添加新验证规则以确保升级后的数据完整性。 以下验证将添加到升级流程中。
 
-| 验证 | 第 1 阶段（2022 年 1 月） | 第 2 阶段（2022 年 4 月波次） | 第 3 阶段  |
+| 验证 | 第 1 阶段（2022 年 1 月） | 第 2 阶段（2022 年 11 月） | 第 3 阶段  |
 |-------------|------------------------|---------------------------|---------------------------|
 | 系统将根据常见的数据完整性违规情况（例如，资源分配与同一父任务关联但具有不同父项目）验证 WBS。 | | :heavy_check_mark: | :heavy_check_mark: |
 | 系统将根据 [Project for the Web 的已知限制](/project-for-the-web/project-for-the-web-limits-and-boundaries)验证 WBS。 | | :heavy_check_mark: | :heavy_check_mark: |

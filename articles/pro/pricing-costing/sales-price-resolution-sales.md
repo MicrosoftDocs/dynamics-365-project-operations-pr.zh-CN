@@ -6,18 +6,18 @@ ms.date: 09/01/2022
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: rumant
-ms.openlocfilehash: 6504302578d1eb3d00c717ea93cd4c4212acb4e7
-ms.sourcegitcommit: 16c9eded66d60d4c654872ff5a0267cccae9ef0e
+ms.openlocfilehash: 1288a571d50604ee400db9c16822719d0649628b
+ms.sourcegitcommit: 60a34a00e2237b377c6f777612cebcd6380b05e1
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 09/07/2022
-ms.locfileid: "9410107"
+ms.lasthandoff: 09/13/2022
+ms.locfileid: "9475173"
 ---
 # <a name="determine-sales-prices-for-project-estimates-and-actuals"></a>确定项目的售价估算和实际值
 
 _**适用于：** 精简部署 - 估价交易开票_
 
-为了在 Microsoft Dynamics 365 Project Operations 中确定估算和实际值的销售价，系统首先使用传入估算或实际上下文中的日期和货币来确定销售价目表。 具体在实际上下文中，系统使用 **交易日期** 字段来确定适用的价目表。 确定销售价目表后，系统将确定销售或记帐费率。
+为了在 Microsoft Dynamics 365 Project Operations 中确定估算和实际值的销售价，系统首先使用传入估算或实际上下文中的日期和货币来确定销售价目表。 具体在实际上下文中，系统使用 **交易日期** 字段来确定适用的价目表。 将传入估计值或实际值的 **交易日期** 值与价目表上的 **生效开始日期(时区无关)** 和 **生效结束日期(时区无关)** 值进行比较 。 确定销售价目表后，系统将确定销售或记帐费率。
 
 ## <a name="determining-sales-rates-on-actual-and-estimate-lines-for-time"></a>确定“时间”的实际和估算明细中的销售费率
 

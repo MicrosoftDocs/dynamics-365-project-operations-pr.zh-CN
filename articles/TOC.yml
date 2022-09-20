@@ -232,6 +232,8 @@
               href: pricing-costing/default-project-sales-price-lists.md
             - name: 替代项目销售价目表
               href: pricing-costing/override-project-sales-price-list-default.md
+            - name: 为价目表中的特定价格设置生效日期替代
+              href: pricing-costing/dateffective_price_overrides.md
             - name: 确定成本费的估算和实际值
               href: pricing-costing/cost-price-resolution.md
             - name: 确定售价的估算和实际值
@@ -544,6 +546,14 @@
           href: procurement/pending-vendor-invoices.md
         - name: 使用项目采购订单为项目订购商品和服务
           href: procurement/non-stocked-materials-project-purchase-orders.md
+        - name: 适用于 Dataverse 中分包合同的供应商发票
+          items:
+            - name: 创建供应商发票
+              href: procurement/Vendor-invoicing-concept-and-creation.md
+            - name: 验证具有批准的实际值的供应商发票
+              href: pro/subcontracting/VI-Verification.md
+            - name: 确认项目供应商发票
+              href: procurement/Confirm-a-project-vendor-invoice.md
         - name: 供应商保留
           items:
             - name: 供应商保留概述
@@ -844,6 +854,8 @@
               href: pricing-costing/default-project-sales-price-lists.md
             - name: 替代项目销售价目表
               href: pricing-costing/override-project-sales-price-list-default.md
+            - name: 为价目表中的特定价格设置生效日期替代
+              href: pricing-costing/dateffective_price_overrides.md
             - name: 根据项目估算和实际值确定成本费
               href: pro/pricing-costing/cost-price-resolution-sales.md
             - name: 确定项目的售价估算和实际值
