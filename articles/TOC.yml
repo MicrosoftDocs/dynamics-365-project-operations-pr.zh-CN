@@ -508,6 +508,8 @@
           href: approvals/cancelapproval.md
         - name: 撤消以前批准的条目
           href: approvals/recall-cancel.md
+        - name: 安全和审批
+          href: approvals/approvals-security.md
         - name: 开发人员注释
           items:
             - name: 待审批的开发人员注释
@@ -560,6 +562,8 @@
               href: procurement/vendor-retention-overview.md
             - name: 设置供应商保留
               href: procurement/set-up-vendor-retention.md
+            - name: 即收即付
+              href: procurement/Pay-when-paid.md
     - name: 开票
       items:
         - name: 开票流程概述
@@ -1102,6 +1106,8 @@
           href: approvals/cancelapproval.md
         - name: 撤消以前批准的条目
           href: approvals/recall-cancel.md
+        - name: 安全和审批
+          href: approvals/approvals-security.md
         - name: 开发人员注释
           items:
             - name: 待审批的开发人员注释
