@@ -2,20 +2,20 @@
 title: 分包合同子项里程碑
 description: 本文介绍如何为供应商的分包合同创建和维护基于里程碑的发票计划。
 author: rumant
-ms.date: 08/06/2021
+ms.date: 09/14/2022
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: rumant
-ms.openlocfilehash: 2fe26f5ba3c7bbc689c83a2ba67d444a09a264d5
-ms.sourcegitcommit: b2224d1f3c0bd4925d647e6ca3960db81a209521
+ms.openlocfilehash: 431a57adf82c79f72d44886636183d48e0931f53
+ms.sourcegitcommit: 08eb3be9eda44e9446c43ed9b6aefd58d77927c5
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/11/2022
-ms.locfileid: "9261782"
+ms.lasthandoff: 09/15/2022
+ms.locfileid: "9522408"
 ---
 # <a name="subcontract-line-milestones"></a>分包合同子项里程碑
 
-_**适用于：** 精简部署 - 估价交易开票_
+_**适用于：** 基于资源/非库存场景的 Project Operations，精简部署 - 估价开票交易_
 
 在 Dynamics 365 Project Operations 中，包含固定价格记帐方法的分包合同子项可以与供应商一起指定基于里程碑的发票计划。
 

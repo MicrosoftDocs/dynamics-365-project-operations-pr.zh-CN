@@ -2,20 +2,20 @@
 title: 为项目配备合同工和分包产能
 description: 本文说明如何在 Microsoft Dynamics 365 Project Operations 中使用合同工或分包产能按项目要求配备人员。
 author: rumant
-ms.date: 12/03/2021
+ms.date: 09/14/2022
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: rumant
-ms.openlocfilehash: 8edb053467ef200ca3e051e2fd78106734318389
-ms.sourcegitcommit: b2224d1f3c0bd4925d647e6ca3960db81a209521
+ms.openlocfilehash: 30e16efeed93ab4568eac57fb3ed46067a08524d
+ms.sourcegitcommit: 08eb3be9eda44e9446c43ed9b6aefd58d77927c5
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/11/2022
-ms.locfileid: "9261243"
+ms.lasthandoff: 09/15/2022
+ms.locfileid: "9522424"
 ---
 # <a name="staffing-a-project-with-contract-workers-and-subcontracted-capacity"></a>为项目配备合同工和分包产能
 
-_**适用于：** 精简部署 - 估价交易开票_
+_**适用于：** 基于资源/非库存场景的 Project Operations，精简部署 - 估价开票交易_
 
 可以为一般项目团队成员配备员工或合同工。 为项目配备合同工时，您可以将人员配备选项限制为分配给分包合同子项的特定合同工。 
 

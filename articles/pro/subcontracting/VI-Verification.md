@@ -6,16 +6,16 @@ ms.date: 03/30/2022
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: rumant
-ms.openlocfilehash: ab9f69e36aa58bfe3a2f8e3455db66b6bceea968
-ms.sourcegitcommit: b2224d1f3c0bd4925d647e6ca3960db81a209521
+ms.openlocfilehash: 67e0a0143fa354ca9a87bfac5fbbd6306a97811c
+ms.sourcegitcommit: 08eb3be9eda44e9446c43ed9b6aefd58d77927c5
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/11/2022
-ms.locfileid: "9261735"
+ms.lasthandoff: 09/15/2022
+ms.locfileid: "9522876"
 ---
 # <a name="verification-of-vendor-invoices-with-approved-actuals"></a>使用已批准的实际值验证供应商发票
 
-_**适用于：** 精简部署 - 估价交易开票_
+_**适用于：** 基于资源/非库存场景的 Project Operations，精简部署 - 估价开票交易_
 
 Microsoft Dynamics 365 Project Operations 允许项目经理通过以下方式验证供应商发票明细：
 

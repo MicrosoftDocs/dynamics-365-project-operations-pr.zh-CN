@@ -2,20 +2,20 @@
 title: 时间的分包合同子项
 description: 本文解释了如何记录分包合同子项的时间，以及如何记录从供应商处购买的时间。
 author: rumant
-ms.date: 08/05/2021
+ms.date: 09/14/2022
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: rumant
-ms.openlocfilehash: 8e9619dc713fde3127f552234e4a7427d99be683
-ms.sourcegitcommit: b2224d1f3c0bd4925d647e6ca3960db81a209521
+ms.openlocfilehash: 3ba013dd7ad023acc4f0cf077099c8c2c8d5bcd8
+ms.sourcegitcommit: 08eb3be9eda44e9446c43ed9b6aefd58d77927c5
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/11/2022
-ms.locfileid: "9261951"
+ms.lasthandoff: 09/15/2022
+ms.locfileid: "9522220"
 ---
 # <a name="subcontract-lines-for-time"></a>时间的分包合同子项
 
-_**适用于：** 精简部署 - 估价交易开票_
+_**适用于：** 基于资源/非库存场景的 Project Operations，精简部署 - 估价开票交易_
 
 Dynamics 365 Project Operations 中的分包合同中可以包含时间的分包合同子项。 时间的分包合同子项允许项目经理购买供应商资源时间来针对项目任务和资源要求安排人员。
 

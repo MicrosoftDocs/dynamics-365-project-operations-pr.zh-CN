@@ -1,8 +1,8 @@
 ---
 title: 过帐支出报表
 description: 本文介绍如何过帐支出报表。
-author: suvaidya
-ms.date: 09/09/2020
+author: ramagadu
+ms.date: 08/12/2022
 ms.topic: article
 ms.prod: ''
 ms.search.form: ''
@@ -13,12 +13,12 @@ ms.search.region: ''
 ms.author: shylaw
 ms.search.validFrom: ''
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: 4b084357179a28279344c995047f1a0a458cf9aa
-ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
+ms.openlocfilehash: d0ae4559a08553236158a663513401cb38cbe28f
+ms.sourcegitcommit: b2d05f898daa552179d67fdf4c060c93a9c66bd1
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8934493"
+ms.lasthandoff: 09/16/2022
+ms.locfileid: "9524858"
 ---
 # <a name="post-expense-reports"></a>过帐支出报表
 
@@ -30,5 +30,15 @@ ms.locfileid: "8934493"
 
 您也可以同时在列表中过帐所有支出报表。 选择所有支出报表，然后选择 **过帐**。
 
+## <a name="enable-the-ability-to-post-expense-liability-in-vendor-currency-for-cash-payment-method-feature"></a>启用“能够以现金付款方式的供应商货币过帐支出负债”功能
+
+**能够以现金付款方式的供应商货币过帐支出负债** 功能让支出报表能够以现金付款方式的供应商货币过帐。
+
+目前，当您提交现金支出时，支出报表以会计币种过帐。 由于交易币种、会计币种和供应商货币之间的金额转换，如果支出的交易日期与实际付款日期的汇率不同，将向供应商支付错误的金额。
+
+此功能将确保在过帐支出报表时以供应商货币记录供应商余额。
+
+1. 转到 **工作区** \> **功能管理**。
+2. 在列表中，找到并选择 **能够以现金付款方式的供应商货币过帐支出负债**，然后选择 **立即启用**。
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

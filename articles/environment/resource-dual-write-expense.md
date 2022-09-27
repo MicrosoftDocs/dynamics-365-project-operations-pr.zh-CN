@@ -7,12 +7,12 @@ ms.topic: article
 ms.prod: ''
 ms.reviewer: johnmichalak
 ms.author: sigitac
-ms.openlocfilehash: e11f1cfd714212691146eed59bcfb5b5facd750c
-ms.sourcegitcommit: a798fed5c59e3fefa62cdfa42c852d529b33fd35
+ms.openlocfilehash: da37adcf63a10b9f245283d377e70fd08b3aa9c5
+ms.sourcegitcommit: 385081ecc839d7d4a557eda2bb1578ca073f7e41
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/18/2022
-ms.locfileid: "9029198"
+ms.lasthandoff: 09/19/2022
+ms.locfileid: "9527976"
 ---
 # <a name="expense-management-integration"></a>支出管理集成
 
@@ -34,7 +34,7 @@ _**适用于：** 面向资源/非库存场景的 Project Operations_
 
 ## <a name="expense-reports"></a>支出报表
 
-支出报表在财务和运营应用中创建和批准。 有关详细信息，请参阅[在 Dynamics 365 Project Operations 中创建和处理支出报表](/learn/modules/create-process-expense-reports/)。 支出报表由项目经理批准后，将被过帐到总帐。 在 Project Operations 中，与项目相关的支出报表明细将使用特殊过帐规则过帐：
+支出报表在财务和运营应用中创建和批准。 有关详细信息，请参阅[在 Dynamics 365 Project Operations 中创建和处理支出报表](/training/modules/create-process-expense-reports/)。 支出报表由项目经理批准后，将被过帐到总帐。 在 Project Operations 中，与项目相关的支出报表明细将使用特殊过帐规则过帐：
 
   - 与项目有关的成本（包括非抵扣税）不会立即过帐到总帐中的项目成本帐户，而是过帐到支出集成帐户。 此帐户在 **Dynamics 365 Customer engagement 上的 Project Operations** 选项卡上的 **项目管理和会计** > **设置** > **项目管理和会计参数** 中配置。
   - 双重写入使用 **Project Operations 集成项目支出导出实体 (msdyn\_expenses)** 表映射同步到 Dataverse。

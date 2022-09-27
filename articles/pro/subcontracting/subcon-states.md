@@ -2,20 +2,20 @@
 title: 分包合同的状态转换
 description: 本文介绍创建、执行和关闭分包合同时 Microsoft Dynamics 365 Project Operations 中分包合同的状态转换。
 author: rumant
-ms.date: 12/03/2021
+ms.date: 09/14/2022
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: rumant
-ms.openlocfilehash: 02553099a6728c19c219659dff431ff9a5cf10fc
-ms.sourcegitcommit: b2224d1f3c0bd4925d647e6ca3960db81a209521
+ms.openlocfilehash: 2804fc30f8dade42dc1093e5fc0f01fa1db22ca3
+ms.sourcegitcommit: 08eb3be9eda44e9446c43ed9b6aefd58d77927c5
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/11/2022
-ms.locfileid: "9261175"
+ms.lasthandoff: 09/15/2022
+ms.locfileid: "9522875"
 ---
 # <a name="state-transitions-on-a-subcontract"></a>分包合同的状态转换 
 
-_**适用于：** 精简部署 - 估价交易开票_
+_**适用于：** 基于资源/非库存场景的 Project Operations，精简部署 - 估价开票交易_
 
 本文介绍 Microsoft Dynamics 365 Project Operations 中分包合同的状态转换。 每个状态都表示为草稿、已确认、已结束或已取消。 下图表示状态转换。
 

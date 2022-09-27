@@ -2,20 +2,20 @@
 title: 产品的分包合同子项
 description: 本文说明如何记录产品的分包合同子项，以及如何使用不同的字段记录从供应商处购买的产品。
 author: rumant
-ms.date: 08/06/2021
+ms.date: 09/14/2022
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: rumant
-ms.openlocfilehash: b5852df1876eff591ae6a131b229d979eacf5aad
-ms.sourcegitcommit: b2224d1f3c0bd4925d647e6ca3960db81a209521
+ms.openlocfilehash: 1ca042eaf95a5e252f00248e83efb959ab3ce801
+ms.sourcegitcommit: 08eb3be9eda44e9446c43ed9b6aefd58d77927c5
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/11/2022
-ms.locfileid: "9262094"
+ms.lasthandoff: 09/15/2022
+ms.locfileid: "9522831"
 ---
 # <a name="subcontract-lines-for-products"></a>产品的分包合同子项
 
-_**适用于：** 精简部署 - 估价交易开票_
+_**适用于：** 基于资源/非库存场景的 Project Operations，精简部署 - 估价开票交易_
 
 Dynamics 365 Project Operations 中的分包合同中可以包含产品的分包合同子项。 这些子项允许项目经理向供应商购买可购买的产品，然后将其用于项目任务。
 

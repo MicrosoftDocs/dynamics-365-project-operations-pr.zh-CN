@@ -2,20 +2,20 @@
 title: 分包合同的标题详细信息
 description: 本文解释了 Project Operations 中的分包合同标题提供的功能。
 author: rumant
-ms.date: 09/14/2021
+ms.date: 09/14/2022
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: rumant
-ms.openlocfilehash: ce16b7a968bc7e6904411ae9e021a5ca1839d02e
-ms.sourcegitcommit: b2224d1f3c0bd4925d647e6ca3960db81a209521
+ms.openlocfilehash: 00b7c08235654d4bed0bcb4053d2044a3d092b54
+ms.sourcegitcommit: 08eb3be9eda44e9446c43ed9b6aefd58d77927c5
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/11/2022
-ms.locfileid: "9261406"
+ms.lasthandoff: 09/15/2022
+ms.locfileid: "9522549"
 ---
 # <a name="header-details-for-subcontracts"></a>分包合同的标题详细信息
 
-_**适用于：** 精简部署 - 估价交易开票_
+_**适用于：** 基于资源/非库存场景的 Project Operations，精简部署 - 估价开票交易_
 
 本文解释了 Dynamics 365 Project Operations 中的分包合同标题提供的功能。
 

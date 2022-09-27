@@ -2,20 +2,20 @@
 title: 分包合同的支出类别子项
 description: 本文介绍如何记录支出的分包合同子项，以及如何使用字段记录从供应商处购买的时间。
 author: rumant
-ms.date: 08/06/2021
+ms.date: 09/14/2022
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: rumant
-ms.openlocfilehash: 7166642abc2187a53f7019639df6f0d7124f4765
-ms.sourcegitcommit: b2224d1f3c0bd4925d647e6ca3960db81a209521
+ms.openlocfilehash: ba1241ce40b7c5b488e278e8f1b8e9f352f45dc8
+ms.sourcegitcommit: 08eb3be9eda44e9446c43ed9b6aefd58d77927c5
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/11/2022
-ms.locfileid: "9261829"
+ms.lasthandoff: 09/15/2022
+ms.locfileid: "9522596"
 ---
 #  <a name="subcontract-lines-for-expense-categories"></a>分包合同的支出类别子项
 
-_**适用于：** 精简部署 - 估价交易开票_
+_**适用于：** 基于资源/非库存场景的 Project Operations，精简部署 - 估价开票交易_
 
 Dynamics 365 Project Operations 中的分包合同中可以包含支出类别子项。 项目经理可以通过分包合同的支出类别子项向供应商购买供应商可对项目收费的各类服务或产品。
 

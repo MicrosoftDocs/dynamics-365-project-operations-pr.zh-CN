@@ -2,20 +2,20 @@
 title: 分包合同子项资源
 description: 本文解释了如何指定供应商为特定分包合同子项提供的专用资源的时间。
 author: rumant
-ms.date: 08/06/2021
+ms.date: 09/14/2022
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: rumant
-ms.openlocfilehash: d440201fde26e835b407db0b8ee1de8d663311a0
-ms.sourcegitcommit: b2224d1f3c0bd4925d647e6ca3960db81a209521
+ms.openlocfilehash: 04e3e5ee70c50068304a8a6c8f7e93df48ed7e85
+ms.sourcegitcommit: 08eb3be9eda44e9446c43ed9b6aefd58d77927c5
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/11/2022
-ms.locfileid: "9261453"
+ms.lasthandoff: 09/15/2022
+ms.locfileid: "9522361"
 ---
 # <a name="subcontract-line-resources"></a>分包合同子项资源
 
-_**适用于：** 精简部署 - 估价交易开票_
+_**适用于：** 基于资源/非库存场景的 Project Operations，精简部署 - 估价开票交易_
 
 在 Dynamics 365 Project Operations 只能怪，供应商可以指定将用于提供时间分包合同子项购买的资源产能。
 
