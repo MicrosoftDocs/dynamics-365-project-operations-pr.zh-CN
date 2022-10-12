@@ -12,11 +12,11 @@
       items:
         - name: Project Operations 中已删除或弃用的功能
           href: whats-new/removed-depreciated-features-project.md
-- name: 基于资源/非库存场景的 Project Operations
+- name: 适用于资源/非库存场景的 Project Operations
   items:
     - name: 开始
       items:
-        - name: 基于资源/非库存场景的 Project Operations 部署概述
+        - name: 适用于资源/非库存场景的 Project Operations 部署概述
           href: environment/project-operations-integrated-deployment-overview.md
         - name: 注册获取预览订阅
           href: environment/resource-sign-up-preview-subscription.md
@@ -62,49 +62,51 @@
           href: environment/uninstall-project-operations.md
     - name: 新增功能
       items:
-        - name: 2022 年 8 月 - 适用于资源/非库存场景的 Project Operations
-          href: whats-new/whats-new-aug-2022-resource-based.md
+        - name: 2022 年 9 月 - 适用于资源/非库存场景的 Project Operations
+          href: whats-new/whats-new-sept-2022-resource-based.md
         - name: 存档
           items:
+            - name: 2022 年 8 月 - 适用于资源/非库存场景的 Project Operations
+              href: whats-new/whats-new-aug-2022-resource-based.md
             - name: 2022 年 7 月 - 适用于资源/非库存场景的 Project Operations
               href: whats-new/whats-new-july-2022-resource-based.md
             - name: 2022 年 6 月 - 适用于资源/非库存场景的 Project Operations
               href: whats-new/whats-new-june-2022-resource-based.md
-            - name: 2022 年 5 月 - 适用于资源/非库存材料场景的 Project Operations
+            - name: 2022 年 5 月 - 适用于资源/非库存场景的 Project Operations
               href: whats-new/whats-new-may-2022-resource-based.md
-            - name: 2022 年 4 月 - 适用于资源/非库存材料场景的 Project Operations
+            - name: 2022 年 4 月 - 适用于资源/非库存场景的 Project Operations
               href: whats-new/whats-new-apr-2022-resource-based.md
-            - name: 2022 年 3 月 - 适用于资源/非库存材料场景的 Project Operations
+            - name: 2022 年 3 月 - 适用于资源/非库存场景的 Project Operations
               href: whats-new/whats-new-mar-2022-resource-based.md
-            - name: 2022 年 2 月 - 适用于资源/非库存材料场景的 Project Operations
+            - name: 2022 年 2 月 - 适用于资源/非库存场景的 Project Operations
               href: whats-new/whats-new-feb-2022-resource-based.md
-            - name: 2021 年 12 月 - 适用于资源/非库存材料场景的 Project Operations
+            - name: 2021 年 12 月 - 适用于资源/非库存场景的 Project Operations
               href: whats-new/whats-new-dec-2021-resource-based.md
-            - name: 2021 年 11 月 - 适用于资源/非库存材料场景的 Project Operations
+            - name: 2021 年 11 月 - 适用于资源/非库存场景的 Project Operations
               href: whats-new/whats-new-nov-2021-resource-based.md
-            - name: 2021 年 10 月 - 适用于资源/非库存材料场景的 Project Operations
+            - name: 2021 年 10 月 - 适用于资源/非库存场景的 Project Operations
               href: whats-new/whats-new-oct-2021-resource-based.md
-            - name: 2021 年 9 月 - 基于资源/非库存场景的 Project Operations
+            - name: 2021 年 9 月 - 适用于资源/非库存场景的 Project Operations
               href: whats-new/whats-new-sept-2021-resource-based.md
-            - name: 2021 年 8 月 - 基于资源/非库存场景的 Project Operations
+            - name: 2021 年 8 月 - 适用于资源/非库存场景的 Project Operations
               href: whats-new/whats-new-august-2021-resource-based.md
-            - name: 2021 年 7 月 - 基于资源/非库存场景的 Project Operations
+            - name: 2021 年 7 月 - 适用于资源/非库存场景的 Project Operations
               href: whats-new/whats-new-july-2021-resource-based.md
-            - name: 2021 年 6 月 - 基于资源/非库存场景的 Project Operations
+            - name: 2021 年 6 月 - 适用于资源/非库存场景的 Project Operations
               href: whats-new/whats-new-june-2021-resource-based.md
-            - name: 2021 年 5 月 - 基于资源/非库存场景的 Project Operations
+            - name: 2021 年 5 月 - 适用于资源/非库存场景的 Project Operations
               href: whats-new/whats-new-may-2021-resource-based.md
-            - name: 2021 年 4 月 - 基于资源/非库存场景的 Project Operations
+            - name: 2021 年 4 月 - 适用于资源/非库存场景的 Project Operations
               href: whats-new/whats-new-apr-2021-resource-based.md
-            - name: 2021 年 3 月 - 基于资源/非库存场景的 Project Operations
+            - name: 2021 年 3 月 - 适用于资源/非库存场景的 Project Operations
               href: whats-new/whats-new-mar-2021-resource-based.md
-            - name: 2021 年 2 月 - 基于资源/非库存场景的 Project Operations
+            - name: 2021 年 2 月 - 适用于资源/非库存场景的 Project Operations
               href: whats-new/whats-new-feb-2021-resource-based.md
-            - name: 2021 年 1 月 - 基于资源/非库存场景的 Project Operations
+            - name: 2021 年 1 月 - 适用于资源/非库存场景的 Project Operations
               href: whats-new/whats-new-jan-2021-resource-based.md
-            - name: 2020 年 12 月 - 基于资源/非库存场景的 Project Operations
+            - name: 2020 年 12 月 - 适用于资源/非库存场景的 Project Operations
               href: whats-new/whats-new-dec-2020-resource-based.md
-            - name: 2020 年 11 月 - 基于资源/非库存场景的 Project Operations
+            - name: 2020 年 11 月 - 适用于资源/非库存场景的 Project Operations
               href: whats-new/whats-new-nov-2020-resource-based.md
     - name: 项目销售流程
       items:
@@ -668,10 +670,12 @@
           href: environment/security-model.md
     - name: 新增功能
       items:
-        - name: 2022 年 8 月新增功能 - 精简部署
-          href: pro/whats-new/whats-new-aug-2022-lite.md
+        - name: 2022 年 9 月新增功能 - 精简部署
+          href: pro/whats-new/whats-new-sept-2022-lite.md
         - name: 存档
           items:
+            - name: 2022 年 8 月新增功能 - 精简部署
+              href: pro/whats-new/whats-new-aug-2022-lite.md
             - name: 2022 年 7 月新增功能 - 精简部署
               href: pro/whats-new/whats-new-july-2022-lite.md
             - name: 2022 年 6 月新增功能 - 精简部署
@@ -1180,11 +1184,13 @@
               href: whats-new/ur5-nonstocked-installation.md
     - name: 新增功能
       items:
-        - name: 2022 年 7 月新增功能 - 适用于库存/生产订单场景的 Project Operations
-          href: prod-pma/whats-new/whats-new-jul-2022-stocked.md
+        - name: 2022 年 9 月新增功能 - 适用于库存/生产场景的 Project Operations
+          href: prod-pma/whats-new/whats-new-sept-2022-stocked.md
         - name: 存档
           items:
-            - name: 2022 年 6 月新增功能 - 适用于库存/生产订单场景的 Project Operations
+            - name: 2022 年 7 月新增功能 - 适用于库存/生产场景的 Project Operations
+              href: prod-pma/whats-new/whats-new-jul-2022-stocked.md
+            - name: 2022 年 6 月新增功能 - 适用于库存/生产场景的 Project Operations
               href: prod-pma/whats-new/whats-new-jun-2022-stocked.md
             - name: 2021 年 10 月新增功能 - 适用于库存/生产订单场景的 Project Operations
               href: prod-pma/whats-new/whats-new-oct-2021-stocked.md
@@ -1436,6 +1442,10 @@
       items:
         - name: Project Service 3.x 的更新版计划
           href: psa/version-history-ps.md
+        - name: V3 更新版 47 的新增或变更功能
+          href: psa/whats-new-ur-47.md
+        - name: V3 更新版 45 的新增或变更功能
+          href: psa/whats-new-ur-45.md
         - name: V3 更新版 44 的新增或变更功能
           href: psa/whats-new-ur-44.md
         - name: V3 更新版 43 的新增或变更功能

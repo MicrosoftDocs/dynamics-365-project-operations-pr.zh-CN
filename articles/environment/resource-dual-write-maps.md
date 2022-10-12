@@ -6,12 +6,12 @@ ms.date: 07/01/2021
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: sigitac
-ms.openlocfilehash: e904ad18b6ea94cd6d31d1878b5bc9e7c52be741
-ms.sourcegitcommit: c8b8fef5626790208c5290b1bb92b17a5d90d286
+ms.openlocfilehash: b86b9ecdc63989189c76dd8380024aa44c7641a5
+ms.sourcegitcommit: a2d720ac6d7ddb20a0967fe87992a376b2478208
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 07/02/2022
-ms.locfileid: "9112418"
+ms.lasthandoff: 10/04/2022
+ms.locfileid: "9621070"
 ---
 # <a name="project-operations-dual-write-map-versions"></a>Project Operations 双重写入映射版本
 
@@ -48,14 +48,14 @@ _**适用于：** 面向资源/非库存场景的 Project Operations_
 | 项目资金来源 (msdyn_projectcontractsplitbillingrules) | 1.0.0.2 | 预配时不需要。 ||
 | 用于材料估算的项目集成表 (msdyn\_estimatelines) | 1.0.0.0 | 预配时不需要。 ||
 | 项目发票方案 V2 (invoices) | 1.0.0.3 | 预配时不需要。 ||
-| Project Operations 集成实际值 (msdyn_actuals) | 1.0.0.14 | 预配时不需要。 ||
+| Project Operations 集成实际值 (msdyn_actuals) | 1.0.0.15 | 预配时不需要。 |10.0.29 或更高版本|
 | Project Operations 集成合同子项里程碑 (msdyn_contractlinescheduleofvalues) | 1.0.0.4 | 预配时不需要。 ||
 | 用于支出估算的 Project Operations 集成实体 (msdyn_estimatelines) | 1.0.0.2 | 预配时不需要。 ||
 | 用于工时估算的 Project Operations 集成实体 (msdyn_resourceassignments) | 1.0.0.5 | 预配时不需要。 ||
 | Project Operations 集成项目支出类别导出实体 (msdyn_expensecategories) | 1.0.0.1 | 预配时不需要。 ||
 | Project Operations 集成项目支出导出实体 (msdyn_expenses) | 1.0.0.3 | 预配时不需要。 ||
-| Project Operations 集成项目供应商发票导出实体 (msdyn_projectvendorinvoices) | 1.0.0.1 | 预配时不需要。 |10.0.26 或更高版本|
-| Project Operations 集成项目供应商发票明细导出实体 (msdyn_projectvendorinvoicelines) | 1.0.0.4 | 预配时不需要。 | 10.0.26 或更高版本 |
+| Project Operations 集成项目供应商发票导出实体 (msdyn_projectvendorinvoices) | 1.0.0.2 | 预配时不需要。 |10.0.29 或更高版本|
+| Project Operations 集成项目供应商发票明细导出实体 (msdyn_projectvendorinvoicelines) | 1.0.0.5 | 预配时不需要。 | 10.0.29 或更高版本 |
 | 所有公司的项目资源角色 (bookableresourcecategories) | 1.0.0.1 | 需要对表映射进行初始同步，以同步预配期间在 Dynamics 365 Dataverse 环境中填充的项目经理和团队成员资源角色。 Dataverse 是初始同步的主要来源。 ||
 | 项目任务 (msdyn_projecttasks) | 1.0.0.4 | 预配时不需要。 ||
 | 项目交易类别 (msdyn_transactioncategories) | 1.0.0.0 | 预配时不需要。 ||
