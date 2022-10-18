@@ -7,12 +7,12 @@ ms.topic: article
 ms.prod: ''
 ms.reviewer: johnmichalak
 ms.author: ramagadu
-ms.openlocfilehash: 2cce7ae25f05258e8bf0bab9430324bc9b30e329
-ms.sourcegitcommit: a2d720ac6d7ddb20a0967fe87992a376b2478208
+ms.openlocfilehash: a02ac7a69489bc7974eb0e63c11fa5de74795b78
+ms.sourcegitcommit: b3a70bc4f2850cff5c2b7114cff7bd61ec298143
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/04/2022
-ms.locfileid: "9621210"
+ms.lasthandoff: 10/06/2022
+ms.locfileid: "9634841"
 ---
 # <a name="whats-new-september-2022---project-operations-lite-deployment"></a>2022 年 9 月新增功能 - Project Operations 精简部署
 
@@ -30,6 +30,7 @@ _**适用于：** 精简部署 - 估价交易开票_
 | 计费和定价 | **与时区无关的价格默认**<br>Project Operations 在所有项目实际值中引入了与时区无关的日期概念。 现在，日记帐行和实际值中有一个新字段 **交易日期**，用于存储交易发生的日期，但不会将该日期转换为协调世界时。 此日期将用于下游流程，如价格默认和发票创建。 | <p>[确定基于项目的估算和实际值的成本费率](/dynamics365/project-operations/pro/pricing-costing/cost-price-resolution-sales)</p><p>[确定基于项目的估计值和实际值的销售价](/dynamics365/project-operations/pro/pricing-costing/sales-price-resolution-sales)</p> |
 | 计费和定价 | **Project Operations 中的生效日期价格替代**<br>生效日期价格替代提供一种替代或更改价目表中特定价格的方法。 | [生效日期价格自定义](/dynamics365/project-operations/pricing-costing/dateffective_price_overrides) |
 | 时间和支出 | **全局审批者**<br>此功能支持独立软件供应商 (ISV) 和集中审批，不考虑项目或项目中团队成员的状态。 | [安全和审批](/dynamics365/project-operations/approvals/approvals-security) |
+|项目规划和跟踪|**使用项目计划 API 对计划实体执行操作** </br> </br>资源分配信息编辑 API 允许开发人员在任何支持的日期范围内以编程方式指定任务被分配人的工作量，以进行更精细的分时间段工作量计划。|[使用项目计划 API 对计划实体执行操作](/dynamics365/project-operations/project-management/schedule-api-preview)|
 
 ## <a name="quality-updates"></a>质量更新
 

@@ -6,12 +6,12 @@ ms.date: 12/16/2021
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: ruhercul
-ms.openlocfilehash: a947c0a44464bfad6c3bd74b0cb4fb8128924859
-ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
+ms.openlocfilehash: 19d2dfeff39fd3c5edd5124c27134a9fe360e4d1
+ms.sourcegitcommit: 8f4841387deea2998589b7365c3373585a16cb0e
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8932055"
+ms.lasthandoff: 10/12/2022
+ms.locfileid: "9655177"
 ---
 # <a name="create-a-work-breakdown-structure-wbs"></a>创建工作分解结构 (WBS)
 
@@ -112,6 +112,18 @@ ms.locfileid: "8932055"
 在 Project Operations 中，可使用计划创建任务之间的前置关系。 **前置任务** 字段使用一个或多个值来指示任务的依赖任务。 当您向任务分配前置任务值时，该任务仅在所有前置任务都已完成时才能启动。 由于依赖关系，任务的计划开始日期将重置为前置任务的完成日期。
 
 任务模式不影响对前置/依赖任务的开始日期和结束日期进行的更新。
+
+## <a name="understanding-the-impacts-of-duration-resource-calendars-and-project-calendars-on-tasks"></a>了解持续时间、资源日历和项目日历对任务的影响
+任务的持续时间定义为任务开始日期的开始时间和完成日期的结束时间之间的工作时数。   Project for the Web 定义的持续时间度量单位如下：
+
+| **持续时间度量** | **数量**|
+|----------------------------------------------------|----------------------|
+| 每日时数 | 8 |
+| 每周时数 |  40 |
+| 每月天数 |  20 |
+
+未分配的任务使用项目日历计划。 但是，在初始资源分配时，任务的计划会更新，以使其按照资源日历计划。 对具有分配的任务的后续更改将由项目的[计划模式](scheduling-modes.md)控制。 要详细了解日历对任务的影响，请参阅 [Project for the web 中的资源日历](https://techcommunity.microsoft.com/t5/project-blog/resource-calendars-in-project-for-the-web/ba-p/3269686)和[任务开始时间和您的项目！](https://techcommunity.microsoft.com/t5/project-blog/task-start-times-amp-your-projects/ba-p/3269665)
+
 
 ## <a name="accessibility-and-keyboard-shortcuts"></a>辅助功能和键盘快捷方式
 

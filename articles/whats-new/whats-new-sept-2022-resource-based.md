@@ -7,12 +7,12 @@ ms.topic: article
 ms.prod: ''
 ms.reviewer: johnmichalak
 ms.author: ramagadu
-ms.openlocfilehash: ef8b4dd98d64dac1e2420f8e6a104258f126f112
-ms.sourcegitcommit: a2d720ac6d7ddb20a0967fe87992a376b2478208
+ms.openlocfilehash: 04b5f2f8223cdc80028860dd880dde314be244eb
+ms.sourcegitcommit: b3a70bc4f2850cff5c2b7114cff7bd61ec298143
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/04/2022
-ms.locfileid: "9621207"
+ms.lasthandoff: 10/06/2022
+ms.locfileid: "9634794"
 ---
 # <a name="whats-new-september-2022---project-operations-for-resourcenon-stocked-based-scenarios"></a>2022 年 9 月新增功能 - 基于资源/非库存场景的 Project Operations
 
@@ -35,6 +35,7 @@ _**适用于：** 面向资源/非库存场景的 Project Operations_
 | 支出管理 | **以供应商货币过帐支出负债的功能**<br>此功能允许以现金付款方式的供应商货币过帐支出报表。 | [以供应商货币过帐支出负债的功能](/dynamics365/project-operations/expense/posting-expense-reports#enable-the-ability-to-post-expense-liability-in-vendor-currency-for-cash-payment-method-feature) |
 | 项目采购 | **“即收即付”供应商付款**<br>此功能让“即收即付”(PWP) 功能可以用于 Project Operations 非库存环境。 它允许根据保留条款阻止/保留供应商付款，直到收到客户付款。 | [“即收即付”供应商付款](/dynamics365/project-operations/procurement/pay-when-paid) |
 | 项目采购 | **项目采购申请**<br>此功能让用户能够在启用了 Dynamics 365 Customer Engagement 上的 Project Operations 集成的法人中创建与项目相关的采购订单。 项目采购订单可用于记录采购部门角色针对项目进行的非库存材料采购。 项目采购订单不会同步到 Dataverse。 但是，您可以使用虚拟实体在 Dataverse 中显示项目采购订单行，为项目经理提供信息。 与项目相关的供应商发票成本将与 Dataverse 中的项目实际值实体集成。 项目成本使用 Project Operations 集成日记账记录在项目子分类帐中。 | |
+|项目规划和跟踪|**使用项目计划 API 对计划实体执行操作** </br> </br>资源分配信息编辑 API 允许开发人员在任何支持的日期范围内以编程方式指定任务被分配人的工作量，以进行更精细的分时间段工作量计划。|[使用项目计划 API 对计划实体执行操作](/dynamics365/project-operations/project-management/schedule-api-preview)|
 
 ## <a name="project-operations-dual-write-maps-updates"></a>Project Operations 双重写入映射更新
 
