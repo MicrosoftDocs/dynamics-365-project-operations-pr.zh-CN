@@ -1752,8 +1752,6 @@
               href: psa/FAQ-soft-book-in-web-app.md
             - name: 如何自定义项目阶段业务流程？
               href: psa/FAQ-customize-bpf.md
-            - name: 工作分解结构的升级注意事项
-              href: psa/upgrade-considerations-tasks.md
         - name: 白皮书
           href: psa/white-papers.md
         - name: 管理员指南
