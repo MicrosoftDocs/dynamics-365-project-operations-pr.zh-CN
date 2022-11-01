@@ -6,12 +6,12 @@ ms.date: 08/29/2022
 ms.topic: security
 ms.reviewer: johnmichalak
 ms.author: stsporen
-ms.openlocfilehash: bc33f63f66bdcf1470e5d9386cfc3661774436fd
-ms.sourcegitcommit: b2d05f898daa552179d67fdf4c060c93a9c66bd1
+ms.openlocfilehash: 0dcadaa142bf46e4c54f160759602ac749022108
+ms.sourcegitcommit: 73aff2b3c5e5b8a2254735b0b25931cbb6754c87
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 09/16/2022
-ms.locfileid: "9525353"
+ms.lasthandoff: 10/20/2022
+ms.locfileid: "9709386"
 ---
 # <a name="security-and-approvals"></a>安全和审批
 
@@ -33,6 +33,6 @@ Microsoft Dynamics 365 Project Operations 使用两个安全角色来允许时�
 > [!NOTE]
 > 必须先启用[审批集](approval-sets.md)功能，然后才能使用项目审批者管理员功能。
 
-**项目审批者管理员** 安全角色允许用户绕过策略并允许跨所有项目审批条目。 分配此角色将绕过需要团队成员身份的验证逻辑，并被标记为审批者。 您必须有权访问相关实体，如 **项目**。 该访问权限可由具有 **项目经理** 角色的人员分配。
+**项目审批者管理员** 安全角色允许用户绕过策略并允许跨所有项目审批条目。 分配此角色将绕过需要团队成员身份的验证逻辑，并被标记为审批者。 您必须有通过分配给您的安全角色访问相关的相关表（如 **项目**）的权限。
 
 系统用户上下文以与项目审批者管理员安全角色相同的方式绕过验证。

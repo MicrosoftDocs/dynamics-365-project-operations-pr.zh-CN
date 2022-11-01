@@ -16,12 +16,12 @@ search.app:
 - D365PS
 - ProjectOperations
 ms.reviewer: johnmichalak
-ms.openlocfilehash: 2d7b372cac391fab7a81ac6ac5d2ea6d12977b5c
-ms.sourcegitcommit: 9de444ae0460c8d15c77d225d0c0ad7f8445d5fc
+ms.openlocfilehash: 06a4de89be8176049d3a14a8c0d6427e228744ba
+ms.sourcegitcommit: 73aff2b3c5e5b8a2254735b0b25931cbb6754c87
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/18/2022
-ms.locfileid: "9686964"
+ms.lasthandoff: 10/20/2022
+ms.locfileid: "9709433"
 ---
 # <a name="upgrade-from-project-service-automation-to-project-operations"></a>从 Project Service Automation 升级到 Project Operations
 
@@ -70,7 +70,7 @@ ms.locfileid: "9686964"
 
 ## <a name="licensing"></a>许可
 
-如果您拥有可用的 Project Service Automation 许可证，则您可以安装和使用 Project Operations，其中包括 Project Service Automation 的所有功能及更多功能。 之后，继续在生产中使用 Project Service Automation 时，您可以在单独的环境中测试 Project Operations 的功能。 在您的 Project Service Automation 许可证到期后，您必须转换到 Project Operations。 在计划此转换时，您必须考虑到 Project Operations 许可证不包括 Project Service Automation 许可证这一事实。
+如果您拥有可用的 Project Service Automation 许可证，则您可以安装和使用 Project Operations，其中包括 Project Service Automation 的所有功能及更多功能。 这样，继续在生产中使用 Project Service Automation 时，您可以测试 Project Operations 的功能。 在您的 Project Service Automation 许可证到期后，您必须转换到 Project Operations。 在计划此转换时，您必须考虑到 Project Operations 许可证不包括 Project Service Automation 许可证这一事实。 如果客户已经部署了 Project Service Automation，并且在计划转移到 Project Operations 时需要继续使用或增加 PSA 许可证，可以根据 Project Operations 购买的许可证请求临时 PSA 许可。 一个 Project Operations 许可证将发放一个 Project Service Automation 许可证。 可通过以下链接请求临时 PSA 许可证：aka.ms/ineedpsa
 
 ## <a name="testing-and-refactoring-customizations"></a>测试并重构自定义项
 
