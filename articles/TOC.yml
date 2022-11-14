@@ -284,8 +284,10 @@
           href: project-management/understand-project-status.md
         - name: 定义项目日历
           href: project-management/define-project-calendars.md
-        - name: 日程安排模式
+        - name: 计划模式
           href: project-management/scheduling-modes.md
+        - name: 外部计划
+          href: project-management/external-scheduling.md
         - name: 更新项目
           href: project-management/update-project.md
         - name: 复制项目
@@ -912,8 +914,10 @@
           href: project-management/understand-project-status.md
         - name: 定义项目日历
           href: project-management/define-project-calendars.md
-        - name: 日程安排模式
+        - name: 计划模式
           hreF: project-management/scheduling-modes.md
+        - name: 外部计划
+          href: project-management/external-scheduling.md
         - name: 更新项目
           href: project-management/update-project.md
         - name: 复制项目
