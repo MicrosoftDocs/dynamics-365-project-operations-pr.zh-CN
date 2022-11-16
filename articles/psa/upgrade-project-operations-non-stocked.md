@@ -16,12 +16,12 @@ search.app:
 - D365PS
 - ProjectOperations
 ms.reviewer: johnmichalak
-ms.openlocfilehash: 06a4de89be8176049d3a14a8c0d6427e228744ba
-ms.sourcegitcommit: 73aff2b3c5e5b8a2254735b0b25931cbb6754c87
+ms.openlocfilehash: ac2435c99f3aa9b2a6cdb08d7ce5f6628e7f6ac4
+ms.sourcegitcommit: bea5f9b4066277344add1da3a1567ed56a0cfd31
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/20/2022
-ms.locfileid: "9709433"
+ms.lasthandoff: 11/02/2022
+ms.locfileid: "9736655"
 ---
 # <a name="upgrade-from-project-service-automation-to-project-operations"></a>从 Project Service Automation 升级到 Project Operations
 
@@ -97,7 +97,7 @@ ms.locfileid: "9709433"
     根据环境中的数据量，升级可能需要几个小时的时间。 管理升级的核心团队应该相应地进行计划并在非工作时间运行升级。 在某些情况下，如果数据量很大，应该在周末进行升级。 关于日程安排的决定应该基于较低等环境中的测试结果。
 
 3. 可在适当时升级自定义解决方案。 此时，请部署您在本文的[测试并重构自定义项](#testing-and-refactoring-customizations)一节中对自定义项所做的任何更改。
-4. 转到 **设置** \> **解决方案**，然后选择卸载 **Project Operations 已弃用的组件** 解决方案。
+4. 转到 **make.powerapps.com**，从门户右上角的下拉列表中选择您的环境，从左侧菜单中选择 **解决方案**，选择 **Project Operations 已弃用组件** 解决方案和 **卸载**。
 
     此解决方案是一个临时解决方案，用于保存升级过程中提供的现有数据模型和组件。 通过移除此解决方案，可以删除所有不再使用的字段和组件。 这样，您可以帮助简化界面并使集成和扩展更容易。
     
