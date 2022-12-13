@@ -62,10 +62,14 @@
           href: environment/uninstall-project-operations.md
     - name: 新增功能
       items:
-        - name: 2022 年 9 月 - 适用于资源/非库存场景的 Project Operations
-          href: whats-new/whats-new-sept-2022-resource-based.md
+        - name: 2022 年 11 月 - 适用于资源/非库存场景的 Project Operations
+          href: whats-new/whats-new-nov-2022-resource-based.md
         - name: 存档
           items:
+            - name: 2022 年 10 月 - 适用于资源/非库存场景的 Project Operations
+              href: whats-new/whats-new-oct-2022-resource-based.md
+            - name: 2022 年 9 月 - 适用于资源/非库存场景的 Project Operations
+              href: whats-new/whats-new-sept-2022-resource-based.md
             - name: 2022 年 8 月 - 适用于资源/非库存场景的 Project Operations
               href: whats-new/whats-new-aug-2022-resource-based.md
             - name: 2022 年 7 月 - 适用于资源/非库存场景的 Project Operations
@@ -122,9 +126,9 @@
               href: sales/sales-currency.md
             - name: 部门
               href: sales/OrgUnits.md
-        - name: 管理项目潜在顾客
+        - name: 管理基于项目的潜在顾客
           href: sales/manage-leads.md
-        - name: 管理项目商机
+        - name: 管理基于项目的商机
           items:
             - name: 管理项目商机概述
               href: sales/manage-project-based-opportunities.md
@@ -132,13 +136,13 @@
               href: sales/opportunity-header.md
             - name: 基于项目的商机明细
               href: sales/project-based-lines.md
-            - name: 从商机创建项目报价单
+            - name: 从项目商机创建报价单
               href: sales/link-quotes-opportunities.md
-            - name: 复制基于项目的商机
+            - name: 复制项目商机
               href: sales/copy-project-based-opportunity.md
             - name: 关闭项目商机
               href: sales/close-opportunity.md
-        - name: 管理项目报价单
+        - name: 管理基于项目的报价单
           items:
             - name: 管理项目报价单概述
               href: pro/sales/manage-quotes-sales.md
@@ -146,60 +150,58 @@
               href: sales/quotes-key-concepts.md
             - name: 针对基于项目的报价单的标题详细信息
               href: sales/quote-values-budget-limits-contract.md
-            - name: 管理一个项目报价单上的多个客户
+            - name: 管理基于项目的报价单上的多个客户
               href: sales/manage-multiple-customers-quote.md
-            - name: 管理报价单上的项目价目表
+            - name: 项目报价单上的项目价目表
               href: pro/sales/manage-project-price-lists-sales.md
             - name: 基于项目的报价单明细
               items:
-                - name: 基于项目的报价单明细概述
+                - name: 项目报价单明细概述
                   href: pro/sales/manage-quoted-values-budget-limits-quote-line-sales.md
                 - name: 管理基于项目的报价单明细上的多个客户
                   href: sales/manage-multiple-customers-quote-line.md
-                - name: 将项目和任务映射到基于项目的报价单明细
+                - name: 将项目和任务映射到项目报价单明细
                   href: pro/sales/mapping-projects-tasks-quote-line-sales.md
-                - name: 配置基于项目的报价单明细的应计费组件
+                - name: 配置项目报价单明细上的应计费组件
                   href: pro/sales/configure-chargeable-components-quote-line-sales.md
-                - name: 配置项目报价单明细的应计费组件
-                  href: sales/configure-chargeable-quoteline.md
                 - name: 预估项目报价单明细
-                  href: sales/create-estimate-quote-line.md
-                - name: 将项目预估导入到基于项目的报价单明细
-                  href: sales/import-estimate-quote-line.md
-                - name: 基于项目的报价单明细上的发票计划
+                  href: pro/sales/create-estimate-quote-line-sales.md
+                - name: 将项目预估导入项目报价单子项
+                  href: pro/sales/import-estimate-project-quote-sales.md
+                - name: 项目报价单明细上的发票计划
                   href: sales/invoice-schedule-quote-line.md
             - name: 复制项目报价单
               href: sales/lose-quote.md
             - name: 激活和修订项目报价单
               href: sales/activation-and-revision.md
-            - name: 关闭项目报价单
+            - name: 关闭基于项目的报价单
               href: sales/win-quote.md
-        - name: 管理项目合同
+        - name: 管理基于项目的合同
           items:
-            - name: 管理项目合同概述
+            - name: 管理项目合同
               href: pro/sales/manage-contracts-sales.md
             - name: 基于项目的合同所特有的概念
               href: sales/contracts-key-concepts.md
             - name: 针对基于项目的合同的标题详细信息
               href: sales/project-contract-settings.md
-            - name: 管理项目合同上的项目价目表
+            - name: 管理基于项目的合同上的项目价目表
               href: sales/contracts-manage-project-price-lists.md
-            - name: 管理项目合同上的多个客户
+            - name: 管理基于项目的合同上的多个客户
               href: sales/manage-multiple-customers-contract.md
             - name: 基于项目的合同子项
               items:
-                - name: 基于项目的合同子项概述
+                - name: 项目合同子项概述
                   href: pro/sales/manage-contract-values-project-based-sales.md
                 - name: 管理基于项目的合同子项上的多个客户
                   href: sales/manage-multiple-customers-contract-line.md
-                - name: 在项目合同子项上映射项目和任务
+                - name: 将项目和任务映射到项目合同子项
                   href: pro/sales/mapping-projects-tasks-contract-line-sales.md
                 - name: 配置项目合同子项的应计费组件
                   href: pro/sales/configure-chargeable-components-contract-line.md
-                - name: 预估项目合同子项
+                - name: 预估基于项目的合同子项
                   href: sales/create-estimate-contract-line.md
-                - name: 将项目预估导入到基于项目的合同子项
-                  href: sales/import-estimate-project-contract-line.md
+                - name: 将项目预估导入项目合同子项
+                  href: pro/sales/import-estimate-project-contract-line-sales.md
                 - name: 根据基于项目的合同子项创建发票计划
                   href: sales/invoice-schedules-contract-line.md
             - name: 复制基于项目的合同
@@ -208,11 +210,11 @@
               href: pro/sales/confirm-contract-sales.md
             - name: 预付款和保留款
               items:
-                - name: 预付款和保留款合同
+                - name: 基于预付款和保留款的项目合同
                   href: pro/sales/set-up-advances-retainer-based-contracts-sales.md
                 - name: 设置保留款计划
                   href: pro/sales/set-up-schedule-retainers-sales.md
-                - name: 在合同中创建临时预付款
+                - name: 在项目合同中创建临时预付款
                   href: pro/sales/create-ad-hoc-advance-sales.md
     - name: 定价和成本核算
       items:
@@ -642,6 +644,8 @@
           href: advanced-configuration/migrating-invoiced-milestones.md
         - name: 同步项目状态以防止针对已关闭项目的输入
           href: advanced-configuration/sync-project-status.md
+        - name: 用于根据成本费率计算销售价格的货币换算设置
+          href: advanced-configuration/currencyconversion.md
     - name: 升级
       items:
         - name: 新式审批的升级注意事项
@@ -662,7 +666,7 @@
       items:
         - name: 精简部署概述
           href: pro/project-operations-overview-lite.md
-        - name: 注册获取预览订阅 - 精简
+        - name: 注册获取预览版订阅 - 精简
           href: environment/lite-preview-subscription-sign-up.md
         - name: 部署 Project Operations - 精简
           href: environment/lite-deployment.md
@@ -672,10 +676,14 @@
           href: environment/security-model.md
     - name: 新增功能
       items:
-        - name: 2022 年 9 月新增功能 - 精简部署
-          href: pro/whats-new/whats-new-sept-2022-lite.md
+        - name: 2022 年 11 月新增功能 - 精简部署
+          href: pro/whats-new/whats-new-nov-2022-lite.md
         - name: 存档
           items:
+            - name: 2022 年 10 月新增功能 - 精简部署
+              href: pro/whats-new/whats-new-oct-2022-lite.md
+            - name: 2022 年 9 月新增功能 - 精简部署
+              href: pro/whats-new/whats-new-sept-2022-lite.md
             - name: 2022 年 8 月新增功能 - 精简部署
               href: pro/whats-new/whats-new-aug-2022-lite.md
             - name: 2022 年 7 月新增功能 - 精简部署
@@ -748,19 +756,19 @@
               href: pro/sales/project-based-lines-sales.md
             - name: 从项目商机创建报价单
               href: sales/link-quotes-opportunities.md
-            - name: 复制基于项目的商机
+            - name: 复制项目商机
               href: sales/copy-project-based-opportunity.md
             - name: 关闭项目商机
               href: sales/close-opportunity.md
-        - name: 管理基于项目的报价单
+        - name: 管理项目报价单
           items:
-            - name: 基于项目的报价单概述
+            - name: 项目报价单概述
               href: pro/sales/manage-quotes-sales.md
             - name: 项目报价单所特有的概念
               href: pro/sales/quotes-key-concepts-sales.md
             - name: 项目报价单的标题详细信息
               href: pro/sales/quote-values-budget-limits-contract-sales.md
-            - name: 项目报价单上的多个客户
+            - name: 管理项目报价单上的多个客户
               href: pro/sales/manage-multiple-customers-quote-sales.md
             - name: 项目报价单上的项目价目表
               href: pro/sales/manage-project-price-lists-sales.md
@@ -772,37 +780,37 @@
                   href: pro/sales/costing-product-based-quote-lines-sales.md
                 - name: 管理基于产品的报价单明细的复杂单位
                   href: pro/sales/managing-complex-units-product-based-quote-lines-sales.md
-            - name: 基于项目的报价单明细
+            - name: 项目报价单明细
               items:
-                - name: 基于项目的报价单明细概述
+                - name: 项目报价单明细概述
                   href: pro/sales/manage-quoted-values-budget-limits-quote-line-sales.md
-                - name: 管理多个客户
+                - name: 管理项目报价单明细上的多个客户
                   href: pro/sales/manage-multiple-customers-quote-line-sales.md
-                - name: 映射项目和任务
+                - name: 将项目和任务映射到项目报价单明细
                   href: pro/sales/mapping-projects-tasks-quote-line-sales.md
-                - name: 配置应计费组件
+                - name: 配置项目报价单明细上的应计费组件
                   href: pro/sales/configure-chargeable-components-quote-line-sales.md
-                - name: 预估基于项目的报价单明细
+                - name: 预估项目报价单明细
                   href: pro/sales/create-estimate-quote-line-sales.md
-                - name: 导入项目估算
+                - name: 将项目预估导入项目报价单子项
                   href: pro/sales/import-estimate-project-quote-sales.md
-                - name: 管理发票计划
+                - name: 项目报价单明细上的发票计划
                   href: sales/invoice-schedule-quote-line.md
-            - name: 复制基于项目的报价单
+            - name: 复制项目报价单
               href: sales/lose-quote.md
             - name: 激活和修订项目报价单
               href: sales/activation-and-revision.md
-            - name: 关闭基于项目的报价单
+            - name: 关闭项目报价单
               href: pro/sales/win-quote-sales.md
-        - name: 管理基于项目的合同
+        - name: 管理项目合同
           items:
-            - name: 基于项目的合同概述
+            - name: 项目合同概述
               href: pro/sales/manage-contracts-sales.md
             - name: 项目合同所特有的概念
               href: pro/sales/contracts-key-concepts-sales.md
             - name: 项目合同的标题详细信息
               href: pro/sales/project-contract-settings-sales.md
-            - name: 项目合同上的多个客户
+            - name: 管理项目合同上的多个客户
               href: pro/sales/manage-multiple-customers-contract-sales.md
             - name: 项目合同上的项目价目表
               href: sales/contracts-manage-project-price-lists.md
@@ -814,21 +822,21 @@
                   href: pro/sales/cost-product-based-contract-lines-sales.md
                 - name: 管理基于产品的合同子项的复杂单位
                   href: pro/sales/manage-complex-units-product-based-contract-lines-sales.md
-            - name: 基于项目的合同子项
+            - name: 项目合同子项
               items:
-                - name: 基于项目的合同子项概述
+                - name: 项目合同子项概述
                   href: pro/sales/manage-contract-values-project-based-sales.md
-                - name: 管理多个合同客户
+                - name: 管理项目合同上的多个客户
                   href: pro/sales/manage-multiple-customers-contract-line-sales.md
                 - name: 将项目和任务映射到项目合同子项
                   href: pro/sales/mapping-projects-tasks-contract-line-sales.md
                 - name: 在项目合同子项上配置应计费组件
                   href: pro/sales/configure-chargeable-components-contract-line.md
-                - name: 预估基于项目的合同子项
+                - name: 预估项目合同子项
                   href: pro/sales/create-estimate-project-contract-line-sales.md
                 - name: 将项目预估导入项目合同子项
                   href: pro/sales/import-estimate-project-contract-line-sales.md
-                - name: 管理项目合同子项上的发票计划
+                - name: 创建项目合同子项上的发票计划
                   href: pro/sales/invoice-schedules-contract-line-sales.md
             - name: 复制项目合同
               href: pro/sales/copy-project-contracts-sales.md
@@ -836,11 +844,11 @@
               href: pro/sales/confirm-contract-sales.md
             - name: 预付款和保留款
               items:
-                - name: 基于预付款和保留款的合同 - 精简
+                - name: 预付款和保留款合同
                   href: pro/sales/set-up-advances-retainer-based-contracts-sales.md
-                - name: 设置保留款计划 - 精简
+                - name: 设置保留款计划 设置保留款计划
                   href: pro/sales/set-up-schedule-retainers-sales.md
-                - name: 在合同中创建临时预付款 - 精简
+                - name: 在项目合同中创建临时预付款
                   href: pro/sales/create-ad-hoc-advance-sales.md
     - name: 定价和成本核算
       items:
@@ -1188,10 +1196,12 @@
               href: whats-new/ur5-nonstocked-installation.md
     - name: 新增功能
       items:
-        - name: 2022 年 9 月新增功能 - 适用于库存/生产场景的 Project Operations
-          href: prod-pma/whats-new/whats-new-sept-2022-stocked.md
+        - name: 2022 年 10 月新增功能 - 适用于库存/生产订单场景的 Project Operations
+          href: prod-pma/whats-new/whats-new-oct-2022-stocked.md
         - name: 存档
           items:
+            - name: 2022 年 9 月新增功能 - 适用于库存/生产场景的 Project Operations
+              href: prod-pma/whats-new/whats-new-sept-2022-stocked.md
             - name: 2022 年 7 月新增功能 - 适用于库存/生产场景的 Project Operations
               href: prod-pma/whats-new/whats-new-jul-2022-stocked.md
             - name: 2022 年 6 月新增功能 - 适用于库存/生产场景的 Project Operations
@@ -1216,8 +1226,12 @@
               href: prod-pma/whats-new/whats-new-nov-2020-production-based.md
     - name: 适用于库存/生产订单场景的 Project Operations 部署概述
       href: prod-pma/project-operations-prod-order-deployment-overview.md
-    - name: 项目管理与核算概述
-      href: prod-pma/overview-project-management-accounting.md
+    - name: 项目会计
+      items:
+        - name: 项目管理与会计概述
+          href: prod-pma/overview-project-management-accounting.md
+        - name: 项目调整
+          href: project-accounting/project-adjustments.md
     - name: 项目销售流程
       items:
         - name: 项目报价单
