@@ -1,5 +1,5 @@
 ---
-title: 关闭报价单 - 精简
+title: 关闭项目报价单
 description: 本文提供有关在 Project Operations 中结束报价单的信息。
 author: rumant
 ms.date: 10/01/2020
@@ -7,14 +7,14 @@ ms.topic: article
 ms.prod: ''
 ms.reviewer: johnmichalak
 ms.author: rumant
-ms.openlocfilehash: e3a199843f379dc53d63372f91e8be2e1bcbf4e9
-ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
+ms.openlocfilehash: 4335fa5467640af840c0f68a648c9b8a6864d834
+ms.sourcegitcommit: e0cbbe7c6f03d4978134405cf04bd8bc1d019f65
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8916921"
+ms.lasthandoff: 12/05/2022
+ms.locfileid: "9826164"
 ---
-# <a name="close-a-quote---lite"></a>关闭报价单 - 精简
+# <a name="close-project-quotes"></a>关闭项目报价单
 
 _**适用于：** 精简部署 - 估价交易开票_
 
@@ -30,7 +30,7 @@ _**适用于：** 精简部署 - 估价交易开票_
 
 如果项目上有任何时间实际值仍附加在草稿报价单上，将仅记录时间或支出成本。 当报价单作为赢单结束后，应用程序将通过冲销较旧成本实际值并重新创建新成本实际值来重构成本。 应用程序将根据关联项目合同子项的计费方法处理这些成本实际值。 如果成本实际值引用时间和物料合同子项，则会针对报价单结束和项目合同创建的情况创建相应的未记帐实际销售额。 如果成本实际值引用固定价格合同子项，应用程序将停止重新处理基于项目合同客户的已拆分记帐规则的成本实际值。
 
-## <a name="closing-a-quote-as-lost"></a>作为丢单结束报价单：
+## <a name="closing-a-quote-as-lost"></a>作为丢单结束报价单
 
 当您作为丢单结束项目报价单时，状态将设置为“已结束”，状态描述为“丢单”。 结束报价单会使项目报价单成为只读。 由于无法重新开启已结束的报价单，因此在结束报价单之前，会有一个确认对话框确认您的更改。
 

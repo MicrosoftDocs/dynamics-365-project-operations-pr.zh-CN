@@ -1,19 +1,19 @@
 ---
-title: 管理项目合同上的多个客户
-description: 本文提供有关如何在项目合同中管理多个客户的信息。
+title: 管理基于项目的合同上的多个客户
+description: 本文提供有关如何在基于项目的合同中管理多个客户的信息。
 author: rumant
 ms.date: 11/18/2020
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: rumant
-ms.openlocfilehash: 78ee117c1068e7af4674cc3b21e1055fd05bb43a
-ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
+ms.openlocfilehash: 1aae178830d7b671c33295ca6d2910ee4be2f8dd
+ms.sourcegitcommit: e0cbbe7c6f03d4978134405cf04bd8bc1d019f65
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8928329"
+ms.lasthandoff: 12/05/2022
+ms.locfileid: "9825367"
 ---
-# <a name="manage-multiple-customers-on-project-contracts"></a>管理项目合同上的多个客户
+# <a name="manage-multiple-customers-on-project-based-contracts"></a>管理基于项目的合同上的多个客户
 
 本文提供有关如何在项目合同中管理多个客户的信息。 当需要多个客户的合同协议来资助交易时，可以使用项目合同。 在 **项目合同** 页上，**摘要** 选项卡包含有关交易的主要客户的信息。 可以将参与交易的其他客户添加到 **客户** 选项卡中。
 

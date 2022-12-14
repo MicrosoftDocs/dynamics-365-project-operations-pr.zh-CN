@@ -1,17 +1,17 @@
 ---
-title: 项目合同设置
-description: 本文提供有关影响合同子项的字段的信息以及汇总到所有合同子项项目的合同的信息。
+title: 针对基于项目的合同的标题详细信息
+description: 本文提供有关字段的信息和有关 Project Operations 中基于项目的合同的信息。
 author: rumant
 ms.date: 10/20/2020
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: rumant
-ms.openlocfilehash: 1c3317eb36a98e14074fb504cfac5ff6e25fa3a0
-ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
+ms.openlocfilehash: 5839a812dbb3a61fcf271ae6e80e22bfe61f7e14
+ms.sourcegitcommit: e0cbbe7c6f03d4978134405cf04bd8bc1d019f65
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8921567"
+ms.lasthandoff: 12/05/2022
+ms.locfileid: "9824289"
 ---
 # <a name="header-details-for-project-based-contracts"></a>针对基于项目的合同的标题详细信息
 

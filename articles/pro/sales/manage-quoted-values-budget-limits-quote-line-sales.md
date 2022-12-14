@@ -1,19 +1,19 @@
 ---
-title: 基于项目的报价单明细概述
+title: 项目报价单明细概述
 description: 本文提供有关使用基于项目的报价单明细进行项目工作的信息。
 author: rumant
 ms.date: 03/30/2021
 ms.topic: overview
 ms.reviewer: johnmichalak
 ms.author: rumant
-ms.openlocfilehash: 90c5affa25b113476e43f0bbbadd5c9615f9c05c
-ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
+ms.openlocfilehash: e6a67b5c37508085c9ec3d8385eaa6828536de00
+ms.sourcegitcommit: e0cbbe7c6f03d4978134405cf04bd8bc1d019f65
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8934447"
+ms.lasthandoff: 12/05/2022
+ms.locfileid: "9825647"
 ---
-# <a name="project-based-quote-lines-overview"></a>基于项目的报价单明细概述 
+# <a name="project-quote-lines-overview"></a>项目报价单明细概述 
 
 _**适用于：** 精简部署 - 估价交易开单，基于资源/非库存场景的 Project Operations_
 

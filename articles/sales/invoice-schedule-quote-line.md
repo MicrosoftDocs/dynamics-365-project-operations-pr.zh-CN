@@ -1,27 +1,27 @@
 ---
-title: 基于项目的报价单明细上的发票计划
+title: 项目报价单明细上的发票计划
 description: 本文提供有关为报价单明细创建发票计划和里程碑的信息。
 author: rumant
 ms.date: 10/01/2020
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: rumant
-ms.openlocfilehash: b1e431bc3586f9fef7a01348555e4ee4e06cc66c
-ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
+ms.openlocfilehash: 98006cc2857f01298054c4f0e70781bf4b8b474b
+ms.sourcegitcommit: e0cbbe7c6f03d4978134405cf04bd8bc1d019f65
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8918301"
+ms.lasthandoff: 12/05/2022
+ms.locfileid: "9825741"
 ---
-# <a name="invoice-schedules-on-project-based-quote-lines"></a>基于项目的报价单明细上的发票计划
+# <a name="invoice-schedules-on-project-quote-lines"></a>项目报价单明细上的发票计划
 
 _**适用于：** 基于资源/非库存场景的 Project Operations，精简部署 - 估价开票交易_
 
-基于项目的报价单明细提供表示发票计划的功能。 这在报价单阶段是可选的，因为当应用程序绑定到报价单明细后，不支持为项目开票。 仅在报价单赢单后允许开票。 在报价单阶段创建发票计划的唯一下游影响是会将此发票计划复制到基于项目的合同子项中。 如果您在报价单阶段未创建发票计划，则可以在基于项目的报价单明细中创建。
+项目报价单明细提供表示发票计划的功能。 这在报价单阶段是可选的，因为当应用程序绑定到报价单明细后，不支持为项目开票。 仅在报价单赢单后允许开票。 在报价单阶段创建发票计划的唯一下游影响是会将此发票计划复制到基于项目的合同子项中。 如果您在报价单阶段未创建发票计划，则可以在基于项目的报价单明细中创建。
 
 总体而言，发票计划的目的是允许为基于项目的合同子项自动创建发票草稿。 
 
-## <a name="create-a-time-and-material-invoice-schedule-for-a-project-based-quote-line"></a>为基于项目的报价单明细创建时间和材料发票计划
+## <a name="create-a-time-and-material-invoice-schedule-for-a-project-quote-line"></a>项目报价单明细创建时间和材料发票计划
 
 当基于项目的报价单明细的计费方法为“时间和材料”时，系统将生成基于日期的发票计划。 若要自动生成基于日期的发票计划，请完成以下步骤。
 
@@ -36,7 +36,7 @@ _**适用于：** 基于资源/非库存场景的 Project Operations，精简部
     - **交易截止日期** 设置为 **发票运行日期** 之前的一天。
     - **运行状态** 自动设置为 **未运行**。 当自动发票创建作业在某个发票运行日期运行时，它会将此字段更新为 **运行成功** 或 **运行失败**。
 
-## <a name="create-a-fixed-price-invoice-schedule-for-a-project-based-quote-line"></a>为基于项目的报价单明细创建固定价格发票计划
+## <a name="create-a-fixed-price-invoice-schedule-for-a-project-quote-line"></a>为项目报价单明细创建固定价格发票计划
 
 当基于项目的报价单明细具有 **固定** 计费方法时，系统将创建基于里程碑的发票计划。 完成以下步骤，自动为日历期间内平均分配的一组固定里程碑自动生成此计划。
 

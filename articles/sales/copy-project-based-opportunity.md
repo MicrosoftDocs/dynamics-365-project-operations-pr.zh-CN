@@ -1,19 +1,19 @@
 ---
-title: 复制基于项目的商机
+title: 复制项目商机
 description: 本文提供有关在 Project Operations 中复制基于项目的商机的信息。
 author: rumant
 ms.date: 10/09/2020
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: rumant
-ms.openlocfilehash: cc772391de97f4b2de6e9e29f97a6af4d5514319
-ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
+ms.openlocfilehash: 0fe29918e14a944de7277639f752ad53513a7589
+ms.sourcegitcommit: e0cbbe7c6f03d4978134405cf04bd8bc1d019f65
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8926121"
+ms.lasthandoff: 12/05/2022
+ms.locfileid: "9826117"
 ---
-# <a name="copy-project-based-opportunities"></a>复制基于项目的商机
+# <a name="copy-project-opportunities"></a>复制项目商机
 
 _**适用于：** 基于资源/非库存场景的 Project Operations，精简部署 - 估价开票交易_
 

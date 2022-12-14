@@ -1,31 +1,29 @@
 ---
-title: 管理潜在顾客
+title: 管理基于项目的潜在顾客
 description: 本文提供有关管理基于项目的潜在顾客的信息。
 author: rumant
 ms.date: 10/01/2020
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: rumant
-ms.openlocfilehash: 080f53ee2f800b8433d055525852f5c2e21aab77
-ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
+ms.openlocfilehash: 2e1ea2ade5302427c02b271cd5d595206b137bd7
+ms.sourcegitcommit: e0cbbe7c6f03d4978134405cf04bd8bc1d019f65
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8920187"
+ms.lasthandoff: 12/05/2022
+ms.locfileid: "9825788"
 ---
-# <a name="manage-leads"></a>管理潜在顾客
+# <a name="manage-project-based-leads"></a>管理基于项目的潜在顾客
 
 _**适用于：** 面向资源/非库存场景的 Project Operations_
 
 基于项目的潜在顾客可以在 Project Operations 中管理和授予资格。 潜在顾客管理的流程包括创建基于工作的潜在顾客并为这些潜在顾客授予资格。 
 
-## <a name="project-sales-leads"></a>项目销售潜在顾客
-
 在左侧导航窗格的 **销售** 部分，打开 **潜在顾客** 列表页查看系统中所有潜在顾客记录的列表。 如果您还有 Dynamics 365 Sales 或 Dynamics 365 Field Service 应用程序，显示的潜在顾客列表将是基于工作的潜在顾客以及可以创建的其他类型的潜在顾客。
 
 您可以通过在 **类型** 值上创建筛选器来创建筛选视图，以仅查看基于项目的潜在顾客。 例如，您可以选择仅显示基于工作的潜在顾客。
 
-## <a name="create-a-new-lead-for-a-project-based-deal"></a>为基于项目的交易创建新潜在顾客
+## <a name="create-a-new-project-based-lead"></a>创建新的基于项目的潜在顾客 
 
 当基于项目的潜在顾客被授予资格时，将创建商机和客户。 基于项目的商机是商机阶段中销售追踪活动的起点。 基于项目的商机具有销售项目工作所需的独有功能。 这些功能包括：
 

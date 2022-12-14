@@ -1,19 +1,19 @@
 ---
-title: 将项目估算导入到基于项目的报价单明细 - 精简
-description: 本文提供有关如何将估算从项目导入报价单明细的信息。
+title: 将项目估算导入到项目报价单明细
+description: 本文提供有关如何将估算从项目导入项目报价单明细的信息。
 author: rumant
 ms.date: 10/09/2020
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: rumant
-ms.openlocfilehash: 820d858fecf70e50a9ce8943db706ff6cac29992
-ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
+ms.openlocfilehash: 61c9660f18882d12a7da8965c23b65e408256219
+ms.sourcegitcommit: e0cbbe7c6f03d4978134405cf04bd8bc1d019f65
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8917289"
+ms.lasthandoff: 12/05/2022
+ms.locfileid: "9824475"
 ---
-# <a name="import-estimates-for-a-project-to-a-project-based-quote-line"></a>将项目估算导入到基于项目的报价单明细 
+# <a name="import-estimates-from-a-project-to-a-project-quote-line"></a>将项目估算导入到项目报价单明细 
 
 _**适用于：** 精简部署 - 估价交易开单，基于资源/非库存场景的 Project Operations_
 

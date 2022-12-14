@@ -1,19 +1,19 @@
 ---
-title: 在合同中创建临时预付款
+title: 在项目合同中创建临时预付款
 description: 本文提供有关根据需要在合同中创建预付款的信息。
 author: rumant
 ms.date: 10/26/2020
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: rumant
-ms.openlocfilehash: 3e450a17990c6fc783ddffdb05e1ab5b9429a3c1
-ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
+ms.openlocfilehash: 62e41e5faeb5e40143e26e2cdf48c1279941a6b4
+ms.sourcegitcommit: e0cbbe7c6f03d4978134405cf04bd8bc1d019f65
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8922165"
+ms.lasthandoff: 12/05/2022
+ms.locfileid: "9824833"
 ---
-# <a name="creating-an-ad-hoc-advance-on-a-contract"></a>在合同中创建临时预付款
+# <a name="create-an-ad-hoc-advance-on-a-project-contract"></a>在项目合同中创建临时预付款
 
 _**适用于：** 基于资源/非库存场景的 Project Operations，精简部署 - 估价开票交易_
 

@@ -1,19 +1,19 @@
 ---
-title: 基于项目的合同子项概述
-description: 本文提供有关处理基于项目的合同子项的信息。
+title: 项目合同子项概述
+description: 本文提供有关在 Project Operations 中使用项目合同子项的信息。
 author: rumant
 ms.date: 10/28/2020
 ms.topic: overview
 ms.reviewer: johnmichalak
 ms.author: rumant
-ms.openlocfilehash: d32edac6537a4b0f51e9d2f72cb4a7342606d2c5
-ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
+ms.openlocfilehash: f5a529233692a39b0674417cd4ea225e40243086
+ms.sourcegitcommit: e0cbbe7c6f03d4978134405cf04bd8bc1d019f65
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8931411"
+ms.lasthandoff: 12/05/2022
+ms.locfileid: "9824615"
 ---
-# <a name="project-based-contract-lines-overview"></a>基于项目的合同子项概述
+# <a name="project-contract-lines-overview"></a>项目合同子项概述
 
 _**适用于：** 基于资源/非库存场景的 Project Operations，精简部署 - 估价开票交易_
 

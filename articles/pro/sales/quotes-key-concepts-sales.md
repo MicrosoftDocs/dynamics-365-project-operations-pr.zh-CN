@@ -1,17 +1,17 @@
 ---
-title: 报价单 - 关键概念 - 精简
+title: 项目报价单所特有的概念
 description: 本文提供有关在 Project Operations 中使用项目报价单的信息。
 author: rumant
 ms.date: 10/01/2020
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: rumant
-ms.openlocfilehash: a8c2f009b7a0bebbf6a49bf942dd19f97205072e
-ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
+ms.openlocfilehash: 7f0a33f1d7d77f3b5aebfdcf8e6aeb14072cd596
+ms.sourcegitcommit: e0cbbe7c6f03d4978134405cf04bd8bc1d019f65
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8916967"
+ms.lasthandoff: 12/05/2022
+ms.locfileid: "9825882"
 ---
 # <a name="concepts-unique-to-project-quotes"></a>项目报价单所特有的概念
 
@@ -82,9 +82,13 @@ Project Operations 支持四种交易类：
 
 Project Operations 报价单基于 Dynamics 365 Sales 报价单构建。 但是，应注意一些重要的功能差异：
 
-- 不支持 **修订** 和 **激活** 操作。
+
 - Project Operations 报价单有两种不同类型的明细。 一种用于项目，另一种用于产品。
 - Project Operations 报价单具有自己的窗体和 UI 元素、业务规则、插件中的业务逻辑以及客户端脚本，这些让它们区别于 Sales 报价单。
+- 销售报价单允许您向一个销售报价单附加多个订单。 在 Project Operations 中，只能向一个项目报价单附加一个项目合同。
+- 当您赢得销售报价单时，相关商机可以保持打开状态。 项目报价单赢单后将结束相关商机。
+- 销售报价单中不包含项目报价单中包含的一些字段和概念。 这些字段包括 **合同签订部门**、**客户经理** 和 **帐单邮寄地址联系人姓名**。  
+- **类型**：还可以通过基于选项集的字段 **类型** 来识别销售报价单和项目报价单。 对于销售报价单，此字段的值为 **基于物料**。 对于项目报价单，其值为 **基于工作**。
 
 由于这些原因，建议不要交替使用 Sales 报价单和 Project Operations 报价单。
 

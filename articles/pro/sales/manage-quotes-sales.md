@@ -6,12 +6,12 @@ ms.date: 10/26/2020
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: rumant
-ms.openlocfilehash: b9dad9ab9b6cef11ad337f9c3f536fe467b6a347
-ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
+ms.openlocfilehash: 79da23d83133241204eaad44e39e64c5c6a1591d
+ms.sourcegitcommit: e0cbbe7c6f03d4978134405cf04bd8bc1d019f65
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8911631"
+ms.lasthandoff: 12/05/2022
+ms.locfileid: "9826070"
 ---
 # <a name="manage-project-quotes"></a>管理项目报价单
 
@@ -23,7 +23,7 @@ _**适用于：** 基于资源/非库存场景的 Project Operations，精简部
   - 标识和估计每个高级组件或报价单明细的工作的报价单明细详细信息。 与报价单明细关联的工作的计划或日期估计和财务方面信息。
   - 为每个报价单明细设置合同签订模型和应计费组件。 此设置帮助估计每个报价单明细和整个报价单的收入、花费和利润率的传播。
 
-## <a name="view-all-project-based-quotes"></a>查看所有基于项目的报价单
+## <a name="view-all-project-quotes"></a>查看所有项目报价单
 
 可以从 **报价单** 列表页查看所有项目报价单的列表。 
 

@@ -1,23 +1,23 @@
 ---
-title: 管理基于项目的报价单明细上的多个客户 - 精简
-description: 本文介绍如何管理基于项目的报价单明细上的多个客户。
+title: 管理项目报价单明细上的多个客户
+description: 本文介绍如何管理项目报价单明细上的多个客户。
 author: rumant
 ms.date: 10/06/2020
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: rumant
-ms.openlocfilehash: fbd0c17de3de8dc4cd84860851fb5837b86586cd
-ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
+ms.openlocfilehash: 70007499ea61e7d81df071cc6d003896d721555b
+ms.sourcegitcommit: e0cbbe7c6f03d4978134405cf04bd8bc1d019f65
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8927777"
+ms.lasthandoff: 12/05/2022
+ms.locfileid: "9824427"
 ---
-# <a name="manage-multiple-customers-on-project-based-quote-lines---lite"></a>管理基于项目的报价单明细上的多个客户 - 精简
+# <a name="manage-multiple-customers-on-project-quote-lines"></a>管理项目报价单明细上的多个客户
 
 _**适用于：** 精简部署 - 估价交易开票_
 
-基于项目的报价单明细支持以下场景：每个报价单明细都有为报价单付款的客户列表。 基于项目的报价单明细上的这个客户列表可以与报价单上的客户列表相同。 您还可以将客户列表更改为不同的客户列表。 当项目报价单赢单时，基于项目的报价单明细上的客户列表将被复制到相应的基于项目的合同子项中，以创建最终的项目合同。 基于项目的报价单上的客户将被复制到项目合同中。
+项目报价单明细支持以下场景：每个报价单明细都有为报价单付款的客户列表。 基于项目的报价单明细上的这个客户列表可以与报价单上的客户列表相同。 您还可以将客户列表更改为不同的客户列表。 当项目报价单赢单时，基于项目的报价单明细上的客户列表将被复制到相应的基于项目的合同子项中，以创建最终的项目合同。 基于项目的报价单上的客户将被复制到项目合同中。
 
 为最终项目合同开票时，基于项目的合同子项上的客户列表优先于项目合同上的列表。 项目合同上的客户列表仅用于新项目合同子项中的默认值。
 

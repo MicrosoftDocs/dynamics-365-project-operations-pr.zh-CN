@@ -1,23 +1,23 @@
 ---
-title: 管理项目报价单上的多个客户
+title: 管理基于项目的报价单上的多个客户
 description: 本文提供处理涉及将为项目提供资金的多个客户的报价单的信息。
 author: rumant
 ms.date: 10/01/2020
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: rumant
-ms.openlocfilehash: 16cd07527fddd093748a18c1f7c900c8b32be85d
-ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
+ms.openlocfilehash: 7b9c82ababdb9a588a0d28cae60a49d0594378d9
+ms.sourcegitcommit: e0cbbe7c6f03d4978134405cf04bd8bc1d019f65
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8928191"
+ms.lasthandoff: 12/05/2022
+ms.locfileid: "9825137"
 ---
-# <a name="manage-multiple-customers-on-a-project-quote"></a>管理项目报价单上的多个客户
+# <a name="manage-multiple-customers-on-a-project-based-quote"></a>管理基于项目的报价单上的多个客户
 
-_**适用于：** 基于资源/非库存场景的 Project Operations，精简部署 - 估价开票交易_
+_**适用于：** 面向资源/非库存场景的 Project Operations_
 
-项目报价单支持方案涉及多个将为交易提供资金的客户的场景。 报价单的 **摘要** 选项卡具有 **潜在客户** 字段，此字段标识交易的主要客户。 交易的其他客户可以在项目报价单的 **客户** 选项卡上设置。
+基于项目的报价单支持方案涉及多个将为交易提供资金的客户的场景。 报价单的 **摘要** 选项卡具有 **潜在客户** 字段，此字段标识交易的主要客户。 交易的其他客户可以在项目报价单的 **客户** 选项卡上设置。
 
 项目报价单的 **客户** 选项卡上的所有报价单客户默认为为报价单创建的任何 **新** 的基于项目的报价单明细上的报价单明细客户。 任何现有的基于项目的报价单明细都不会继承在它们之后创建的新报价单客户记录。
 

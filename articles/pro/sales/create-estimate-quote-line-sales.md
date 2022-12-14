@@ -1,21 +1,21 @@
 ---
-title: 预估基于项目的报价单明细
-description: 本文提供有关如何在基于项目的报价单明细上创建估算的信息。
+title: 预估项目报价单明细
+description: 本文提供有关如何在项目报价单明细上创建估算的信息。
 author: rumant
 ms.date: 04/01/2021
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: rumant
-ms.openlocfilehash: 2a8aa2971431cd1f2082c8fc80db1438be185f5b
-ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
+ms.openlocfilehash: bac3a3fa2d14c857edfb469a005406c346c8dbf6
+ms.sourcegitcommit: e0cbbe7c6f03d4978134405cf04bd8bc1d019f65
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8914345"
+ms.lasthandoff: 12/05/2022
+ms.locfileid: "9825976"
 ---
-# <a name="estimating-a-project-based-quote-line"></a>预估基于项目的报价单明细
+# <a name="estimate-a-project-quote-line"></a>预估项目报价单明细
 
-_**适用于：** 精简部署 - 估价交易开票_
+_**适用于：** 精简部署 - 估价交易开单，基于资源/非库存场景的 Project Operations_
 
 基于项目的报价单明细包含的详细信息可以帮助预估交付报价单明细所涉及工作的成本和潜在收入。
 
@@ -24,7 +24,7 @@ _**适用于：** 精简部署 - 估价交易开票_
 - 使用报价单明细详细信息直接在报价单明细上手动创建预估。 
 - 创建项目和项目计划，然后将项目和项目中的任务与报价单明细关联。 将启用根据您提供的信息将项目中的预估导入报价单明细的流程。
 
-## <a name="create-estimates-directly-on-a-project-based-quote-line"></a>直接在基于项目的报价单明细上创建预估
+## <a name="create-estimates-directly-on-a-project-quote-line"></a>直接在项目报价单明细上创建预估
 
 要在基于项目的报价单明细上创建预估，请选择 **报价单明细详细信息** 选项卡。您在此选项卡上创建的明细项目将为此报价单明细汇总报价值。 
 
@@ -68,8 +68,7 @@ _**适用于：** 精简部署 - 估价交易开票_
 
 利润率计算将成本和销售的报价单明细详细信息中的金额转换为环境的基础货币，以报告报价单上的总预估利润。
 
-> [!备注
-> > 可能会由于缺少有时效性的汇率，出现货币舍入错误和利润变化。 这些计算只用于项目合同，因为这些是近似值，不适用于需要更高舍入精度并感知汇率日期有效性的实际法定报告或其他报告。
+> [!注意：可能会由于缺少有时效性的汇率，出现货币舍入错误和利润变化。 这些计算只用于项目合同，因为这些是近似值，不适用于需要更高舍入精度并感知汇率日期有效性的实际法定报告或其他报告。
 
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

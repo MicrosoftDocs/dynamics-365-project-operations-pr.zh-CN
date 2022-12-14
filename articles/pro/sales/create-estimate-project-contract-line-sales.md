@@ -1,32 +1,32 @@
 ---
-title: 估算基于项目的合同子项 - 精简
+title: 预估项目合同子项
 description: 本文提供有关估算基于项目的合同子项的信息。
 author: rumant
 ms.date: 03/30/2021
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: rumant
-ms.openlocfilehash: 8b4379cc5822d08b55623f0f3d4d49791af90927
-ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
+ms.openlocfilehash: 86872aa58067f55243fa19dc865971f76660f594
+ms.sourcegitcommit: e0cbbe7c6f03d4978134405cf04bd8bc1d019f65
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8914391"
+ms.lasthandoff: 12/05/2022
+ms.locfileid: "9824756"
 ---
-# <a name="estimate-a-projectbased-contract-line---lite"></a>估算基于项目的合同子项 - 精简
+# <a name="estimate-a-project-contract-line"></a>预估项目合同子项
 
 _**适用于：** 精简部署 - 估价交易开票_
 
-在 Dynamics 365 Project Operations 中，基于项目的合同子项具有详细信息，帮助估算交付合同子项所涉及的工作的成本和潜在收入。
+在 Dynamics 365 Project Operations 中，项目合同子项具有详细信息，帮助估算交付合同子项所涉及的工作的成本和潜在收入。
 
-若要估算基于项目的合同子项，请转到基于项目的 **合同子项** 上的 **合同子项详细信息** 选项卡。  可通过以下两种方法在基于项目的合同子项上创建估算：
+若要估算项目合同子项，请转到基于项目的 **合同子项** 上的 **合同子项详细信息** 选项卡。  可通过以下两种方法在基于项目的合同子项上创建估算：
 
    - 通过手动添加合同子项详细信息，直接在合同子项上创建估算。
    - 创建项目和项目计划，然后将项目和任务关联到项目的合同子项。 这样，您可以根据合同子项中包含的组件将项目计划估算导入合同子项。
 
 ## <a name="create-an-estimation-directly-on-a-projectbased-contract-line"></a>直接在基于项目的合同子项上创建估算
 
-要直接根据基于项目的合同子项创建估算，请按照以下步骤操作：
+要直接根据项目合同子项创建估算，请按照以下步骤操作：
 
 1. 转到合同子项，选择 **合同子项详细信息** 选项卡。在此选项卡上创建的合同子项将汇总，显示为此 **合同子项** 的 **合同值**。 
 2. 在 **合同子项详细信息** 子网格中，选择 **新建合同子项详细信息**。 一个快速创建滑块将打开。 以下字段可用于 **合同子项详细信息** 页。

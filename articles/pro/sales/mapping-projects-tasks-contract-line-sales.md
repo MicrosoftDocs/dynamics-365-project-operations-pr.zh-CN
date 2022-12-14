@@ -1,23 +1,23 @@
 ---
-title: 将项目和任务映射到基于项目的合同子项 - 精简
+title: 将项目和任务映射到项目合同子项
 description: 本文提供有关向合同子项添加和删除项目和任务的信息。
 author: rumant
 ms.date: 10/27/2020
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: rumant
-ms.openlocfilehash: c8075e3161acd904969f964e5ab32dfe04edc4b6
-ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
+ms.openlocfilehash: 45118bb5a36203a3121a5f7ada0992d2c2491a4a
+ms.sourcegitcommit: e0cbbe7c6f03d4978134405cf04bd8bc1d019f65
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8932515"
+ms.lasthandoff: 12/05/2022
+ms.locfileid: "9825047"
 ---
-# <a name="map-projects-and-tasks-to-a-project-based-contract-line"></a>将项目和任务映射到基于项目的合同子项 
+# <a name="map-projects-and-tasks-to-a-project-contract-line"></a>将项目和任务映射到项目合同子项 
 
 _**适用于：** 精简部署 - 估价交易开单，基于资源/非库存场景的 Project Operations_
 
-在基于项目的合同子项上，您可以将项目中的特定任务映射到合同子项。
+在项目合同子项上，您可以将项目中的特定任务映射到合同子项。
 
 当您将特定任务映射到合同子项时，合同子项中定义的计费方法、应计费选项、上限以及客户仅适用于这些特定任务。
 
@@ -25,7 +25,7 @@ _**适用于：** 精简部署 - 估价交易开单，基于资源/非库存场�
 
 您的项目工作分解结构 (WBS) 中的所有其他阶段都可以与基于时间和材料的合同子项相关联。
 
-## <a name="associate-tasks-to-project-based-contract-lines"></a>将任务与基于项目的合同子项关联
+## <a name="associate-tasks-to-project-contract-lines"></a>将任务与项目合同子项关联
 
 任务可以从 **合同子项** 页上的 **应计费任务** 选项卡或 **项目** 页上的 **任务计费** 选项卡与合同子项关联。
 
