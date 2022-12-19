@@ -844,9 +844,9 @@
               href: pro/sales/confirm-contract-sales.md
             - name: 预付款和保留款
               items:
-                - name: 预付款和保留款合同
+                - name: 基于预付款和保留款的合同
                   href: pro/sales/set-up-advances-retainer-based-contracts-sales.md
-                - name: 设置保留款计划 设置保留款计划
+                - name: 设置保留款计划
                   href: pro/sales/set-up-schedule-retainers-sales.md
                 - name: 在项目合同中创建临时预付款
                   href: pro/sales/create-ad-hoc-advance-sales.md
